@@ -19,6 +19,22 @@ export interface SettingsFormValues {
 }
 
 const initialState: SettingsActionState = { error: null, success: null };
+
+// Applying the new theme is done here, immediately on click, rather than
+// waiting for the server action + revalidation to re-render the root
+// layout: Next.js doesn't reliably re-apply attributes on the already-
+// mounted <html> element after a server-action-triggered refresh, so
+// without this, picking Light/System visually did nothing until a full
+// page reload.
+function applyThemeImmediately(pref: AppTheme) {
+  const root = document.documentElement;
+  root.setAttribute("data-theme-pref", pref);
+  if (pref === "system") {
+    root.classList.toggle("dark", window.matchMedia("(prefers-color-scheme: dark)").matches);
+  } else {
+    root.classList.toggle("dark", pref === "dark");
+  }
+}
 // German isn't offered here — it's the base language of the questions
 // themselves, so "translate into German" / "explain in German by default"
 // isn't a meaningful preference. The per-question explanation panel still
@@ -83,7 +99,13 @@ export function SettingsForm({ initial }: { initial: SettingsFormValues }) {
         <div className="flex gap-2">
           {themes.map((t) => (
             <label key={t.value} className="flex items-center gap-2 rounded-md border border-border px-3 py-2 text-sm">
-              <input type="radio" name="theme" value={t.value} defaultChecked={initial.theme === t.value} />
+              <input
+                type="radio"
+                name="theme"
+                value={t.value}
+                defaultChecked={initial.theme === t.value}
+                onChange={() => applyThemeImmediately(t.value)}
+              />
               {t.label}
             </label>
           ))}

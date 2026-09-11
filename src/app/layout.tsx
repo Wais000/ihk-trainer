@@ -24,10 +24,12 @@ export const metadata: Metadata = {
 // keeps following OS changes while the tab stays open.
 const THEME_SCRIPT = `
 (function () {
-  var pref = document.documentElement.getAttribute("data-theme-pref");
   var media = window.matchMedia("(prefers-color-scheme: dark)");
   function apply() {
-    if (pref === "system") {
+    // Read the attribute fresh each time (not captured once at load) so
+    // this keeps working correctly after Settings changes it client-side
+    // without a full page reload.
+    if (document.documentElement.getAttribute("data-theme-pref") === "system") {
       document.documentElement.classList.toggle("dark", media.matches);
     }
   }
