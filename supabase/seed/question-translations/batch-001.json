@@ -1,0 +1,177 @@
+[
+  {
+    "id": "46651584-70ae-4726-9ea9-47e9d8ce2966",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Organisation schützt einen rein papiergebundenen Vertragsbestand, der nie elektronisch verarbeitet wird. Welcher Sicherheitsbereich ist dafür unmittelbar relevant?",
+    "en": "In a workshop on security fundamentals, the following exam question arises: An organization protects a purely paper-based collection of contracts that is never processed electronically. Which security domain is directly relevant to this?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، سوال امتحانی زیر مطرح می‌شود: یک سازمان مجموعه‌ای از قراردادهای صرفاً کاغذی را محافظت می‌کند که هرگز به صورت الکترونیکی پردازش نمی‌شود. کدام حوزه امنیتی مستقیماً به این موضوع مربوط است؟",
+    "he": "בסדנה בנושא יסודות אבטחה עולה שאלת הבחינה הבאה: ארגון מגן על מאגר חוזים המבוסס על נייר בלבד, שלעולם אינו מעובד באופן אלקטרוני. איזה תחום אבטחה רלוונטי לכך באופן ישיר?"
+  },
+  {
+    "id": "d17a0633-5e38-4535-b765-7043d0604aea",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Tätergruppe kann eine ungepatchte Schwachstelle eines öffentlich erreichbaren Servers ausnutzen. Welche Aussage bildet die Begriffe fachlich am genauesten ab?",
+    "en": "In a workshop on security fundamentals, the following exam question arises: A group of perpetrators can exploit an unpatched vulnerability of a publicly accessible server. Which statement most accurately represents the terms from a technical perspective?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، سوال امتحانی زیر مطرح می‌شود: یک گروه از مهاجمان می‌تواند از یک آسیب‌پذیری وصله‌نشده در یک سرور در دسترس عموم سوءاستفاده کند. کدام گزینه این مفاهیم را از نظر فنی دقیق‌تر بیان می‌کند؟",
+    "he": "בסדנה בנושא יסודות אבטחה עולה שאלת הבחינה הבאה: קבוצת תוקפים יכולה לנצל פגיעות שלא תוקנה בשרת הנגיש לציבור. איזו קביעה משקפת את המונחים בצורה המדויקת ביותר מבחינה מקצועית?"
+  },
+  {
+    "id": "932da3b6-b071-4d4a-b836-2bf6613797f7",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen bespricht das zuständige Team folgenden Fall: Ein freigegebener Überweisungsdatensatz bleibt jederzeit verfügbar und nur für Berechtigte lesbar, wird aber unbemerkt verändert. Welches Schutzziel ist primär betroffen?",
+    "en": "In a workshop on security fundamentals, the responsible team discusses the following case: An approved transfer data record remains available at all times and readable only by authorized persons, but is altered without being noticed. Which protection goal is primarily affected?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، تیم مسئول مورد زیر را بررسی می‌کند: یک رکورد داده حواله تأییدشده همیشه در دسترس باقی می‌ماند و فقط برای افراد مجاز قابل خواندن است، اما بدون اینکه متوجه شوند تغییر می‌کند. کدام هدف حفاظتی در درجه اول تحت تأثیر قرار می‌گیرد؟",
+    "he": "בסדנה בנושא יסודות אבטחה הצוות האחראי דן במקרה הבא: רשומת העברה מאושרת נותרת זמינה בכל עת וניתנת לקריאה רק על ידי מורשים, אך משתנה מבלי שהדבר מתגלה. איזו מטרת הגנה נפגעת בעיקר?"
+  },
+  {
+    "id": "08325ef3-a57e-4481-879e-27f4c521b4c5",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Welche Aussage beschreibt das Verhältnis von Sicherheit und Schutz am sinnvollsten?",
+    "en": "In a workshop on security fundamentals, the following decision is to be made: Which statement most sensibly describes the relationship between security and protection?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، باید تصمیم زیر گرفته شود: کدام گزینه رابطه میان امنیت و حفاظت را به بهترین شکل توصیف می‌کند؟",
+    "he": "בסדנה בנושא יסודות אבטחה יש לקבל את ההחלטה הבאה: איזו קביעה מתארת בצורה ההגיונית ביותר את היחס בין אבטחה להגנה?"
+  },
+  {
+    "id": "b5300dda-211e-4cee-9b81-fac3b7bb9bd3",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Ein ungepatchter Laptop wird ausgeschaltet in einem gesicherten Tresor gelagert. Welche Aussage ordnet Schwachstelle und Risiko am genauesten ein?",
+    "en": "In a workshop on security fundamentals, the following decision is to be made: An unpatched laptop is switched off and stored in a secured safe. Which statement most accurately classifies vulnerability and risk?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، باید تصمیم زیر گرفته شود: یک لپ‌تاپ وصله‌نشده خاموش شده و در یک گاوصندوق ایمن نگهداری می‌شود. کدام گزینه آسیب‌پذیری و ریسک را به‌درستی طبقه‌بندی می‌کند؟",
+    "he": "בסדנה בנושא יסודות אבטחה יש לקבל את ההחלטה הבאה: מחשב נייד שלא עודכן מכובה ומאוחסן בכספת מאובטחת. איזו קביעה מסווגת את הפגיעות והסיכון בצורה המדויקת ביותר?"
+  },
+  {
+    "id": "6c5f96bd-1672-4a89-bd45-1e74ec44fb6a",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Welche Form kann eine schutzbedürftige Information haben?",
+    "en": "In a workshop on security fundamentals, the following decision is to be made: What form can information requiring protection take?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، باید تصمیم زیر گرفته شود: اطلاعاتی که نیاز به حفاظت دارند می‌توانند چه شکلی داشته باشند؟",
+    "he": "בסדנה בנושא יסודות אבטחה יש לקבל את ההחלטה הבאה: איזו צורה יכול לקבל מידע הזקוק להגנה?"
+  },
+  {
+    "id": "a65f3fcd-789e-4293-93c5-c15f2e507ec9",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Ein unberechtigter Dritter liest vertrauliche Angebotsunterlagen. Welches Schutzziel ist unmittelbar verletzt?",
+    "en": "In a workshop on security fundamentals, the following exam question arises: An unauthorized third party reads confidential bid documents. Which protection goal is directly violated?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، سوال امتحانی زیر مطرح می‌شود: یک شخص ثالث غیرمجاز اسناد پیشنهاد محرمانه را می‌خواند. کدام هدف حفاظتی به‌طور مستقیم نقض می‌شود؟",
+    "he": "בסדנה בנושא יסודות אבטחה עולה שאלת הבחינה הבאה: צד שלישי בלתי מורשה קורא מסמכי הצעה חסויים. איזו מטרת הגנה מופרת באופן ישיר?"
+  },
+  {
+    "id": "d9aaff42-4328-4a0d-9e58-d9df03d8f783",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen wird die folgende Situation bewertet: Was kennzeichnet den Cyberraum am sinnvollsten?",
+    "en": "In a workshop on security fundamentals, the following situation is assessed: What most meaningfully characterizes cyberspace?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، وضعیت زیر مورد ارزیابی قرار می‌گیرد: چه چیزی فضای سایبری را به بهترین شکل مشخص می‌کند؟",
+    "he": "בסדנה בנושא יסודות אבטחה נבחן המצב הבא: מה מאפיין את מרחב הסייבר בצורה המשמעותית ביותר?"
+  },
+  {
+    "id": "ac263b5d-337a-4984-b1ed-a4e702dcb1d7",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen bespricht das zuständige Team folgenden Fall: Eine Außentür zum Serverraum schließt nicht zuverlässig. Gleichzeitig werden Einbrüche in der Umgebung gemeldet. Welche fachliche Bewertung ist am passendsten?",
+    "en": "In a workshop on security fundamentals, the responsible team discusses the following case: An exterior door to the server room does not close reliably. At the same time, break-ins are being reported in the surrounding area. Which technical assessment is most appropriate?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، تیم مسئول مورد زیر را بررسی می‌کند: یک درِ بیرونی اتاق سرور به‌طور مطمئن بسته نمی‌شود. هم‌زمان، موارد سرقت در محیط اطراف گزارش می‌شود. کدام ارزیابی فنی مناسب‌ترین است؟",
+    "he": "בסדנה בנושא יסודות אבטחה הצוות האחראי דן במקרה הבא: דלת חיצונית לחדר השרתים אינה נסגרת באופן אמין. במקביל, מדווח על פריצות באזור הסמוך. איזו הערכה מקצועית מתאימה ביותר?"
+  },
+  {
+    "id": "3855d5e7-74f0-47b1-9600-48c2a3510799",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Ein Archiv ist nach einem Wasserschaden tagelang nicht nutzbar; die Akten sind jedoch weder eingesehen noch verändert worden. Welches Ziel ist primär betroffen?",
+    "en": "In a workshop on security fundamentals, the following decision is to be made: An archive is unusable for days following water damage; however, the files have neither been viewed nor altered. Which goal is primarily affected?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، باید تصمیم زیر گرفته شود: یک آرشیو پس از یک آسیب ناشی از آب برای چند روز قابل استفاده نیست؛ با این حال، پرونده‌ها نه مشاهده و نه تغییر داده شده‌اند. کدام هدف در درجه اول تحت تأثیر قرار می‌گیرد؟",
+    "he": "בסדנה בנושא יסודות אבטחה יש לקבל את ההחלטה הבאה: ארכיון אינו שמיש במשך ימים בעקבות נזקי מים; עם זאת, התיקים לא נצפו ולא שונו. איזו מטרה נפגעת בעיקר?"
+  },
+  {
+    "id": "0d03b604-898c-4cb7-908c-226fe2658034",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Sicherheitsmaßnahme kombiniert Zutrittskarten, Schulungen, verbindliche Besucherregeln und eine abschließbare Tür. Was zeigt das Beispiel?",
+    "en": "In a workshop on security fundamentals, the following exam question arises: A security measure combines access cards, training sessions, mandatory visitor rules, and a lockable door. What does this example demonstrate?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، سوال امتحانی زیر مطرح می‌شود: یک اقدام امنیتی شامل ترکیب کارت‌های دسترسی، آموزش‌ها، مقررات الزامی برای بازدیدکنندگان و یک درِ قابل قفل است. این مثال چه چیزی را نشان می‌دهد؟",
+    "he": "בסדנה בנושא יסודות אבטחה עולה שאלת הבחינה הבאה: אמצעי אבטחה משלב כרטיסי כניסה, הדרכות, כללי מבקרים מחייבים ודלת הניתנת לנעילה. מה מדגימה הדוגמה הזו?"
+  },
+  {
+    "id": "ee57dd2c-3ffa-4a48-9f73-3ff53f8ef8c9",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen wird die folgende Situation bewertet: Eine Bestelldatei wird von einem berechtigten Mitarbeiter versehentlich überschrieben. Welche Aussage ist am genauesten?",
+    "en": "In a workshop on security fundamentals, the following situation is assessed: An order file is accidentally overwritten by an authorized employee. Which statement is most accurate?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، وضعیت زیر مورد ارزیابی قرار می‌گیرد: یک فایل سفارش به‌طور تصادفی توسط یک کارمند مجاز رونویسی می‌شود. کدام گزینه دقیق‌ترین است؟",
+    "he": "בסדנה בנושא יסודות אבטחה נבחן המצב הבא: קובץ הזמנה נדרס בשוגג על ידי עובד מורשה. איזו קביעה היא המדויקת ביותר?"
+  },
+  {
+    "id": "b2010050-bf6c-43ef-8ce4-3cbe67bffd23",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen bespricht das zuständige Team folgenden Fall: Zwei identische Systeme haben dieselbe Schwachstelle. Eines ist öffentlich erreichbar, das andere dauerhaft vom Netz getrennt. Welche Aussage passt am sinnvollsten?",
+    "en": "In a workshop on security fundamentals, the responsible team discusses the following case: Two identical systems have the same vulnerability. One is publicly accessible, the other is permanently disconnected from the network. Which statement fits best?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، تیم مسئول مورد زیر را بررسی می‌کند: دو سیستم یکسان دارای یک آسیب‌پذیری مشترک هستند. یکی از آن‌ها در دسترس عموم است و دیگری به‌طور دائم از شبکه جدا شده است. کدام گزینه بهترین تطابق را دارد؟",
+    "he": "בסדנה בנושא יסודות אבטחה הצוות האחראי דן במקרה הבא: לשתי מערכות זהות יש את אותה הפגיעות. אחת נגישה לציבור, והשנייה מנותקת לצמיתות מהרשת. איזו קביעה מתאימה ביותר?"
+  },
+  {
+    "id": "38424277-764a-43a7-b483-719451a2cdad",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Vier Teams begründen Maßnahmen mit Informationssicherheit. Welche Begründung betrifft stattdessen primär reine IT-Funktionalität ohne erkennbaren Sicherheitsbezug?",
+    "en": "In a workshop on security fundamentals, the following decision is to be made: Four teams justify measures on the basis of information security. Which justification instead primarily concerns pure IT functionality with no discernible security relevance?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، باید تصمیم زیر گرفته شود: چهار تیم اقدامات خود را بر اساس امنیت اطلاعات توجیه می‌کنند. کدام توجیه در عوض عمدتاً به عملکرد صرف فناوری اطلاعات بدون ارتباط قابل‌تشخیص با امنیت مربوط می‌شود؟",
+    "he": "בסדנה בנושא יסודות אבטחה יש לקבל את ההחלטה הבאה: ארבע קבוצות מנמקות אמצעים באמצעות אבטחת מידע. איזה נימוק, לעומת זאת, נוגע בעיקר לתפקוד IT טהור ללא זיקה ניכרת לאבטחה?"
+  },
+  {
+    "id": "1e11a52a-3160-4b69-a621-34a890d4cff3",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Organisation bewertet erstmals das Risiko eines offen zugänglichen Aktenraums. Welche Information sollte es neben der Schwachstelle als Erstes klären?",
+    "en": "In a workshop on security fundamentals, the following exam question arises: An organization is assessing the risk of an openly accessible file room for the first time. Besides the vulnerability, which piece of information should it clarify first?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، سوال امتحانی زیر مطرح می‌شود: یک سازمان برای اولین بار ریسک یک اتاق پرونده با دسترسی آزاد را ارزیابی می‌کند. علاوه بر آسیب‌پذیری، این سازمان باید ابتدا کدام اطلاعات را روشن کند؟",
+    "he": "בסדנה בנושא יסודות אבטחה עולה שאלת הבחינה הבאה: ארגון מעריך לראשונה את הסיכון של חדר תיקים פתוח לגישה. אילו מידע עליו לברר תחילה, מלבד הפגיעות עצמה?"
+  },
+  {
+    "id": "40d7ab03-0c9a-4ca1-9690-e33651fd5c8b",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen wird die folgende Situation bewertet: Ein gestohlenes, stark verschlüsseltes Notebook enthält die einzige aktuelle Kopie einer Projektdatei. Welche Bewertung ist am vollständigsten?",
+    "en": "In a workshop on security fundamentals, the following situation is assessed: A stolen, strongly encrypted laptop contains the only current copy of a project file. Which assessment is the most complete?",
+    "dari": "در یک ورکشاپ در مورد مبانی امنیت، وضعیت زیر مورد ارزیابی قرار می‌گیرد: یک لپ‌تاپ دزدیده‌شده و به‌شدت رمزگذاری‌شده حاوی تنها نسخه فعلی یک فایل پروژه است. کدام ارزیابی کامل‌ترین است؟",
+    "he": "בסדנה בנושא יסודות אבטחה נבחן המצב הבא: מחשב נייד גנוב, המוצפן ברמה גבוהה, מכיל את העותק העדכני היחיד של קובץ פרויקט. איזו הערכה היא המקיפה ביותר?"
+  },
+  {
+    "id": "5344cd3f-8237-4055-8af1-f2245a0e54ac",
+    "text": "Ein Bürogebäude liegt in einem Gebiet mit gelegentlichem Starkregen; der Serverraum befindet sich im Erdgeschoss. Für das kommende Wochenende wird eine Unwetterwarnung mit Starkregen ausgegeben. Wie ist die Lage am Wochenende gegenüber der Ausgangslage einzuordnen?",
+    "en": "An office building is located in an area with occasional heavy rainfall; the server room is on the ground floor. A severe weather warning for heavy rain has been issued for the coming weekend. How should the situation over the weekend be classified in relation to the baseline situation?",
+    "dari": "یک ساختمان اداری در منطقه‌ای واقع شده که گاهی بارش شدید باران در آن رخ می‌دهد؛ اتاق سرور در طبقه همکف قرار دارد. برای آخر هفته آینده، هشدار آب‌وهوایی برای بارش شدید باران صادر شده است. وضعیت آخر هفته در مقایسه با وضعیت اولیه چگونه باید طبقه‌بندی شود؟",
+    "he": "בניין משרדים ממוקם באזור בו מתרחשים לעיתים גשמים עזים; חדר השרתים ממוקם בקומת הקרקע. עבור סוף השבוע הקרוב פורסמה אזהרת מזג אוויר קיצוני עם גשמים עזים. כיצד יש לסווג את המצב בסוף השבוע בהשוואה למצב הבסיס?"
+  },
+  {
+    "id": "1b4af35b-47db-4503-8cdf-405abc301bf1",
+    "text": "Eine Projektleiterin bespricht in einem belebten Café am Nachbartisch vertrauliche Verhandlungsdetails mit einem Kollegen. Kein Dokument wird dabei verwendet. Welche Einordnung ist am zutreffendsten?",
+    "en": "A project manager discusses confidential negotiation details with a colleague at the next table in a busy café. No document is used in the process. Which classification is most accurate?",
+    "dari": "یک مدیر پروژه در یک کافه شلوغ، در میز کناری، جزئیات محرمانه مذاکرات را با یک همکار در میان می‌گذارد. در این جریان هیچ سندی استفاده نمی‌شود. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "מנהלת פרויקט דנה עם עמית בפרטי משא ומתן חסויים ליד שולחן סמוך בבית קפה סואן. לא נעשה שימוש במסמך כלשהו. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "fb806e09-617d-4305-ad60-b7153e43ea36",
+    "text": "Ein Mitarbeiter öffnet eine Phishing-Mail und klickt auf den enthaltenen Link, gibt aber auf der folgenden Seite keine Daten ein und bemerkt den Betrug rechtzeitig. Wie ist die Situation einzuordnen?",
+    "en": "An employee opens a phishing email and clicks on the included link, but does not enter any data on the following page and notices the fraud in time. How should this situation be classified?",
+    "dari": "یک کارمند یک ایمیل فیشینگ را باز می‌کند و روی لینک موجود در آن کلیک می‌کند، اما در صفحه بعدی هیچ اطلاعاتی وارد نمی‌کند و به‌موقع متوجه کلاهبرداری می‌شود. این وضعیت چگونه باید طبقه‌بندی شود؟",
+    "he": "עובד פותח הודעת דוא\"ל של פישינג ולוחץ על הקישור המצורף, אך אינו מזין נתונים בדף הבא ומבחין בהונאה בזמן. כיצד יש לסווג את המצב?"
+  },
+  {
+    "id": "66f7f171-d34a-4256-99a0-5788ee314d6a",
+    "text": "Ein digital signierter Vertrag wird später von einer Partei bestritten; die Signatur bestätigt jedoch eindeutig Urheber und Zeitpunkt der Unterschrift. Welches Schutzziel wird hier primär genutzt?",
+    "en": "A digitally signed contract is later disputed by one party; however, the signature clearly confirms the author and the time of signing. Which protection goal is primarily used here?",
+    "dari": "یک قرارداد امضاشده دیجیتالی بعداً توسط یکی از طرفین مورد اختلاف قرار می‌گیرد؛ اما امضا به‌طور واضح صادرکننده و زمان امضا را تأیید می‌کند. کدام هدف حفاظتی در اینجا در درجه اول مورد استفاده قرار می‌گیرد؟",
+    "he": "חוזה חתום דיגיטלית נתון מאוחר יותר במחלוקת על ידי אחד הצדדים; עם זאת, החתימה מאשרת באופן חד-משמעי את יוצר החתימה ואת מועד החתימה. איזו מטרת הגנה מנוצלת כאן באופן עיקרי?"
+  },
+  {
+    "id": "8640d494-4725-49bf-a7e9-35128291a9ee",
+    "text": "Ein Onlineshop wird durch massenhaft automatisiert gesendete Anfragen so überlastet, dass reguläre Kunden ihn nicht mehr erreichen können; Daten werden dabei weder eingesehen noch verändert. Welches Schutzziel ist primär betroffen?",
+    "en": "An online shop is overloaded by a mass of automatically sent requests to the point that regular customers can no longer access it; no data is viewed or altered in the process. Which protection goal is primarily affected?",
+    "dari": "یک فروشگاه آنلاین به‌دلیل تعداد زیادی درخواست‌های خودکار ارسال‌شده به‌قدری تحت فشار قرار می‌گیرد که مشتریان معمولی دیگر نمی‌توانند به آن دسترسی داشته باشند؛ در این جریان هیچ داده‌ای مشاهده یا تغییر داده نمی‌شود. کدام هدف حفاظتی در درجه اول تحت تأثیر قرار می‌گیرد؟",
+    "he": "חנות מקוונת עמוסה יתר על המידה עקב כמות גדולה של בקשות אוטומטיות, עד כי לקוחות רגילים אינם יכולים עוד לגשת אליה; במהלך זה לא נצפים ולא משתנים נתונים כלשהם. איזו מטרת הגנה נפגעת בעיקר?"
+  },
+  {
+    "id": "1e9f1ce2-0d43-4c0f-b526-d1c1464cf526",
+    "text": "Ein Vortrag erklärt, dass Cyber-Sicherheit sich speziell auf Bedrohungen aus dem Cyberraum konzentriert, während Informationssicherheit unabhängig von der Form der Information gilt. Wie ist das Verhältnis der Begriffe zueinander am zutreffendsten beschrieben?",
+    "en": "A presentation explains that cyber security specifically focuses on threats originating from cyberspace, while information security applies regardless of the form the information takes. How is the relationship between the two terms most accurately described?",
+    "dari": "یک ارائه توضیح می‌دهد که امنیت سایبری به‌طور خاص بر تهدیدات ناشی از فضای سایبری تمرکز دارد، در حالی که امنیت اطلاعات صرف‌نظر از شکل اطلاعات اعمال می‌شود. رابطه میان این دو مفهوم چگونه به‌درستی توصیف می‌شود؟",
+    "he": "הרצאה מסבירה כי אבטחת סייבר מתמקדת במיוחד באיומים המקורם במרחב הסייבר, בעוד שאבטחת מידע חלה ללא תלות בצורת המידע. כיצד מתואר היחס בין המונחים בצורה המדויקת ביותר?"
+  },
+  {
+    "id": "75bed878-bf35-4917-ba51-7a93d9735521",
+    "text": "Ein Überwachungssystem meldet eine Anmeldung zu einer ungewöhnlichen Uhrzeit von einem bislang nicht genutzten Standort; ob dahinter ein tatsächlicher Angriff steckt, ist noch unklar. Wie ist diese Meldung zunächst am treffendsten einzuordnen?",
+    "en": "A monitoring system reports a login at an unusual time from a location not previously used; whether this actually indicates an attack is still unclear. How should this report initially be most accurately classified?",
+    "dari": "یک سیستم نظارتی ورود به سیستم را در یک ساعت غیرمعمول و از یک مکانی که قبلاً استفاده نشده گزارش می‌دهد؛ اینکه آیا در پس این موضوع یک حمله واقعی وجود دارد یا نه، هنوز مشخص نیست. این گزارش در ابتدا چگونه به‌درستی باید طبقه‌بندی شود؟",
+    "he": "מערכת ניטור מדווחת על התחברות בשעה חריגה ממיקום שלא היה בשימוש עד כה; האם מדובר בהתקפה בפועל עדיין אינו ברור. כיצד יש לסווג דיווח זה בשלב הראשוני בצורה המדויקת ביותר?"
+  },
+  {
+    "id": "b59bd0ad-6f7b-4a47-bdf4-1d7b5ad2ba22",
+    "text": "Ein Unternehmen bewertet Bedrohungen ausschließlich anhand externer Angreifer und berücksichtigt keine Beschäftigten mit legitimen Zugriffsrechten. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company assesses threats solely on the basis of external attackers and does not take into account employees with legitimate access rights. Which classification is most accurate?",
+    "dari": "یک شرکت تهدیدات را صرفاً بر اساس مهاجمان خارجی ارزیابی می‌کند و کارکنانی را که دارای حقوق دسترسی قانونی هستند در نظر نمی‌گیرد. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "חברה מעריכה איומים אך ורק על בסיס תוקפים חיצוניים ואינה מביאה בחשבון עובדים בעלי הרשאות גישה לגיטימיות. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "ed394486-87af-46b6-ba66-431dada218cd",
+    "text": "Eine interne Kundenliste wird von einer unberechtigten Person eingesehen, jedoch nicht verändert oder gelöscht. Welches Schutzziel ist unmittelbar verletzt?",
+    "en": "An internal customer list is viewed by an unauthorized person, but is not altered or deleted. Which protection goal is directly violated?",
+    "dari": "یک لیست داخلی مشتریان توسط یک شخص غیرمجاز مشاهده می‌شود، اما تغییر یا حذف نمی‌شود. کدام هدف حفاظتی به‌طور مستقیم نقض می‌شود؟",
+    "he": "רשימת לקוחות פנימית נצפית על ידי אדם בלתי מורשה, אך אינה משתנה או נמחקת. איזו מטרת הגנה מופרת באופן ישיר?"
+  }
+]

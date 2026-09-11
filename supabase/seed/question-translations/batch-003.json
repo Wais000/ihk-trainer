@@ -1,0 +1,79 @@
+[
+  {
+    "id": "89c79814-8f29-43f1-a45f-4e9add72ee52",
+    "text": "Ein Unternehmen stellt fest, dass eine seit Jahren genutzte Anwendung nie einer formalen Schutzbedarfsfeststellung unterzogen wurde. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company discovers that an application it has been using for years has never undergone a formal protection-needs assessment. Which classification is most accurate?",
+    "dari": "یک شرکت متوجه می‌شود که یک برنامه‌ای که سال‌هاست مورد استفاده قرار می‌گیرد، هرگز تحت یک ارزیابی رسمی نیاز به حفاظت قرار نگرفته است. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "חברה מגלה כי יישום שנמצא בשימוש שנים רבות מעולם לא עבר הערכת צורך בהגנה פורמלית. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "c5e11f3c-c5bb-4b88-b9cd-83784bbaa8f9",
+    "text": "Ein Unternehmen betrachtet ausschließlich vorsätzliche Angriffe als relevante Bedrohung für seine Systeme und blendet Naturereignisse wie Sturm oder Hochwasser vollständig aus. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company considers only intentional attacks to be a relevant threat to its systems and completely disregards natural events such as storms or flooding. Which classification is most accurate?",
+    "dari": "یک شرکت تنها حملات عمدی را به‌عنوان تهدید مرتبط برای سیستم‌های خود در نظر می‌گیرد و رویدادهای طبیعی مانند طوفان یا سیل را به‌طور کامل نادیده می‌گیرد. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "חברה רואה אך ורק בהתקפות מכוונות איום רלוונטי למערכותיה, ומתעלמת לחלוטין מאירועי טבע כגון סערות או שיטפונות. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "dbea616c-3e27-4eeb-98b5-9bdb3937e8d8",
+    "text": "In einem Unternehmen wird der Zugang zu einem Serverraum nur durch eine unabgeschlossene Tür mit Hinweisschild 'Zutritt nur für Befugte' geregelt. Welche Einordnung ist am zutreffendsten?",
+    "en": "In a company, access to a server room is controlled only by an unlocked door bearing a sign that reads 'Authorized personnel only'. Which classification is most accurate?",
+    "dari": "در یک شرکت، دسترسی به اتاق سرور تنها با یک درِ قفل‌نشده که روی آن تابلوی «ورود فقط برای افراد مجاز» نصب شده، کنترل می‌شود. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "בחברה, הגישה לחדר השרתים מוסדרת רק באמצעות דלת לא נעולה עליה שלט המציין 'הכניסה מותרת למורשים בלבד'. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "ade23e36-c9d3-44af-82a1-2909894833a8",
+    "text": "Ein Unternehmen bewahrt ausgedruckte vertrauliche Dokumente in einem Aktenschrank auf, der zwar abschließbar ist, aber im Alltag meist unverschlossen bleibt. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company keeps printed confidential documents in a filing cabinet that is lockable but usually remains unlocked in day-to-day operations. Which classification is most accurate?",
+    "dari": "یک شرکت اسناد محرمانه چاپ‌شده را در یک کابینت پرونده نگهداری می‌کند که اگرچه قابل قفل‌شدن است، اما در عمل روزمره معمولاً قفل نمی‌شود. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "חברה שומרת מסמכים חסויים מודפסים בארון תיקים הניתן לנעילה, אך בפועל נותר ברוב הימים לא נעול. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "c0591487-4292-45c3-a5a1-4d1529da6734",
+    "text": "Ein Unternehmen betrachtet ausschließlich technische Systeme wie Server und Netzwerkkomponenten als schützenswerte Werte, nicht aber das Wissen erfahrener Mitarbeitender über kritische Abläufe. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company regards only technical systems such as servers and network components as assets worth protecting, but not the knowledge of experienced employees regarding critical processes. Which classification is most accurate?",
+    "dari": "یک شرکت تنها سیستم‌های فنی مانند سرورها و اجزای شبکه را به‌عنوان دارایی‌های نیازمند حفاظت در نظر می‌گیرد، اما دانش کارکنان باتجربه در مورد فرآیندهای حیاتی را در نظر نمی‌گیرد. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "חברה רואה כנכסים הראויים להגנה רק מערכות טכניות כגון שרתים ורכיבי רשת, אך לא את הידע של עובדים מנוסים לגבי תהליכים קריטיים. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "28b1e7e4-3ab0-49ca-b0d4-38f6b729fd74",
+    "text": "Ein Unternehmen betrachtet die Kombination aus einer ungepatchten Software-Schwachstelle und einem aktiv nach solchen Schwachstellen suchenden Angreifer ausschließlich als Bedrohung, nicht als Gefährdung. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company regards the combination of an unpatched software vulnerability and an attacker actively searching for such vulnerabilities solely as a threat, not as a hazard. Which classification is most accurate?",
+    "dari": "یک شرکت ترکیب یک آسیب‌پذیری وصله‌نشده در نرم‌افزار و یک مهاجم که به‌طور فعال به دنبال چنین آسیب‌پذیری‌هایی است را صرفاً به‌عنوان یک تهدید در نظر می‌گیرد، نه به‌عنوان یک خطر. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "חברה רואה בשילוב של פגיעות תוכנה שלא תוקנה ותוקף המחפש באופן פעיל פגיעויות כאלה, אך ורק כאיום, ולא כסכנה. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "a1b08dc6-42f0-4278-b534-964c9ac77395",
+    "text": "Ein Mitarbeiter verwendet für mehrere unterschiedliche dienstliche Konten dasselbe Passwort, da dies die Merkbarkeit erleichtert. Welches Schutzziel ist dadurch am stärksten gefährdet?",
+    "en": "An employee uses the same password for several different work accounts because it is easier to remember. Which protection goal is most strongly endangered as a result?",
+    "dari": "یک کارمند برای چندین حساب کاری متفاوت از یک رمز عبور یکسان استفاده می‌کند، زیرا به‌خاطر سپردن آن آسان‌تر است. کدام هدف حفاظتی به‌این‌ترتیب بیشترین خطر را متحمل می‌شود؟",
+    "he": "עובד משתמש באותה סיסמה עבור מספר חשבונות עבודה שונים, מכיוון שכך קל יותר לזכור אותה. איזו מטרת הגנה נפגעת בכך באופן החמור ביותר?"
+  },
+  {
+    "id": "87e96cc6-8593-4e97-8fc6-4e0be1f8ea51",
+    "text": "Ein Mitarbeiter lädt eine Datei mit vertraulichem Inhalt in einen privaten Cloud-Speicher hoch, um von zu Hause aus weiterarbeiten zu können. Welches Schutzziel ist dadurch am unmittelbarsten betroffen?",
+    "en": "An employee uploads a file with confidential content to a private cloud storage service in order to be able to continue working from home. Which protection goal is most directly affected as a result?",
+    "dari": "یک کارمند فایلی با محتوای محرمانه را در یک فضای ذخیره‌سازی ابری شخصی بارگذاری می‌کند تا بتواند از خانه به کار خود ادامه دهد. کدام هدف حفاظتی به‌این‌ترتیب به‌طور مستقیم تحت تأثیر قرار می‌گیرد؟",
+    "he": "עובד מעלה קובץ בעל תוכן חסוי לאחסון ענן פרטי כדי שיוכל להמשיך לעבוד מהבית. איזו מטרת הגנה נפגעת בכך באופן הישיר ביותר?"
+  },
+  {
+    "id": "493f759b-7d6e-4fe9-a792-9a2f62c18e07",
+    "text": "In einem Unternehmen wird ein veraltetes Betriebssystem ohne Sicherheitsupdates weiterbetrieben, da eine Migration als zu aufwändig gilt. Welche Einordnung ist am zutreffendsten?",
+    "en": "In a company, an outdated operating system without security updates continues to be run because migration is considered too costly. Which classification is most accurate?",
+    "dari": "در یک شرکت، یک سیستم‌عامل قدیمی بدون به‌روزرسانی‌های امنیتی همچنان مورد استفاده قرار می‌گیرد، زیرا مهاجرت به سیستم جدید بسیار پرهزینه تلقی می‌شود. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "בחברה ממשיכים להפעיל מערכת הפעלה מיושנת ללא עדכוני אבטחה, מכיוון שמעבר למערכת חדשה נחשב יקר מדי. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "870cf4e0-cdcb-4548-9a26-ebc4649b01dc",
+    "text": "Ein Unternehmen speichert Sicherungskopien wichtiger Daten ausschließlich auf demselben Server wie die Originaldaten. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company stores backup copies of important data exclusively on the same server as the original data. Which classification is most accurate?",
+    "dari": "یک شرکت نسخه‌های پشتیبان داده‌های مهم را صرفاً روی همان سروری که داده‌های اصلی در آن قرار دارند، ذخیره می‌کند. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "חברה שומרת עותקי גיבוי של נתונים חשובים אך ורק על אותו שרת שבו מאוחסנים הנתונים המקוריים. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "e1e67605-3846-496a-865e-1da0b8f3680d",
+    "text": "Ein Unternehmen betrachtet ein internes Wiki mit Betriebsanleitungen als reines Komfort-Tool ohne sicherheitsrelevanten Inhalt, obwohl darin auch Zugangsdaten zu Testsystemen dokumentiert sind. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company regards an internal wiki containing operating instructions as a mere convenience tool with no security-relevant content, even though it also documents access credentials for test systems. Which classification is most accurate?",
+    "dari": "یک شرکت یک ویکی داخلی حاوی دستورالعمل‌های عملیاتی را صرفاً یک ابزار رفاهی بدون محتوای مرتبط با امنیت در نظر می‌گیرد، در حالی که در آن اطلاعات دسترسی به سیستم‌های آزمایشی نیز ثبت شده است. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "חברה רואה בוויקי פנימי המכיל הוראות תפעול כלי נוחות בלבד ללא תוכן רלוונטי לאבטחה, למרות שבו מתועדים גם פרטי גישה למערכות בדיקה. איזה סיווג הוא המדויק ביותר?"
+  }
+]

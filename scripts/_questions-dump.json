@@ -1,0 +1,2251 @@
+[
+  {
+    "id": "46651584-70ae-4726-9ea9-47e9d8ce2966",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Organisation schützt einen rein papiergebundenen Vertragsbestand, der nie elektronisch verarbeitet wird. Welcher Sicherheitsbereich ist dafür unmittelbar relevant?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Business Continuity, weil die Verfügbarkeit des Archivs im Vordergrund steht",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Cyber-Sicherheit, weil Verträge im weiteren Sinn zum digitalen Geschäftsumfeld gehören",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Informationssicherheit, weil auch nichtdigitale Informationen geschützt werden",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "IT-Sicherheit, weil physische Aufbewahrung dieselben Anforderungen wie IT-Systeme stellt",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Die Frage prüft das genaue Verständnis der Begriffe Informationssicherheit, IT-Sicherheit und Cyber-Sicherheit anhand eines rein analogen Beispiels (Papierverträge).",
+        "language": "de",
+        "common_trap": "Oft werden Informationssicherheit und IT-Sicherheit synonym verwendet. Für die IHK-Prüfung gilt: IT-Sicherheit betrifft nur IT-Systeme, Informationssicherheit umfasst auch Papierakten und Wissen in Köpfen.",
+        "why_correct": "Informationssicherheit ist der Oberbegriff und schützt Informationen in jeglicher Form – ganz egal, ob sie digital auf Festplatten, analog auf Papier oder mündlich vorliegen. Daher ist dieser Bereich unmittelbar relevant.",
+        "why_incorrect": "A ist falsch, weil Business Continuity Management die Aufrechterhaltung des Geschäftsbetriebs bei Notfällen beschreibt, nicht den grundsätzlichen Schutz von analogen Akten. B ist falsch, weil Cyber-Sicherheit sich spezifisch auf den digitalen Raum und vernetzte Systeme bezieht. D ist falsch, da IT-Sicherheit den Schutz von IT-Systemen und elektronischen Daten betrifft; Papier ist jedoch kein IT-System."
+      },
+      {
+        "summary": "The question examines the exact understanding of the terms information security, IT security and cyber security using a purely analogue example (paper contracts).",
+        "language": "en",
+        "common_trap": "Information security and IT security are often used synonymously. The following applies to the IHK examination: IT security only applies to IT systems, information security also includes paper files and knowledge in people's minds.",
+        "why_correct": "Information security is the generic term and protects information in any form – regardless of whether it is digital on hard drives, analogue on paper or orally. Therefore, this area is directly relevant.",
+        "why_incorrect": "A is wrong because business continuity management describes the maintenance of business operations in emergencies, not the basic protection of analogue files. B is wrong because cyber security refers specifically to the digital space and networked systems. D is wrong because IT security concerns the protection of IT systems and electronic data; however, paper is not an IT system."
+      },
+      {
+        "summary": "این سوال درک دقیق اصطلاحات امنیت اطلاعات، امنیت فناوری اطلاعات و امنیت سایبری را با استفاده از یک مثال کاملاً آنالوگ (قراردادهای کاغذی) بررسی می کند.",
+        "language": "dari",
+        "common_trap": "امنیت اطلاعات و امنیت فناوری اطلاعات اغلب به طور مترادف استفاده می شوند. موارد زیر در آزمون IHK صدق می کند: امنیت فناوری اطلاعات فقط برای سیستم های فناوری اطلاعات اعمال می شود، امنیت اطلاعات همچنین شامل پرونده های کاغذی و دانش موجود در ذهن مردم می شود.",
+        "why_correct": "امنیت اطلاعات اصطلاح کلی است و اطلاعات را به هر شکلی محافظت می کند – چه دیجیتال روی هارد دیسک باشد، چه آنالوگ روی کاغذ یا شفاهی. بنابراین، این حوزه مستقیماً مرتبط است.",
+        "why_incorrect": "الف اشتباه است زیرا مدیریت تداوم کسب وکار به حفظ عملیات کسب وکار در مواقع اضطراری اشاره دارد، نه حفاظت پایه ای از فایل های آنالوگ. ب اشتباه است زیرا امنیت سایبری به طور خاص به فضای دیجیتال و سیستم های شبکه ای اشاره دارد. د اشتباه است زیرا امنیت فناوری اطلاعات مربوط به حفاظت از سیستم های فناوری اطلاعات و داده های الکترونیکی است؛ با این حال، کاغذ یک سیستم فناوری اطلاعات نیست."
+      },
+      {
+        "summary": "השאלה בוחנת את ההבנה המדויקת של המונחים אבטחת מידע, אבטחת IT ואבטחת סייבר באמצעות דוגמה אנלוגית טהורה (חוזי נייר).",
+        "language": "he",
+        "common_trap": "אבטחת מידע ואבטחת מידע משמשות לעיתים קרובות כמילים נרדפות. הדברים הבאים חלים על מבחן IHK: אבטחת מידע חלה רק על מערכות IT, אבטחת מידע כוללת גם קבצי נייר וידע במוחות האנשים.",
+        "why_correct": "אבטחת מידע הוא המונח הכללי ומגן על מידע בכל צורה – בין אם הוא דיגיטלי על כוננים קשיחים, אנלוגי על נייר או בעל פה. לכן, תחום זה רלוונטי ישירות.",
+        "why_incorrect": "א' טועה כי ניהול המשכיות עסקית מתאר את תחזוקת הפעילות העסקית במצבי חירום, לא את ההגנה הבסיסית של קבצים אנלוגיים. ב' טועה כי אבטחת סייבר מתייחסת ספציפית למרחב הדיגיטלי ולמערכות רשת. ד' טועה כי אבטחת IT עוסקת בהגנה על מערכות IT ונתונים אלקטרוניים; עם זאת, נייר אינו מערכת IT."
+      }
+    ]
+  },
+  {
+    "id": "d17a0633-5e38-4535-b765-7043d0604aea",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Tätergruppe kann eine ungepatchte Schwachstelle eines öffentlich erreichbaren Servers ausnutzen. Welche Aussage bildet die Begriffe fachlich am genauesten ab?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Tätergruppe als Schwachstelle, Serverreichweite als Risiko und Patch als Bedrohung",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Tätergruppe als Bedrohung, ungepatchte Stelle als Schwachstelle und mögliche Schadensfolge als Risiko",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Tätergruppe als Gefährdung, ungepatchte Stelle als Risiko und Serverreichweite als Schwachstelle",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Tätergruppe als Risiko, ungepatchte Stelle als Bedrohung und Schadensfolge als Gefährdung",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Die Frage prüft das Verständnis und die korrekte Zuordnung der IT-Sicherheits-Grundbegriffe Bedrohung, Schwachstelle und Risiko anhand eines praxisnahen Szenarios.",
+        "language": "de",
+        "common_trap": "Im Alltagssprachgebrauch werden Begriffe wie Bedrohung, Risiko und Schwachstelle oft synonym verwendet. In IHK-Prüfungen und im IT-Sicherheitsmanagement (z. B. nach BSI) müssen sie jedoch präzise unterschieden werden.",
+        "why_correct": "Die Tätergruppe ist die äußere Bedrohung (Threat), da sie potenziell Schaden verursachen kann. Die ungepatchte Softwarestelle ist die Schwachstelle (Vulnerability), also die konkrete Sicherheitslücke. Die mögliche Schadensfolge zusammen mit dem Eintrittsrisiko bildet das Risiko (Risk) ab.",
+        "why_incorrect": "A ordnet die Tätergruppe falsch als Schwachstelle und den Patch als Bedrohung ein. C und D verwechseln die Fachbegriffe grundlegend, indem sie die Tätergruppe als Gefährdung oder Risiko bezeichnen und die Serverreichweite oder ungepatchte Stelle falsch klassifizieren."
+      },
+      {
+        "summary": "The question examines the understanding and correct assignment of the basic IT security concepts of threat, vulnerability and risk on the basis of a practical scenario.",
+        "language": "en",
+        "common_trap": "In everyday language, terms such as threat, risk and vulnerability are often used synonymously. However, they must be precisely distinguished in IHK audits and IT security management (e.g. according to BSI).",
+        "why_correct": "The perpetrator group is the external threat, as it can potentially cause damage. The unpatched software site is the vulnerability, i.e. the specific security gap. The possible consequence of damage together with the risk of occurrence represents the risk.",
+        "why_incorrect": "A incorrectly classifies the perpetrator group as a vulnerability and the patch as a threat. C and D fundamentally confuse the technical terms by referring to the perpetrator group as a threat or risk and misclassifying the server reach or unpatched location."
+      },
+      {
+        "summary": "این سوال درک و تخصیص صحیح مفاهیم پایه امنیت فناوری اطلاعات مانند تهدید، آسیب پذیری و ریسک را بر اساس یک سناریوی عملی بررسی می کند.",
+        "language": "dari",
+        "common_trap": "در زبان روزمره، اصطلاحاتی مانند تهدید، ریسک و آسیب پذیری اغلب به طور مترادف به کار می روند. با این حال، این اصطلاحات باید در ممیزی های IHK و مدیریت امنیت فناوری اطلاعات (مثلاً بر اساس BSI) به دقت تمایز داده شوند.",
+        "why_correct": "گروه مرتکب تهدید خارجی است، زیرا می تواند آسیب ایجاد کند. سایت نرم افزاری وصله نشده آسیب پذیری است، یعنی شکاف امنیتی خاص. پیامد احتمالی آسیب همراه با خطر وقوع آن نمایانگر ریسک است.",
+        "why_incorrect": "A به اشتباه گروه مرتکب را به عنوان آسیب پذیری و پچ را به عنوان تهدید طبقه بندی می کند. C و D اساساً اصطلاحات فنی را با اشاره به گروه مرتکب به عنوان تهدید یا ریسک و طبقه بندی نادرست دسترسی سرور یا مکان وصله نشده اشتباه می کنند."
+      },
+      {
+        "summary": "השאלה בוחנת את ההבנה וההקצאה הנכונה של מושגי אבטחת ה-IT הבסיסיים של איום, פגיעות וסיכון על בסיס תרחיש מעשי.",
+        "language": "he",
+        "common_trap": "בשפה היומיומית, מונחים כמו איום, סיכון ופגיעות משמשים לעיתים קרובות כמילים נרדפות. עם זאת, יש להבחין ביניהם במדויק בביקורות IHK ובניהול אבטחת IT (למשל לפי BSI).",
+        "why_correct": "קבוצת הפוגעים היא האיום החיצוני, שכן היא עלולה לגרום נזק. אתר התוכנה שלא תוקן הוא הפגיעות, כלומר פער האבטחה הספציפי. התוצאה האפשרית של הנזק יחד עם הסיכון להתרחשות מייצגות את הסיכון.",
+        "why_incorrect": "A מסווגת בטעות את קבוצת הפוגעים כפגיעות ואת התיקון כאיום. C ו-D מבלבלים באופן יסודי את המונחים הטכניים על ידי התייחסות לקבוצת הפוגע כאיום או סיכון וסיווג שגוי של הגעה לשרת או מיקום לא מתוקן."
+      }
+    ]
+  },
+  {
+    "id": "932da3b6-b071-4d4a-b836-2bf6613797f7",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen bespricht das zuständige Team folgenden Fall: Ein freigegebener Überweisungsdatensatz bleibt jederzeit verfügbar und nur für Berechtigte lesbar, wird aber unbemerkt verändert. Welches Schutzziel ist primär betroffen?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Authentizität, weil die Erreichbarkeit des freigegebenen Datensatzes nicht nachgewiesen ist",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Verfügbarkeit, weil eine veränderte Information fachlich nicht mehr wie vorgesehen nutzbar ist",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Integrität, weil Richtigkeit und Unverändertheit des Datensatzes nicht gewährleistet sind",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Vertraulichkeit, weil eine unautorisierte Veränderung zugleich eine Offenlegung voraussetzt",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Die unbemerkte Veränderung betrifft primär die Richtigkeit und Unversehrtheit der Information und damit ihre Integrität.",
+        "language": "de",
+        "common_trap": null,
+        "why_correct": null,
+        "why_incorrect": null
+      }
+    ]
+  },
+  {
+    "id": "08325ef3-a57e-4481-879e-27f4c521b4c5",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Welche Aussage beschreibt das Verhältnis von Sicherheit und Schutz am sinnvollsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Sicherheit und Schutz bezeichnen beide denselben Endzustand und lassen sich in der Praxis austauschbar verwenden",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sicherheit ist eine einzelne technische Maßnahme; Schutz bezeichnet deren praktische Umsetzung im Betrieb",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Schutz ist der angestrebte Zustand; Sicherheit besteht aus organisatorischen Regeln, die diesen Zustand erzeugen",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Sicherheit ist der angestrebte Zustand; Schutz wird durch geeignete technische, organisatorische, personelle oder infrastrukturelle Maßnahmen geschaffen",
+        "correct": true
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Sicherheit bezeichnet einen angestrebten Zustand, zu dem geeignete Schutzmaßnahmen unterschiedlicher Art beitragen.",
+        "language": "de",
+        "common_trap": null,
+        "why_correct": null,
+        "why_incorrect": null
+      }
+    ]
+  },
+  {
+    "id": "b5300dda-211e-4cee-9b81-fac3b7bb9bd3",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Ein ungepatchter Laptop wird ausgeschaltet in einem gesicherten Tresor gelagert. Welche Aussage ordnet Schwachstelle und Risiko am genauesten ein?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Das Risiko entspricht dem möglichen Schaden und kann deshalb ohne Eintrittswahrscheinlichkeit bewertet werden",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Durch die bekannte Schwachstelle besteht ein Risiko in Höhe des theoretisch maximal möglichen Schadens",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Die Schwachstelle bleibt bestehen; das aktuelle Risiko ergibt sich erst aus Bedrohung, Exposition und möglicher Auswirkung",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Der Tresor beseitigt die Schwachstelle, solange das Gerät nicht mit einem Netzwerk verbunden ist",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Eine Schwachstelle ist nicht mit Risiko gleichzusetzen; Risiko entsteht im Kontext möglicher Bedrohungen und Auswirkungen.",
+        "language": "de",
+        "common_trap": null,
+        "why_correct": null,
+        "why_incorrect": null
+      }
+    ]
+  },
+  {
+    "id": "6c5f96bd-1672-4a89-bd45-1e74ec44fb6a",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Welche Form kann eine schutzbedürftige Information haben?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Wenn sie personenbezogen ist, da andere Informationsarten regulatorisch weniger erfasst sind",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Erst dann, wenn sie in einem IT-System gespeichert und damit technisch erfassbar ist",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Erst nach schriftlicher Fixierung und formaler Freigabe, da mündliche Aussagen keinen Schutzbedarf auslösen",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Digital, auf Papier, mündlich oder im Wissen einer Person",
+        "correct": true
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Die Frage verlangt zu wissen, in welchen Erscheinungsformen oder Medien eine schutzbedürftige Information vorkommen kann.",
+        "language": "de",
+        "common_trap": "Ein häufiger Denkfehler ist die Verwechslung von IT-Sicherheit mit Informationssicherheit. IT-Sicherheit schützt digitale Systeme, während Informationssicherheit Informationen in allen Formen schützt.",
+        "why_correct": "Option D ist korrekt, weil Informationen völlig unabhängig vom Medium schutzbedürftig sind. Eine vertrauliche Information bleibt schutzbedürftig, egal ob sie digital auf einem Server liegt, auf Papier gedruckt ist, mündlich besprochen wird oder nur im Kopf eines Mitarbeiters existiert.",
+        "why_incorrect": "Option A ist falsch, da auch Geschäftsgeheimnisse, Quellcodes oder Baupläne schutzbedürftig sind, nicht nur personenbezogene Daten. Option B ist falsch, weil Informationssicherheit weit über IT-Systeme hinausgeht (z. B. Papierakten). Option C ist falsch, da auch mündliche Aussagen oder nicht dokumentiertes Expertenwissen streng vertraulich sein können."
+      },
+      {
+        "summary": "The question requires knowing in which manifestations or media information in need of protection can occur.",
+        "language": "en",
+        "common_trap": "A common mistake in thinking is the confusion between IT security and information security. IT security protects digital systems, while information security protects information in all forms.",
+        "why_correct": "Option D is correct because information is in need of protection regardless of the medium. Confidential information remains in need of protection, regardless of whether it is digitally stored on a server, printed on paper, discussed orally or only exists in the mind of an employee.",
+        "why_incorrect": "Option A is wrong because trade secrets, source codes or blueprints also need to be protected, not just personal data. Option B is wrong because information security goes far beyond IT systems (e.g. paper files). Option C is wrong because oral statements or undocumented expert knowledge can also be strictly confidential."
+      },
+      {
+        "summary": "این پرسش نیازمند دانستن این است که در کدام تجلیات یا اطلاعات رسانه ای که نیاز به محافظت دارند، رخ می دهد.",
+        "language": "dari",
+        "common_trap": "یک اشتباه رایج در تفکر، سردرگمی میان امنیت فناوری اطلاعات و امنیت اطلاعات است. امنیت فناوری اطلاعات از سیستم های دیجیتال محافظت می کند، در حالی که امنیت اطلاعات از همه اشکال اطلاعات محافظت می کند.",
+        "why_correct": "گزینه D درست است زیرا اطلاعات نیاز به محافظت دارد، صرف نظر از رسانه ای که باشد. اطلاعات محرمانه همچنان نیازمند حفاظت است، چه به صورت دیجیتال روی سرور ذخیره شده باشد، روی کاغذ چاپ شده باشد، به صورت شفاهی مورد بحث قرار گیرد یا فقط در ذهن کارمند وجود داشته باشد.",
+        "why_incorrect": "گزینه الف اشتباه است زیرا اسرار تجاری، کدهای منبع یا نقشه ها نیز باید محافظت شوند، نه فقط داده های شخصی. گزینه ب اشتباه است زیرا امنیت اطلاعات فراتر از سیستم های فناوری اطلاعات (مانند فایل های کاغذی) است. گزینه ج اشتباه است زیرا اظهارات شفاهی یا دانش تخصصی بدون سند نیز می تواند کاملاً محرمانه باشد."
+      },
+      {
+        "summary": "השאלה דורשת לדעת באילו הופעות או מידע תקשורתי הזקוק להגנה.",
+        "language": "he",
+        "common_trap": "טעות נפוצה במחשבה היא הבלבול בין אבטחת IT לאבטחת מידע. אבטחת מידע מגנה על מערכות דיגיטליות, בעוד שאבטחת מידע מגנה על מידע בכל צורתו.",
+        "why_correct": "אפשרות ד' נכונה כי מידע זקוק להגנה ללא קשר למדיה. מידע חסוי נשאר זקוק להגנה, בין אם הוא מאוחסן דיגיטלית בשרת, מודפס על נייר, נדון בעל פה או קיים רק במוחו של עובד.",
+        "why_incorrect": "אפשרות א' שגויה כי גם סודות מסחריים, קודי מקור או שרטוטים צריכים להיות מוגנים, לא רק נתונים אישיים. אפשרות ב' שגויה כי אבטחת מידע חורגת הרבה מעבר למערכות IT (למשל קבצים נייריים). אפשרות ג' שגויה כי הצהרות בעל פה או ידע מומחים לא מתועד יכולים להיות חסויים לחלוטין."
+      }
+    ]
+  },
+  {
+    "id": "a65f3fcd-789e-4293-93c5-c15f2e507ec9",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Ein unberechtigter Dritter liest vertrauliche Angebotsunterlagen. Welches Schutzziel ist unmittelbar verletzt?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Vertraulichkeit",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Integrität",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Verfügbarkeit",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Wiederanlauffähigkeit",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Die Frage prüft, welches grundlegende Schutzziel verletzt wird, wenn eine unbefugte Person geheime Informationen liest.",
+        "language": "de",
+        "common_trap": "Vertraulichkeit wird manchmal mit Integrität verwechselt. Merke: Nur Lesen = Verletzung der Vertraulichkeit; Ändern/Löschen = Verletzung der Integrität.",
+        "why_correct": "Vertraulichkeit stellt sicher, dass Informationen nur berechtigten Personen zugänglich sind. Durch das unbefugte Mitlesen vertraulicher Angebotsunterlagen wird genau dieses Schutzziel direkt verletzt.",
+        "why_incorrect": "Integrität beschreibt den Schutz vor unbefugter Veränderung oder Verfälschung von Daten (die Daten wurden hier nur gelesen, nicht geändert). Verfügbarkeit stellt sicher, dass Daten bei Bedarf nutzbar sind (sie stehen weiterhin bereit). Wiederanlauffähigkeit beschreibt die Fähigkeit, Systeme nach einem Störfall wieder in Betrieb zu nehmen."
+      },
+      {
+        "summary": "השאלה בוחנת איזו מטרת הגנה בסיסית מופרת אם אדם לא מורשה קורא מידע סודי.",
+        "language": "he",
+        "common_trap": "סודיות לעיתים מתבלבלת עם שלמות. הערה: קריאה בלבד = הפרת סודיות; שינוי/מחיקה = הפרת שלמות.",
+        "why_correct": "סודיות מבטיחה שהמידע נגיש רק לאנשים מורשים. קריאה לא מורשית של מסמכי הצעה סודיים מפרה ישירות את מטרת ההגנה הזו.",
+        "why_incorrect": "שלמות מתארת את ההגנה מפני שינוי או זיוף נתונים לא מורשים (הנתונים נקראו רק כאן, לא שונו). זמינות מבטיחה שניתן להשתמש בנתונים בעת הצורך (הם עדיין זמינים). יכולת הפעלה מחדש מתארת את היכולת להחזיר מערכות לפעולה לאחר תקלה."
+      },
+      {
+        "summary": "The question examines which fundamental protection objective is violated if an unauthorized person reads secret information.",
+        "language": "en",
+        "common_trap": "Confidentiality is sometimes confused with integrity. Note: Read Only = Breach of Confidentiality; Change/Delete = Breach of Integrity.",
+        "why_correct": "Confidentiality ensures that information is only accessible to authorised persons. The unauthorised reading of confidential offer documents directly violates precisely this protection objective.",
+        "why_incorrect": "Integrity describes the protection against unauthorized modification or falsification of data (the data was only read here, not changed). Availability ensures that data can be used when needed (it is still available). Restart capability describes the ability to put systems back into operation after a malfunction."
+      },
+      {
+        "summary": "این سوال بررسی می کند که کدام هدف حفاظت اساسی نقض می شود اگر شخص غیرمجاز اطلاعات محرمانه را بخواند.",
+        "language": "dari",
+        "common_trap": "محرمانگی گاهی با صداقت اشتباه گرفته می شود. توجه: فقط خوانده = نقض محرمانگی؛ تغییر/حذف = نقض یکپارچگی.",
+        "why_correct": "محرمانگی تضمین می کند که اطلاعات فقط برای افراد مجاز قابل دسترسی باشد. خوانش غیرمجاز اسناد محرمانه پیشنهاد مستقیماً این هدف حفاظت را نقض می کند.",
+        "why_incorrect": "یکپارچگی به محافظت در برابر تغییرات یا جعل غیرمجاز داده ها اشاره دارد (داده ها فقط در اینجا خوانده شده اند، تغییر نکرده اند). دسترسی پذیری تضمین می کند که داده ها در صورت نیاز قابل استفاده باشند (هنوز در دسترس هستند). قابلیت راه اندازی مجدد توانایی بازگرداندن سیستم ها به عملیات پس از یک نقص را توصیف می کند."
+      }
+    ]
+  },
+  {
+    "id": "d9aaff42-4328-4a0d-9e58-d9df03d8f783",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen wird die folgende Situation bewertet: Was kennzeichnet den Cyberraum am sinnvollsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Vorwiegend soziale Netzwerke, da dort die stärkste Vernetzung stattfindet",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Vernetzte digitale Informations- und Kommunikationsumgebungen",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Vorwiegend firmeninterne Netzwerke ohne jede Verbindung zum Internet",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Vorwiegend öffentlich betriebene Rechenzentren, da private Anbieter geringere Vernetzung aufweisen",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Die Frage stellt die Grundsatzfrage nach der Definition und den zentralen Merkmalen des Cyberraums im Kontext der Informationssicherheit.",
+        "language": "de",
+        "common_trap": "Eine häufige Falle besteht darin, den Cyberraum nur mit dem Internet oder mit sozialen Medien gleichzusetzen, anstatt die Gesamtheit aller vernetzten digitalen Systeme zu betrachten.",
+        "why_correct": "Antwort B ist korrekt, weil der Cyberraum den gesamten virtuellen Raum umfasst, der durch vernetzte digitale Informations- und Kommunikationstechnologien gebildet wird. Dazu gehören das Internet, Weitverkehrsnetze sowie verbundene IT-Infrastrukturen.",
+        "why_incorrect": "Antwort A ist falsch, da soziale Netzwerke nur eine spezielle Anwendung innerhalb des Cyberraums darstellen. Antwort C ist falsch, weil der Cyberraum weltweite Verbindung umfasst und nicht auf isolierte Firmennetze beschränkt ist. Antwort D ist falsch, da private Anbieter riesige globale Netze betreiben und der Cyberraum nicht auf öffentliche Rechenzentren begrenzt ist."
+      },
+      {
+        "summary": "این پرسش پرسش اساسی تعریف و ویژگی های مرکزی فضای سایبری در زمینه امنیت اطلاعات را مطرح می کند.",
+        "language": "dari",
+        "common_trap": "یک دام رایج این است که فضای سایبری را فقط با اینترنت یا رسانه های اجتماعی برابر می دانند، به جای اینکه به کل سیستم های دیجیتال شبکه ای نگاه کنیم.",
+        "why_correct": "پاسخ ب درست است زیرا فضای سایبری کل فضای مجازی تشکیل شده توسط فناوری های دیجیتال اطلاعات و ارتباطات شبکه ای را در بر می گیرد. این شامل اینترنت، شبکه های گسترده و زیرساخت های فناوری اطلاعات متصل می شود.",
+        "why_incorrect": "پاسخ الف اشتباه است زیرا شبکه های اجتماعی تنها یک کاربرد ویژه در فضای سایبری هستند. پاسخ ج اشتباه است زیرا فضای سایبری شامل اتصال جهانی است و محدود به شبکه های شرکتی منزوی نیست. پاسخ ج اشتباه است زیرا ارائه دهندگان خصوصی شبکه های عظیم جهانی را اداره می کنند و فضای سایبری محدود به مراکز داده عمومی نیست."
+      },
+      {
+        "summary": "The question raises the fundamental question of the definition and central characteristics of cyberspace in the context of information security.",
+        "language": "en",
+        "common_trap": "A common pitfall is to equate cyberspace only with the internet or social media, rather than looking at the totality of all networked digital systems.",
+        "why_correct": "Answer B is correct because cyberspace encompasses the entire virtual space formed by networked digital information and communication technologies. This includes the Internet, wide-area networks and connected IT infrastructures.",
+        "why_incorrect": "Answer A is wrong because social networks are only a special application within cyberspace. Answer C is wrong because cyberspace encompasses worldwide connectivity and is not limited to isolated corporate networks. Answer D is wrong because private providers operate huge global networks and cyberspace is not limited to public data centers."
+      },
+      {
+        "summary": "השאלה מעלה את השאלה היסודית של ההגדרה והמאפיינים המרכזיים של מרחב הסייבר בהקשר של אבטחת מידע.",
+        "language": "he",
+        "common_trap": "מלכודת נפוצה היא להשוות את מרחב הסייבר רק לאינטרנט או לרשתות החברתיות, במקום להסתכל על כל המערכות הדיגיטליות המקושרות ברשת.",
+        "why_correct": "תשובה ב' נכונה משום שמרחב הסייבר כולל את כל המרחב הווירטואלי שנוצר על ידי טכנולוגיות מידע ותקשורת דיגיטליות מקושרות. זה כולל את האינטרנט, רשתות רחבות טווח ותשתיות IT מחוברות.",
+        "why_incorrect": "תשובה א' שגויה כי רשתות חברתיות הן רק יישום מיוחד במרחב הסייבר. תשובה ג' שגויה כי מרחב הסייבר כולל קישוריות עולמית ואינו מוגבל לרשתות ארגוניות מבודדות. תשובה ד' שגויה כי ספקים פרטיים מפעילים רשתות גלובליות ענקיות ומרחב הסייבר אינו מוגבל למרכזי נתונים ציבוריים."
+      }
+    ]
+  },
+  {
+    "id": "ac263b5d-337a-4984-b1ed-a4e702dcb1d7",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen bespricht das zuständige Team folgenden Fall: Eine Außentür zum Serverraum schließt nicht zuverlässig. Gleichzeitig werden Einbrüche in der Umgebung gemeldet. Welche fachliche Bewertung ist am passendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Beides beschreibt denselben Sachverhalt aus zwei unterschiedlichen Blickwinkeln auf dasselbe Ereignis",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Beides sind bereits eingetretene Schäden",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Die fehlerhafte Tür ist eine Schwachstelle; die Einbruchslage ist eine Bedrohung",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Die Tür ist die Bedrohung; die Einbruchslage ist die Schwachstelle",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "The question tests the understanding of the basic IT security concepts of vulnerability and threat using a practical example.",
+        "language": "en",
+        "common_trap": "Confusing terms such as vulnerability and threat, or assuming that the presence of a vulnerability automatically means damage.",
+        "why_correct": "A vulnerability is a defect or weakness in one's own system or object (in this case, the defective door of the server room). A threat is a potentially damaging external event or environment (in this case, the clustered intrusions in the environment). Option C correctly assigns both terms.",
+        "why_incorrect": "Option A is wrong because a broken door and external break-ins are two fundamentally different things. Option B is wrong because no damage has been done yet, just a risk. Option D is wrong because the terms have been reversed (the door is the weakness, not the danger)."
+      },
+      {
+        "summary": "השאלה בוחנת את ההבנה של מושגי אבטחת ה-IT הבסיסיים של פגיעויות ואיום באמצעות דוגמה מעשית.",
+        "language": "he",
+        "common_trap": "מונחים מבלבלים כמו פגיעות ואיום, או הנחה שנוכחות של פגיעות משמעותה אוטומטית נזק.",
+        "why_correct": "פגיעות היא פגם או חולשה במערכת או באובייקט של האדם עצמו (במקרה זה, בדלת הפגומה של חדר השרת). איום הוא אירוע חיצוני או סביבה שעלולה להזיק (במקרה זה, הפריצות המקובצות לסביבה). אפשרות C מקצה נכון את שני המונחים.",
+        "why_incorrect": "אפשרות א' שגויה כי דלת שבורה ופריצות חיצוניות הן שני דברים שונים מהותית. אפשרות ב' שגויה כי עדיין לא נגרם נזק, רק סיכון. אפשרות ד' שגויה כי התנאים התהפכו (הדלת היא החולשה, לא הסכנה)."
+      },
+      {
+        "summary": "Die Frage prüft das Verständnis der grundlegenden IT-Sicherheitsbegriffe Schwachstelle und Bedrohung anhand eines praktischen Beispiels.",
+        "language": "de",
+        "common_trap": "Begriffe wie Schwachstelle und Bedrohung zu verwechseln oder anzunehmen, dass das Vorhandensein einer Schwachstelle automatisch schon einen Schaden bedeutet.",
+        "why_correct": "Eine Schwachstelle ist ein Mangel oder eine Schwäche im eigenen System oder Objekt (hier die defekte Tür des Serverraums). Eine Bedrohung ist ein potenziell schädigendes äußeres Ereignis oder Umfeld (hier die gehäuften Einbrüche in der Umgebung). Option C ordnet beide Begriffe korrekt zu.",
+        "why_incorrect": "Option A ist falsch, da eine defekte Tür und externe Einbrüche zwei grundlegend verschiedene Dinge sind. Option B ist falsch, weil noch kein Schaden entstanden ist, sondern lediglich ein Risiko besteht. Option D ist falsch, da die Begriffe vertauscht wurden (die Tür ist die Schwäche, nicht die Gefahr)."
+      },
+      {
+        "summary": "این سوال درک مفاهیم پایه امنیت فناوری اطلاعات آسیب پذیری و تهدید را با استفاده از یک مثال عملی می سنجد.",
+        "language": "dari",
+        "common_trap": "اصطلاحات گیج کننده مانند آسیب پذیری و تهدید، یا فرض اینکه وجود آسیب پذیری به طور خودکار به معنای آسیب است.",
+        "why_correct": "آسیب پذیری نقص یا ضعف در سیستم یا شیء خود فرد است (در این حالت، درب معیوب اتاق سرور). تهدید یک رویداد یا محیط خارجی بالقوه آسیب زننده است (در این مورد، نفوذهای خوشه ای در محیط). گزینه C هر دو اصطلاح را به درستی اختصاص می دهد.",
+        "why_incorrect": "گزینه الف اشتباه است چون در شکسته و ورود غیرمجاز خارجی دو چیز اساساً متفاوت اند. گزینه ب اشتباه است چون هنوز آسیبی وارد نشده، فقط یک ریسک است. گزینه دَ اشتباه است چون شرایط معکوس شده اند (در نقطه ضعف است، نه خطر)."
+      }
+    ]
+  },
+  {
+    "id": "3855d5e7-74f0-47b1-9600-48c2a3510799",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Ein Archiv ist nach einem Wasserschaden tagelang nicht nutzbar; die Akten sind jedoch weder eingesehen noch verändert worden. Welches Ziel ist primär betroffen?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Authentisierung, weil das Archiv keinen Benutzer anmelden kann",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Vertraulichkeit, weil Wasser die Zugriffskontrolle umgeht",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Integrität, weil eine länger andauernde Nichtverfügbarkeit faktisch einer Veränderung des Zugriffszustands gleichkommt",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Verfügbarkeit, weil berechtigte Nutzung nicht rechtzeitig möglich ist",
+        "correct": true
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Die Frage prüft, welches Schutzziel der Informationssicherheit betroffen ist, wenn ein Archiv nach einem Wasserschaden tagelang nicht nutzbar ist, die Akten selbst aber weder eingesehen noch verändert wurden.",
+        "language": "de",
+        "common_trap": "Manche lassen sich von Option C verwirren, da dort fälschlicherweise behauptet wird, Nichtverfügbarkeit sei eine Veränderung des Zugriffszustands. Bei IHK-Fragen muss man strikt trennen: Daten unverändert = Integrität gewahrt; keine Einsicht = Vertraulichkeit gewahrt; kein Zugriff = Verfügbarkeit verletzt.",
+        "why_correct": "Das Schutzziel der Verfügbarkeit gewährleistet, dass autorisierte Benutzer zum geforderten Zeitpunkt auf Daten oder Ressourcen zugreifen können. Wenn ein Archiv tagelang nicht nutzbar ist, ist genau diese zeitgerechte Nutzung verhindert.",
+        "why_incorrect": "A ist falsch, weil Authentisierung die Identitätsprüfung betrifft und nicht den Zugriff auf physische Archive. B ist falsch, weil Vertraulichkeit den Schutz vor unbefugter Einsichtnahme beschreibt; laut Aufgabentext wurden keine Akten eingesehen. C ist falsch, weil Integrität die Korrektheit und Unversehrtheit der Daten betrifft; die Akten wurden nicht verändert. Ausharren ohne Zugriff ist keine Veränderung der Datenintegrität."
+      },
+      {
+        "summary": "השאלה בוחנת איזו מטרת הגנה של אבטחת מידע מושפעת אם הארכיון אינו שמיש במשך ימים לאחר נזקי מים, אך הקבצים עצמם לא נצפו ולא שונו.",
+        "language": "he",
+        "common_trap": "חלקם מתבלבלים לגבי אפשרות C, שכן היא טוענת בטעות שאי-זמינות היא שינוי במצב הגישה. במקרה של שאלות IHK, יש להבחין בקפדנות: נתונים ללא שינוי = שלמות נשמרת; אין תובנה = שמירה על סודיות; אין גישה = זמינות שהופרה.",
+        "why_correct": "מטרת ההגנה של זמינות מבטיחה שמשתמשים מורשים יוכלו לגשת לנתונים או למשאבים בזמן הנדרש. אם הארכיון אינו שמיש במשך ימים, דווקא השימוש בזמן הזה נמנע.",
+        "why_incorrect": "A שגוי כי אימות נוגע לאימות זהות ולא לגישה לארכיונים פיזיים. B שגוי כי סודיות מתארת הגנה מפני גישה לא מורשית; לפי טקסט המשימה, לא נצפו קבצים. C טועה כי שלמות נוגעת לנכונות ולשלמות של הנתונים; הקבצים לא שונו. התמדה ללא גישה אינה שינוי בשלמות הנתונים."
+      },
+      {
+        "summary": "The question examines which protection goal of information security is affected if an archive is unusable for days after water damage, but the files themselves have neither been viewed nor modified.",
+        "language": "en",
+        "common_trap": "Some are confused by option C, as it falsely claims that unavailability is a change in the state of access. In the case of IHK questions, one must make a strict distinction: data unchanged = integrity preserved; no insight = confidentiality maintained; no access = availability violated.",
+        "why_correct": "The protection goal of availability ensures that authorized users can access data or resources at the required time. If an archive is unusable for days, it is precisely this timely use that is prevented.",
+        "why_incorrect": "A is wrong because authentication concerns identity verification and not access to physical archives. B is wrong because confidentiality describes protection against unauthorized access; according to the task text, no files were viewed. C is wrong because integrity concerns the correctness and integrity of the data; the files have not been changed. Perseverance without access is not a change in data integrity."
+      },
+      {
+        "summary": "این پرسش بررسی می کند که کدام هدف حفاظت از امنیت اطلاعات تحت تأثیر قرار می گیرد اگر آرشیو برای روزها پس از آسیب آب غیرقابل استفاده باشد، اما خود فایل ها نه دیده شده و نه تغییر یافته اند.",
+        "language": "dari",
+        "common_trap": "برخی با گزینه C سردرگم شده اند، زیرا به اشتباه ادعا می کند که عدم دسترسی تغییر در وضعیت دسترسی است. در مورد سوالات IHK، باید تمایز دقیقی قائل شد: داده تغییر نکرده = یکپارچگی حفظ شده؛ بدون بینش = حفظ محرمانگی؛ بدون دسترسی = دسترسی نقض شده.",
+        "why_correct": "هدف حفاظت در دسترس بودن تضمین می کند که کاربران مجاز بتوانند در زمان مورد نیاز به داده ها یا منابع دسترسی داشته باشند. اگر آرشیو برای چند روز غیرقابل استفاده باشد، دقیقاً همین استفاده به موقع جلوگیری می شود.",
+        "why_incorrect": "A اشتباه است زیرا احراز هویت مربوط به تأیید هویت است و نه دسترسی به آرشیوهای فیزیکی. B اشتباه است زیرا محرمانگی به محافظت در برابر دسترسی غیرمجاز اشاره دارد؛ طبق متن وظیفه، هیچ فایلی مشاهده نشده است. C اشتباه است زیرا یکپارچگی مربوط به صحت و یکپارچگی داده ها است؛ فایل ها تغییر نکرده اند. پشتکار بدون دسترسی تغییر در یکپارچگی داده ها نیست."
+      }
+    ]
+  },
+  {
+    "id": "0d03b604-898c-4cb7-908c-226fe2658034",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Sicherheitsmaßnahme kombiniert Zutrittskarten, Schulungen, verbindliche Besucherregeln und eine abschließbare Tür. Was zeigt das Beispiel?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Schutz kann technische, personelle, organisatorische und infrastrukturelle Elemente verbinden",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Vorwiegend technische Maßnahmen beeinflussen einen Sicherheitszustand",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Personelle Maßnahmen ersetzen technische Kontrollen in den meisten Fällen",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Die Maßnahmen betreffen in erster Linie Business Continuity",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "השאלה קוראת להקצות אמצעי ביטחון שונים לאזורי ההגנה המתאימים ולהכרה בעקרון הביטחון ההוליסטי.",
+        "language": "he",
+        "common_trap": "הטעות הנפוצה היא להניח שאבטחת IT ניתנת לפתרון טכני בלבד. המונח 'המשכיות עסקית' משמש לעיתים בטעות כמונח כללי לכל אמצעי אבטחה.",
+        "why_correct": "הדוגמאות שהוזכרו מכסות ארבעה עמודי תווך חיוניים של אבטחה: כרטיסי גישה (טכניים), הכשרה (כוח אדם), כללי מבקרים (ארגוניים) ודלת נעולה (תשתיתית/מבנית). הגנה אפקטיבית מושגת רק באמצעות רשת בין כל האזורים הללו.",
+        "why_incorrect": "ב' טועה כי האבטחה אינה מורכבת רק מאמצעים טכניים. ג' טועה כי אמצעי כוח אדם אינם מחליפים את הטכנולוגיה, אלא משלימים אותה באופן משמעותי. ד' טועה כי דוגמאות קונקרטיות אלו מתייחסות לאבטחה פיזית ובקרת גישה, ולא ישירות לתחזוקת פעילות עסקית במקרה חירום (המשכיות עסקית)."
+      },
+      {
+        "summary": "Die Frage fordert dazu auf, verschiedene Einzelmaßnahmen der Sicherheit den entsprechenden Schutzbereichen zuzuordnen und das Prinzip der ganzheitlichen Sicherheit zu erkennen.",
+        "language": "de",
+        "common_trap": "Der häufige Denkfehler ist anzunehmen, dass IT-Sicherheit rein technisch gelöst werden kann. Oft wird auch der Begriff 'Business Continuity' fälschlicherweise als Oberbegriff für jegliche Sicherheitsmaßnahme verwendet.",
+        "why_correct": "Die genannten Beispiele decken vier wesentliche Säulen der Sicherheit ab: Zutrittskarten (technisch), Schulungen (personell), Besucherregeln (organisatorisch) und die abschließbare Tür (infrastrukturell/baulich). Effektiver Schutz entsteht erst durch die Vernetzung aller dieser Bereiche.",
+        "why_incorrect": "B ist falsch, weil Sicherheit nicht nur aus technischen Maßnahmen besteht. C ist falsch, da personelle Maßnahmen Technik nicht ersetzen, sondern sinnvoll ergänzen. D ist falsch, da sich diese konkreten Beispiele auf physische Sicherheit und Zutrittskontrolle beziehen, nicht direkt auf die Aufrechterhaltung des Geschäftsbetriebs bei Notfällen (Business Continuity)."
+      },
+      {
+        "summary": "The question calls for the assignment of various individual security measures to the corresponding areas of protection and for the principle of holistic security to be recognised.",
+        "language": "en",
+        "common_trap": "The common mistake in thinking is to assume that IT security can be solved purely technically. The term 'business continuity' is often mistakenly used as a generic term for any security measure.",
+        "why_correct": "The examples mentioned cover four essential pillars of security: access cards (technical), training (personnel), visitor rules (organizational) and the lockable door (infrastructural/structural). Effective protection can only be achieved through the networking of all these areas.",
+        "why_incorrect": "B is wrong because security does not only consist of technical measures. C is wrong because personnel measures do not replace technology, but complement it in a meaningful way. D is wrong because these concrete examples refer to physical security and access control, not directly to the maintenance of business operations in the event of emergencies (business continuity)."
+      },
+      {
+        "summary": "این پرسش خواستار تخصیص تدابیر امنیتی فردی به حوزه های حفاظت مربوطه و به رسمیت شناختن اصل امنیت جامع است.",
+        "language": "dari",
+        "common_trap": "اشتباه رایج این است که فرض کنیم امنیت فناوری اطلاعات را می توان صرفاً به صورت فنی حل کرد. اصطلاح «تداوم کسب وکار» اغلب به اشتباه به عنوان یک اصطلاح عمومی برای هر اقدام امنیتی به کار می رود.",
+        "why_correct": "نمونه های ذکر شده چهار ستون اساسی امنیت را پوشش می دهند: کارت های دسترسی (فنی)، آموزش (پرسنل)، قوانین بازدیدکنندگان (سازمانی) و درب قفل پذیر (زیرساختی/ساختاری). حفاظت مؤثر تنها از طریق شبکه سازی همه این حوزه ها ممکن است.",
+        "why_incorrect": "ب اشتباه است زیرا امنیت فقط شامل تدابیر فنی نیست. ج اشتباه است زیرا تدابیر پرسنلی جایگزین فناوری نمی شوند، بلکه به طور معناداری مکمل آن هستند. د اشتباه است زیرا این مثال های عینی به امنیت فیزیکی و کنترل دسترسی اشاره دارند، نه مستقیماً به حفظ عملیات کسب وکار در مواقع اضطراری (تداوم کسب وکار)."
+      }
+    ]
+  },
+  {
+    "id": "ee57dd2c-3ffa-4a48-9f73-3ff53f8ef8c9",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen wird die folgende Situation bewertet: Eine Bestelldatei wird von einem berechtigten Mitarbeiter versehentlich überschrieben. Welche Aussage ist am genauesten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Primär Verfügbarkeit, weil die Datei durch die Änderung vorübergehend nicht nutzbar war",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Die Integrität ist verletzt, obwohl keine feindliche Absicht vorliegt",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Vertraulichkeit ist betroffen, da der Mitarbeiter Zugriffsrechte besaß",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Kein Schutzziel ist betroffen, weil eine unbeabsichtigte Handlung keine Sicherheitsrelevanz hat",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Die Frage untersucht, welches Schutzziel der IT-Sicherheit verletzt wird, wenn ein berechtigter Mitarbeiter eine Datei versehentlich überschreibt.",
+        "language": "de",
+        "common_trap": "Oft wird fälschlicherweise angenommen, dass eine Sicherheitsverletzung immer einen gezielten Cyberangriff oder böse Absicht voraussetzt. Auch versehentliche Fehler verletzen Schutzziele.",
+        "why_correct": "Integrität garantiert, dass Daten korrekt, unversehrt und nicht unbefugt oder fehlerhaft verändert wurden. Wenn eine Datei überschrieben wird, geht der korrekte Inhalt verloren oder wird verfälscht. Für eine Verletzung der Integrität ist keine böswillige oder feindliche Absicht nötig; auch menschliche Versehen führen zu einer Integritätsverletzung.",
+        "why_incorrect": "A ist falsch, weil das Verändern oder Überschreiben von Inhalten primär die Korrektheit (Integrität) betrifft und nicht die bloße Erreichbarkeit des Systems. C ist falsch, da Vertraulichkeit den Schutz vor unberechtigter Einsichtnahme beschreibt, der Mitarbeiter hier aber bereits zugriffsberechtigt war. D ist falsch, da auch unbeabsichtigte Handlungen und menschliche Fehler echte Sicherheitsrisiken darstellen und Schutzziele verletzen."
+      },
+      {
+        "summary": "השאלה בוחנת איזו מטרת הגנה של אבטחת IT הופרה אם עובד מורשה מחקק בטעות קובץ.",
+        "language": "he",
+        "common_trap": "לעיתים קרובות מניחים בטעות שפרצת אבטחה תמיד דורשת מתקפת סייבר ממוקדת או כוונה זדונית. טעויות מקריות גם מפרות את מטרות ההגנה.",
+        "why_correct": "שלמות מבטיחה שהנתונים היו נכונים, שלמים ולא שונו באופן לא מורשה או שגוי. כאשר קובץ נמחק, התוכן הנכון אובד או נפגע. הפרת שלמות אינה דורשת כוונה זדונית או עוינת; טעות אנוש מובילה גם להפרת שלמות.",
+        "why_incorrect": "A טועה כי שינוי או החלפת תוכן נוגעים בעיקר לנכונות (שלמות) ולא רק לנגישות המערכת. C טועה כי סודיות מתארת הגנה מפני גישה לא מורשית, אך העובד כבר היה מורשה לגשת אליה. D טועה כי פעולות לא מכוונות וטעויות אנוש גם הן מהוות סיכוני אבטחה אמיתיים ומפרים את מטרות ההגנה."
+      },
+      {
+        "summary": "The question examines which protection objective of IT security is violated if an authorized employee accidentally overwrites a file.",
+        "language": "en",
+        "common_trap": "It is often mistakenly assumed that a security breach always requires a targeted cyberattack or malicious intent. Accidental mistakes also violate protection goals.",
+        "why_correct": "Integrity guarantees that data has been correct, intact, and not altered in an unauthorized or erroneous manner. When a file is overwritten, the correct content is lost or corrupted. A breach of integrity does not require malicious or hostile intent; human error also leads to a breach of integrity.",
+        "why_incorrect": "A is wrong because changing or overwriting content primarily concerns correctness (integrity) and not mere accessibility of the system. C is wrong because confidentiality describes protection against unauthorized access, but the employee was already authorized to access it. D is wrong because unintentional actions and human errors also pose real security risks and violate protection goals."
+      },
+      {
+        "summary": "این سوال بررسی می کند که کدام هدف حفاظتی امنیت فناوری اطلاعات نقض می شود اگر یک کارمند مجاز به طور تصادفی یک فایل را بازنویسی کند.",
+        "language": "dari",
+        "common_trap": "اغلب به اشتباه فرض می شود که نقض امنیتی همیشه نیازمند حمله سایبری هدفمند یا نیت مخرب است. اشتباهات تصادفی نیز اهداف حفاظتی را نقض می کنند.",
+        "why_correct": "یکپارچگی تضمین می کند که داده ها درست، سالم و بدون تغییر غیرمجاز یا اشتباه باقی مانده اند. وقتی یک فایل بازنویسی می شود، محتوای صحیح از بین می رود یا خراب می شود. نقض یکپارچگی نیازمند نیت مخرب یا خصمانه نیست؛ خطای انسانی همچنین منجر به نقض یکپارچگی می شود.",
+        "why_incorrect": "A اشتباه است زیرا تغییر یا بازنویسی محتوا عمدتاً مربوط به درستی (یکپارچگی) است و نه صرفاً دسترسی پذیری سیستم. C اشتباه است زیرا محرمانگی به معنای محافظت در برابر دسترسی غیرمجاز است، اما کارمند قبلاً مجاز به دسترسی به آن بوده است. D اشتباه است زیرا اقدامات غیرعمدی و خطاهای انسانی نیز خطرات امنیتی واقعی ایجاد می کنند و اهداف حفاظتی را نقض می کنند."
+      }
+    ]
+  },
+  {
+    "id": "b2010050-bf6c-43ef-8ce4-3cbe67bffd23",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen bespricht das zuständige Team folgenden Fall: Zwei identische Systeme haben dieselbe Schwachstelle. Eines ist öffentlich erreichbar, das andere dauerhaft vom Netz getrennt. Welche Aussage passt am sinnvollsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Vorwiegend das öffentlich erreichbare System kann einen Schaden verursachen, da Angreifer meist erreichbare Ziele bevorzugen",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Beide Systeme haben ein vergleichbares Risiko, weil die Schwachstelle identisch ist",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Die Schwachstelle ist gleich, das Risiko kann wegen unterschiedlicher Exposition abweichen",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Das isolierte System hat keine Schwachstelle mehr",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Risiko wird durch Kontext, Bedrohung und mögliche Auswirkungen mitbestimmt.",
+        "language": "de",
+        "common_trap": null,
+        "why_correct": null,
+        "why_incorrect": null
+      }
+    ]
+  },
+  {
+    "id": "38424277-764a-43a7-b483-719451a2cdad",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Vier Teams begründen Maßnahmen mit Informationssicherheit. Welche Begründung betrifft stattdessen primär reine IT-Funktionalität ohne erkennbaren Sicherheitsbezug?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Der Auftragsservice soll zu den vereinbarten Zeiten nutzbar sein",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Zahlungsdaten sollen ausschließlich berechtigte Rollen lesen können",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Freigegebene Stücklisten sollen nicht unbemerkt geändert werden",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Die Schriftgröße der Benutzeroberfläche soll dem Corporate Design entsprechen",
+        "correct": true
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "The question requires a distinction to be made between real security measures (according to the protection goals of information security) and pure design or usability requirements without any security reference.",
+        "language": "en",
+        "common_trap": "Availability (option A) is often mistakenly perceived as a purely IT operational function. In information security, however, availability is one of the three main protection goals (CIA triad).",
+        "why_correct": "Option D (font size according to corporate design) is a pure design and requirement specification for the user interface. It does not protect information from unauthorized access or from manipulation or failure and therefore has no relation to information security.",
+        "why_incorrect": "Option A addresses the protection objective of availability (service can be used at the agreed time). Option B addresses the protection objective of confidentiality (only authorised persons are allowed to read data). Option C addresses the protection objective of integrity (data must not be changed unnoticed)."
+      },
+      {
+        "summary": "این پرسش نیازمند تمایز میان تدابیر واقعی امنیتی (بر اساس اهداف حفاظت امنیت اطلاعات) و الزامات صرفاً طراحی یا قابلیت استفاده بدون هیچ مرجع امنیتی است.",
+        "language": "dari",
+        "common_trap": "دسترسی پذیری (گزینه A) اغلب به اشتباه به عنوان یک عملکرد عملیاتی صرفاً فناوری اطلاعات تلقی می شود. با این حال، در امنیت اطلاعات، دسترسی پذیری یکی از سه هدف اصلی حفاظت (سه گانه سیا) است.",
+        "why_correct": "گزینه D (اندازه فونت بر اساس طراحی شرکت) یک مشخصات طراحی و نیازمندی خالص برای رابط کاربری است. این مشخصات اطلاعات را از دسترسی غیرمجاز یا دستکاری یا شکست محافظت نمی کند و بنابراین هیچ ارتباطی با امنیت اطلاعات ندارد.",
+        "why_incorrect": "گزینه A به هدف حفاظت در دسترس بودن می پردازد (سرویس می تواند در زمان توافق شده استفاده شود). گزینه B به هدف حفاظت محرمانگی می پردازد (فقط افراد مجاز اجازه دارند داده ها را بخوانند). گزینه C به هدف حفاظت یکپارچگی می پردازد (داده ها نباید بدون توجه تغییر داده شوند)."
+      },
+      {
+        "summary": "Die Frage verlangt die Unterscheidung zwischen echten Sicherheitsmaßnahmen (gemäß den Schutzzielen der Informationssicherheit) und reinen Design- oder Usability-Anforderungen ohne Sicherheitsbezug.",
+        "language": "de",
+        "common_trap": "Verfügbarkeit (Option A) wird oft fälschlicherweise als reine IT-Betriebsfunktion wahrgenommen. In der Informationssicherheit ist die Verfügbarkeit jedoch eines der drei zentralen Hauptschutzziele (CIA-Triade).",
+        "why_correct": "Option D (Schriftgröße gemäß Corporate Design) ist eine reine Gestaltungs- und Anforderungsvorgabe für die Benutzeroberfläche. Sie schützt weder Informationen vor unbefugtem Zugriff noch vor Manipulation oder Ausfall und hat somit keinen Bezug zur Informationssicherheit.",
+        "why_incorrect": "Option A adressiert das Schutzziel Verfügbarkeit (Service ist zur vereinbarten Zeit nutzbar). Option B adressiert das Schutzziel Vertraulichkeit (nur Berechtigte dürfen Daten lesen). Option C adressiert das Schutzziel Integrität (Daten dürfen nicht unbemerkt verändert werden)."
+      },
+      {
+        "summary": "השאלה דורשת הבחנה בין אמצעי אבטחה אמיתיים (בהתאם למטרות ההגנה של אבטחת מידע) לבין דרישות עיצוב או שמישות טהורות ללא כל התייחסות אבטחה.",
+        "language": "he",
+        "common_trap": "זמינות (אפשרות א') נתפסת לעיתים בטעות כפונקציה תפעולית טהורה של IT. עם זאת, באבטחת מידע, זמינות היא אחת משלוש מטרות ההגנה העיקריות (הטריאדה של ה-CIA).",
+        "why_correct": "אפשרות D (גודל גופן לפי עיצוב ארגוני) היא מפרט עיצוב ודרישות טהור לממשק המשתמש. הוא אינו מגן על מידע מפני גישה לא מורשית או מניפולציה או כשל, ולכן אין לו קשר לאבטחת מידע.",
+        "why_incorrect": "אפשרות א' עוסקת במטרת ההגנה של זמינות (ניתן להשתמש בשירות בזמן שהוסכם). אפשרות ב' עוסקת במטרת ההגנה של סודיות (רק אנשים מורשים רשאים לקרוא נתונים). אפשרות ג' עוסקת במטרת ההגנה של שלמות (אין לשנות נתונים מבלי שייתפסו אותם)."
+      }
+    ]
+  },
+  {
+    "id": "1e11a52a-3160-4b69-a621-34a890d4cff3",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Organisation bewertet erstmals das Risiko eines offen zugänglichen Aktenraums. Welche Information sollte es neben der Schwachstelle als Erstes klären?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Welche Bedrohungen realistisch einwirken und welche Auswirkungen ein Zugriff hätte",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Wie hoch die Reparaturkosten für die defekte Zugangstür ausfallen würden",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Wie viele weitere Räume im Gebäude ebenfalls unverschlossen sind",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Wie hoch der Versicherungswert der im Aktenraum gelagerten Unterlagen ist",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Eine Risikoeinschätzung verbindet die Schwäche mit Bedrohung und möglicher Auswirkung.",
+        "language": "de",
+        "common_trap": null,
+        "why_correct": null,
+        "why_incorrect": null
+      }
+    ]
+  },
+  {
+    "id": "40d7ab03-0c9a-4ca1-9690-e33651fd5c8b",
+    "question": "In einem Workshop zu Sicherheitsgrundlagen wird die folgende Situation bewertet: Ein gestohlenes, stark verschlüsseltes Notebook enthält die einzige aktuelle Kopie einer Projektdatei. Welche Bewertung ist am vollständigsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Verfügbarkeit bleibt unbeeinträchtigt, da eine Kopie theoretisch rekonstruierbar ist",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Verschlüsselung reduziert das Offenlegungsrisiko; Verfügbarkeit kann trotzdem erheblich betroffen sein",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Durch die Verschlüsselung sind die wesentlichen Vertraulichkeitsrisiken des Diebstahls deutlich reduziert",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Der Diebstahl betrifft in erster Linie die Integrität, weil der Inhalt durch den Ortswechsel als verändert gilt",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Eine Maßnahme kann ein Schutzziel stärken, ohne andere Auswirkungen des Ereignisses zu beseitigen.",
+        "language": "de",
+        "common_trap": null,
+        "why_correct": null,
+        "why_incorrect": null
+      }
+    ]
+  },
+  {
+    "id": "5344cd3f-8237-4055-8af1-f2245a0e54ac",
+    "question": "Ein Bürogebäude liegt in einem Gebiet mit gelegentlichem Starkregen; der Serverraum befindet sich im Erdgeschoss. Für das kommende Wochenende wird eine Unwetterwarnung mit Starkregen ausgegeben. Wie ist die Lage am Wochenende gegenüber der Ausgangslage einzuordnen?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Unwetterwarnung macht aus der bestehenden Bedrohung eine konkrete Gefährdung für den Serverraum",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Die Lage bleibt unverändert eine Bedrohung, weil sich am Gebäude selbst nichts geändert hat",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Die Lage ist bereits ein eingetretener Schaden, weil eine amtliche Warnung vorliegt",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Die Lage betrifft ausschließlich das Risiko, weil noch kein Wasser eingedrungen ist",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "1b4af35b-47db-4503-8cdf-405abc301bf1",
+    "question": "Eine Projektleiterin bespricht in einem belebten Café am Nachbartisch vertrauliche Verhandlungsdetails mit einem Kollegen. Kein Dokument wird dabei verwendet. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt keine schutzbedürftige Information vor, da nichts schriftlich festgehalten wurde",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Es liegt schutzbedürftige Information vor, weil Information unabhängig vom Medium geschützt werden muss",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Es liegt ein bereits eingetretener Schaden vor, weil Dritte am Nachbartisch mithören könnten",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Es liegt lediglich ein organisatorisches Stilproblem vor, das keinen Bezug zur Informationssicherheit hat",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "השאלה בוחנת את ההבנה שהצורך בהגנה על מידע חסוי קיים ללא קשר לאמצעי שבו משתמשים (למשל בעל פה, דיגיטלי או על נייר).",
+        "language": "he",
+        "common_trap": "ההנחה שאבטחת IT והגנת מידע מתייחסות רק למחשבים, קבצים או מסמכים מודפסים, ושהמילה המדוברת אינה כלולה בכך.",
+        "why_correct": "מידע זקוק להגנה, לא משנה כיצד הוא מועבר. דיון בתוכן סודי בעל פה במקום ציבורי כמו בית קפה מפר את מטרת ההגנה של סודיות, שכן אנשים לא מורשים יכולים לקרוא או להאזין.",
+        "why_incorrect": "א' טועה כי סודיות אינה כפופה לצורה הכתובה. ג' טועה כי יש סיכון או פגיעות, אך לא בהכרח קרה נזק מוכח. ד' טועה כי שמירת סודיות היא מרכיב מרכזי באבטחת מידע."
+      },
+      {
+        "summary": "این پرسش درک این را بررسی می کند که نیاز به حفاظت از اطلاعات محرمانه صرف نظر از رسانه ای که استفاده می شود (مانند شفاهی، دیجیتال یا روی کاغذ) وجود دارد.",
+        "language": "dari",
+        "common_trap": "فرض اینکه امنیت فناوری اطلاعات و حفاظت از اطلاعات فقط به کامپیوترها، فایل ها یا اسناد کاغذی اشاره دارد و کلام گفتاری از این موارد مستثنی است.",
+        "why_correct": "اطلاعات نیاز به محافظت دارد، صرف نظر از نحوه انتقال آن. بحث شفاهی درباره محتوای محرمانه در مکان های عمومی مانند کافه هدف حفاظتی محرمانگی را نقض می کند، زیرا افراد غیرمجاز می توانند بخوانند یا گوش دهند.",
+        "why_incorrect": "A اشتباه است زیرا محرمانگی به شکل کتبی محدود نیست. C اشتباه می کند چون خطر یا آسیب پذیری وجود دارد، اما لزوماً آسیب اثبات شده ای قبلاً رخ نداده است. D اشتباه می کند چون حفظ محرمانگی جزء مرکزی امنیت اطلاعات است."
+      },
+      {
+        "summary": "Die Frage prüft das Verständnis darüber, dass der Schutzbedarf von vertraulichen Informationen unabhängig vom genutzten Medium (z. B. mündlich, digital oder auf Papier) besteht.",
+        "language": "de",
+        "common_trap": "Die Annahme, dass IT-Sicherheit und Informationsschutz sich nur auf Computer, Dateien oder Papierdokumente beziehen und gesprochenes Wort davon ausgenommen sei.",
+        "why_correct": "Informationen sind schutzbedürftig, egal wie sie übermittelt werden. Das mündliche Besprechen vertraulicher Inhalte an einem öffentlichen Ort wie einem Café verletzt das Schutzziel der Vertraulichkeit, da Unbefugte mitlesen oder mithören können.",
+        "why_incorrect": "A ist falsch, weil Vertraulichkeit nicht an Schriftform gebunden ist. C ist falsch, da ein Risiko bzw. eine Schwachstelle vorliegt, aber nicht zwingend schon ein nachgewiesener Schaden entstanden ist. D ist falsch, weil die Wahrung der Vertraulichkeit ein zentraler Bestandteil der Informationssicherheit ist."
+      },
+      {
+        "summary": "The question examines the understanding that the need for protection of confidential information exists regardless of the medium used (e.g. oral, digital or on paper).",
+        "language": "en",
+        "common_trap": "The assumption that IT security and information protection only refer to computers, files or paper documents and that the spoken word is excluded from this.",
+        "why_correct": "Information is in need of protection, no matter how it is transmitted. Discussing confidential content orally in a public place such as a café violates the protective goal of confidentiality, as unauthorized persons can read or listen in.",
+        "why_incorrect": "A is wrong because confidentiality is not bound to written form. C is wrong because there is a risk or a vulnerability, but not necessarily proven damage has already occurred. D is wrong because maintaining confidentiality is a central component of information security."
+      }
+    ]
+  },
+  {
+    "id": "fb806e09-617d-4305-ad60-b7153e43ea36",
+    "question": "Ein Mitarbeiter öffnet eine Phishing-Mail und klickt auf den enthaltenen Link, gibt aber auf der folgenden Seite keine Daten ein und bemerkt den Betrug rechtzeitig. Wie ist die Situation einzuordnen?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt bereits ein eingetretener Schaden vor, weil der Link angeklickt wurde",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Es liegt eine Gefährdung, aber kein Risiko vor, weil der Mitarbeiter den Betrug erkannt hat",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Es liegt weiterhin nur ein Risiko vor, da keine Daten preisgegeben und keine Auswirkung eingetreten ist",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Die Situation ist sicherheitstechnisch irrelevant, weil der Vorgang folgenlos blieb",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Die Frage verlangt die bewertende Einordnung eines Sicherheitsvorfalls, bei dem ein Mitarbeiter auf einen Phishing-Link klickt, aber rechtzeitig abbricht, bevor vertrauliche Daten eingegeben werden.",
+        "language": "de",
+        "common_trap": "Mitarbeiter glauben oft fälschlicherweise, dass ein Vorfall 'sicherheitstechnisch irrelevant' sei, wenn nichts Schlimmes passiert ist. In der IT-Sicherheit muss jedoch auch ein 'Beinahe-Unfall' analysiert werden.",
+        "why_correct": "Antwort C ist korrekt, da zwar eine Bedrohung vorlag und ein Risiko bestand, aber ohne die Preisgabe von Daten oder das Nachladen von Schadsoftware noch kein konkreter Schaden eingetreten ist. Das Risiko eines Sicherheitsvorfalls bleibt jedoch bestehen.",
+        "why_incorrect": "A ist falsch, da das bloße Öffnen einer Webseite ohne Folgeschäden (wie Malware-Infektion) noch keinen eingetretenen Schaden darstellt. B ist falsch, weil eine Gefährdung stets ein Risiko beinhaltet und diese Begriffe nicht gegeneinander ausgespielt werden können. D ist falsch, da der Vorfall keineswegs irrelevant ist; er liefert wichtige Erkenntnisse für das IT-Sicherheitsbewusstsein und die E-Mail-Filterung."
+      },
+      {
+        "summary": "The question requires the evaluative classification of a security incident in which an employee clicks on a phishing link but aborts in time before confidential data is entered.",
+        "language": "en",
+        "common_trap": "Employees often mistakenly believe that an incident is 'irrelevant from a security point of view' if nothing bad has happened. In IT security, however, a 'near miss' must also be analysed.",
+        "why_correct": "Answer C is correct, because although there was a threat and a risk, no concrete damage has yet occurred without the disclosure of data or the reloading of malware. However, the risk of a security incident remains.",
+        "why_incorrect": "A is wrong because simply opening a website without consequential damage (such as malware infection) does not yet constitute damage that has occurred. B is wrong because a threat always involves a risk and these terms cannot be played off against each other. D is wrong because the incident is by no means irrelevant; it provides important insights for IT security awareness and email filtering."
+      },
+      {
+        "summary": "این سوال نیازمند طبقه بندی ارزیابی یک حادثه امنیتی است که در آن یک کارمند روی لینک فیشینگ کلیک می کند اما قبل از وارد کردن داده های محرمانه به موقع لغو می شود.",
+        "language": "dari",
+        "common_trap": "کارمندان اغلب به اشتباه فکر می کنند که یک حادثه از نظر امنیتی «بی ربط» است اگر اتفاق بدی نیفتد. اما در امنیت فناوری اطلاعات، باید یک «نزدیک به خطا» نیز تحلیل شود.",
+        "why_correct": "پاسخ ج درست است، زیرا اگرچه تهدید و ریسک وجود داشت، اما تاکنون هیچ خسارت ملموسی بدون افشای داده ها یا بارگذاری مجدد بدافزار رخ نداده است. با این حال، خطر حادثه امنیتی همچنان باقی است.",
+        "why_incorrect": "الف اشتباه است زیرا صرفاً باز کردن یک وب سایت بدون آسیب های احتمالی (مانند آلودگی بدافزاری) هنوز به معنای آسیب رخ داده نیست. ب اشتباه است زیرا تهدید همیشه با ریسک همراه است و این اصطلاحات را نمی توان با یکدیگر مقایسه کرد. د اشتباه می کند چون حادثه به هیچ وجه بی اهمیت نیست؛ این بینش های مهمی برای آگاهی امنیت فناوری اطلاعات و فیلتر ایمیل فراهم می کند."
+      },
+      {
+        "summary": "השאלה דורשת סיווג הערכה של אירוע אבטחה שבו עובד לוחץ על קישור פישינג אך מבטל בזמן לפני הזנת נתונים חסויים.",
+        "language": "he",
+        "common_trap": "עובדים לעיתים קרובות טועים לחשוב שאירוע הוא 'לא רלוונטי מבחינת אבטחה' אם לא קרה דבר רע. עם זאת, באבטחת IT, יש לנתח גם 'כמעט תאונה'.",
+        "why_correct": "תשובה ג' נכונה, כי למרות שהיה איום וסיכון, עדיין לא נגרם נזק ממשי ללא גילוי נתונים או טעינת תוכנה זדונית. עם זאת, הסיכון לתקרית אבטחה עדיין קיימ.",
+        "why_incorrect": "א' טועה כי פשוט פתיחת אתר ללא נזק משמעותי (כמו זיהום בתוכנות זדוניות) עדיין אינה מהווה נזק שנגרם. ב' טועה כי איום תמיד כרוך בסיכון ואי אפשר לשחק בין המונחים הללו. ד' טועה כי האירוע אינו חסר רלוונטיות; הוא מספק תובנות חשובות למודעות לאבטחת מידע וסינון דוא\"ל."
+      }
+    ]
+  },
+  {
+    "id": "66f7f171-d34a-4256-99a0-5788ee314d6a",
+    "question": "Ein digital signierter Vertrag wird später von einer Partei bestritten; die Signatur bestätigt jedoch eindeutig Urheber und Zeitpunkt der Unterschrift. Welches Schutzziel wird hier primär genutzt?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Verfügbarkeit, weil der Vertrag weiterhin abrufbar ist",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Vertraulichkeit, weil nur Berechtigte den Vertrag einsehen konnten",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Integrität, weil der Vertragstext seit der Unterschrift unverändert ist",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Verbindlichkeit beziehungsweise Nichtabstreitbarkeit, weil die Urheberschaft nachweisbar bleibt",
+        "correct": true
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Die Frage verlangt die Zuordnung eines konkreten IT-Sicherheits-Szenarios (Abstreiten einer digitalen Unterschrift unter einem Vertrag) zum passenden Schutzziel.",
+        "language": "de",
+        "common_trap": "Oft werden Integrität und Verbindlichkeit verwechselt. Während Integrität garantiert, dass der Inhalt nicht verändert wurde, sorgt die Verbindlichkeit dafür, dass die handelnde Person (der Urheber) eindeutig identifiziert und nachgewiesen werden kann.",
+        "why_correct": "Antwort D ist richtig, da die digitale Signatur eindeutig belegt, wer das Dokument unterschrieben hat und wann dies geschah. Das Schutzziel der Verbindlichkeit (Nichtabstreitbarkeit / Non-Repudiation) stellt sicher, dass der Urheber eine durchgeführte Handlung oder Erstellung einer Erklärung im Nachhinein nicht leugnen kann.",
+        "why_incorrect": "Antwort A ist falsch, da Verfügbarkeit bedeutet, dass ein System oder Daten bei Bedarf betriebsbereit und abrufbar sind. Antwort B ist falsch, da Vertraulichkeit den Schutz vor unbefugter Offenlegung beschreibt. Antwort C ist falsch, da Integrität zwar Unverfälschtheit garantiert, im Zentrum dieser Aufgabe jedoch der Nachweis der Urheberschaft und des Zeitpunkts steht (Verbindlichkeit)."
+      },
+      {
+        "summary": "The question requires the assignment of a specific IT security scenario (denial of a digital signature under a contract) to the appropriate protection goal.",
+        "language": "en",
+        "common_trap": "Integrity and commitment are often confused. While integrity guarantees that the content has not been altered, binding nature ensures that the person acting (the author) can be clearly identified and proven.",
+        "why_correct": "Answer D is correct, as the digital signature clearly proves who signed the document and when this happened. The protective goal of binding nature (non-repudiation) ensures that the author cannot deny an action performed or the creation of a declaration after the fact.",
+        "why_incorrect": "Answer A is wrong because availability means that a system or data is operational and retrievable when needed. Answer B is wrong because confidentiality describes protection against unauthorized disclosure. Answer C is wrong because integrity guarantees authenticity, but at the heart of this task is the proof of authorship and timing (bindingness)."
+      },
+      {
+        "summary": "این سؤال نیازمند اختصاص یک سناریوی خاص امنیت فناوری اطلاعات (رد امضای دیجیتال تحت قرارداد) به هدف حفاظت مناسب است.",
+        "language": "dari",
+        "common_trap": "صداقت و تعهد اغلب با هم اشتباه گرفته می شوند. در حالی که صداقت تضمین می کند که محتوا تغییر نکرده باشد، ماهیت الزام آور تضمین می کند که شخص عمل کننده (نویسنده) به وضوح شناسایی و اثبات شود.",
+        "why_correct": "پاسخ D درست است، زیرا امضای دیجیتال به وضوح ثابت می کند که چه کسی سند را امضا کرده و چه زمانی این اتفاق افتاده است. هدف محافظتی با ماهیت الزام آور (عدم انکار) تضمین می کند که نویسنده نمی تواند عملی انجام شده یا ایجاد اعلامیه پس از وقوع را انکار کند.",
+        "why_incorrect": "پاسخ الف اشتباه است زیرا دسترسی پذیری به این معناست که یک سیستم یا داده عملیاتی و قابل بازیابی در صورت نیاز است. پاسخ ب اشتباه است زیرا محرمانگی به محافظت در برابر افشای غیرمجاز اشاره دارد. پاسخ ج اشتباه است زیرا یکپارچگی اصالت را تضمین می کند، اما در قلب این وظیفه، اثبات نویسندگی و زمان بندی (الزام بودن) قرار دارد."
+      },
+      {
+        "summary": "השאלה דורשת הקצאת תרחיש אבטחת IT ספציפי (שלילת חתימה דיגיטלית תחת חוזה) למטרת ההגנה המתאימה.",
+        "language": "he",
+        "common_trap": "יושרה ומחויבות לעיתים קרובות מתבלבלות זו בזו. בעוד שלמות מבטיחה שהתוכן לא שונה, הטבע המחייב מבטיח שהאדם הפועל (המחבר) יוכל להיות מזוהה והוכחה בבירור.",
+        "why_correct": "תשובה ד' נכונה, שכן החתימה הדיגיטלית מוכיחה בבירור מי חתם על המסמך ומתי זה קרה. המטרה המגוננת של טבע מחייב (אי-הכחשה) מבטיחה שהמחבר לא יוכל להכחיש פעולה שבוצעה או את יצירת ההצהרה לאחר המעשה.",
+        "why_incorrect": "תשובה א' שגויה כי זמינות פירושה שמערכת או נתונים פועלים וניתנים לשליפה בעת הצורך. תשובה ב' שגויה כי סודיות מתארת הגנה מפני גילוי לא מורשה. תשובה ג' שגויה כי שלמות מבטיחה אותנטיות, אך בלב המשימה עומדת ההוכחה למחבר ולתזמון (קשיבה)."
+      }
+    ]
+  },
+  {
+    "id": "8640d494-4725-49bf-a7e9-35128291a9ee",
+    "question": "Ein Onlineshop wird durch massenhaft automatisiert gesendete Anfragen so überlastet, dass reguläre Kunden ihn nicht mehr erreichen können; Daten werden dabei weder eingesehen noch verändert. Welches Schutzziel ist primär betroffen?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Verfügbarkeit, weil berechtigte Nutzer den Dienst nicht mehr erreichen können",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Vertraulichkeit, weil unbekannte Absender auf das System zugreifen",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Integrität, weil die Anfragen den normalen Systemzustand verändern",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Verbindlichkeit, weil die Herkunft der Anfragen nicht zugeordnet werden kann",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "1e9f1ce2-0d43-4c0f-b526-d1c1464cf526",
+    "question": "Ein Vortrag erklärt, dass Cyber-Sicherheit sich speziell auf Bedrohungen aus dem Cyberraum konzentriert, während Informationssicherheit unabhängig von der Form der Information gilt. Wie ist das Verhältnis der Begriffe zueinander am zutreffendsten beschrieben?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Cyber-Sicherheit und Informationssicherheit sind Synonyme mit identischem Geltungsbereich",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Informationssicherheit ist der umfassendere Begriff; Cyber-Sicherheit bildet darin den auf den Cyberraum bezogenen Teilbereich",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Cyber-Sicherheit ist der umfassendere Begriff und schließt Informationssicherheit vollständig ein",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Beide Begriffe betreffen ausschließlich technische Schutzmaßnahmen ohne organisatorischen Bezug",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "75bed878-bf35-4917-ba51-7a93d9735521",
+    "question": "Ein Überwachungssystem meldet eine Anmeldung zu einer ungewöhnlichen Uhrzeit von einem bislang nicht genutzten Standort; ob dahinter ein tatsächlicher Angriff steckt, ist noch unklar. Wie ist diese Meldung zunächst am treffendsten einzuordnen?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Als Sicherheitsvorfall, weil jede ungewöhnliche Anmeldung automatisch als Vorfall gilt",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Als Risiko, weil noch keine Bedrohung konkret vorliegt",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Als Ereignis, das zunächst bewertet werden muss, bevor eine Einstufung als Vorfall erfolgt",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Als Schwachstelle, weil die Anmeldung eine technische Lücke aufzeigt",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "b59bd0ad-6f7b-4a47-bdf4-1d7b5ad2ba22",
+    "question": "Ein Unternehmen bewertet Bedrohungen ausschließlich anhand externer Angreifer und berücksichtigt keine Beschäftigten mit legitimen Zugriffsrechten. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Bewertung ist vollständig, da Beschäftigte grundsätzlich vertrauenswürdig sind",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Interne Personen können begrifflich keine Bedrohung darstellen, da sie zur Organisation gehören",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Die Betrachtung externer Angreifer allein deckt automatisch auch interne Risiken ab",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Der Bewertung fehlt die Betrachtung von Insider-Bedrohungen durch Personen mit legitimem, aber missbrauchtem Zugriff",
+        "correct": true
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Die Frage verlangt eine kritische Einordnung einer Risikoanalyse, die ausschließlich externe Angreifer berücksichtigt und interne Mitarbeiter ignoriert.",
+        "language": "de",
+        "common_trap": "Der Irrglaube, dass Vertrauen oder Arbeitsverträge Sicherheitsrisiken durch eigene Mitarbeiter vollständig ausschließen.",
+        "why_correct": "Antwort D ist korrekt, da eine vollständige Bedrohungsanalyse immer auch Insider-Bedrohungen einbeziehen muss. Personen mit legitimen Zugriffsrechten können diese Rechte bewusst (Sabotage, Datendiebstahl) oder unbewusst (Fehlbedienung, Phishing) missbrauchen.",
+        "why_incorrect": "A ist falsch, weil Vertrauen in der IT-Sicherheit kein Ersatz für Kontrollen ist. B ist falsch, da interne Personen nachweislich eine der größten Bedrohungsquellen darstellen. C ist falsch, da rein externe Schutzmaßnahmen (wie Firewalls an den Außengrenzen) Missbrauch von bereits autorisierten Zugängen nicht verhindern."
+      },
+      {
+        "summary": "The question requires a critical classification of a risk analysis that only takes into account external attackers and ignores internal employees.",
+        "language": "en",
+        "common_trap": "The misconception that trust or employment contracts completely eliminate security risks posed by one's own employees.",
+        "why_correct": "Answer D is correct, as a complete threat analysis must always include insider threats. Persons with legitimate access rights can abuse these rights consciously (sabotage, data theft) or unconsciously (misoperation, phishing).",
+        "why_incorrect": "A is wrong because trust in IT security is no substitute for controls. B is wrong because internal people have been proven to be one of the biggest sources of threat. C is wrong because purely external protective measures (such as firewalls at the external borders) do not prevent misuse of already authorized access."
+      },
+      {
+        "summary": "השאלה דורשת סיווג קריטי של ניתוח סיכונים שלוקח בחשבון רק תוקפים חיצוניים ומתעלם מעובדים פנימיים.",
+        "language": "he",
+        "common_trap": "התפיסה השגויה שחוזי אמון או עבודה מבטלים לחלוטין את סיכוני האבטחה שמציבים העובדים שלך.",
+        "why_correct": "תשובה ד' נכונה, שכן ניתוח איומים מלא חייב תמיד לכלול איומים פנימיים. אנשים עם זכויות גישה לגיטימיות עלולים לנצל זכויות אלו במודע (חבלה, גניבת מידע) או לא במודע (הפעלה לקויה, פישינג).",
+        "why_incorrect": "א' טועה כי אמון באבטחת IT אינו תחליף לבקרות. ב' טועה כי אנשים פנימיים הוכחו כאחד ממקורות האיום הגדולים ביותר. ג' טועה כי אמצעי הגנה חיצוניים בלבד (כמו חומות אש בגבולות החיצוניים) אינם מונעים שימוש לרעה בגישה שכבר מורשית."
+      },
+      {
+        "summary": "این سوال نیازمند طبقه بندی انتقادی تحلیل ریسک است که فقط مهاجمان خارجی را در نظر می گیرد و کارکنان داخلی را نادیده می گیرد.",
+        "language": "dari",
+        "common_trap": "این تصور غلط که قراردادهای اعتماد یا استخدام کاملاً خطرات امنیتی ناشی از کارمندان خود را از بین می برد.",
+        "why_correct": "پاسخ D درست است، زیرا تحلیل کامل تهدید باید همیشه شامل تهدیدات داخلی باشد. افرادی که حق دسترسی مشروع دارند می توانند این حقوق را آگاهانه (خرابکاری، سرقت داده ها) یا ناخودآگاه (سوء استفاده یا فیشینگ) سوءاستفاده کنند.",
+        "why_incorrect": "A اشتباه می کند چون اعتماد به امنیت IT جایگزین کنترل ها نیست. B اشتباه می کند چون ثابت شده افراد داخلی یکی از بزرگ ترین منابع تهدید هستند. C اشتباه می کند چون تدابیر حفاظتی صرفاً خارجی (مانند فایروال ها در مرزهای خارجی) مانع سوءاستفاده از دسترسی مجاز قبلی نمی شود."
+      }
+    ]
+  },
+  {
+    "id": "ed394486-87af-46b6-ba66-431dada218cd",
+    "question": "Eine interne Kundenliste wird von einer unberechtigten Person eingesehen, jedoch nicht verändert oder gelöscht. Welches Schutzziel ist unmittelbar verletzt?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Vertraulichkeit",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Verfügbarkeit",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Integrität",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Nichtabstreitbarkeit",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "8d28a4a4-6734-4d0b-903d-b0adb1887f02",
+    "question": "Für ein System wurde ein hoher Schutzbedarf festgestellt; bislang wurde jedoch keine einzige Sicherheitsmaßnahme umgesetzt. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Der Schutzbedarf entfällt automatisch, solange keine Maßnahmen umgesetzt sind",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Die Feststellung eines Schutzbedarfs beschreibt den Bedarf an Schutz; sie ersetzt nicht die tatsächliche Umsetzung von Maßnahmen",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Ein hoher Schutzbedarf ist gleichbedeutend mit bereits umgesetzten Maßnahmen",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Schutzbedarf und Maßnahmen sind bedeutungsgleiche Begriffe für denselben Sachverhalt",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "השאלה עוסקת בהבדל בין זיהוי צורך בהגנה לבין יישום אמצעי אבטחה בפועל.",
+        "language": "he",
+        "common_trap": "אין לבלבל בין הצורך (מה שנדרש) לבין מצב היישום בפועל (מה שכבר נעשה).",
+        "why_correct": "אפשרות ב' נכונה כי הצורך בהגנה מגדיר רק עד כמה יש להגן על מערכת (הכרח/דרישה). קביעת הצורך הזה אינה מובילה אוטומטית לכך שאמצעים כבר יושמו, אלא מצדיקה את הצורך ביישומם.",
+        "why_incorrect": "אפשרות א' שגויה כי הצורך בהגנה לא נעלם רק כי עד כה לא יושמו צעדים. אפשרות ג' שגויה כי צורך גבוה בהגנה לא אומר שכבר קיימים אמצעי הגנה. אפשרות ד' שגויה כי הצורך בהגנה (דרישת היעד) ואמצעים (יישום ממשי) הם שני מונחים ומושגים שונים."
+      },
+      {
+        "summary": "The question addresses the difference between identifying a need for protection and actually implementing security measures.",
+        "language": "en",
+        "common_trap": "One should not confuse the need (what is needed) with the actual implementation status (what has already been done).",
+        "why_correct": "Option B is correct because the need for protection only defines how strongly a system must be protected (necessity/requirement). The determination of this need does not automatically lead to the fact that measures have already been implemented, but justifies the necessity of their implementation.",
+        "why_incorrect": "Option A is wrong because the need for protection does not disappear just because no measures have been implemented so far. Option C is wrong because a high need for protection does not mean that protective measures already exist. Option D is wrong because the need for protection (target requirement) and measures (actual implementation) are two different terms and concepts."
+      },
+      {
+        "summary": "این سوال به تفاوت بین شناسایی نیاز به حفاظت و اجرای واقعی تدابیر امنیتی می پردازد.",
+        "language": "dari",
+        "common_trap": "نباید نیاز (آنچه لازم است) را با وضعیت واقعی پیاده سازی (آنچه قبلاً انجام شده) اشتباه گرفت.",
+        "why_correct": "گزینه ب درست است زیرا نیاز به حفاظت فقط میزان شدت محافظت یک سیستم (ضرورت/نیاز) را تعیین می کند. تعیین این نیاز به طور خودکار به این معنا نیست که تدابیر قبلاً اجرا شده اند، بلکه ضرورت اجرای آن ها را توجیه می کند.",
+        "why_incorrect": "گزینه A اشتباه است زیرا نیاز به حفاظت فقط به این دلیل که تاکنون هیچ اقدامی اجرا نشده است، از بین نمی رود. گزینه C اشتباه است زیرا نیاز بالا به حفاظت به این معنا نیست که تدابیر حفاظتی قبلاً وجود داشته اند. گزینه D اشتباه است زیرا نیاز به حفاظت (نیاز هدف) و اقدامات (اجرای واقعی) دو اصطلاح و مفهوم متفاوت هستند."
+      },
+      {
+        "summary": "Die Frage befasst sich mit dem Unterschied zwischen der Feststellung eines Schutzbedarfs und der tatsächlichen Umsetzung von Sicherheitsmaßnahmen.",
+        "language": "de",
+        "common_trap": "Man darf den Bedarf (was benötigt wird) nicht mit dem tatsächlichen Umsetzungsstatus (was bereits erledigt ist) verwechseln.",
+        "why_correct": "Option B ist richtig, weil der Schutzbedarf lediglich definiert, wie stark ein System geschützt werden muss (Notwendigkeit/Anforderung). Das Ermitteln dieses Bedarfs führt nicht automatisch dazu, dass Maßnahmen bereits umgesetzt sind, sondern begründet die Notwendigkeit ihrer Umsetzung.",
+        "why_incorrect": "Option A ist falsch, da der Schutzbedarf nicht verschwindet, nur weil bisher keine Maßnahmen umgesetzt wurden. Option C ist falsch, da ein hoher Schutzbedarf nicht bedeutet, dass bereits Schutzmaßnahmen existieren. Option D ist falsch, weil Schutzbedarf (Soll-Anforderung) und Maßnahmen (Ist-Umsetzung) zwei unterschiedliche Begriffe und Konzepte sind."
+      }
+    ]
+  },
+  {
+    "id": "77ae1fb1-9d6e-4a8c-8f36-bbf674d6a199",
+    "question": "Ein Beschäftigter erzählt einem Kollegen im Pausenraum beiläufig Details zu einem noch nicht veröffentlichten Produktnamen. Welche Aussage ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Es handelt sich um schutzbedürftige Information, da der Produktname vor Veröffentlichung einen geschäftlichen Wert hat",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Es handelt sich um keine Information, da nichts dokumentiert wurde",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Es handelt sich um einen bereits eingetretenen Schaden, da ein Kollege zuhörte",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Es handelt sich um ein rein privates Gespräch ohne jede Relevanz für die Organisation",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "Die Frage prüft, wie Informationen bezüglich ihres Schutzbedarfs und ihres wirtschaftlichen Werts bewertet werden, selbst wenn sie nur mündlich im Pausenraum besprochen werden.",
+        "language": "de",
+        "common_trap": "Der Irrglaube, dass mündliche oder informelle Gespräche im Pausenraum privater Natur sind und keine Relevanz für die Informationssicherheit oder Betriebsgeheimnisse haben.",
+        "why_correct": "Antwort A ist korrekt, weil unveröffentlichte Produktinformationen einen ökonomischen und strategischen Wert für das Unternehmen haben. Wenn solche Details vorab bekannt werden, kann dies den Markterfolg oder Wettbewerbsvorteil gefährden. Mündliche Informationen sind ebenso schutzbedürftig wie schriftlich dokumentierte Daten.",
+        "why_incorrect": "B ist falsch, weil eine Information nicht erst durch Dokumentation zur Information wird; auch mündlicher Wissenstransfer ist Information. C ist falsch, da das Gespräch mit einem eigenen Kollegen im Pausenraum nicht automatisch einen eingetretenen Schaden darstellt, sondern ein mögliches Sicherheitsrisiko oder ein Fehlverhalten ist. D ist falsch, da geschäftliche Interna auch in einer informellen Umgebung geschäftlich relevant und vertraulich bleiben."
+      },
+      {
+        "summary": "השאלה בוחנת כיצד מידע מוערך מבחינת צרכי ההגנה והערך הכלכלי שלו, גם אם הוא נדון רק בעל פה בחדר המנוחה.",
+        "language": "he",
+        "common_trap": "הטעות התפיסה ששיחות בעל פה או בלתי פורמלית בחדר ההפסקות הן פרטיות ואינן רלוונטיות לאבטחת מידע או לסודות מסחריים.",
+        "why_correct": "תשובה א' נכונה כי מידע מוצר שלא פורסם הוא בעל ערך כלכלי ואסטרטגי עבור החברה. אם פרטים כאלה יתבררו מראש, הדבר עלול לסכן את הצלחת השוק או את היתרון התחרותי. מידע בעל פה זקוק להגנה לא פחות מנתונים המתועדים בכתב.",
+        "why_incorrect": "ב' טועה כי מידע לא הופך רק למידע דרך תיעוד; העברת ידע בעל פה היא גם מידע. ג' טועה כי השיחה עם עמית בחדר המנוחה אינה מייצגת אוטומטית נזק שקרה, אלא מהווה סיכון ביטחוני או התנהגות לא תקינה אפשרית. ד' טועה כי מידע עסקי פנימי נשאר רלוונטי לעסק וסודי גם בסביבה לא פורמלית."
+      },
+      {
+        "summary": "این پرسش بررسی می کند که چگونه اطلاعات از نظر نیازهای حفاظتی و ارزش اقتصادی آن ارزیابی می شود، حتی اگر فقط به صورت شفاهی در اتاق استراحت مورد بحث قرار گیرد.",
+        "language": "dari",
+        "common_trap": "این تصور غلط که گفتگوهای شفاهی یا غیررسمی در اتاق استراحت ماهیت خصوصی دارند و هیچ ارتباطی با امنیت اطلاعات یا اسرار تجاری ندارند.",
+        "why_correct": "پاسخ الف درست است زیرا اطلاعات محصول منتشرنشده برای شرکت ارزش اقتصادی و استراتژیک دارد. اگر چنین جزئیاتی از قبل مشخص شود، این می تواند موفقیت بازار یا مزیت رقابتی را به خطر بیندازد. اطلاعات شفاهی به همان اندازه که داده های مستند شده به صورت مکتوب نیاز به محافظت دارند.",
+        "why_incorrect": "ب اشتباه است زیرا اطلاعات فقط از طریق مستندسازی به اطلاعات تبدیل نمی شود؛ انتقال دانش شفاهی نیز اطلاعات است. ج اشتباه می کند زیرا گفتگو با همکار خود در اتاق استراحت به طور خودکار نمایانگر آسیبی که رخ داده نیست، بلکه ممکن است یک ریسک امنیتی یا سوءرفتار باشد. د اشتباه می کند زیرا اطلاعات داخلی کسب وکار حتی در محیط غیررسمی نیز مرتبط و محرمانه باقی می ماند."
+      },
+      {
+        "summary": "The question examines how information is assessed in terms of its protection needs and economic value, even if it is only discussed orally in the break room.",
+        "language": "en",
+        "common_trap": "The misconception that oral or informal conversations in the break room are of a private nature and have no relevance to information security or trade secrets.",
+        "why_correct": "Answer A is correct because unpublished product information has an economic and strategic value for the company. If such details become known in advance, this can jeopardize market success or competitive advantage. Oral information is just as much in need of protection as data documented in writing.",
+        "why_incorrect": "B is wrong because information does not only become information through documentation; oral knowledge transfer is also information. C is wrong because the conversation with one's own colleague in the break room does not automatically represent damage that has occurred, but is a possible security risk or misconduct. D is wrong because internal business information remains business-relevant and confidential even in an informal environment."
+      }
+    ]
+  },
+  {
+    "id": "d52051b4-d6f7-4cbf-b599-c90b99507cee",
+    "question": "Ein Messwert eines Sensors wird im laufenden Betrieb korrekt und nachvollziehbar durch eine berechtigte Person berichtigt. Welche Aussage zur Integrität ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Integrität ist verletzt, da sich der Wert geändert hat",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Integrität bleibt gewahrt, da die Änderung berechtigt, nachvollziehbar und fachlich korrekt erfolgte",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Integrität kann nur durch technische Maßnahmen, niemals durch Prozesse gesichert werden",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Integrität betrifft ausschließlich verschlüsselte Daten",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "6ecd33c7-9d14-4712-b141-223ee820c95f",
+    "question": "Ein Unbefugter verschafft sich physisch Zutritt zu einem Bürogebäude und entwendet Papierunterlagen; kein IT-System ist beteiligt. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt ein Fall der Informationssicherheit vor, auch ohne Beteiligung eines IT-Systems",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Es liegt kein sicherheitsrelevanter Vorfall vor, da keine IT-Systeme betroffen sind",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Es liegt ausschließlich ein Fall für die IT-Sicherheit vor",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Es liegt ausschließlich ein Fall für die Cyber-Sicherheit vor",
+        "correct": false
+      }
+    ],
+    "explanations": [
+      {
+        "summary": "این پرسش به بررسی درک اساسی اصطلاح امنیت اطلاعات در مقایسه با امنیت فناوری اطلاعات و امنیت سایبری می پردازد.",
+        "language": "dari",
+        "common_trap": "اشتباه رایج این است که باور کنیم امنیت در آموزش فناوری اطلاعات فقط مربوط به داده های دیجیتال است. با این حال، امنیت اطلاعات به طور صریح شامل رسانه های آنالوگ مانند فایل های کاغذی و پوشه های فایل نیز می شود.",
+        "why_correct": "امنیت اطلاعات از هر نوع اطلاعات محافظت می کند، چه به صورت دیجیتال روی سرورها، چه چاپ روی کاغذ یا به صورت شفاهی. بنابراین سرقت اسناد کاغذی یک مورد واضح از امنیت اطلاعات است.",
+        "why_incorrect": "گزینه ب اشتباه است زیرا از دست رفتن اسناد محرمانه یک حادثه امنیتی مهم است. گزینه های ج و د اشتباه هستند زیرا امنیت فناوری اطلاعات و امنیت سایبری به ترتیب نیازمند دخالت سیستم های فناوری اطلاعات الکترونیکی و شبکه های دیجیتال هستند."
+      },
+      {
+        "summary": "השאלה בוחנת את ההבנה הבסיסית של המונח אבטחת מידע בהשוואה לאבטחת IT ואבטחת סייבר.",
+        "language": "he",
+        "common_trap": "הטעות הנפוצה במחשבה היא להאמין שאבטחה בחינוך IT עוסקת רק בנתונים דיגיטליים. עם זאת, אבטחת מידע כוללת במפורש גם מדיה אנלוגית כמו קבצי נייר ותיקיות קבצים.",
+        "why_correct": "אבטחת מידע מגנה על מידע מכל סוג, בין אם דיגיטלית על שרתים, מודפס על נייר או נדון בעל פה. לכן, גניבת מסמכים מודפסת היא מקרה ברור של אבטחת מידע.",
+        "why_incorrect": "אפשרות ב' שגויה כי אובדן מסמכים סודיים הוא אירוע אבטחה משמעותי. אפשרות ג' וד' שגויות כי אבטחת IT ואבטחת סייבר דורשות מעורבות של מערכות IT אלקטרוניות ורשתות דיגיטליות, בהתאמה."
+      },
+      {
+        "summary": "The question examines the basic understanding of the term information security in comparison to IT security and cyber security.",
+        "language": "en",
+        "common_trap": "The common mistake in thinking is to believe that security in IT education only concerns digital data. However, information security explicitly also includes analogue media such as paper files and file folders.",
+        "why_correct": "Information security protects information of any kind, whether digitally on servers, printed on paper or verbally discussed. Theft of paper documents is therefore a clear incident of information security.",
+        "why_incorrect": "Option B is wrong because the loss of confidential documents is a significant security incident. Option C and D are wrong because IT security and cyber security require the involvement of electronic IT systems and digital networks, respectively."
+      },
+      {
+        "summary": "Die Frage prüft das grundlegende Verständnis des Begriffs Informationssicherheit im Vergleich zu IT-Sicherheit und Cyber-Sicherheit.",
+        "language": "de",
+        "common_trap": "Der häufige Denkfehler ist zu glauben, dass Sicherheit in der IT-Ausbildung nur digitale Daten betrifft. Informationssicherheit umfasst jedoch explizit auch analoge Medien wie Papierakte und Aktenordner.",
+        "why_correct": "Informationssicherheit schützt Informationen jeglicher Art, egal ob digital auf Servern, gedruckt auf Papier oder mündlich besprochen. Der Diebstahl von Papierdokumenten ist daher ein klarer Vorfall der Informationssicherheit.",
+        "why_incorrect": "Option B ist falsch, weil der Verlust vertraulicher Dokumente ein erheblicher Sicherheitsvorfall ist. Option C und D sind falsch, weil IT-Sicherheit und Cyber-Sicherheit zwingend die Beteiligung von elektronischen IT-Systemen bzw. digitalen Netzwerken erfordern."
+      }
+    ]
+  },
+  {
+    "id": "a4338308-43a7-4fcd-90be-0beac3b2e2cb",
+    "question": "Ein Unternehmen behandelt Verfügbarkeit als einziges relevantes Schutzziel für alle Systeme, auch für ein Personalinformationssystem mit hochsensiblen Daten. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Dies ist angemessen, da Verfügbarkeit unabhängig vom Inhalt für jedes einzelne System das wichtigste Schutzziel darstellt",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Die Relevanz der einzelnen Schutzziele hängt von Art und Inhalt des Systems ab; bei sensiblen Personaldaten ist häufig auch die Vertraulichkeit besonders wichtig",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Vertraulichkeit ist ausschließlich bei öffentlich zugänglichen Systemen mit externem Zugriff relevant",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Ein Personalinformationssystem benötigt grundsätzlich kein eigenes, vom Standardprofil abweichendes Schutzzielprofil",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "2675824f-7938-490a-94c9-2cdef020d7e9",
+    "question": "Ein Lieferant wird durch einen Cyberangriff lahmgelegt, wodurch ein abhängiger Geschäftsprozess des eigenen Unternehmens nicht mehr rechtzeitig ausgeführt werden kann. Welche Aussage ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Abhängigkeit von Dienstleistern kann selbst ohne eigene technische Schwachstelle zu einer Gefährdung der eigenen Verfügbarkeit werden",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Da der Angriff nicht das eigene Unternehmen unmittelbar betrifft, besteht keine Relevanz für die eigene Sicherheitsbewertung",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Ausfälle bei Lieferanten betreffen ausschließlich deren eigene Risikobewertung",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Ein Ausfall des Lieferanten kann das Schutzziel Vertraulichkeit beim eigenen Unternehmen nicht berühren",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "7b678937-e2e5-41ab-9c8a-ced81e89f10d",
+    "question": "Zwei Organisationen nutzen dieselbe Standardsoftware mit einer bekannten Schwachstelle; eine hat zusätzlich strenge Zugriffsbeschränkungen und Überwachung eingerichtet, die andere nicht. Welche Aussage ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Beide Organisationen tragen exakt dasselbe Risiko, weil die Schwachstelle identisch ist",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Die Schwachstelle ist bei beiden gleich, das tatsächliche Risiko kann sich durch unterschiedliche Schutzmaßnahmen dennoch unterscheiden",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Zugriffsbeschränkungen und Überwachung beseitigen die Schwachstelle vollständig",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Ohne identische Schutzmaßnahmen ist ein Vergleich der beiden Organisationen grundsätzlich nicht möglich",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "3982865f-8c7d-48e4-8118-a53c6a8b1e3d",
+    "question": "Ein Auszubildender löscht versehentlich einen wichtigen Ordner auf einem gemeinsam genutzten Laufwerk, weil er die Ordnerstruktur missverstanden hat. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt eine Bedrohung durch menschliches Fehlverhalten vor, die zu einer Beeinträchtigung der Verfügbarkeit führen kann",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Es liegt keine Bedrohung vor, da keine böswillige Absicht erkennbar ist",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Es liegt ausschließlich ein Integritätsproblem vor, da eine Datei verändert wurde",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Es liegt eine Schwachstelle, aber keine Bedrohung vor, weil der Auszubildende unerfahren ist",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "3d0ccfd7-9b94-4f0e-a12c-d6fa6e71f9ab",
+    "question": "Ein Unternehmen speichert dieselbe wichtige Konstruktionszeichnung nur einmalig auf einem einzelnen Notebook, ohne weitere Kopie. Welches Risiko ist hierbei am unmittelbarsten relevant?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Die einmalige Speicherung erhöht automatisch die Vertraulichkeit der Zeichnung",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Ein Verlust oder Defekt des Notebooks würde die Verfügbarkeit der Zeichnung erheblich gefährden",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Eine einzelne Kopie ist grundsätzlich sicherer als mehrere verteilte Kopien",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Das Risiko betrifft ausschließlich die Integrität der Zeichnung",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "39b52cd9-9dcb-49af-b47a-95584b8d378c",
+    "question": "Ein Auftragnehmer erhält vorübergehend Zugriff auf ein internes System, um eine Wartung durchzuführen; der Zugriff wird nach Abschluss der Arbeiten nicht wieder entzogen. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Der fortbestehende Zugriff stellt eine Schwachstelle dar, die das Risiko eines späteren Missbrauchs erhöht",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Ein vorübergehender Zugriff kann grundsätzlich unbegrenzt bestehen bleiben, ohne ein Risiko darzustellen",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Externe Auftragnehmer stellen grundsätzlich keine Bedrohung für interne Systeme dar",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Der nicht entzogene Zugriff betrifft ausschließlich die Verfügbarkeit des Systems",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "731a9e4e-fb0d-4cb9-a504-5f5d1812ae70",
+    "question": "Eine Organisation stuft alle ihre Informationen unabhängig von Inhalt und Bedeutung einheitlich als „normal schutzbedürftig“ ein. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine einheitliche Einstufung ist stets die effizienteste und daher richtige Vorgehensweise",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Eine einheitliche Einstufung ohne inhaltliche Differenzierung kann sowohl zu Über- als auch zu Unterschutz führen",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Der Schutzbedarf einer Information hängt ausschließlich von ihrem Speicherort ab, nicht von ihrem Inhalt",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Eine Differenzierung des Schutzbedarfs ist ausschließlich für technische Systeme relevant, nicht für Informationen selbst",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "05df6b63-dea5-44ef-9100-524261fdc4f4",
+    "question": "Ein Kundenprojektname wird versehentlich in einer öffentlichen Präsentation gezeigt, obwohl das Projekt vertraulich ist; die Präsentation wird sofort korrigiert, bevor jemand außerhalb des Raumes reagieren kann. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt eine Gefährdung der Vertraulichkeit vor, deren tatsächliche Auswirkung von der Zusammensetzung des anwesenden Publikums abhängt",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Es liegt kein Vorfall vor, da die Präsentation sofort korrigiert wurde",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Es liegt zwingend ein bereits eingetretener Schaden vor, unabhängig vom anwesenden Publikum",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Es liegt ausschließlich ein Problem der Verfügbarkeit der Präsentation vor",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "7f41bb21-5d95-4c36-b91e-bba8d399e182",
+    "question": "Zwei baugleiche Server verarbeiten dieselbe Art von Anwendung; einer verarbeitet zusätzlich hochsensible Gesundheitsdaten, der andere ausschließlich öffentlich zugängliche Informationen. Welche Aussage ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Baugleiche Hardware führt stets zu identischem Schutzbedarf, unabhängig von den verarbeiteten Informationen",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Beide Server haben trotz identischer Hardware unterschiedlichen Schutzbedarf, da sich Art und Sensibilität der verarbeiteten Informationen unterscheiden",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Der Schutzbedarf richtet sich ausschließlich nach der eingesetzten Hardware, nicht nach den verarbeiteten Daten",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Öffentlich zugängliche Informationen erfordern grundsätzlich denselben Schutzbedarf wie hochsensible Gesundheitsdaten",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "fdcc6ac7-b04e-44f7-8c5e-e0770a297869",
+    "question": "Ein Beschäftigter nutzt sein privates Smartphone, um kurzfristig eine dienstliche E-Mail mit vertraulichem Anhang zu lesen, da sein Diensthandy gerade nicht griffbereit ist. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Nutzung eines nicht verwalteten privaten Geräts für vertrauliche Inhalte kann eine zusätzliche Schwachstelle darstellen",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Die Nutzung eines privaten Geräts ist unproblematisch, solange die Person selbst berechtigt ist, den Inhalt zu lesen",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Private Geräte stellen grundsätzlich keine andere Risikolage dar als verwaltete Diensthandys",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Das Risiko betrifft ausschließlich die Verfügbarkeit der E-Mail",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "5ab08145-2a7d-4b6c-b770-faa2fb131bdf",
+    "question": "Eine Organisation erfährt von einer neuen, in den Medien breit diskutierten Angriffsmethode, die branchenweit genutzte Software betrifft, prüft aber nicht, ob sie selbst betroffen sein könnte. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Medienberichte über Angriffsmethoden sind für die eigene Bedrohungsbewertung grundsätzlich ohne Bedeutung",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Die Organisation sollte prüfen, ob die betroffene Software auch bei ihr im Einsatz ist und welche Bedrohungslage sich daraus ergibt",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Eine Prüfung ist nur erforderlich, wenn die eigene Organisation bereits konkret angegriffen wurde",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Branchenweit bekannte Angriffsmethoden betreffen ausschließlich große Unternehmen",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "46c21c05-ab26-457f-8551-1dfc57b48590",
+    "question": "Eine Führungskraft teilt ihr persönliches Passwort mit einer vertretenden Person, damit diese während einer kurzen Abwesenheit dringende Freigaben erteilen kann. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Weitergabe eines persönlichen Passworts schafft eine Schwachstelle, da Handlungen danach nicht mehr eindeutig einer Person zuordenbar sind",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Die Weitergabe ist unproblematisch, solange beide Personen sich gegenseitig vertrauen",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Passwortweitergabe betrifft ausschließlich die Verfügbarkeit des betroffenen Kontos",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Eine kurzfristige Weitergabe für dringende Fälle ist grundsätzlich von jeder Sicherheitsbetrachtung ausgenommen",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "0df1dd0c-fe7d-457c-98a1-3cbe3ea6a727",
+    "question": "Ein Unternehmen speichert Sicherungskopien seiner wichtigsten Daten im selben Gebäude wie die Originaldaten, jedoch in einem anderen Stockwerk. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine Sicherungskopie im selben Gebäude bietet stets denselben Schutz wie eine räumlich getrennte Sicherung",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Ein Ereignis wie ein Gebäudebrand könnte sowohl Original als auch Sicherungskopie gleichzeitig betreffen",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Die Lagerung im selben Gebäude betrifft ausschließlich die Vertraulichkeit der Daten",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Eine Sicherungskopie erfüllt ihren Zweck unabhängig vom Lagerort vollständig",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "66b6a9ef-0a95-4790-b057-8f01f1d545e3",
+    "question": "Ein Beschäftigter fotografiert versehentlich einen Bildschirm mit vertraulichen Kundendaten für private Zwecke und löscht das Foto sofort wieder, nachdem er den Fehler bemerkt hat. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt eine kurzzeitige Gefährdung der Vertraulichkeit vor, auch wenn das Foto unmittelbar wieder gelöscht wurde",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Da das Foto sofort gelöscht wurde, liegt keinerlei sicherheitsrelevanter Sachverhalt vor",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Ein einmal erstelltes Foto stellt zwingend einen bereits eingetretenen Schaden dar",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Das Löschen des Fotos beseitigt rückwirkend jede Relevanz für die Informationssicherheit",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "7cfb131b-1659-4847-a4ad-bb3bf806fecd",
+    "question": "Ein Unternehmen verwendet für mehrere unterschiedliche Systeme dasselbe Administratorpasswort, um die Verwaltung zu vereinfachen. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Ein gemeinsames Administratorpasswort erhöht grundsätzlich die Sicherheit, da es leichter zu verwalten ist",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Ein kompromittiertes gemeinsames Passwort würde gleichzeitig alle betroffenen Systeme gefährden",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Die Verwendung desselben Passworts für mehrere Systeme betrifft ausschließlich die Verfügbarkeit dieser Systeme",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Vereinfachte Verwaltung rechtfertigt grundsätzlich jede Reduzierung individueller Zugangsdaten",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "5d7a876d-6642-424e-a9d5-b0c9af1bff49",
+    "question": "Ein Praktikant erhält versehentlich Zugriff auf einen Ordner mit Gehaltsdaten, obwohl seine Rolle dies nicht erfordert; er öffnet den Ordner nicht und meldet den Fehler sofort. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt eine Schwachstelle in der Rechtevergabe vor, unabhängig davon, ob der Zugriff tatsächlich genutzt wurde",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Da der Ordner nicht geöffnet wurde, liegt keinerlei sicherheitsrelevanter Sachverhalt vor",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Die Meldung des Fehlers macht die zugrunde liegende Schwachstelle rückwirkend bedeutungslos",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Eine überzogene Rechtevergabe ist erst dann relevant, wenn sie tatsächlich missbraucht wird",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "f782d3aa-0456-4eb4-9648-10c00c2db268",
+    "question": "Zwei vergleichbare Abteilungen setzen dieselbe Anwendung ein; eine Abteilung schult ihre Beschäftigten regelmäßig zu sicherheitsrelevantem Verhalten, die andere nicht. Welche Aussage ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Identische Technik führt stets zu identischem Risiko, unabhängig vom Verhalten der Beschäftigten",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Beide Abteilungen können trotz identischer Technik ein unterschiedliches tatsächliches Risiko aufweisen, da menschliches Verhalten das Risiko mitbestimmt",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Schulungen zu sicherheitsrelevantem Verhalten haben auf das tatsächliche Risiko keinen relevanten Einfluss",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Das Risiko einer Abteilung hängt ausschließlich von der eingesetzten Technik ab",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "649d9534-7c18-4fe7-97ef-57e8debe797b",
+    "question": "Ein Lieferant erhält dauerhaften Zugriff auf ein internes System, obwohl das ursprüngliche Projekt, für das der Zugriff eingerichtet wurde, längst abgeschlossen ist. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Der fortbestehende Zugriff nach Projektabschluss stellt eine unnötige Schwachstelle dar, die entfernt werden sollte",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Ein einmal eingerichteter Lieferantenzugriff sollte aus Gründen der Kontinuität dauerhaft bestehen bleiben",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Der Zugriff ist unproblematisch, solange der Lieferant seit Projektbeginn kein auffälliges Verhalten gezeigt hat",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Die Dauer eines Lieferantenzugriffs betrifft ausschließlich vertragliche, nicht sicherheitsrelevante Aspekte",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "f1319b42-a119-4bec-ab31-bed1a460e0d2",
+    "question": "Ein Unternehmen verfügt über eine einzige aktuelle Kopie einer wichtigen Vertragsdatenbank, die ausschließlich auf einem Server ohne jede Redundanz gespeichert ist. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine einzelne, nicht redundante Speicherung ist unproblematisch, solange der Server regelmäßig gewartet wird",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Ein Ausfall dieses einzelnen Servers würde die Verfügbarkeit der Vertragsdatenbank vollständig gefährden",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Redundanz betrifft ausschließlich die Vertraulichkeit gespeicherter Daten",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Das Fehlen einer Redundanz ist ausschließlich bei öffentlich zugänglichen Datenbanken relevant",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "cf260b62-89ad-448c-bb5a-1845a665da8c",
+    "question": "Ein Unternehmen speichert ein und dasselbe vertrauliche Dokument sowohl auf einem zentralen Server als auch unkontrolliert auf mehreren privaten Cloud-Speichern einzelner Beschäftigter. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Die unkontrollierte Verteilung auf private Cloud-Speicher vergrößert die Angriffsfläche für die Vertraulichkeit des Dokuments erheblich",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Zusätzliche Kopien auf privaten Cloud-Speichern erhöhen grundsätzlich die Verfügbarkeit ohne jeden Nachteil",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Die Nutzung privater Cloud-Speicher betrifft ausschließlich die Bequemlichkeit der Beschäftigten, nicht die Sicherheit",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Solange das Dokument auf dem zentralen Server weiterhin vorhanden ist, sind zusätzliche Kopien irrelevant",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "faeb09d9-c93f-4528-b389-8da62d278acf",
+    "question": "Ein Unternehmen bewertet ein und dieselbe Bedrohung für zwei unterschiedliche Systeme identisch, obwohl eines der Systeme deutlich sensiblere Daten verarbeitet als das andere. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine identische Bedrohung führt unabhängig von den verarbeiteten Daten stets zu identischem Risiko",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Trotz identischer Bedrohung kann das tatsächliche Risiko unterschiedlich sein, da die möglichen Auswirkungen je nach verarbeiteten Daten variieren",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Die Sensibilität verarbeiteter Daten ist für die Risikobewertung grundsätzlich zweitrangig gegenüber der Bedrohung selbst",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Unterschiedliche Auswirkungen sind ausschließlich bei unterschiedlichen technischen Schwachstellen zu erwarten",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "89c79814-8f29-43f1-a45f-4e9add72ee52",
+    "question": "Ein Unternehmen stellt fest, dass eine seit Jahren genutzte Anwendung nie einer formalen Schutzbedarfsfeststellung unterzogen wurde. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Auch langjährig genutzte Anwendungen sollten einer formalen Schutzbedarfsfeststellung unterzogen werden, um ihren tatsächlichen Schutzbedarf zu kennen",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Eine langjährige, bislang unauffällige Nutzung macht eine formale Schutzbedarfsfeststellung überflüssig",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Schutzbedarfsfeststellungen sind ausschließlich für neu eingeführte Anwendungen relevant",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Die Dauer der bisherigen Nutzung einer Anwendung lässt zuverlässig auf ihren tatsächlichen Schutzbedarf schließen",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "c5e11f3c-c5bb-4b88-b9cd-83784bbaa8f9",
+    "question": "Ein Unternehmen betrachtet ausschließlich vorsätzliche Angriffe als relevante Bedrohung für seine Systeme und blendet Naturereignisse wie Sturm oder Hochwasser vollständig aus. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Nur vorsätzliche, von Personen ausgehende Handlungen zählen begrifflich als Bedrohung",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Naturereignisse wie Sturm oder Hochwasser stellen ebenfalls relevante Bedrohungen dar und sollten in die Betrachtung einbezogen werden",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Naturereignisse sind für die Informationssicherheit grundsätzlich ohne praktische Relevanz",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Eine Betrachtung von Naturereignissen ist ausschließlich bei Unternehmen in besonders exponierten Lagen erforderlich",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "dbea616c-3e27-4eeb-98b5-9bdb3937e8d8",
+    "question": "In einem Unternehmen wird der Zugang zu einem Serverraum nur durch eine unabgeschlossene Tür mit Hinweisschild 'Zutritt nur für Befugte' geregelt. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Ein Hinweisschild ist ausreichend, da die meisten Personen sich an schriftliche Anweisungen halten",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Ein reines Hinweisschild ohne tatsächliche Zugangskontrolle stellt eine Schwachstelle dar, da es keinen wirksamen Schutz vor unbefugtem Zutritt bietet",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Die physische Absicherung eines Serverraums ist ausschließlich für die Verfügbarkeit relevant",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Ein Hinweisschild ersetzt vollständig die Notwendigkeit einer technischen Zugangskontrolle",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "ade23e36-c9d3-44af-82a1-2909894833a8",
+    "question": "Ein Unternehmen bewahrt ausgedruckte vertrauliche Dokumente in einem Aktenschrank auf, der zwar abschließbar ist, aber im Alltag meist unverschlossen bleibt. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Ein vorhandenes, aber nicht genutztes Schloss stellt eine Schwachstelle dar, da der beabsichtigte Schutz faktisch nicht wirksam ist",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Das Vorhandensein eines Schlosses allein gewährleistet bereits einen angemessenen Schutz der Dokumente",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Die tatsächliche Nutzung eines vorhandenen Schlosses ist für die Sicherheit der Dokumente ohne Bedeutung",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Ein unverschlossener Aktenschrank betrifft ausschließlich die Verfügbarkeit der darin enthaltenen Dokumente",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "c0591487-4292-45c3-a5a1-4d1529da6734",
+    "question": "Ein Unternehmen betrachtet ausschließlich technische Systeme wie Server und Netzwerkkomponenten als schützenswerte Werte, nicht aber das Wissen erfahrener Mitarbeitender über kritische Abläufe. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Auch das Wissen erfahrener Mitarbeitender über kritische Abläufe stellt einen eigenständigen, schützenswerten Wert dar",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Nur technische Systeme können im Sinne der Informationssicherheit als schützenswerte Werte gelten",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Das Wissen von Mitarbeitenden ist ausschließlich dann relevant, wenn es schriftlich dokumentiert vorliegt",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Eine Einbeziehung von Personenwissen als Wert ist ausschließlich in sehr kleinen Unternehmen sinnvoll",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "28b1e7e4-3ab0-49ca-b0d4-38f6b729fd74",
+    "question": "Ein Unternehmen betrachtet die Kombination aus einer ungepatchten Software-Schwachstelle und einem aktiv nach solchen Schwachstellen suchenden Angreifer ausschließlich als Bedrohung, nicht als Gefährdung. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Einordnung als Bedrohung ist zutreffend, da noch kein tatsächlicher Schaden eingetreten ist",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Das konkrete Zusammentreffen von Schwachstelle und aktiv suchendem Angreifer beschreibt eine Gefährdung, nicht nur eine allgemeine Bedrohung",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Schwachstelle und Bedrohung lassen sich in diesem Fall nicht sinnvoll voneinander unterscheiden",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Eine Einordnung als Gefährdung wäre nur bei einem bereits erfolgten erfolgreichen Angriff zutreffend",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "a1b08dc6-42f0-4278-b534-964c9ac77395",
+    "question": "Ein Mitarbeiter verwendet für mehrere unterschiedliche dienstliche Konten dasselbe Passwort, da dies die Merkbarkeit erleichtert. Welches Schutzziel ist dadurch am stärksten gefährdet?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Verfügbarkeit der Konten, da ein einheitliches Passwort die Anmeldung technisch verlangsamt",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Die Vertraulichkeit mehrerer Konten gleichzeitig, da die Kompromittierung eines Kontos auch die übrigen Konten offenlegen kann",
+        "correct": true
+      },
+      {
+        "label": "C",
+        "text": "Die Nichtabstreitbarkeit, da bei mehreren Konten nicht mehr nachvollziehbar ist, wer sich angemeldet hat",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Die Integrität der auf den Konten gespeicherten Daten, unabhängig vom verwendeten Passwort",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "87e96cc6-8593-4e97-8fc6-4e0be1f8ea51",
+    "question": "Ein Mitarbeiter lädt eine Datei mit vertraulichem Inhalt in einen privaten Cloud-Speicher hoch, um von zu Hause aus weiterarbeiten zu können. Welches Schutzziel ist dadurch am unmittelbarsten betroffen?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Vertraulichkeit, da die Datei nun außerhalb der kontrollierten Unternehmensumgebung für Dritte zugänglich sein könnte",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Die Verfügbarkeit, da der Mitarbeiter nun jederzeit auf die Datei zugreifen kann",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Die Nichtabstreitbarkeit, da der Upload-Vorgang durch den Cloud-Anbieter protokolliert wird",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Die Authentizität, da der Mitarbeiter sich beim Cloud-Anbieter mit eigenen Zugangsdaten anmeldet",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "493f759b-7d6e-4fe9-a792-9a2f62c18e07",
+    "question": "In einem Unternehmen wird ein veraltetes Betriebssystem ohne Sicherheitsupdates weiterbetrieben, da eine Migration als zu aufwändig gilt. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Ein veraltetes Betriebssystem ist unproblematisch, solange es bislang zu keinem erkennbaren Vorfall geführt hat",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Sicherheitsupdates sind ausschließlich für öffentlich zugängliche Systeme von Bedeutung",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Das veraltete, nicht mehr aktualisierte Betriebssystem stellt eine Schwachstelle dar, die von Angreifern gezielt ausgenutzt werden kann",
+        "correct": true
+      },
+      {
+        "label": "D",
+        "text": "Der Aufwand einer Migration rechtfertigt grundsätzlich den dauerhaften Verzicht auf Sicherheitsupdates",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "870cf4e0-cdcb-4548-9a26-ebc4649b01dc",
+    "question": "Ein Unternehmen speichert Sicherungskopien wichtiger Daten ausschließlich auf demselben Server wie die Originaldaten. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine Sicherungskopie auf demselben Server ist ausreichend, da die Daten dadurch redundant vorliegen",
+        "correct": false
+      },
+      {
+        "label": "B",
+        "text": "Der Speicherort einer Sicherungskopie ist für ihre Wirksamkeit grundsätzlich ohne Bedeutung",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Eine räumliche Trennung von Original und Sicherungskopie ist ausschließlich bei physischen Datenträgern relevant",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Eine Sicherungskopie auf demselben Server bietet keinen wirksamen Schutz, falls der Server insgesamt ausfällt oder kompromittiert wird",
+        "correct": true
+      }
+    ],
+    "explanations": []
+  },
+  {
+    "id": "e1e67605-3846-496a-865e-1da0b8f3680d",
+    "question": "Ein Unternehmen betrachtet ein internes Wiki mit Betriebsanleitungen als reines Komfort-Tool ohne sicherheitsrelevanten Inhalt, obwohl darin auch Zugangsdaten zu Testsystemen dokumentiert sind. Welche Einordnung ist am zutreffendsten?",
+    "source": null,
+    "options": [
+      {
+        "label": "A",
+        "text": "Das Wiki sollte als schützenswerter Wert eingestuft werden, sobald es tatsächlich sicherheitsrelevante Informationen wie Zugangsdaten enthält",
+        "correct": true
+      },
+      {
+        "label": "B",
+        "text": "Ein internes Wiki ist grundsätzlich von jeder sicherheitsrelevanten Betrachtung ausgenommen",
+        "correct": false
+      },
+      {
+        "label": "C",
+        "text": "Zugangsdaten zu Testsystemen sind für die Informationssicherheit ohne jede Relevanz",
+        "correct": false
+      },
+      {
+        "label": "D",
+        "text": "Die Einstufung als schützenswerter Wert hängt ausschließlich vom Namen des Dokuments ab, nicht von seinem Inhalt",
+        "correct": false
+      }
+    ],
+    "explanations": []
+  }
+]

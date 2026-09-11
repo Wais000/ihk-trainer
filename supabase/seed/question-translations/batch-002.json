@@ -1,0 +1,177 @@
+[
+  {
+    "id": "8d28a4a4-6734-4d0b-903d-b0adb1887f02",
+    "text": "Für ein System wurde ein hoher Schutzbedarf festgestellt; bislang wurde jedoch keine einzige Sicherheitsmaßnahme umgesetzt. Welche Einordnung ist am zutreffendsten?",
+    "en": "A high protection requirement has been determined for a system; however, not a single security measure has been implemented so far. Which classification is most accurate?",
+    "dari": "برای یک سیستم، نیاز بالا به حفاظت تعیین شده است؛ با این حال، تاکنون حتی یک اقدام امنیتی نیز اجرا نشده است. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "עבור מערכת נקבע צורך גבוה בהגנה; עם זאת, טרם יושם ולו אמצעי אבטחה אחד. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "77ae1fb1-9d6e-4a8c-8f36-bbf674d6a199",
+    "text": "Ein Beschäftigter erzählt einem Kollegen im Pausenraum beiläufig Details zu einem noch nicht veröffentlichten Produktnamen. Welche Aussage ist am zutreffendsten?",
+    "en": "An employee casually tells a colleague in the break room details about a product name that has not yet been made public. Which statement is most accurate?",
+    "dari": "یک کارمند به‌طور اتفاقی در اتاق استراحت جزئیاتی درباره نام یک محصول هنوز منتشرنشده را با یک همکار در میان می‌گذارد. کدام گزینه صحیح‌ترین است؟",
+    "he": "עובד מספר באופן אגבי לעמית בחדר ההפסקה פרטים על שם מוצר שטרם פורסם. איזו קביעה היא המדויקת ביותר?"
+  },
+  {
+    "id": "d52051b4-d6f7-4cbf-b599-c90b99507cee",
+    "text": "Ein Messwert eines Sensors wird im laufenden Betrieb korrekt und nachvollziehbar durch eine berechtigte Person berichtigt. Welche Aussage zur Integrität ist am zutreffendsten?",
+    "en": "A sensor reading is correctly and traceably corrected during ongoing operation by an authorized person. Which statement regarding integrity is most accurate?",
+    "dari": "یک مقدار اندازه‌گیری‌شده توسط یک حسگر در حین عملیات جاری، به‌طور صحیح و قابل ردیابی توسط یک شخص مجاز اصلاح می‌شود. کدام گزینه در مورد یکپارچگی صحیح‌ترین است؟",
+    "he": "ערך מדידה של חיישן מתוקן באופן נכון וניתן למעקב במהלך פעילות שוטפת על ידי אדם מורשה. איזו קביעה לגבי שלמות היא המדויקת ביותר?"
+  },
+  {
+    "id": "6ecd33c7-9d14-4712-b141-223ee820c95f",
+    "text": "Ein Unbefugter verschafft sich physisch Zutritt zu einem Bürogebäude und entwendet Papierunterlagen; kein IT-System ist beteiligt. Welche Einordnung ist am zutreffendsten?",
+    "en": "An unauthorized person physically gains access to an office building and steals paper documents; no IT system is involved. Which classification is most accurate?",
+    "dari": "یک شخص غیرمجاز به‌طور فیزیکی به یک ساختمان اداری دسترسی پیدا می‌کند و اسناد کاغذی را می‌رباید؛ هیچ سیستم فناوری اطلاعاتی در این موضوع دخیل نیست. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "אדם בלתי מורשה משיג גישה פיזית לבניין משרדים וגונב מסמכים מודפסים; אף מערכת IT אינה מעורבת. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "a4338308-43a7-4fcd-90be-0beac3b2e2cb",
+    "text": "Ein Unternehmen behandelt Verfügbarkeit als einziges relevantes Schutzziel für alle Systeme, auch für ein Personalinformationssystem mit hochsensiblen Daten. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company treats availability as the only relevant protection goal for all systems, including a human resources information system containing highly sensitive data. Which classification is most accurate?",
+    "dari": "یک شرکت در دسترس‌بودن را به‌عنوان تنها هدف حفاظتی مرتبط برای همه سیستم‌ها در نظر می‌گیرد، حتی برای یک سیستم اطلاعات پرسنلی حاوی داده‌های بسیار حساس. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "חברה רואה בזמינות את מטרת ההגנה הרלוונטית היחידה עבור כל המערכות, לרבות מערכת מידע של משאבי אנוש המכילה נתונים רגישים ביותר. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "2675824f-7938-490a-94c9-2cdef020d7e9",
+    "text": "Ein Lieferant wird durch einen Cyberangriff lahmgelegt, wodurch ein abhängiger Geschäftsprozess des eigenen Unternehmens nicht mehr rechtzeitig ausgeführt werden kann. Welche Aussage ist am zutreffendsten?",
+    "en": "A supplier is disabled by a cyberattack, as a result of which a dependent business process of the company itself can no longer be carried out on time. Which statement is most accurate?",
+    "dari": "یک تأمین‌کننده در اثر یک حمله سایبری از کار می‌افتد و در نتیجه یک فرآیند کاری وابسته در شرکت خودمان دیگر نمی‌تواند به‌موقع انجام شود. کدام گزینه صحیح‌ترین است؟",
+    "he": "ספק משותק כתוצאה מהתקפת סייבר, מה שגורם לכך שתהליך עסקי תלוי בחברה עצמה לא יוכל עוד להתבצע בזמן. איזו קביעה היא המדויקת ביותר?"
+  },
+  {
+    "id": "7b678937-e2e5-41ab-9c8a-ced81e89f10d",
+    "text": "Zwei Organisationen nutzen dieselbe Standardsoftware mit einer bekannten Schwachstelle; eine hat zusätzlich strenge Zugriffsbeschränkungen und Überwachung eingerichtet, die andere nicht. Welche Aussage ist am zutreffendsten?",
+    "en": "Two organizations use the same standard software with a known vulnerability; one has additionally implemented strict access restrictions and monitoring, while the other has not. Which statement is most accurate?",
+    "dari": "دو سازمان از یک نرم‌افزار استاندارد یکسان با یک آسیب‌پذیری شناخته‌شده استفاده می‌کنند؛ یکی از آن‌ها به‌طور اضافی محدودیت‌های دسترسی سخت‌گیرانه و نظارت را برقرار کرده است، در حالی که دیگری چنین نکرده است. کدام گزینه صحیح‌ترین است؟",
+    "he": "שני ארגונים משתמשים באותה תוכנה סטנדרטית בעלת פגיעות ידועה; אחד מהם הטמיע בנוסף הגבלות גישה מחמירות וניטור, ואילו השני לא. איזו קביעה היא המדויקת ביותר?"
+  },
+  {
+    "id": "3982865f-8c7d-48e4-8118-a53c6a8b1e3d",
+    "text": "Ein Auszubildender löscht versehentlich einen wichtigen Ordner auf einem gemeinsam genutzten Laufwerk, weil er die Ordnerstruktur missverstanden hat. Welche Einordnung ist am zutreffendsten?",
+    "en": "A trainee accidentally deletes an important folder on a shared drive because he misunderstood the folder structure. Which classification is most accurate?",
+    "dari": "یک کارآموز به‌طور تصادفی یک پوشه مهم را در یک درایو مشترک حذف می‌کند، زیرا ساختار پوشه‌ها را اشتباه متوجه شده است. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "מתלמד מוחק בשוגג תיקייה חשובה בכונן משותף מכיוון שהבין לא נכון את מבנה התיקיות. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "3d0ccfd7-9b94-4f0e-a12c-d6fa6e71f9ab",
+    "text": "Ein Unternehmen speichert dieselbe wichtige Konstruktionszeichnung nur einmalig auf einem einzelnen Notebook, ohne weitere Kopie. Welches Risiko ist hierbei am unmittelbarsten relevant?",
+    "en": "A company stores the same important design drawing only once, on a single laptop, without any further copy. Which risk is most directly relevant here?",
+    "dari": "یک شرکت یک نقشه طراحی مهم را فقط یک‌بار روی یک لپ‌تاپ ذخیره می‌کند، بدون هیچ نسخه دیگری. کدام ریسک در اینجا مستقیم‌ترین ارتباط را دارد؟",
+    "he": "חברה שומרת את אותו שרטוט הנדסי חשוב פעם אחת בלבד, על מחשב נייד יחיד, ללא כל עותק נוסף. איזה סיכון רלוונטי כאן באופן הישיר ביותר?"
+  },
+  {
+    "id": "39b52cd9-9dcb-49af-b47a-95584b8d378c",
+    "text": "Ein Auftragnehmer erhält vorübergehend Zugriff auf ein internes System, um eine Wartung durchzuführen; der Zugriff wird nach Abschluss der Arbeiten nicht wieder entzogen. Welche Einordnung ist am zutreffendsten?",
+    "en": "A contractor is temporarily granted access to an internal system in order to carry out maintenance; the access is not revoked again after the work is completed. Which classification is most accurate?",
+    "dari": "یک پیمانکار به‌طور موقت به یک سیستم داخلی برای انجام تعمیر و نگهداری دسترسی پیدا می‌کند؛ این دسترسی پس از اتمام کار دوباره لغو نمی‌شود. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "לקבלן ניתנת גישה זמנית למערכת פנימית לצורך ביצוע תחזוקה; הגישה אינה נשללת שוב לאחר סיום העבודה. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "731a9e4e-fb0d-4cb9-a504-5f5d1812ae70",
+    "text": "Eine Organisation stuft alle ihre Informationen unabhängig von Inhalt und Bedeutung einheitlich als „normal schutzbedürftig“ ein. Welche Einordnung ist am zutreffendsten?",
+    "en": "An organization uniformly classifies all of its information as \"normal protection requirement\", regardless of content and significance. Which classification is most accurate?",
+    "dari": "یک سازمان تمام اطلاعات خود را، صرف‌نظر از محتوا و اهمیت آن‌ها، به‌طور یکسان به‌عنوان «نیاز به حفاظت معمولی» طبقه‌بندی می‌کند. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "ארגון מסווג את כל המידע שברשותו באופן אחיד כ'בעל צורך רגיל בהגנה', ללא תלות בתוכן ובחשיבות. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "05df6b63-dea5-44ef-9100-524261fdc4f4",
+    "text": "Ein Kundenprojektname wird versehentlich in einer öffentlichen Präsentation gezeigt, obwohl das Projekt vertraulich ist; die Präsentation wird sofort korrigiert, bevor jemand außerhalb des Raumes reagieren kann. Welche Einordnung ist am zutreffendsten?",
+    "en": "The name of a customer project is accidentally shown in a public presentation even though the project is confidential; the presentation is immediately corrected before anyone outside the room can react. Which classification is most accurate?",
+    "dari": "نام یک پروژه مشتری به‌طور تصادفی در یک ارائه عمومی نمایش داده می‌شود، در حالی که این پروژه محرمانه است؛ این ارائه بلافاصله اصلاح می‌شود، پیش از آنکه کسی خارج از اتاق واکنش نشان دهد. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "שם פרויקט של לקוח מוצג בשוגג במצגת פומבית, אף שהפרויקט חסוי; המצגת מתוקנת מיידית לפני שמישהו מחוץ לחדר יכול להגיב. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "7f41bb21-5d95-4c36-b91e-bba8d399e182",
+    "text": "Zwei baugleiche Server verarbeiten dieselbe Art von Anwendung; einer verarbeitet zusätzlich hochsensible Gesundheitsdaten, der andere ausschließlich öffentlich zugängliche Informationen. Welche Aussage ist am zutreffendsten?",
+    "en": "Two identically built servers process the same type of application; one additionally processes highly sensitive health data, while the other processes only publicly accessible information. Which statement is most accurate?",
+    "dari": "دو سرور با ساختار یکسان یک نوع برنامه را پردازش می‌کنند؛ یکی از آن‌ها به‌طور اضافی داده‌های بسیار حساس سلامتی را نیز پردازش می‌کند، در حالی که دیگری صرفاً اطلاعات در دسترس عموم را پردازش می‌کند. کدام گزینه صحیح‌ترین است؟",
+    "he": "שני שרתים זהים בבנייתם מעבדים את אותו סוג יישום; אחד מהם מעבד בנוסף נתוני בריאות רגישים ביותר, ואילו השני מעבד אך ורק מידע הנגיש לציבור. איזו קביעה היא המדויקת ביותר?"
+  },
+  {
+    "id": "fdcc6ac7-b04e-44f7-8c5e-e0770a297869",
+    "text": "Ein Beschäftigter nutzt sein privates Smartphone, um kurzfristig eine dienstliche E-Mail mit vertraulichem Anhang zu lesen, da sein Diensthandy gerade nicht griffbereit ist. Welche Einordnung ist am zutreffendsten?",
+    "en": "An employee uses his private smartphone to briefly read a work email with a confidential attachment because his work phone is not at hand at the moment. Which classification is most accurate?",
+    "dari": "یک کارمند از گوشی هوشمند شخصی خود برای مطالعه کوتاه‌مدت یک ایمیل کاری با پیوست محرمانه استفاده می‌کند، زیرا گوشی کاری او در آن لحظه در دسترس نیست. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "עובד משתמש בסמארטפון הפרטי שלו כדי לקרוא לזמן קצר הודעת דוא\"ל עסקית עם קובץ מצורף חסוי, מכיוון שהטלפון העסקי שלו אינו זמין באותו רגע. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "5ab08145-2a7d-4b6c-b770-faa2fb131bdf",
+    "text": "Eine Organisation erfährt von einer neuen, in den Medien breit diskutierten Angriffsmethode, die branchenweit genutzte Software betrifft, prüft aber nicht, ob sie selbst betroffen sein könnte. Welche Einordnung ist am zutreffendsten?",
+    "en": "An organization learns of a new attack method, widely discussed in the media, that affects software used across the industry, but does not check whether it might be affected itself. Which classification is most accurate?",
+    "dari": "یک سازمان از یک روش حمله جدید که به‌طور گسترده در رسانه‌ها مورد بحث قرار گرفته و بر نرم‌افزارهای مورد استفاده در سراسر صنعت تأثیر می‌گذارد، مطلع می‌شود، اما بررسی نمی‌کند که آیا خود ممکن است تحت تأثیر قرار گیرد یا خیر. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "ארגון נודע על שיטת התקפה חדשה, הנדונה בהרחבה בתקשורת, המשפיעה על תוכנה בשימוש נרחב בענף, אך אינו בודק האם הוא עצמו עלול להיות מושפע ממנה. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "46c21c05-ab26-457f-8551-1dfc57b48590",
+    "text": "Eine Führungskraft teilt ihr persönliches Passwort mit einer vertretenden Person, damit diese während einer kurzen Abwesenheit dringende Freigaben erteilen kann. Welche Einordnung ist am zutreffendsten?",
+    "en": "A manager shares her personal password with a stand-in so that this person can grant urgent approvals during a short absence. Which classification is most accurate?",
+    "dari": "یک مدیر رمز عبور شخصی خود را با فردی که به‌عنوان جایگزین عمل می‌کند در میان می‌گذارد تا این فرد بتواند در طول یک غیبت کوتاه، تأییدیه‌های فوری صادر کند. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "מנהלת משתפת את הסיסמה האישית שלה עם ממלא מקום, כדי שיוכל להעניק אישורים דחופים במהלך היעדרות קצרה. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "0df1dd0c-fe7d-457c-98a1-3cbe3ea6a727",
+    "text": "Ein Unternehmen speichert Sicherungskopien seiner wichtigsten Daten im selben Gebäude wie die Originaldaten, jedoch in einem anderen Stockwerk. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company stores backup copies of its most important data in the same building as the original data, but on a different floor. Which classification is most accurate?",
+    "dari": "یک شرکت نسخه‌های پشتیبان مهم‌ترین داده‌های خود را در همان ساختمانی که داده‌های اصلی قرار دارند، اما در طبقه‌ای متفاوت، ذخیره می‌کند. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "חברה שומרת עותקי גיבוי של הנתונים החשובים ביותר שלה באותו בניין שבו נמצאים הנתונים המקוריים, אך בקומה אחרת. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "66b6a9ef-0a95-4790-b057-8f01f1d545e3",
+    "text": "Ein Beschäftigter fotografiert versehentlich einen Bildschirm mit vertraulichen Kundendaten für private Zwecke und löscht das Foto sofort wieder, nachdem er den Fehler bemerkt hat. Welche Einordnung ist am zutreffendsten?",
+    "en": "An employee accidentally photographs a screen displaying confidential customer data for private purposes and immediately deletes the photo again after noticing the mistake. Which classification is most accurate?",
+    "dari": "یک کارمند به‌طور تصادفی برای مقاصد شخصی از یک صفحه‌نمایش حاوی داده‌های محرمانه مشتریان عکس می‌گیرد و بلافاصله پس از متوجه شدن اشتباه، عکس را حذف می‌کند. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "עובד מצלם בשוגג, למטרות פרטיות, מסך המציג נתוני לקוחות חסויים, ומוחק את התמונה מיד לאחר שהבחין בטעות. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "7cfb131b-1659-4847-a4ad-bb3bf806fecd",
+    "text": "Ein Unternehmen verwendet für mehrere unterschiedliche Systeme dasselbe Administratorpasswort, um die Verwaltung zu vereinfachen. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company uses the same administrator password for several different systems in order to simplify administration. Which classification is most accurate?",
+    "dari": "یک شرکت برای چندین سیستم متفاوت از یک رمز عبور مدیریتی یکسان استفاده می‌کند تا مدیریت را ساده‌تر کند. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "חברה משתמשת באותה סיסמת מנהל עבור מספר מערכות שונות כדי לפשט את הניהול. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "5d7a876d-6642-424e-a9d5-b0c9af1bff49",
+    "text": "Ein Praktikant erhält versehentlich Zugriff auf einen Ordner mit Gehaltsdaten, obwohl seine Rolle dies nicht erfordert; er öffnet den Ordner nicht und meldet den Fehler sofort. Welche Einordnung ist am zutreffendsten?",
+    "en": "An intern accidentally receives access to a folder containing salary data even though his role does not require it; he does not open the folder and reports the error immediately. Which classification is most accurate?",
+    "dari": "یک کارآموز به‌طور تصادفی به یک پوشه حاوی داده‌های حقوق دسترسی پیدا می‌کند، اگرچه نقش او این دسترسی را ایجاب نمی‌کند؛ او پوشه را باز نمی‌کند و بلافاصله این خطا را گزارش می‌دهد. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "מתמחה מקבל בשוגג גישה לתיקייה המכילה נתוני שכר, אף שתפקידו אינו מחייב זאת; הוא אינו פותח את התיקייה ומדווח על השגיאה מיד. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "f782d3aa-0456-4eb4-9648-10c00c2db268",
+    "text": "Zwei vergleichbare Abteilungen setzen dieselbe Anwendung ein; eine Abteilung schult ihre Beschäftigten regelmäßig zu sicherheitsrelevantem Verhalten, die andere nicht. Welche Aussage ist am zutreffendsten?",
+    "en": "Two comparable departments use the same application; one department regularly trains its employees on security-relevant behavior, while the other does not. Which statement is most accurate?",
+    "dari": "دو بخش قابل مقایسه از یک برنامه یکسان استفاده می‌کنند؛ یکی از این بخش‌ها کارکنان خود را به‌طور منظم در مورد رفتار مرتبط با امنیت آموزش می‌دهد، در حالی که دیگری چنین نمی‌کند. کدام گزینه صحیح‌ترین است؟",
+    "he": "שני מחלקות בעלות מאפיינים דומים משתמשות באותו יישום; מחלקה אחת מכשירה את עובדיה באופן קבוע בנוגע להתנהגות רלוונטית לאבטחה, ואילו השנייה לא. איזו קביעה היא המדויקת ביותר?"
+  },
+  {
+    "id": "649d9534-7c18-4fe7-97ef-57e8debe797b",
+    "text": "Ein Lieferant erhält dauerhaften Zugriff auf ein internes System, obwohl das ursprüngliche Projekt, für das der Zugriff eingerichtet wurde, längst abgeschlossen ist. Welche Einordnung ist am zutreffendsten?",
+    "en": "A supplier retains permanent access to an internal system even though the original project for which the access was set up has long since been completed. Which classification is most accurate?",
+    "dari": "یک تأمین‌کننده دسترسی دائمی به یک سیستم داخلی دارد، اگرچه پروژه اصلی‌ای که این دسترسی برای آن ایجاد شده بود، مدت‌هاست به پایان رسیده است. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "לספק נותרת גישה קבועה למערכת פנימית, אף שהפרויקט המקורי שלמענו הוגדרה הגישה הושלם זה מכבר. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "f1319b42-a119-4bec-ab31-bed1a460e0d2",
+    "text": "Ein Unternehmen verfügt über eine einzige aktuelle Kopie einer wichtigen Vertragsdatenbank, die ausschließlich auf einem Server ohne jede Redundanz gespeichert ist. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company has only a single current copy of an important contract database, stored exclusively on one server without any redundancy. Which classification is most accurate?",
+    "dari": "یک شرکت تنها یک نسخه فعلی از یک پایگاه داده مهم قراردادها دارد که صرفاً روی یک سرور بدون هیچ‌گونه افزونگی ذخیره شده است. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "לחברה יש עותק עדכני יחיד של מסד נתוני חוזים חשוב, המאוחסן אך ורק בשרת אחד ללא כל יתירות. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "cf260b62-89ad-448c-bb5a-1845a665da8c",
+    "text": "Ein Unternehmen speichert ein und dasselbe vertrauliche Dokument sowohl auf einem zentralen Server als auch unkontrolliert auf mehreren privaten Cloud-Speichern einzelner Beschäftigter. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company stores one and the same confidential document both on a central server and, in an uncontrolled manner, on several individual employees' private cloud storage. Which classification is most accurate?",
+    "dari": "یک شرکت یک سند محرمانه واحد را هم روی یک سرور مرکزی و هم به‌طور کنترل‌نشده در چندین فضای ذخیره‌سازی ابری شخصی کارکنان مختلف ذخیره می‌کند. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "חברה שומרת מסמך חסוי אחד ויחיד הן בשרת מרכזי והן, באופן בלתי מבוקר, באחסוני ענן פרטיים של מספר עובדים שונים. איזה סיווג הוא המדויק ביותר?"
+  },
+  {
+    "id": "faeb09d9-c93f-4528-b389-8da62d278acf",
+    "text": "Ein Unternehmen bewertet ein und dieselbe Bedrohung für zwei unterschiedliche Systeme identisch, obwohl eines der Systeme deutlich sensiblere Daten verarbeitet als das andere. Welche Einordnung ist am zutreffendsten?",
+    "en": "A company assesses one and the same threat identically for two different systems, even though one of the systems processes significantly more sensitive data than the other. Which classification is most accurate?",
+    "dari": "یک شرکت یک تهدید واحد را برای دو سیستم متفاوت به‌طور یکسان ارزیابی می‌کند، در حالی که یکی از این سیستم‌ها داده‌های به‌مراتب حساس‌تری نسبت به دیگری پردازش می‌کند. کدام طبقه‌بندی صحیح‌ترین است؟",
+    "he": "חברה מעריכה איום אחד ויחיד באופן זהה עבור שתי מערכות שונות, אף שאחת המערכות מעבדת נתונים רגישים משמעותית יותר מהשנייה. איזה סיווג הוא המדויק ביותר?"
+  }
+]

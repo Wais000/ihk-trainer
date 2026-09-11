@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: 0.2s var(--ease);
+  --sidebar-w: 260px;
+
+  /* Matched to the reference app's [data-theme="light"] palette. */
+  --background: #f0f4f8;
+  --foreground: #1a2332;
+
+  --card: #ffffff;
+  --card-foreground: #1a2332;
+
+  --popover: #ffffff;
+  --popover-foreground: #1a2332;
+
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+
+  --secondary: #f8fafc;
+  --secondary-foreground: #1a2332;
+
+  --muted: #f8fafc;
+  --muted-foreground: #4b5e76;
+
+  /* Flat equivalent of the reference's primary tint (rgba(37,99,235,.08) over
+     white) — kept opaque, not rgba, since several hover states apply their
+     own /40–/50 alpha modifier on top of this token via Tailwind. */
+  --accent: #eef3fd;
+  --accent-foreground: #1d4ed8;
+
+  --success: #16a34a;
+  --success-foreground: #ffffff;
+
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+
+  --warning: #d97706;
+  --warning-foreground: #ffffff;
+
+  --border: #dde4ee;
+  --input: #dde4ee;
+  --ring: #2563eb;
+
+  --chart-1: #2563eb;
+  --chart-2: #16a34a;
+  --chart-3: #d97706;
+  --chart-4: #dc2626;
+  --chart-5: #0891b2;
+
+  color-scheme: light;
+}
+
+.dark {
+  /* No [data-theme="dark"] block was provided for the reference app, so
+     this extends the same light-theme source (blue-slate neutrals, the
+     blue/green/amber/red brand hues) lightened for a dark background,
+     rather than being copied from their literal dark values. */
+  --background: #0f1420;
+  --foreground: #e6eaf2;
+
+  --card: #161c29;
+  --card-foreground: #e6eaf2;
+
+  --popover: #161c29;
+  --popover-foreground: #e6eaf2;
+
+  --primary: #60a5fa;
+  --primary-foreground: #0b1220;
+
+  --secondary: #1c2333;
+  --secondary-foreground: #e6eaf2;
+
+  --muted: #1c2333;
+  --muted-foreground: #93a0b8;
+
+  --accent: #1b2a44;
+  --accent-foreground: #7db2f7;
+
+  --success: #4ade80;
+  --success-foreground: #052e13;
+
+  --destructive: #f87171;
+  --destructive-foreground: #450a0a;
+
+  --warning: #fbbf24;
+  --warning-foreground: #451a03;
+
+  --border: #29324a;
+  --input: #29324a;
+  --ring: #60a5fa;
+
+  --chart-1: #60a5fa;
+  --chart-2: #4ade80;
+  --chart-3: #fbbf24;
+  --chart-4: #f87171;
+  --chart-5: #22d3ee;
+
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 50%;
+  /* Distinct from --radius-full (50%): correct for genuinely circular,
+     equal-width/height elements, but 50% distorts an elongated bar or pill
+     into an oval. This stays a fixed large radius so it always caps at half
+     of the shorter side — a proper stadium/pill shape at any aspect ratio. */
+  --radius-pill: 999px;
+  --font-sans: var(--font-sans-override), system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  --font-mono: var(--font-mono-override), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+}
+
+/* RTL support for Dari and Hebrew explanation/vocabulary text */
+[dir="rtl"] {
+  text-align: right;
+}
+
+/* A4, tight margins, no browser-added header/footer clutter — used by the
+   Vocabulary page's print button (and any other page printed later). */
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+  body {
+    background: #fff;
+  }
+}

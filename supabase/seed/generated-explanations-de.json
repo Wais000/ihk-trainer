@@ -1,0 +1,182 @@
+[
+  {
+    "q": "Ein Bürogebäude liegt in einem Gebiet mit gelegentlichem Starkregen; der Serverraum befindet sich im Erdgeschoss. Für das kommende Wochenende wird eine Unwetterwarnung mit Starkregen ausgegeben. Wie ist die Lage am Wochenende gegenüber der Ausgangslage einzuordnen?",
+    "explanation": "Die allgemeine Bedrohung 'Starkregen' wird durch die konkrete Unwetterwarnung für dieses Wochenende zeitlich und räumlich konkret: Sie trifft jetzt mit einer realistischen Wahrscheinlichkeit auf den konkreten Serverraum im Erdgeschoss. Genau dieses Zusammentreffen von Bedrohung und konkreter Auswirkungsmöglichkeit nennt man Gefährdung. Die Lage bleibt also nicht einfach eine allgemeine Bedrohung (B), es ist auch noch kein Schaden eingetreten (C), und Risiko ist nicht erst relevant, wenn bereits Wasser eingedrungen ist (D) — Risiko bewertet ja gerade mögliche zukünftige Auswirkungen."
+  },
+  {
+    "q": "Eine Projektleiterin bespricht in einem belebten Café am Nachbartisch vertrauliche Verhandlungsdetails mit einem Kollegen. Kein Dokument wird dabei verwendet. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Information ist nicht an ein bestimmtes Medium gebunden — auch mündlich weitergegebene Inhalte sind schutzbedürftig, wenn sie vertraulich sind. Eine schriftliche Fixierung ist dafür keine Voraussetzung (A ist falsch). Dass Dritte am Nachbartisch mithören könnten, ist eine Gefährdung, aber noch kein sicher eingetretener Schaden (C ist falsch). Und weil es echten Bezug zur Vertraulichkeit von Geschäftsinformationen hat, ist es mehr als ein reines Stilproblem (D ist falsch)."
+  },
+  {
+    "q": "Ein Mitarbeiter öffnet eine Phishing-Mail und klickt auf den enthaltenen Link, gibt aber auf der folgenden Seite keine Daten ein und bemerkt den Betrug rechtzeitig. Wie ist die Situation einzuordnen?",
+    "explanation": "Solange keine Daten preisgegeben wurden und keine Auswirkung eingetreten ist, bleibt es bei einem Risiko — also einer möglichen, aber nicht realisierten Folge. Der bloße Klick auf den Link ist für sich genommen noch kein eingetretener Schaden (A ist falsch). Gefährdung und Risiko schließen sich hier auch nicht gegenseitig aus, wie B unterstellt: Die Gefährdung bestand durch den Phishing-Versuch, das Risiko bewertet die möglichen Folgen, die hier zum Glück nicht eintraten. Und irrelevant ist der Vorgang trotzdem nicht (D ist falsch) — solche Beinahe-Vorfälle sollten gemeldet werden, damit das Unternehmen aus ihnen lernen kann."
+  },
+  {
+    "q": "Ein digital signierter Vertrag wird später von einer Partei bestritten; die Signatur bestätigt jedoch eindeutig Urheber und Zeitpunkt der Unterschrift. Welches Schutzziel wird hier primär genutzt?",
+    "explanation": "Verbindlichkeit (auch Nichtabstreitbarkeit genannt) bedeutet, dass eine Handlung — hier die Unterschrift — einer Person zweifelsfrei zugeordnet werden kann und im Nachhinein nicht bestritten werden kann. Verfügbarkeit (A) betrifft nur, ob der Vertrag abrufbar ist, nicht wer ihn unterschrieben hat. Vertraulichkeit (B) schützt vor unbefugter Einsicht, nicht vor Abstreiten. Integrität (C) sichert die Unverändertheit des Textes, ist hier aber nicht der Kernpunkt — es geht um den Nachweis der Urheberschaft."
+  },
+  {
+    "q": "Ein Onlineshop wird durch massenhaft automatisiert gesendete Anfragen so überlastet, dass reguläre Kunden ihn nicht mehr erreichen können; Daten werden dabei weder eingesehen noch verändert. Welches Schutzziel ist primär betroffen?",
+    "explanation": "Das ist ein klassischer Überlastungsangriff (z. B. eine (D)DoS-Attacke): Berechtigte Nutzer erreichen den Dienst nicht mehr, also ist die Verfügbarkeit betroffen. Da keine Daten eingesehen werden, ist Vertraulichkeit nicht verletzt (B ist falsch). Da keine Daten verändert werden, ist auch die Integrität nicht betroffen (C ist falsch). Und es geht hier nicht um die Nachweisbarkeit einer Handlung, sondern um Erreichbarkeit, weshalb D nicht zutrifft."
+  },
+  {
+    "q": "Ein Vortrag erklärt, dass Cyber-Sicherheit sich speziell auf Bedrohungen aus dem Cyberraum konzentriert, während Informationssicherheit unabhängig von der Form der Information gilt. Wie ist das Verhältnis der Begriffe zueinander am zutreffendsten beschrieben?",
+    "explanation": "Informationssicherheit ist der umfassendere Begriff: Sie schützt Informationen unabhängig davon, ob sie digital, auf Papier oder mündlich vorliegen. Cyber-Sicherheit ist darin der Teilbereich, der sich speziell auf Bedrohungen aus dem vernetzten digitalen Cyberraum bezieht. Die beiden Begriffe sind also keine Synonyme (A ist falsch), und das Verhältnis ist auch nicht umgekehrt wie in C behauptet. Beide Bereiche umfassen zudem nicht nur technische, sondern auch organisatorische Aspekte, weshalb D ebenfalls falsch ist."
+  },
+  {
+    "q": "Ein Überwachungssystem meldet eine Anmeldung zu einer ungewöhnlichen Uhrzeit von einem bislang nicht genutzten Standort; ob dahinter ein tatsächlicher Angriff steckt, ist noch unklar. Wie ist diese Meldung zunächst am treffendsten einzuordnen?",
+    "explanation": "Zunächst handelt es sich um ein Ereignis, das bewertet werden muss, bevor man es als Sicherheitsvorfall einstuft — nicht jede ungewöhnliche Anmeldung ist automatisch ein Vorfall (A ist falsch). Es als Risiko zu bezeichnen (B) trifft die Situation nicht genau, da es hier um die korrekte Einordnung eines konkreten, bereits eingetretenen Ereignisses geht. Und die Anmeldung selbst zeigt keine technische Lücke im System auf, sie ist also keine Schwachstelle (D ist falsch)."
+  },
+  {
+    "q": "Ein Unternehmen bewertet Bedrohungen ausschließlich anhand externer Angreifer und berücksichtigt keine Beschäftigten mit legitimen Zugriffsrechten. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Der Bewertung fehlt die Betrachtung von Insider-Bedrohungen — also Personen mit legitimem, aber möglicherweise missbrauchtem Zugriff. Diese Gefahr existiert unabhängig davon, wie vertrauenswürdig Beschäftigte im Allgemeinen sind (A ist falsch). Interne Personen können begrifflich sehr wohl eine Bedrohung darstellen (B ist falsch), und die Betrachtung rein externer Angreifer deckt interne Risiken nicht automatisch mit ab (C ist falsch)."
+  },
+  {
+    "q": "Eine interne Kundenliste wird von einer unberechtigten Person eingesehen, jedoch nicht verändert oder gelöscht. Welches Schutzziel ist unmittelbar verletzt?",
+    "explanation": "Unberechtigte Kenntnisnahme verletzt unmittelbar die Vertraulichkeit. Die Liste bleibt weiterhin nutzbar, also ist Verfügbarkeit (B) nicht betroffen. Da nichts verändert oder gelöscht wurde, ist auch die Integrität (C) nicht verletzt. Nichtabstreitbarkeit (D) betrifft die Nachweisbarkeit von Handlungen und passt hier nicht zum beschriebenen Vorgang."
+  },
+  {
+    "q": "Für ein System wurde ein hoher Schutzbedarf festgestellt; bislang wurde jedoch keine einzige Sicherheitsmaßnahme umgesetzt. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Die Feststellung eines Schutzbedarfs beschreibt nur, wie schutzbedürftig ein System ist — sie ersetzt nicht die tatsächliche Umsetzung von Maßnahmen. Ein hoher Schutzbedarf entfällt nicht automatisch, nur weil noch nichts umgesetzt wurde (A ist falsch), und er ist auch nicht gleichbedeutend mit bereits vorhandenem Schutz (C ist falsch). Schutzbedarf und Maßnahmen sind zwei unterschiedliche Dinge: der eine beschreibt den Bedarf, die anderen die tatsächliche Erfüllung (D ist falsch)."
+  },
+  {
+    "q": "Ein Beschäftigter erzählt einem Kollegen im Pausenraum beiläufig Details zu einem noch nicht veröffentlichten Produktnamen. Welche Aussage ist am zutreffendsten?",
+    "explanation": "Ein noch nicht veröffentlichter Produktname hat vor der Veröffentlichung einen geschäftlichen Wert und ist daher schutzbedürftig, auch wenn er nur mündlich weitergegeben wird — Dokumentation ist keine Voraussetzung für den Informationsbegriff (B ist falsch). Das bloße Zuhören des Kollegen ist noch kein sicher eingetretener Schaden (C ist falsch), und da der Produktname geschäftlich relevant ist, handelt es sich nicht um ein rein privates, irrelevantes Gespräch (D ist falsch)."
+  },
+  {
+    "q": "Ein Messwert eines Sensors wird im laufenden Betrieb korrekt und nachvollziehbar durch eine berechtigte Person berichtigt. Welche Aussage zur Integrität ist am zutreffendsten?",
+    "explanation": "Integrität bedeutet nicht 'niemals verändern', sondern 'korrekt, autorisiert und nachvollziehbar verändern'. Da die Berichtigung berechtigt, dokumentiert und fachlich richtig erfolgte, bleibt die Integrität gewahrt — eine reine Wertänderung allein verletzt sie noch nicht (A ist falsch). Integrität kann außerdem sehr wohl auch durch organisatorische Prozesse wie Nachvollziehbarkeit und Berechtigungskonzepte gesichert werden, nicht nur technisch (C ist falsch), und sie betrifft grundsätzlich alle Daten, nicht nur verschlüsselte (D ist falsch)."
+  },
+  {
+    "q": "Ein Unbefugter verschafft sich physisch Zutritt zu einem Bürogebäude und entwendet Papierunterlagen; kein IT-System ist beteiligt. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Informationssicherheit gilt unabhängig vom Medium, also auch für gestohlene Papierunterlagen ohne jede IT-Beteiligung — der Vorfall ist damit sehr wohl sicherheitsrelevant (B ist falsch). IT-Sicherheit und Cyber-Sicherheit (C und D) beziehen sich dagegen spezifisch auf IT-Systeme beziehungsweise den vernetzten digitalen Raum, die hier gar nicht beteiligt sind — der Fall gehört fachlich zur übergeordneten Informationssicherheit."
+  },
+  {
+    "q": "Ein Unternehmen behandelt Verfügbarkeit als einziges relevantes Schutzziel für alle Systeme, auch für ein Personalinformationssystem mit hochsensiblen Daten. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Welches Schutzziel im Vordergrund steht, hängt von Art und Inhalt eines Systems ab — bei hochsensiblen Personaldaten ist neben der Verfügbarkeit häufig gerade die Vertraulichkeit besonders wichtig. Verfügbarkeit ist also nicht für jedes System pauschal das wichtigste Ziel (A ist falsch), Vertraulichkeit ist keineswegs nur bei öffentlich zugänglichen Systemen relevant (C ist falsch), und ein Personalinformationssystem braucht wegen seiner sensiblen Inhalte in der Regel ein eigenes, angepasstes Schutzzielprofil (D ist falsch)."
+  },
+  {
+    "q": "Ein Lieferant wird durch einen Cyberangriff lahmgelegt, wodurch ein abhängiger Geschäftsprozess des eigenen Unternehmens nicht mehr rechtzeitig ausgeführt werden kann. Welche Aussage ist am zutreffendsten?",
+    "explanation": "Die Abhängigkeit von Dienstleistern ist ein eigenständiges Risiko: Auch ohne eigene technische Schwachstelle kann ein Ausfall beim Lieferanten die eigene Verfügbarkeit gefährden, sobald eigene Prozesse davon abhängen. Der Angriff betrifft also sehr wohl die eigene Sicherheitsbewertung (B und C sind falsch) — Lieferketten- beziehungsweise Drittparteirisiken gehören zum Risikomanagement dazu. Dass ausschließlich Vertraulichkeit nicht berührt werden könnte (D), ist außerdem zu pauschal formuliert; hier steht ohnehin die Verfügbarkeit im Vordergrund."
+  },
+  {
+    "q": "Zwei Organisationen nutzen dieselbe Standardsoftware mit einer bekannten Schwachstelle; eine hat zusätzlich strenge Zugriffsbeschränkungen und Überwachung eingerichtet, die andere nicht. Welche Aussage ist am zutreffendsten?",
+    "explanation": "Die Schwachstelle selbst ist bei beiden Organisationen gleich, aber das tatsächliche Risiko kann sich durch unterschiedliche Schutzmaßnahmen wie Zugriffsbeschränkungen und Überwachung deutlich unterscheiden. Beide tragen also nicht automatisch dasselbe Risiko (A ist falsch). Solche Maßnahmen beseitigen die zugrunde liegende Schwachstelle in der Software auch nicht vollständig, sie senken nur das Risiko (C ist falsch). Und ein Vergleich zwischen den Organisationen ist gerade deshalb möglich, weil sich ihr Risiko unterscheidet (D ist falsch)."
+  },
+  {
+    "q": "Ein Auszubildender löscht versehentlich einen wichtigen Ordner auf einem gemeinsam genutzten Laufwerk, weil er die Ordnerstruktur missverstanden hat. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Auch unbeabsichtigtes menschliches Fehlverhalten zählt als Bedrohung — eine böswillige Absicht ist dafür keine Voraussetzung (B ist falsch). Da der Ordner dadurch nicht mehr nutzbar ist, ist primär die Verfügbarkeit betroffen, nicht ausschließlich die Integrität (C ist falsch zu eng gefasst). Das Verhalten selbst ist hier die Bedrohung, nicht nur eine Schwachstelle im System (D ist falsch)."
+  },
+  {
+    "q": "Ein Unternehmen speichert dieselbe wichtige Konstruktionszeichnung nur einmalig auf einem einzelnen Notebook, ohne weitere Kopie. Welches Risiko ist hierbei am unmittelbarsten relevant?",
+    "explanation": "Ohne weitere Kopie würde ein Verlust oder Defekt des Notebooks die Verfügbarkeit der Zeichnung erheblich gefährden — es gäbe schlicht keine Möglichkeit mehr, auf sie zuzugreifen. Eine einmalige Speicherung erhöht dadurch nicht automatisch die Vertraulichkeit (A ist falsch); sie ist im Gegenteil riskanter als mehrere verteilte, geschützte Kopien (C ist falsch). Und das unmittelbare Risiko betrifft hier die Verfügbarkeit, nicht primär die Integrität der Zeichnung (D ist falsch)."
+  },
+  {
+    "q": "Ein Auftragnehmer erhält vorübergehend Zugriff auf ein internes System, um eine Wartung durchzuführen; der Zugriff wird nach Abschluss der Arbeiten nicht wieder entzogen. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Ein Zugriff, der über den eigentlichen Bedarf hinaus bestehen bleibt, ist eine klassische Schwachstelle: Sie erhöht das Risiko eines späteren Missbrauchs, etwa wenn Zugangsdaten des Auftragnehmers kompromittiert werden. Ein vorübergehender Zugriff sollte also nicht unbegrenzt bestehen bleiben (B ist falsch), externe Auftragnehmer können sehr wohl eine Bedrohung darstellen (C ist falsch), und die Auswirkung beschränkt sich nicht nur auf die Verfügbarkeit — vor allem die Vertraulichkeit interner Daten ist gefährdet (D ist falsch)."
+  },
+  {
+    "q": "Eine Organisation stuft alle ihre Informationen unabhängig von Inhalt und Bedeutung einheitlich als „normal schutzbedürftig“ ein. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Eine pauschale Einstufung ohne inhaltliche Differenzierung kann sowohl zu Überschutz (unnötiger Aufwand für unwichtige Informationen) als auch zu Unterschutz (zu wenig Schutz für wirklich sensible Informationen) führen. Sie ist damit gerade nicht automatisch die effizienteste Vorgehensweise (A ist falsch). Der Schutzbedarf hängt vom Inhalt einer Information ab, nicht nur vom Speicherort (C ist falsch), und eine Differenzierung ist genauso für Informationen selbst relevant wie für technische Systeme (D ist falsch)."
+  },
+  {
+    "q": "Ein Kundenprojektname wird versehentlich in einer öffentlichen Präsentation gezeigt, obwohl das Projekt vertraulich ist; die Präsentation wird sofort korrigiert, bevor jemand außerhalb des Raumes reagieren kann. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Es liegt eine Gefährdung der Vertraulichkeit vor: Ob daraus tatsächlich ein Schaden entsteht, hängt davon ab, wer im Raum anwesend war und die Information wahrgenommen haben könnte. Ein Vorfall liegt also trotz der sofortigen Korrektur vor (B ist falsch), ein Schaden ist aber nicht zwingend bereits eingetreten — das hängt vom Publikum ab (C ist falsch zu absolut). Und es geht um Vertraulichkeit des Projektnamens, nicht um die Verfügbarkeit der Präsentation selbst (D ist falsch)."
+  },
+  {
+    "q": "Zwei baugleiche Server verarbeiten dieselbe Art von Anwendung; einer verarbeitet zusätzlich hochsensible Gesundheitsdaten, der andere ausschließlich öffentlich zugängliche Informationen. Welche Aussage ist am zutreffendsten?",
+    "explanation": "Der Schutzbedarf richtet sich nach Art und Sensibilität der verarbeiteten Informationen, nicht nach der eingesetzten Hardware — baugleiche Server können also durchaus unterschiedlichen Schutzbedarf haben (A und C sind falsch). Öffentlich zugängliche Informationen benötigen entsprechend auch nicht denselben Schutz wie hochsensible Gesundheitsdaten (D ist falsch)."
+  },
+  {
+    "q": "Ein Beschäftigter nutzt sein privates Smartphone, um kurzfristig eine dienstliche E-Mail mit vertraulichem Anhang zu lesen, da sein Diensthandy gerade nicht griffbereit ist. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Ein nicht vom Unternehmen verwaltetes privates Gerät (ohne Mobile-Device-Management, ohne garantierte Verschlüsselung oder aktuelle Updates) kann eine zusätzliche Schwachstelle darstellen, selbst wenn die Person selbst zum Lesen berechtigt ist (B ist zu unkritisch). Private Geräte unterliegen deshalb grundsätzlich einer anderen Risikolage als verwaltete Diensthandys (C ist falsch), und das Risiko betrifft hier vor allem die Vertraulichkeit des vertraulichen Anhangs, nicht nur die Verfügbarkeit der E-Mail (D ist falsch)."
+  },
+  {
+    "q": "Eine Organisation erfährt von einer neuen, in den Medien breit diskutierten Angriffsmethode, die branchenweit genutzte Software betrifft, prüft aber nicht, ob sie selbst betroffen sein könnte. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Aktives Bedrohungsmanagement gehört zur Informationssicherheit dazu: Die Organisation sollte prüfen, ob die betroffene Software auch bei ihr im Einsatz ist und welche Bedrohungslage sich daraus konkret ergibt. Medienberichte über neue Angriffsmethoden sind also keineswegs bedeutungslos (A ist falsch), eine Prüfung ist nicht erst nach einem eigenen konkreten Angriff sinnvoll (C ist falsch), und branchenweit bekannte Methoden betreffen nicht nur große Unternehmen (D ist falsch)."
+  },
+  {
+    "q": "Eine Führungskraft teilt ihr persönliches Passwort mit einer vertretenden Person, damit diese während einer kurzen Abwesenheit dringende Freigaben erteilen kann. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Die Weitergabe eines persönlichen Passworts schafft eine Schwachstelle, weil Handlungen danach nicht mehr eindeutig einer Person zugeordnet werden können — die Nachvollziehbarkeit geht verloren. Gegenseitiges Vertrauen macht das nicht unproblematisch (B ist falsch), betroffen ist nicht nur die Verfügbarkeit des Kontos, sondern vor allem die Zuordenbarkeit von Handlungen (C ist falsch), und auch für dringende Fälle gibt es bessere Lösungen wie Stellvertreterrollen — eine kurzfristige Weitergabe ist deshalb nicht grundsätzlich unbedenklich (D ist falsch)."
+  },
+  {
+    "q": "Ein Unternehmen speichert Sicherungskopien seiner wichtigsten Daten im selben Gebäude wie die Originaldaten, jedoch in einem anderen Stockwerk. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Ein Ereignis wie ein Gebäudebrand kann Original und Sicherungskopie gleichzeitig betreffen, wenn beide im selben Gebäude liegen — echte Redundanz braucht deshalb auch räumliche Trennung. Eine Sicherungskopie im selben Gebäude bietet also nicht denselben Schutz wie eine extern gelagerte Sicherung (A ist falsch), die Lagerung betrifft primär die Verfügbarkeit im Schadensfall, nicht nur die Vertraulichkeit (C ist falsch), und der Lagerort ist für die Wirksamkeit einer Sicherung keineswegs unerheblich (D ist falsch)."
+  },
+  {
+    "q": "Ein Beschäftigter fotografiert versehentlich einen Bildschirm mit vertraulichen Kundendaten für private Zwecke und löscht das Foto sofort wieder, nachdem er den Fehler bemerkt hat. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Auch ein kurzzeitiger Vorgang stellt in dem Moment, in dem das Foto existierte, eine Gefährdung der Vertraulichkeit dar — das sofortige Löschen macht den Vorgang rückblickend nicht bedeutungslos (B und D sind falsch). Umgekehrt ist ein erstelltes Foto aber auch nicht zwingend bereits ein eingetretener Schaden (C ist zu absolut) — entscheidend ist, ob und wie die Daten in der Zwischenzeit tatsächlich Dritten zugänglich wurden."
+  },
+  {
+    "q": "Ein Unternehmen verwendet für mehrere unterschiedliche Systeme dasselbe Administratorpasswort, um die Verwaltung zu vereinfachen. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Ein gemeinsames Administratorpasswort ist ein einzelner Ausfallpunkt für die Vertraulichkeit: Wird es kompromittiert, sind gleichzeitig alle Systeme betroffen, die es verwenden. Es erhöht also nicht die Sicherheit, nur weil es leichter zu verwalten ist (A ist falsch), betrifft nicht nur die Verfügbarkeit dieser Systeme (C ist falsch), und vereinfachte Verwaltung rechtfertigt nicht jede Reduzierung individueller Zugangsdaten (D ist falsch)."
+  },
+  {
+    "q": "Ein Praktikant erhält versehentlich Zugriff auf einen Ordner mit Gehaltsdaten, obwohl seine Rolle dies nicht erfordert; er öffnet den Ordner nicht und meldet den Fehler sofort. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Eine überzogene Rechtevergabe ist unabhängig davon, ob der Zugriff tatsächlich genutzt wird, bereits eine Schwachstelle — sie hätte missbraucht werden können. Dass der Ordner nicht geöffnet wurde, macht den Sachverhalt also nicht irrelevant (B ist falsch), und die Meldung des Fehlers beseitigt die zugrunde liegende Schwachstelle nicht rückwirkend, sie ermöglicht nur, sie zu beheben (C ist falsch). Eine überzogene Rechtevergabe ist schon vor einem tatsächlichen Missbrauch relevant (D ist falsch), weil das Prinzip minimaler Berechtigungen genau solche Fälle verhindern soll."
+  },
+  {
+    "q": "Zwei vergleichbare Abteilungen setzen dieselbe Anwendung ein; eine Abteilung schult ihre Beschäftigten regelmäßig zu sicherheitsrelevantem Verhalten, die andere nicht. Welche Aussage ist am zutreffendsten?",
+    "explanation": "Menschliches Verhalten beeinflusst das tatsächliche Risiko erheblich, auch bei identischer Technik — geschulte Beschäftigte erkennen zum Beispiel Phishing-Versuche eher. Identische Technik führt also nicht automatisch zu identischem Risiko (A ist falsch), Schulungen haben sehr wohl relevanten Einfluss (C ist falsch), und das Risiko einer Abteilung hängt nicht ausschließlich von der eingesetzten Technik ab (D ist falsch)."
+  },
+  {
+    "q": "Ein Lieferant erhält dauerhaften Zugriff auf ein internes System, obwohl das ursprüngliche Projekt, für das der Zugriff eingerichtet wurde, längst abgeschlossen ist. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Nach Projektabschluss nicht mehr benötigter Zugriff ist eine unnötige, vermeidbare Schwachstelle nach dem Prinzip minimaler Rechtevergabe und sollte entzogen werden. Zugriffe sollten also nicht allein aus Gründen der Kontinuität dauerhaft bestehen bleiben (B ist falsch), unauffälliges bisheriges Verhalten macht den fortbestehenden Zugriff nicht unproblematisch (C ist falsch), und die Dauer eines Zugriffs ist durchaus sicherheitsrelevant, nicht nur vertraglich (D ist falsch)."
+  },
+  {
+    "q": "Ein Unternehmen verfügt über eine einzige aktuelle Kopie einer wichtigen Vertragsdatenbank, die ausschließlich auf einem Server ohne jede Redundanz gespeichert ist. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Ohne Redundanz würde ein Ausfall dieses einzelnen Servers die Verfügbarkeit der Vertragsdatenbank vollständig gefährden — es gäbe keine funktionierende Alternative mehr. Regelmäßige Wartung allein macht eine nicht redundante Speicherung nicht unproblematisch (A ist falsch), Redundanz betrifft primär die Verfügbarkeit, nicht die Vertraulichkeit (C ist falsch), und fehlende Redundanz ist nicht nur bei öffentlich zugänglichen Datenbanken relevant (D ist falsch)."
+  },
+  {
+    "q": "Ein Unternehmen speichert ein und dasselbe vertrauliche Dokument sowohl auf einem zentralen Server als auch unkontrolliert auf mehreren privaten Cloud-Speichern einzelner Beschäftigter. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Jede unkontrollierte zusätzliche Kopie vergrößert die Angriffsfläche für die Vertraulichkeit des Dokuments erheblich, da diese Kopien außerhalb der Kontrolle und der Schutzmaßnahmen des Unternehmens liegen. Solche Kopien erhöhen also nicht einfach ohne Nachteil die Verfügbarkeit (B ist falsch), es geht um mehr als nur Bequemlichkeit (C ist falsch), und das Vorhandensein des Dokuments auf dem zentralen Server macht die zusätzlichen, unkontrollierten Kopien nicht irrelevant (D ist falsch)."
+  },
+  {
+    "q": "Ein Unternehmen bewertet ein und dieselbe Bedrohung für zwei unterschiedliche Systeme identisch, obwohl eines der Systeme deutlich sensiblere Daten verarbeitet als das andere. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Trotz identischer Bedrohung kann das tatsächliche Risiko unterschiedlich sein, weil die möglichen Auswirkungen von der Sensibilität der verarbeiteten Daten abhängen — Risiko ist immer eine Kombination aus Bedrohung und möglicher Auswirkung. Eine identische Bedrohung führt also nicht automatisch zu identischem Risiko (A ist falsch), die Sensibilität der Daten ist für die Risikobewertung keineswegs zweitrangig (C ist falsch), und unterschiedliche Auswirkungen entstehen nicht nur bei unterschiedlichen technischen Schwachstellen (D ist falsch)."
+  },
+  {
+    "q": "Ein Unternehmen stellt fest, dass eine seit Jahren genutzte Anwendung nie einer formalen Schutzbedarfsfeststellung unterzogen wurde. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Auch langjährig genutzte Anwendungen sollten einer formalen Schutzbedarfsfeststellung unterzogen werden, um ihren tatsächlichen Schutzbedarf wirklich zu kennen — eine bislang unauffällige Nutzung ist kein verlässlicher Beleg für geringen Schutzbedarf (B und D sind falsch). Schutzbedarfsfeststellungen sind zudem nicht nur für neu eingeführte Anwendungen relevant, sondern sollten auch bei bestehenden Systemen regelmäßig überprüft werden (C ist falsch)."
+  },
+  {
+    "q": "Ein Unternehmen betrachtet ausschließlich vorsätzliche Angriffe als relevante Bedrohung für seine Systeme und blendet Naturereignisse wie Sturm oder Hochwasser vollständig aus. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Naturereignisse wie Sturm oder Hochwasser stellen ebenfalls relevante Bedrohungen dar und sollten in die Betrachtung einbezogen werden — der Bedrohungsbegriff ist nicht auf vorsätzliche, von Personen ausgehende Handlungen beschränkt (A ist falsch). Naturereignisse sind für die Informationssicherheit keineswegs praktisch irrelevant (C ist falsch), und ihre Betrachtung ist nicht nur für besonders exponierte Unternehmen erforderlich, da z. B. auch Serverräume überall von Wasserschäden betroffen sein können (D ist falsch)."
+  },
+  {
+    "q": "In einem Unternehmen wird der Zugang zu einem Serverraum nur durch eine unabgeschlossene Tür mit Hinweisschild 'Zutritt nur für Befugte' geregelt. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Ein reines Hinweisschild ohne tatsächliche Zugangskontrolle ist eine Schwachstelle, da es keinen wirksamen technischen oder organisatorischen Schutz vor unbefugtem Zutritt bietet — es verlässt sich allein auf freiwilliges Verhalten. Ein Schild ist deshalb nicht ausreichend (A ist falsch), die physische Absicherung eines Serverraums betrifft nicht nur die Verfügbarkeit, sondern ebenso Vertraulichkeit und Integrität der dort verarbeiteten Daten (C ist falsch), und ein Hinweisschild ersetzt keine technische Zugangskontrolle wie ein Schloss oder eine Zutrittskarte (D ist falsch)."
+  },
+  {
+    "q": "Ein Unternehmen bewahrt ausgedruckte vertrauliche Dokumente in einem Aktenschrank auf, der zwar abschließbar ist, aber im Alltag meist unverschlossen bleibt. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Ein vorhandenes, aber nicht genutztes Schloss stellt eine Schwachstelle dar, weil der beabsichtigte Schutz in der Praxis nicht wirksam ist — es kommt nicht nur auf das Vorhandensein, sondern auf die tatsächliche Nutzung von Schutzmaßnahmen an (B und C sind falsch). Und ein unverschlossener Aktenschrank betrifft vor allem die Vertraulichkeit der darin enthaltenen Dokumente, nicht nur ihre Verfügbarkeit (D ist falsch)."
+  },
+  {
+    "q": "Ein Unternehmen betrachtet ausschließlich technische Systeme wie Server und Netzwerkkomponenten als schützenswerte Werte, nicht aber das Wissen erfahrener Mitarbeitender über kritische Abläufe. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Auch das Wissen erfahrener Mitarbeitender über kritische Abläufe ist ein eigenständiger, schützenswerter Wert — geht dieses Wissen verloren (z. B. durch Kündigung ohne Übergabe), kann das einem Unternehmen erheblich schaden. Schützenswerte Werte sind also nicht auf technische Systeme beschränkt (B ist falsch), Personenwissen ist nicht erst dann relevant, wenn es schriftlich dokumentiert ist (C ist falsch), und diese Überlegung gilt für Unternehmen jeder Größe, nicht nur für sehr kleine (D ist falsch)."
+  },
+  {
+    "q": "Ein Unternehmen betrachtet die Kombination aus einer ungepatchten Software-Schwachstelle und einem aktiv nach solchen Schwachstellen suchenden Angreifer ausschließlich als Bedrohung, nicht als Gefährdung. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Das konkrete Zusammentreffen von Schwachstelle und aktiv suchendem Angreifer beschreibt bereits eine Gefährdung, nicht mehr nur eine allgemeine Bedrohung — die beiden Elemente sind hier bereits konkret zusammengeführt. Die Einordnung als bloße Bedrohung ist deshalb zu vorsichtig (A ist falsch), Schwachstelle und Bedrohung lassen sich hier durchaus unterscheiden (C ist falsch), und eine Gefährdung liegt schon vor einem erfolgreichen Angriff vor, nicht erst danach (D ist falsch) — genau das macht den Begriff ja nützlich für die vorbeugende Risikobewertung."
+  },
+  {
+    "q": "Ein Mitarbeiter verwendet für mehrere unterschiedliche dienstliche Konten dasselbe Passwort, da dies die Merkbarkeit erleichtert. Welches Schutzziel ist dadurch am stärksten gefährdet?",
+    "explanation": "Die Vertraulichkeit mehrerer Konten gleichzeitig ist am stärksten gefährdet: Wird ein Konto kompromittiert, lässt sich dasselbe Passwort meist auch bei den anderen Konten ausprobieren, wodurch diese ebenfalls offengelegt werden können. Es geht nicht um eine technische Verlangsamung der Anmeldung (A ist falsch), nicht primär um Nachvollziehbarkeit, wer sich angemeldet hat (C ist falsch), und nicht um die Integrität der gespeicherten Daten (D ist falsch)."
+  },
+  {
+    "q": "Ein Mitarbeiter lädt eine Datei mit vertraulichem Inhalt in einen privaten Cloud-Speicher hoch, um von zu Hause aus weiterarbeiten zu können. Welches Schutzziel ist dadurch am unmittelbarsten betroffen?",
+    "explanation": "Sobald die Datei die kontrollierte Unternehmensumgebung verlässt, könnte sie für Dritte zugänglich sein — die Vertraulichkeit ist damit unmittelbar betroffen, da die Schutzmaßnahmen des Unternehmens (Zugriffskontrolle, Verschlüsselung, Berechtigungen) im privaten Cloud-Speicher nicht mehr greifen. Es geht hier nicht in erster Linie um die Verfügbarkeit für den Mitarbeiter selbst (B ist falsch), nicht um Nachweisbarkeit des Uploads (C ist falsch) und nicht um die Anmeldung beim Cloud-Anbieter (D ist falsch)."
+  },
+  {
+    "q": "In einem Unternehmen wird ein veraltetes Betriebssystem ohne Sicherheitsupdates weiterbetrieben, da eine Migration als zu aufwändig gilt. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Ein veraltetes, nicht mehr aktualisiertes Betriebssystem stellt eine Schwachstelle dar, die von Angreifern gezielt ausgenutzt werden kann — bekannte, ungepatchte Lücken sind ein beliebtes Angriffsziel. Das bisherige Ausbleiben eines Vorfalls macht es nicht unproblematisch (A ist falsch), Sicherheitsupdates sind nicht nur für öffentlich erreichbare Systeme relevant (B ist falsch), und der Aufwand einer Migration rechtfertigt keinen dauerhaften Verzicht auf Sicherheitsupdates (D ist falsch)."
+  },
+  {
+    "q": "Ein Unternehmen speichert Sicherungskopien wichtiger Daten ausschließlich auf demselben Server wie die Originaldaten. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Eine Sicherungskopie auf demselben Server bietet keinen wirksamen Schutz, falls der Server insgesamt ausfällt oder kompromittiert wird — Original und Kopie hängen dann vom selben Ausfallpunkt ab, was den eigentlichen Zweck einer Sicherung untergräbt. Redundanz auf demselben Server reicht deshalb nicht aus (A ist falsch), der Speicherort einer Sicherungskopie ist alles andere als bedeutungslos (B ist falsch), und räumliche Trennung ist nicht nur bei physischen Datenträgern relevant, sondern auch bei digitalen Backups (C ist falsch)."
+  },
+  {
+    "q": "Ein Unternehmen betrachtet ein internes Wiki mit Betriebsanleitungen als reines Komfort-Tool ohne sicherheitsrelevanten Inhalt, obwohl darin auch Zugangsdaten zu Testsystemen dokumentiert sind. Welche Einordnung ist am zutreffendsten?",
+    "explanation": "Sobald ein Wiki tatsächlich sicherheitsrelevante Informationen wie Zugangsdaten enthält, sollte es als schützenswerter Wert eingestuft werden — unabhängig davon, wofür es ursprünglich gedacht war. Ein internes Wiki ist also nicht grundsätzlich von der sicherheitsrelevanten Betrachtung ausgenommen (B ist falsch), Zugangsdaten zu Testsystemen sind keineswegs irrelevant, da über sie oft weitere Systeme erreichbar sind (C ist falsch), und die Einstufung hängt vom tatsächlichen Inhalt ab, nicht vom Namen des Dokuments (D ist falsch)."
+  }
+]

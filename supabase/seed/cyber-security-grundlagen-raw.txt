@@ -1,0 +1,793 @@
+In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Organisation schützt einen rein papiergebundenen Vertragsbestand, der nie elektronisch verarbeitet wird. Welcher Sicherheitsbereich ist dafür unmittelbar relevant?
+A
+Business Continuity, weil die Verfügbarkeit des Archivs im Vordergrund steht
+B
+Cyber-Sicherheit, weil Verträge im weiteren Sinn zum digitalen Geschäftsumfeld gehören
+C
+Informationssicherheit, weil auch nichtdigitale Informationen geschützt werden
+D
+IT-Sicherheit, weil physische Aufbewahrung dieselben Anforderungen wie IT-Systeme stellt
+Correct Answer
+C
+Explanation
+Informationssicherheit schützt Informationen unabhängig davon, ob sie digital, auf Papier, mündlich oder in anderem Format vorliegen.
+In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Tätergruppe kann eine ungepatchte Schwachstelle eines öffentlich erreichbaren Servers ausnutzen. Welche Aussage bildet die Begriffe fachlich am genauesten ab?
+A
+Tätergruppe als Schwachstelle, Serverreichweite als Risiko und Patch als Bedrohung
+B
+Tätergruppe als Bedrohung, ungepatchte Stelle als Schwachstelle und mögliche Schadensfolge als Risiko
+C
+Tätergruppe als Gefährdung, ungepatchte Stelle als Risiko und Serverreichweite als Schwachstelle
+D
+Tätergruppe als Risiko, ungepatchte Stelle als Bedrohung und Schadensfolge als Gefährdung
+Correct Answer
+B
+Explanation
+Bedrohung und Schwachstelle bilden eine konkrete Gefährdung; das Risiko bewertet mögliche Folgen im Kontext.
+In einem Workshop zu Sicherheitsgrundlagen bespricht das zuständige Team folgenden Fall: Ein freigegebener Überweisungsdatensatz bleibt jederzeit verfügbar und nur für Berechtigte lesbar, wird aber unbemerkt verändert. Welches Schutzziel ist primär betroffen?
+A
+Authentizität, weil die Erreichbarkeit des freigegebenen Datensatzes nicht nachgewiesen ist
+B
+Verfügbarkeit, weil eine veränderte Information fachlich nicht mehr wie vorgesehen nutzbar ist
+C
+Integrität, weil Richtigkeit und Unverändertheit des Datensatzes nicht gewährleistet sind
+D
+Vertraulichkeit, weil eine unautorisierte Veränderung zugleich eine Offenlegung voraussetzt
+Correct Answer
+C
+Explanation
+Die unbemerkte Veränderung betrifft primär die Richtigkeit und Unversehrtheit der Information und damit ihre Integrität.
+In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Welche Aussage beschreibt das Verhältnis von Sicherheit und Schutz am sinnvollsten?
+A
+Sicherheit und Schutz bezeichnen beide denselben Endzustand und lassen sich in der Praxis austauschbar verwenden
+B
+Sicherheit ist eine einzelne technische Maßnahme; Schutz bezeichnet deren praktische Umsetzung im Betrieb
+C
+Schutz ist der angestrebte Zustand; Sicherheit besteht aus organisatorischen Regeln, die diesen Zustand erzeugen
+D
+Sicherheit ist der angestrebte Zustand; Schutz wird durch geeignete technische, organisatorische, personelle oder infrastrukturelle Maßnahmen geschaffen
+Correct Answer
+D
+Explanation
+Sicherheit bezeichnet einen angestrebten Zustand, zu dem geeignete Schutzmaßnahmen unterschiedlicher Art beitragen.
+In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Ein ungepatchter Laptop wird ausgeschaltet in einem gesicherten Tresor gelagert. Welche Aussage ordnet Schwachstelle und Risiko am genauesten ein?
+A
+Das Risiko entspricht dem möglichen Schaden und kann deshalb ohne Eintrittswahrscheinlichkeit bewertet werden
+B
+Durch die bekannte Schwachstelle besteht ein Risiko in Höhe des theoretisch maximal möglichen Schadens
+C
+Die Schwachstelle bleibt bestehen; das aktuelle Risiko ergibt sich erst aus Bedrohung, Exposition und möglicher Auswirkung
+D
+Der Tresor beseitigt die Schwachstelle, solange das Gerät nicht mit einem Netzwerk verbunden ist
+Correct Answer
+C
+Explanation
+Eine Schwachstelle ist nicht mit Risiko gleichzusetzen; Risiko entsteht im Kontext möglicher Bedrohungen und Auswirkungen.
+In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Welche Form kann eine schutzbedürftige Information haben?
+A
+Wenn sie personenbezogen ist, da andere Informationsarten regulatorisch weniger erfasst sind
+B
+Erst dann, wenn sie in einem IT-System gespeichert und damit technisch erfassbar ist
+C
+Erst nach schriftlicher Fixierung und formaler Freigabe, da mündliche Aussagen keinen Schutzbedarf auslösen
+D
+Digital, auf Papier, mündlich oder im Wissen einer Person
+Correct Answer
+D
+Explanation
+Information ist nicht an ein bestimmtes Medium gebunden.
+In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Ein unberechtigter Dritter liest vertrauliche Angebotsunterlagen. Welches Schutzziel ist unmittelbar verletzt?
+A
+Vertraulichkeit
+B
+Integrität
+C
+Verfügbarkeit
+D
+Wiederanlauffähigkeit
+Correct Answer
+A
+Explanation
+Unberechtigte Kenntnisnahme verletzt die Vertraulichkeit.
+In einem Workshop zu Sicherheitsgrundlagen wird die folgende Situation bewertet: Was kennzeichnet den Cyberraum am sinnvollsten?
+A
+Vorwiegend soziale Netzwerke, da dort die stärkste Vernetzung stattfindet
+B
+Vernetzte digitale Informations- und Kommunikationsumgebungen
+C
+Vorwiegend firmeninterne Netzwerke ohne jede Verbindung zum Internet
+D
+Vorwiegend öffentlich betriebene Rechenzentren, da private Anbieter geringere Vernetzung aufweisen
+Correct Answer
+B
+Explanation
+Der Cyberraum entsteht durch vernetzte digitale Verarbeitung und Kommunikation.
+In einem Workshop zu Sicherheitsgrundlagen bespricht das zuständige Team folgenden Fall: Eine Außentür zum Serverraum schließt nicht zuverlässig. Gleichzeitig werden Einbrüche in der Umgebung gemeldet. Welche fachliche Bewertung ist am passendsten?
+A
+Beides beschreibt denselben Sachverhalt aus zwei unterschiedlichen Blickwinkeln auf dasselbe Ereignis
+B
+Beides sind bereits eingetretene Schäden
+C
+Die fehlerhafte Tür ist eine Schwachstelle; die Einbruchslage ist eine Bedrohung
+D
+Die Tür ist die Bedrohung; die Einbruchslage ist die Schwachstelle
+Correct Answer
+C
+Explanation
+Die Schwäche des Objekts und der mögliche schädigende Umstand sind zu trennen.
+In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Ein Archiv ist nach einem Wasserschaden tagelang nicht nutzbar; die Akten sind jedoch weder eingesehen noch verändert worden. Welches Ziel ist primär betroffen?
+A
+Authentisierung, weil das Archiv keinen Benutzer anmelden kann
+B
+Vertraulichkeit, weil Wasser die Zugriffskontrolle umgeht
+C
+Integrität, weil eine länger andauernde Nichtverfügbarkeit faktisch einer Veränderung des Zugriffszustands gleichkommt
+D
+Verfügbarkeit, weil berechtigte Nutzung nicht rechtzeitig möglich ist
+Correct Answer
+D
+Explanation
+Die zeitgerechte Nutzbarkeit ist ausgefallen.
+In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Sicherheitsmaßnahme kombiniert Zutrittskarten, Schulungen, verbindliche Besucherregeln und eine abschließbare Tür. Was zeigt das Beispiel?
+A
+Schutz kann technische, personelle, organisatorische und infrastrukturelle Elemente verbinden
+B
+Vorwiegend technische Maßnahmen beeinflussen einen Sicherheitszustand
+C
+Personelle Maßnahmen ersetzen technische Kontrollen in den meisten Fällen
+D
+Die Maßnahmen betreffen in erster Linie Business Continuity
+Correct Answer
+A
+Explanation
+Wirksamer Schutz entsteht häufig durch verschiedene Maßnahmenarten.
+In einem Workshop zu Sicherheitsgrundlagen wird die folgende Situation bewertet: Eine Bestelldatei wird von einem berechtigten Mitarbeiter versehentlich überschrieben. Welche Aussage ist am genauesten?
+A
+Primär Verfügbarkeit, weil die Datei durch die Änderung vorübergehend nicht nutzbar war
+B
+Die Integrität ist verletzt, obwohl keine feindliche Absicht vorliegt
+C
+Vertraulichkeit ist betroffen, da der Mitarbeiter Zugriffsrechte besaß
+D
+Kein Schutzziel ist betroffen, weil eine unbeabsichtigte Handlung keine Sicherheitsrelevanz hat
+Correct Answer
+B
+Explanation
+Auch unbeabsichtigte Veränderungen können die Richtigkeit beeinträchtigen.
+In einem Workshop zu Sicherheitsgrundlagen bespricht das zuständige Team folgenden Fall: Zwei identische Systeme haben dieselbe Schwachstelle. Eines ist öffentlich erreichbar, das andere dauerhaft vom Netz getrennt. Welche Aussage passt am sinnvollsten?
+A
+Vorwiegend das öffentlich erreichbare System kann einen Schaden verursachen, da Angreifer meist erreichbare Ziele bevorzugen
+B
+Beide Systeme haben ein vergleichbares Risiko, weil die Schwachstelle identisch ist
+C
+Die Schwachstelle ist gleich, das Risiko kann wegen unterschiedlicher Exposition abweichen
+D
+Das isolierte System hat keine Schwachstelle mehr
+Correct Answer
+C
+Explanation
+Risiko wird durch Kontext, Bedrohung und mögliche Auswirkungen mitbestimmt.
+In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Vier Teams begründen Maßnahmen mit Informationssicherheit. Welche Begründung betrifft stattdessen primär reine IT-Funktionalität ohne erkennbaren Sicherheitsbezug?
+A
+Der Auftragsservice soll zu den vereinbarten Zeiten nutzbar sein
+B
+Zahlungsdaten sollen ausschließlich berechtigte Rollen lesen können
+C
+Freigegebene Stücklisten sollen nicht unbemerkt geändert werden
+D
+Die Schriftgröße der Benutzeroberfläche soll dem Corporate Design entsprechen
+Correct Answer
+D
+Explanation
+Gestaltungskonformität allein schützt keines der genannten Schutzziele.
+In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Organisation bewertet erstmals das Risiko eines offen zugänglichen Aktenraums. Welche Information sollte es neben der Schwachstelle als Erstes klären?
+A
+Welche Bedrohungen realistisch einwirken und welche Auswirkungen ein Zugriff hätte
+B
+Wie hoch die Reparaturkosten für die defekte Zugangstür ausfallen würden
+C
+Wie viele weitere Räume im Gebäude ebenfalls unverschlossen sind
+D
+Wie hoch der Versicherungswert der im Aktenraum gelagerten Unterlagen ist
+Correct Answer
+A
+Explanation
+Eine Risikoeinschätzung verbindet die Schwäche mit Bedrohung und möglicher Auswirkung.
+In einem Workshop zu Sicherheitsgrundlagen wird die folgende Situation bewertet: Ein gestohlenes, stark verschlüsseltes Notebook enthält die einzige aktuelle Kopie einer Projektdatei. Welche Bewertung ist am vollständigsten?
+A
+Verfügbarkeit bleibt unbeeinträchtigt, da eine Kopie theoretisch rekonstruierbar ist
+B
+Verschlüsselung reduziert das Offenlegungsrisiko; Verfügbarkeit kann trotzdem erheblich betroffen sein
+C
+Durch die Verschlüsselung sind die wesentlichen Vertraulichkeitsrisiken des Diebstahls deutlich reduziert
+D
+Der Diebstahl betrifft in erster Linie die Integrität, weil der Inhalt durch den Ortswechsel als verändert gilt
+Correct Answer
+B
+Explanation
+Eine Maßnahme kann ein Schutzziel stärken, ohne andere Auswirkungen des Ereignisses zu beseitigen.
+Ein Bürogebäude liegt in einem Gebiet mit gelegentlichem Starkregen; der Serverraum befindet sich im Erdgeschoss. Für das kommende Wochenende wird eine Unwetterwarnung mit Starkregen ausgegeben. Wie ist die Lage am Wochenende gegenüber der Ausgangslage einzuordnen?
+A
+Die Unwetterwarnung macht aus der bestehenden Bedrohung eine konkrete Gefährdung für den Serverraum
+B
+Die Lage bleibt unverändert eine Bedrohung, weil sich am Gebäude selbst nichts geändert hat
+C
+Die Lage ist bereits ein eingetretener Schaden, weil eine amtliche Warnung vorliegt
+D
+Die Lage betrifft ausschließlich das Risiko, weil noch kein Wasser eingedrungen ist
+Correct Answer
+A
+Explanation
+Die allgemeine Bedrohung 'Starkregen' wird durch die konkrete Unwetterwarnung für dieses Wochenende zeitlich und räumlich konkret: Sie trifft jetzt mit einer realistischen Wahrscheinlichkeit auf den konkreten Serverraum im Erdgeschoss. Genau dieses Zusammentreffen von Bedrohung und konkreter Auswirkungsmöglichkeit nennt man Gefährdung. Die Lage bleibt also nicht einfach eine allgemeine Bedrohung (B), es ist auch noch kein Schaden eingetreten (C), und Risiko ist nicht erst relevant, wenn bereits Wasser eingedrungen ist (D) — Risiko bewertet ja gerade mögliche zukünftige Auswirkungen.
+Eine Projektleiterin bespricht in einem belebten Café am Nachbartisch vertrauliche Verhandlungsdetails mit einem Kollegen. Kein Dokument wird dabei verwendet. Welche Einordnung ist am zutreffendsten?
+A
+Es liegt keine schutzbedürftige Information vor, da nichts schriftlich festgehalten wurde
+B
+Es liegt schutzbedürftige Information vor, weil Information unabhängig vom Medium geschützt werden muss
+C
+Es liegt ein bereits eingetretener Schaden vor, weil Dritte am Nachbartisch mithören könnten
+D
+Es liegt lediglich ein organisatorisches Stilproblem vor, das keinen Bezug zur Informationssicherheit hat
+Correct Answer
+B
+Explanation
+Information ist nicht an ein bestimmtes Medium gebunden — auch mündlich weitergegebene Inhalte sind schutzbedürftig, wenn sie vertraulich sind. Eine schriftliche Fixierung ist dafür keine Voraussetzung (A ist falsch). Dass Dritte am Nachbartisch mithören könnten, ist eine Gefährdung, aber noch kein sicher eingetretener Schaden (C ist falsch). Und weil es echten Bezug zur Vertraulichkeit von Geschäftsinformationen hat, ist es mehr als ein reines Stilproblem (D ist falsch).
+Ein Mitarbeiter öffnet eine Phishing-Mail und klickt auf den enthaltenen Link, gibt aber auf der folgenden Seite keine Daten ein und bemerkt den Betrug rechtzeitig. Wie ist die Situation einzuordnen?
+A
+Es liegt bereits ein eingetretener Schaden vor, weil der Link angeklickt wurde
+B
+Es liegt eine Gefährdung, aber kein Risiko vor, weil der Mitarbeiter den Betrug erkannt hat
+C
+Es liegt weiterhin nur ein Risiko vor, da keine Daten preisgegeben und keine Auswirkung eingetreten ist
+D
+Die Situation ist sicherheitstechnisch irrelevant, weil der Vorgang folgenlos blieb
+Correct Answer
+C
+Explanation
+Solange keine Daten preisgegeben wurden und keine Auswirkung eingetreten ist, bleibt es bei einem Risiko — also einer möglichen, aber nicht realisierten Folge. Der bloße Klick auf den Link ist für sich genommen noch kein eingetretener Schaden (A ist falsch). Gefährdung und Risiko schließen sich hier auch nicht gegenseitig aus, wie B unterstellt: Die Gefährdung bestand durch den Phishing-Versuch, das Risiko bewertet die möglichen Folgen, die hier zum Glück nicht eintraten. Und irrelevant ist der Vorgang trotzdem nicht (D ist falsch) — solche Beinahe-Vorfälle sollten gemeldet werden, damit das Unternehmen aus ihnen lernen kann.
+Ein digital signierter Vertrag wird später von einer Partei bestritten; die Signatur bestätigt jedoch eindeutig Urheber und Zeitpunkt der Unterschrift. Welches Schutzziel wird hier primär genutzt?
+A
+Verfügbarkeit, weil der Vertrag weiterhin abrufbar ist
+B
+Vertraulichkeit, weil nur Berechtigte den Vertrag einsehen konnten
+C
+Integrität, weil der Vertragstext seit der Unterschrift unverändert ist
+D
+Verbindlichkeit beziehungsweise Nichtabstreitbarkeit, weil die Urheberschaft nachweisbar bleibt
+Correct Answer
+D
+Explanation
+Verbindlichkeit (auch Nichtabstreitbarkeit genannt) bedeutet, dass eine Handlung — hier die Unterschrift — einer Person zweifelsfrei zugeordnet werden kann und im Nachhinein nicht bestritten werden kann. Verfügbarkeit (A) betrifft nur, ob der Vertrag abrufbar ist, nicht wer ihn unterschrieben hat. Vertraulichkeit (B) schützt vor unbefugter Einsicht, nicht vor Abstreiten. Integrität (C) sichert die Unverändertheit des Textes, ist hier aber nicht der Kernpunkt — es geht um den Nachweis der Urheberschaft.
+Ein Onlineshop wird durch massenhaft automatisiert gesendete Anfragen so überlastet, dass reguläre Kunden ihn nicht mehr erreichen können; Daten werden dabei weder eingesehen noch verändert. Welches Schutzziel ist primär betroffen?
+A
+Verfügbarkeit, weil berechtigte Nutzer den Dienst nicht mehr erreichen können
+B
+Vertraulichkeit, weil unbekannte Absender auf das System zugreifen
+C
+Integrität, weil die Anfragen den normalen Systemzustand verändern
+D
+Verbindlichkeit, weil die Herkunft der Anfragen nicht zugeordnet werden kann
+Correct Answer
+A
+Explanation
+Das ist ein klassischer Überlastungsangriff (z. B. eine (D)DoS-Attacke): Berechtigte Nutzer erreichen den Dienst nicht mehr, also ist die Verfügbarkeit betroffen. Da keine Daten eingesehen werden, ist Vertraulichkeit nicht verletzt (B ist falsch). Da keine Daten verändert werden, ist auch die Integrität nicht betroffen (C ist falsch). Und es geht hier nicht um die Nachweisbarkeit einer Handlung, sondern um Erreichbarkeit, weshalb D nicht zutrifft.
+Ein Vortrag erklärt, dass Cyber-Sicherheit sich speziell auf Bedrohungen aus dem Cyberraum konzentriert, während Informationssicherheit unabhängig von der Form der Information gilt. Wie ist das Verhältnis der Begriffe zueinander am zutreffendsten beschrieben?
+A
+Cyber-Sicherheit und Informationssicherheit sind Synonyme mit identischem Geltungsbereich
+B
+Informationssicherheit ist der umfassendere Begriff; Cyber-Sicherheit bildet darin den auf den Cyberraum bezogenen Teilbereich
+C
+Cyber-Sicherheit ist der umfassendere Begriff und schließt Informationssicherheit vollständig ein
+D
+Beide Begriffe betreffen ausschließlich technische Schutzmaßnahmen ohne organisatorischen Bezug
+Correct Answer
+B
+Explanation
+Informationssicherheit ist der umfassendere Begriff: Sie schützt Informationen unabhängig davon, ob sie digital, auf Papier oder mündlich vorliegen. Cyber-Sicherheit ist darin der Teilbereich, der sich speziell auf Bedrohungen aus dem vernetzten digitalen Cyberraum bezieht. Die beiden Begriffe sind also keine Synonyme (A ist falsch), und das Verhältnis ist auch nicht umgekehrt wie in C behauptet. Beide Bereiche umfassen zudem nicht nur technische, sondern auch organisatorische Aspekte, weshalb D ebenfalls falsch ist.
+Ein Überwachungssystem meldet eine Anmeldung zu einer ungewöhnlichen Uhrzeit von einem bislang nicht genutzten Standort; ob dahinter ein tatsächlicher Angriff steckt, ist noch unklar. Wie ist diese Meldung zunächst am treffendsten einzuordnen?
+A
+Als Sicherheitsvorfall, weil jede ungewöhnliche Anmeldung automatisch als Vorfall gilt
+B
+Als Risiko, weil noch keine Bedrohung konkret vorliegt
+C
+Als Ereignis, das zunächst bewertet werden muss, bevor eine Einstufung als Vorfall erfolgt
+D
+Als Schwachstelle, weil die Anmeldung eine technische Lücke aufzeigt
+Correct Answer
+C
+Explanation
+Zunächst handelt es sich um ein Ereignis, das bewertet werden muss, bevor man es als Sicherheitsvorfall einstuft — nicht jede ungewöhnliche Anmeldung ist automatisch ein Vorfall (A ist falsch). Es als Risiko zu bezeichnen (B) trifft die Situation nicht genau, da es hier um die korrekte Einordnung eines konkreten, bereits eingetretenen Ereignisses geht. Und die Anmeldung selbst zeigt keine technische Lücke im System auf, sie ist also keine Schwachstelle (D ist falsch).
+Ein Unternehmen bewertet Bedrohungen ausschließlich anhand externer Angreifer und berücksichtigt keine Beschäftigten mit legitimen Zugriffsrechten. Welche Einordnung ist am zutreffendsten?
+A
+Die Bewertung ist vollständig, da Beschäftigte grundsätzlich vertrauenswürdig sind
+B
+Interne Personen können begrifflich keine Bedrohung darstellen, da sie zur Organisation gehören
+C
+Die Betrachtung externer Angreifer allein deckt automatisch auch interne Risiken ab
+D
+Der Bewertung fehlt die Betrachtung von Insider-Bedrohungen durch Personen mit legitimem, aber missbrauchtem Zugriff
+Correct Answer
+D
+Explanation
+Der Bewertung fehlt die Betrachtung von Insider-Bedrohungen — also Personen mit legitimem, aber möglicherweise missbrauchtem Zugriff. Diese Gefahr existiert unabhängig davon, wie vertrauenswürdig Beschäftigte im Allgemeinen sind (A ist falsch). Interne Personen können begrifflich sehr wohl eine Bedrohung darstellen (B ist falsch), und die Betrachtung rein externer Angreifer deckt interne Risiken nicht automatisch mit ab (C ist falsch).
+Eine interne Kundenliste wird von einer unberechtigten Person eingesehen, jedoch nicht verändert oder gelöscht. Welches Schutzziel ist unmittelbar verletzt?
+A
+Vertraulichkeit
+B
+Verfügbarkeit
+C
+Integrität
+D
+Nichtabstreitbarkeit
+Correct Answer
+A
+Explanation
+Unberechtigte Kenntnisnahme verletzt unmittelbar die Vertraulichkeit. Die Liste bleibt weiterhin nutzbar, also ist Verfügbarkeit (B) nicht betroffen. Da nichts verändert oder gelöscht wurde, ist auch die Integrität (C) nicht verletzt. Nichtabstreitbarkeit (D) betrifft die Nachweisbarkeit von Handlungen und passt hier nicht zum beschriebenen Vorgang.
+Für ein System wurde ein hoher Schutzbedarf festgestellt; bislang wurde jedoch keine einzige Sicherheitsmaßnahme umgesetzt. Welche Einordnung ist am zutreffendsten?
+A
+Der Schutzbedarf entfällt automatisch, solange keine Maßnahmen umgesetzt sind
+B
+Die Feststellung eines Schutzbedarfs beschreibt den Bedarf an Schutz; sie ersetzt nicht die tatsächliche Umsetzung von Maßnahmen
+C
+Ein hoher Schutzbedarf ist gleichbedeutend mit bereits umgesetzten Maßnahmen
+D
+Schutzbedarf und Maßnahmen sind bedeutungsgleiche Begriffe für denselben Sachverhalt
+Correct Answer
+B
+Explanation
+Die Feststellung eines Schutzbedarfs beschreibt nur, wie schutzbedürftig ein System ist — sie ersetzt nicht die tatsächliche Umsetzung von Maßnahmen. Ein hoher Schutzbedarf entfällt nicht automatisch, nur weil noch nichts umgesetzt wurde (A ist falsch), und er ist auch nicht gleichbedeutend mit bereits vorhandenem Schutz (C ist falsch). Schutzbedarf und Maßnahmen sind zwei unterschiedliche Dinge: der eine beschreibt den Bedarf, die anderen die tatsächliche Erfüllung (D ist falsch).
+Ein Beschäftigter erzählt einem Kollegen im Pausenraum beiläufig Details zu einem noch nicht veröffentlichten Produktnamen. Welche Aussage ist am zutreffendsten?
+A
+Es handelt sich um schutzbedürftige Information, da der Produktname vor Veröffentlichung einen geschäftlichen Wert hat
+B
+Es handelt sich um keine Information, da nichts dokumentiert wurde
+C
+Es handelt sich um einen bereits eingetretenen Schaden, da ein Kollege zuhörte
+D
+Es handelt sich um ein rein privates Gespräch ohne jede Relevanz für die Organisation
+Correct Answer
+A
+Explanation
+Ein noch nicht veröffentlichter Produktname hat vor der Veröffentlichung einen geschäftlichen Wert und ist daher schutzbedürftig, auch wenn er nur mündlich weitergegeben wird — Dokumentation ist keine Voraussetzung für den Informationsbegriff (B ist falsch). Das bloße Zuhören des Kollegen ist noch kein sicher eingetretener Schaden (C ist falsch), und da der Produktname geschäftlich relevant ist, handelt es sich nicht um ein rein privates, irrelevantes Gespräch (D ist falsch).
+Ein Messwert eines Sensors wird im laufenden Betrieb korrekt und nachvollziehbar durch eine berechtigte Person berichtigt. Welche Aussage zur Integrität ist am zutreffendsten?
+A
+Integrität ist verletzt, da sich der Wert geändert hat
+B
+Integrität bleibt gewahrt, da die Änderung berechtigt, nachvollziehbar und fachlich korrekt erfolgte
+C
+Integrität kann nur durch technische Maßnahmen, niemals durch Prozesse gesichert werden
+D
+Integrität betrifft ausschließlich verschlüsselte Daten
+Correct Answer
+B
+Explanation
+Integrität bedeutet nicht 'niemals verändern', sondern 'korrekt, autorisiert und nachvollziehbar verändern'. Da die Berichtigung berechtigt, dokumentiert und fachlich richtig erfolgte, bleibt die Integrität gewahrt — eine reine Wertänderung allein verletzt sie noch nicht (A ist falsch). Integrität kann außerdem sehr wohl auch durch organisatorische Prozesse wie Nachvollziehbarkeit und Berechtigungskonzepte gesichert werden, nicht nur technisch (C ist falsch), und sie betrifft grundsätzlich alle Daten, nicht nur verschlüsselte (D ist falsch).
+Ein Unbefugter verschafft sich physisch Zutritt zu einem Bürogebäude und entwendet Papierunterlagen; kein IT-System ist beteiligt. Welche Einordnung ist am zutreffendsten?
+A
+Es liegt ein Fall der Informationssicherheit vor, auch ohne Beteiligung eines IT-Systems
+B
+Es liegt kein sicherheitsrelevanter Vorfall vor, da keine IT-Systeme betroffen sind
+C
+Es liegt ausschließlich ein Fall für die IT-Sicherheit vor
+D
+Es liegt ausschließlich ein Fall für die Cyber-Sicherheit vor
+Correct Answer
+A
+Explanation
+Informationssicherheit gilt unabhängig vom Medium, also auch für gestohlene Papierunterlagen ohne jede IT-Beteiligung — der Vorfall ist damit sehr wohl sicherheitsrelevant (B ist falsch). IT-Sicherheit und Cyber-Sicherheit (C und D) beziehen sich dagegen spezifisch auf IT-Systeme beziehungsweise den vernetzten digitalen Raum, die hier gar nicht beteiligt sind — der Fall gehört fachlich zur übergeordneten Informationssicherheit.
+Ein Unternehmen behandelt Verfügbarkeit als einziges relevantes Schutzziel für alle Systeme, auch für ein Personalinformationssystem mit hochsensiblen Daten. Welche Einordnung ist am zutreffendsten?
+A
+Dies ist angemessen, da Verfügbarkeit unabhängig vom Inhalt für jedes einzelne System das wichtigste Schutzziel darstellt
+B
+Die Relevanz der einzelnen Schutzziele hängt von Art und Inhalt des Systems ab; bei sensiblen Personaldaten ist häufig auch die Vertraulichkeit besonders wichtig
+C
+Vertraulichkeit ist ausschließlich bei öffentlich zugänglichen Systemen mit externem Zugriff relevant
+D
+Ein Personalinformationssystem benötigt grundsätzlich kein eigenes, vom Standardprofil abweichendes Schutzzielprofil
+Correct Answer
+B
+Explanation
+Welches Schutzziel im Vordergrund steht, hängt von Art und Inhalt eines Systems ab — bei hochsensiblen Personaldaten ist neben der Verfügbarkeit häufig gerade die Vertraulichkeit besonders wichtig. Verfügbarkeit ist also nicht für jedes System pauschal das wichtigste Ziel (A ist falsch), Vertraulichkeit ist keineswegs nur bei öffentlich zugänglichen Systemen relevant (C ist falsch), und ein Personalinformationssystem braucht wegen seiner sensiblen Inhalte in der Regel ein eigenes, angepasstes Schutzzielprofil (D ist falsch).
+Ein Lieferant wird durch einen Cyberangriff lahmgelegt, wodurch ein abhängiger Geschäftsprozess des eigenen Unternehmens nicht mehr rechtzeitig ausgeführt werden kann. Welche Aussage ist am zutreffendsten?
+A
+Die Abhängigkeit von Dienstleistern kann selbst ohne eigene technische Schwachstelle zu einer Gefährdung der eigenen Verfügbarkeit werden
+B
+Da der Angriff nicht das eigene Unternehmen unmittelbar betrifft, besteht keine Relevanz für die eigene Sicherheitsbewertung
+C
+Ausfälle bei Lieferanten betreffen ausschließlich deren eigene Risikobewertung
+D
+Ein Ausfall des Lieferanten kann das Schutzziel Vertraulichkeit beim eigenen Unternehmen nicht berühren
+Correct Answer
+A
+Explanation
+Die Abhängigkeit von Dienstleistern ist ein eigenständiges Risiko: Auch ohne eigene technische Schwachstelle kann ein Ausfall beim Lieferanten die eigene Verfügbarkeit gefährden, sobald eigene Prozesse davon abhängen. Der Angriff betrifft also sehr wohl die eigene Sicherheitsbewertung (B und C sind falsch) — Lieferketten- beziehungsweise Drittparteirisiken gehören zum Risikomanagement dazu. Dass ausschließlich Vertraulichkeit nicht berührt werden könnte (D), ist außerdem zu pauschal formuliert; hier steht ohnehin die Verfügbarkeit im Vordergrund.
+Zwei Organisationen nutzen dieselbe Standardsoftware mit einer bekannten Schwachstelle; eine hat zusätzlich strenge Zugriffsbeschränkungen und Überwachung eingerichtet, die andere nicht. Welche Aussage ist am zutreffendsten?
+A
+Beide Organisationen tragen exakt dasselbe Risiko, weil die Schwachstelle identisch ist
+B
+Die Schwachstelle ist bei beiden gleich, das tatsächliche Risiko kann sich durch unterschiedliche Schutzmaßnahmen dennoch unterscheiden
+C
+Zugriffsbeschränkungen und Überwachung beseitigen die Schwachstelle vollständig
+D
+Ohne identische Schutzmaßnahmen ist ein Vergleich der beiden Organisationen grundsätzlich nicht möglich
+Correct Answer
+B
+Explanation
+Die Schwachstelle selbst ist bei beiden Organisationen gleich, aber das tatsächliche Risiko kann sich durch unterschiedliche Schutzmaßnahmen wie Zugriffsbeschränkungen und Überwachung deutlich unterscheiden. Beide tragen also nicht automatisch dasselbe Risiko (A ist falsch). Solche Maßnahmen beseitigen die zugrunde liegende Schwachstelle in der Software auch nicht vollständig, sie senken nur das Risiko (C ist falsch). Und ein Vergleich zwischen den Organisationen ist gerade deshalb möglich, weil sich ihr Risiko unterscheidet (D ist falsch).
+Ein Auszubildender löscht versehentlich einen wichtigen Ordner auf einem gemeinsam genutzten Laufwerk, weil er die Ordnerstruktur missverstanden hat. Welche Einordnung ist am zutreffendsten?
+A
+Es liegt eine Bedrohung durch menschliches Fehlverhalten vor, die zu einer Beeinträchtigung der Verfügbarkeit führen kann
+B
+Es liegt keine Bedrohung vor, da keine böswillige Absicht erkennbar ist
+C
+Es liegt ausschließlich ein Integritätsproblem vor, da eine Datei verändert wurde
+D
+Es liegt eine Schwachstelle, aber keine Bedrohung vor, weil der Auszubildende unerfahren ist
+Correct Answer
+A
+Explanation
+Auch unbeabsichtigtes menschliches Fehlverhalten zählt als Bedrohung — eine böswillige Absicht ist dafür keine Voraussetzung (B ist falsch). Da der Ordner dadurch nicht mehr nutzbar ist, ist primär die Verfügbarkeit betroffen, nicht ausschließlich die Integrität (C ist falsch zu eng gefasst). Das Verhalten selbst ist hier die Bedrohung, nicht nur eine Schwachstelle im System (D ist falsch).
+Ein Unternehmen speichert dieselbe wichtige Konstruktionszeichnung nur einmalig auf einem einzelnen Notebook, ohne weitere Kopie. Welches Risiko ist hierbei am unmittelbarsten relevant?
+A
+Die einmalige Speicherung erhöht automatisch die Vertraulichkeit der Zeichnung
+B
+Ein Verlust oder Defekt des Notebooks würde die Verfügbarkeit der Zeichnung erheblich gefährden
+C
+Eine einzelne Kopie ist grundsätzlich sicherer als mehrere verteilte Kopien
+D
+Das Risiko betrifft ausschließlich die Integrität der Zeichnung
+Correct Answer
+B
+Explanation
+Ohne weitere Kopie würde ein Verlust oder Defekt des Notebooks die Verfügbarkeit der Zeichnung erheblich gefährden — es gäbe schlicht keine Möglichkeit mehr, auf sie zuzugreifen. Eine einmalige Speicherung erhöht dadurch nicht automatisch die Vertraulichkeit (A ist falsch); sie ist im Gegenteil riskanter als mehrere verteilte, geschützte Kopien (C ist falsch). Und das unmittelbare Risiko betrifft hier die Verfügbarkeit, nicht primär die Integrität der Zeichnung (D ist falsch).
+Ein Auftragnehmer erhält vorübergehend Zugriff auf ein internes System, um eine Wartung durchzuführen; der Zugriff wird nach Abschluss der Arbeiten nicht wieder entzogen. Welche Einordnung ist am zutreffendsten?
+A
+Der fortbestehende Zugriff stellt eine Schwachstelle dar, die das Risiko eines späteren Missbrauchs erhöht
+B
+Ein vorübergehender Zugriff kann grundsätzlich unbegrenzt bestehen bleiben, ohne ein Risiko darzustellen
+C
+Externe Auftragnehmer stellen grundsätzlich keine Bedrohung für interne Systeme dar
+D
+Der nicht entzogene Zugriff betrifft ausschließlich die Verfügbarkeit des Systems
+Correct Answer
+A
+Explanation
+Ein Zugriff, der über den eigentlichen Bedarf hinaus bestehen bleibt, ist eine klassische Schwachstelle: Sie erhöht das Risiko eines späteren Missbrauchs, etwa wenn Zugangsdaten des Auftragnehmers kompromittiert werden. Ein vorübergehender Zugriff sollte also nicht unbegrenzt bestehen bleiben (B ist falsch), externe Auftragnehmer können sehr wohl eine Bedrohung darstellen (C ist falsch), und die Auswirkung beschränkt sich nicht nur auf die Verfügbarkeit — vor allem die Vertraulichkeit interner Daten ist gefährdet (D ist falsch).
+Eine Organisation stuft alle ihre Informationen unabhängig von Inhalt und Bedeutung einheitlich als „normal schutzbedürftig“ ein. Welche Einordnung ist am zutreffendsten?
+A
+Eine einheitliche Einstufung ist stets die effizienteste und daher richtige Vorgehensweise
+B
+Eine einheitliche Einstufung ohne inhaltliche Differenzierung kann sowohl zu Über- als auch zu Unterschutz führen
+C
+Der Schutzbedarf einer Information hängt ausschließlich von ihrem Speicherort ab, nicht von ihrem Inhalt
+D
+Eine Differenzierung des Schutzbedarfs ist ausschließlich für technische Systeme relevant, nicht für Informationen selbst
+Correct Answer
+B
+Explanation
+Eine pauschale Einstufung ohne inhaltliche Differenzierung kann sowohl zu Überschutz (unnötiger Aufwand für unwichtige Informationen) als auch zu Unterschutz (zu wenig Schutz für wirklich sensible Informationen) führen. Sie ist damit gerade nicht automatisch die effizienteste Vorgehensweise (A ist falsch). Der Schutzbedarf hängt vom Inhalt einer Information ab, nicht nur vom Speicherort (C ist falsch), und eine Differenzierung ist genauso für Informationen selbst relevant wie für technische Systeme (D ist falsch).
+Ein Kundenprojektname wird versehentlich in einer öffentlichen Präsentation gezeigt, obwohl das Projekt vertraulich ist; die Präsentation wird sofort korrigiert, bevor jemand außerhalb des Raumes reagieren kann. Welche Einordnung ist am zutreffendsten?
+A
+Es liegt eine Gefährdung der Vertraulichkeit vor, deren tatsächliche Auswirkung von der Zusammensetzung des anwesenden Publikums abhängt
+B
+Es liegt kein Vorfall vor, da die Präsentation sofort korrigiert wurde
+C
+Es liegt zwingend ein bereits eingetretener Schaden vor, unabhängig vom anwesenden Publikum
+D
+Es liegt ausschließlich ein Problem der Verfügbarkeit der Präsentation vor
+Correct Answer
+A
+Explanation
+Es liegt eine Gefährdung der Vertraulichkeit vor: Ob daraus tatsächlich ein Schaden entsteht, hängt davon ab, wer im Raum anwesend war und die Information wahrgenommen haben könnte. Ein Vorfall liegt also trotz der sofortigen Korrektur vor (B ist falsch), ein Schaden ist aber nicht zwingend bereits eingetreten — das hängt vom Publikum ab (C ist falsch zu absolut). Und es geht um Vertraulichkeit des Projektnamens, nicht um die Verfügbarkeit der Präsentation selbst (D ist falsch).
+Zwei baugleiche Server verarbeiten dieselbe Art von Anwendung; einer verarbeitet zusätzlich hochsensible Gesundheitsdaten, der andere ausschließlich öffentlich zugängliche Informationen. Welche Aussage ist am zutreffendsten?
+A
+Baugleiche Hardware führt stets zu identischem Schutzbedarf, unabhängig von den verarbeiteten Informationen
+B
+Beide Server haben trotz identischer Hardware unterschiedlichen Schutzbedarf, da sich Art und Sensibilität der verarbeiteten Informationen unterscheiden
+C
+Der Schutzbedarf richtet sich ausschließlich nach der eingesetzten Hardware, nicht nach den verarbeiteten Daten
+D
+Öffentlich zugängliche Informationen erfordern grundsätzlich denselben Schutzbedarf wie hochsensible Gesundheitsdaten
+Correct Answer
+B
+Explanation
+Der Schutzbedarf richtet sich nach Art und Sensibilität der verarbeiteten Informationen, nicht nach der eingesetzten Hardware — baugleiche Server können also durchaus unterschiedlichen Schutzbedarf haben (A und C sind falsch). Öffentlich zugängliche Informationen benötigen entsprechend auch nicht denselben Schutz wie hochsensible Gesundheitsdaten (D ist falsch).
+Ein Beschäftigter nutzt sein privates Smartphone, um kurzfristig eine dienstliche E-Mail mit vertraulichem Anhang zu lesen, da sein Diensthandy gerade nicht griffbereit ist. Welche Einordnung ist am zutreffendsten?
+A
+Die Nutzung eines nicht verwalteten privaten Geräts für vertrauliche Inhalte kann eine zusätzliche Schwachstelle darstellen
+B
+Die Nutzung eines privaten Geräts ist unproblematisch, solange die Person selbst berechtigt ist, den Inhalt zu lesen
+C
+Private Geräte stellen grundsätzlich keine andere Risikolage dar als verwaltete Diensthandys
+D
+Das Risiko betrifft ausschließlich die Verfügbarkeit der E-Mail
+Correct Answer
+A
+Explanation
+Ein nicht vom Unternehmen verwaltetes privates Gerät (ohne Mobile-Device-Management, ohne garantierte Verschlüsselung oder aktuelle Updates) kann eine zusätzliche Schwachstelle darstellen, selbst wenn die Person selbst zum Lesen berechtigt ist (B ist zu unkritisch). Private Geräte unterliegen deshalb grundsätzlich einer anderen Risikolage als verwaltete Diensthandys (C ist falsch), und das Risiko betrifft hier vor allem die Vertraulichkeit des vertraulichen Anhangs, nicht nur die Verfügbarkeit der E-Mail (D ist falsch).
+Eine Organisation erfährt von einer neuen, in den Medien breit diskutierten Angriffsmethode, die branchenweit genutzte Software betrifft, prüft aber nicht, ob sie selbst betroffen sein könnte. Welche Einordnung ist am zutreffendsten?
+A
+Medienberichte über Angriffsmethoden sind für die eigene Bedrohungsbewertung grundsätzlich ohne Bedeutung
+B
+Die Organisation sollte prüfen, ob die betroffene Software auch bei ihr im Einsatz ist und welche Bedrohungslage sich daraus ergibt
+C
+Eine Prüfung ist nur erforderlich, wenn die eigene Organisation bereits konkret angegriffen wurde
+D
+Branchenweit bekannte Angriffsmethoden betreffen ausschließlich große Unternehmen
+Correct Answer
+B
+Explanation
+Aktives Bedrohungsmanagement gehört zur Informationssicherheit dazu: Die Organisation sollte prüfen, ob die betroffene Software auch bei ihr im Einsatz ist und welche Bedrohungslage sich daraus konkret ergibt. Medienberichte über neue Angriffsmethoden sind also keineswegs bedeutungslos (A ist falsch), eine Prüfung ist nicht erst nach einem eigenen konkreten Angriff sinnvoll (C ist falsch), und branchenweit bekannte Methoden betreffen nicht nur große Unternehmen (D ist falsch).
+Eine Führungskraft teilt ihr persönliches Passwort mit einer vertretenden Person, damit diese während einer kurzen Abwesenheit dringende Freigaben erteilen kann. Welche Einordnung ist am zutreffendsten?
+A
+Die Weitergabe eines persönlichen Passworts schafft eine Schwachstelle, da Handlungen danach nicht mehr eindeutig einer Person zuordenbar sind
+B
+Die Weitergabe ist unproblematisch, solange beide Personen sich gegenseitig vertrauen
+C
+Passwortweitergabe betrifft ausschließlich die Verfügbarkeit des betroffenen Kontos
+D
+Eine kurzfristige Weitergabe für dringende Fälle ist grundsätzlich von jeder Sicherheitsbetrachtung ausgenommen
+Correct Answer
+A
+Explanation
+Die Weitergabe eines persönlichen Passworts schafft eine Schwachstelle, weil Handlungen danach nicht mehr eindeutig einer Person zugeordnet werden können — die Nachvollziehbarkeit geht verloren. Gegenseitiges Vertrauen macht das nicht unproblematisch (B ist falsch), betroffen ist nicht nur die Verfügbarkeit des Kontos, sondern vor allem die Zuordenbarkeit von Handlungen (C ist falsch), und auch für dringende Fälle gibt es bessere Lösungen wie Stellvertreterrollen — eine kurzfristige Weitergabe ist deshalb nicht grundsätzlich unbedenklich (D ist falsch).
+Ein Unternehmen speichert Sicherungskopien seiner wichtigsten Daten im selben Gebäude wie die Originaldaten, jedoch in einem anderen Stockwerk. Welche Einordnung ist am zutreffendsten?
+A
+Eine Sicherungskopie im selben Gebäude bietet stets denselben Schutz wie eine räumlich getrennte Sicherung
+B
+Ein Ereignis wie ein Gebäudebrand könnte sowohl Original als auch Sicherungskopie gleichzeitig betreffen
+C
+Die Lagerung im selben Gebäude betrifft ausschließlich die Vertraulichkeit der Daten
+D
+Eine Sicherungskopie erfüllt ihren Zweck unabhängig vom Lagerort vollständig
+Correct Answer
+B
+Explanation
+Ein Ereignis wie ein Gebäudebrand kann Original und Sicherungskopie gleichzeitig betreffen, wenn beide im selben Gebäude liegen — echte Redundanz braucht deshalb auch räumliche Trennung. Eine Sicherungskopie im selben Gebäude bietet also nicht denselben Schutz wie eine extern gelagerte Sicherung (A ist falsch), die Lagerung betrifft primär die Verfügbarkeit im Schadensfall, nicht nur die Vertraulichkeit (C ist falsch), und der Lagerort ist für die Wirksamkeit einer Sicherung keineswegs unerheblich (D ist falsch).
+Ein Beschäftigter fotografiert versehentlich einen Bildschirm mit vertraulichen Kundendaten für private Zwecke und löscht das Foto sofort wieder, nachdem er den Fehler bemerkt hat. Welche Einordnung ist am zutreffendsten?
+A
+Es liegt eine kurzzeitige Gefährdung der Vertraulichkeit vor, auch wenn das Foto unmittelbar wieder gelöscht wurde
+B
+Da das Foto sofort gelöscht wurde, liegt keinerlei sicherheitsrelevanter Sachverhalt vor
+C
+Ein einmal erstelltes Foto stellt zwingend einen bereits eingetretenen Schaden dar
+D
+Das Löschen des Fotos beseitigt rückwirkend jede Relevanz für die Informationssicherheit
+Correct Answer
+A
+Explanation
+Auch ein kurzzeitiger Vorgang stellt in dem Moment, in dem das Foto existierte, eine Gefährdung der Vertraulichkeit dar — das sofortige Löschen macht den Vorgang rückblickend nicht bedeutungslos (B und D sind falsch). Umgekehrt ist ein erstelltes Foto aber auch nicht zwingend bereits ein eingetretener Schaden (C ist zu absolut) — entscheidend ist, ob und wie die Daten in der Zwischenzeit tatsächlich Dritten zugänglich wurden.
+Ein Unternehmen verwendet für mehrere unterschiedliche Systeme dasselbe Administratorpasswort, um die Verwaltung zu vereinfachen. Welche Einordnung ist am zutreffendsten?
+A
+Ein gemeinsames Administratorpasswort erhöht grundsätzlich die Sicherheit, da es leichter zu verwalten ist
+B
+Ein kompromittiertes gemeinsames Passwort würde gleichzeitig alle betroffenen Systeme gefährden
+C
+Die Verwendung desselben Passworts für mehrere Systeme betrifft ausschließlich die Verfügbarkeit dieser Systeme
+D
+Vereinfachte Verwaltung rechtfertigt grundsätzlich jede Reduzierung individueller Zugangsdaten
+Correct Answer
+B
+Explanation
+Ein gemeinsames Administratorpasswort ist ein einzelner Ausfallpunkt für die Vertraulichkeit: Wird es kompromittiert, sind gleichzeitig alle Systeme betroffen, die es verwenden. Es erhöht also nicht die Sicherheit, nur weil es leichter zu verwalten ist (A ist falsch), betrifft nicht nur die Verfügbarkeit dieser Systeme (C ist falsch), und vereinfachte Verwaltung rechtfertigt nicht jede Reduzierung individueller Zugangsdaten (D ist falsch).
+Ein Praktikant erhält versehentlich Zugriff auf einen Ordner mit Gehaltsdaten, obwohl seine Rolle dies nicht erfordert; er öffnet den Ordner nicht und meldet den Fehler sofort. Welche Einordnung ist am zutreffendsten?
+A
+Es liegt eine Schwachstelle in der Rechtevergabe vor, unabhängig davon, ob der Zugriff tatsächlich genutzt wurde
+B
+Da der Ordner nicht geöffnet wurde, liegt keinerlei sicherheitsrelevanter Sachverhalt vor
+C
+Die Meldung des Fehlers macht die zugrunde liegende Schwachstelle rückwirkend bedeutungslos
+D
+Eine überzogene Rechtevergabe ist erst dann relevant, wenn sie tatsächlich missbraucht wird
+Correct Answer
+A
+Explanation
+Eine überzogene Rechtevergabe ist unabhängig davon, ob der Zugriff tatsächlich genutzt wird, bereits eine Schwachstelle — sie hätte missbraucht werden können. Dass der Ordner nicht geöffnet wurde, macht den Sachverhalt also nicht irrelevant (B ist falsch), und die Meldung des Fehlers beseitigt die zugrunde liegende Schwachstelle nicht rückwirkend, sie ermöglicht nur, sie zu beheben (C ist falsch). Eine überzogene Rechtevergabe ist schon vor einem tatsächlichen Missbrauch relevant (D ist falsch), weil das Prinzip minimaler Berechtigungen genau solche Fälle verhindern soll.
+Zwei vergleichbare Abteilungen setzen dieselbe Anwendung ein; eine Abteilung schult ihre Beschäftigten regelmäßig zu sicherheitsrelevantem Verhalten, die andere nicht. Welche Aussage ist am zutreffendsten?
+A
+Identische Technik führt stets zu identischem Risiko, unabhängig vom Verhalten der Beschäftigten
+B
+Beide Abteilungen können trotz identischer Technik ein unterschiedliches tatsächliches Risiko aufweisen, da menschliches Verhalten das Risiko mitbestimmt
+C
+Schulungen zu sicherheitsrelevantem Verhalten haben auf das tatsächliche Risiko keinen relevanten Einfluss
+D
+Das Risiko einer Abteilung hängt ausschließlich von der eingesetzten Technik ab
+Correct Answer
+B
+Explanation
+Menschliches Verhalten beeinflusst das tatsächliche Risiko erheblich, auch bei identischer Technik — geschulte Beschäftigte erkennen zum Beispiel Phishing-Versuche eher. Identische Technik führt also nicht automatisch zu identischem Risiko (A ist falsch), Schulungen haben sehr wohl relevanten Einfluss (C ist falsch), und das Risiko einer Abteilung hängt nicht ausschließlich von der eingesetzten Technik ab (D ist falsch).
+Ein Lieferant erhält dauerhaften Zugriff auf ein internes System, obwohl das ursprüngliche Projekt, für das der Zugriff eingerichtet wurde, längst abgeschlossen ist. Welche Einordnung ist am zutreffendsten?
+A
+Der fortbestehende Zugriff nach Projektabschluss stellt eine unnötige Schwachstelle dar, die entfernt werden sollte
+B
+Ein einmal eingerichteter Lieferantenzugriff sollte aus Gründen der Kontinuität dauerhaft bestehen bleiben
+C
+Der Zugriff ist unproblematisch, solange der Lieferant seit Projektbeginn kein auffälliges Verhalten gezeigt hat
+D
+Die Dauer eines Lieferantenzugriffs betrifft ausschließlich vertragliche, nicht sicherheitsrelevante Aspekte
+Correct Answer
+A
+Explanation
+Nach Projektabschluss nicht mehr benötigter Zugriff ist eine unnötige, vermeidbare Schwachstelle nach dem Prinzip minimaler Rechtevergabe und sollte entzogen werden. Zugriffe sollten also nicht allein aus Gründen der Kontinuität dauerhaft bestehen bleiben (B ist falsch), unauffälliges bisheriges Verhalten macht den fortbestehenden Zugriff nicht unproblematisch (C ist falsch), und die Dauer eines Zugriffs ist durchaus sicherheitsrelevant, nicht nur vertraglich (D ist falsch).
+Ein Unternehmen verfügt über eine einzige aktuelle Kopie einer wichtigen Vertragsdatenbank, die ausschließlich auf einem Server ohne jede Redundanz gespeichert ist. Welche Einordnung ist am zutreffendsten?
+A
+Eine einzelne, nicht redundante Speicherung ist unproblematisch, solange der Server regelmäßig gewartet wird
+B
+Ein Ausfall dieses einzelnen Servers würde die Verfügbarkeit der Vertragsdatenbank vollständig gefährden
+C
+Redundanz betrifft ausschließlich die Vertraulichkeit gespeicherter Daten
+D
+Das Fehlen einer Redundanz ist ausschließlich bei öffentlich zugänglichen Datenbanken relevant
+Correct Answer
+B
+Explanation
+Ohne Redundanz würde ein Ausfall dieses einzelnen Servers die Verfügbarkeit der Vertragsdatenbank vollständig gefährden — es gäbe keine funktionierende Alternative mehr. Regelmäßige Wartung allein macht eine nicht redundante Speicherung nicht unproblematisch (A ist falsch), Redundanz betrifft primär die Verfügbarkeit, nicht die Vertraulichkeit (C ist falsch), und fehlende Redundanz ist nicht nur bei öffentlich zugänglichen Datenbanken relevant (D ist falsch).
+Ein Unternehmen speichert ein und dasselbe vertrauliche Dokument sowohl auf einem zentralen Server als auch unkontrolliert auf mehreren privaten Cloud-Speichern einzelner Beschäftigter. Welche Einordnung ist am zutreffendsten?
+A
+Die unkontrollierte Verteilung auf private Cloud-Speicher vergrößert die Angriffsfläche für die Vertraulichkeit des Dokuments erheblich
+B
+Zusätzliche Kopien auf privaten Cloud-Speichern erhöhen grundsätzlich die Verfügbarkeit ohne jeden Nachteil
+C
+Die Nutzung privater Cloud-Speicher betrifft ausschließlich die Bequemlichkeit der Beschäftigten, nicht die Sicherheit
+D
+Solange das Dokument auf dem zentralen Server weiterhin vorhanden ist, sind zusätzliche Kopien irrelevant
+Correct Answer
+A
+Explanation
+Jede unkontrollierte zusätzliche Kopie vergrößert die Angriffsfläche für die Vertraulichkeit des Dokuments erheblich, da diese Kopien außerhalb der Kontrolle und der Schutzmaßnahmen des Unternehmens liegen. Solche Kopien erhöhen also nicht einfach ohne Nachteil die Verfügbarkeit (B ist falsch), es geht um mehr als nur Bequemlichkeit (C ist falsch), und das Vorhandensein des Dokuments auf dem zentralen Server macht die zusätzlichen, unkontrollierten Kopien nicht irrelevant (D ist falsch).
+Ein Unternehmen bewertet ein und dieselbe Bedrohung für zwei unterschiedliche Systeme identisch, obwohl eines der Systeme deutlich sensiblere Daten verarbeitet als das andere. Welche Einordnung ist am zutreffendsten?
+A
+Eine identische Bedrohung führt unabhängig von den verarbeiteten Daten stets zu identischem Risiko
+B
+Trotz identischer Bedrohung kann das tatsächliche Risiko unterschiedlich sein, da die möglichen Auswirkungen je nach verarbeiteten Daten variieren
+C
+Die Sensibilität verarbeiteter Daten ist für die Risikobewertung grundsätzlich zweitrangig gegenüber der Bedrohung selbst
+D
+Unterschiedliche Auswirkungen sind ausschließlich bei unterschiedlichen technischen Schwachstellen zu erwarten
+Correct Answer
+B
+Explanation
+Trotz identischer Bedrohung kann das tatsächliche Risiko unterschiedlich sein, weil die möglichen Auswirkungen von der Sensibilität der verarbeiteten Daten abhängen — Risiko ist immer eine Kombination aus Bedrohung und möglicher Auswirkung. Eine identische Bedrohung führt also nicht automatisch zu identischem Risiko (A ist falsch), die Sensibilität der Daten ist für die Risikobewertung keineswegs zweitrangig (C ist falsch), und unterschiedliche Auswirkungen entstehen nicht nur bei unterschiedlichen technischen Schwachstellen (D ist falsch).
+Ein Unternehmen stellt fest, dass eine seit Jahren genutzte Anwendung nie einer formalen Schutzbedarfsfeststellung unterzogen wurde. Welche Einordnung ist am zutreffendsten?
+A
+Auch langjährig genutzte Anwendungen sollten einer formalen Schutzbedarfsfeststellung unterzogen werden, um ihren tatsächlichen Schutzbedarf zu kennen
+B
+Eine langjährige, bislang unauffällige Nutzung macht eine formale Schutzbedarfsfeststellung überflüssig
+C
+Schutzbedarfsfeststellungen sind ausschließlich für neu eingeführte Anwendungen relevant
+D
+Die Dauer der bisherigen Nutzung einer Anwendung lässt zuverlässig auf ihren tatsächlichen Schutzbedarf schließen
+Correct Answer
+A
+Explanation
+Auch langjährig genutzte Anwendungen sollten einer formalen Schutzbedarfsfeststellung unterzogen werden, um ihren tatsächlichen Schutzbedarf wirklich zu kennen — eine bislang unauffällige Nutzung ist kein verlässlicher Beleg für geringen Schutzbedarf (B und D sind falsch). Schutzbedarfsfeststellungen sind zudem nicht nur für neu eingeführte Anwendungen relevant, sondern sollten auch bei bestehenden Systemen regelmäßig überprüft werden (C ist falsch).
+Ein Unternehmen betrachtet ausschließlich vorsätzliche Angriffe als relevante Bedrohung für seine Systeme und blendet Naturereignisse wie Sturm oder Hochwasser vollständig aus. Welche Einordnung ist am zutreffendsten?
+A
+Nur vorsätzliche, von Personen ausgehende Handlungen zählen begrifflich als Bedrohung
+B
+Naturereignisse wie Sturm oder Hochwasser stellen ebenfalls relevante Bedrohungen dar und sollten in die Betrachtung einbezogen werden
+C
+Naturereignisse sind für die Informationssicherheit grundsätzlich ohne praktische Relevanz
+D
+Eine Betrachtung von Naturereignissen ist ausschließlich bei Unternehmen in besonders exponierten Lagen erforderlich
+Correct Answer
+B
+Explanation
+Naturereignisse wie Sturm oder Hochwasser stellen ebenfalls relevante Bedrohungen dar und sollten in die Betrachtung einbezogen werden — der Bedrohungsbegriff ist nicht auf vorsätzliche, von Personen ausgehende Handlungen beschränkt (A ist falsch). Naturereignisse sind für die Informationssicherheit keineswegs praktisch irrelevant (C ist falsch), und ihre Betrachtung ist nicht nur für besonders exponierte Unternehmen erforderlich, da z. B. auch Serverräume überall von Wasserschäden betroffen sein können (D ist falsch).
+In einem Unternehmen wird der Zugang zu einem Serverraum nur durch eine unabgeschlossene Tür mit Hinweisschild 'Zutritt nur für Befugte' geregelt. Welche Einordnung ist am zutreffendsten?
+A
+Ein Hinweisschild ist ausreichend, da die meisten Personen sich an schriftliche Anweisungen halten
+B
+Ein reines Hinweisschild ohne tatsächliche Zugangskontrolle stellt eine Schwachstelle dar, da es keinen wirksamen Schutz vor unbefugtem Zutritt bietet
+C
+Die physische Absicherung eines Serverraums ist ausschließlich für die Verfügbarkeit relevant
+D
+Ein Hinweisschild ersetzt vollständig die Notwendigkeit einer technischen Zugangskontrolle
+Correct Answer
+B
+Explanation
+Ein reines Hinweisschild ohne tatsächliche Zugangskontrolle ist eine Schwachstelle, da es keinen wirksamen technischen oder organisatorischen Schutz vor unbefugtem Zutritt bietet — es verlässt sich allein auf freiwilliges Verhalten. Ein Schild ist deshalb nicht ausreichend (A ist falsch), die physische Absicherung eines Serverraums betrifft nicht nur die Verfügbarkeit, sondern ebenso Vertraulichkeit und Integrität der dort verarbeiteten Daten (C ist falsch), und ein Hinweisschild ersetzt keine technische Zugangskontrolle wie ein Schloss oder eine Zutrittskarte (D ist falsch).
+Ein Unternehmen bewahrt ausgedruckte vertrauliche Dokumente in einem Aktenschrank auf, der zwar abschließbar ist, aber im Alltag meist unverschlossen bleibt. Welche Einordnung ist am zutreffendsten?
+A
+Ein vorhandenes, aber nicht genutztes Schloss stellt eine Schwachstelle dar, da der beabsichtigte Schutz faktisch nicht wirksam ist
+B
+Das Vorhandensein eines Schlosses allein gewährleistet bereits einen angemessenen Schutz der Dokumente
+C
+Die tatsächliche Nutzung eines vorhandenen Schlosses ist für die Sicherheit der Dokumente ohne Bedeutung
+D
+Ein unverschlossener Aktenschrank betrifft ausschließlich die Verfügbarkeit der darin enthaltenen Dokumente
+Correct Answer
+A
+Explanation
+Ein vorhandenes, aber nicht genutztes Schloss stellt eine Schwachstelle dar, weil der beabsichtigte Schutz in der Praxis nicht wirksam ist — es kommt nicht nur auf das Vorhandensein, sondern auf die tatsächliche Nutzung von Schutzmaßnahmen an (B und C sind falsch). Und ein unverschlossener Aktenschrank betrifft vor allem die Vertraulichkeit der darin enthaltenen Dokumente, nicht nur ihre Verfügbarkeit (D ist falsch).
+Ein Unternehmen betrachtet ausschließlich technische Systeme wie Server und Netzwerkkomponenten als schützenswerte Werte, nicht aber das Wissen erfahrener Mitarbeitender über kritische Abläufe. Welche Einordnung ist am zutreffendsten?
+A
+Auch das Wissen erfahrener Mitarbeitender über kritische Abläufe stellt einen eigenständigen, schützenswerten Wert dar
+B
+Nur technische Systeme können im Sinne der Informationssicherheit als schützenswerte Werte gelten
+C
+Das Wissen von Mitarbeitenden ist ausschließlich dann relevant, wenn es schriftlich dokumentiert vorliegt
+D
+Eine Einbeziehung von Personenwissen als Wert ist ausschließlich in sehr kleinen Unternehmen sinnvoll
+Correct Answer
+A
+Explanation
+Auch das Wissen erfahrener Mitarbeitender über kritische Abläufe ist ein eigenständiger, schützenswerter Wert — geht dieses Wissen verloren (z. B. durch Kündigung ohne Übergabe), kann das einem Unternehmen erheblich schaden. Schützenswerte Werte sind also nicht auf technische Systeme beschränkt (B ist falsch), Personenwissen ist nicht erst dann relevant, wenn es schriftlich dokumentiert ist (C ist falsch), und diese Überlegung gilt für Unternehmen jeder Größe, nicht nur für sehr kleine (D ist falsch).
+Ein Unternehmen betrachtet die Kombination aus einer ungepatchten Software-Schwachstelle und einem aktiv nach solchen Schwachstellen suchenden Angreifer ausschließlich als Bedrohung, nicht als Gefährdung. Welche Einordnung ist am zutreffendsten?
+A
+Die Einordnung als Bedrohung ist zutreffend, da noch kein tatsächlicher Schaden eingetreten ist
+B
+Das konkrete Zusammentreffen von Schwachstelle und aktiv suchendem Angreifer beschreibt eine Gefährdung, nicht nur eine allgemeine Bedrohung
+C
+Schwachstelle und Bedrohung lassen sich in diesem Fall nicht sinnvoll voneinander unterscheiden
+D
+Eine Einordnung als Gefährdung wäre nur bei einem bereits erfolgten erfolgreichen Angriff zutreffend
+Correct Answer
+B
+Explanation
+Das konkrete Zusammentreffen von Schwachstelle und aktiv suchendem Angreifer beschreibt bereits eine Gefährdung, nicht mehr nur eine allgemeine Bedrohung — die beiden Elemente sind hier bereits konkret zusammengeführt. Die Einordnung als bloße Bedrohung ist deshalb zu vorsichtig (A ist falsch), Schwachstelle und Bedrohung lassen sich hier durchaus unterscheiden (C ist falsch), und eine Gefährdung liegt schon vor einem erfolgreichen Angriff vor, nicht erst danach (D ist falsch) — genau das macht den Begriff ja nützlich für die vorbeugende Risikobewertung.
+Ein Mitarbeiter verwendet für mehrere unterschiedliche dienstliche Konten dasselbe Passwort, da dies die Merkbarkeit erleichtert. Welches Schutzziel ist dadurch am stärksten gefährdet?
+A
+Die Verfügbarkeit der Konten, da ein einheitliches Passwort die Anmeldung technisch verlangsamt
+B
+Die Vertraulichkeit mehrerer Konten gleichzeitig, da die Kompromittierung eines Kontos auch die übrigen Konten offenlegen kann
+C
+Die Nichtabstreitbarkeit, da bei mehreren Konten nicht mehr nachvollziehbar ist, wer sich angemeldet hat
+D
+Die Integrität der auf den Konten gespeicherten Daten, unabhängig vom verwendeten Passwort
+Correct Answer
+B
+Explanation
+Die Vertraulichkeit mehrerer Konten gleichzeitig ist am stärksten gefährdet: Wird ein Konto kompromittiert, lässt sich dasselbe Passwort meist auch bei den anderen Konten ausprobieren, wodurch diese ebenfalls offengelegt werden können. Es geht nicht um eine technische Verlangsamung der Anmeldung (A ist falsch), nicht primär um Nachvollziehbarkeit, wer sich angemeldet hat (C ist falsch), und nicht um die Integrität der gespeicherten Daten (D ist falsch).
+Ein Mitarbeiter lädt eine Datei mit vertraulichem Inhalt in einen privaten Cloud-Speicher hoch, um von zu Hause aus weiterarbeiten zu können. Welches Schutzziel ist dadurch am unmittelbarsten betroffen?
+A
+Die Vertraulichkeit, da die Datei nun außerhalb der kontrollierten Unternehmensumgebung für Dritte zugänglich sein könnte
+B
+Die Verfügbarkeit, da der Mitarbeiter nun jederzeit auf die Datei zugreifen kann
+C
+Die Nichtabstreitbarkeit, da der Upload-Vorgang durch den Cloud-Anbieter protokolliert wird
+D
+Die Authentizität, da der Mitarbeiter sich beim Cloud-Anbieter mit eigenen Zugangsdaten anmeldet
+Correct Answer
+A
+Explanation
+Sobald die Datei die kontrollierte Unternehmensumgebung verlässt, könnte sie für Dritte zugänglich sein — die Vertraulichkeit ist damit unmittelbar betroffen, da die Schutzmaßnahmen des Unternehmens (Zugriffskontrolle, Verschlüsselung, Berechtigungen) im privaten Cloud-Speicher nicht mehr greifen. Es geht hier nicht in erster Linie um die Verfügbarkeit für den Mitarbeiter selbst (B ist falsch), nicht um Nachweisbarkeit des Uploads (C ist falsch) und nicht um die Anmeldung beim Cloud-Anbieter (D ist falsch).
+In einem Unternehmen wird ein veraltetes Betriebssystem ohne Sicherheitsupdates weiterbetrieben, da eine Migration als zu aufwändig gilt. Welche Einordnung ist am zutreffendsten?
+A
+Ein veraltetes Betriebssystem ist unproblematisch, solange es bislang zu keinem erkennbaren Vorfall geführt hat
+B
+Sicherheitsupdates sind ausschließlich für öffentlich zugängliche Systeme von Bedeutung
+C
+Das veraltete, nicht mehr aktualisierte Betriebssystem stellt eine Schwachstelle dar, die von Angreifern gezielt ausgenutzt werden kann
+D
+Der Aufwand einer Migration rechtfertigt grundsätzlich den dauerhaften Verzicht auf Sicherheitsupdates
+Correct Answer
+C
+Explanation
+Ein veraltetes, nicht mehr aktualisiertes Betriebssystem stellt eine Schwachstelle dar, die von Angreifern gezielt ausgenutzt werden kann — bekannte, ungepatchte Lücken sind ein beliebtes Angriffsziel. Das bisherige Ausbleiben eines Vorfalls macht es nicht unproblematisch (A ist falsch), Sicherheitsupdates sind nicht nur für öffentlich erreichbare Systeme relevant (B ist falsch), und der Aufwand einer Migration rechtfertigt keinen dauerhaften Verzicht auf Sicherheitsupdates (D ist falsch).
+Ein Unternehmen speichert Sicherungskopien wichtiger Daten ausschließlich auf demselben Server wie die Originaldaten. Welche Einordnung ist am zutreffendsten?
+A
+Eine Sicherungskopie auf demselben Server ist ausreichend, da die Daten dadurch redundant vorliegen
+B
+Der Speicherort einer Sicherungskopie ist für ihre Wirksamkeit grundsätzlich ohne Bedeutung
+C
+Eine räumliche Trennung von Original und Sicherungskopie ist ausschließlich bei physischen Datenträgern relevant
+D
+Eine Sicherungskopie auf demselben Server bietet keinen wirksamen Schutz, falls der Server insgesamt ausfällt oder kompromittiert wird
+Correct Answer
+D
+Explanation
+Eine Sicherungskopie auf demselben Server bietet keinen wirksamen Schutz, falls der Server insgesamt ausfällt oder kompromittiert wird — Original und Kopie hängen dann vom selben Ausfallpunkt ab, was den eigentlichen Zweck einer Sicherung untergräbt. Redundanz auf demselben Server reicht deshalb nicht aus (A ist falsch), der Speicherort einer Sicherungskopie ist alles andere als bedeutungslos (B ist falsch), und räumliche Trennung ist nicht nur bei physischen Datenträgern relevant, sondern auch bei digitalen Backups (C ist falsch).
+Ein Unternehmen betrachtet ein internes Wiki mit Betriebsanleitungen als reines Komfort-Tool ohne sicherheitsrelevanten Inhalt, obwohl darin auch Zugangsdaten zu Testsystemen dokumentiert sind. Welche Einordnung ist am zutreffendsten?
+A
+Das Wiki sollte als schützenswerter Wert eingestuft werden, sobald es tatsächlich sicherheitsrelevante Informationen wie Zugangsdaten enthält
+B
+Ein internes Wiki ist grundsätzlich von jeder sicherheitsrelevanten Betrachtung ausgenommen
+C
+Zugangsdaten zu Testsystemen sind für die Informationssicherheit ohne jede Relevanz
+D
+Die Einstufung als schützenswerter Wert hängt ausschließlich vom Namen des Dokuments ab, nicht von seinem Inhalt
+Correct Answer
+A
+Explanation
+Sobald ein Wiki tatsächlich sicherheitsrelevante Informationen wie Zugangsdaten enthält, sollte es als schützenswerter Wert eingestuft werden — unabhängig davon, wofür es ursprünglich gedacht war. Ein internes Wiki ist also nicht grundsätzlich von der sicherheitsrelevanten Betrachtung ausgenommen (B ist falsch), Zugangsdaten zu Testsystemen sind keineswegs irrelevant, da über sie oft weitere Systeme erreichbar sind (C ist falsch), und die Einstufung hängt vom tatsächlichen Inhalt ab, nicht vom Namen des Dokuments (D ist falsch).
