@@ -14,7 +14,10 @@
     "translate:explanations": "tsx scripts/translate-explanations.ts",
     "generate:ui-translations": "tsx scripts/generate-ui-translations.ts",
     "export:question-translations": "tsx scripts/export-questions-for-translation.ts",
-    "import:question-translations": "tsx scripts/import-question-translations.ts"
+    "import:question-translations": "tsx scripts/import-question-translations.ts",
+    "export:enrichment": "tsx scripts/export-questions-for-enrichment.ts",
+    "import:enrichment": "tsx scripts/import-question-enrichment.ts",
+    "import:raw-questions": "tsx scripts/import-raw-question-batch.ts"
   },
   "dependencies": {
     "@ai-sdk/google": "^4.0.67",

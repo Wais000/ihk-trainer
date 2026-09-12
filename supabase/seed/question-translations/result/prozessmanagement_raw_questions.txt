@@ -1,0 +1,927 @@
+category: Prozesse:
+Bei der Analyse eines Geschäftsprozesses wird die folgende Situation bewertet: Bei der Aufnahme eines Bestellprozesses liegen vier Beschreibungen vor. Welche grenzt den Prozess am verlässlichsten ab?
+A
+Input, genutzte Ressourcen und die persönliche Vorgehensweise der Hauptbearbeiterin
+B
+Auslöser, Input, Beginn und Ende sowie ein überprüfbares Prozessergebnis
+C
+Auslöser, beteiligte Organisationseinheiten und die aktuell eingesetzte Anwendung
+D
+Prozessziel, verantwortliche Rolle und sämtliche derzeit bekannten Einzelprobleme
+✗
+IncorrectYour answer: A
+Correct Answer
+B
+Explanation
+Die Abgrenzung benötigt insbesondere Auslöser, Grenzen und Ergebnis; Werkzeuge und individuelle Praxis können sich ändern.
+Bei der Analyse eines Geschäftsprozesses bespricht das zuständige Team folgenden Fall: Interviews und Systemdaten widersprechen der freigegebenen Prozessbeschreibung. Welches Vorgehen führt am zuverlässigsten zu einem belastbaren Ist-Prozess?
+A
+Als Erstes den gewünschten Soll-Prozess modellieren und daraus den bisherigen Ist-Prozess ableiten
+B
+Freigegebene Beschreibung als Ist übernehmen und Abweichungen erst im Soll-Prozess behandeln
+C
+Systemdaten stärker gewichten als Interviews und manuelle Tätigkeiten nachrangig behandeln
+D
+Quellen und Varianten gemeinsam mit Beteiligten validieren und den tatsächlich wiederkehrenden Ablauf nachvollziehbar festhalten
+✗
+IncorrectYour answer: C
+Correct Answer
+D
+Explanation
+Der Ist-Prozess muss aus mehreren Quellen validiert werden und den tatsächlich gelebten Ablauf einschließlich relevanter Varianten abbilden.
+Bei der Analyse eines Geschäftsprozesses bespricht das zuständige Team folgenden Fall: Ein Genehmigungsprozess hat eine hohe Durchlaufzeit. Mehrere Beteiligte vermuten den Engpass an unterschiedlichen Stellen; belastbare Messdaten fehlen. Welcher Analyseschritt sollte als Erstes erfolgen?
+A
+Bearbeitungs-, Warte- und Nacharbeitszeiten je relevanter Variante erheben und die Engpasshypothese mit Beteiligten validieren
+B
+Die am häufigsten genannte Genehmigungsstufe entfernen und anschließend die neue Durchlaufzeit mit dem Zielwert vergleichen
+C
+Die Zeitschätzungen der Prozessverantwortlichen mitteln und den höchsten Einzelwert als Engpass nachvollziehbar festhalten
+D
+Als Erstes eine gewünschte Soll-Durchlaufzeit definieren und jede Aktivität oberhalb ihres rechnerischen Anteils optimieren
+✗
+IncorrectYour answer: C
+Correct Answer
+A
+Explanation
+Vor einer Optimierung muss der tatsächliche Engpass anhand geeigneter Prozessdaten und relevanter Varianten belastbar bestimmt werden.
+Bei der Analyse eines Geschäftsprozesses soll die folgende Entscheidung getroffen werden: Ein End-to-End-Prozess verfehlt sein Zeitziel vor allem an der Übergabe zwischen Vertrieb und Betrieb. Wer sollte die Verbesserung primär steuern?
+A
+Jeder Teilprozessverantwortliche getrennt, wobei die Schnittstelle ausdrücklich außerhalb ihrer Verantwortung bleibt
+B
+Der für den Gesamtprozess verantwortliche Process Owner unter Einbindung beider Bereiche
+C
+Die Leitung des Bereichs, in dem die meisten Einzelschritte ausgeführt werden, ohne gemeinsames Prozessmandat
+D
+Der Verantwortliche des IT-Systems, das die Übergabe technisch unterstützt, da die Ursache dort am ehesten sichtbar wird
+✓
+Correct!Your answer: B
+Correct Answer
+B
+Explanation
+Ein bereichsübergreifendes Prozessproblem braucht eine Rolle mit Verantwortung für Zielerreichung und Koordination des Gesamtprozesses.
+Bei der Analyse eines Geschäftsprozesses bespricht das zuständige Team folgenden Fall: Ein fachlich sinnvoller Soll-Prozess stößt auf Widerstand, weil Beschäftigte neue Rollen als unklar und zusätzlichen Aufwand als unbegründet erleben. Welche Einführung ist am erfolgversprechendsten?
+A
+Den bisherigen Prozess parallel unbefristet zulassen, damit jede Einheit selbst über Zeitpunkt und Umfang der Umstellung entscheidet
+B
+Den Soll-Prozess sofort verbindlich setzen, Rollen später präzisieren und Akzeptanz über die Einhaltungsquote messen
+C
+Betroffene früh einbinden, Zweck und Auswirkungen erklären, Rollen klären, Rückmeldungen überprüfen und die Einführung begleitet erproben
+D
+Zunächst die Prozessgrafik veröffentlichen, Rückmeldungen nach vollständiger technischer Umsetzung sammeln und Rollen lokal auslegen lassen
+✗
+IncorrectYour answer: B
+Correct Answer
+C
+Explanation
+Frühe Beteiligung, nachvollziehbarer Nutzen, klare Rollen und eine begleitete Erprobung behandeln die genannten Akzeptanzursachen direkt.
+Bei der Analyse eines Geschäftsprozesses bespricht das zuständige Team folgenden Fall: Was ist ein Prozess im organisatorischen Sinn?
+A
+Die Stellenbeschreibung einer an ihm beteiligten Person
+B
+Eine ungeordnete Liste unabhängiger Aufgaben
+C
+Eine zusammenhängende Folge von Tätigkeiten, die Eingaben in ein Ergebnis überführt
+D
+Das dabei eingesetzte Softwareprodukt, losgelöst von den beteiligten Personen und Tätigkeiten
+✓
+Correct!Your answer: C
+Correct Answer
+C
+Explanation
+Ein Prozess verbindet Tätigkeiten zielgerichtet vom Auslöser bis zum Ergebnis.
+Bei der Analyse eines Geschäftsprozesses soll die folgende Entscheidung getroffen werden: Welche Angabe gehört typischerweise zur Beschreibung eines Prozesses?
+A
+Das Budget der für ihn verantwortlichen Organisationseinheit
+B
+Die farbliche Gestaltung des Prozessdiagramms, losgelöst vom tatsächlichen Ablauf
+C
+Der Name der eingesetzten Anwendung, losgelöst vom eigentlichen Ablauf
+D
+Auslöser, Input, Tätigkeiten, Rollen und Ergebnis
+✗
+IncorrectYour answer: A
+Correct Answer
+D
+Explanation
+Diese Merkmale grenzen Ablauf und Verantwortung nachvollziehbar ab.
+Bei der Analyse eines Geschäftsprozesses stellt sich folgende Prüfungsfrage: Welche Kategorie im Prozesshaus erzeugt typischerweise die unmittelbare Leistung für Kunden?
+A
+Kern- beziehungsweise Geschäftsprozess
+B
+Führungsprozess
+C
+Unterstützungsprozess
+D
+Notfallereignis
+✗
+IncorrectYour answer: C
+Correct Answer
+A
+Explanation
+Kernprozesse tragen unmittelbar zur Wertschöpfung für Kunden bei.
+Bei der Analyse eines Geschäftsprozesses wird die folgende Situation bewertet: Was beschreibt ein Ist-Prozess?
+A
+Eine Liste möglicher Risiken, die keinen Bezug zum tatsächlichen Ablauf herstellt
+B
+Den tatsächlich gelebten Ablauf einschließlich relevanter Varianten
+C
+Den gewünschten künftigen Ablauf, losgelöst vom aktuell gelebten Vorgehen
+D
+Die freigegebene Softwareversion, losgelöst vom tatsächlichen Ablauf
+✓
+Correct!Your answer: B
+Correct Answer
+B
+Explanation
+Der Ist-Prozess bildet die gegenwärtige Praxis ab.
+Bei der Analyse eines Geschäftsprozesses bespricht das zuständige Team folgenden Fall: Welche Aufgabe hat eine prozessverantwortliche Rolle typischerweise?
+A
+Urlaubsanträge der Teammitglieder genehmigen, ohne dass dies mit Prozessverantwortung zu tun hätte
+B
+Die meisten Aktivitäten im Tagesgeschäft persönlich mit übernehmen, statt sie zu delegieren
+C
+Gestaltung, Leistung und Weiterentwicklung des Gesamtprozesses steuern
+D
+Die im Prozess eingesetzte Hardware inventarisieren
+✗
+IncorrectYour answer: A
+Correct Answer
+C
+Explanation
+Prozessverantwortung richtet sich auf die durchgängige Zielerreichung.
+Bei der Analyse eines Geschäftsprozesses soll die folgende Entscheidung getroffen werden: Ein Prozess hat seltene Sonderfälle und Übergaben an drei Bereiche. Wer sollte an der Prozesserfassung beteiligt werden?
+A
+Der Hersteller des verwendeten Systems, losgelöst von den ausführenden Personen
+B
+Die Führungskraft des Bereichs mit den meisten Beschäftigten, ohne die Sonderfälle einzubeziehen
+C
+Personen, die den Standardfall ausführen, ohne die Ausnahmen einzubeziehen
+D
+Ausführende und Verantwortliche aus den relevanten Bereichen einschließlich Personen mit Kenntnis der Sonderfälle
+✗
+IncorrectYour answer: C
+Correct Answer
+D
+Explanation
+Die Auswahl muss Standardablauf, Schnittstellen und relevante Varianten fachlich abdecken.
+Bei der Analyse eines Geschäftsprozesses stellt sich folgende Prüfungsfrage: Ein Prozessdiagramm zeigt Tätigkeiten, aber keine Entscheidungspunkte und keine Rollenwechsel. Welche Ergänzung erhöht seinen Analysewert am meisten?
+A
+Entscheidungen, Übergaben und Verantwortlichkeiten sichtbar ergänzen
+B
+Jede Aktivität zusätzlich mit einer Kategorie versehen, ohne Entscheidungslogik abzubilden
+C
+Zusätzliche Freitextkommentare an den Tätigkeiten ergänzen, ohne Entscheidungslogik abzubilden
+D
+Das Diagramm durch eine reine Systeminventarliste ersetzen
+✗
+IncorrectYour answer: B
+Correct Answer
+A
+Explanation
+Gerade Verzweigungen und Schnittstellen machen Fehlerquellen und Zuständigkeiten analysierbar.
+Bei der Analyse eines Geschäftsprozesses wird die folgende Situation bewertet: Eine Rechnung wird ausgedruckt, unterschrieben und später erneut manuell erfasst. Welcher Analysebefund liegt am nächsten?
+A
+Eine abschließend validierte Soll-Optimierung
+B
+Ein Medienbruch mit möglicher Doppelarbeit und Fehlergefahr
+C
+Ein umfassend automatisierter Ablauf
+D
+Ein reiner Führungsprozess ohne Schnittstelle
+✓
+Correct!Your answer: B
+Correct Answer
+B
+Explanation
+Der Wechsel zwischen digitaler und manueller Verarbeitung erzeugt erneute Erfassung.
+
+Bei der Analyse eines Geschäftsprozesses bespricht das zuständige Team folgenden Fall: Zwei Bereiche führen dieselbe Kundendatenprüfung nacheinander durch. Was sollte vor dem Entfernen eines Schritts geklärt werden?
+A
+Welcher Beschäftigte länger im Unternehmen ist
+B
+Welcher Bereich die modernere Präsentationsvorlage nutzt
+C
+Ob die Prüfungen tatsächlich denselben Zweck, Umfang und Kontrollbedarf haben
+D
+Ob beide Schritte denselben Namen tragen
+✓
+Correct!Your answer: C
+Correct Answer
+C
+Explanation
+Ähnlich aussehende Tätigkeiten können unterschiedliche Kontrollziele erfüllen.
+Bei der Analyse eines Geschäftsprozesses soll die folgende Entscheidung getroffen werden: Ein Soll-Prozess verkürzt die Bearbeitungszeit, entfernt aber eine notwendige Vier-Augen-Prüfung. Wie ist die Änderung zu bewerten?
+A
+Die grafische Darstellung anpassen und die Kontrollfrage bei der nächsten Revision klären
+B
+Sie ist automatisch richtig, weil die Durchlaufzeit sinkt
+C
+Sie ist automatisch falsch, weil Prozesse nie geändert werden dürfen
+D
+Die Effizienzverbesserung ist gegen den Kontrollbedarf zu überprüfen und gegebenenfalls anzupassen
+✗
+IncorrectYour answer: B
+Correct Answer
+D
+Explanation
+Optimierung darf erforderliche Sicherheits- oder Qualitätskontrollen nicht unbegründet beseitigen.
+
+Bei der Analyse eines Geschäftsprozesses stellt sich folgende Prüfungsfrage: Welche Abfolge beschreibt eine saubere Prozessoptimierung am sinnvollsten?
+A
+Ist-Prozess verstehen, Schwächen analysieren, Soll-Lösung abstimmen, umsetzen und Wirkung überprüfen
+B
+Soll-Lösung umsetzen, danach erstmals den Ist-Prozess erheben
+C
+Wirkung überprüfen, Soll-Prozess entwerfen, Beteiligte erst danach informieren
+D
+Den Ist-Prozess zeichnen und weitere Bewertung auf einen späteren Zeitpunkt verschieben
+✗
+IncorrectYour answer: C
+Correct Answer
+A
+Explanation
+Eine Verbesserung baut auf validiertem Ist-Verständnis auf und endet mit Wirksamkeitsprüfung.
+Bei der Analyse eines Geschäftsprozesses wird die folgende Situation bewertet: Ein optimierter Prozess wurde eingeführt. Woran lässt sich seine Wirkung am verlässlichsten beurteilen?
+A
+Den Erfolg vorwiegend aus der Zustimmung des Projektteams ableiten
+B
+Vorher und nachher passende Kennzahlen, Fehler, Kontrollwirkung und Rückmeldungen im gleichen Scope vergleichen
+C
+Prüfen, ob die neue Prozessgrafik veröffentlicht wurde, ohne die Wirkung selbst zu untersuchen
+D
+Die Zahl der versendeten Ankündigungen zählen
+✗
+IncorrectYour answer: C
+Correct Answer
+B
+Explanation
+Wirksamkeit zeigt sich durch vergleichbare Prozess- und Qualitätsdaten sowie relevante Erfahrungen.
+In einer Prozessbeschreibung wird als Auslöser "Kundenanfrage geht ein" und als Ergebnis "Angebot ist versendet" genannt, jedoch ohne Angabe der beteiligten Rollen oder Schnittstellen. Welche Einordnung ist am zutreffendsten?
+A
+Die Beschreibung ist unvollständig, weil wesentliche Prozessmerkmale wie Rollen und Schnittstellen fehlen
+B
+Die Beschreibung ist bereits vollständig, weil Auslöser und Ergebnis die wichtigsten Prozessmerkmale sind
+C
+Die Beschreibung betrifft keinen echten Prozess, da kein Prozesshaus zugeordnet wurde
+D
+Die Beschreibung ist nur für einen Unterstützungsprozess ausreichend, nicht für einen Geschäftsprozess
+✗
+IncorrectYour answer: D
+Correct Answer
+A
+Bei einem regionalen Logistikdienstleister wird folgender Praxisfall bewertet: Ein Soll-Prozess verkürzt die Bearbeitungszeit, entfernt aber eine notwendige Vier-Augen-Prüfung. Wie ist die Änderung zu bewerten?
+A
+Die Effizienzverbesserung ist gegen den Kontrollbedarf zu prüfen und gegebenenfalls anzupassen
+B
+Sie ist automatisch richtig, weil die Durchlaufzeit sinkt
+C
+Sie ist automatisch falsch, weil Prozesse nie geändert werden dürfen
+D
+Die grafische Darstellung anpassen und die Kontrollfrage bei der nächsten Revision klären
+✗
+IncorrectYour answer: C
+Correct Answer
+A
+Explanation
+Optimierung darf erforderliche Sicherheits- oder Qualitätskontrollen nicht unbegründet beseitigen.
+Ein Unternehmen möchte einen neu gestalteten Freigabeprozess einführen. Die fachliche Ausarbeitung des Soll-Prozesses ist abgeschlossen und mit den Fachbereichen abgestimmt. Welcher nächste Schritt ist am passendsten?
+A
+Den Prozess unternehmensweit sofort verbindlich in Kraft setzen
+B
+Die Auswirkungen erklären, Rückmeldungen ermöglichen und die Einführung begleitet erproben
+C
+Zunächst eine neue Prozessvisualisierung erstellen, bevor inhaltliche Fragen geklärt werden
+D
+Erneut Interviews zur Erfassung des bisherigen Ist-Prozesses durchführen
+✗
+IncorrectYour answer: C
+Correct Answer
+B
+Ein Unternehmen ordnet die Rekrutierung neuer Mitarbeitender sowie die strategische Jahresplanung jeweils einer Prozesskategorie zu. Welche Zuordnung ist am zutreffendsten?
+A
+Rekrutierung ist ein Kernprozess, Jahresplanung ist ein Unterstützungsprozess
+B
+Beide sind Kernprozesse, da beide für den Unternehmenserfolg wichtig sind
+C
+Rekrutierung ist ein Unterstützungsprozess, Jahresplanung ist ein Führungsprozess
+D
+Beide sind Führungsprozesse, da beide von der Personalabteilung mitgestaltet werden
+✗
+IncorrectYour answer: D
+Correct Answer
+C
+Zur Bewertung eines optimierten Kundenserviceprozesses schlägt ein Team vor, ausschließlich die Anzahl neu erstellter Prozessdiagramme als Erfolgskennzahl zu verwenden. Welche Einordnung ist am zutreffendsten?
+A
+Die Kennzahl ist geeignet, weil mehr Diagramme mehr Prozessreife bedeuten
+B
+Die Kennzahl ist geeignet, solange sie mit der Unternehmensleitung abgestimmt wurde
+C
+Die Kennzahl ist ungeeignet, weil Prozessdiagramme grundsätzlich nicht gezählt werden dürfen
+D
+Die Kennzahl ist ungeeignet, weil sie keine Aussage über die tatsächliche Wirkung des Prozesses auf Kunden oder Betrieb trifft
+✗
+IncorrectYour answer: A
+Correct Answer
+D
+In einer Prozessbeschreibung ist eine Person als "Responsible" für die Durchführung einer Tätigkeit benannt, eine andere Person aber als "Accountable" für das Gesamtergebnis. Welche Aussage ist am zutreffendsten?
+A
+Die "Responsible"-Person führt die Tätigkeit aus, während die "Accountable"-Person für das Ergebnis verantwortlich bleibt, auch wenn sie es nicht selbst ausführt
+B
+Beide Rollen bezeichnen dasselbe und wurden nur zur Verdeutlichung doppelt benannt
+C
+Die "Accountable"-Person hat keinerlei Bezug zum Ergebnis, sobald eine "Responsible"-Person benannt ist
+D
+Es sollte in jeder Prozessbeschreibung nur eine einzige Rolle geben, um Verantwortung zu bündeln
+✗
+IncorrectYour answer: C
+Correct Answer
+A
+Eine Prozessbeschreibung erfasst nur den Standardablauf; wiederkehrende Sonderfälle mit abweichenden Entscheidungswegen werden nicht dokumentiert, obwohl sie regelmäßig auftreten. Welche Ergänzung ist am wichtigsten?
+A
+Die Sonderfälle bewusst weglassen, damit die Beschreibung übersichtlich bleibt
+B
+Die regelmäßig auftretenden Varianten samt ihrer Entscheidungswege in die Beschreibung aufnehmen
+C
+Ausschließlich den Standardfall weiter verfeinern, da Sonderfälle selten genug seltener werden
+D
+Die Beschreibung durch ein reines Organigramm der beteiligten Abteilungen ersetzen
+✗
+IncorrectYour answer: D
+Correct Answer
+B
+Ein Process Owner soll die Durchlaufzeit eines abteilungsübergreifenden Prozesses verbessern, hat jedoch keine Weisungsbefugnis über die Ressourcen anderer beteiligter Abteilungen. Welche Einordnung ist am zutreffendsten?
+A
+Die fehlende Weisungsbefugnis ist unproblematisch, da Prozessverantwortung immer auch Ressourcenverantwortung einschließt
+B
+Der Process Owner sollte in diesem Fall durch die jeweilige Abteilungsleitung ersetzt werden
+C
+Die fehlende Weisungsbefugnis stellt eine typische Herausforderung dar, die eine abgestimmte Zusammenarbeit mit den jeweiligen Fachbereichsleitungen erfordert
+D
+Prozessverbesserungen sind ohne Weisungsbefugnis über alle Ressourcen grundsätzlich nicht möglich
+✗
+IncorrectYour answer: B
+Correct Answer
+C
+Bei einem mittelständischen Fertigungsbetrieb wird folgender Praxisfall bewertet: Zwei Bereiche führen dieselbe Kundendatenprüfung nacheinander durch. Was sollte vor dem Entfernen eines Schritts geklärt werden?
+A
+Welcher Bereich die modernere Präsentationsvorlage nutzt
+B
+Ob die Prüfungen tatsächlich denselben Zweck, Umfang und Kontrollbedarf haben
+C
+Ob beide Schritte denselben Namen tragen
+D
+Welcher Mitarbeitende länger im Unternehmen ist
+✗
+IncorrectYour answer: D
+Correct Answer
+B
+Explanation
+Ähnlich aussehende Tätigkeiten können unterschiedliche Kontrollziele erfüllen.
+Ein Team vermutet einen Engpass in einem Genehmigungsprozess, stützt diese Vermutung aber ausschließlich auf einzelne mündliche Erfahrungsberichte, ohne Durchlaufzeiten zu messen. Welche Ergänzung ist am wichtigsten?
+A
+Die mündlichen Berichte als ausreichende Grundlage für eine Prozessänderung akzeptieren
+B
+Den vermuteten Engpass ohne weitere Prüfung aus dem Prozess entfernen
+C
+Eine neue Prozessgrafik erstellen, ohne die Ursache des Engpasses zu untersuchen
+D
+Tatsächliche Bearbeitungs- und Wartezeiten je Prozessschritt systematisch erheben, um die Vermutung zu überprüfen
+✗
+IncorrectYour answer: C
+Correct Answer
+D
+Zwischen zwei Systemen wird eine Bestellung manuell aus einem System exportiert und danach manuell in ein zweites System eingegeben; dabei gehen gelegentlich Positionen verloren. Welche Einordnung ist am zutreffendsten?
+A
+An der Schnittstelle zwischen den Systemen liegt eine fehleranfällige manuelle Übergabe vor, die auf eine verlässlichere Kopplung geprüft werden sollte
+B
+Es handelt sich um eine unvermeidbare Fehlerquote, die keiner weiteren Betrachtung bedarf
+C
+Der Fehler liegt ausschließlich bei der eingebenden Person und erfordert keine Prozessänderung
+D
+Da beide Systeme korrekt funktionieren, liegt kein Prozessproblem vor
+✗
+IncorrectYour answer: C
+Correct Answer
+A
+Ein Unternehmen hat vor zwei Jahren ein Prozessoptimierungsprojekt abgeschlossen und seither keine weitere Überprüfung des betroffenen Prozesses vorgenommen. Welche Einordnung ist am zutreffendsten?
+
+A
+Dies ist angemessen, da ein einmal optimierter Prozess dauerhaft optimal bleibt
+B
+Prozessmanagement ist ein fortlaufender Zyklus; der Prozess sollte regelmäßig erneut überprüft und bei Bedarf weiter angepasst werden
+C
+Eine erneute Überprüfung ist nur bei einem dokumentierten Fehler erforderlich
+D
+Nach Projektabschluss endet die Verantwortung für den Prozess vollständig
+✓
+Correct!
+Your answer: B
+Correct Answer
+BIn einem Prozesshaus wird die Rechnungsprüfung als Unterstützungsprozess eingeordnet, obwohl sie unmittelbar zur Erbringung der verkauften Beratungsleistung gehört. Welche Einordnung ist am zutreffendsten?
+
+A
+Die Einordnung sollte anhand des tatsächlichen Beitrags zur Kernleistung überprüft werden, statt sich allein am Prozessnamen zu orientieren
+B
+Die Einordnung ist unabhängig vom tatsächlichen Beitrag zur Kundenleistung immer korrekt, da Finanzprozesse stets Unterstützungsprozesse sind
+C
+Eine Neueinordnung ist grundsätzlich unzulässig, sobald ein Prozesshaus einmal festgelegt wurde
+D
+Die Kategorie spielt für die praktische Prozessarbeit keine Rolle
+✗
+Incorrect
+Your answer: C
+Correct Answer
+AEin Prozessverantwortlicher ändert eigenmächtig den Soll-Prozess, ohne die betroffenen Fachbereiche einzubeziehen oder die Änderung zu dokumentieren. Welche Einordnung ist am zutreffendsten?
+
+A
+Dies ist unproblematisch, solange die Änderung fachlich sinnvoll erscheint
+B
+Änderungen am Soll-Prozess sollten mit den betroffenen Fachbereichen abgestimmt und nachvollziehbar dokumentiert werden
+C
+Nur die Unternehmensleitung darf jemals einen Soll-Prozess ändern
+D
+Eine Dokumentation ist nur bei technischen, nicht bei organisatorischen Prozessänderungen nötig
+✗
+Incorrect
+Your answer: C
+Correct Answer
+B
+
+Bei einem mittelständischen Softwarehaus wird folgender Praxisfall bewertet: Ein fachlich sinnvoller Soll-Prozess stößt auf Widerstand, weil Beschäftigte neue Rollen als unklar und zusätzlichen Aufwand als unbegründet erleben. Welche Einführung ist am erfolgversprechendsten?
+
+A
+Betroffene früh einbinden, Zweck und Auswirkungen erklären, Rollen klären, Rückmeldungen prüfen und die Einführung begleitet erproben
+B
+Zunächst die Prozessgrafik veröffentlichen, Rückmeldungen nach vollständiger technischer Umsetzung sammeln und Rollen lokal auslegen lassen
+C
+Den bisherigen Prozess parallel unbefristet zulassen, damit jede Einheit selbst über Zeitpunkt und Umfang der Umstellung entscheidet
+D
+Den Soll-Prozess sofort verbindlich setzen, Rollen später präzisieren und Akzeptanz über die Einhaltungsquote messen
+✗
+Incorrect
+Your answer: B
+Correct Answer
+A
+Explanation
+Frühe Beteiligung, nachvollziehbarer Nutzen, klare RollBei einem kommunalen Versorger wird folgender Praxisfall bewertet: Ein Prozess hat seltene Sonderfälle und Übergaben an drei Bereiche. Wer sollte an der Prozesserfassung beteiligt werden?
+
+A
+Die Führungskraft des Bereichs mit den meisten Mitarbeitenden, ohne die Sonderfälle einzubeziehen
+B
+Ausführende und Verantwortliche aus den relevanten Bereichen einschließlich Personen mit Kenntnis der Sonderfälle
+C
+Personen, die den Standardfall ausführen, ohne die Ausnahmen einzubeziehen
+D
+Der Hersteller des verwendeten Systems, losgelöst von den ausführenden Personen
+✗
+Incorrect
+Your answer: D
+Correct Answer
+B
+Explanation
+Die Auswahl muss Standardablauf, Schnittstellen und relevante Varianten fachlich abdecken.
+en und eine begleitete Erprobung behandeln die genannten Akzeptanzursachen direkt.
+Eine Prozessbeschreibung wurde vor drei Jahren erstellt; der tatsächlich gelebte Ablauf hat sich seither in mehreren Schritten verändert, ohne dass die Dokumentation aktualisiert wurde. Welche Einordnung ist am zutreffendsten?
+
+A
+Die Dokumentation sollte mit dem tatsächlichen Ist-Prozess abgeglichen und aktualisiert werden, um weiterhin verlässlich zu sein
+B
+Dies ist unproblematisch, solange die ursprüngliche Dokumentation formal korrekt erstellt wurde
+C
+Prozessdokumentationen müssen nach ihrer Erstellung grundsätzlich nicht mehr verändert werden
+D
+Eine Abweichung zwischen Dokumentation und gelebtem Ablauf ist ausschließlich ein Problem der Qualitätssicherung
+✗
+Incorrect
+Your answer: C
+Correct Answer
+A
+Ein Genehmigungsschritt in einem Prozess hat genau eine zuständige Person; es existiert keine Vertretungsregelung für den Fall ihrer Abwesenheit. Welche Einordnung ist am zutreffendsten?
+
+A
+Dies ist unproblematisch, da Abwesenheiten in der Praxis selten vorkommen
+B
+Der fehlenden Vertretungsregelung sollte begegnet werden, da die Abwesenheit der zuständigen Person sonst den gesamten Prozess blockieren kann
+C
+Vertretungsregelungen sind ausschließlich für technische Systeme relevant, nicht für einzelne Rollen
+D
+Eine Vertretungsregelung widerspricht dem Prinzip der Funktionstrennung
+✗
+Incorrect
+Your answer: D
+Correct Answer
+B
+Ein Prozess wird nach der Optimierung schneller, aber die Fehlerquote in der nachgelagerten Qualitätsprüfung steigt gleichzeitig deutlich an. Welche Einordnung ist am zutreffendsten?
+
+A
+Die gestiegene Fehlerquote sollte als Nebenwirkung der Optimierung untersucht werden, bevor die Änderung als Erfolg gewertet wird
+B
+Die Optimierung ist grundsätzlich erfolgreich, da die Durchlaufzeit das einzig relevante Erfolgskriterium ist
+C
+Fehlerquoten in der Qualitätsprüfung stehen grundsätzlich in keinem Zusammenhang mit vorgelagerten Prozessänderungen
+D
+Eine gestiegene Fehlerquote ist immer ein Zeichen für unzureichend geschulte Beschäftigte
+✗
+Incorrect
+Your answer: C
+Correct Answer
+A
+
+
+Für einen neu eingeführten Prozess existiert keine Kennzahl, anhand derer sein Erfolg objektiv beurteilt werden könnte. Welche Ergänzung ist am wichtigsten?
+
+A
+Auf eine Erfolgsmessung grundsätzlich verzichten, da neue Prozesse zunächst nur eingeübt werden müssen
+B
+Mindestens eine aussagekräftige, mit dem Prozessziel verknüpfte Kennzahl definieren und regelmäßig erheben
+C
+Ausschließlich die subjektive Zufriedenheit der beteiligten Führungskraft als Maßstab verwenden
+D
+Den Erfolg allein daran bemessen, ob der Prozess pünktlich eingeführt wurde
+✗
+Incorrect
+Your answer: C
+Correct Answer
+B
+
+Ein Prozess wird ausschließlich anhand des Feedbacks der ausführenden Person bewertet, ohne die tatsächlichen Kennzahlen wie Durchlaufzeit oder Fehlerquote heranzuziehen. Welche Einordnung ist am zutreffendsten?
+
+A
+Eine ausschließlich auf subjektivem Feedback beruhende Bewertung sollte um objektive Kennzahlen ergänzt werden
+B
+Subjektives Feedback der ausführenden Person ist stets zuverlässiger als jede Kennzahl
+C
+Kennzahlen sind für die Prozessbewertung grundsätzlich weniger aussagekräftig als persönliche Eindrücke
+D
+Eine Kombination aus Feedback und Kennzahlen ist grundsätzlich nicht sinnvoll umsetzbar
+✗
+Incorrect
+Your answer: D
+Correct Answer
+A
+
+In einem Freigabeprozess entscheidet eine einzelne Person sowohl über die inhaltliche Prüfung als auch über die abschließende Freigabe derselben Unterlage. Welche Einordnung ist am zutreffendsten?
+
+A
+Dies ist stets unproblematisch, solange die Person ausreichend Erfahrung hat
+B
+Diese Kombination beider Rollen in einer Person kann dem Prinzip der Funktionstrennung widersprechen und sollte überprüft werden
+C
+Funktionstrennung betrifft ausschließlich technische Systeme, nicht organisatorische Freigabeprozesse
+D
+Eine Zusammenlegung von Prüfung und Freigabe erhöht grundsätzlich die Sicherheit des Prozesses
+✗
+Incorrect
+Your answer: D
+Correct Answer
+B
+Ein neu eingeführter Prozess wird nur den unmittelbar beteiligten Personen erklärt, nicht aber den Personen, die den Prozess lediglich anstoßen oder dessen Ergebnis weiterverwenden. Welche Einordnung ist am zutreffendsten?
+
+A
+Alle relevanten Beteiligten, einschließlich anstoßender und weiterverwendender Personen, sollten über den Prozess informiert werden
+B
+Eine Information ist ausschließlich für die unmittelbar ausführenden Personen erforderlich
+C
+Personen, die einen Prozess nur anstoßen, benötigen grundsätzlich keine Kenntnis über dessen Ablauf
+D
+Die Kommunikation eines Prozesses an Randbeteiligte verzögert die Einführung unnötig und sollte unterbleiben
+✗
+Incorrect
+Your answer: C
+Correct Answer
+A
+Eine Prozessvisualisierung verwendet für dieselbe Art von Tätigkeit in unterschiedlichen Diagrammen unterschiedliche Symbole, ohne einheitliche Notation. Welche Einordnung ist am zutreffendsten?
+
+A
+Unterschiedliche Symbole für dieselbe Tätigkeit sind unproblematisch, solange jedes einzelne Diagramm für sich verständlich ist
+B
+Eine einheitliche Notation sollte verwendet werden, um Missverständnisse beim Lesen unterschiedlicher Prozessdiagramme zu vermeiden
+C
+Eine einheitliche Notation ist ausschließlich für automatisiert ausgewertete Diagramme relevant
+D
+Die Wahl der Symbole hat keinen Einfluss auf die Verständlichkeit von Prozessdiagrammen
+✗
+Incorrect
+Your answer: C
+Correct Answer
+B
+Ein Prozessdiagramm zeigt eine Entscheidung mit zwei möglichen Ausgängen, aber nur einen der beiden Wege ist tatsächlich weiter ausgearbeitet. Welche Einordnung ist am zutreffendsten?
+
+A
+Der nicht ausgearbeitete Weg sollte ebenfalls vervollständigt werden, um den Prozess bei diesem Ausgang nachvollziehbar zu machen
+B
+Ein einziger ausgearbeiteter Weg reicht aus, da der andere Ausgang in der Praxis vermutlich selten vorkommt
+C
+Unvollständig ausgearbeitete Wege sind für die Prozessdokumentation grundsätzlich ohne Bedeutung
+D
+Die Vervollständigung des zweiten Weges ist ausschließlich bei sicherheitskritischen Prozessen erforderlich
+✗
+Incorrect
+Your answer: C
+Correct Answer
+A
+Ein Team führt eine Prozessoptimierung durch, ohne vorher zu klären, welches konkrete Problem damit gelöst werden soll. Welche Einordnung ist am zutreffendsten?
+
+A
+Eine vorherige Problemdefinition ist überflüssig, solange am Ende irgendeine Verbesserung erzielt wird
+B
+Eine klare Problemdefinition sollte vor der eigentlichen Optimierung erfolgen, um die Maßnahme zielgerichtet auszurichten
+C
+Prozessoptimierung sollte grundsätzlich ohne vorherige Analyse begonnen werden, um Zeit zu sparen
+D
+Die Definition des zu lösenden Problems ist ausschließlich bei technischen Prozessen relevant
+✗
+Incorrect
+Your answer: C
+Correct Answer
+B
+Zwei Abteilungen führen denselben Prozessschritt unabhängig voneinander mit leicht unterschiedlichen Ergebnissen durch, ohne dass dies bislang koordiniert wurde. Welche Einordnung ist am zutreffendsten?
+
+A
+Die abweichende Durchführung sollte untersucht und, falls sinnvoll, vereinheitlicht werden, um Konsistenz sicherzustellen
+B
+Abweichungen zwischen Abteilungen bei identischen Prozessschritten sind grundsätzlich unproblematisch
+C
+Eine Vereinheitlichung ist ausschließlich bei gesetzlich vorgeschriebenen Prozessschritten erforderlich
+D
+Unterschiedliche Ergebnisse bei identischem Prozessschritt deuten grundsätzlich nicht auf ein Prozessproblem hin
+✗
+Incorrect
+Your answer: C
+Correct Answer
+A
+Eine Prozessbeschreibung nennt zwar die beteiligten Rollen, aber nicht, welche Informationen zwischen diesen Rollen konkret ausgetauscht werden. Welche Einordnung ist am zutreffendsten?
+
+A
+Die Nennung der beteiligten Rollen allein reicht für eine vollständige Prozessbeschreibung aus
+B
+Die Beschreibung sollte um die zwischen den Rollen ausgetauschten Informationen ergänzt werden, um den Ablauf vollständig nachvollziehbar zu machen
+C
+Der konkrete Informationsaustausch zwischen Rollen ist für die Prozessdokumentation nicht relevant
+D
+Eine Ergänzung ist ausschließlich bei Prozessen mit besonders hohem Schutzbedarf erforderlich
+✗
+Incorrect
+Your answer: D
+Correct Answer
+B
+Ein Prozess wird so gestaltet, dass er ausschließlich für den aktuellen Personalstand funktioniert, ohne Rücksicht auf mögliche künftige Wachstums- oder Schrumpfungsszenarien. Welche Einordnung ist am zutreffendsten?
+
+A
+Der Prozess sollte auch auf absehbare Veränderungen des Personalstands hin überprüft werden, um seine langfristige Eignung sicherzustellen
+B
+Ein Prozess, der für den aktuellen Personalstand funktioniert, muss nicht auf künftige Veränderungen hin überprüft werden
+C
+Wachstums- oder Schrumpfungsszenarien sind für die Prozessgestaltung grundsätzlich ohne Bedeutung
+D
+Eine Überprüfung auf künftige Szenarien ist ausschließlich bei stark wachsenden Unternehmen sinnvoll
+✗
+Incorrect
+Your answer: D
+Correct Answer
+A
+Ein Prozessverantwortlicher sammelt regelmäßig Rückmeldungen von ausführenden Personen, setzt daraus abgeleitete Verbesserungsvorschläge aber nie um. Welche Einordnung ist am zutreffendsten?
+
+A
+Das reine Sammeln von Rückmeldungen erfüllt bereits den beabsichtigten Zweck, unabhängig von der Umsetzung
+B
+Regelmäßig gesammelte, aber nie umgesetzte Rückmeldungen können langfristig die Bereitschaft verringern, überhaupt noch Rückmeldungen zu geben
+C
+Eine Umsetzung von Rückmeldungen ist ausschließlich bei schriftlich eingereichten Vorschlägen erforderlich
+D
+Die Umsetzung von Rückmeldungen hat auf die künftige Beteiligungsbereitschaft der Beschäftigten keinen Einfluss
+✗
+Incorrect
+Your answer: D
+Correct Answer
+B
+Ein Prozess wird so dokumentiert, dass er nur für den Regelfall an einem einzelnen Standort gilt, obwohl derselbe Prozess inzwischen an mehreren Standorten mit leicht unterschiedlichen Rahmenbedingungen durchgeführt wird. Welche Einordnung ist am zutreffendsten?
+
+A
+Die Dokumentation sollte um die tatsächlich relevanten Unterschiede der weiteren Standorte ergänzt werden, um den Prozess vollständig abzubilden
+B
+Eine Dokumentation nur für den ursprünglichen Standort reicht aus, solange der Grundablauf überall ähnlich ist
+C
+Standortspezifische Unterschiede sind für die Prozessdokumentation grundsätzlich ohne Bedeutung
+D
+Jeder Standort sollte zwingend eine vollständig eigenständige, unabhängige Prozessdokumentation erhalten
+✗
+Incorrect
+Your answer: D
+Correct Answer
+A
+Innerhalb eines Prozesses wird ein Zwischenschritt regelmäßig übersprungen, weil die Beteiligten ihn für überflüssig halten, ohne dass dies mit den ursprünglichen Prozessverantwortlichen abgestimmt wurde. Welche Einordnung ist am zutreffendsten?
+
+A
+Beteiligte dürfen einzelne Prozessschritte grundsätzlich eigenmächtig überspringen, wenn sie diese für überflüssig halten
+B
+Das eigenmächtige Überspringen sollte mit den Prozessverantwortlichen abgestimmt werden, um zu klären, ob der Schritt tatsächlich entbehrlich ist
+C
+Ein regelmäßig übersprungener Schritt zeigt zwingend, dass die ursprüngliche Prozessgestaltung fehlerhaft war
+D
+Eine Abstimmung mit den Prozessverantwortlichen ist ausschließlich bei gesetzlich vorgeschriebenen Schritten erforderlich
+✗
+Incorrect
+Your answer: C
+Correct Answer
+B
+Bei einer gemeinnützigen Organisation wird folgender Praxisfall bewertet: Ein Genehmigungsprozess hat eine hohe Durchlaufzeit. Mehrere Beteiligte vermuten den Engpass an unterschiedlichen Stellen; belastbare Messdaten fehlen. Welcher Analyseschritt sollte zuerst erfolgen?
+
+A
+Die am häufigsten genannte Genehmigungsstufe entfernen und anschließend die neue Durchlaufzeit mit dem Zielwert vergleichen
+B
+Bearbeitungs-, Warte- und Nacharbeitszeiten je relevanter Variante erheben und die Engpasshypothese mit Beteiligten validieren
+C
+Die Zeitschätzungen der Prozessverantwortlichen mitteln und den höchsten Einzelwert als Engpass dokumentieren
+D
+Zuerst eine gewünschte Soll-Durchlaufzeit festlegen und jede Aktivität oberhalb ihres rechnerischen Anteils optimieren
+✗
+Incorrect
+Your answer: C
+Correct Answer
+B
+Explanation
+Vor einer Optimierung muss der tatsächliche Engpass anhand geeigneter Prozessdaten und relevanter Varianten belastbar bestimmt werden.
+Ein Prozess wird dokumentiert, ohne anzugeben, welches System oder Werkzeug für die einzelnen Schritte tatsächlich verwendet wird. Welche Einordnung ist am zutreffendsten?
+
+A
+Die verwendeten Systeme oder Werkzeuge sollten ergänzt werden, damit die Beschreibung für die praktische Ausführung tatsächlich nützlich ist
+B
+Eine Prozessbeschreibung sollte grundsätzlich unabhängig von jeder Angabe zu genutzten Systemen bleiben
+C
+Die Angabe genutzter Systeme ist ausschließlich bei vollständig automatisierten Prozessen relevant
+D
+Fehlende Systemangaben haben auf die praktische Anwendbarkeit einer Prozessbeschreibung keinen Einfluss
+✗
+Incorrect
+Your answer: D
+Correct Answer
+A
+Ein Team überarbeitet einen bestehenden Prozess grundlegend, informiert aber die Personen, die Ergebnisse dieses Prozesses in einem nachgelagerten Prozess weiterverwenden, nicht über die Änderung. Welche Einordnung ist am zutreffendsten?
+
+A
+Eine Information nachgelagerter Prozessbeteiligter ist ausschließlich bei gleichzeitiger Änderung der eigenen Zuständigkeiten erforderlich
+B
+Personen in nachgelagerten Prozessen sollten über wesentliche Änderungen informiert werden, die sich auf die von ihnen genutzten Ergebnisse auswirken können
+C
+Nachgelagerte Prozesse sind von Änderungen vorgelagerter Prozesse grundsätzlich nicht betroffen
+D
+Eine Information ist überflüssig, solange sich das äußere Ergebnisformat nicht verändert
+✗
+Incorrect
+Your answer: C
+Correct Answer
+B
+Ein Prozess wird so gestaltet, dass er ausschließlich in einer bestimmten Software funktioniert, ohne dass geprüft wurde, ob diese Software langfristig verfügbar bleibt. Welche Einordnung ist am zutreffendsten?
+
+A
+Eine starke Abhängigkeit von einer einzelnen Software sollte bewusst geprüft und gegebenenfalls durch alternative Vorgehensweisen abgefedert werden
+B
+Eine ausschließliche Abhängigkeit von einer bestimmten Software ist für Prozesse grundsätzlich unproblematisch
+C
+Die langfristige Verfügbarkeit eingesetzter Software ist für die Prozessgestaltung ohne Bedeutung
+D
+Eine Prüfung der Softwareabhängigkeit ist ausschließlich bei kostenpflichtiger Software erforderlich
+✗
+Incorrect
+Your answer: B
+Correct Answer
+A
+Innerhalb eines Prozesses erfolgt eine wichtige Entscheidung stets mündlich und wird an keiner Stelle schriftlich festgehalten. Welche Einordnung ist am zutreffendsten?
+
+A
+Mündliche Entscheidungen sind grundsätzlich ausreichend, solange die beteiligten Personen sich später daran erinnern können
+B
+Wichtige Entscheidungen sollten nachvollziehbar dokumentiert werden, um sie später begründen und nachprüfen zu können
+C
+Eine schriftliche Dokumentation ist ausschließlich bei Entscheidungen mit finanzieller Auswirkung erforderlich
+D
+Die Form einer Entscheidung hat auf ihre spätere Nachvollziehbarkeit keinen Einfluss
+✓
+Correct!
+Your answer: B
+Correct Answer
+B
+
+Ein Prozess enthält einen Schritt, der ausschließlich deshalb existiert, weil er in einer früheren, inzwischen abgeschafften Systemumgebung notwendig war. Welche Einordnung ist am zutreffendsten?
+
+A
+Der nicht mehr sachlich notwendige Schritt sollte identifiziert und aus dem Prozess entfernt werden
+B
+Historisch gewachsene Schritte sollten aus Respekt vor der bisherigen Praxis grundsätzlich beibehalten werden
+C
+Ein einmal etablierter Prozessschritt darf aus Konsistenzgründen nicht mehr entfernt werden
+D
+Die tatsächliche Notwendigkeit eines Schritts spielt für die Prozessgestaltung keine relevante Rolle
+✗
+Incorrect
+Your answer: C
+Correct Answer
+A
+Bei einem regionalen Logistikdienstleister wird folgender Praxisfall bewertet: Interviews und Systemdaten widersprechen der freigegebenen Prozessbeschreibung. Welches Vorgehen führt am zuverlässigsten zu einem belastbaren Ist-Prozess?
+
+A
+Quellen und Varianten gemeinsam mit Beteiligten validieren und den tatsächlich wiederkehrenden Ablauf dokumentieren
+B
+Zuerst den gewünschten Soll-Prozess modellieren und daraus den bisherigen Ist-Prozess ableiten
+C
+Freigegebene Beschreibung als Ist übernehmen und Abweichungen erst im Soll-Prozess behandeln
+D
+Systemdaten stärker gewichten als Interviews und manuelle Tätigkeiten nachrangig behandeln
+✗
+Incorrect
+Your answer: B
+Correct Answer
+A
+Explanation
+Der Ist-Prozess muss aus mehreren Quellen validiert werden und den tatsächlich gelebten Ablauf einschließlich relevanter Varianten abbilden.
+Ein Unternehmen misst die Wirkung einer Prozessänderung ausschließlich unmittelbar nach der Einführung, ohne eine spätere Kontrolle nach einigen Monaten vorzusehen. Welche Einordnung ist am zutreffendsten?
+
+A
+Eine unmittelbare Messung direkt nach der Einführung liefert stets ein vollständiges und verlässliches Bild der langfristigen Wirkung
+B
+Eine spätere Kontrolle nach einigen Monaten sollte ergänzt werden, um nachhaltige Effekte von kurzfristigen Anpassungseffekten zu unterscheiden
+C
+Eine spätere Kontrolle ist ausschließlich bei technischen Prozessänderungen sinnvoll
+D
+Der Zeitpunkt der Wirkungsmessung hat auf die Aussagekraft der Ergebnisse keinen relevanten Einfluss
+✓
+Correct!
+Your answer: B
+Correct Answer
+B
+Ein Unternehmen erfasst zwar die Bearbeitungszeit eines Prozesses, nicht aber die Wartezeit zwischen den einzelnen Schritten. Welche Einordnung ist am zutreffendsten?
+
+A
+Auch die Wartezeit zwischen den Schritten sollte erfasst werden, um die tatsächliche Gesamtdurchlaufzeit vollständig abzubilden
+B
+Die reine Bearbeitungszeit liefert bereits ein vollständiges Bild der tatsächlichen Prozessdauer
+C
+Wartezeiten zwischen Prozessschritten sind für die Prozessoptimierung grundsätzlich ohne Bedeutung
+D
+Eine Erfassung der Wartezeit ist ausschließlich bei vollständig automatisierten Prozessen sinnvoll
+✗
+Incorrect
+Your answer: C
+Correct Answer
+A
+Ein Prozessverantwortlicher entscheidet allein über wesentliche Änderungen an einem abteilungsübergreifenden Prozess, ohne die anderen betroffenen Abteilungsleitungen einzubeziehen. Welche Einordnung ist am zutreffendsten?
+
+A
+Der Prozessverantwortliche kann wesentliche Änderungen grundsätzlich allein und ohne weitere Abstimmung entscheiden
+B
+Wesentliche Änderungen an einem abteilungsübergreifenden Prozess sollten mit den anderen betroffenen Abteilungsleitungen abgestimmt werden
+C
+Eine Abstimmung mit anderen Abteilungsleitungen ist ausschließlich bei finanziell bedeutsamen Änderungen erforderlich
+D
+Die Einbeziehung weiterer Abteilungsleitungen verzögert wesentliche Prozessänderungen unnötig, ohne echten Mehrwert zu bieten
+✗
+Incorrect
+Your answer: C
+Correct Answer
+B
+Ein Unternehmen ändert die Reihenfolge zweier Prozessschritte, ohne zu prüfen, ob der zweite Schritt tatsächlich unabhängig vom ersten ausgeführt werden kann. Welche Einordnung ist am zutreffendsten?
+
+A
+Vor einer Änderung der Schrittreihenfolge sollte geprüft werden, ob eine tatsächliche inhaltliche Abhängigkeit zwischen den Schritten besteht
+B
+Die Reihenfolge von Prozessschritten kann grundsätzlich beliebig verändert werden, ohne inhaltliche Prüfung
+C
+Abhängigkeiten zwischen Prozessschritten sind ausschließlich bei technischen Prozessen relevant
+D
+Eine Prüfung der Abhängigkeit ist überflüssig, solange beide Schritte am selben Tag ausgeführt werden
+✗
+Incorrect
+Your answer: B
+Correct Answer
+A
+Ein Unternehmen erfasst zwar, wer für die Ausführung eines Prozessschritts zuständig ist, nicht aber, wer über Ausnahmen von der Standardvorgehensweise entscheiden darf. Welche Einordnung ist am zutreffendsten?
+
+A
+Die Festlegung der ausführenden Zuständigkeit allein reicht für eine vollständige Prozessbeschreibung aus
+B
+Die Zuständigkeit für Ausnahmeentscheidungen sollte ebenfalls klar festgelegt werden, um unklare Zuständigkeiten in Sonderfällen zu vermeiden
+C
+Ausnahmeentscheidungen sollten grundsätzlich informell und ohne festgelegte Zuständigkeit getroffen werden
+D
+Eine Zuständigkeitsregelung für Ausnahmen ist ausschließlich bei häufig auftretenden Sonderfällen erforderlich
+✗
+Incorrect
+Your answer: C
+Correct Answer
+B
+In einer Prozessbeschreibung wird ein Freigabeschritt genannt, ohne jedoch anzugeben, was geschieht, wenn die Freigabe verweigert wird. Welche Ergänzung ist am wichtigsten?
+
+A
+Eine Beschreibung des weiteren Vorgehens bei verweigerter Freigabe, etwa Rücklauf an eine vorherige Stufe oder Eskalation
+B
+Eine Auflistung aller Personen, die in der Vergangenheit bereits eine Freigabe erteilt haben
+C
+Eine Vorgabe zur bevorzugten Formatierung des Freigabeformulars
+D
+Ein genereller Verzicht auf den Freigabeschritt, um Verzögerungen von vornherein auszuschließen
+✗
+Incorrect
+Your answer: D
+Correct Answer
+A
