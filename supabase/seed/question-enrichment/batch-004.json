@@ -1,0 +1,232 @@
+[
+  {
+    "id": "33df50b4-2eb3-4f81-bc65-413a931c3381",
+    "text": "Ein Unternehmen verarbeitet personenbezogene Daten in mehreren Abteilungen, führt jedoch keine zentrale Übersicht darüber, welche Verarbeitungstätigkeiten stattfinden und zu welchem Zweck. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ein solches Verzeichnis ist reine Verwaltungsroutine ohne rechtliche Bedeutung"
+      },
+      {
+        "label": "B",
+        "text": "Ein Verzeichnis ist nur erforderlich, wenn ausschließlich sensible Gesundheitsdaten verarbeitet werden"
+      },
+      {
+        "label": "C",
+        "text": "Die Pflicht zu einem Verzeichnis entfällt, sobald ein Datenschutzbeauftragter benannt wurde"
+      },
+      {
+        "label": "D",
+        "text": "Datenschutzrechtliche Vorgaben verlangen üblicherweise ein Verzeichnis von Verarbeitungstätigkeiten mit Zweck, Kategorien und Rechtsgrundlage"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "111a6969-e49b-40e3-82f8-2494c461b254",
+    "text": "Ein Unternehmen verlangt von einem Zulieferer vertraglich die Einhaltung bestimmter Sicherheitsanforderungen, prüft deren tatsächliche Umsetzung aber nie. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die vertragliche Vereinbarung allein reicht aus und macht eine Umsetzungsprüfung überflüssig"
+      },
+      {
+        "label": "B",
+        "text": "Zulieferer müssen grundsätzlich nicht vertraglich zur Sicherheit verpflichtet werden"
+      },
+      {
+        "label": "C",
+        "text": "Ohne eine Möglichkeit zur Überprüfung bleibt unklar, ob die vertraglichen Anforderungen tatsächlich eingehalten werden"
+      },
+      {
+        "label": "D",
+        "text": "Eine Überprüfung ist nur bei Zulieferern außerhalb der EU erforderlich"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "18cbea00-08b7-4367-938b-8754b7ada16b",
+    "text": "Ein Unternehmen erhält eine Anfrage einer Aufsichtsbehörde zu seiner Cybersicherheitslage, reagiert aber nicht, weil es die Anfrage für unverbindlich hält. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Anfragen zuständiger Aufsichtsbehörden sind grundsätzlich unverbindlich und können ignoriert werden"
+      },
+      {
+        "label": "B",
+        "text": "Eine Reaktion ist nur erforderlich, wenn die Anfrage schriftlich per Einschreiben erfolgt"
+      },
+      {
+        "label": "C",
+        "text": "Behördliche Anfragen betreffen ausschließlich Unternehmen mit vorheriger Zertifizierung"
+      },
+      {
+        "label": "D",
+        "text": "Anfragen einer zuständigen Aufsichtsbehörde sollten ernst genommen und ihre Verbindlichkeit im Einzelfall geprüft werden"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "dfb5ed37-8ad9-4d9d-a9f1-214cc5aa9619",
+    "text": "Eine ausländische Tochtergesellschaft verarbeitet personenbezogene Daten von Kunden im Heimatland des Mutterunternehmens. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Es gilt ausschließlich das Recht des Sitzlandes der Tochtergesellschaft"
+      },
+      {
+        "label": "B",
+        "text": "Es gilt ausschließlich das Recht des Heimatlandes des Mutterunternehmens"
+      },
+      {
+        "label": "C",
+        "text": "Es können sich rechtliche Anforderungen mehrerer Rechtsordnungen gleichzeitig überschneiden und müssen einzeln geprüft werden"
+      },
+      {
+        "label": "D",
+        "text": "Internationale Konzernstrukturen sind von nationalen Datenschutzanforderungen grundsätzlich ausgenommen"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "113107af-b044-4fd9-9735-16be7814100c",
+    "text": "Ein Unternehmen geht davon aus, dass seine ISO/IEC-27001-Zertifizierung automatisch alle Standorte und Tochtergesellschaften des Konzerns abdeckt, ohne den tatsächlichen Zertifizierungs-Scope zu prüfen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Diese Annahme ist zutreffend, da eine Zertifizierung immer konzernweit gilt"
+      },
+      {
+        "label": "B",
+        "text": "Der Geltungsbereich einer Zertifizierung ist für die Praxis ohne Bedeutung"
+      },
+      {
+        "label": "C",
+        "text": "Eine Zertifizierung gilt automatisch für alle Vertragspartner des zertifizierten Unternehmens"
+      },
+      {
+        "label": "D",
+        "text": "Der tatsächliche Geltungsbereich der Zertifizierung sollte geprüft werden, da er sich häufig nur auf bestimmte Standorte oder Einheiten bezieht"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "15b05252-1bf7-4670-b5eb-28f8196a5783",
+    "text": "Ein Unternehmen schließt einen Vertrag über eine Cloud-Dienstleistung ab, ohne die Regelungen zum Umgang mit einem Sicherheitsvorfall beim Anbieter vertraglich zu klären. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dies ist unproblematisch, da der Anbieter ohnehin gesetzlich zur sofortigen Meldung verpflichtet ist"
+      },
+      {
+        "label": "B",
+        "text": "Verträge mit Cloud-Anbietern benötigen grundsätzlich keine Regelung zu Sicherheitsvorfällen"
+      },
+      {
+        "label": "C",
+        "text": "Vorfallmeldung, Zusammenarbeit und Verantwortlichkeiten sollten vertraglich geregelt werden, um im Ernstfall handlungsfähig zu bleiben"
+      },
+      {
+        "label": "D",
+        "text": "Die Klärung ist ausschließlich Aufgabe des Anbieters und muss vom Kunden nicht verfolgt werden"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "0b0731ce-95ad-4ba9-9c6b-2c384e0ad874",
+    "text": "Ein Unternehmen verwendet in seinen internen Dokumenten unterschiedliche Bezeichnungen für dieselbe gesetzliche Anforderung, je nachdem, welche Abteilung das Dokument erstellt hat. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unterschiedliche Bezeichnungen sind unproblematisch, solange jede Abteilung ihre eigene Terminologie versteht"
+      },
+      {
+        "label": "B",
+        "text": "Eine einheitliche Terminologie ist ausschließlich für externe Kommunikation relevant"
+      },
+      {
+        "label": "C",
+        "text": "Die Bezeichnung einer Anforderung hat keinen Einfluss auf ihre rechtliche Verbindlichkeit oder praktische Umsetzung"
+      },
+      {
+        "label": "D",
+        "text": "Uneinheitliche Bezeichnungen erschweren die Nachvollziehbarkeit und sollten vereinheitlicht werden"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "6c592b65-b79d-4ff8-a64c-26945d73dcb8",
+    "text": "Ein Unternehmen hält sich strikt an branchenübliche Empfehlungen einer Fachorganisation, ohne zu prüfen, ob diese Empfehlungen tatsächlich rechtlich bindend sind. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Branchenempfehlungen sind grundsätzlich mit Gesetzen gleichzusetzen"
+      },
+      {
+        "label": "B",
+        "text": "Eine Prüfung der Verbindlichkeit ist überflüssig, solange die Empfehlung befolgt wird"
+      },
+      {
+        "label": "C",
+        "text": "Die tatsächliche Verbindlichkeit sollte separat geprüft werden, da Empfehlungen häufig zunächst unverbindlichen Charakter haben"
+      },
+      {
+        "label": "D",
+        "text": "Branchenempfehlungen sind für Unternehmen grundsätzlich ohne jede praktische Bedeutung"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "013eb8b5-7471-469c-b358-0d5fce75efcf",
+    "text": "Ein Unternehmen schließt einen neuen Vertrag ab, ohne zu prüfen, ob darin Anforderungen an Informationssicherheit oder Datenschutz enthalten sind. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Verträge enthalten grundsätzlich niemals Anforderungen an Informationssicherheit"
+      },
+      {
+        "label": "B",
+        "text": "Eine solche Prüfung ist ausschließlich bei Verträgen mit IT-Dienstleistern erforderlich"
+      },
+      {
+        "label": "C",
+        "text": "Sicherheits- und Datenschutzanforderungen in Verträgen sind für die praktische Umsetzung ohne Bedeutung"
+      },
+      {
+        "label": "D",
+        "text": "Verträge sollten routinemäßig auch auf enthaltene Sicherheits- und Datenschutzanforderungen geprüft werden"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "b1d2f78c-ad49-4ffb-a3ec-5776c17ac35c",
+    "text": "Ein Unternehmen verlässt sich bei der Einschätzung seiner rechtlichen Pflichten ausschließlich auf eine mehrere Jahre alte interne Übersicht, ohne diese seither aktualisiert zu haben. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rechtliche Anforderungen ändern sich grundsätzlich nicht, sodass eine einmalige Erhebung dauerhaft ausreicht"
+      },
+      {
+        "label": "B",
+        "text": "Eine Aktualisierung ist ausschließlich bei einer behördlichen Prüfung erforderlich"
+      },
+      {
+        "label": "C",
+        "text": "Eine veraltete Übersicht kann neue oder geänderte rechtliche Anforderungen übersehen und sollte regelmäßig aktualisiert werden"
+      },
+      {
+        "label": "D",
+        "text": "Die Aktualität der Übersicht hat keinen Einfluss auf die tatsächliche Einhaltung rechtlicher Pflichten"
+      }
+    ],
+    "correctLabel": "C"
+  }
+]

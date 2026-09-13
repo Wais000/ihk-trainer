@@ -14,6 +14,10 @@ export interface SettingsFormValues {
   explanationLanguage: ExplanationLanguage;
   uiLanguage: ExplanationLanguage;
   instantTranslation: boolean;
+  translateQuestion: boolean;
+  translateAnswers: boolean;
+  translateCorrectAnswer: boolean;
+  translateExplanation: boolean;
   dailyTarget: number;
   theme: AppTheme;
 }
@@ -86,6 +90,22 @@ export function SettingsForm({ initial }: { initial: SettingsFormValues }) {
         <label className="flex items-center gap-2 text-sm">
           <input type="checkbox" name="instantTranslation" defaultChecked={initial.instantTranslation} />
           {dict.settings.instantTranslationLabel}
+        </label>
+        <label className="flex items-center gap-2 text-sm">
+          <input type="checkbox" name="translateQuestion" defaultChecked={initial.translateQuestion} />
+          {dict.settings.translateQuestionLabel}
+        </label>
+        <label className="flex items-center gap-2 text-sm">
+          <input type="checkbox" name="translateAnswers" defaultChecked={initial.translateAnswers} />
+          {dict.settings.translateAnswersLabel}
+        </label>
+        <label className="flex items-center gap-2 text-sm">
+          <input type="checkbox" name="translateCorrectAnswer" defaultChecked={initial.translateCorrectAnswer} />
+          {dict.settings.translateCorrectAnswerLabel}
+        </label>
+        <label className="flex items-center gap-2 text-sm">
+          <input type="checkbox" name="translateExplanation" defaultChecked={initial.translateExplanation} />
+          {dict.settings.translateExplanationLabel}
         </label>
       </fieldset>
 

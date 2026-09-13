@@ -1,0 +1,71 @@
+[
+  {
+    "id": "5658ffe8-a004-4f68-ab30-1f9dac76f47e",
+    "text": "Ein Unternehmen behandelt eine unverbindliche behördliche Orientierungshilfe als vollständig gleichwertig mit einer verbindlichen gesetzlichen Vorschrift zum selben Thema. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Behördliche Orientierungshilfen sind grundsätzlich ebenso verbindlich wie gesetzliche Vorschriften"
+      },
+      {
+        "label": "B",
+        "text": "Der Verbindlichkeitsgrad eines Dokuments ist für seine praktische Umsetzung ohne Bedeutung"
+      },
+      {
+        "label": "C",
+        "text": "Eine Unterscheidung ist ausschließlich bei einem tatsächlichen Widerspruch zwischen beiden Dokumenten relevant"
+      },
+      {
+        "label": "D",
+        "text": "Eine unverbindliche Orientierungshilfe und eine verbindliche gesetzliche Vorschrift sollten in ihrem unterschiedlichen Verbindlichkeitsgrad erkennbar bleiben"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "49dd3430-bf1f-40e0-b421-ccf87270eba4",
+    "text": "Ein Unternehmen verweist in seiner internen Richtlinie pauschal auf 'die DSGVO', ohne die für den konkreten Verarbeitungsvorgang tatsächlich einschlägigen Artikel zu benennen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ein pauschaler Verweis auf die DSGVO ist in jedem Fall ausreichend, da alle Artikel ohnehin gleichermaßen gelten"
+      },
+      {
+        "label": "B",
+        "text": "Die Benennung konkreter Artikel ist ausschließlich bei besonders sensiblen Datenkategorien erforderlich"
+      },
+      {
+        "label": "C",
+        "text": "Eine konkrete Benennung der einschlägigen Artikel erleichtert die praktische Umsetzung und Prüfung der Richtlinie erheblich"
+      },
+      {
+        "label": "D",
+        "text": "Eine genauere Benennung einschlägiger Artikel hätte keinen praktischen Nutzen für die Umsetzung"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "4c6ff1b8-2885-420b-9aea-74bd222699e8",
+    "text": "Ein Unternehmen übernimmt eine branchenspezifische Sicherheitsnorm vollständig, ohne zu prüfen, ob einzelne ihrer Anforderungen über die eigenen gesetzlichen Mindestpflichten hinausgehen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Anforderungen, die über gesetzliche Mindestpflichten hinausgehen, sind für die praktische Umsetzung ohne jede Bedeutung"
+      },
+      {
+        "label": "B",
+        "text": "Branchenspezifische Normen dürfen grundsätzlich nicht über gesetzliche Mindestpflichten hinausgehen"
+      },
+      {
+        "label": "C",
+        "text": "Eine Unterscheidung zwischen Mindestpflicht und darüber hinausgehender Anforderung ist praktisch nicht möglich"
+      },
+      {
+        "label": "D",
+        "text": "Es ist sinnvoll zu erkennen, welche Anforderungen der Norm über die gesetzlichen Mindestpflichten hinausgehen, um deren Umsetzung bewusst zu priorisieren"
+      }
+    ],
+    "correctLabel": "D"
+  }
+]

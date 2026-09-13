@@ -1,0 +1,232 @@
+[
+  {
+    "id": "4c1c9803-669e-41d5-80b7-9cdab83f7016",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit bespricht das zuständige Team folgenden Fall: Wofür steht ein B3S grundsätzlich?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Für die Zertifizierungsurkunde nach ISO/IEC 27001"
+      },
+      {
+        "label": "B",
+        "text": "Für eine allgemeine Produktgarantie des BSI"
+      },
+      {
+        "label": "C",
+        "text": "Für einen branchenspezifischen Sicherheitsstandard"
+      },
+      {
+        "label": "D",
+        "text": "Für eine beliebige interne Arbeitsanweisung"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "c0fd8b32-2c8c-4205-b9a3-1bb4b422ecfc",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit soll die folgende Entscheidung getroffen werden: Die Leitung fragt, welche Cybersicherheitsanforderungen für das Unternehmen verbindlich sind. Welche Vorgehensweise ist angemessen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine vorhandene Zertifizierung als Ersatz für die Prüfung aller Verpflichtungen verwenden"
+      },
+      {
+        "label": "B",
+        "text": "Jede veröffentlichte Norm als praktisch bindend behandeln, da Nichteinhaltung Reputationsrisiken schafft"
+      },
+      {
+        "label": "C",
+        "text": "Sich auf Gesetze konzentrieren, da Verträge und interne Vorgaben weniger verbindlich seien"
+      },
+      {
+        "label": "D",
+        "text": "Rechtsquellen, Verträge und intern übernommene Vorgaben getrennt ermitteln und ihre jeweilige Verbindlichkeit nachvollziehbar festhalten"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "151b401d-f646-4e0b-8abf-7b2ae2f4f450",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit stellt sich folgende Prüfungsfrage: Ein mittelständischer Betrieb übernimmt ISO/IEC-27001-Grundsätze freiwillig in ihre internen Vorgaben, strebt aber keine Zertifizierung an. Welche Aussage trifft zu?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Organisation kann die Grundsätze intern verbindlich definieren, auch wenn daraus keine staatliche Zertifizierungspflicht entsteht"
+      },
+      {
+        "label": "B",
+        "text": "Ohne Zertifizierung dürfen Inhalte der Norm intern nicht als verbindlich gelten"
+      },
+      {
+        "label": "C",
+        "text": "Die freiwillige Übernahme macht ISO/IEC 27001 automatisch zu einem staatlichen Gesetz"
+      },
+      {
+        "label": "D",
+        "text": "Ohne gesetzliche Pflicht sind interne Vorgaben in der Regel weniger durchsetzbar"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "4fc310c7-ca62-48e1-a18d-7441ad165d5d",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit wird die folgende Situation bewertet: Welche Informationsbasis unterstützt die Bewertung der ISMS-Leistung am sinnvollsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Anzahl ungeplanter Ausfälle zählen, ohne diese zu Zielen oder Maßnahmen in Bezug zu setzen"
+      },
+      {
+        "label": "B",
+        "text": "Sicherheitsziele und geeignete Kennzahlen, Auditresultate, Vorfälle, Maßnahmenstatus und relevante Rückmeldungen gemeinsam auswerten"
+      },
+      {
+        "label": "C",
+        "text": "Sich an der Anzahl beschaffter Sicherheitsprodukte orientieren"
+      },
+      {
+        "label": "D",
+        "text": "Sich auf den letzten bestandenen Auditbericht stützen und seitherige Veränderungen außer Acht lassen"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "5e492d84-9755-4ea6-afd1-d3c96ced1a40",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit bespricht das zuständige Team folgenden Fall: Welche Tätigkeit prüft unabhängig, ob das ISMS festgelegte Anforderungen und eigene Vorgaben erfüllt?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die technische Umsetzung neuer Sicherheitsanforderungen durch die IT"
+      },
+      {
+        "label": "B",
+        "text": "Die tägliche Systemadministration"
+      },
+      {
+        "label": "C",
+        "text": "Ein internes Audit"
+      },
+      {
+        "label": "D",
+        "text": "Die Erstellung eines einzelnen Sicherungskopien"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "5398b56f-b937-4d81-9db7-bea285ffdbc3",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit soll die folgende Entscheidung getroffen werden: Die Leitung bewertet Leistungsdaten, Auditresultate, Risiken und Verbesserungsbedarf des ISMS. Welche Aktivität ist beschrieben?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine Datenschutz-Folgenabschätzung"
+      },
+      {
+        "label": "B",
+        "text": "Eine technische Schwachstellenprüfung"
+      },
+      {
+        "label": "C",
+        "text": "Ein Grundschutz-Baustein"
+      },
+      {
+        "label": "D",
+        "text": "Eine Managementbewertung"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "69af2206-b067-4cc3-868e-92f4d8f99975",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit stellt sich folgende Prüfungsfrage: Welche Aussage ordnet NIS-2, BSI-Regelungen und KRITIS auf der verlangten Überblicksebene angemessen ein?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sie bilden Rahmen für Cybersicherheit, Risikomanagement und mögliche Meldungen erfasster Einrichtungen"
+      },
+      {
+        "label": "B",
+        "text": "Einheitliche freiwillige Empfehlungen, die primär größere Organisationen ansprechen"
+      },
+      {
+        "label": "C",
+        "text": "Sie regeln vor allem Vorfallmeldungen, nicht jedoch das Risikomanagement"
+      },
+      {
+        "label": "D",
+        "text": "Erfassen Organisationen anhand ihrer Größe, gleich in welcher Branche sie tätig sind"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "08ef48ba-5100-41aa-8f26-a4ad992d2084",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit wird die folgende Situation bewertet: Ein kleiner Betrieb sucht einen strukturierten, auf kleinere Organisationen ausgerichteten Sicherheitsansatz. Welche fachliche Bewertung von VdS 10000 und CISIS12 ist angemessen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Als reine Auditchecklisten ohne Aufbau eines Sicherheitsmanagements"
+      },
+      {
+        "label": "B",
+        "text": "Als strukturierte Sicherheitsansätze beziehungsweise Managementmodelle mit Ausrichtung auf KMU"
+      },
+      {
+        "label": "C",
+        "text": "Als technische Kataloge, die im Kern einzelne Sicherheitsprodukte bewerten"
+      },
+      {
+        "label": "D",
+        "text": "Als gesetzliche Mindeststandards, die speziell für kritische Anlagen einer Branche gelten"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "74d85ebd-db4a-420c-8c0f-569c72a910a9",
+    "text": "Bei einem mittelständischen Softwarehaus wird folgender Praxisfall bewertet: Eine Branche möchte typische Sicherheitsanforderungen konkretisieren; ein Unternehmensverbund möchte dagegen einen wiederverwendbaren IT-Grundschutz-Rahmen für gleichartige Standorte beschreiben. Welche Zuordnung passt am besten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Für branchenspezifische Anforderungen kann ein B3S passen; für einen typischen Grundschutz-Anwendungsfall ein IT-Grundschutz-Profil"
+      },
+      {
+        "label": "B",
+        "text": "Für beide Zwecke eignet sich vorwiegend ein Grundschutz-Profil, da beide auf branchenweite Standardisierung zielen"
+      },
+      {
+        "label": "C",
+        "text": "Für die Branche eignet sich ein Grundschutz-Profil; für gleichartige Standorte eignet sich ebenfalls in erster Linie ein Profil"
+      },
+      {
+        "label": "D",
+        "text": "Beide Zwecke werden durch dieselbe ISO/IEC-27001-Zertifizierungsurkunde vollständig abgedeckt"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "46d6fb27-0c30-4bcc-86fb-f353d9803f4b",
+    "text": "Ein Unternehmen verarbeitet ausschließlich Daten juristischer Personen (Firmenkunden), keine personenbezogenen Daten natürlicher Personen. Welche Aussage zum Datenschutz ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Datenschutzanforderungen bleiben unverändert bestehen, weil sie unabhängig vom Datentyp für jede Verarbeitung gelten"
+      },
+      {
+        "label": "B",
+        "text": "Informationssicherheitsanforderungen für diese Daten entfallen ebenfalls, weil Datenschutz und Informationssicherheit deckungsgleich sind"
+      },
+      {
+        "label": "C",
+        "text": "Datenschutzanforderungen entfallen für diese Verarbeitung vollständig, da kein Personenbezug zu natürlichen Personen vorliegt"
+      },
+      {
+        "label": "D",
+        "text": "Die Einordnung hängt von der Größe des Unternehmens ab, nicht vom Personenbezug der Daten"
+      }
+    ],
+    "correctLabel": "C"
+  }
+]

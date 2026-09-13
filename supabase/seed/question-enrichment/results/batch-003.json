@@ -1,0 +1,343 @@
+[
+  {
+    "id": "b0b79047-8037-4a25-9551-2e8f665f9a5e",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Vertragliche Verbindlichkeit von Normen",
+    "difficulty": 3,
+    "examKeywords": ["ISO/IEC 27001", "vertragliche Bindung", "Kundenanforderung", "Zertifizierung"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie einzuordnen ist, dass ein Kunde vertraglich die Einhaltung von ISO/IEC-27001-Anforderungen verlangt, ohne eine externe Zertifizierung zu fordern.",
+        "whyCorrect": "Verbindlichkeit einer Norm kann auch ohne Zertifizierung und ohne gesetzliche Grundlage entstehen, nämlich durch eine vertragliche Vereinbarung zwischen den Parteien. Verlangt ein Kunde vertraglich die Einhaltung von ISO/IEC-27001-Anforderungen, wird diese Einhaltung dadurch bindend, weil der Vertrag selbst die Rechtsgrundlage der Verpflichtung bildet – unabhängig davon, ob eine Zertifizierungsstelle dies extern bestätigt. Eine Zertifizierungspflicht entsteht dadurch nicht automatisch, und die Vereinbarung ist keineswegs wirkungslos."
+      },
+      "en": {
+        "summary": "The question asks how to classify a situation where a customer contractually requires compliance with ISO/IEC 27001 requirements without demanding external certification.",
+        "whyCorrect": "A standard can become binding even without certification and without a legal basis, namely through a contractual agreement between the parties. If a customer contractually requires compliance with ISO/IEC 27001 requirements, that compliance becomes binding because the contract itself forms the legal basis of the obligation — regardless of whether a certification body externally confirms it. This does not automatically create a certification obligation, and the agreement is by no means ineffective."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه وضعیتی طبقه‌بندی شود که در آن یک مشتری از طریق قرارداد رعایت الزامات ISO/IEC 27001 را می‌خواهد بدون آنکه گواهی‌نامه بیرونی طلب کند.",
+        "whyCorrect": "الزام‌آور بودن یک معیار حتی بدون گواهی‌نامه و بدون مبنای قانونی نیز می‌تواند به وجود بیاید، یعنی از طریق یک توافق قراردادی میان طرفین. اگر مشتری از طریق قرارداد رعایت الزامات ISO/IEC 27001 را بخواهد، این رعایت الزام‌آور می‌شود، زیرا خود قرارداد مبنای حقوقی این تعهد را تشکیل می‌دهد - صرف‌نظر از اینکه یک نهاد گواهی‌دهنده آن را از بیرون تأیید کند یا نه. این کار به‌طور خودکار تعهد گواهی‌نامه ایجاد نمی‌کند، و این توافق به‌هیچ‌وجه بی‌اثر نیست."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד לסווג מצב שבו לקוח דורש בחוזה עמידה בדרישות ISO/IEC 27001, מבלי לדרוש הסמכה חיצונית.",
+        "whyCorrect": "תקן יכול להיות מחייב גם ללא הסמכה וללא בסיס חוקי, וזאת באמצעות הסכם חוזי בין הצדדים. אם לקוח דורש בחוזה עמידה בדרישות ISO/IEC 27001, העמידה בכך הופכת למחייבת מכיוון שהחוזה עצמו מהווה את הבסיס המשפטי להתחייבות — בלי קשר לשאלה האם גוף הסמכה מאשר זאת חיצונית. הדבר אינו יוצר אוטומטית חובת הסמכה, וההסכם בהחלט אינו חסר תוקף."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "vertraglich", "english": "contractually", "dari": "از طریق قرارداد", "hebrew": "באופן חוזי", "shortGermanExplanation": "Durch einen Vertrag zwischen zwei Parteien geregelt, nicht durch ein Gesetz." },
+      { "germanWord": "wirkungslos", "english": "ineffective / without effect", "dari": "بی‌اثر", "hebrew": "חסר תוקף", "shortGermanExplanation": "Ohne rechtliche Wirkung oder Bindungskraft." }
+    ],
+    "questionTranslation": {
+      "en": "A company has neither an ISO/IEC 27001 certification nor a legal obligation for one. An important customer contractually requires the company to comply with ISO/IEC 27001 requirements, but without demanding external certification. Which classification is most accurate?",
+      "dari": "یک شرکت نه گواهی‌نامه ISO/IEC 27001 دارد و نه الزام قانونی برای آن. یک مشتری مهم از طریق قرارداد می‌خواهد که شرکت الزامات ISO/IEC 27001 را رعایت کند، اما بدون آنکه گواهی‌نامه بیرونی طلب کند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "לחברה אין לא תעודת הסמכה ISO/IEC 27001 ולא חובה חוקית לכך. לקוח חשוב דורש בחוזה שהחברה תעמוד בדרישות ISO/IEC 27001, אך מבלי לדרוש הסמכה חיצונית. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "e0bbe481-7574-4fbd-b3ec-c6a7146c99c3",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Verhältnis von Zertifizierung und Gesetzespflichten",
+    "difficulty": 3,
+    "examKeywords": ["ISO/IEC 27001", "Zertifizierung", "gesetzliche Pflichten", "Compliance"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, ob die Annahme zutrifft, dass eine ISO/IEC-27001-Zertifizierung automatisch alle geltenden gesetzlichen Cybersicherheitspflichten abdeckt.",
+        "whyCorrect": "Eine ISO/IEC-27001-Zertifizierung bestätigt, dass ein Informationssicherheitsmanagementsystem bestimmte Norm-Anforderungen erfüllt, deckt aber nicht automatisch alle spezifischen gesetzlichen Pflichten ab, die für ein Unternehmen je nach Branche, Größe oder Tätigkeit gelten können, etwa aus NIS-2, Datenschutzrecht oder branchenspezifischen Vorschriften. Gesetzliche Pflichten müssen deshalb unabhängig von einer bestehenden Zertifizierung eigenständig identifiziert und geprüft werden."
+      },
+      "en": {
+        "summary": "The question asks whether it is correct to assume that an ISO/IEC 27001 certification automatically covers all applicable legal cybersecurity obligations.",
+        "whyCorrect": "An ISO/IEC 27001 certification confirms that an information security management system meets certain standard requirements, but it does not automatically cover all the specific legal obligations that may apply to a company depending on its sector, size, or activities — for example under NIS-2, data protection law, or sector-specific regulations. Legal obligations therefore need to be identified and reviewed independently, regardless of any existing certification."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که آیا این فرض درست است که یک گواهی‌نامه ISO/IEC 27001 به‌طور خودکار همه تعهدات قانونی امنیت سایبری قابل اجرا را پوشش می‌دهد.",
+        "whyCorrect": "گواهی‌نامه ISO/IEC 27001 تأیید می‌کند که یک سیستم مدیریت امنیت اطلاعات الزامات مشخصی از یک معیار را برآورده می‌کند، اما به‌طور خودکار همه تعهدات قانونی خاصی را که ممکن است برای یک شرکت بسته به بخش فعالیت، اندازه یا نوع فعالیتش اعمال شود، پوشش نمی‌دهد - مثلاً موارد ناشی از NIS-2، قانون حفاظت از داده‌ها، یا مقررات خاص یک بخش صنعتی. بنابراین تعهدات قانونی باید مستقل از وجود گواهی‌نامه به‌طور جداگانه شناسایی و بررسی شوند."
+      },
+      "he": {
+        "summary": "השאלה מבררת האם נכון להניח שהסמכה לפי ISO/IEC 27001 מכסה אוטומטית את כל החובות החוקיות הרלוונטיות בתחום אבטחת סייבר.",
+        "whyCorrect": "הסמכה לפי ISO/IEC 27001 מאשרת שמערכת ניהול אבטחת מידע עומדת בדרישות מסוימות של התקן, אך היא אינה מכסה אוטומטית את כל החובות החוקיות הספציפיות שעשויות לחול על חברה בהתאם לענף, לגודל או לפעילות שלה — למשל מכוח NIS-2, דיני הגנת פרטיות, או תקנות ספציפיות לענף. לכן יש לזהות ולבחון חובות חוקיות באופן עצמאי, ללא קשר להסמכה קיימת."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "eigenständig", "english": "independently", "dari": "به‌طور جداگانه/مستقل", "hebrew": "באופן עצמאי", "shortGermanExplanation": "Ohne sich allein auf einen anderen Nachweis wie eine Zertifizierung zu verlassen." },
+      { "germanWord": "gesetzliche Pflichten", "english": "legal obligations", "dari": "تعهدات قانونی", "hebrew": "חובות חוקיות", "shortGermanExplanation": "Verpflichtungen, die sich unmittelbar aus einem Gesetz ergeben." }
+    ],
+    "questionTranslation": {
+      "en": "A company is certified to ISO/IEC 27001 and assumes that this automatically means it fulfills all legal cybersecurity obligations that apply to its business. Which classification is most accurate?",
+      "dari": "یک شرکت دارای گواهی‌نامه ISO/IEC 27001 است و فرض می‌کند که این به‌طور خودکار به معنای برآورده شدن همه تعهدات قانونی امنیت سایبری قابل اعمال برای کسب‌وکارش است. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מוסמכת לפי ISO/IEC 27001 ומניחה שהדבר אומר אוטומטית שהיא עומדת בכל החובות החוקיות בתחום אבטחת סייבר החלות על עסקה. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "8863edca-b71b-43a4-ad64-0cc0035ca6d6",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Rechtsnatur von EU-Richtlinien",
+    "difficulty": 3,
+    "examKeywords": ["NIS-2", "EU-Richtlinie", "nationale Umsetzung", "EU-Verordnung", "Rechtsnatur"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, welche Aussage zur Rechtsnatur von NIS-2 als EU-Richtlinie zutrifft.",
+        "whyCorrect": "Eine EU-Richtlinie wie NIS-2 verpflichtet die Mitgliedstaaten, ihre Ziele innerhalb einer bestimmten Frist in nationales Recht umzusetzen; sie gilt somit nicht unmittelbar für Unternehmen, sondern erst über das jeweilige nationale Umsetzungsgesetz. Das unterscheidet sie von einer EU-Verordnung, die in allen Mitgliedstaaten sofort und unmittelbar anwendbar ist, ohne dass eine nationale Umsetzung nötig wäre."
+      },
+      "en": {
+        "summary": "The question asks which statement about the legal nature of NIS-2 as an EU directive is correct.",
+        "whyCorrect": "An EU directive such as NIS-2 obliges member states to transpose its objectives into national law within a set deadline; it therefore does not apply directly to companies, but only through the respective national implementing law. This distinguishes it from an EU regulation, which is immediately and directly applicable in all member states without requiring any national transposition."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد کدام گزینه درباره ماهیت حقوقی NIS-2 به‌عنوان یک دستورالعمل اتحادیه اروپا درست است.",
+        "whyCorrect": "یک دستورالعمل اتحادیه اروپا مانند NIS-2 کشورهای عضو را ملزم می‌کند که اهداف آن را در یک مهلت مشخص به قانون ملی تبدیل کنند؛ بنابراین این دستورالعمل به‌طور مستقیم برای شرکت‌ها اعمال نمی‌شود، بلکه تنها از طریق قانون اجرایی ملی مربوطه اعمال می‌گردد. این ویژگی آن را از یک مقرره اتحادیه اروپا متمایز می‌کند، که بلافاصله و مستقیماً در همه کشورهای عضو قابل اجرا است، بدون نیاز به تبدیل به قانون ملی."
+      },
+      "he": {
+        "summary": "השאלה מבררת איזו קביעה בנוגע לאופי המשפטי של NIS-2 כהנחיית האיחוד האירופי נכונה.",
+        "whyCorrect": "הנחיית האיחוד האירופי כמו NIS-2 מחייבת את המדינות החברות לתרגם את מטרותיה לחוק לאומי בתוך מועד קבוע; לכן היא אינה חלה ישירות על חברות, אלא רק דרך חוק היישום הלאומי המתאים. זה מבדיל אותה מתקנה של האיחוד האירופי, שחלה מיד וישירות בכל המדינות החברות ללא צורך בתרגום לחוק לאומי."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "EU-Richtlinie", "english": "EU directive", "dari": "دستورالعمل اتحادیه اروپا", "hebrew": "הנחיית האיחוד האירופי", "shortGermanExplanation": "Ein EU-Rechtsakt, der von den Mitgliedstaaten erst in nationales Recht umgesetzt werden muss." },
+      { "germanWord": "EU-Verordnung", "english": "EU regulation", "dari": "مقرره اتحادیه اروپا", "hebrew": "תקנת האיחוד האירופי", "shortGermanExplanation": "Ein EU-Rechtsakt, der unmittelbar in allen Mitgliedstaaten gilt, ohne nationale Umsetzung." },
+      { "germanWord": "nationale Umsetzung", "english": "national transposition", "dari": "تبدیل به قانون ملی", "hebrew": "תרגום לחוק לאומי", "shortGermanExplanation": "Der Prozess, EU-Vorgaben durch ein eigenes nationales Gesetz in Kraft zu setzen." }
+    ],
+    "questionTranslation": {
+      "en": "The NIS-2 Directive obliges member states to transpose its provisions into national law before it directly applies to companies. Which statement about its legal nature is most accurate?",
+      "dari": "دستورالعمل NIS-2 کشورهای عضو را ملزم می‌کند که مقررات آن را به قانون ملی تبدیل کنند، پیش از آنکه به‌طور مستقیم برای شرکت‌ها اعمال شود. کدام گزینه درباره ماهیت حقوقی آن دقیق‌ترین است؟",
+      "he": "הנחיית NIS-2 מחייבת את המדינות החברות לתרגם את הוראותיה לחוק לאומי לפני שהיא חלה ישירות על חברות. איזו קביעה בנוגע לאופייה המשפטי המדויקת ביותר?"
+    }
+  },
+  {
+    "id": "751165ad-1260-4b2f-a7c6-00726adefd9e",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Auftragsverarbeitung und Cloud",
+    "difficulty": 3,
+    "examKeywords": ["Auftragsverarbeitungsvertrag", "Cloud-Anbieter", "personenbezogene Daten", "Datenschutz"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, welche zusätzliche Vereinbarung datenschutzrechtlich erforderlich ist, wenn ein Cloud-Anbieter im Auftrag personenbezogene Kundendaten verarbeitet.",
+        "whyCorrect": "Verarbeitet ein Cloud-Anbieter personenbezogene Daten im Auftrag eines Unternehmens, handelt es sich um Auftragsverarbeitung im Sinne des Datenschutzrechts. Dafür ist zwingend ein gesonderter Auftragsverarbeitungsvertrag erforderlich, der die Pflichten des Anbieters sowie die Kontroll- und Weisungsrechte des Auftraggebers hinsichtlich der personenbezogenen Daten konkret regelt. Ein gewöhnlicher Dienstleistungsvertrag oder eine Zertifizierung allein ersetzt diese spezielle vertragliche Regelung nicht."
+      },
+      "en": {
+        "summary": "The question asks which additional agreement is required under data protection law when a cloud provider processes personal customer data on behalf of a company.",
+        "whyCorrect": "If a cloud provider processes personal data on behalf of a company, this constitutes data processing on behalf of a controller under data protection law. This requires a separate data processing agreement that specifically sets out the provider's obligations and the controller's rights of control and instruction regarding the personal data. An ordinary service contract or a certification alone does not replace this specific contractual arrangement."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد چه توافق اضافی از نظر حقوق حفاظت از داده‌ها لازم است، وقتی یک ارائه‌دهنده خدمات ابری داده‌های شخصی مشتریان را از طرف یک شرکت پردازش می‌کند.",
+        "whyCorrect": "اگر یک ارائه‌دهنده خدمات ابری داده‌های شخصی را از طرف یک شرکت پردازش کند، این کار در چارچوب حقوق حفاظت از داده‌ها «پردازش به نمایندگی» نامیده می‌شود. برای این کار یک قرارداد جداگانه پردازش به نمایندگی لازم است که تعهدات ارائه‌دهنده و حقوق نظارت و دستوردهی شرکت سفارش‌دهنده را در رابطه با داده‌های شخصی به‌طور مشخص تنظیم کند. یک قرارداد خدمات معمولی یا صرفاً یک گواهی‌نامه جایگزین این تنظیم قراردادی خاص نمی‌شود."
+      },
+      "he": {
+        "summary": "השאלה מבררת איזה הסכם נוסף נדרש מבחינת דיני הגנת פרטיות כאשר ספק ענן מעבד נתונים אישיים של לקוחות עבור חברה.",
+        "whyCorrect": "אם ספק ענן מעבד נתונים אישיים בשם חברה, מדובר בעיבוד נתונים מטעם מפעיל לפי דיני הגנת הפרטיות. לשם כך נדרש הסכם עיבוד נתונים נפרד, שקובע במפורש את חובות הספק ואת זכויות הפיקוח וההוראה של החברה המזמינה ביחס לנתונים האישיים. חוזה שירות רגיל או הסמכה בלבד אינם מחליפים את ההסדר החוזי הספציפי הזה."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Auftragsverarbeitungsvertrag", "english": "data processing agreement", "dari": "قرارداد پردازش به نمایندگی", "hebrew": "הסכם עיבוד נתונים", "shortGermanExplanation": "Ein Vertrag, der die Pflichten eines Dienstleisters bei der Verarbeitung personenbezogener Daten regelt." },
+      { "germanWord": "Kontrollrechte", "english": "rights of control", "dari": "حقوق نظارت", "hebrew": "זכויות פיקוח", "shortGermanExplanation": "Das Recht des Auftraggebers, die Datenverarbeitung beim Dienstleister zu überprüfen." }
+    ],
+    "questionTranslation": {
+      "en": "A company uses a cloud provider that processes personal customer data on its behalf. Which additional agreement is required under data protection law?",
+      "dari": "یک شرکت از یک ارائه‌دهنده خدمات ابری استفاده می‌کند که داده‌های شخصی مشتریان را به نمایندگی از او پردازش می‌کند. کدام توافق اضافی از نظر حقوق حفاظت از داده‌ها لازم است؟",
+      "he": "חברה משתמשת בספק ענן המעבד נתונים אישיים של לקוחות בשמה. איזה הסכם נוסף נדרש מבחינת דיני הגנת פרטיות?"
+    }
+  },
+  {
+    "id": "be36622c-0a13-4c57-adad-8c25594d1e5d",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Freiwillige Normanwendung",
+    "difficulty": 3,
+    "examKeywords": ["ISO/IEC 27001", "freiwillige Übernahme", "gemeinnützige Organisation", "interne Verbindlichkeit"],
+    "explanation": {
+      "de": {
+        "summary": "Es geht darum, was es bedeutet, wenn eine gemeinnützige Organisation ISO/IEC-27001-Grundsätze freiwillig übernimmt, ohne eine Zertifizierung anzustreben.",
+        "whyCorrect": "Eine Organisation kann selbst festlegen, dass bestimmte Grundsätze – hier aus ISO/IEC 27001 – intern als verbindlich gelten sollen, unabhängig davon, ob eine externe Zertifizierung erfolgt. Verbindlichkeit entsteht in diesem Fall durch eigene interne Festlegung, etwa in Richtlinien, nicht durch ein Gesetz oder ein Zertifikat. Die freiwillige Übernahme macht die Norm nicht zum staatlichen Gesetz, und ohne staatliche Pflicht ist interne Verbindlichkeit trotzdem möglich und in der Praxis üblich."
+      },
+      "en": {
+        "summary": "The question concerns what it means when a non-profit organization voluntarily adopts ISO/IEC 27001 principles without pursuing certification.",
+        "whyCorrect": "An organization can decide on its own that certain principles — here, those from ISO/IEC 27001 — should be treated as internally binding, regardless of whether external certification takes place. In this case, bindingness comes from the organization's own internal decision, for example laid down in policies, not from a law or a certificate. Voluntarily adopting the standard does not turn it into a government law, and even without a legal obligation, internal bindingness is still possible and, in practice, common."
+      },
+      "dari": {
+        "summary": "این سوال درباره این است که وقتی یک سازمان غیرانتفاعی اصول ISO/IEC 27001 را به صورت داوطلبانه می‌پذیرد بدون آنکه به دنبال گواهی‌نامه باشد، این کار چه معنایی دارد.",
+        "whyCorrect": "یک سازمان می‌تواند خودش تصمیم بگیرد که برخی اصول - در اینجا اصول ISO/IEC 27001 - به صورت داخلی الزام‌آور تلقی شوند، بدون توجه به اینکه گواهی‌نامه بیرونی گرفته شود یا نه. در این حالت، الزام‌آور بودن ناشی از تصمیم داخلی خود سازمان است، مثلاً در قالب سیاست‌ها، نه ناشی از یک قانون یا گواهی‌نامه. پذیرش داوطلبانه این معیار آن را به یک قانون دولتی تبدیل نمی‌کند، و حتی بدون الزام قانونی، الزام‌آور بودن داخلی همچنان ممکن و در عمل رایج است."
+      },
+      "he": {
+        "summary": "השאלה עוסקת במשמעות של אימוץ עקרונות ISO/IEC 27001 מרצון על ידי ארגון ללא מטרות רווח, מבלי לשאוף להסמכה.",
+        "whyCorrect": "ארגון יכול לקבוע בעצמו שעקרונות מסוימים — כאן, אלה מתוך ISO/IEC 27001 — ייחשבו מחייבים פנימית, בלי קשר לשאלה אם מתבצעת הסמכה חיצונית. במקרה זה, המחייבות נובעת מהחלטה פנימית של הארגון עצמו, למשל בנהלים, ולא מחוק או מתעודת הסמכה. אימוץ מרצון של התקן אינו הופך אותו לחוק ממשלתי, וגם ללא חובה חוקית, מחייבות פנימית עדיין אפשרית ומקובלת בפועל."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "gemeinnützige Organisation", "english": "non-profit organization", "dari": "سازمان غیرانتفاعی", "hebrew": "ארגון ללא מטרות רווח", "shortGermanExplanation": "Eine Organisation, die nicht auf Gewinnerzielung ausgerichtet ist." },
+      { "germanWord": "freiwillig", "english": "voluntary", "dari": "داوطلبانه", "hebrew": "מרצון", "shortGermanExplanation": "Ohne gesetzliche oder vertragliche Verpflichtung, aus eigenem Entschluss." }
+    ],
+    "questionTranslation": {
+      "en": "A non-profit organization voluntarily incorporates ISO/IEC 27001 principles into its internal rules but does not pursue certification. Which statement is correct?",
+      "dari": "یک سازمان غیرانتفاعی اصول ISO/IEC 27001 را داوطلبانه در مقررات داخلی خود می‌گنجاند، اما به دنبال گواهی‌نامه نیست. کدام گزینه درست است؟",
+      "he": "ארגון ללא מטרות רווח מאמץ מרצון עקרונות ISO/IEC 27001 לתוך הנהלים הפנימיים שלו, אך אינו שואף להסמכה. איזו קביעה נכונה?"
+    }
+  },
+  {
+    "id": "ea7c7ed4-de12-4148-8b3a-dc6908fa9434",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "KRITIS-Einordnung",
+    "difficulty": 3,
+    "examKeywords": ["KRITIS", "Schwellenwerte", "Sektor", "Beschäftigtenzahl"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, ob es korrekt ist, die Einordnung als KRITIS-Betreiber ausschließlich anhand der Beschäftigtenzahl vorzunehmen.",
+        "whyCorrect": "Die Einordnung als KRITIS-Betreiber hängt nicht allein von der Beschäftigtenzahl ab, sondern erfordert die gemeinsame Betrachtung von Sektor, der konkret erbrachten Leistung und den dafür jeweils festgelegten branchenspezifischen Schwellenwerten. Verschiedene Sektoren und Leistungsarten haben unterschiedliche Kriterien und Grenzwerte, sodass eine Einordnung allein über die Mitarbeiterzahl der komplexen, mehrdimensionalen Regelungslogik nicht gerecht wird."
+      },
+      "en": {
+        "summary": "The question asks whether it is correct to classify a company as a KRITIS operator based solely on its number of employees.",
+        "whyCorrect": "Classification as a KRITIS (critical infrastructure) operator does not depend solely on employee numbers, but requires jointly considering the sector, the specific service provided, and the sector-specific threshold values set for it. Different sectors and types of services have different criteria and threshold values, so classifying based on employee count alone does not do justice to the complex, multidimensional regulatory logic involved."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که آیا درست است طبقه‌بندی به‌عنوان اپراتور KRITIS را فقط بر اساس تعداد کارکنان انجام دهیم.",
+        "whyCorrect": "طبقه‌بندی به‌عنوان اپراتور KRITIS تنها به تعداد کارکنان بستگی ندارد، بلکه نیازمند بررسی همزمان بخش فعالیت، خدمات مشخصی که ارائه می‌شود، و آستانه‌های خاص هر بخش صنعتی است که برای آن تعیین شده. بخش‌ها و انواع خدمات مختلف معیارها و آستانه‌های متفاوتی دارند، بنابراین طبقه‌بندی فقط بر اساس تعداد کارکنان با منطق پیچیده و چندبعدی این مقررات همخوانی ندارد."
+      },
+      "he": {
+        "summary": "השאלה מבררת האם נכון לסווג חברה כמפעיל תשתית קריטית (KRITIS) על סמך מספר העובדים בלבד.",
+        "whyCorrect": "סיווג כמפעיל KRITIS אינו תלוי במספר העובדים בלבד, אלא מחייב בחינה משותפת של הענף, השירות הספציפי הניתן, וסף הערכים הספציפי לענף שנקבע עבורו. לענפים וסוגי שירותים שונים יש קריטריונים וספי ערכים שונים, כך שסיווג המבוסס רק על מספר העובדים אינו עושה צדק עם ההיגיון הרגולטורי המורכב והרב-ממדי הכרוך בכך."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Schwellenwerte", "english": "threshold values", "dari": "آستانه‌ها", "hebrew": "ספי ערכים", "shortGermanExplanation": "Grenzwerte, ab denen eine bestimmte Regelung greift, hier für KRITIS." },
+      { "germanWord": "KRITIS-Betreiber", "english": "critical infrastructure operator", "dari": "اپراتور زیرساخت حیاتی", "hebrew": "מפעיל תשתית קריטית", "shortGermanExplanation": "Ein Unternehmen, das eine als kritisch eingestufte Infrastruktur betreibt." }
+    ],
+    "questionTranslation": {
+      "en": "A mid-sized company checks whether it qualifies as a KRITIS (critical infrastructure) operator, using only its number of employees as the criterion. Which classification is most accurate?",
+      "dari": "یک شرکت متوسط بررسی می‌کند که آیا به‌عنوان اپراتور KRITIS محسوب می‌شود یا نه، و برای این کار فقط تعداد کارکنانش را ملاک قرار می‌دهد. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה בינונית בודקת האם היא נחשבת מפעיל KRITIS, תוך שימוש אך ורק במספר העובדים שלה כקריטריון. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "c7c70e95-7299-4bee-9cc5-f3207474222d",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Betroffenheitsprüfung",
+    "difficulty": 3,
+    "examKeywords": ["Betroffenheitsprüfung", "Sektor", "Tätigkeit", "Rechtsfragen", "Ersteinschätzung"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, welche Informationsbasis für eine erste Einordnung der möglichen Betroffenheit durch neue Cybersicherheitsvorgaben am geeignetsten ist.",
+        "whyCorrect": "Eine belastbare Ersteinschätzung erfordert die gemeinsame Betrachtung von Tätigkeit, Sektor, angebotenen Diensten, Unternehmensgröße und der jeweiligen Rolle im Regelungsgefüge, ergänzt durch die qualifizierte Klärung offener Rechtsfragen. Nur dieses Zusammenspiel mehrerer Faktoren erlaubt eine belastbare Aussage, ob und in welchem Umfang neue Vorgaben greifen; die isolierte Betrachtung einzelner Kriterien wie nur Größe und Umsatz oder allein bestehender Zertifikate greift dagegen zu kurz."
+      },
+      "en": {
+        "summary": "The question asks which information basis is best suited for an initial assessment of whether a company might be affected by new cybersecurity regulations.",
+        "whyCorrect": "A reliable initial assessment requires jointly examining the company's activity, sector, services offered, size, and its specific role within the regulatory structure, complemented by qualified clarification of any open legal questions. Only this combination of multiple factors allows a robust conclusion about whether and to what extent new requirements apply; looking in isolation at single criteria — such as only size and revenue, or only existing certificates — falls short."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد کدام مبنای اطلاعاتی برای ارزیابی اولیه اینکه آیا یک شرکت ممکن است تحت تأثیر الزامات جدید امنیت سایبری قرار بگیرد، مناسب‌تر است.",
+        "whyCorrect": "ارزیابی اولیه معتبر نیازمند بررسی همزمان نوع فعالیت، بخش صنعتی، خدمات ارائه‌شده، اندازه شرکت و نقش خاص آن در ساختار مقرراتی است، همراه با روشن‌سازی تخصصی سؤالات حقوقی باز. تنها این ترکیب چندین عامل امکان می‌دهد نتیجه‌گیری معتبری درباره اینکه آیا و تا چه حد الزامات جدید اعمال می‌شوند، به دست آید؛ نگاه جدا به معیارهای منفرد - مانند صرفاً اندازه و درآمد، یا صرفاً گواهی‌نامه‌های موجود - کافی نیست."
+      },
+      "he": {
+        "summary": "השאלה מבררת איזה בסיס מידע מתאים ביותר להערכה ראשונית האם חברה עשויה להיות מושפעת מדרישות אבטחת סייבר חדשות.",
+        "whyCorrect": "הערכה ראשונית אמינה מחייבת בחינה משותפת של הפעילות, הענף, השירותים המוצעים, גודל החברה ותפקידה הספציפי במבנה הרגולטורי, בשילוב הבהרה מקצועית של שאלות משפטיות פתוחות. רק שילוב של מספר גורמים מאפשר מסקנה איתנה לגבי האם ובאיזו מידה דרישות חדשות חלות; התבוננות מבודדת בקריטריון בודד — כמו רק גודל והכנסות, או רק תעודות הסמכה קיימות — אינה מספקת."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Betroffenheit", "english": "applicability / being affected", "dari": "تأثیرپذیری", "hebrew": "היות מושפע", "shortGermanExplanation": "Die Frage, ob und inwieweit eine Vorschrift für ein Unternehmen gilt." },
+      { "germanWord": "Ersteinschätzung", "english": "initial assessment", "dari": "ارزیابی اولیه", "hebrew": "הערכה ראשונית", "shortGermanExplanation": "Eine erste, vorläufige Bewertung einer Situation vor einer vertieften Prüfung." }
+    ],
+    "questionTranslation": {
+      "en": "A mid-sized manufacturing company wants to assess whether it might be affected by new cybersecurity requirements. Which information basis is best suited for an initial assessment?",
+      "dari": "یک شرکت تولیدی متوسط می‌خواهد ارزیابی کند که آیا ممکن است تحت تأثیر الزامات جدید امنیت سایبری قرار بگیرد. کدام مبنای اطلاعاتی برای یک ارزیابی اولیه مناسب‌تر است؟",
+      "he": "חברת ייצור בינונית רוצה להעריך האם היא עשויה להיות מושפעת מדרישות אבטחת סייבר חדשות. איזה בסיס מידע מתאים ביותר להערכה ראשונית?"
+    }
+  },
+  {
+    "id": "071d9600-db20-4db1-be20-bf974e32fef6",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Meldepflichten bei Cybervorfällen",
+    "difficulty": 2,
+    "examKeywords": ["Meldepflicht", "kritische Einrichtung", "NIS-2", "Cybervorfall"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, welche Aussage zur Meldepflicht zutrifft, wenn eine als kritisch eingestufte Einrichtung einen erheblichen Cybervorfall erleidet.",
+        "whyCorrect": "Für als kritisch eingestufte Einrichtungen sehen einschlägige Regelungen wie NIS-2 grundsätzlich verpflichtende Meldungen erheblicher Sicherheitsvorfälle an die zuständige Stelle vor. Diese Meldepflicht besteht unabhängig davon, ob der Vorfall bereits öffentlich bekannt ist, und ist nicht auf Fälle mit personenbezogenen Daten beschränkt; sie liegt auch nicht im freien Ermessen des Unternehmens, sondern ist eine rechtliche Verpflichtung."
+      },
+      "en": {
+        "summary": "The question asks which statement about reporting obligations is correct when an entity classified as critical suffers a significant cyber incident.",
+        "whyCorrect": "For entities classified as critical, relevant regulations such as NIS-2 generally require mandatory reporting of significant security incidents to the competent authority. This reporting obligation exists regardless of whether the incident has already become public, and it is not limited to cases involving personal data; nor is it left to the company's discretion — it is a legal obligation."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد کدام گزینه درباره تعهد گزارش‌دهی درست است، وقتی نهادی که به‌عنوان حیاتی طبقه‌بندی شده، یک حادثه سایبری قابل توجه را تجربه می‌کند.",
+        "whyCorrect": "برای نهادهایی که به‌عنوان حیاتی طبقه‌بندی شده‌اند، مقررات مربوطه مانند NIS-2 اساساً گزارش‌دهی الزامی حوادث امنیتی قابل توجه را به نهاد مسئول در نظر می‌گیرند. این تعهد گزارش‌دهی مستقل از اینکه حادثه از قبل عمومی شده یا نه، وجود دارد، و محدود به مواردی که داده‌های شخصی در آن‌ها دخیل‌اند نیست؛ همچنین این تعهد به اختیار شرکت واگذار نشده، بلکه یک الزام قانونی است."
+      },
+      "he": {
+        "summary": "השאלה מבררת איזו קביעה בנוגע לחובת דיווח נכונה כאשר גוף המסווג כקריטי סובל מאירוע סייבר משמעותי.",
+        "whyCorrect": "עבור גופים המסווגים כקריטיים, תקנות רלוונטיות כמו NIS-2 קובעות בדרך כלל חובת דיווח על אירועי אבטחה משמעותיים לרשות המוסמכת. חובת דיווח זו קיימת בלי קשר לשאלה האם האירוע כבר פורסם לציבור, והיא אינה מוגבלת למקרים הכוללים נתונים אישיים; היא גם אינה נתונה לשיקול דעתה של החברה — אלא מהווה חובה חוקית."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "erheblicher Vorfall", "english": "significant incident", "dari": "حادثه قابل توجه", "hebrew": "אירוע משמעותי", "shortGermanExplanation": "Ein Sicherheitsvorfall von relevantem Ausmaß, der eine Meldepflicht auslösen kann." },
+      { "germanWord": "zuständige Stelle", "english": "competent authority", "dari": "نهاد مسئول", "hebrew": "רשות מוסמכת", "shortGermanExplanation": "Die Behörde, an die eine Meldung nach den geltenden Vorschriften zu richten ist." }
+    ],
+    "questionTranslation": {
+      "en": "A company classified as a critical entity suffers a significant cyber incident. Which statement about the reporting obligation is most accurate?",
+      "dari": "یک شرکت که به‌عنوان نهاد حیاتی طبقه‌بندی شده، یک حادثه سایبری قابل توجه را تجربه می‌کند. کدام گزینه درباره تعهد گزارش‌دهی دقیق‌ترین است؟",
+      "he": "חברה המסווגת כגוף קריטי סובלת מאירוע סייבר משמעותי. איזו קביעה בנוגע לחובת הדיווח המדויקת ביותר?"
+    }
+  },
+  {
+    "id": "edbb57e0-3646-4def-b3e3-18417c31bd26",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Urheber- und Lizenzrecht",
+    "difficulty": 2,
+    "examKeywords": ["Urheberrecht", "Lizenzrecht", "Nutzungsrechte", "unlizenzierte Software"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, zu welchem rechtlichen Bereich der Einsatz kommerzieller Software ohne die erforderliche Lizenz vorrangig zählt.",
+        "whyCorrect": "Der Einsatz von Software ohne die erforderliche Lizenz betrifft vorrangig das Urheber- beziehungsweise Lizenzrecht, da Software urheberrechtlich geschützt ist und ihre Nutzung an bestimmte, vom Rechteinhaber eingeräumte Nutzungsrechte gebunden ist. Werden diese Nutzungsrechte – etwa durch fehlende Lizenzen für mehrere Arbeitsplätze – nicht eingehalten, liegt eine Verletzung dieser Rechte vor, unabhängig davon, ob dabei personenbezogene Daten oder Sicherheitslücken betroffen sind."
+      },
+      "en": {
+        "summary": "The question asks which area of legal requirements primarily covers the use of commercial software without the required license.",
+        "whyCorrect": "Using software without the required license primarily falls under copyright or licensing law, since software is protected by copyright and its use is bound to specific usage rights granted by the rights holder. If these usage rights are not observed — for instance, due to missing licenses for multiple workstations — this constitutes an infringement of those rights, regardless of whether personal data or security vulnerabilities are involved."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد استفاده از نرم‌افزار تجاری بدون مجوز لازم عمدتاً به کدام حوزه حقوقی مربوط می‌شود.",
+        "whyCorrect": "استفاده از نرم‌افزار بدون مجوز لازم عمدتاً مربوط به حقوق مؤلف یا حقوق مجوز است، زیرا نرم‌افزار از نظر حق مؤلف محافظت‌شده است و استفاده از آن به حقوق استفاده مشخصی که توسط دارنده حق داده شده وابسته است. اگر این حقوق استفاده - مثلاً به دلیل نبود مجوز برای چندین ایستگاه کاری - رعایت نشوند، نقض این حقوق رخ داده است، صرف‌نظر از اینکه داده‌های شخصی یا آسیب‌پذیری‌های امنیتی در آن دخیل باشند یا نه."
+      },
+      "he": {
+        "summary": "השאלה מבררת לאיזה תחום דרישות משפטיות שייך בעיקר השימוש בתוכנה מסחרית ללא הרישיון הנדרש.",
+        "whyCorrect": "שימוש בתוכנה ללא הרישיון הנדרש שייך בעיקר לתחום זכויות היוצרים או דיני הרישוי, מכיוון שתוכנה מוגנת בזכויות יוצרים והשימוש בה כפוף לזכויות שימוש ספציפיות שמעניק בעל הזכויות. אם זכויות שימוש אלה אינן נשמרות — למשל עקב חוסר ברישיונות למספר תחנות עבודה — מדובר בהפרה של זכויות אלה, בלי קשר לשאלה האם מעורבים בכך נתונים אישיים או פגיעויות אבטחה."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Nutzungsrechte", "english": "usage rights / license rights", "dari": "حقوق استفاده", "hebrew": "זכויות שימוש", "shortGermanExplanation": "Rechte, die dem Nutzer erlauben, ein urheberrechtlich geschütztes Werk in bestimmtem Umfang zu verwenden." },
+      { "germanWord": "Lizenzrecht", "english": "licensing law", "dari": "حقوق مجوز", "hebrew": "דיני רישוי", "shortGermanExplanation": "Der Rechtsbereich, der die Bedingungen für die Nutzung geschützter Werke regelt." }
+    ],
+    "questionTranslation": {
+      "en": "A company uses commercial software without the required license on several workstations. Which area of legal requirements does this primarily fall under?",
+      "dari": "یک شرکت نرم‌افزار تجاری را بدون مجوز لازم روی چندین ایستگاه کاری استفاده می‌کند. این موضوع عمدتاً به کدام حوزه الزامات حقوقی مربوط می‌شود؟",
+      "he": "חברה משתמשת בתוכנה מסחרית ללא הרישיון הנדרש במספר עמדות עבודה. לאיזה תחום דרישות משפטיות זה שייך בעיקר?"
+    }
+  },
+  {
+    "id": "e867a1b0-39cf-4693-a8a4-c7bc153e7748",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Strengere interne Vorgaben",
+    "difficulty": 2,
+    "examKeywords": ["Mindestpasswortlänge", "interne Richtlinie", "Mindestanforderungen", "strengere Vorgaben"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie einzuordnen ist, dass ein Unternehmen intern eine Mindestpasswortlänge festlegt, die über der gesetzlich beziehungsweise normativ geforderten Mindestlänge liegt.",
+        "whyCorrect": "Gesetzliche oder normative Vorgaben legen üblicherweise ein Mindestmaß fest, das nicht unterschritten werden darf, schließen aber strengere interne Anforderungen nicht aus. Ein Unternehmen kann daher freiwillig höhere Sicherheitsanforderungen wie eine längere Mindestpasswortlänge festlegen, um sein Schutzniveau zu erhöhen. Dies ist zulässig, bedarf keiner behördlichen Genehmigung und macht die interne Vorgabe nicht automatisch unwirksam."
+      },
+      "en": {
+        "summary": "The question asks how to classify a company internally setting a minimum password length that exceeds the legally or normatively required minimum.",
+        "whyCorrect": "Legal or normative requirements typically set a minimum level that must not be undercut, but they do not prevent stricter internal requirements. A company can therefore voluntarily set higher security requirements, such as a longer minimum password length, to raise its level of protection. This is permissible, requires no regulatory approval, and does not automatically render the internal rule invalid."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید طبقه‌بندی شود که یک شرکت به‌طور داخلی حداقل طول رمز عبور را بالاتر از حداقل قانونی یا معیاری تعیین می‌کند.",
+        "whyCorrect": "الزامات قانونی یا معیاری معمولاً یک سطح حداقلی تعیین می‌کنند که نباید از آن پایین‌تر رفت، اما مانع الزامات داخلی سخت‌گیرانه‌تر نمی‌شوند. بنابراین یک شرکت می‌تواند به‌طور داوطلبانه الزامات امنیتی بالاتری مانند طول بیشتر برای حداقل رمز عبور تعیین کند تا سطح حفاظت خود را افزایش دهد. این کار مجاز است، نیازی به تأیید مقامات ندارد، و مقرره داخلی را به‌طور خودکار بی‌اعتبار نمی‌کند."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש לסווג מצב שבו חברה קובעת פנימית אורך סיסמה מינימלי הגבוה מהמינימום הנדרש בחוק או בתקן.",
+        "whyCorrect": "דרישות חוקיות או תקניות בדרך כלל קובעות רמת מינימום שאסור לרדת מתחתיה, אך הן אינן מונעות דרישות פנימיות מחמירות יותר. לכן חברה יכולה לקבוע מרצון דרישות אבטחה גבוהות יותר, כמו אורך סיסמה מינימלי ארוך יותר, כדי להעלות את רמת ההגנה שלה. זה מותר, אינו דורש אישור רגולטורי, ואינו הופך את הנוהל הפנימי לבטל אוטומטית."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Mindestpasswortlänge", "english": "minimum password length", "dari": "حداقل طول رمز عبور", "hebrew": "אורך סיסמה מינימלי", "shortGermanExplanation": "Die kürzeste erlaubte Länge eines Passworts gemäß einer Vorgabe." },
+      { "germanWord": "Mindestanforderungen", "english": "minimum requirements", "dari": "حداقل الزامات", "hebrew": "דרישות מינימום", "shortGermanExplanation": "Die niedrigste zulässige Schwelle, die eingehalten werden muss." }
+    ],
+    "questionTranslation": {
+      "en": "A company sets a minimum password length in its internal policy that is higher than the legally or normatively required minimum. Which classification is most accurate?",
+      "dari": "یک شرکت در سیاست داخلی خود حداقل طول رمز عبوری تعیین می‌کند که بالاتر از حداقل قانونی یا معیاری لازم است. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה קובעת בנוהל הפנימי שלה אורך סיסמה מינימלי הגבוה מהמינימום הנדרש בחוק או בתקן. איזה סיווג המדויק ביותר?"
+    }
+  }
+]

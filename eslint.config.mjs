@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Vendored design-handoff prototype, not part of the app.
+    "My IHK platform landing page/**",
   ]),
 ]);
 

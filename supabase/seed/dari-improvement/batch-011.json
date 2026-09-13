@@ -1,0 +1,554 @@
+[
+  {
+    "id": "071d9600-db20-4db1-be20-bf974e32fef6",
+    "text": "Ein als kritische Einrichtung eingestuftes Unternehmen erleidet einen erheblichen Cybervorfall. Welche Aussage zur Meldepflicht ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Für kritische Einrichtungen bestehen nach einschlägigen Regelungen wie NIS-2 grundsätzlich Meldepflichten für erhebliche Vorfälle"
+      },
+      {
+        "label": "B",
+        "text": "Eine Meldung an die zuständige Stelle ist grundsätzlich freiwillig und liegt im Ermessen des Unternehmens"
+      },
+      {
+        "label": "C",
+        "text": "Eine Meldepflicht besteht nur, wenn personenbezogene Daten betroffen sind"
+      },
+      {
+        "label": "D",
+        "text": "Eine Meldung ist nur erforderlich, wenn der Vorfall bereits öffentlich bekannt geworden ist"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welche Aussage zur Meldepflicht zutrifft, wenn eine als kritisch eingestufte Einrichtung einen erheblichen Cybervorfall erleidet.",
+      "whyCorrect": "Für als kritisch eingestufte Einrichtungen sehen einschlägige Regelungen wie NIS-2 grundsätzlich verpflichtende Meldungen erheblicher Sicherheitsvorfälle an die zuständige Stelle vor. Diese Meldepflicht besteht unabhängig davon, ob der Vorfall bereits öffentlich bekannt ist, und ist nicht auf Fälle mit personenbezogenen Daten beschränkt; sie liegt auch nicht im freien Ermessen des Unternehmens, sondern ist eine rechtliche Verpflichtung.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "erheblicher Vorfall"
+      },
+      {
+        "germanWord": "zuständige Stelle"
+      }
+    ]
+  },
+  {
+    "id": "edbb57e0-3646-4def-b3e3-18417c31bd26",
+    "text": "Ein Unternehmen setzt eine kommerzielle Software ohne die erforderliche Lizenz auf mehreren Arbeitsplätzen ein. Zu welchem Bereich rechtlicher Anforderungen zählt dieser Sachverhalt vorrangig?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ausschließlich zum Datenschutzrecht, da Software personenbezogene Daten verarbeiten kann"
+      },
+      {
+        "label": "B",
+        "text": "Zum Urheber- beziehungsweise Lizenzrecht, da die Nutzungsrechte an der Software nicht eingehalten werden"
+      },
+      {
+        "label": "C",
+        "text": "Zu keinem rechtlichen Bereich, solange keine sicherheitsrelevante Schwachstelle vorliegt"
+      },
+      {
+        "label": "D",
+        "text": "Ausschließlich zum Vertragsrecht zwischen Kunden und dem Unternehmen"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, zu welchem rechtlichen Bereich der Einsatz kommerzieller Software ohne die erforderliche Lizenz vorrangig zählt.",
+      "whyCorrect": "Der Einsatz von Software ohne die erforderliche Lizenz betrifft vorrangig das Urheber- beziehungsweise Lizenzrecht, da Software urheberrechtlich geschützt ist und ihre Nutzung an bestimmte, vom Rechteinhaber eingeräumte Nutzungsrechte gebunden ist. Werden diese Nutzungsrechte – etwa durch fehlende Lizenzen für mehrere Arbeitsplätze – nicht eingehalten, liegt eine Verletzung dieser Rechte vor, unabhängig davon, ob dabei personenbezogene Daten oder Sicherheitslücken betroffen sind.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Nutzungsrechte"
+      },
+      {
+        "germanWord": "Lizenzrecht"
+      }
+    ]
+  },
+  {
+    "id": "e867a1b0-39cf-4693-a8a4-c7bc153e7748",
+    "text": "Ein Unternehmen legt in seiner internen Richtlinie eine Mindestpasswortlänge fest, die über der gesetzlich beziehungsweise normativ geforderten Mindestlänge liegt. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dies ist unzulässig, da interne Vorgaben gesetzliche Mindestanforderungen nicht übersteigen dürfen"
+      },
+      {
+        "label": "B",
+        "text": "Strengere interne Vorgaben sind nur mit behördlicher Genehmigung zulässig"
+      },
+      {
+        "label": "C",
+        "text": "Ein Unternehmen kann freiwillig strengere interne Anforderungen festlegen, als gesetzlich oder normativ mindestens gefordert ist"
+      },
+      {
+        "label": "D",
+        "text": "Die interne Vorgabe wird automatisch unwirksam, sobald sie über dem gesetzlichen Minimum liegt"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie einzuordnen ist, dass ein Unternehmen intern eine Mindestpasswortlänge festlegt, die über der gesetzlich beziehungsweise normativ geforderten Mindestlänge liegt.",
+      "whyCorrect": "Gesetzliche oder normative Vorgaben legen üblicherweise ein Mindestmaß fest, das nicht unterschritten werden darf, schließen aber strengere interne Anforderungen nicht aus. Ein Unternehmen kann daher freiwillig höhere Sicherheitsanforderungen wie eine längere Mindestpasswortlänge festlegen, um sein Schutzniveau zu erhöhen. Dies ist zulässig, bedarf keiner behördlichen Genehmigung und macht die interne Vorgabe nicht automatisch unwirksam.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Mindestpasswortlänge"
+      },
+      {
+        "germanWord": "Mindestanforderungen"
+      }
+    ]
+  },
+  {
+    "id": "33df50b4-2eb3-4f81-bc65-413a931c3381",
+    "text": "Ein Unternehmen verarbeitet personenbezogene Daten in mehreren Abteilungen, führt jedoch keine zentrale Übersicht darüber, welche Verarbeitungstätigkeiten stattfinden und zu welchem Zweck. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ein solches Verzeichnis ist reine Verwaltungsroutine ohne rechtliche Bedeutung"
+      },
+      {
+        "label": "B",
+        "text": "Ein Verzeichnis ist nur erforderlich, wenn ausschließlich sensible Gesundheitsdaten verarbeitet werden"
+      },
+      {
+        "label": "C",
+        "text": "Die Pflicht zu einem Verzeichnis entfällt, sobald ein Datenschutzbeauftragter benannt wurde"
+      },
+      {
+        "label": "D",
+        "text": "Datenschutzrechtliche Vorgaben verlangen üblicherweise ein Verzeichnis von Verarbeitungstätigkeiten mit Zweck, Kategorien und Rechtsgrundlage"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen personenbezogene Daten in mehreren Abteilungen verarbeitet, aber keine zentrale Übersicht darüber führt.",
+      "whyCorrect": "Datenschutzrechtliche Vorgaben verlangen üblicherweise, dass ein Unternehmen ein Verzeichnis von Verarbeitungstätigkeiten führt, in dem für jede Verarbeitung Zweck, betroffene Datenkategorien und Rechtsgrundlage dokumentiert werden. Dieses Verzeichnis dient dazu, den Überblick über alle Verarbeitungen zu behalten und Rechenschaft gegenüber Aufsichtsbehörden ablegen zu können. Es handelt sich nicht um bloße Verwaltungsroutine, ist nicht auf Gesundheitsdaten beschränkt und entfällt auch nicht automatisch durch die Benennung eines Datenschutzbeauftragten.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Verzeichnis von Verarbeitungstätigkeiten"
+      },
+      {
+        "germanWord": "Rechtsgrundlage"
+      }
+    ]
+  },
+  {
+    "id": "111a6969-e49b-40e3-82f8-2494c461b254",
+    "text": "Ein Unternehmen verlangt von einem Zulieferer vertraglich die Einhaltung bestimmter Sicherheitsanforderungen, prüft deren tatsächliche Umsetzung aber nie. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die vertragliche Vereinbarung allein reicht aus und macht eine Umsetzungsprüfung überflüssig"
+      },
+      {
+        "label": "B",
+        "text": "Zulieferer müssen grundsätzlich nicht vertraglich zur Sicherheit verpflichtet werden"
+      },
+      {
+        "label": "C",
+        "text": "Ohne eine Möglichkeit zur Überprüfung bleibt unklar, ob die vertraglichen Anforderungen tatsächlich eingehalten werden"
+      },
+      {
+        "label": "D",
+        "text": "Eine Überprüfung ist nur bei Zulieferern außerhalb der EU erforderlich"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen von einem Zulieferer vertraglich Sicherheitsanforderungen verlangt, deren Umsetzung aber nie überprüft.",
+      "whyCorrect": "Eine vertragliche Verpflichtung allein stellt sicher, dass Anforderungen formal vereinbart wurden, garantiert aber nicht deren tatsächliche Einhaltung in der Praxis. Ohne eine Möglichkeit zur Überprüfung, etwa durch Audits oder Nachweise, bleibt für das auftraggebende Unternehmen unklar, ob der Zulieferer die vereinbarten Sicherheitsanforderungen wirklich umsetzt. Die vertragliche Regelung ersetzt daher keine Kontrolle, und diese ist nicht auf Zulieferer außerhalb der EU beschränkt.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Umsetzungsprüfung"
+      },
+      {
+        "germanWord": "Zulieferer"
+      }
+    ]
+  },
+  {
+    "id": "18cbea00-08b7-4367-938b-8754b7ada16b",
+    "text": "Ein Unternehmen erhält eine Anfrage einer Aufsichtsbehörde zu seiner Cybersicherheitslage, reagiert aber nicht, weil es die Anfrage für unverbindlich hält. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Anfragen zuständiger Aufsichtsbehörden sind grundsätzlich unverbindlich und können ignoriert werden"
+      },
+      {
+        "label": "B",
+        "text": "Eine Reaktion ist nur erforderlich, wenn die Anfrage schriftlich per Einschreiben erfolgt"
+      },
+      {
+        "label": "C",
+        "text": "Behördliche Anfragen betreffen ausschließlich Unternehmen mit vorheriger Zertifizierung"
+      },
+      {
+        "label": "D",
+        "text": "Anfragen einer zuständigen Aufsichtsbehörde sollten ernst genommen und ihre Verbindlichkeit im Einzelfall geprüft werden"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen eine Anfrage einer Aufsichtsbehörde zur Cybersicherheitslage ignoriert, weil es sie für unverbindlich hält.",
+      "whyCorrect": "Anfragen einer zuständigen Aufsichtsbehörde sollten grundsätzlich ernst genommen werden, und ihre tatsächliche Verbindlichkeit muss im jeweiligen Einzelfall geprüft werden, statt sie pauschal als unverbindlich abzutun. Behördliche Anfragen können rechtliche Grundlagen haben, die eine Reaktion oder Auskunft tatsächlich erfordern; ein Ignorieren birgt daher Risiken. Die Form der Anfrage oder eine vorherige Zertifizierung sind dabei nicht entscheidend.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Aufsichtsbehörde"
+      },
+      {
+        "germanWord": "unverbindlich"
+      }
+    ]
+  },
+  {
+    "id": "dfb5ed37-8ad9-4d9d-a9f1-214cc5aa9619",
+    "text": "Eine ausländische Tochtergesellschaft verarbeitet personenbezogene Daten von Kunden im Heimatland des Mutterunternehmens. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Es gilt ausschließlich das Recht des Sitzlandes der Tochtergesellschaft"
+      },
+      {
+        "label": "B",
+        "text": "Es gilt ausschließlich das Recht des Heimatlandes des Mutterunternehmens"
+      },
+      {
+        "label": "C",
+        "text": "Es können sich rechtliche Anforderungen mehrerer Rechtsordnungen gleichzeitig überschneiden und müssen einzeln geprüft werden"
+      },
+      {
+        "label": "D",
+        "text": "Internationale Konzernstrukturen sind von nationalen Datenschutzanforderungen grundsätzlich ausgenommen"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie zu bewerten ist, wenn eine ausländische Tochtergesellschaft personenbezogene Daten von Kunden im Heimatland des Mutterunternehmens verarbeitet.",
+      "whyCorrect": "Bei grenzüberschreitenden Konzernstrukturen können sich die Anforderungen mehrerer Rechtsordnungen gleichzeitig überschneiden, etwa das Recht des Sitzlandes der Tochtergesellschaft und das Recht des Landes, in dem die betroffenen Kunden ansässig sind. Diese verschiedenen Anforderungen müssen einzeln geprüft werden, da weder ausschließlich das eine noch das andere Recht automatisch allein maßgeblich ist. Internationale Strukturen befreien ein Unternehmen nicht generell von nationalen Datenschutzanforderungen.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Rechtsordnung"
+      },
+      {
+        "germanWord": "Tochtergesellschaft"
+      }
+    ]
+  },
+  {
+    "id": "113107af-b044-4fd9-9735-16be7814100c",
+    "text": "Ein Unternehmen geht davon aus, dass seine ISO/IEC-27001-Zertifizierung automatisch alle Standorte und Tochtergesellschaften des Konzerns abdeckt, ohne den tatsächlichen Zertifizierungs-Scope zu prüfen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Diese Annahme ist zutreffend, da eine Zertifizierung immer konzernweit gilt"
+      },
+      {
+        "label": "B",
+        "text": "Der Geltungsbereich einer Zertifizierung ist für die Praxis ohne Bedeutung"
+      },
+      {
+        "label": "C",
+        "text": "Eine Zertifizierung gilt automatisch für alle Vertragspartner des zertifizierten Unternehmens"
+      },
+      {
+        "label": "D",
+        "text": "Der tatsächliche Geltungsbereich der Zertifizierung sollte geprüft werden, da er sich häufig nur auf bestimmte Standorte oder Einheiten bezieht"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen annimmt, seine ISO/IEC-27001-Zertifizierung decke automatisch alle Standorte und Tochtergesellschaften des Konzerns ab.",
+      "whyCorrect": "Der Geltungsbereich (Scope) einer ISO/IEC-27001-Zertifizierung bezieht sich häufig nur auf bestimmte, klar definierte Standorte, Systeme oder Organisationseinheiten und nicht automatisch auf den gesamten Konzern. Deshalb sollte der tatsächliche Geltungsbereich einer Zertifizierung stets konkret geprüft werden, statt von einer pauschalen, konzernweiten Abdeckung auszugehen. Eine Zertifizierung gilt zudem nicht automatisch für Vertragspartner des zertifizierten Unternehmens.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Geltungsbereich"
+      },
+      {
+        "germanWord": "Zertifizierungs-Scope"
+      }
+    ]
+  },
+  {
+    "id": "15b05252-1bf7-4670-b5eb-28f8196a5783",
+    "text": "Ein Unternehmen schließt einen Vertrag über eine Cloud-Dienstleistung ab, ohne die Regelungen zum Umgang mit einem Sicherheitsvorfall beim Anbieter vertraglich zu klären. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dies ist unproblematisch, da der Anbieter ohnehin gesetzlich zur sofortigen Meldung verpflichtet ist"
+      },
+      {
+        "label": "B",
+        "text": "Verträge mit Cloud-Anbietern benötigen grundsätzlich keine Regelung zu Sicherheitsvorfällen"
+      },
+      {
+        "label": "C",
+        "text": "Vorfallmeldung, Zusammenarbeit und Verantwortlichkeiten sollten vertraglich geregelt werden, um im Ernstfall handlungsfähig zu bleiben"
+      },
+      {
+        "label": "D",
+        "text": "Die Klärung ist ausschließlich Aufgabe des Anbieters und muss vom Kunden nicht verfolgt werden"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen einen Cloud-Vertrag abschließt, ohne den Umgang mit Sicherheitsvorfällen beim Anbieter vertraglich zu regeln.",
+      "whyCorrect": "Vorfallmeldung, Zusammenarbeit und die Verantwortlichkeiten zwischen Kunde und Anbieter sollten vertraglich klar geregelt werden, damit im Ernstfall eines Sicherheitsvorfalls beide Seiten wissen, wer welche Schritte unternimmt und wie schnell informiert werden muss. Ohne eine solche Regelung besteht die Gefahr, dass im Ernstfall Unklarheit über Zuständigkeiten und Reaktionszeiten herrscht. Eine gesetzliche Meldepflicht des Anbieters allein ersetzt diese vertragliche Klärung nicht.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Vorfallmeldung"
+      },
+      {
+        "germanWord": "Ernstfall"
+      }
+    ]
+  },
+  {
+    "id": "0b0731ce-95ad-4ba9-9c6b-2c384e0ad874",
+    "text": "Ein Unternehmen verwendet in seinen internen Dokumenten unterschiedliche Bezeichnungen für dieselbe gesetzliche Anforderung, je nachdem, welche Abteilung das Dokument erstellt hat. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unterschiedliche Bezeichnungen sind unproblematisch, solange jede Abteilung ihre eigene Terminologie versteht"
+      },
+      {
+        "label": "B",
+        "text": "Eine einheitliche Terminologie ist ausschließlich für externe Kommunikation relevant"
+      },
+      {
+        "label": "C",
+        "text": "Die Bezeichnung einer Anforderung hat keinen Einfluss auf ihre rechtliche Verbindlichkeit oder praktische Umsetzung"
+      },
+      {
+        "label": "D",
+        "text": "Uneinheitliche Bezeichnungen erschweren die Nachvollziehbarkeit und sollten vereinheitlicht werden"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen dieselbe gesetzliche Anforderung je nach Abteilung unterschiedlich bezeichnet.",
+      "whyCorrect": "Uneinheitliche Bezeichnungen für dieselbe Anforderung erschweren die Nachvollziehbarkeit, etwa bei internen Prüfungen, Audits oder der abteilungsübergreifenden Zusammenarbeit, weil unklar werden kann, ob verschiedene Begriffe dieselbe oder unterschiedliche Anforderungen meinen. Eine einheitliche Terminologie sollte daher angestrebt werden, um Missverständnisse zu vermeiden und die Rückverfolgbarkeit von Anforderungen sicherzustellen. Dies betrifft nicht nur die externe Kommunikation, und die Bezeichnung ist auch nicht folgenlos für die praktische Umsetzung.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Nachvollziehbarkeit"
+      },
+      {
+        "germanWord": "Vereinheitlichung"
+      }
+    ]
+  },
+  {
+    "id": "6c592b65-b79d-4ff8-a64c-26945d73dcb8",
+    "text": "Ein Unternehmen hält sich strikt an branchenübliche Empfehlungen einer Fachorganisation, ohne zu prüfen, ob diese Empfehlungen tatsächlich rechtlich bindend sind. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Branchenempfehlungen sind grundsätzlich mit Gesetzen gleichzusetzen"
+      },
+      {
+        "label": "B",
+        "text": "Eine Prüfung der Verbindlichkeit ist überflüssig, solange die Empfehlung befolgt wird"
+      },
+      {
+        "label": "C",
+        "text": "Die tatsächliche Verbindlichkeit sollte separat geprüft werden, da Empfehlungen häufig zunächst unverbindlichen Charakter haben"
+      },
+      {
+        "label": "D",
+        "text": "Branchenempfehlungen sind für Unternehmen grundsätzlich ohne jede praktische Bedeutung"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie zu bewerten ist, dass sich ein Unternehmen strikt an Empfehlungen einer Fachorganisation hält, ohne deren rechtliche Verbindlichkeit zu prüfen.",
+      "whyCorrect": "Empfehlungen von Fachorganisationen haben häufig zunächst unverbindlichen Charakter und werden nicht automatisch zu Gesetzen, nur weil sie branchenüblich befolgt werden. Die tatsächliche Verbindlichkeit sollte deshalb separat geprüft werden, etwa ob die Empfehlung durch Vertrag, Gesetz oder eigene interne Festlegung verbindlich gemacht wurde. Das bloße Befolgen einer Empfehlung macht eine solche Prüfung nicht überflüssig, und Empfehlungen sind auch nicht grundsätzlich bedeutungslos.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Fachorganisation"
+      },
+      {
+        "germanWord": "unverbindlicher Charakter"
+      }
+    ]
+  },
+  {
+    "id": "013eb8b5-7471-469c-b358-0d5fce75efcf",
+    "text": "Ein Unternehmen schließt einen neuen Vertrag ab, ohne zu prüfen, ob darin Anforderungen an Informationssicherheit oder Datenschutz enthalten sind. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Verträge enthalten grundsätzlich niemals Anforderungen an Informationssicherheit"
+      },
+      {
+        "label": "B",
+        "text": "Eine solche Prüfung ist ausschließlich bei Verträgen mit IT-Dienstleistern erforderlich"
+      },
+      {
+        "label": "C",
+        "text": "Sicherheits- und Datenschutzanforderungen in Verträgen sind für die praktische Umsetzung ohne Bedeutung"
+      },
+      {
+        "label": "D",
+        "text": "Verträge sollten routinemäßig auch auf enthaltene Sicherheits- und Datenschutzanforderungen geprüft werden"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen einen neuen Vertrag abschließt, ohne ihn auf enthaltene Anforderungen an Informationssicherheit oder Datenschutz zu prüfen.",
+      "whyCorrect": "Verträge sollten routinemäßig auch auf enthaltene Sicherheits- und Datenschutzanforderungen geprüft werden, da solche Klauseln unabhängig von der Art des Vertragspartners vorkommen können und für die praktische Umsetzung im Unternehmen relevant sind. Diese Prüfung ist nicht auf Verträge mit IT-Dienstleistern beschränkt, sondern sollte bei Verträgen allgemein erfolgen, da Anforderungen an Sicherheit und Datenschutz in ganz unterschiedlichen Vertragsarten auftauchen können.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Vertragsprüfung"
+      },
+      {
+        "germanWord": "routinemäßig"
+      }
+    ]
+  },
+  {
+    "id": "b1d2f78c-ad49-4ffb-a3ec-5776c17ac35c",
+    "text": "Ein Unternehmen verlässt sich bei der Einschätzung seiner rechtlichen Pflichten ausschließlich auf eine mehrere Jahre alte interne Übersicht, ohne diese seither aktualisiert zu haben. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rechtliche Anforderungen ändern sich grundsätzlich nicht, sodass eine einmalige Erhebung dauerhaft ausreicht"
+      },
+      {
+        "label": "B",
+        "text": "Eine Aktualisierung ist ausschließlich bei einer behördlichen Prüfung erforderlich"
+      },
+      {
+        "label": "C",
+        "text": "Eine veraltete Übersicht kann neue oder geänderte rechtliche Anforderungen übersehen und sollte regelmäßig aktualisiert werden"
+      },
+      {
+        "label": "D",
+        "text": "Die Aktualität der Übersicht hat keinen Einfluss auf die tatsächliche Einhaltung rechtlicher Pflichten"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen seine rechtlichen Pflichten ausschließlich anhand einer mehrere Jahre alten, nie aktualisierten internen Übersicht einschätzt.",
+      "whyCorrect": "Rechtliche Anforderungen ändern sich im Laufe der Zeit, etwa durch neue Gesetze, angepasste Normen oder geänderte Rechtsprechung. Eine veraltete Übersicht kann daher neue oder geänderte Pflichten übersehen und sollte deshalb regelmäßig aktualisiert werden, um weiterhin ein zutreffendes Bild der tatsächlichen Rechtslage zu liefern. Die Vorstellung, rechtliche Anforderungen änderten sich grundsätzlich nicht, oder eine Aktualisierung sei nur bei behördlicher Prüfung nötig, trifft nicht zu.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "veraltete Übersicht"
+      },
+      {
+        "germanWord": "Rechtsprechung"
+      }
+    ]
+  },
+  {
+    "id": "77d614e0-bcad-467c-8891-04ebc6517851",
+    "text": "Ein Unternehmen geht davon aus, dass die Einhaltung einer einzelnen Norm automatisch alle weiteren relevanten rechtlichen und vertraglichen Anforderungen abdeckt. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Diese Annahme ist zutreffend, da Normen grundsätzlich alle weiteren Anforderungen einschließen"
+      },
+      {
+        "label": "B",
+        "text": "Weitere rechtliche oder vertragliche Anforderungen sind neben einer eingehaltenen Norm bedeutungslos"
+      },
+      {
+        "label": "C",
+        "text": "Eine zusätzliche Prüfung weiterer Anforderungen ist nur bei international tätigen Unternehmen nötig"
+      },
+      {
+        "label": "D",
+        "text": "Die Einhaltung einer Norm sollte nicht automatisch als vollständige Erfüllung aller weiteren rechtlichen und vertraglichen Pflichten angesehen werden"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen annimmt, die Einhaltung einer einzelnen Norm decke automatisch alle weiteren relevanten Anforderungen ab.",
+      "whyCorrect": "Eine einzelne Norm, etwa eine Managementsystemnorm, deckt in der Regel nur einen bestimmten Ausschnitt der insgesamt relevanten Anforderungen ab. Rechtliche Pflichten, vertragliche Verpflichtungen und weitere Vorgaben können parallel bestehen und über den Inhalt der Norm hinausgehen. Deshalb sollte die Einhaltung einer Norm nicht automatisch als vollständige Erfüllung aller weiteren rechtlichen und vertraglichen Pflichten angesehen werden, sondern es bedarf einer eigenständigen Prüfung dieser zusätzlichen Anforderungen.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "abdecken"
+      }
+    ]
+  },
+  {
+    "id": "9bcbfd1a-fd7f-471e-af19-2913b040ca77",
+    "text": "Ein Unternehmen implementiert eine neue gesetzliche Anforderung technisch vollständig, dokumentiert die Umsetzung aber an keiner Stelle. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine Dokumentation ist überflüssig, solange die technische Umsetzung tatsächlich erfolgt ist"
+      },
+      {
+        "label": "B",
+        "text": "Nachweise über die Umsetzung gesetzlicher Anforderungen sind ausschließlich bei sicherheitskritischen Systemen relevant"
+      },
+      {
+        "label": "C",
+        "text": "Die fehlende Dokumentation erschwert den späteren Nachweis der Umsetzung gegenüber Prüfstellen oder bei internen Kontrollen"
+      },
+      {
+        "label": "D",
+        "text": "Die Dokumentation einer Umsetzung hat keinen Einfluss auf deren rechtliche Anerkennung"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen eine neue gesetzliche Anforderung technisch umsetzt, die Umsetzung aber nirgends dokumentiert.",
+      "whyCorrect": "Fehlt eine Dokumentation der Umsetzung, wird es später schwierig, gegenüber Prüfstellen, Auditoren oder bei internen Kontrollen nachzuweisen, dass die Anforderung tatsächlich erfüllt wurde. Die technische Umsetzung allein reicht also nicht aus, weil ohne Nachweis die Erfüllung im Zweifel nicht belegbar ist. Diese Notwendigkeit betrifft nicht nur sicherheitskritische Systeme, und die Dokumentation ist auch keineswegs für die rechtliche Anerkennung bedeutungslos.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Prüfstelle"
+      },
+      {
+        "germanWord": "Nachweis"
+      }
+    ]
+  }
+]

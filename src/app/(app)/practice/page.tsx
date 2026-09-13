@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Bookmark } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { getUiDict } from "@/lib/i18n/ui/get-ui-dict.server";
@@ -12,6 +13,13 @@ export default async function PracticeTopicsPage() {
   if (!user) return null;
 
   const { dict } = await getUiDict();
+
+  const { count: markedCount } = await supabase
+    .from("questions")
+    .select("id", { count: "exact", head: true })
+    .eq("user_id", user.id)
+    .eq("status", "ready")
+    .eq("marked", true);
 
   const { data: readyQuestions } = await supabase
     .from("questions")
@@ -43,9 +51,9 @@ export default async function PracticeTopicsPage() {
     .sort((a, b) => a.label.localeCompare(b.label));
 
   return (
-    <main className="mx-auto flex max-w-2xl flex-col gap-4 px-4 py-8">
+    <main className="mx-auto flex max-w-[852px] flex-col gap-4 px-4 py-8">
       <h1 className="text-xl font-semibold">{dict.practice.categoriesTitle}</h1>
-      {cards.length === 0 ? (
+      {cards.length === 0 && !markedCount ? (
         <Card>
           <CardContent className="pt-6">
             <p className="text-sm text-muted-foreground">{dict.practice.noCategoriesYet}</p>
@@ -53,6 +61,21 @@ export default async function PracticeTopicsPage() {
         </Card>
       ) : (
         <div className="flex flex-col gap-3">
+          {!!markedCount && (
+            <Link href="/practice/marked">
+              <Card className="transition-colors hover:bg-accent/50">
+                <CardHeader className="flex-row items-center justify-between gap-3 space-y-0">
+                  <CardTitle className="flex items-center gap-2 text-base font-medium">
+                    <Bookmark className="size-4 fill-primary text-primary" />
+                    {dict.questions.filterMarked}
+                  </CardTitle>
+                  <span className="text-sm text-muted-foreground">
+                    {formatTemplate(dict.practice.questionsCount, { count: markedCount })}
+                  </span>
+                </CardHeader>
+              </Card>
+            </Link>
+          )}
           {cards.map((c) => (
             <Link key={c.slug} href={`/practice/${c.slug}`}>
               <Card className="transition-colors hover:bg-accent/50">

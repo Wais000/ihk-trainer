@@ -1,0 +1,232 @@
+[
+  {
+    "id": "0bd25f1b-f66b-492f-8cab-a6b561968cf2",
+    "text": "Bei einer gemeinnützigen Organisation wird folgender Praxisfall bewertet: Ein Genehmigungsprozess hat eine hohe Durchlaufzeit. Mehrere Beteiligte vermuten den Engpass an unterschiedlichen Stellen; belastbare Messdaten fehlen. Welcher Analyseschritt sollte zuerst erfolgen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die am häufigsten genannte Genehmigungsstufe entfernen und anschließend die neue Durchlaufzeit mit dem Zielwert vergleichen"
+      },
+      {
+        "label": "B",
+        "text": "Bearbeitungs-, Warte- und Nacharbeitszeiten je relevanter Variante erheben und die Engpasshypothese mit Beteiligten validieren"
+      },
+      {
+        "label": "C",
+        "text": "Die Zeitschätzungen der Prozessverantwortlichen mitteln und den höchsten Einzelwert als Engpass dokumentieren"
+      },
+      {
+        "label": "D",
+        "text": "Zuerst eine gewünschte Soll-Durchlaufzeit festlegen und jede Aktivität oberhalb ihres rechnerischen Anteils optimieren"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "8f54313e-9b70-4e48-bd08-d43fb02fe996",
+    "text": "Ein Prozess wird dokumentiert, ohne anzugeben, welches System oder Werkzeug für die einzelnen Schritte tatsächlich verwendet wird. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die verwendeten Systeme oder Werkzeuge sollten ergänzt werden, damit die Beschreibung für die praktische Ausführung tatsächlich nützlich ist"
+      },
+      {
+        "label": "B",
+        "text": "Eine Prozessbeschreibung sollte grundsätzlich unabhängig von jeder Angabe zu genutzten Systemen bleiben"
+      },
+      {
+        "label": "C",
+        "text": "Die Angabe genutzter Systeme ist ausschließlich bei vollständig automatisierten Prozessen relevant"
+      },
+      {
+        "label": "D",
+        "text": "Fehlende Systemangaben haben auf die praktische Anwendbarkeit einer Prozessbeschreibung keinen Einfluss"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "f6648b27-c636-420c-875f-84cf8cfc61a9",
+    "text": "Ein Team überarbeitet einen bestehenden Prozess grundlegend, informiert aber die Personen, die Ergebnisse dieses Prozesses in einem nachgelagerten Prozess weiterverwenden, nicht über die Änderung. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine Information nachgelagerter Prozessbeteiligter ist ausschließlich bei gleichzeitiger Änderung der eigenen Zuständigkeiten erforderlich"
+      },
+      {
+        "label": "B",
+        "text": "Personen in nachgelagerten Prozessen sollten über wesentliche Änderungen informiert werden, die sich auf die von ihnen genutzten Ergebnisse auswirken können"
+      },
+      {
+        "label": "C",
+        "text": "Nachgelagerte Prozesse sind von Änderungen vorgelagerter Prozesse grundsätzlich nicht betroffen"
+      },
+      {
+        "label": "D",
+        "text": "Eine Information ist überflüssig, solange sich das äußere Ergebnisformat nicht verändert"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "ae108a10-1fd4-4f6d-be1e-bce63b3f7b7c",
+    "text": "Ein Prozess wird so gestaltet, dass er ausschließlich in einer bestimmten Software funktioniert, ohne dass geprüft wurde, ob diese Software langfristig verfügbar bleibt. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine starke Abhängigkeit von einer einzelnen Software sollte bewusst geprüft und gegebenenfalls durch alternative Vorgehensweisen abgefedert werden"
+      },
+      {
+        "label": "B",
+        "text": "Eine ausschließliche Abhängigkeit von einer bestimmten Software ist für Prozesse grundsätzlich unproblematisch"
+      },
+      {
+        "label": "C",
+        "text": "Die langfristige Verfügbarkeit eingesetzter Software ist für die Prozessgestaltung ohne Bedeutung"
+      },
+      {
+        "label": "D",
+        "text": "Eine Prüfung der Softwareabhängigkeit ist ausschließlich bei kostenpflichtiger Software erforderlich"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "9e910920-7c63-4aa7-bd97-0de21f3d61d0",
+    "text": "Innerhalb eines Prozesses erfolgt eine wichtige Entscheidung stets mündlich und wird an keiner Stelle schriftlich festgehalten. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mündliche Entscheidungen sind grundsätzlich ausreichend, solange die beteiligten Personen sich später daran erinnern können"
+      },
+      {
+        "label": "B",
+        "text": "Wichtige Entscheidungen sollten nachvollziehbar dokumentiert werden, um sie später begründen und nachprüfen zu können"
+      },
+      {
+        "label": "C",
+        "text": "Eine schriftliche Dokumentation ist ausschließlich bei Entscheidungen mit finanzieller Auswirkung erforderlich"
+      },
+      {
+        "label": "D",
+        "text": "Die Form einer Entscheidung hat auf ihre spätere Nachvollziehbarkeit keinen Einfluss"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "595dc8cd-1256-49b2-b4a2-902088fbd137",
+    "text": "Ein Prozess enthält einen Schritt, der ausschließlich deshalb existiert, weil er in einer früheren, inzwischen abgeschafften Systemumgebung notwendig war. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der nicht mehr sachlich notwendige Schritt sollte identifiziert und aus dem Prozess entfernt werden"
+      },
+      {
+        "label": "B",
+        "text": "Historisch gewachsene Schritte sollten aus Respekt vor der bisherigen Praxis grundsätzlich beibehalten werden"
+      },
+      {
+        "label": "C",
+        "text": "Ein einmal etablierter Prozessschritt darf aus Konsistenzgründen nicht mehr entfernt werden"
+      },
+      {
+        "label": "D",
+        "text": "Die tatsächliche Notwendigkeit eines Schritts spielt für die Prozessgestaltung keine relevante Rolle"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "e7240e79-7b64-4793-8483-6d6169463f69",
+    "text": "Bei einem regionalen Logistikdienstleister wird folgender Praxisfall bewertet: Interviews und Systemdaten widersprechen der freigegebenen Prozessbeschreibung. Welches Vorgehen führt am zuverlässigsten zu einem belastbaren Ist-Prozess?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quellen und Varianten gemeinsam mit Beteiligten validieren und den tatsächlich wiederkehrenden Ablauf dokumentieren"
+      },
+      {
+        "label": "B",
+        "text": "Zuerst den gewünschten Soll-Prozess modellieren und daraus den bisherigen Ist-Prozess ableiten"
+      },
+      {
+        "label": "C",
+        "text": "Freigegebene Beschreibung als Ist übernehmen und Abweichungen erst im Soll-Prozess behandeln"
+      },
+      {
+        "label": "D",
+        "text": "Systemdaten stärker gewichten als Interviews und manuelle Tätigkeiten nachrangig behandeln"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "493844e9-e05e-4981-8419-4f8bc5ae0e6a",
+    "text": "Ein Unternehmen misst die Wirkung einer Prozessänderung ausschließlich unmittelbar nach der Einführung, ohne eine spätere Kontrolle nach einigen Monaten vorzusehen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine unmittelbare Messung direkt nach der Einführung liefert stets ein vollständiges und verlässliches Bild der langfristigen Wirkung"
+      },
+      {
+        "label": "B",
+        "text": "Eine spätere Kontrolle nach einigen Monaten sollte ergänzt werden, um nachhaltige Effekte von kurzfristigen Anpassungseffekten zu unterscheiden"
+      },
+      {
+        "label": "C",
+        "text": "Eine spätere Kontrolle ist ausschließlich bei technischen Prozessänderungen sinnvoll"
+      },
+      {
+        "label": "D",
+        "text": "Der Zeitpunkt der Wirkungsmessung hat auf die Aussagekraft der Ergebnisse keinen relevanten Einfluss"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "79c13306-2b4e-4f8f-bf53-6db7e6463242",
+    "text": "Ein Unternehmen erfasst zwar die Bearbeitungszeit eines Prozesses, nicht aber die Wartezeit zwischen den einzelnen Schritten. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Auch die Wartezeit zwischen den Schritten sollte erfasst werden, um die tatsächliche Gesamtdurchlaufzeit vollständig abzubilden"
+      },
+      {
+        "label": "B",
+        "text": "Die reine Bearbeitungszeit liefert bereits ein vollständiges Bild der tatsächlichen Prozessdauer"
+      },
+      {
+        "label": "C",
+        "text": "Wartezeiten zwischen Prozessschritten sind für die Prozessoptimierung grundsätzlich ohne Bedeutung"
+      },
+      {
+        "label": "D",
+        "text": "Eine Erfassung der Wartezeit ist ausschließlich bei vollständig automatisierten Prozessen sinnvoll"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "4b9d1c10-5587-46f2-8bde-100db9185bde",
+    "text": "Ein Prozessverantwortlicher entscheidet allein über wesentliche Änderungen an einem abteilungsübergreifenden Prozess, ohne die anderen betroffenen Abteilungsleitungen einzubeziehen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der Prozessverantwortliche kann wesentliche Änderungen grundsätzlich allein und ohne weitere Abstimmung entscheiden"
+      },
+      {
+        "label": "B",
+        "text": "Wesentliche Änderungen an einem abteilungsübergreifenden Prozess sollten mit den anderen betroffenen Abteilungsleitungen abgestimmt werden"
+      },
+      {
+        "label": "C",
+        "text": "Eine Abstimmung mit anderen Abteilungsleitungen ist ausschließlich bei finanziell bedeutsamen Änderungen erforderlich"
+      },
+      {
+        "label": "D",
+        "text": "Die Einbeziehung weiterer Abteilungsleitungen verzögert wesentliche Prozessänderungen unnötig, ohne echten Mehrwert zu bieten"
+      }
+    ],
+    "correctLabel": "B"
+  }
+]

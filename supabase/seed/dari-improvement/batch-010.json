@@ -1,0 +1,575 @@
+[
+  {
+    "id": "151b401d-f646-4e0b-8abf-7b2ae2f4f450",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit stellt sich folgende Prüfungsfrage: Ein mittelständischer Betrieb übernimmt ISO/IEC-27001-Grundsätze freiwillig in ihre internen Vorgaben, strebt aber keine Zertifizierung an. Welche Aussage trifft zu?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Organisation kann die Grundsätze intern verbindlich definieren, auch wenn daraus keine staatliche Zertifizierungspflicht entsteht"
+      },
+      {
+        "label": "B",
+        "text": "Ohne Zertifizierung dürfen Inhalte der Norm intern nicht als verbindlich gelten"
+      },
+      {
+        "label": "C",
+        "text": "Die freiwillige Übernahme macht ISO/IEC 27001 automatisch zu einem staatlichen Gesetz"
+      },
+      {
+        "label": "D",
+        "text": "Ohne gesetzliche Pflicht sind interne Vorgaben in der Regel weniger durchsetzbar"
+      }
+    ],
+    "explanation": {
+      "summary": "Es geht darum, was es bedeutet, wenn ein Unternehmen ISO/IEC-27001-Grundsätze freiwillig übernimmt, ohne eine Zertifizierung anzustreben.",
+      "whyCorrect": "Eine Organisation kann selbst festlegen, dass bestimmte Grundsätze – hier aus ISO/IEC 27001 – intern als verbindlich gelten sollen, unabhängig davon, ob eine externe Zertifizierung erfolgt. Verbindlichkeit entsteht in diesem Fall durch eigene interne Festlegung, etwa in Richtlinien, nicht durch ein Gesetz oder ein Zertifikat. Die freiwillige Übernahme macht die Norm nicht zum staatlichen Gesetz, und ohne staatliche Pflicht ist interne Verbindlichkeit trotzdem möglich und in der Praxis üblich.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "freiwillig"
+      },
+      {
+        "germanWord": "Zertifizierung"
+      },
+      {
+        "germanWord": "Grundsätze"
+      }
+    ]
+  },
+  {
+    "id": "4fc310c7-ca62-48e1-a18d-7441ad165d5d",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit wird die folgende Situation bewertet: Welche Informationsbasis unterstützt die Bewertung der ISMS-Leistung am sinnvollsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Anzahl ungeplanter Ausfälle zählen, ohne diese zu Zielen oder Maßnahmen in Bezug zu setzen"
+      },
+      {
+        "label": "B",
+        "text": "Sicherheitsziele und geeignete Kennzahlen, Auditresultate, Vorfälle, Maßnahmenstatus und relevante Rückmeldungen gemeinsam auswerten"
+      },
+      {
+        "label": "C",
+        "text": "Sich an der Anzahl beschaffter Sicherheitsprodukte orientieren"
+      },
+      {
+        "label": "D",
+        "text": "Sich auf den letzten bestandenen Auditbericht stützen und seitherige Veränderungen außer Acht lassen"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welche Informationsgrundlage am besten geeignet ist, um die Leistung eines ISMS zu bewerten.",
+      "whyCorrect": "Eine sinnvolle Bewertung der ISMS-Leistung erfordert eine ganzheitliche Betrachtung: Sicherheitsziele müssen mit passenden Kennzahlen abgeglichen werden, ergänzt durch Auditergebnisse, gemeldete Sicherheitsvorfälle, den Umsetzungsstand von Maßnahmen und Rückmeldungen, etwa aus Reviews oder von Mitarbeitenden. Nur das gemeinsame Betrachten all dieser Elemente zeigt, ob das ISMS seine Ziele tatsächlich erreicht. Eine isolierte Kennzahl allein, wie nur die Ausfallzahlen oder nur die Anzahl beschaffter Produkte, liefert dagegen kein vollständiges Bild.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "ISMS"
+      },
+      {
+        "germanWord": "Kennzahlen"
+      },
+      {
+        "germanWord": "Auditresultate"
+      }
+    ]
+  },
+  {
+    "id": "5e492d84-9755-4ea6-afd1-d3c96ced1a40",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit bespricht das zuständige Team folgenden Fall: Welche Tätigkeit prüft unabhängig, ob das ISMS festgelegte Anforderungen und eigene Vorgaben erfüllt?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die technische Umsetzung neuer Sicherheitsanforderungen durch die IT"
+      },
+      {
+        "label": "B",
+        "text": "Die tägliche Systemadministration"
+      },
+      {
+        "label": "C",
+        "text": "Ein internes Audit"
+      },
+      {
+        "label": "D",
+        "text": "Die Erstellung eines einzelnen Sicherungskopien"
+      }
+    ],
+    "explanation": {
+      "summary": "Gefragt wird, welche Tätigkeit unabhängig prüft, ob das ISMS die festgelegten Anforderungen und eigenen Vorgaben erfüllt.",
+      "whyCorrect": "Ein internes Audit ist eine systematische, unabhängige Überprüfung, bei der festgestellt wird, ob das ISMS den eigenen und externen Anforderungen entspricht und wirksam funktioniert. Es unterscheidet sich von der operativen Umsetzung, etwa durch die IT, oder vom Tagesgeschäft der Systemadministration, weil es gezielt und unabhängig die Konformität bewertet, statt selbst die Umsetzung durchzuführen.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "internes Audit"
+      },
+      {
+        "germanWord": "unabhängig"
+      }
+    ]
+  },
+  {
+    "id": "5398b56f-b937-4d81-9db7-bea285ffdbc3",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit soll die folgende Entscheidung getroffen werden: Die Leitung bewertet Leistungsdaten, Auditresultate, Risiken und Verbesserungsbedarf des ISMS. Welche Aktivität ist beschrieben?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine Datenschutz-Folgenabschätzung"
+      },
+      {
+        "label": "B",
+        "text": "Eine technische Schwachstellenprüfung"
+      },
+      {
+        "label": "C",
+        "text": "Ein Grundschutz-Baustein"
+      },
+      {
+        "label": "D",
+        "text": "Eine Managementbewertung"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird beschrieben, wie die Leitung Leistungsdaten, Auditergebnisse, Risiken und Verbesserungsbedarf des ISMS bewertet, und gefragt, wie diese Aktivität heißt.",
+      "whyCorrect": "Die beschriebene Tätigkeit ist die Managementbewertung: Die oberste Leitung überprüft in regelmäßigen Abständen das ISMS auf Basis von Leistungsdaten, Auditergebnissen, Risikoentwicklung und Verbesserungspotenzial, um sicherzustellen, dass es weiterhin geeignet, angemessen und wirksam ist. Dies unterscheidet sich von einer Datenschutz-Folgenabschätzung, einer technischen Schwachstellenprüfung oder einem Grundschutz-Baustein, die jeweils andere, engere Zwecke verfolgen.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Managementbewertung"
+      },
+      {
+        "germanWord": "Verbesserungsbedarf"
+      }
+    ]
+  },
+  {
+    "id": "69af2206-b067-4cc3-868e-92f4d8f99975",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit stellt sich folgende Prüfungsfrage: Welche Aussage ordnet NIS-2, BSI-Regelungen und KRITIS auf der verlangten Überblicksebene angemessen ein?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sie bilden Rahmen für Cybersicherheit, Risikomanagement und mögliche Meldungen erfasster Einrichtungen"
+      },
+      {
+        "label": "B",
+        "text": "Einheitliche freiwillige Empfehlungen, die primär größere Organisationen ansprechen"
+      },
+      {
+        "label": "C",
+        "text": "Sie regeln vor allem Vorfallmeldungen, nicht jedoch das Risikomanagement"
+      },
+      {
+        "label": "D",
+        "text": "Erfassen Organisationen anhand ihrer Größe, gleich in welcher Branche sie tätig sind"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welche Aussage NIS-2, BSI-Regelungen und KRITIS auf der verlangten Überblicksebene angemessen einordnet.",
+      "whyCorrect": "NIS-2, die BSI-Regelungen und KRITIS bilden zusammen einen regulatorischen Rahmen, der Anforderungen an Cybersicherheit und Risikomanagement stellt und bei Vorfällen mögliche Meldepflichten für erfasste Einrichtungen vorsieht. Sie sind nicht rein freiwillig, beschränken sich nicht ausschließlich auf Meldepflichten, und die Erfassung von Einrichtungen erfolgt nicht allein nach der Unternehmensgröße, sondern unter anderem nach Sektor und Kritikalität der jeweiligen Einrichtung.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "NIS-2"
+      },
+      {
+        "germanWord": "KRITIS"
+      },
+      {
+        "germanWord": "Meldepflicht"
+      }
+    ]
+  },
+  {
+    "id": "08ef48ba-5100-41aa-8f26-a4ad992d2084",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit wird die folgende Situation bewertet: Ein kleiner Betrieb sucht einen strukturierten, auf kleinere Organisationen ausgerichteten Sicherheitsansatz. Welche fachliche Bewertung von VdS 10000 und CISIS12 ist angemessen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Als reine Auditchecklisten ohne Aufbau eines Sicherheitsmanagements"
+      },
+      {
+        "label": "B",
+        "text": "Als strukturierte Sicherheitsansätze beziehungsweise Managementmodelle mit Ausrichtung auf KMU"
+      },
+      {
+        "label": "C",
+        "text": "Als technische Kataloge, die im Kern einzelne Sicherheitsprodukte bewerten"
+      },
+      {
+        "label": "D",
+        "text": "Als gesetzliche Mindeststandards, die speziell für kritische Anlagen einer Branche gelten"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie VdS 10000 und CISIS12 fachlich einzuordnen sind, wenn ein kleiner Betrieb einen strukturierten, auf KMU ausgerichteten Sicherheitsansatz sucht.",
+      "whyCorrect": "VdS 10000 und CISIS12 sind strukturierte Sicherheitsansätze bzw. Managementmodelle, die speziell für kleine und mittlere Unternehmen entwickelt wurden, um mit vertretbarem Aufwand ein funktionierendes Informationssicherheitsmanagement aufzubauen. Sie sind mehr als reine Checklisten oder Produktkataloge, weil sie den gesamten Aufbau eines Sicherheitsmanagements unterstützen, und sie sind auch keine gesetzlichen Mindeststandards speziell für kritische Infrastrukturen.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "VdS 10000"
+      },
+      {
+        "germanWord": "KMU"
+      }
+    ]
+  },
+  {
+    "id": "74d85ebd-db4a-420c-8c0f-569c72a910a9",
+    "text": "Bei einem mittelständischen Softwarehaus wird folgender Praxisfall bewertet: Eine Branche möchte typische Sicherheitsanforderungen konkretisieren; ein Unternehmensverbund möchte dagegen einen wiederverwendbaren IT-Grundschutz-Rahmen für gleichartige Standorte beschreiben. Welche Zuordnung passt am besten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Für branchenspezifische Anforderungen kann ein B3S passen; für einen typischen Grundschutz-Anwendungsfall ein IT-Grundschutz-Profil"
+      },
+      {
+        "label": "B",
+        "text": "Für beide Zwecke eignet sich vorwiegend ein Grundschutz-Profil, da beide auf branchenweite Standardisierung zielen"
+      },
+      {
+        "label": "C",
+        "text": "Für die Branche eignet sich ein Grundschutz-Profil; für gleichartige Standorte eignet sich ebenfalls in erster Linie ein Profil"
+      },
+      {
+        "label": "D",
+        "text": "Beide Zwecke werden durch dieselbe ISO/IEC-27001-Zertifizierungsurkunde vollständig abgedeckt"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welches Instrument am besten passt, wenn eine Branche typische Sicherheitsanforderungen konkretisieren möchte und ein Unternehmensverbund einen wiederverwendbaren Grundschutz-Rahmen für gleichartige Standorte will.",
+      "whyCorrect": "Für branchenspezifische Anforderungen ist ein B3S das passende Instrument, da er speziell für eine bestimmte Branche entwickelt wird. Für einen wiederverwendbaren Rahmen für gleichartige Standorte innerhalb einer Organisation eignet sich dagegen ein IT-Grundschutz-Profil, das einen typischen Anwendungsfall des IT-Grundschutzes abbildet und auf ähnliche Umgebungen übertragen werden kann. Beide Instrumente verfolgen unterschiedliche Zwecke – Branchenbezug versus organisationsinterne Wiederverwendbarkeit – und sind daher jeweils für ihren Zweck die passendere Wahl.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "IT-Grundschutz-Profil"
+      },
+      {
+        "germanWord": "Unternehmensverbund"
+      },
+      {
+        "germanWord": "gleichartige Standorte"
+      }
+    ]
+  },
+  {
+    "id": "46d6fb27-0c30-4bcc-86fb-f353d9803f4b",
+    "text": "Ein Unternehmen verarbeitet ausschließlich Daten juristischer Personen (Firmenkunden), keine personenbezogenen Daten natürlicher Personen. Welche Aussage zum Datenschutz ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Datenschutzanforderungen bleiben unverändert bestehen, weil sie unabhängig vom Datentyp für jede Verarbeitung gelten"
+      },
+      {
+        "label": "B",
+        "text": "Informationssicherheitsanforderungen für diese Daten entfallen ebenfalls, weil Datenschutz und Informationssicherheit deckungsgleich sind"
+      },
+      {
+        "label": "C",
+        "text": "Datenschutzanforderungen entfallen für diese Verarbeitung vollständig, da kein Personenbezug zu natürlichen Personen vorliegt"
+      },
+      {
+        "label": "D",
+        "text": "Die Einordnung hängt von der Größe des Unternehmens ab, nicht vom Personenbezug der Daten"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welche Aussage zum Datenschutz zutrifft, wenn ein Unternehmen ausschließlich Daten juristischer Personen (Firmenkunden) verarbeitet und keine personenbezogenen Daten natürlicher Personen.",
+      "whyCorrect": "Datenschutzrecht, etwa die DSGVO, schützt personenbezogene Daten natürlicher Personen. Werden ausschließlich Daten juristischer Personen verarbeitet, ohne Bezug zu einer natürlichen Person, entfallen die Datenschutzanforderungen für diese Verarbeitung vollständig, da der sachliche Anwendungsbereich des Datenschutzrechts hier gar nicht eröffnet ist. Das gilt unabhängig von der Unternehmensgröße, und Informationssicherheitsanforderungen bleiben davon unberührt, da Datenschutz und Informationssicherheit unterschiedliche Schutzziele verfolgen.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "juristische Personen"
+      },
+      {
+        "germanWord": "personenbezogene Daten"
+      },
+      {
+        "germanWord": "Personenbezug"
+      }
+    ]
+  },
+  {
+    "id": "b0b79047-8037-4a25-9551-2e8f665f9a5e",
+    "text": "Ein Unternehmen hat weder eine ISO/IEC-27001-Zertifizierung noch eine gesetzliche Verpflichtung dazu. Ein wichtiger Kunde verlangt vertraglich, dass sich das Unternehmen an die ISO/IEC-27001-Anforderungen hält, jedoch ohne externe Zertifizierung zu verlangen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ohne Zertifizierung kann eine Norm grundsätzlich nicht wirksam vertraglich vereinbart werden"
+      },
+      {
+        "label": "B",
+        "text": "Die Vereinbarung ist wirkungslos, solange keine gesetzliche Grundlage für ISO/IEC 27001 existiert"
+      },
+      {
+        "label": "C",
+        "text": "Die Vereinbarung entspricht automatisch einer vollständigen Zertifizierungspflicht für das Unternehmen"
+      },
+      {
+        "label": "D",
+        "text": "Die Einhaltung der Anforderungen kann vertraglich bindend werden, obwohl keine Zertifizierungspflicht besteht"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie einzuordnen ist, dass ein Kunde vertraglich die Einhaltung von ISO/IEC-27001-Anforderungen verlangt, ohne eine externe Zertifizierung zu fordern.",
+      "whyCorrect": "Verbindlichkeit einer Norm kann auch ohne Zertifizierung und ohne gesetzliche Grundlage entstehen, nämlich durch eine vertragliche Vereinbarung zwischen den Parteien. Verlangt ein Kunde vertraglich die Einhaltung von ISO/IEC-27001-Anforderungen, wird diese Einhaltung dadurch bindend, weil der Vertrag selbst die Rechtsgrundlage der Verpflichtung bildet – unabhängig davon, ob eine Zertifizierungsstelle dies extern bestätigt. Eine Zertifizierungspflicht entsteht dadurch nicht automatisch, und die Vereinbarung ist keineswegs wirkungslos.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "vertraglich"
+      },
+      {
+        "germanWord": "wirkungslos"
+      }
+    ]
+  },
+  {
+    "id": "e0bbe481-7574-4fbd-b3ec-c6a7146c99c3",
+    "text": "Ein Unternehmen ist ISO/IEC 27001 zertifiziert und geht davon aus, damit automatisch alle für sein Geschäft geltenden gesetzlichen Cybersicherheitspflichten zu erfüllen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Annahme ist unzutreffend; gesetzliche Pflichten müssen unabhängig von einer Zertifizierung eigenständig ermittelt werden"
+      },
+      {
+        "label": "B",
+        "text": "Die Annahme ist zutreffend, weil eine Zertifizierung gesetzliche Einzelpflichten grundsätzlich abdeckt"
+      },
+      {
+        "label": "C",
+        "text": "Die Annahme ist zutreffend, solange die Zertifizierung jährlich erneuert wird"
+      },
+      {
+        "label": "D",
+        "text": "Die Annahme betrifft nur Unternehmen ohne eigene Rechtsabteilung"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, ob die Annahme zutrifft, dass eine ISO/IEC-27001-Zertifizierung automatisch alle geltenden gesetzlichen Cybersicherheitspflichten abdeckt.",
+      "whyCorrect": "Eine ISO/IEC-27001-Zertifizierung bestätigt, dass ein Informationssicherheitsmanagementsystem bestimmte Norm-Anforderungen erfüllt, deckt aber nicht automatisch alle spezifischen gesetzlichen Pflichten ab, die für ein Unternehmen je nach Branche, Größe oder Tätigkeit gelten können, etwa aus NIS-2, Datenschutzrecht oder branchenspezifischen Vorschriften. Gesetzliche Pflichten müssen deshalb unabhängig von einer bestehenden Zertifizierung eigenständig identifiziert und geprüft werden.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "eigenständig"
+      },
+      {
+        "germanWord": "gesetzliche Pflichten"
+      }
+    ]
+  },
+  {
+    "id": "8863edca-b71b-43a4-ad64-0cc0035ca6d6",
+    "text": "Die NIS-2-Richtlinie verpflichtet Mitgliedstaaten, ihre Vorgaben in nationales Recht umzusetzen, bevor sie für Unternehmen unmittelbar gilt. Welche Aussage zur Rechtsnatur ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Als EU-Richtlinie gilt NIS-2 unmittelbar in jedem Mitgliedstaat, ohne dass eine nationale Umsetzung nötig ist"
+      },
+      {
+        "label": "B",
+        "text": "Als EU-Richtlinie bedarf NIS-2 grundsätzlich der nationalen Umsetzung, im Unterschied zu einer unmittelbar geltenden EU-Verordnung"
+      },
+      {
+        "label": "C",
+        "text": "NIS-2 ist keine Rechtsvorschrift, sondern eine unverbindliche Empfehlung der EU-Kommission"
+      },
+      {
+        "label": "D",
+        "text": "NIS-2 gilt nur für Behörden, da Richtlinien generell nicht an Unternehmen adressiert sind"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welche Aussage zur Rechtsnatur von NIS-2 als EU-Richtlinie zutrifft.",
+      "whyCorrect": "Eine EU-Richtlinie wie NIS-2 verpflichtet die Mitgliedstaaten, ihre Ziele innerhalb einer bestimmten Frist in nationales Recht umzusetzen; sie gilt somit nicht unmittelbar für Unternehmen, sondern erst über das jeweilige nationale Umsetzungsgesetz. Das unterscheidet sie von einer EU-Verordnung, die in allen Mitgliedstaaten sofort und unmittelbar anwendbar ist, ohne dass eine nationale Umsetzung nötig wäre.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "EU-Richtlinie"
+      },
+      {
+        "germanWord": "EU-Verordnung"
+      },
+      {
+        "germanWord": "nationale Umsetzung"
+      }
+    ]
+  },
+  {
+    "id": "751165ad-1260-4b2f-a7c6-00726adefd9e",
+    "text": "Ein Unternehmen nutzt einen Cloud-Anbieter, der im Auftrag personenbezogene Kundendaten verarbeitet. Welche zusätzliche Vereinbarung ist datenschutzrechtlich erforderlich?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Keine zusätzliche Vereinbarung, da der übliche Dienstleistungsvertrag ausreicht"
+      },
+      {
+        "label": "B",
+        "text": "Eine ISO/IEC-27001-Zertifizierung des Cloud-Anbieters als alleiniger Ersatz für eine vertragliche Regelung"
+      },
+      {
+        "label": "C",
+        "text": "Ein gesonderter Auftragsverarbeitungsvertrag, der Pflichten und Kontrollrechte bezüglich der personenbezogenen Daten regelt"
+      },
+      {
+        "label": "D",
+        "text": "Eine Vereinbarung ist nur erforderlich, wenn der Cloud-Anbieter außerhalb der EU sitzt"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welche zusätzliche Vereinbarung datenschutzrechtlich erforderlich ist, wenn ein Cloud-Anbieter im Auftrag personenbezogene Kundendaten verarbeitet.",
+      "whyCorrect": "Verarbeitet ein Cloud-Anbieter personenbezogene Daten im Auftrag eines Unternehmens, handelt es sich um Auftragsverarbeitung im Sinne des Datenschutzrechts. Dafür ist zwingend ein gesonderter Auftragsverarbeitungsvertrag erforderlich, der die Pflichten des Anbieters sowie die Kontroll- und Weisungsrechte des Auftraggebers hinsichtlich der personenbezogenen Daten konkret regelt. Ein gewöhnlicher Dienstleistungsvertrag oder eine Zertifizierung allein ersetzt diese spezielle vertragliche Regelung nicht.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Auftragsverarbeitungsvertrag"
+      },
+      {
+        "germanWord": "Kontrollrechte"
+      }
+    ]
+  },
+  {
+    "id": "be36622c-0a13-4c57-adad-8c25594d1e5d",
+    "text": "Eine gemeinnützige Organisation übernimmt ISO/IEC-27001-Grundsätze freiwillig in ihre internen Vorgaben, strebt aber keine Zertifizierung an. Welche Aussage trifft zu?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ohne Zertifizierung dürfen Inhalte der Norm intern nicht als verbindlich gelten"
+      },
+      {
+        "label": "B",
+        "text": "Die freiwillige Übernahme macht ISO/IEC 27001 automatisch zu einem staatlichen Gesetz"
+      },
+      {
+        "label": "C",
+        "text": "Die Organisation kann die Grundsätze intern verbindlich festlegen, auch wenn daraus keine staatliche Zertifizierungspflicht entsteht"
+      },
+      {
+        "label": "D",
+        "text": "Ohne gesetzliche Pflicht sind interne Vorgaben in der Regel weniger durchsetzbar"
+      }
+    ],
+    "explanation": {
+      "summary": "Es geht darum, was es bedeutet, wenn eine gemeinnützige Organisation ISO/IEC-27001-Grundsätze freiwillig übernimmt, ohne eine Zertifizierung anzustreben.",
+      "whyCorrect": "Eine Organisation kann selbst festlegen, dass bestimmte Grundsätze – hier aus ISO/IEC 27001 – intern als verbindlich gelten sollen, unabhängig davon, ob eine externe Zertifizierung erfolgt. Verbindlichkeit entsteht in diesem Fall durch eigene interne Festlegung, etwa in Richtlinien, nicht durch ein Gesetz oder ein Zertifikat. Die freiwillige Übernahme macht die Norm nicht zum staatlichen Gesetz, und ohne staatliche Pflicht ist interne Verbindlichkeit trotzdem möglich und in der Praxis üblich.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "gemeinnützige Organisation"
+      },
+      {
+        "germanWord": "freiwillig"
+      }
+    ]
+  },
+  {
+    "id": "ea7c7ed4-de12-4148-8b3a-dc6908fa9434",
+    "text": "Ein mittelständisches Unternehmen prüft, ob es als KRITIS-Betreiber gilt, und zieht dafür ausschließlich die Zahl seiner Beschäftigten heran. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Beschäftigtenzahl allein reicht aus, da KRITIS-Schwellenwerte einheitlich für alle Branchen gelten"
+      },
+      {
+        "label": "B",
+        "text": "KRITIS-Betreiber werden ausschließlich anhand des Jahresumsatzes bestimmt"
+      },
+      {
+        "label": "C",
+        "text": "Die Einordnung als KRITIS-Betreiber ist freiwillig und kann vom Unternehmen selbst gewählt werden"
+      },
+      {
+        "label": "D",
+        "text": "Die Einordnung erfordert zusätzlich die Betrachtung von Sektor, erbrachter Leistung und den dafür geltenden Schwellenwerten"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, ob es korrekt ist, die Einordnung als KRITIS-Betreiber ausschließlich anhand der Beschäftigtenzahl vorzunehmen.",
+      "whyCorrect": "Die Einordnung als KRITIS-Betreiber hängt nicht allein von der Beschäftigtenzahl ab, sondern erfordert die gemeinsame Betrachtung von Sektor, der konkret erbrachten Leistung und den dafür jeweils festgelegten branchenspezifischen Schwellenwerten. Verschiedene Sektoren und Leistungsarten haben unterschiedliche Kriterien und Grenzwerte, sodass eine Einordnung allein über die Mitarbeiterzahl der komplexen, mehrdimensionalen Regelungslogik nicht gerecht wird.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Schwellenwerte"
+      },
+      {
+        "germanWord": "KRITIS-Betreiber"
+      }
+    ]
+  },
+  {
+    "id": "c7c70e95-7299-4bee-9cc5-f3207474222d",
+    "text": "Ein mittelständischer Fertigungsbetrieb möchte seine mögliche Betroffenheit durch neue Cybersicherheitsvorgaben einschätzen. Welche Informationsbasis ist für eine erste Einordnung am geeignetsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Bestehende Zertifikate als Hauptnachweis heranziehen, weil sie die wichtigsten Anforderungen bereits abdecken"
+      },
+      {
+        "label": "B",
+        "text": "Tätigkeit, Sektor, Dienste, Größe und Rolle gemeinsam prüfen und offene Rechtsfragen qualifiziert klären"
+      },
+      {
+        "label": "C",
+        "text": "Tätigkeit und Sektor betrachten; Größe und konkrete Dienste erst nach einer positiven Ersteinschätzung prüfen"
+      },
+      {
+        "label": "D",
+        "text": "Unternehmensgröße und Umsatz betrachten; konkrete Rolle und angebotene Dienste nicht berücksichtigen"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welche Informationsbasis für eine erste Einordnung der möglichen Betroffenheit durch neue Cybersicherheitsvorgaben am geeignetsten ist.",
+      "whyCorrect": "Eine belastbare Ersteinschätzung erfordert die gemeinsame Betrachtung von Tätigkeit, Sektor, angebotenen Diensten, Unternehmensgröße und der jeweiligen Rolle im Regelungsgefüge, ergänzt durch die qualifizierte Klärung offener Rechtsfragen. Nur dieses Zusammenspiel mehrerer Faktoren erlaubt eine belastbare Aussage, ob und in welchem Umfang neue Vorgaben greifen; die isolierte Betrachtung einzelner Kriterien wie nur Größe und Umsatz oder allein bestehender Zertifikate greift dagegen zu kurz.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Betroffenheit"
+      },
+      {
+        "germanWord": "Ersteinschätzung"
+      }
+    ]
+  }
+]

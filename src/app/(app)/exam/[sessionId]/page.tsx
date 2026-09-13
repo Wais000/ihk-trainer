@@ -43,7 +43,7 @@ export default async function ExamSessionPage({ params }: { params: Promise<{ se
   });
 
   return (
-    <main className="mx-auto max-w-2xl px-4 py-8">
+    <main className="mx-auto max-w-[852px] px-4 py-8">
       <ExamSession
         sessionId={sessionId}
         items={items}

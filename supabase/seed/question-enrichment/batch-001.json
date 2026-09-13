@@ -1,0 +1,232 @@
+[
+  {
+    "id": "ba694061-8de7-4dc8-a53c-21fe86390a19",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit soll die folgende Entscheidung getroffen werden: Ein mittelständischer Betrieb schützt personenbezogene Kundendaten und nicht personenbezogene Konstruktionspläne mit demselben Zugriffsmanagement. Welche Bewertung trifft den Sachverhalt am genauesten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Einordnung hängt vom Speicherort der Pläne ab, da digital gespeicherte Pläne ein anderes Schutzniveau benötigen"
+      },
+      {
+        "label": "B",
+        "text": "Das Zugriffsmanagement ist Datenschutz, weil es hier primär personenbezogene Daten schützt"
+      },
+      {
+        "label": "C",
+        "text": "Das Zugriffsmanagement ist Informationssicherheit; bei Kundendaten unterstützt es zugleich Datenschutzanforderungen"
+      },
+      {
+        "label": "D",
+        "text": "Das Zugriffsmanagement ist Informationssicherheit, weil Datenschutz eigene rechtliche statt technische Anforderungen stellt"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "72d3eb1a-5e72-4758-acbe-d47f4c1ddd83",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit stellt sich folgende Prüfungsfrage: Ein mittelständischer Betrieb möchte ein zertifizierbares ISMS aufbauen und für ausgewählte Controls konkrete Umsetzungshinweise nutzen. Welche fachliche Bewertung ist am genauesten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ISO/IEC 27001 dient der Zertifizierungsentscheidung; ISO/IEC 27002 ersetzt bei der Control-Ausgestaltung die organisationsbezogene Risikobewertung"
+      },
+      {
+        "label": "B",
+        "text": "ISO/IEC 27001 enthält die zertifizierbaren ISMS-Anforderungen; ISO/IEC 27002 ist umfassend und unverändert als verbindlicher Control-Satz umzusetzen"
+      },
+      {
+        "label": "C",
+        "text": "ISO/IEC 27001 beschreibt das Managementsystem; ISO/IEC 27002 legt die passenden Controls bereits vorab fest, bevor eine Risikobehandlung stattgefunden hat"
+      },
+      {
+        "label": "D",
+        "text": "ISO/IEC 27001 enthält prüfbare ISMS-Anforderungen; ISO/IEC 27002 bietet ergänzende Leitlinien für risikoorientiert ausgewählte Controls"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "63042f2a-70a6-4fe8-916f-cf9ede73b1a0",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit stellt sich folgende Prüfungsfrage: Eine Organisation möchte seine mögliche Betroffenheit durch neue Cybersicherheitsvorgaben einschätzen. Welche Informationsbasis ist für eine erste Einordnung am geeignetsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tätigkeit, Sektor, Dienste, Größe und Rolle gemeinsam überprüfen und offene Rechtsfragen qualifiziert klären"
+      },
+      {
+        "label": "B",
+        "text": "Tätigkeit und Sektor betrachten; Größe und konkrete Dienste erst nach einer positiven Ersteinschätzung überprüfen"
+      },
+      {
+        "label": "C",
+        "text": "Unternehmensgröße und Umsatz betrachten; konkrete Rolle und angebotene Dienste nicht berücksichtigen"
+      },
+      {
+        "label": "D",
+        "text": "Bestehende Zertifikate als Hauptnachweis heranziehen, weil sie die wichtigsten Anforderungen bereits abdecken"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "3bc0d971-ca82-4c9a-944b-776b268c45e1",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit wird die folgende Situation bewertet: Nach der Risikobehandlung sind mehrere Controls ausgewählt, andere bewusst nicht. Welche Dokumentation erfüllt den Zweck des SoA am sinnvollsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ausgewählte Controls auflisten und jede Nichtanwendung als geringeres Risiko einstufen"
+      },
+      {
+        "label": "B",
+        "text": "Liste aller Controls mit Umsetzungsstatus, aber ohne Bezug zu Auswahl oder Ausschluss"
+      },
+      {
+        "label": "C",
+        "text": "Relevante Controls mit Anwendbarkeit, Begründung und nachvollziehbarem Umgang nachvollziehbar festhalten"
+      },
+      {
+        "label": "D",
+        "text": "Begründungen für ausgeschlossene Controls in separaten Betriebsprotokollen dokumentieren"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "be18d4c4-cb34-4bc7-b9c8-fab7a86582a3",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit stellt sich folgende Prüfungsfrage: Ein Liefervertrag verlangt eine ISO/IEC-27001-Zertifizierung, obwohl keine entsprechende gesetzliche Pflicht festgestellt wurde. Welche Aussage ist am genauesten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ohne gesetzliche Pflicht kann höchstens eine unverbindliche Empfehlung vereinbart werden"
+      },
+      {
+        "label": "B",
+        "text": "Die Zertifizierung ist freiwillig, deshalb kann die Vertragsklausel keine Verbindlichkeit erzeugen"
+      },
+      {
+        "label": "C",
+        "text": "Die Vertragsklausel macht ISO/IEC 27001 zu einem staatlichen Gesetz für den Lieferanten"
+      },
+      {
+        "label": "D",
+        "text": "Die Zertifizierung kann vertraglich geschuldet sein, obwohl die Norm selbst kein Gesetz ist"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "6967b522-068f-461e-b5d7-f5f977f6f5d8",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit wird die folgende Situation bewertet: Eine Branche möchte typische Sicherheitsanforderungen konkretisieren; ein Unternehmensverbund möchte dagegen einen wiederverwendbaren IT-Grundschutz-Rahmen für gleichartige Standorte beschreiben. Welche Zuordnung passt am sinnvollsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Beide Zwecke werden durch dieselbe ISO/IEC-27001-Zertifizierungsurkunde umfassend abgedeckt"
+      },
+      {
+        "label": "B",
+        "text": "Für beide Zwecke eignet sich vorwiegend ein Grundschutz-Profil, da beide auf branchenweite Standardisierung zielen"
+      },
+      {
+        "label": "C",
+        "text": "Für die Branche eignet sich ein Grundschutz-Profil; für gleichartige Standorte eignet sich ebenfalls in erster Linie ein Profil"
+      },
+      {
+        "label": "D",
+        "text": "Für branchenspezifische Anforderungen kann ein B3S passen; für einen typischen Grundschutz-Anwendungsfall ein IT-Grundschutz-Profil"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "fd2cc6e4-59e2-420a-b60e-3373480eeeac",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit bespricht das zuständige Team folgenden Fall: Welches primäre Ziel verfolgt Datenschutz?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Verfügbarkeit von Daten für die Allgemeinheit, da diese am weitesten verbreitet sind"
+      },
+      {
+        "label": "B",
+        "text": "Den Schutz aller vertraulichen Unternehmensinformationen, gleich welcher Art"
+      },
+      {
+        "label": "C",
+        "text": "Den Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten"
+      },
+      {
+        "label": "D",
+        "text": "Die Zertifizierung jedes IT-Systems"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "57c19204-0ac4-4f65-b876-3ecc344be2b8",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit soll die folgende Entscheidung getroffen werden: Welche Aussage zu ISO/IEC 27001 trifft zu?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sie richtet sich in erster Linie an staatliche Behörden, während private Unternehmen eigene Regelwerke anwenden"
+      },
+      {
+        "label": "B",
+        "text": "Sie besteht im Kern aus technischen Anforderungen an einzelne Produkte"
+      },
+      {
+        "label": "C",
+        "text": "Sie ersetzt alle anwendbaren Gesetze"
+      },
+      {
+        "label": "D",
+        "text": "Sie enthält Anforderungen an ein grundsätzlich zertifizierbares ISMS"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "042c93a8-914b-4a1c-96b8-3510928d273b",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit stellt sich folgende Prüfungsfrage: Welche Rolle hat ISO/IEC 27002 im Verhältnis zu ISO/IEC 27001?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sie bietet ergänzende Leitlinien zur Ausgestaltung von Informationssicherheitsmaßnahmen"
+      },
+      {
+        "label": "B",
+        "text": "Sie ist das Datenschutzgesetz der Europäischen Union"
+      },
+      {
+        "label": "C",
+        "text": "Sie ersetzt die organisationsbezogene Risikobehandlung"
+      },
+      {
+        "label": "D",
+        "text": "Sie zertifiziert einzelne Sicherheitsprodukte"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "5cbb0ffc-292f-431d-a095-3ed043fbb9b2",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit wird die folgende Situation bewertet: Wie sind die BSI-Standards 200-x auf hoher Ebene einzuordnen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Als internes Prüfprogramm, das eigens für eine bestimmte Behörde entwickelt wurde"
+      },
+      {
+        "label": "B",
+        "text": "Als öffentlich verfügbare Methoden unter anderem für ISMS, Grundschutz, Risiko und BCM"
+      },
+      {
+        "label": "C",
+        "text": "Als Sammlung verbindlicher Strafvorschriften"
+      },
+      {
+        "label": "D",
+        "text": "Als Herstellerkatalog für zugelassene Firewalls"
+      }
+    ],
+    "correctLabel": "B"
+  }
+]

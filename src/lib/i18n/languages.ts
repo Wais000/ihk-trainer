@@ -3,7 +3,7 @@ import type { ExplanationLanguage } from "@/lib/validation/question";
 export const LANGUAGE_LABELS: Record<ExplanationLanguage, string> = {
   de: "Deutsch",
   en: "English",
-  dari: "دری",
+  dari: "فارسی",
   he: "עברית",
 };
 

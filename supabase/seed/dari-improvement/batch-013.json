@@ -1,0 +1,221 @@
+[
+  {
+    "id": "30d9bc6e-9cf8-4e6c-b0b8-6738ad8c8939",
+    "text": "Ein Unternehmen geht davon aus, dass eine im Ausland geltende Regelung für die eigene, rein national tätige Organisation grundsätzlich ohne jede Relevanz ist. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ausländische Regelungen sind für rein national tätige Unternehmen ausnahmslos irrelevant"
+      },
+      {
+        "label": "B",
+        "text": "Die Relevanz einer Regelung hängt ausschließlich vom Sitzland des eigenen Unternehmens ab"
+      },
+      {
+        "label": "C",
+        "text": "Die Relevanz einer ausländischen Regelung sollte im Einzelfall geprüft werden, etwa bei grenzüberschreitenden Geschäftsbeziehungen oder Datenflüssen"
+      },
+      {
+        "label": "D",
+        "text": "Eine Prüfung ausländischer Regelungen ist ausschließlich bei Unternehmen mit eigener Auslandsniederlassung erforderlich"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen annimmt, eine im Ausland geltende Regelung sei für die eigene, rein national tätige Organisation grundsätzlich ohne jede Relevanz.",
+      "whyCorrect": "Die Relevanz einer ausländischen Regelung sollte im Einzelfall geprüft werden, etwa wenn grenzüberschreitende Geschäftsbeziehungen bestehen oder Daten über Ländergrenzen hinweg fließen, da solche Regelungen auch nominell national tätige Unternehmen betreffen können, sobald ein grenzüberschreitender Bezug vorliegt. Die pauschale Annahme, ausländische Regelungen seien immer irrelevant, übersieht diese möglichen Berührungspunkte.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "grenzüberschreitend"
+      },
+      {
+        "germanWord": "Datenflüsse"
+      }
+    ]
+  },
+  {
+    "id": "c413c1b6-01fb-4992-b770-0cb9e70a0ec2",
+    "text": "Ein Unternehmen behandelt eine unternehmensinterne Richtlinie und eine gesetzliche Vorgabe zum selben Thema als vollständig gleichwertig, ohne ihre jeweilige Herkunft zu unterscheiden. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Interne Richtlinien und gesetzliche Vorgaben sind in ihrer Verbindlichkeit grundsätzlich identisch und müssen nicht unterschieden werden"
+      },
+      {
+        "label": "B",
+        "text": "Die Herkunft einer Anforderung ist für ihre praktische Umsetzung ohne jede Bedeutung"
+      },
+      {
+        "label": "C",
+        "text": "Eine Unterscheidung ist ausschließlich bei widersprüchlichen Anforderungen relevant"
+      },
+      {
+        "label": "D",
+        "text": "Die unterschiedliche Herkunft von interner Richtlinie und gesetzlicher Vorgabe sollte erkennbar bleiben, auch wenn beide inhaltlich ähnliche Anforderungen stellen"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen eine interne Richtlinie und eine gesetzliche Vorgabe zum selben Thema als vollständig gleichwertig behandelt, ohne ihre jeweilige Herkunft zu unterscheiden.",
+      "whyCorrect": "Die unterschiedliche Herkunft von interner Richtlinie und gesetzlicher Vorgabe sollte erkennbar bleiben, auch wenn beide inhaltlich ähnliche Anforderungen stellen, da sie sich in Verbindlichkeit, Änderbarkeit und rechtlichen Konsequenzen bei Nichteinhaltung unterscheiden können. Eine gesetzliche Vorgabe kann beispielsweise nicht eigenmächtig durch das Unternehmen geändert werden, während eine interne Richtlinie das grundsätzlich kann; diese Unterscheidung bleibt auch dann relevant, wenn keine Widersprüche zwischen beiden bestehen.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "gleichwertig"
+      }
+    ]
+  },
+  {
+    "id": "8d310fda-90bc-4532-963e-1b203036dc71",
+    "text": "Ein Unternehmen entscheidet sich für die Einhaltung eines internationalen Standards, ohne zu prüfen, ob dieser mit zwingenden nationalen Vorgaben im Einklang steht. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Internationale Standards haben grundsätzlich Vorrang vor nationalen gesetzlichen Vorgaben"
+      },
+      {
+        "label": "B",
+        "text": "Eine Prüfung der Vereinbarkeit ist ausschließlich bei branchenspezifischen Standards erforderlich"
+      },
+      {
+        "label": "C",
+        "text": "Die Vereinbarkeit eines internationalen Standards mit zwingenden nationalen Vorgaben sollte vorab geprüft werden, um Widersprüche zu vermeiden"
+      },
+      {
+        "label": "D",
+        "text": "Zwingende nationale Vorgaben und internationale Standards können sich inhaltlich grundsätzlich nicht widersprechen"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen sich für die Einhaltung eines internationalen Standards entscheidet, ohne zu prüfen, ob dieser mit zwingenden nationalen Vorgaben im Einklang steht.",
+      "whyCorrect": "Die Vereinbarkeit eines internationalen Standards mit zwingenden nationalen Vorgaben sollte vorab geprüft werden, um mögliche Widersprüche zu vermeiden, da internationale Standards nicht automatisch Vorrang vor nationalem Recht haben und ein zwingendes nationales Gesetz auch dann eingehalten werden muss, wenn ein befolgter Standard etwas anderes vorsieht. Ohne diese Prüfung besteht das Risiko, gegen zwingende nationale Vorschriften zu verstoßen, obwohl der internationale Standard eingehalten wird.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "zwingende Vorgaben"
+      },
+      {
+        "germanWord": "Vereinbarkeit"
+      }
+    ]
+  },
+  {
+    "id": "5658ffe8-a004-4f68-ab30-1f9dac76f47e",
+    "text": "Ein Unternehmen behandelt eine unverbindliche behördliche Orientierungshilfe als vollständig gleichwertig mit einer verbindlichen gesetzlichen Vorschrift zum selben Thema. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Behördliche Orientierungshilfen sind grundsätzlich ebenso verbindlich wie gesetzliche Vorschriften"
+      },
+      {
+        "label": "B",
+        "text": "Der Verbindlichkeitsgrad eines Dokuments ist für seine praktische Umsetzung ohne Bedeutung"
+      },
+      {
+        "label": "C",
+        "text": "Eine Unterscheidung ist ausschließlich bei einem tatsächlichen Widerspruch zwischen beiden Dokumenten relevant"
+      },
+      {
+        "label": "D",
+        "text": "Eine unverbindliche Orientierungshilfe und eine verbindliche gesetzliche Vorschrift sollten in ihrem unterschiedlichen Verbindlichkeitsgrad erkennbar bleiben"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen eine unverbindliche behördliche Orientierungshilfe als vollständig gleichwertig mit einer verbindlichen gesetzlichen Vorschrift zum selben Thema behandelt.",
+      "whyCorrect": "Eine unverbindliche Orientierungshilfe und eine verbindliche gesetzliche Vorschrift sollten in ihrem unterschiedlichen Verbindlichkeitsgrad erkennbar bleiben, auch wenn sie inhaltlich ähnliche Empfehlungen oder Anforderungen zum selben Thema betreffen. Eine Orientierungshilfe dient primär der Auslegung oder Unterstützung, ist aber nicht mit derselben rechtlichen Durchsetzbarkeit verbunden wie eine gesetzliche Vorschrift. Diese Unterscheidung bleibt auch dann wichtig, wenn kein tatsächlicher Widerspruch zwischen beiden Dokumenten besteht.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Orientierungshilfe"
+      },
+      {
+        "germanWord": "Verbindlichkeitsgrad"
+      }
+    ]
+  },
+  {
+    "id": "49dd3430-bf1f-40e0-b421-ccf87270eba4",
+    "text": "Ein Unternehmen verweist in seiner internen Richtlinie pauschal auf 'die DSGVO', ohne die für den konkreten Verarbeitungsvorgang tatsächlich einschlägigen Artikel zu benennen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ein pauschaler Verweis auf die DSGVO ist in jedem Fall ausreichend, da alle Artikel ohnehin gleichermaßen gelten"
+      },
+      {
+        "label": "B",
+        "text": "Die Benennung konkreter Artikel ist ausschließlich bei besonders sensiblen Datenkategorien erforderlich"
+      },
+      {
+        "label": "C",
+        "text": "Eine konkrete Benennung der einschlägigen Artikel erleichtert die praktische Umsetzung und Prüfung der Richtlinie erheblich"
+      },
+      {
+        "label": "D",
+        "text": "Eine genauere Benennung einschlägiger Artikel hätte keinen praktischen Nutzen für die Umsetzung"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen in seiner internen Richtlinie pauschal auf 'die DSGVO' verweist, ohne die für den konkreten Verarbeitungsvorgang tatsächlich einschlägigen Artikel zu benennen.",
+      "whyCorrect": "Eine konkrete Benennung der einschlägigen Artikel erleichtert die praktische Umsetzung und Prüfung der Richtlinie erheblich, da Mitarbeitende und Prüfer sonst selbst herausfinden müssten, welche der zahlreichen Regelungen der DSGVO tatsächlich für den jeweiligen Verarbeitungsvorgang relevant sind. Ein pauschaler Verweis lässt offen, welche spezifischen Pflichten gemeint sind, und erschwert damit sowohl die Anwendung im Alltag als auch spätere Kontrollen.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "pauschaler Verweis"
+      },
+      {
+        "germanWord": "einschlägige Artikel"
+      }
+    ]
+  },
+  {
+    "id": "4c6ff1b8-2885-420b-9aea-74bd222699e8",
+    "text": "Ein Unternehmen übernimmt eine branchenspezifische Sicherheitsnorm vollständig, ohne zu prüfen, ob einzelne ihrer Anforderungen über die eigenen gesetzlichen Mindestpflichten hinausgehen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Anforderungen, die über gesetzliche Mindestpflichten hinausgehen, sind für die praktische Umsetzung ohne jede Bedeutung"
+      },
+      {
+        "label": "B",
+        "text": "Branchenspezifische Normen dürfen grundsätzlich nicht über gesetzliche Mindestpflichten hinausgehen"
+      },
+      {
+        "label": "C",
+        "text": "Eine Unterscheidung zwischen Mindestpflicht und darüber hinausgehender Anforderung ist praktisch nicht möglich"
+      },
+      {
+        "label": "D",
+        "text": "Es ist sinnvoll zu erkennen, welche Anforderungen der Norm über die gesetzlichen Mindestpflichten hinausgehen, um deren Umsetzung bewusst zu priorisieren"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen eine branchenspezifische Sicherheitsnorm vollständig übernimmt, ohne zu prüfen, ob einzelne Anforderungen über die eigenen gesetzlichen Mindestpflichten hinausgehen.",
+      "whyCorrect": "Es ist sinnvoll zu erkennen, welche Anforderungen der Norm über die gesetzlichen Mindestpflichten hinausgehen, um deren Umsetzung bewusst zu priorisieren und Ressourcen gezielt einzusetzen. Ohne diese Unterscheidung bleibt unklar, welche Maßnahmen zwingend erforderlich sind und welche freiwillig zusätzlichen Schutz bieten, was eine informierte Steuerung der Umsetzung erschwert. Eine solche Unterscheidung ist praktisch durchaus möglich und branchenspezifische Normen dürfen durchaus über die gesetzlichen Mindestanforderungen hinausgehen.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Mindestpflichten"
+      },
+      {
+        "germanWord": "priorisieren"
+      }
+    ]
+  }
+]

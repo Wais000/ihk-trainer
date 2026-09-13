@@ -2,8 +2,9 @@
  * Imports Claude-generated full question enrichment (see
  * scripts/prompts/question-enrichment-prompt.md and
  * export-questions-for-enrichment.ts) — explanations in all 4 languages,
- * vocabulary, topic/difficulty classification, and a question translation
- * — an offline alternative to generating all of this live via Gemini.
+ * vocabulary, topic/difficulty classification, a question-stem translation,
+ * and a separate translation for each answer option — an offline
+ * alternative to generating all of this live via Gemini.
  *
  * Usage:
  *   npm run import:enrichment -- --email=you@example.com [--dir=path]
@@ -51,9 +52,9 @@ function slugify(text: string): string {
 interface ExplanationBlock {
   summary: string;
   whyCorrect: string;
-  whyIncorrect: string;
-  commonTrap: string | null;
-  testedConcept: string | null;
+  whyIncorrect?: string | null;
+  commonTrap?: string | null;
+  testedConcept?: string | null;
 }
 
 interface VocabItem {
@@ -62,6 +63,13 @@ interface VocabItem {
   dari?: string | null;
   hebrew?: string | null;
   shortGermanExplanation?: string | null;
+}
+
+interface OptionTranslationItem {
+  label: string;
+  en?: string | null;
+  dari?: string | null;
+  he?: string | null;
 }
 
 interface EnrichmentItem {
@@ -78,6 +86,7 @@ interface EnrichmentItem {
   };
   vocabulary: VocabItem[];
   questionTranslation: { en?: string; dari?: string; he?: string };
+  optionTranslations?: OptionTranslationItem[];
 }
 
 const EXPLANATION_LANGS = ["de", "en", "dari", "he"] as const;
@@ -132,6 +141,16 @@ async function main() {
   const { data: ownQuestions, error: qError } = await supabase.from("questions").select("id").eq("user_id", userId);
   if (qError) throw qError;
   const ownIds = new Set((ownQuestions ?? []).map((q) => q.id));
+
+  const { data: allOptions, error: oError } = await supabase
+    .from("question_options")
+    .select("id, question_id, label")
+    .eq("owner_id", userId);
+  if (oError) throw oError;
+  const optionIdByQuestionAndLabel = new Map<string, string>();
+  for (const o of allOptions ?? []) {
+    optionIdByQuestionAndLabel.set(`${o.question_id}:${o.label}`, o.id);
+  }
 
   const topicCache = new Map<string, string | null>();
   async function ensureTopic(topicName: string): Promise<string | null> {
@@ -189,9 +208,9 @@ async function main() {
               source: "ai_generated" as const,
               summary: block.summary,
               why_correct: block.whyCorrect,
-              why_incorrect: block.whyIncorrect,
-              common_trap: block.commonTrap,
-              tested_concept: block.testedConcept,
+              why_incorrect: block.whyIncorrect ?? null,
+              common_trap: block.commonTrap ?? null,
+              tested_concept: block.testedConcept ?? null,
               generated_at: new Date().toISOString(),
             },
             { onConflict: "question_id,language" }
@@ -224,6 +243,23 @@ async function main() {
             { onConflict: "question_id,language" }
           );
           if (transError) throw transError;
+        }
+
+        for (const opt of item.optionTranslations ?? []) {
+          const optionId = optionIdByQuestionAndLabel.get(`${item.id}:${opt.label}`);
+          if (!optionId) {
+            console.error(`  No matching option "${opt.label}" for question ${item.id} — skipping its translations`);
+            continue;
+          }
+          for (const lang of TRANSLATION_LANGS) {
+            const text = opt[lang];
+            if (!text || !text.trim()) continue;
+            const { error: optTransError } = await supabase.from("question_option_translations").upsert(
+              { question_option_id: optionId, owner_id: userId, language: lang, translated_text: text.trim() },
+              { onConflict: "question_option_id,language" }
+            );
+            if (optTransError) throw optTransError;
+          }
         }
 
         imported++;

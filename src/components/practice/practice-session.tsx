@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { X, Eye, CheckCircle2, XCircle, ChevronLeft, ChevronRight, Loader2 } from "lucide-react";
 import { recordAttemptAction } from "@/lib/attempts/actions";
-import { getQuestionTranslationAction } from "@/app/actions/translation";
+import { getQuestionTranslationAction, getOptionTranslationAction } from "@/app/actions/translation";
 import { useKeyboardShortcuts } from "@/hooks/use-keyboard-shortcuts";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -34,6 +34,17 @@ export interface PracticeSessionProps {
   questions: SessionQuestion[];
   mode: "practice" | "review";
   instantTranslationEnabled: boolean;
+  /** Four independent Settings toggles for full-sentence translation,
+   * separate from word-hover translation (instantTranslationEnabled) —
+   * a learner may want only some of these on at once. */
+  translateQuestionEnabled: boolean;
+  translateAnswersEnabled: boolean;
+  /** Shows just the correct option's translation once it's revealed
+   * (submitted or "show answer"), even when translateAnswersEnabled is off
+   * — lets a learner avoid seeing every option's translation up front but
+   * still get help understanding the correct one afterward. */
+  translateCorrectAnswerEnabled: boolean;
+  translateExplanationEnabled: boolean;
   /** The user's preferred non-German language (from Settings), shown as the
    * second explanation tab. The explanation panel always opens on Deutsch. */
   secondaryLanguage: ExplanationLanguage;
@@ -50,6 +61,12 @@ export interface PracticeSessionProps {
    * sessionStorage) so previously-answered questions still show their real
    * outcome instead of resetting to blank every time the session restarts. */
   initialHistory?: Record<string, QuestionHistoryEntry>;
+  /** Jump straight to this question index on mount — e.g. from the
+   * sidebar's "Marked" widget, which links to a specific bookmarked
+   * question. Takes priority over both a restored sessionStorage position
+   * and the initialHistory "first unanswered" landing spot, since it's an
+   * explicit navigation choice. */
+  initialIndex?: number;
 }
 
 interface AnswerRecord {
@@ -77,10 +94,15 @@ export function PracticeSession({
   questions,
   mode,
   instantTranslationEnabled,
+  translateQuestionEnabled,
+  translateAnswersEnabled,
+  translateCorrectAnswerEnabled,
+  translateExplanationEnabled,
   secondaryLanguage,
   storageKey,
   onProgressChange,
   initialHistory,
+  initialIndex,
 }: PracticeSessionProps) {
   const router = useRouter();
   const dict = useUiDictionary();
@@ -97,6 +119,11 @@ export function PracticeSession({
   // request per question (cached server-side after that), not per word.
   const [questionTranslations, setQuestionTranslations] = useState<Record<string, { translation: string; dir: "ltr" | "rtl" }>>({});
   const [failedTranslationIds, setFailedTranslationIds] = useState<Set<string>>(new Set());
+  // Same idea, but one per answer option — kept in its own map (keyed by
+  // option id) so each option's translation stays paired with that option's
+  // own German text instead of being bundled into the question's paragraph.
+  const [optionTranslations, setOptionTranslations] = useState<Record<string, { translation: string; dir: "ltr" | "rtl" }>>({});
+  const [failedOptionTranslationIds, setFailedOptionTranslationIds] = useState<Set<string>>(new Set());
 
   const current = answers[index] ?? EMPTY_ANSWER;
 
@@ -149,6 +176,9 @@ export function PracticeSession({
         if (firstUnansweredIndex >= 0) setIndex(firstUnansweredIndex);
       }
     }
+    if (initialIndex != null && initialIndex >= 0 && initialIndex < questions.length) {
+      setIndex(initialIndex);
+    }
     setRestored(true);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -180,15 +210,20 @@ export function PracticeSession({
 
   const question = questions[index];
   const isLast = index >= questions.length - 1;
+  // How many questions have actually been answered (submitted), regardless
+  // of correctness — not the current position in the list, so jumping
+  // straight to the last question and answering it doesn't show 100%
+  // while everything in between is still unanswered.
+  const answeredCount = Object.values(answers).filter((a) => a.submitted).length;
 
   // Fetch the current question's full-sentence translation on demand (once
   // per question, cached thereafter both here and server-side) instead of
   // relying only on translating individual hovered words.
   useEffect(() => {
-    if (!translationOn || !question) return;
+    if (!translationOn || !translateQuestionEnabled || !question) return;
     if (questionTranslations[question.id] || failedTranslationIds.has(question.id)) return;
     let cancelled = false;
-    getQuestionTranslationAction(question.id, question.question_text).then((result) => {
+    getQuestionTranslationAction(question.id).then((result) => {
       if (cancelled) return;
       if (result) {
         setQuestionTranslations((prev) => ({ ...prev, [question.id]: result }));
@@ -199,7 +234,39 @@ export function PracticeSession({
     return () => {
       cancelled = true;
     };
-  }, [translationOn, question, questionTranslations, failedTranslationIds]);
+  }, [translationOn, translateQuestionEnabled, question, questionTranslations, failedTranslationIds]);
+
+  // Same on-demand fetch, but per answer option — each option gets its own
+  // translation request/cache entry so none of them get merged together.
+  // Fetched whenever either "all answers" or "correct answer only" is
+  // enabled, since the latter still needs this same cached data — it just
+  // renders a subset of it, once the correct option is revealed.
+  useEffect(() => {
+    if (!translationOn || !question) return;
+    if (!translateAnswersEnabled && !translateCorrectAnswerEnabled) return;
+    let cancelled = false;
+    for (const option of question.question_options) {
+      if (optionTranslations[option.id] || failedOptionTranslationIds.has(option.id)) continue;
+      getOptionTranslationAction(option.id).then((result) => {
+        if (cancelled) return;
+        if (result) {
+          setOptionTranslations((prev) => ({ ...prev, [option.id]: result }));
+        } else {
+          setFailedOptionTranslationIds((prev) => new Set(prev).add(option.id));
+        }
+      });
+    }
+    return () => {
+      cancelled = true;
+    };
+  }, [
+    translationOn,
+    translateAnswersEnabled,
+    translateCorrectAnswerEnabled,
+    question,
+    optionTranslations,
+    failedOptionTranslationIds,
+  ]);
 
   const explanationsByLanguage = useMemo(() => {
     if (!question) return {};
@@ -337,7 +404,7 @@ export function PracticeSession({
             ))}
           </p>
 
-          {translationOn && (
+          {translationOn && translateQuestionEnabled && (
             <div className="rounded-md border border-accent bg-accent/40 px-3 py-2.5">
               {questionTranslations[question.id] ? (
                 <p
@@ -346,13 +413,13 @@ export function PracticeSession({
                 >
                   {questionTranslations[question.id].translation}
                 </p>
+              ) : failedTranslationIds.has(question.id) ? (
+                <p className="text-sm italic text-muted-foreground">{dict.common.noTranslationAvailable}</p>
               ) : (
-                !failedTranslationIds.has(question.id) && (
-                  <p className="flex items-center gap-1.5 text-sm text-muted-foreground">
-                    <Loader2 className="size-3.5 animate-spin" />
-                    {dict.common.loading}
-                  </p>
-                )
+                <p className="flex items-center gap-1.5 text-sm text-muted-foreground">
+                  <Loader2 className="size-3.5 animate-spin" />
+                  {dict.common.loading}
+                </p>
               )}
             </div>
           )}
@@ -408,8 +475,27 @@ export function PracticeSession({
                       </span>
                     )}
                   </span>
-                  <span className="text-foreground">
-                    <TranslatableText text={option.option_text} enabled={translationOn} />
+                  <span className="flex flex-col gap-1 text-foreground">
+                    <span>
+                      <TranslatableText text={option.option_text} enabled={translationOn} />
+                    </span>
+                    {translationOn &&
+                      (translateAnswersEnabled || (translateCorrectAnswerEnabled && showAsCorrect)) &&
+                      (optionTranslations[option.id] ? (
+                        <span
+                          dir={optionTranslations[option.id].dir}
+                          className="text-xs leading-relaxed text-muted-foreground"
+                        >
+                          {optionTranslations[option.id].translation}
+                        </span>
+                      ) : failedOptionTranslationIds.has(option.id) ? (
+                        <span className="text-xs italic text-muted-foreground">{dict.common.noTranslationAvailable}</span>
+                      ) : (
+                        <span className="flex items-center gap-1 text-xs text-muted-foreground">
+                          <Loader2 className="size-3 animate-spin" />
+                          {dict.common.loading}
+                        </span>
+                      ))}
                   </span>
                 </div>
               );
@@ -483,6 +569,7 @@ export function PracticeSession({
                   explanations={explanationsByLanguage}
                   secondaryLanguage={secondaryLanguage}
                   correctLabel={question.question_options.find((o) => o.is_correct)?.label ?? ""}
+                  translateExplanationEnabled={translateExplanationEnabled}
                 />
               )}
             </div>
@@ -490,9 +577,17 @@ export function PracticeSession({
         </CardContent>
       </Card>
 
+      {/* Spacer so the fixed footer below never overlaps the last bit of
+          real content — height matches the footer's own rendered height. */}
+      <div className="h-20" aria-hidden="true" />
+
       {/* Persistent footer: Previous / progress bar / Next, always visible
-          regardless of answered state (matching the reference design). */}
-      <div className="flex items-center gap-3">
+          regardless of answered state (matching the reference design).
+          Fixed to the viewport bottom, spanning only the main content area
+          (offset past the 260px desktop sidebar — see SidebarNav — so it
+          never extends under it), sitting above the mobile BottomNav
+          (which is 4rem tall) on small screens. */}
+      <div className="fixed inset-x-0 bottom-16 z-30 flex items-center gap-3 border-t border-border bg-background px-4 py-3 md:bottom-0 md:left-[260px] md:right-0">
         <Button variant="ghost" size="sm" onClick={() => previous()} disabled={index === 0} className="gap-1">
           <ChevronLeft className="size-4" />
           {dict.practice.previous}
@@ -500,7 +595,7 @@ export function PracticeSession({
         <div className="h-1.5 flex-1 overflow-hidden rounded-pill bg-muted">
           <div
             className="h-full rounded-pill bg-primary transition-all"
-            style={{ width: `${((index + 1) / questions.length) * 100}%` }}
+            style={{ width: `${(answeredCount / questions.length) * 100}%` }}
           />
         </div>
         <Button size="sm" onClick={() => next()} disabled={!current.submitted} className="gap-1">

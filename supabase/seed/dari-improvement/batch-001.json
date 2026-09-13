@@ -1,0 +1,622 @@
+[
+  {
+    "id": "46651584-70ae-4726-9ea9-47e9d8ce2966",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Organisation schützt einen rein papiergebundenen Vertragsbestand, der nie elektronisch verarbeitet wird. Welcher Sicherheitsbereich ist dafür unmittelbar relevant?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Business Continuity, weil die Verfügbarkeit des Archivs im Vordergrund steht"
+      },
+      {
+        "label": "B",
+        "text": "Cyber-Sicherheit, weil Verträge im weiteren Sinn zum digitalen Geschäftsumfeld gehören"
+      },
+      {
+        "label": "C",
+        "text": "Informationssicherheit, weil auch nichtdigitale Informationen geschützt werden"
+      },
+      {
+        "label": "D",
+        "text": "IT-Sicherheit, weil physische Aufbewahrung dieselben Anforderungen wie IT-Systeme stellt"
+      }
+    ],
+    "explanation": {
+      "summary": "Die Frage prüft das genaue Verständnis der Begriffe Informationssicherheit, IT-Sicherheit und Cyber-Sicherheit anhand eines rein analogen Beispiels (Papierverträge).",
+      "whyCorrect": "Informationssicherheit ist der Oberbegriff und schützt Informationen in jeglicher Form – ganz egal, ob sie digital auf Festplatten, analog auf Papier oder mündlich vorliegen. Daher ist dieser Bereich unmittelbar relevant.",
+      "whyIncorrect": "A ist falsch, weil Business Continuity Management die Aufrechterhaltung des Geschäftsbetriebs bei Notfällen beschreibt, nicht den grundsätzlichen Schutz von analogen Akten. B ist falsch, weil Cyber-Sicherheit sich spezifisch auf den digitalen Raum und vernetzte Systeme bezieht. D ist falsch, da IT-Sicherheit den Schutz von IT-Systemen und elektronischen Daten betrifft; Papier ist jedoch kein IT-System.",
+      "commonTrap": "Oft werden Informationssicherheit und IT-Sicherheit synonym verwendet. Für die IHK-Prüfung gilt: IT-Sicherheit betrifft nur IT-Systeme, Informationssicherheit umfasst auch Papierakten und Wissen in Köpfen.",
+      "testedConcept": "Unterschied zwischen Informationssicherheit und IT-Sicherheit"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Informationssicherheit"
+      },
+      {
+        "germanWord": "IT-Sicherheit"
+      },
+      {
+        "germanWord": "Cyber-Sicherheit"
+      },
+      {
+        "germanWord": "papiergebunden"
+      },
+      {
+        "germanWord": "Business Continuity"
+      }
+    ]
+  },
+  {
+    "id": "d17a0633-5e38-4535-b765-7043d0604aea",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Tätergruppe kann eine ungepatchte Schwachstelle eines öffentlich erreichbaren Servers ausnutzen. Welche Aussage bildet die Begriffe fachlich am genauesten ab?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tätergruppe als Schwachstelle, Serverreichweite als Risiko und Patch als Bedrohung"
+      },
+      {
+        "label": "B",
+        "text": "Tätergruppe als Bedrohung, ungepatchte Stelle als Schwachstelle und mögliche Schadensfolge als Risiko"
+      },
+      {
+        "label": "C",
+        "text": "Tätergruppe als Gefährdung, ungepatchte Stelle als Risiko und Serverreichweite als Schwachstelle"
+      },
+      {
+        "label": "D",
+        "text": "Tätergruppe als Risiko, ungepatchte Stelle als Bedrohung und Schadensfolge als Gefährdung"
+      }
+    ],
+    "explanation": {
+      "summary": "Die Frage prüft das Verständnis und die korrekte Zuordnung der IT-Sicherheits-Grundbegriffe Bedrohung, Schwachstelle und Risiko anhand eines praxisnahen Szenarios.",
+      "whyCorrect": "Die Tätergruppe ist die äußere Bedrohung (Threat), da sie potenziell Schaden verursachen kann. Die ungepatchte Softwarestelle ist die Schwachstelle (Vulnerability), also die konkrete Sicherheitslücke. Die mögliche Schadensfolge zusammen mit dem Eintrittsrisiko bildet das Risiko (Risk) ab.",
+      "whyIncorrect": "A ordnet die Tätergruppe falsch als Schwachstelle und den Patch als Bedrohung ein. C und D verwechseln die Fachbegriffe grundlegend, indem sie die Tätergruppe als Gefährdung oder Risiko bezeichnen und die Serverreichweite oder ungepatchte Stelle falsch klassifizieren.",
+      "commonTrap": "Im Alltagssprachgebrauch werden Begriffe wie Bedrohung, Risiko und Schwachstelle oft synonym verwendet. In IHK-Prüfungen und im IT-Sicherheitsmanagement (z. B. nach BSI) müssen sie jedoch präzise unterschieden werden.",
+      "testedConcept": "Grundbegriffe der Informationssicherheit (Bedrohung, Schwachstelle, Risiko)"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Bedrohung"
+      },
+      {
+        "germanWord": "Schwachstelle"
+      },
+      {
+        "germanWord": "Risiko"
+      },
+      {
+        "germanWord": "ungepatcht"
+      },
+      {
+        "germanWord": "Schadensfolge"
+      }
+    ]
+  },
+  {
+    "id": "932da3b6-b071-4d4a-b836-2bf6613797f7",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen bespricht das zuständige Team folgenden Fall: Ein freigegebener Überweisungsdatensatz bleibt jederzeit verfügbar und nur für Berechtigte lesbar, wird aber unbemerkt verändert. Welches Schutzziel ist primär betroffen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Authentizität, weil die Erreichbarkeit des freigegebenen Datensatzes nicht nachgewiesen ist"
+      },
+      {
+        "label": "B",
+        "text": "Verfügbarkeit, weil eine veränderte Information fachlich nicht mehr wie vorgesehen nutzbar ist"
+      },
+      {
+        "label": "C",
+        "text": "Integrität, weil Richtigkeit und Unverändertheit des Datensatzes nicht gewährleistet sind"
+      },
+      {
+        "label": "D",
+        "text": "Vertraulichkeit, weil eine unautorisierte Veränderung zugleich eine Offenlegung voraussetzt"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welches Schutzziel betroffen ist, wenn ein verfügbarer und nur für Berechtigte lesbarer Datensatz unbemerkt verändert wird.",
+      "whyCorrect": "C ist richtig, weil die unbemerkte Veränderung die Richtigkeit und Unversehrtheit der Daten betrifft – genau das beschreibt Integrität.",
+      "whyIncorrect": "A ist falsch, weil Authentizität den Nachweis der Herkunft betrifft, nicht die Erreichbarkeit, die laut Angabe ohnehin gegeben ist. B ist falsch, weil die Verfügbarkeit laut Aufgabe nicht eingeschränkt ist. D ist falsch, weil Vertraulichkeit unautorisierte Kenntnisnahme betrifft; eine Veränderung erfordert keine Offenlegung.",
+      "commonTrap": "Integrität wird mit Vertraulichkeit verwechselt, weil beide mit 'unautorisiert' zu tun haben.",
+      "testedConcept": "Schutzziel Integrität"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Integrität"
+      },
+      {
+        "germanWord": "Schutzziel"
+      }
+    ]
+  },
+  {
+    "id": "08325ef3-a57e-4481-879e-27f4c521b4c5",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Welche Aussage beschreibt das Verhältnis von Sicherheit und Schutz am sinnvollsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sicherheit und Schutz bezeichnen beide denselben Endzustand und lassen sich in der Praxis austauschbar verwenden"
+      },
+      {
+        "label": "B",
+        "text": "Sicherheit ist eine einzelne technische Maßnahme; Schutz bezeichnet deren praktische Umsetzung im Betrieb"
+      },
+      {
+        "label": "C",
+        "text": "Schutz ist der angestrebte Zustand; Sicherheit besteht aus organisatorischen Regeln, die diesen Zustand erzeugen"
+      },
+      {
+        "label": "D",
+        "text": "Sicherheit ist der angestrebte Zustand; Schutz wird durch geeignete technische, organisatorische, personelle oder infrastrukturelle Maßnahmen geschaffen"
+      }
+    ],
+    "explanation": {
+      "summary": "Es soll geklärt werden, wie sich die Begriffe Sicherheit und Schutz zueinander verhalten.",
+      "whyCorrect": "D ist richtig, weil Sicherheit den angestrebten Zustand beschreibt, der durch konkrete technische, organisatorische, personelle oder infrastrukturelle Maßnahmen (Schutz) erreicht wird.",
+      "whyIncorrect": "A ist falsch, weil die Begriffe unterschiedliche Ebenen beschreiben und nicht austauschbar sind. B ist falsch, weil Sicherheit kein einzelne Maßnahme, sondern ein Zustand ist. C ist falsch, weil die Zuordnung von Zustand und Maßnahme genau vertauscht ist.",
+      "commonTrap": "Die Begriffe Sicherheit und Schutz werden oft synonym oder vertauscht verwendet.",
+      "testedConcept": "Sicherheit als Zustand, Schutz als Maßnahme"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Schutz"
+      }
+    ]
+  },
+  {
+    "id": "b5300dda-211e-4cee-9b81-fac3b7bb9bd3",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Ein ungepatchter Laptop wird ausgeschaltet in einem gesicherten Tresor gelagert. Welche Aussage ordnet Schwachstelle und Risiko am genauesten ein?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Das Risiko entspricht dem möglichen Schaden und kann deshalb ohne Eintrittswahrscheinlichkeit bewertet werden"
+      },
+      {
+        "label": "B",
+        "text": "Durch die bekannte Schwachstelle besteht ein Risiko in Höhe des theoretisch maximal möglichen Schadens"
+      },
+      {
+        "label": "C",
+        "text": "Die Schwachstelle bleibt bestehen; das aktuelle Risiko ergibt sich erst aus Bedrohung, Exposition und möglicher Auswirkung"
+      },
+      {
+        "label": "D",
+        "text": "Der Tresor beseitigt die Schwachstelle, solange das Gerät nicht mit einem Netzwerk verbunden ist"
+      }
+    ],
+    "explanation": {
+      "summary": "Es geht um die Einordnung von Schwachstelle und Risiko bei einem ausgeschalteten, ungepatchten Laptop in einem Tresor.",
+      "whyCorrect": "C ist richtig, weil die Schwachstelle (fehlende Patches) unabhängig vom Lagerort bestehen bleibt, das tatsächliche Risiko sich aber erst aus Bedrohung, Exposition und möglichen Auswirkungen ergibt – und diese sind hier durch den Tresor stark reduziert.",
+      "whyIncorrect": "A ist falsch, weil Risiko immer sowohl Schadenshöhe als auch Eintrittswahrscheinlichkeit umfasst. B ist falsch, weil das Risiko nicht automatisch dem theoretischen Maximalschaden entspricht, sondern von der Exposition abhängt. D ist falsch, weil der Tresor die Schwachstelle nicht beseitigt, sondern nur die Exposition und damit das Risiko senkt.",
+      "commonTrap": "Schwachstelle und Risiko werden gleichgesetzt, obwohl Risiko zusätzlich von Bedrohung und Exposition abhängt.",
+      "testedConcept": "Unterscheidung Schwachstelle vs. Risiko"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Exposition"
+      },
+      {
+        "germanWord": "Schwachstelle"
+      }
+    ]
+  },
+  {
+    "id": "6c5f96bd-1672-4a89-bd45-1e74ec44fb6a",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Welche Form kann eine schutzbedürftige Information haben?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wenn sie personenbezogen ist, da andere Informationsarten regulatorisch weniger erfasst sind"
+      },
+      {
+        "label": "B",
+        "text": "Erst dann, wenn sie in einem IT-System gespeichert und damit technisch erfassbar ist"
+      },
+      {
+        "label": "C",
+        "text": "Erst nach schriftlicher Fixierung und formaler Freigabe, da mündliche Aussagen keinen Schutzbedarf auslösen"
+      },
+      {
+        "label": "D",
+        "text": "Digital, auf Papier, mündlich oder im Wissen einer Person"
+      }
+    ],
+    "explanation": {
+      "summary": "Die Frage verlangt zu wissen, in welchen Erscheinungsformen oder Medien eine schutzbedürftige Information vorkommen kann.",
+      "whyCorrect": "Option D ist korrekt, weil Informationen völlig unabhängig vom Medium schutzbedürftig sind. Eine vertrauliche Information bleibt schutzbedürftig, egal ob sie digital auf einem Server liegt, auf Papier gedruckt ist, mündlich besprochen wird oder nur im Kopf eines Mitarbeiters existiert.",
+      "whyIncorrect": "Option A ist falsch, da auch Geschäftsgeheimnisse, Quellcodes oder Baupläne schutzbedürftig sind, nicht nur personenbezogene Daten. Option B ist falsch, weil Informationssicherheit weit über IT-Systeme hinausgeht (z. B. Papierakten). Option C ist falsch, da auch mündliche Aussagen oder nicht dokumentiertes Expertenwissen streng vertraulich sein können.",
+      "commonTrap": "Ein häufiger Denkfehler ist die Verwechslung von IT-Sicherheit mit Informationssicherheit. IT-Sicherheit schützt digitale Systeme, während Informationssicherheit Informationen in allen Formen schützt.",
+      "testedConcept": "Medienunabhängigkeit von Informationen"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "schutzbedürftig"
+      },
+      {
+        "germanWord": "personenbezogen"
+      },
+      {
+        "germanWord": "der Schutzbedarf"
+      },
+      {
+        "germanWord": "mündlich"
+      }
+    ]
+  },
+  {
+    "id": "a65f3fcd-789e-4293-93c5-c15f2e507ec9",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Ein unberechtigter Dritter liest vertrauliche Angebotsunterlagen. Welches Schutzziel ist unmittelbar verletzt?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vertraulichkeit"
+      },
+      {
+        "label": "B",
+        "text": "Integrität"
+      },
+      {
+        "label": "C",
+        "text": "Verfügbarkeit"
+      },
+      {
+        "label": "D",
+        "text": "Wiederanlauffähigkeit"
+      }
+    ],
+    "explanation": {
+      "summary": "Die Frage prüft, welches grundlegende Schutzziel verletzt wird, wenn eine unbefugte Person geheime Informationen liest.",
+      "whyCorrect": "Vertraulichkeit stellt sicher, dass Informationen nur berechtigten Personen zugänglich sind. Durch das unbefugte Mitlesen vertraulicher Angebotsunterlagen wird genau dieses Schutzziel direkt verletzt.",
+      "whyIncorrect": "Integrität beschreibt den Schutz vor unbefugter Veränderung oder Verfälschung von Daten (die Daten wurden hier nur gelesen, nicht geändert). Verfügbarkeit stellt sicher, dass Daten bei Bedarf nutzbar sind (sie stehen weiterhin bereit). Wiederanlauffähigkeit beschreibt die Fähigkeit, Systeme nach einem Störfall wieder in Betrieb zu nehmen.",
+      "commonTrap": "Vertraulichkeit wird manchmal mit Integrität verwechselt. Merke: Nur Lesen = Verletzung der Vertraulichkeit; Ändern/Löschen = Verletzung der Integrität.",
+      "testedConcept": "Schutzziele der IT-Sicherheit (CIA-Triade: Vertraulichkeit, Integrität, Verfügbarkeit)"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Vertraulichkeit"
+      },
+      {
+        "germanWord": "Integrität"
+      },
+      {
+        "germanWord": "Verfügbarkeit"
+      },
+      {
+        "germanWord": "Unberechtigter Dritter"
+      }
+    ]
+  },
+  {
+    "id": "d9aaff42-4328-4a0d-9e58-d9df03d8f783",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen wird die folgende Situation bewertet: Was kennzeichnet den Cyberraum am sinnvollsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vorwiegend soziale Netzwerke, da dort die stärkste Vernetzung stattfindet"
+      },
+      {
+        "label": "B",
+        "text": "Vernetzte digitale Informations- und Kommunikationsumgebungen"
+      },
+      {
+        "label": "C",
+        "text": "Vorwiegend firmeninterne Netzwerke ohne jede Verbindung zum Internet"
+      },
+      {
+        "label": "D",
+        "text": "Vorwiegend öffentlich betriebene Rechenzentren, da private Anbieter geringere Vernetzung aufweisen"
+      }
+    ],
+    "explanation": {
+      "summary": "Die Frage stellt die Grundsatzfrage nach der Definition und den zentralen Merkmalen des Cyberraums im Kontext der Informationssicherheit.",
+      "whyCorrect": "Antwort B ist korrekt, weil der Cyberraum den gesamten virtuellen Raum umfasst, der durch vernetzte digitale Informations- und Kommunikationstechnologien gebildet wird. Dazu gehören das Internet, Weitverkehrsnetze sowie verbundene IT-Infrastrukturen.",
+      "whyIncorrect": "Antwort A ist falsch, da soziale Netzwerke nur eine spezielle Anwendung innerhalb des Cyberraums darstellen. Antwort C ist falsch, weil der Cyberraum weltweite Verbindung umfasst und nicht auf isolierte Firmennetze beschränkt ist. Antwort D ist falsch, da private Anbieter riesige globale Netze betreiben und der Cyberraum nicht auf öffentliche Rechenzentren begrenzt ist.",
+      "commonTrap": "Eine häufige Falle besteht darin, den Cyberraum nur mit dem Internet oder mit sozialen Medien gleichzusetzen, anstatt die Gesamtheit aller vernetzten digitalen Systeme zu betrachten.",
+      "testedConcept": "Begriffsdefinition Cyberraum"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Cyberraum"
+      },
+      {
+        "germanWord": "Vernetzung"
+      },
+      {
+        "germanWord": "Informationsumgebung"
+      },
+      {
+        "germanWord": "Kommunikationsumgebung"
+      }
+    ]
+  },
+  {
+    "id": "ac263b5d-337a-4984-b1ed-a4e702dcb1d7",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen bespricht das zuständige Team folgenden Fall: Eine Außentür zum Serverraum schließt nicht zuverlässig. Gleichzeitig werden Einbrüche in der Umgebung gemeldet. Welche fachliche Bewertung ist am passendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Beides beschreibt denselben Sachverhalt aus zwei unterschiedlichen Blickwinkeln auf dasselbe Ereignis"
+      },
+      {
+        "label": "B",
+        "text": "Beides sind bereits eingetretene Schäden"
+      },
+      {
+        "label": "C",
+        "text": "Die fehlerhafte Tür ist eine Schwachstelle; die Einbruchslage ist eine Bedrohung"
+      },
+      {
+        "label": "D",
+        "text": "Die Tür ist die Bedrohung; die Einbruchslage ist die Schwachstelle"
+      }
+    ],
+    "explanation": {
+      "summary": "Die Frage prüft das Verständnis der grundlegenden IT-Sicherheitsbegriffe Schwachstelle und Bedrohung anhand eines praktischen Beispiels.",
+      "whyCorrect": "Eine Schwachstelle ist ein Mangel oder eine Schwäche im eigenen System oder Objekt (hier die defekte Tür des Serverraums). Eine Bedrohung ist ein potenziell schädigendes äußeres Ereignis oder Umfeld (hier die gehäuften Einbrüche in der Umgebung). Option C ordnet beide Begriffe korrekt zu.",
+      "whyIncorrect": "Option A ist falsch, da eine defekte Tür und externe Einbrüche zwei grundlegend verschiedene Dinge sind. Option B ist falsch, weil noch kein Schaden entstanden ist, sondern lediglich ein Risiko besteht. Option D ist falsch, da die Begriffe vertauscht wurden (die Tür ist die Schwäche, nicht die Gefahr).",
+      "commonTrap": "Begriffe wie Schwachstelle und Bedrohung zu verwechseln oder anzunehmen, dass das Vorhandensein einer Schwachstelle automatisch schon einen Schaden bedeutet.",
+      "testedConcept": "Unterscheidung von Schwachstelle (interner Mangel) und Bedrohung (externe Gefahr) im Rahmen der Risikoanalyse."
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Schwachstelle"
+      },
+      {
+        "germanWord": "Bedrohung"
+      },
+      {
+        "germanWord": "Serverraum"
+      },
+      {
+        "germanWord": "Sachverhalt"
+      }
+    ]
+  },
+  {
+    "id": "3855d5e7-74f0-47b1-9600-48c2a3510799",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Ein Archiv ist nach einem Wasserschaden tagelang nicht nutzbar; die Akten sind jedoch weder eingesehen noch verändert worden. Welches Ziel ist primär betroffen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Authentisierung, weil das Archiv keinen Benutzer anmelden kann"
+      },
+      {
+        "label": "B",
+        "text": "Vertraulichkeit, weil Wasser die Zugriffskontrolle umgeht"
+      },
+      {
+        "label": "C",
+        "text": "Integrität, weil eine länger andauernde Nichtverfügbarkeit faktisch einer Veränderung des Zugriffszustands gleichkommt"
+      },
+      {
+        "label": "D",
+        "text": "Verfügbarkeit, weil berechtigte Nutzung nicht rechtzeitig möglich ist"
+      }
+    ],
+    "explanation": {
+      "summary": "Die Frage prüft, welches Schutzziel der Informationssicherheit betroffen ist, wenn ein Archiv nach einem Wasserschaden tagelang nicht nutzbar ist, die Akten selbst aber weder eingesehen noch verändert wurden.",
+      "whyCorrect": "Das Schutzziel der Verfügbarkeit gewährleistet, dass autorisierte Benutzer zum geforderten Zeitpunkt auf Daten oder Ressourcen zugreifen können. Wenn ein Archiv tagelang nicht nutzbar ist, ist genau diese zeitgerechte Nutzung verhindert.",
+      "whyIncorrect": "A ist falsch, weil Authentisierung die Identitätsprüfung betrifft und nicht den Zugriff auf physische Archive. B ist falsch, weil Vertraulichkeit den Schutz vor unbefugter Einsichtnahme beschreibt; laut Aufgabentext wurden keine Akten eingesehen. C ist falsch, weil Integrität die Korrektheit und Unversehrtheit der Daten betrifft; die Akten wurden nicht verändert. Ausharren ohne Zugriff ist keine Veränderung der Datenintegrität.",
+      "commonTrap": "Manche lassen sich von Option C verwirren, da dort fälschlicherweise behauptet wird, Nichtverfügbarkeit sei eine Veränderung des Zugriffszustands. Bei IHK-Fragen muss man strikt trennen: Daten unverändert = Integrität gewahrt; keine Einsicht = Vertraulichkeit gewahrt; kein Zugriff = Verfügbarkeit verletzt.",
+      "testedConcept": "Schutzziele der IT-Sicherheit (CIA-Triade: Confidentiality, Integrity, Availability)"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Verfügbarkeit"
+      },
+      {
+        "germanWord": "Integrität"
+      },
+      {
+        "germanWord": "Vertraulichkeit"
+      },
+      {
+        "germanWord": "Schutzziel"
+      }
+    ]
+  },
+  {
+    "id": "0d03b604-898c-4cb7-908c-226fe2658034",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Sicherheitsmaßnahme kombiniert Zutrittskarten, Schulungen, verbindliche Besucherregeln und eine abschließbare Tür. Was zeigt das Beispiel?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Schutz kann technische, personelle, organisatorische und infrastrukturelle Elemente verbinden"
+      },
+      {
+        "label": "B",
+        "text": "Vorwiegend technische Maßnahmen beeinflussen einen Sicherheitszustand"
+      },
+      {
+        "label": "C",
+        "text": "Personelle Maßnahmen ersetzen technische Kontrollen in den meisten Fällen"
+      },
+      {
+        "label": "D",
+        "text": "Die Maßnahmen betreffen in erster Linie Business Continuity"
+      }
+    ],
+    "explanation": {
+      "summary": "Die Frage fordert dazu auf, verschiedene Einzelmaßnahmen der Sicherheit den entsprechenden Schutzbereichen zuzuordnen und das Prinzip der ganzheitlichen Sicherheit zu erkennen.",
+      "whyCorrect": "Die genannten Beispiele decken vier wesentliche Säulen der Sicherheit ab: Zutrittskarten (technisch), Schulungen (personell), Besucherregeln (organisatorisch) und die abschließbare Tür (infrastrukturell/baulich). Effektiver Schutz entsteht erst durch die Vernetzung aller dieser Bereiche.",
+      "whyIncorrect": "B ist falsch, weil Sicherheit nicht nur aus technischen Maßnahmen besteht. C ist falsch, da personelle Maßnahmen Technik nicht ersetzen, sondern sinnvoll ergänzen. D ist falsch, da sich diese konkreten Beispiele auf physische Sicherheit und Zutrittskontrolle beziehen, nicht direkt auf die Aufrechterhaltung des Geschäftsbetriebs bei Notfällen (Business Continuity).",
+      "commonTrap": "Der häufige Denkfehler ist anzunehmen, dass IT-Sicherheit rein technisch gelöst werden kann. Oft wird auch der Begriff 'Business Continuity' fälschlicherweise als Oberbegriff für jegliche Sicherheitsmaßnahme verwendet.",
+      "testedConcept": "Ganzheitliche Sicherheitskonzepte (Kombination aus technischen, personellen, organisatorischen und infrastrukturellen Maßnahmen)"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Zutrittskarte"
+      },
+      {
+        "germanWord": "Schulung"
+      },
+      {
+        "germanWord": "Besucherregel"
+      },
+      {
+        "germanWord": "Infrastrukturell"
+      },
+      {
+        "germanWord": "Organisatorisch"
+      },
+      {
+        "germanWord": "Personell"
+      }
+    ]
+  },
+  {
+    "id": "ee57dd2c-3ffa-4a48-9f73-3ff53f8ef8c9",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen wird die folgende Situation bewertet: Eine Bestelldatei wird von einem berechtigten Mitarbeiter versehentlich überschrieben. Welche Aussage ist am genauesten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Primär Verfügbarkeit, weil die Datei durch die Änderung vorübergehend nicht nutzbar war"
+      },
+      {
+        "label": "B",
+        "text": "Die Integrität ist verletzt, obwohl keine feindliche Absicht vorliegt"
+      },
+      {
+        "label": "C",
+        "text": "Vertraulichkeit ist betroffen, da der Mitarbeiter Zugriffsrechte besaß"
+      },
+      {
+        "label": "D",
+        "text": "Kein Schutzziel ist betroffen, weil eine unbeabsichtigte Handlung keine Sicherheitsrelevanz hat"
+      }
+    ],
+    "explanation": {
+      "summary": "Die Frage untersucht, welches Schutzziel der IT-Sicherheit verletzt wird, wenn ein berechtigter Mitarbeiter eine Datei versehentlich überschreibt.",
+      "whyCorrect": "Integrität garantiert, dass Daten korrekt, unversehrt und nicht unbefugt oder fehlerhaft verändert wurden. Wenn eine Datei überschrieben wird, geht der korrekte Inhalt verloren oder wird verfälscht. Für eine Verletzung der Integrität ist keine böswillige oder feindliche Absicht nötig; auch menschliche Versehen führen zu einer Integritätsverletzung.",
+      "whyIncorrect": "A ist falsch, weil das Verändern oder Überschreiben von Inhalten primär die Korrektheit (Integrität) betrifft und nicht die bloße Erreichbarkeit des Systems. C ist falsch, da Vertraulichkeit den Schutz vor unberechtigter Einsichtnahme beschreibt, der Mitarbeiter hier aber bereits zugriffsberechtigt war. D ist falsch, da auch unbeabsichtigte Handlungen und menschliche Fehler echte Sicherheitsrisiken darstellen und Schutzziele verletzen.",
+      "commonTrap": "Oft wird fälschlicherweise angenommen, dass eine Sicherheitsverletzung immer einen gezielten Cyberangriff oder böse Absicht voraussetzt. Auch versehentliche Fehler verletzen Schutzziele.",
+      "testedConcept": "Integrität (CIA-Triade)"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Integrität"
+      },
+      {
+        "germanWord": "Schutzziel"
+      },
+      {
+        "germanWord": "Vertraulichkeit"
+      },
+      {
+        "germanWord": "Verfügbarkeit"
+      },
+      {
+        "germanWord": "Versehentlich"
+      }
+    ]
+  },
+  {
+    "id": "b2010050-bf6c-43ef-8ce4-3cbe67bffd23",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen bespricht das zuständige Team folgenden Fall: Zwei identische Systeme haben dieselbe Schwachstelle. Eines ist öffentlich erreichbar, das andere dauerhaft vom Netz getrennt. Welche Aussage passt am sinnvollsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vorwiegend das öffentlich erreichbare System kann einen Schaden verursachen, da Angreifer meist erreichbare Ziele bevorzugen"
+      },
+      {
+        "label": "B",
+        "text": "Beide Systeme haben ein vergleichbares Risiko, weil die Schwachstelle identisch ist"
+      },
+      {
+        "label": "C",
+        "text": "Die Schwachstelle ist gleich, das Risiko kann wegen unterschiedlicher Exposition abweichen"
+      },
+      {
+        "label": "D",
+        "text": "Das isolierte System hat keine Schwachstelle mehr"
+      }
+    ],
+    "explanation": {
+      "summary": "Zwei identische Systeme mit derselben Schwachstelle unterscheiden sich in ihrer Erreichbarkeit; gefragt wird nach der richtigen Einordnung.",
+      "whyCorrect": "C ist richtig, weil die Schwachstelle zwar identisch ist, das Risiko aber wegen der unterschiedlichen Exposition (öffentlich erreichbar vs. isoliert) abweichen kann.",
+      "whyIncorrect": "A ist falsch, weil sie zwar in die richtige Richtung geht, aber zu absolut formuliert ist ('vorwiegend... kann Schaden verursachen' ignoriert, dass beide Systeme grundsätzlich betroffen sein könnten). B ist falsch, weil identische Schwachstellen nicht automatisch identisches Risiko bedeuten. D ist falsch, weil Isolation die Schwachstelle nicht beseitigt, sondern nur die Exposition verringert.",
+      "commonTrap": "Schwachstelle und Risiko werden gleichgesetzt, ohne die Exposition zu berücksichtigen.",
+      "testedConcept": "Exposition als Risikofaktor"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "38424277-764a-43a7-b483-719451a2cdad",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen soll die folgende Entscheidung getroffen werden: Vier Teams begründen Maßnahmen mit Informationssicherheit. Welche Begründung betrifft stattdessen primär reine IT-Funktionalität ohne erkennbaren Sicherheitsbezug?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der Auftragsservice soll zu den vereinbarten Zeiten nutzbar sein"
+      },
+      {
+        "label": "B",
+        "text": "Zahlungsdaten sollen ausschließlich berechtigte Rollen lesen können"
+      },
+      {
+        "label": "C",
+        "text": "Freigegebene Stücklisten sollen nicht unbemerkt geändert werden"
+      },
+      {
+        "label": "D",
+        "text": "Die Schriftgröße der Benutzeroberfläche soll dem Corporate Design entsprechen"
+      }
+    ],
+    "explanation": {
+      "summary": "Die Frage verlangt die Unterscheidung zwischen echten Sicherheitsmaßnahmen (gemäß den Schutzzielen der Informationssicherheit) und reinen Design- oder Usability-Anforderungen ohne Sicherheitsbezug.",
+      "whyCorrect": "Option D (Schriftgröße gemäß Corporate Design) ist eine reine Gestaltungs- und Anforderungsvorgabe für die Benutzeroberfläche. Sie schützt weder Informationen vor unbefugtem Zugriff noch vor Manipulation oder Ausfall und hat somit keinen Bezug zur Informationssicherheit.",
+      "whyIncorrect": "Option A adressiert das Schutzziel Verfügbarkeit (Service ist zur vereinbarten Zeit nutzbar). Option B adressiert das Schutzziel Vertraulichkeit (nur Berechtigte dürfen Daten lesen). Option C adressiert das Schutzziel Integrität (Daten dürfen nicht unbemerkt verändert werden).",
+      "commonTrap": "Verfügbarkeit (Option A) wird oft fälschlicherweise als reine IT-Betriebsfunktion wahrgenommen. In der Informationssicherheit ist die Verfügbarkeit jedoch eines der drei zentralen Hauptschutzziele (CIA-Triade).",
+      "testedConcept": "CIA-Triade (Vertraulichkeit, Integrität, Verfügbarkeit) und die Abgrenzung von IT-Sicherheit zu reinen Design-, Ergonomie- oder Betriebsfunktionalitäten."
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Schutzziel"
+      },
+      {
+        "germanWord": "Vertraulichkeit"
+      },
+      {
+        "germanWord": "Integrität"
+      },
+      {
+        "germanWord": "Verfügbarkeit"
+      },
+      {
+        "germanWord": "Corporate Design"
+      }
+    ]
+  },
+  {
+    "id": "1e11a52a-3160-4b69-a621-34a890d4cff3",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen stellt sich folgende Prüfungsfrage: Eine Organisation bewertet erstmals das Risiko eines offen zugänglichen Aktenraums. Welche Information sollte es neben der Schwachstelle als Erstes klären?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Welche Bedrohungen realistisch einwirken und welche Auswirkungen ein Zugriff hätte"
+      },
+      {
+        "label": "B",
+        "text": "Wie hoch die Reparaturkosten für die defekte Zugangstür ausfallen würden"
+      },
+      {
+        "label": "C",
+        "text": "Wie viele weitere Räume im Gebäude ebenfalls unverschlossen sind"
+      },
+      {
+        "label": "D",
+        "text": "Wie hoch der Versicherungswert der im Aktenraum gelagerten Unterlagen ist"
+      }
+    ],
+    "explanation": {
+      "summary": "Neben der Schwachstelle (offen zugänglicher Aktenraum) soll geklärt werden, welche weitere Information für die erste Risikobewertung wichtig ist.",
+      "whyCorrect": "A ist richtig, weil eine vollständige Risikobewertung neben der Schwachstelle auch die realistischen Bedrohungen und möglichen Auswirkungen eines Zugriffs berücksichtigen muss.",
+      "whyIncorrect": "B ist falsch, weil Reparaturkosten der Tür kein Bestandteil der grundlegenden Risikobewertung sind. C ist falsch, weil die Anzahl anderer unverschlossener Räume für dieses Risiko nicht unmittelbar relevant ist. D ist falsch, weil der Versicherungswert allenfalls einen Teilaspekt der Auswirkung darstellt, aber nicht die zuerst zu klärende Information ist.",
+      "commonTrap": "Nebensächliche, aber konkret klingende Detailfragen (Kosten, Versicherungswert) werden mit der eigentlichen Risikobewertung verwechselt.",
+      "testedConcept": "Risiko = Bedrohung + Schwachstelle + Auswirkung"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Bedrohung"
+      }
+    ]
+  }
+]

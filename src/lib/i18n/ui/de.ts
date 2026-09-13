@@ -88,6 +88,10 @@ export const de: UiDictionary = {
       "Ändert nur die Menüs, Schaltflächen und Beschriftungen der App – Fragen, Antworten und Erklärungen bleiben unverändert.",
     translationSectionLabel: "Übersetzung",
     instantTranslationLabel: "Sofort-Übersetzung beim Antippen/Hovern",
+    translateQuestionLabel: "Frage übersetzen",
+    translateAnswersLabel: "Jede Antwortmöglichkeit übersetzen",
+    translateCorrectAnswerLabel: "Nur die richtige Antwort übersetzen (nach Aufdecken)",
+    translateExplanationLabel: "Erklärung übersetzen",
     dailyTargetLabel: "Tagesziel (Fragen)",
     themeLabel: "Design",
     themeSystem: "System",
@@ -239,8 +243,6 @@ export const de: UiDictionary = {
     failed: "Fehlgeschlagen",
     sourceExplanationLabel: "Quell-Erklärung: ",
     save: "Speichern",
-    generatingExplanations: "Erklärungen werden erstellt…",
-    generateExplanationsCta: "Erklärungen und Vokabeln generieren",
     emptyTextError: "Bitte füge zuerst Text mit Fragen ein.",
     noQuestionsDetected: "Es konnten keine Fragen im eingefügten Text erkannt werden.",
     itemNotFound: "Import-Element nicht gefunden.",
@@ -255,7 +257,8 @@ export const de: UiDictionary = {
     overviewCountsSummary:
       "{total} Fragen erkannt · {saved} gespeichert · {needsReview} benötigen eine Prüfung der richtigen Antwort · {duplicate} mögliche Duplikate",
     overviewCountsFailedSuffix: " · {failed} fehlgeschlagen",
-    enrichResultSummary: "{succeeded} erfolgreich, {failed} fehlgeschlagen (erneut versuchbar).",
+    enrichOfflineNotice:
+      "Um Erklärungen und Vokabeln für diese Fragen hinzuzufügen, nutze bitte die Offline-Anreicherungs-Skripte (siehe scripts/prompts/question-enrichment-prompt.md) statt sie live zu generieren.",
   },
   explanationView: {
     generatingFor: "Erklärung für {language} wird noch erstellt.",
@@ -283,5 +286,160 @@ export const de: UiDictionary = {
     noTranslationAvailable: "Keine Übersetzung verfügbar.",
     germanColumnHeader: "Deutsch",
     importantWords: "Wichtige Wörter ({count})",
+  },
+  landing: {
+    // Kopfzeile
+    navTry: "Ausprobieren",
+    navTopics: "Themen",
+    navTranslation: "Übersetzung",
+    navExam: "Prüfungsmodus",
+    getStarted: "Loslegen",
+
+    // Hero
+    heroLine1: "Lerne die Prüfung,",
+    heroLine2: "nicht das Wörterbuch.",
+    heroSub:
+      "Echte IHK-Multiple-Choice-Fragen, im Deutsch, in dem sie tatsächlich gedruckt sind — mit jedem schwierigen Wort nur einen Klick von deiner eigenen Sprache entfernt. Andere Trainer geben dir die Fragen. Dieser gibt dir auch die Wörter, damit die Stunde, die du investierst, dem Fachthema zugutekommt und nicht dem Wörterbuch.",
+    heroPrimaryCta: "Ich mache die Prüfung",
+    heroSecondaryCta: "Ich bin Ausbilder",
+    heroFinePrint: "Kostenloses Konto · eigene Fragensammlung möglich · nichts zu installieren",
+
+    // Beweisleiste
+    proofExamCaption: "Fragen und Minuten in einer Probeprüfung — das echte Format, die echte Uhr",
+    proofLanguagesCaption: "Sprachen für Wörter, Erklärungen und Menüs — {languages}",
+    proofReviewCaption: "Zahlen im gesamten Wiederholungs-Algorithmus — {numbers} Tage. Keine Black Box",
+
+    // #try
+    tryHeading: "Probiere eine echte Frage. Tippe auf Wörter, die du nicht kennst.",
+    tryIntro:
+      "Das ist eine echte Frage aus der Datenbank, unverändert. Die unterstrichenen Wörter sind live — tippe eines an und du bekommst seine Bedeutung plus eine einfache deutsche Erklärung. Hier wird nichts gespeichert, und du brauchst kein Konto, um es auszuprobieren.",
+    translateInto: "Übersetzen nach",
+    tryQuestionOf: "Frage {current} von {total}",
+    savedToVocabularyNote: "In der App wird das Wort automatisch in deiner Vokabelliste gespeichert.",
+    closeWord: "Schließen",
+    confirm: "Bestätigen",
+    showAnswer: "Antwort zeigen",
+    verdictPickOption: "Wähle eine Option",
+    verdictNowConfirm: "Jetzt bestätigen",
+    verdictCorrect: "Richtig",
+    verdictIncorrect: "Falsch",
+    verdictAnswerShown: "Antwort angezeigt",
+    tryFootnote: "In der App: 1–4 wählt eine Option, Enter bestätigt, N ist weiter, T schaltet die Übersetzung um.",
+    afterConfirmKicker: "Was nach dem Bestätigen passiert",
+    afterConfirmP1:
+      "Die Frage öffnet sich: was sie prüft, warum die richtige Antwort richtig ist, warum jede falsche Option scheitert, und die Falle, die sich der Prüfer ausgedacht hat — zuerst auf Deutsch, weil das der Wortlaut ist, dem du begegnen wirst, mit deiner Sprache nur einen Klick entfernt.",
+    afterConfirmP2: "Beantworte sie und überzeuge dich selbst.",
+    correctAnswerLabel: "Richtige Antwort",
+    whyWasItWrongLabel: "Warum die anderen falsch sind",
+    commonTrapLabel: "Häufige Falle: ",
+
+    // #translation
+    translationKicker: "Warum das hier schneller geht",
+    translationHeading: "Vier Dinge, die Stunden sparen, nicht das Niveau",
+    translationItem1Title: "Übersetzung genau dort, wo du stockst",
+    translationItem1Body:
+      "Tippe auf ein Wort für seine Bedeutung, oder schalte die volle Übersetzung der Frage, der Antwortoptionen, nur der richtigen Antwort oder der Erklärung ein — vier unabhängige Schalter, mit denen du dich Schritt für Schritt vom Übersetzen entwöhnen kannst.",
+    translationItem2Title: "Erklärungen statt Urteile",
+    translationItem2Body:
+      "Jede Frage trägt das geprüfte Konzept, warum die richtige Option gewinnt, warum jede falsche Option scheitert, und die häufige Falle. „Falsch“ allein bringt dir nichts bei — genau das lassen die meisten Trainer weg.",
+    translationItem3Title: "Wiederholung, die du nachvollziehen kannst",
+    translationItem3Body:
+      "Falsch beantwortete Fragen kommen nach vier Stunden zurück — früher, wenn du sie weiter verfehlst. Richtig beantwortete wandern auf einen, drei, sieben, vierzehn Tage. Die ganze Regel passt in deinen Kopf.",
+    translationItem4Title: "Deine eigene Fragensammlung",
+    translationItem4Body:
+      "Füge ein, was deine Schule oder dein Ausbilder tatsächlich verwendet. Der Importer zerlegt jede Frage, markiert mögliche Duplikate und speichert nichts, bevor du bestätigst. Kein Warten auf das Content-Update von jemand anderem.",
+
+    // #topics
+    topicsHeading: "Von der Beispieldatenbank zu deinem ganzen Lehrplan",
+    topicsNote: "Übe eine Kategorie für sich, oder lass den Wiederholungsmodus sie so mischen wie die Prüfung.",
+    topicsCoveredLabel: "In dieser Kategorie enthalten",
+
+    // #exam
+    examKicker: "Prüfungsmodus",
+    examHeading: "Der Tag selbst, geprobt",
+    examP1:
+      "Vierzig Fragen, sechzig Minuten, nur Deutsch — Übersetzungen, Worthinweise und Erklärungen sind alle ausgeschaltet, genau wie am echten Tag. Springe mit dem Zahlenraster hin und her, markiere, was du dir noch einmal ansehen willst, beende, wenn du bereit bist. Verlässt du die Prüfung mittendrin, kannst du dieselbe Sitzung fortsetzen.",
+    examP2:
+      "Danach: dein Ergebnis, deine Zeit, was du übersprungen hast, die Themen mit Verbesserungsbedarf, und ein Klick, um genau diese Fehler zu wiederholen. Starte sie unten — die Uhr läuft wirklich.",
+    examStatusIdle: "Bereit, wenn du es bist",
+    examStartCta: "Prüfung starten",
+    examStatusRunning: "Frage {current} / {total} · {answered} beantwortet",
+    examMarkForReview: "Zur Wiederholung markieren",
+    examRemoveMark: "Markierung entfernen",
+    examEndExam: "Prüfung beenden",
+    examNoFeedbackNote: "Keine Rückmeldung, bis du fertig bist",
+    examStatusDone: "Ergebnis der Prüfungssimulation",
+    examScoreLine: "{correct} von {answered} richtig beantwortet",
+    examScoreZero: "0 von {total}",
+    examBreakdown: "Richtig {correct} · Falsch {incorrect} · Übersprungen {skipped} · Dauer {duration}. Schwächstes Thema: {topic}.",
+    examSkippedAll: "Du hast alle vierzig übersprungen — die echte Prüfung verzeiht das nicht. Dauer {duration}.",
+    examRunAgain: "Noch einmal starten",
+    examBack: "Zurück",
+
+    // Wiederholungsleiter
+    reviewLadderKicker: "Der Zeitplan einer Frage",
+    reviewLadderStateUntouchedHeadline: "Noch nicht beantwortet",
+    reviewLadderStateUntouchedDetail: "Beantworte sie einmal, und der Zeitplan beginnt. Vor dem ersten Mal ist nichts fällig.",
+    reviewLadderStateStreak1Headline: "Später heute wieder fällig",
+    reviewLadderStateStreak1Detail: "1 richtige Antwort in Folge. Mach weiter, dann wird der Abstand größer.",
+    reviewLadderStateStreakNHeadline: "In {days} Tag(en) wieder fällig",
+    reviewLadderStateStreakNDetail: "{count} richtige Antworten in Folge. Mach weiter, dann wird der Abstand größer.",
+    reviewLadderStateTopHeadline: "In 14 Tagen wieder fällig",
+    reviewLadderStateTopDetail: "Oben auf der Leiter — vierzehn Tage ist der längste Abstand, den die App je lässt.",
+    reviewLadderStateWrong1Headline: "In 4 Stunden wieder fällig",
+    reviewLadderStateWrong1Detail: "Ein Fehler schickt die Frage ganz nach unten: nach vier Stunden ist sie wieder fällig.",
+    reviewLadderStateWrongNHeadline: "In {hours} wieder fällig",
+    reviewLadderStateWrongNDetail: "{count} Fehler in Folge — die Wartezeit halbiert sich jedes Mal, mit einer Untergrenze von einer Stunde.",
+    reviewGotItRight: "Ich hatte recht",
+    reviewGotItWrong: "Ich lag falsch",
+    reviewReset: "Zurücksetzen",
+    reviewCopyKicker: "Wiederholung",
+    reviewCopyHeading: "Fünf Zahlen, die du selbst nachrechnen kannst",
+    reviewCopyP1:
+      "Drücke die Knöpfe und sieh zu, wie eine Frage die Leiter erklimmt. Richtige Antworten schieben sie weiter hinaus — noch am selben Tag, dann einen, drei, sieben, vierzehn Tage. Eine falsche Antwort wirft sie ganz nach unten: zurück in vier Stunden, in zwei bei zweimaligem Verfehlen, eine Stunde als Untergrenze. Das ist der gesamte Zeitplan, bewusst so einfach gehalten.",
+    reviewCopyP2:
+      "Dein Dashboard zeigt dir, wie viele fällig sind, wie weit du beim heutigen Ziel bist, und welche Themen deine letzten Antworten als am schwächsten zeigen.",
+
+    // Eigener Zeitplan
+    ownScheduleKicker: "Nach deinem eigenen Zeitplan",
+    ownScheduleHeading: "Zwanzig Minuten in der Bahn zählen auch",
+    ownScheduleP1:
+      "Setze dein eigenes Tagesziel — nicht unseres. Unterbrich mittendrin, und es geht bei genau der Frage weiter, bei der du aufgehört hast. Angetippte Wörter warten in deiner Vokabelliste, druckbar für die Tage, an denen du lieber Papier in der Hand hast. Hell, dunkel, oder wie es dein Handy gerade eingestellt hat.",
+    ownScheduleP2:
+      "Und ein Zurücksetzen, das alle Versuche löscht, wenn du einen sauberen Neustart willst — ohne deine Fragen, deine Vokabeln oder deine Favoriten anzurühren.",
+    ownScheduleScreenshotAlt: "Der Übungsbildschirm, mitten in einer Frage, mit geöffneter Wortübersetzung",
+
+    // #trainers
+    trainersKicker: "Für Trainer und Ausbilder",
+    trainersHeading: "Deine Fragensammlung, dein Wortlaut",
+    trainersP1:
+      "Füge die Sammlung ein, aus der du bereits unterrichtest. Der Importer zerlegt jede Frage, zeigt dir, was er gefunden hat, markiert mögliche Duplikate und wartet auf deine Bestätigung, bevor irgendetwas gespeichert wird. Erklärungen und Vokabeln werden gebündelt offline vorbereitet statt live erfunden — was deine Auszubildenden lesen, hast du also geprüft. Und die Vokabellisten lassen sich drucken.",
+    trainersP2:
+      "Auszubildende mit wenig Deutschkenntnissen müssen nicht warten, bis ihre Sprachkenntnisse mit dem Lehrplan mithalten: Die Oberfläche selbst spricht Deutsch, Englisch, {languages}, von rechts nach links, wo das die übliche Leserichtung ist.",
+
+    // Zitat
+    pullQuote:
+      "Ich kannte das Thema. Ich kannte den Satz nicht. Auf das Wort zu tippen, war der ganze Unterschied.",
+    pullQuoteCaption: "— der Grund, warum es das hier gibt. Sag uns, ob es für dich funktioniert.",
+
+    // #start
+    startHeading: "Alles oben ist mit einem Konto kostenlos zum Ausprobieren",
+    startBody:
+      "Eine E-Mail-Adresse, ein Passwort mit mindestens acht Zeichen und ein Bestätigungslink. Beginne mit den Beispielthemen — Cyber-Sicherheit, Prozesse, rechtliche Anforderungen und Standards — oder füge in den ersten fünf Minuten deine eigene Sammlung ein.",
+    startEmailPlaceholder: "E-Mail",
+    startCreateAccount: "Kostenloses Konto erstellen",
+    startAlreadyHaveAccount: "Schon ein Konto?",
+    startSignIn: "Anmelden",
+    startOr: "oder",
+    startResetPassword: "Passwort zurücksetzen",
+
+    // Fußzeile
+    footerBlurb: "Übungsfragen, Erklärungen und Vokabeln in deiner Sprache.",
+    footerProductHeading: "Produkt",
+    footerLanguagesHeading: "Sprachen",
+    footerAccountHeading: "Konto",
+    footerCreateAccount: "Konto erstellen",
+    footerSignIn: "Anmelden",
+    footerDisclaimer: "Bereitschaftsschätzungen sind Schätzungen, keine Versprechen. Nicht mit einer Industrie- und Handelskammer verbunden.",
   },
 };

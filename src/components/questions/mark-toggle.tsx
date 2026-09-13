@@ -4,6 +4,7 @@ import { useState, useTransition } from "react";
 import { Bookmark } from "lucide-react";
 import { toggleMarkedAction } from "@/lib/attempts/actions";
 import { useUiDictionary } from "@/components/i18n/ui-i18n-provider";
+import { useMarkedQuestions } from "@/components/practice/marked-questions-context";
 
 export interface MarkToggleProps {
   questionId: string;
@@ -15,6 +16,7 @@ export interface MarkToggleProps {
 
 export function MarkToggle({ questionId, initialMarked, size = "default" }: MarkToggleProps) {
   const dict = useUiDictionary();
+  const { refresh: refreshMarkedQuestions } = useMarkedQuestions();
   const [marked, setMarked] = useState(initialMarked);
   const [, startTransition] = useTransition();
 
@@ -22,7 +24,7 @@ export function MarkToggle({ questionId, initialMarked, size = "default" }: Mark
     const next = !marked;
     setMarked(next);
     startTransition(() => {
-      void toggleMarkedAction(questionId, next);
+      void toggleMarkedAction(questionId, next).then(() => refreshMarkedQuestions());
     });
   }
 

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "1c00e3b8-89bb-4efc-baca-7c711d92c592",
+    "text": "Ein neu eingeführter Prozess wird nur den unmittelbar beteiligten Personen erklärt, nicht aber den Personen, die den Prozess lediglich anstoßen oder dessen Ergebnis weiterverwenden. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Alle relevanten Beteiligten, einschließlich anstoßender und weiterverwendender Personen, sollten über den Prozess informiert werden"
+      },
+      {
+        "label": "B",
+        "text": "Eine Information ist ausschließlich für die unmittelbar ausführenden Personen erforderlich"
+      },
+      {
+        "label": "C",
+        "text": "Personen, die einen Prozess nur anstoßen, benötigen grundsätzlich keine Kenntnis über dessen Ablauf"
+      },
+      {
+        "label": "D",
+        "text": "Die Kommunikation eines Prozesses an Randbeteiligte verzögert die Einführung unnötig und sollte unterbleiben"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "3e844e09-c83a-42b2-a4ef-c45780ca5036",
+    "text": "Eine Prozessvisualisierung verwendet für dieselbe Art von Tätigkeit in unterschiedlichen Diagrammen unterschiedliche Symbole, ohne einheitliche Notation. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unterschiedliche Symbole für dieselbe Tätigkeit sind unproblematisch, solange jedes einzelne Diagramm für sich verständlich ist"
+      },
+      {
+        "label": "B",
+        "text": "Eine einheitliche Notation sollte verwendet werden, um Missverständnisse beim Lesen unterschiedlicher Prozessdiagramme zu vermeiden"
+      },
+      {
+        "label": "C",
+        "text": "Eine einheitliche Notation ist ausschließlich für automatisiert ausgewertete Diagramme relevant"
+      },
+      {
+        "label": "D",
+        "text": "Die Wahl der Symbole hat keinen Einfluss auf die Verständlichkeit von Prozessdiagrammen"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "41ddf531-a41d-4cc7-a374-a1e3cebd4ec1",
+    "text": "Ein Prozessdiagramm zeigt eine Entscheidung mit zwei möglichen Ausgängen, aber nur einen der beiden Wege ist tatsächlich weiter ausgearbeitet. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der nicht ausgearbeitete Weg sollte ebenfalls vervollständigt werden, um den Prozess bei diesem Ausgang nachvollziehbar zu machen"
+      },
+      {
+        "label": "B",
+        "text": "Ein einziger ausgearbeiteter Weg reicht aus, da der andere Ausgang in der Praxis vermutlich selten vorkommt"
+      },
+      {
+        "label": "C",
+        "text": "Unvollständig ausgearbeitete Wege sind für die Prozessdokumentation grundsätzlich ohne Bedeutung"
+      },
+      {
+        "label": "D",
+        "text": "Die Vervollständigung des zweiten Weges ist ausschließlich bei sicherheitskritischen Prozessen erforderlich"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "7da262e0-f02a-401c-8ee6-ce7d80a55e44",
+    "text": "Ein Team führt eine Prozessoptimierung durch, ohne vorher zu klären, welches konkrete Problem damit gelöst werden soll. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine vorherige Problemdefinition ist überflüssig, solange am Ende irgendeine Verbesserung erzielt wird"
+      },
+      {
+        "label": "B",
+        "text": "Eine klare Problemdefinition sollte vor der eigentlichen Optimierung erfolgen, um die Maßnahme zielgerichtet auszurichten"
+      },
+      {
+        "label": "C",
+        "text": "Prozessoptimierung sollte grundsätzlich ohne vorherige Analyse begonnen werden, um Zeit zu sparen"
+      },
+      {
+        "label": "D",
+        "text": "Die Definition des zu lösenden Problems ist ausschließlich bei technischen Prozessen relevant"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "ab88c78c-5ddb-43cb-833a-f4ca1b0c137d",
+    "text": "Zwei Abteilungen führen denselben Prozessschritt unabhängig voneinander mit leicht unterschiedlichen Ergebnissen durch, ohne dass dies bislang koordiniert wurde. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die abweichende Durchführung sollte untersucht und, falls sinnvoll, vereinheitlicht werden, um Konsistenz sicherzustellen"
+      },
+      {
+        "label": "B",
+        "text": "Abweichungen zwischen Abteilungen bei identischen Prozessschritten sind grundsätzlich unproblematisch"
+      },
+      {
+        "label": "C",
+        "text": "Eine Vereinheitlichung ist ausschließlich bei gesetzlich vorgeschriebenen Prozessschritten erforderlich"
+      },
+      {
+        "label": "D",
+        "text": "Unterschiedliche Ergebnisse bei identischem Prozessschritt deuten grundsätzlich nicht auf ein Prozessproblem hin"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "2a10abb2-81ba-49c4-ba38-4875462fb737",
+    "text": "Eine Prozessbeschreibung nennt zwar die beteiligten Rollen, aber nicht, welche Informationen zwischen diesen Rollen konkret ausgetauscht werden. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Nennung der beteiligten Rollen allein reicht für eine vollständige Prozessbeschreibung aus"
+      },
+      {
+        "label": "B",
+        "text": "Die Beschreibung sollte um die zwischen den Rollen ausgetauschten Informationen ergänzt werden, um den Ablauf vollständig nachvollziehbar zu machen"
+      },
+      {
+        "label": "C",
+        "text": "Der konkrete Informationsaustausch zwischen Rollen ist für die Prozessdokumentation nicht relevant"
+      },
+      {
+        "label": "D",
+        "text": "Eine Ergänzung ist ausschließlich bei Prozessen mit besonders hohem Schutzbedarf erforderlich"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "972e76bf-cfdf-414c-acdc-58313debf339",
+    "text": "Ein Prozess wird so gestaltet, dass er ausschließlich für den aktuellen Personalstand funktioniert, ohne Rücksicht auf mögliche künftige Wachstums- oder Schrumpfungsszenarien. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der Prozess sollte auch auf absehbare Veränderungen des Personalstands hin überprüft werden, um seine langfristige Eignung sicherzustellen"
+      },
+      {
+        "label": "B",
+        "text": "Ein Prozess, der für den aktuellen Personalstand funktioniert, muss nicht auf künftige Veränderungen hin überprüft werden"
+      },
+      {
+        "label": "C",
+        "text": "Wachstums- oder Schrumpfungsszenarien sind für die Prozessgestaltung grundsätzlich ohne Bedeutung"
+      },
+      {
+        "label": "D",
+        "text": "Eine Überprüfung auf künftige Szenarien ist ausschließlich bei stark wachsenden Unternehmen sinnvoll"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "56311882-fae5-4e18-9214-50d82cbe6f85",
+    "text": "Ein Prozessverantwortlicher sammelt regelmäßig Rückmeldungen von ausführenden Personen, setzt daraus abgeleitete Verbesserungsvorschläge aber nie um. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Das reine Sammeln von Rückmeldungen erfüllt bereits den beabsichtigten Zweck, unabhängig von der Umsetzung"
+      },
+      {
+        "label": "B",
+        "text": "Regelmäßig gesammelte, aber nie umgesetzte Rückmeldungen können langfristig die Bereitschaft verringern, überhaupt noch Rückmeldungen zu geben"
+      },
+      {
+        "label": "C",
+        "text": "Eine Umsetzung von Rückmeldungen ist ausschließlich bei schriftlich eingereichten Vorschlägen erforderlich"
+      },
+      {
+        "label": "D",
+        "text": "Die Umsetzung von Rückmeldungen hat auf die künftige Beteiligungsbereitschaft der Beschäftigten keinen Einfluss"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "5a975262-2262-45a6-91fc-0d60512c6103",
+    "text": "Ein Prozess wird so dokumentiert, dass er nur für den Regelfall an einem einzelnen Standort gilt, obwohl derselbe Prozess inzwischen an mehreren Standorten mit leicht unterschiedlichen Rahmenbedingungen durchgeführt wird. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Dokumentation sollte um die tatsächlich relevanten Unterschiede der weiteren Standorte ergänzt werden, um den Prozess vollständig abzubilden"
+      },
+      {
+        "label": "B",
+        "text": "Eine Dokumentation nur für den ursprünglichen Standort reicht aus, solange der Grundablauf überall ähnlich ist"
+      },
+      {
+        "label": "C",
+        "text": "Standortspezifische Unterschiede sind für die Prozessdokumentation grundsätzlich ohne Bedeutung"
+      },
+      {
+        "label": "D",
+        "text": "Jeder Standort sollte zwingend eine vollständig eigenständige, unabhängige Prozessdokumentation erhalten"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "8277bff6-9ece-4de4-a3bb-3f47f26553e1",
+    "text": "Innerhalb eines Prozesses wird ein Zwischenschritt regelmäßig übersprungen, weil die Beteiligten ihn für überflüssig halten, ohne dass dies mit den ursprünglichen Prozessverantwortlichen abgestimmt wurde. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Beteiligte dürfen einzelne Prozessschritte grundsätzlich eigenmächtig überspringen, wenn sie diese für überflüssig halten"
+      },
+      {
+        "label": "B",
+        "text": "Das eigenmächtige Überspringen sollte mit den Prozessverantwortlichen abgestimmt werden, um zu klären, ob der Schritt tatsächlich entbehrlich ist"
+      },
+      {
+        "label": "C",
+        "text": "Ein regelmäßig übersprungener Schritt zeigt zwingend, dass die ursprüngliche Prozessgestaltung fehlerhaft war"
+      },
+      {
+        "label": "D",
+        "text": "Eine Abstimmung mit den Prozessverantwortlichen ist ausschließlich bei gesetzlich vorgeschriebenen Schritten erforderlich"
+      }
+    ],
+    "correctLabel": "B"
+  }
+]

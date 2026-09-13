@@ -1,0 +1,456 @@
+[
+  {
+    "id": "8aa85a2a-7395-4847-966d-4a897d236a56",
+    "text": "In einem Prozesshaus wird die Rechnungsprüfung als Unterstützungsprozess eingeordnet, obwohl sie unmittelbar zur Erbringung der verkauften Beratungsleistung gehört. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Einordnung sollte anhand des tatsächlichen Beitrags zur Kernleistung überprüft werden, statt sich allein am Prozessnamen zu orientieren"
+      },
+      {
+        "label": "B",
+        "text": "Die Einordnung ist unabhängig vom tatsächlichen Beitrag zur Kundenleistung immer korrekt, da Finanzprozesse stets Unterstützungsprozesse sind"
+      },
+      {
+        "label": "C",
+        "text": "Eine Neueinordnung ist grundsätzlich unzulässig, sobald ein Prozesshaus einmal festgelegt wurde"
+      },
+      {
+        "label": "D",
+        "text": "Die Kategorie spielt für die praktische Prozessarbeit keine Rolle"
+      }
+    ],
+    "explanation": {
+      "summary": "Die Rechnungsprüfung wird als Unterstützungsprozess eingeordnet, obwohl sie zur verkauften Beratungsleistung gehört.",
+      "whyCorrect": "A ist richtig, weil die Einordnung anhand des tatsächlichen Beitrags zur Kernleistung überprüft werden sollte, statt sich allein am Prozessnamen zu orientieren.",
+      "whyIncorrect": "B ist falsch, weil Finanzprozesse nicht pauschal immer Unterstützungsprozesse sind – der tatsächliche Beitrag zur Kundenleistung zählt. C ist falsch, weil eine Neueinordnung durchaus zulässig und sinnvoll sein kann, wenn sich die Einordnung als unpassend erweist. D ist falsch, weil die richtige Kategorie sehr wohl für die praktische Prozessarbeit (z. B. Priorisierung, Steuerung) relevant ist.",
+      "commonTrap": "Eine Prozesskategorie wird starr am Namen statt am tatsächlichen Beitrag zur Kernleistung festgemacht.",
+      "testedConcept": "Überprüfung der Prozesshaus-Zuordnung anhand des tatsächlichen Beitrags"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "f889cb57-5c7d-4fbe-8780-cf0611164103",
+    "text": "Ein Prozessverantwortlicher ändert eigenmächtig den Soll-Prozess, ohne die betroffenen Fachbereiche einzubeziehen oder die Änderung zu dokumentieren. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dies ist unproblematisch, solange die Änderung fachlich sinnvoll erscheint"
+      },
+      {
+        "label": "B",
+        "text": "Änderungen am Soll-Prozess sollten mit den betroffenen Fachbereichen abgestimmt und nachvollziehbar dokumentiert werden"
+      },
+      {
+        "label": "C",
+        "text": "Nur die Unternehmensleitung darf jemals einen Soll-Prozess ändern"
+      },
+      {
+        "label": "D",
+        "text": "Eine Dokumentation ist nur bei technischen, nicht bei organisatorischen Prozessänderungen nötig"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozessverantwortlicher ändert eigenmächtig den Soll-Prozess, ohne Fachbereiche einzubeziehen oder zu dokumentieren.",
+      "whyCorrect": "B ist richtig, weil Änderungen am Soll-Prozess mit den betroffenen Fachbereichen abgestimmt und nachvollziehbar dokumentiert werden sollten.",
+      "whyIncorrect": "A ist falsch, weil fachliche Sinnhaftigkeit allein die fehlende Abstimmung und Dokumentation nicht ersetzt. C ist falsch, weil auch andere Rollen als die Unternehmensleitung befugt sein können, Prozesse anzupassen, sofern angemessen abgestimmt. D ist falsch, weil Dokumentation auch bei organisatorischen Änderungen wichtig ist, nicht nur bei technischen.",
+      "commonTrap": "Fachliche Richtigkeit einer Änderung wird als ausreichend angesehen, ohne Abstimmung und Dokumentation zu berücksichtigen.",
+      "testedConcept": "Abstimmung und Dokumentation bei Prozessänderungen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "a5014dfa-f2f4-4f50-a01a-82c81331c535",
+    "text": "Bei einem mittelständischen Softwarehaus wird folgender Praxisfall bewertet: Ein fachlich sinnvoller Soll-Prozess stößt auf Widerstand, weil Beschäftigte neue Rollen als unklar und zusätzlichen Aufwand als unbegründet erleben. Welche Einführung ist am erfolgversprechendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Betroffene früh einbinden, Zweck und Auswirkungen erklären, Rollen klären, Rückmeldungen prüfen und die Einführung begleitet erproben"
+      },
+      {
+        "label": "B",
+        "text": "Zunächst die Prozessgrafik veröffentlichen, Rückmeldungen nach vollständiger technischer Umsetzung sammeln und Rollen lokal auslegen lassen"
+      },
+      {
+        "label": "C",
+        "text": "Den bisherigen Prozess parallel unbefristet zulassen, damit jede Einheit selbst über Zeitpunkt und Umfang der Umstellung entscheidet"
+      },
+      {
+        "label": "D",
+        "text": "Den Soll-Prozess sofort verbindlich setzen, Rollen später präzisieren und Akzeptanz über die Einhaltungsquote messen"
+      }
+    ],
+    "explanation": {
+      "summary": "Bei einem Softwarehaus stößt ein fachlich sinnvoller Soll-Prozess auf Widerstand wegen unklarer Rollen und Aufwands.",
+      "whyCorrect": "A ist richtig, weil frühe Einbindung, klare Kommunikation, geklärte Rollen, Rückmeldungen und eine begleitete Erprobung typische Erfolgsfaktoren für Akzeptanz sind.",
+      "whyIncorrect": "B ist falsch, weil Rückmeldungen erst nach vollständiger technischer Umsetzung einzuholen die Beteiligung zu spät ermöglicht. C ist falsch, weil unbefristete Parallelnutzung die Einführung verwässert. D ist falsch, weil verbindliche Einführung ohne Klärung der Rollen den Widerstand eher verstärkt.",
+      "commonTrap": "Prozessänderungen werden rein fachlich-technisch betrachtet, ohne Change Management zu berücksichtigen.",
+      "testedConcept": "Erfolgreiches Change Management bei Prozesseinführung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "ff847aaa-9ebf-4d7f-90de-634232e5b9c1",
+    "text": "Frühe Beteiligung, nachvollziehbarer Nutzen, klare RollBei einem kommunalen Versorger wird folgender Praxisfall bewertet: Ein Prozess hat seltene Sonderfälle und Übergaben an drei Bereiche. Wer sollte an der Prozesserfassung beteiligt werden?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Führungskraft des Bereichs mit den meisten Mitarbeitenden, ohne die Sonderfälle einzubeziehen"
+      },
+      {
+        "label": "B",
+        "text": "Ausführende und Verantwortliche aus den relevanten Bereichen einschließlich Personen mit Kenntnis der Sonderfälle"
+      },
+      {
+        "label": "C",
+        "text": "Personen, die den Standardfall ausführen, ohne die Ausnahmen einzubeziehen"
+      },
+      {
+        "label": "D",
+        "text": "Der Hersteller des verwendeten Systems, losgelöst von den ausführenden Personen"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozess hat seltene Sonderfälle und Übergaben an drei Bereiche bei einem kommunalen Versorger; gefragt wird, wer beteiligt werden sollte.",
+      "whyCorrect": "B ist richtig, weil Ausführende und Verantwortliche aus allen relevanten Bereichen einschließlich Personen mit Kenntnis der Sonderfälle einbezogen werden sollten.",
+      "whyIncorrect": "A ist falsch, weil die alleinige Einbindung der größten Führungskraft die Sonderfälle ignoriert. C ist falsch, weil eine Beschränkung auf den Standardfall die wichtigen Ausnahmen unberücksichtigt lässt. D ist falsch, weil der Systemhersteller allein keine Kenntnis der tatsächlichen Abläufe hat.",
+      "commonTrap": "Nur der Standardfall bzw. nur die größte Abteilung wird berücksichtigt, Sonderfälle werden übersehen.",
+      "testedConcept": "Vollständige Einbindung Beteiligter bei der Prozesserfassung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "200a52a7-87c1-4e7e-a7fe-206b67bc7e40",
+    "text": "Eine Prozessbeschreibung wurde vor drei Jahren erstellt; der tatsächlich gelebte Ablauf hat sich seither in mehreren Schritten verändert, ohne dass die Dokumentation aktualisiert wurde. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Dokumentation sollte mit dem tatsächlichen Ist-Prozess abgeglichen und aktualisiert werden, um weiterhin verlässlich zu sein"
+      },
+      {
+        "label": "B",
+        "text": "Dies ist unproblematisch, solange die ursprüngliche Dokumentation formal korrekt erstellt wurde"
+      },
+      {
+        "label": "C",
+        "text": "Prozessdokumentationen müssen nach ihrer Erstellung grundsätzlich nicht mehr verändert werden"
+      },
+      {
+        "label": "D",
+        "text": "Eine Abweichung zwischen Dokumentation und gelebtem Ablauf ist ausschließlich ein Problem der Qualitätssicherung"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine Prozessbeschreibung ist drei Jahre alt; der tatsächliche Ablauf hat sich seither verändert, ohne dass die Dokumentation aktualisiert wurde.",
+      "whyCorrect": "A ist richtig, weil die Dokumentation mit dem tatsächlichen Ist-Prozess abgeglichen und aktualisiert werden sollte, um weiterhin verlässlich zu sein.",
+      "whyIncorrect": "B ist falsch, weil formale Korrektheit bei der Erstellung eine spätere Veraltung nicht verhindert. C ist falsch, weil sich Prozesse und damit ihre Dokumentation über die Zeit ändern können und sollten. D ist falsch, weil die Abweichung nicht nur die Qualitätssicherung, sondern die Verlässlichkeit der Prozessdokumentation insgesamt betrifft.",
+      "commonTrap": "Eine einmal erstellte Dokumentation wird als dauerhaft gültig angesehen, ohne die Notwendigkeit der Aktualisierung zu bedenken.",
+      "testedConcept": "Aktualität von Prozessdokumentation"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "5a5275ef-de0b-4ffa-9f1e-0a9f934c7cd6",
+    "text": "Ein Genehmigungsschritt in einem Prozess hat genau eine zuständige Person; es existiert keine Vertretungsregelung für den Fall ihrer Abwesenheit. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dies ist unproblematisch, da Abwesenheiten in der Praxis selten vorkommen"
+      },
+      {
+        "label": "B",
+        "text": "Der fehlenden Vertretungsregelung sollte begegnet werden, da die Abwesenheit der zuständigen Person sonst den gesamten Prozess blockieren kann"
+      },
+      {
+        "label": "C",
+        "text": "Vertretungsregelungen sind ausschließlich für technische Systeme relevant, nicht für einzelne Rollen"
+      },
+      {
+        "label": "D",
+        "text": "Eine Vertretungsregelung widerspricht dem Prinzip der Funktionstrennung"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Genehmigungsschritt hat genau eine zuständige Person und keine Vertretungsregelung für Abwesenheit.",
+      "whyCorrect": "B ist richtig, weil die fehlende Vertretungsregelung dazu führen kann, dass die Abwesenheit der zuständigen Person den gesamten Prozess blockiert.",
+      "whyIncorrect": "A ist falsch, weil auch seltene Abwesenheiten schwerwiegende Prozessverzögerungen verursachen können. C ist falsch, weil Vertretungsregelungen auch für Rollen, nicht nur technische Systeme, relevant sind. D ist falsch, weil eine sinnvolle Vertretungsregelung dem Prinzip der Funktionstrennung nicht widersprechen muss.",
+      "commonTrap": "Die Seltenheit eines Ausfalls wird mit der Irrelevanz einer Vertretungsregelung gleichgesetzt.",
+      "testedConcept": "Notwendigkeit von Vertretungsregelungen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "fd6b1a83-b250-427e-90d3-d551037bde9b",
+    "text": "Ein Prozess wird nach der Optimierung schneller, aber die Fehlerquote in der nachgelagerten Qualitätsprüfung steigt gleichzeitig deutlich an. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die gestiegene Fehlerquote sollte als Nebenwirkung der Optimierung untersucht werden, bevor die Änderung als Erfolg gewertet wird"
+      },
+      {
+        "label": "B",
+        "text": "Die Optimierung ist grundsätzlich erfolgreich, da die Durchlaufzeit das einzig relevante Erfolgskriterium ist"
+      },
+      {
+        "label": "C",
+        "text": "Fehlerquoten in der Qualitätsprüfung stehen grundsätzlich in keinem Zusammenhang mit vorgelagerten Prozessänderungen"
+      },
+      {
+        "label": "D",
+        "text": "Eine gestiegene Fehlerquote ist immer ein Zeichen für unzureichend geschulte Beschäftigte"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozess wird nach der Optimierung schneller, aber die Fehlerquote in der Qualitätsprüfung steigt an.",
+      "whyCorrect": "A ist richtig, weil die gestiegene Fehlerquote als mögliche Nebenwirkung der Optimierung untersucht werden sollte, bevor die Änderung als Erfolg gewertet wird.",
+      "whyIncorrect": "B ist falsch, weil Durchlaufzeit nicht das einzig relevante Erfolgskriterium ist, wenn gleichzeitig Fehler zunehmen. C ist falsch, weil Fehlerquoten sehr wohl mit vorgelagerten Prozessänderungen zusammenhängen können. D ist falsch, weil eine gestiegene Fehlerquote verschiedene Ursachen haben kann, nicht nur unzureichende Schulung.",
+      "commonTrap": "Eine verbesserte Durchlaufzeit wird isoliert als Erfolg gewertet, ohne mögliche negative Nebenwirkungen zu prüfen.",
+      "testedConcept": "Ganzheitliche Wirkungsprüfung bei Prozessoptimierung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "7b3f9fe3-6290-41dc-9b8f-4b93d5faeb04",
+    "text": "Für einen neu eingeführten Prozess existiert keine Kennzahl, anhand derer sein Erfolg objektiv beurteilt werden könnte. Welche Ergänzung ist am wichtigsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Auf eine Erfolgsmessung grundsätzlich verzichten, da neue Prozesse zunächst nur eingeübt werden müssen"
+      },
+      {
+        "label": "B",
+        "text": "Mindestens eine aussagekräftige, mit dem Prozessziel verknüpfte Kennzahl definieren und regelmäßig erheben"
+      },
+      {
+        "label": "C",
+        "text": "Ausschließlich die subjektive Zufriedenheit der beteiligten Führungskraft als Maßstab verwenden"
+      },
+      {
+        "label": "D",
+        "text": "Den Erfolg allein daran bemessen, ob der Prozess pünktlich eingeführt wurde"
+      }
+    ],
+    "explanation": {
+      "summary": "Für einen neu eingeführten Prozess existiert keine Kennzahl zur objektiven Erfolgsbeurteilung.",
+      "whyCorrect": "B ist richtig, weil mindestens eine aussagekräftige, mit dem Prozessziel verknüpfte Kennzahl definiert und regelmäßig erhoben werden sollte.",
+      "whyIncorrect": "A ist falsch, weil auch neue Prozesse von Anfang an messbar gestaltet werden sollten. C ist falsch, weil subjektive Zufriedenheit allein keine ausreichende, objektive Erfolgsmessung darstellt. D ist falsch, weil Pünktlichkeit der Einführung nichts über die tatsächliche Wirkung des Prozesses aussagt.",
+      "commonTrap": "Der Verzicht auf Kennzahlen wird bei neuen Prozessen als vorübergehend akzeptabel angesehen.",
+      "testedConcept": "Notwendigkeit aussagekräftiger Erfolgskennzahlen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "3e29b812-f34b-496f-9393-076e10fc3260",
+    "text": "Ein Prozess wird ausschließlich anhand des Feedbacks der ausführenden Person bewertet, ohne die tatsächlichen Kennzahlen wie Durchlaufzeit oder Fehlerquote heranzuziehen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine ausschließlich auf subjektivem Feedback beruhende Bewertung sollte um objektive Kennzahlen ergänzt werden"
+      },
+      {
+        "label": "B",
+        "text": "Subjektives Feedback der ausführenden Person ist stets zuverlässiger als jede Kennzahl"
+      },
+      {
+        "label": "C",
+        "text": "Kennzahlen sind für die Prozessbewertung grundsätzlich weniger aussagekräftig als persönliche Eindrücke"
+      },
+      {
+        "label": "D",
+        "text": "Eine Kombination aus Feedback und Kennzahlen ist grundsätzlich nicht sinnvoll umsetzbar"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozess wird ausschließlich anhand des Feedbacks der ausführenden Person bewertet, ohne Kennzahlen heranzuziehen.",
+      "whyCorrect": "A ist richtig, weil eine ausschließlich auf subjektivem Feedback beruhende Bewertung um objektive Kennzahlen ergänzt werden sollte, um ein vollständiges Bild zu erhalten.",
+      "whyIncorrect": "B ist falsch, weil subjektives Feedback nicht grundsätzlich zuverlässiger als Kennzahlen ist. C ist falsch, weil Kennzahlen häufig objektiver und vergleichbarer als persönliche Eindrücke sind. D ist falsch, weil eine Kombination aus Feedback und Kennzahlen durchaus sinnvoll und praktikabel ist.",
+      "commonTrap": "Subjektives Feedback wird als ausreichende, alleinstehende Bewertungsgrundlage angesehen.",
+      "testedConcept": "Kombination subjektiver und objektiver Bewertungskriterien"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "2bfcd48c-9165-40ce-b9dd-47ef2a49631a",
+    "text": "In einem Freigabeprozess entscheidet eine einzelne Person sowohl über die inhaltliche Prüfung als auch über die abschließende Freigabe derselben Unterlage. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dies ist stets unproblematisch, solange die Person ausreichend Erfahrung hat"
+      },
+      {
+        "label": "B",
+        "text": "Diese Kombination beider Rollen in einer Person kann dem Prinzip der Funktionstrennung widersprechen und sollte überprüft werden"
+      },
+      {
+        "label": "C",
+        "text": "Funktionstrennung betrifft ausschließlich technische Systeme, nicht organisatorische Freigabeprozesse"
+      },
+      {
+        "label": "D",
+        "text": "Eine Zusammenlegung von Prüfung und Freigabe erhöht grundsätzlich die Sicherheit des Prozesses"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine einzelne Person entscheidet sowohl über die inhaltliche Prüfung als auch über die abschließende Freigabe derselben Unterlage.",
+      "whyCorrect": "B ist richtig, weil die Kombination von Prüfung und Freigabe in einer Person dem Prinzip der Funktionstrennung widersprechen kann und überprüft werden sollte.",
+      "whyIncorrect": "A ist falsch, weil Erfahrung allein das strukturelle Risiko einer fehlenden Funktionstrennung nicht beseitigt. C ist falsch, weil Funktionstrennung auch für organisatorische Freigabeprozesse relevant ist, nicht nur für technische Systeme. D ist falsch, weil eine Zusammenlegung von Prüfung und Freigabe tendenziell das Kontrollrisiko erhöht statt die Sicherheit zu verbessern.",
+      "commonTrap": "Erfahrung einer Person wird als Ersatz für strukturelle Kontrollen wie Funktionstrennung angesehen.",
+      "testedConcept": "Prinzip der Funktionstrennung (Segregation of Duties)"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Funktionstrennung"
+      }
+    ]
+  },
+  {
+    "id": "1c00e3b8-89bb-4efc-baca-7c711d92c592",
+    "text": "Ein neu eingeführter Prozess wird nur den unmittelbar beteiligten Personen erklärt, nicht aber den Personen, die den Prozess lediglich anstoßen oder dessen Ergebnis weiterverwenden. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Alle relevanten Beteiligten, einschließlich anstoßender und weiterverwendender Personen, sollten über den Prozess informiert werden"
+      },
+      {
+        "label": "B",
+        "text": "Eine Information ist ausschließlich für die unmittelbar ausführenden Personen erforderlich"
+      },
+      {
+        "label": "C",
+        "text": "Personen, die einen Prozess nur anstoßen, benötigen grundsätzlich keine Kenntnis über dessen Ablauf"
+      },
+      {
+        "label": "D",
+        "text": "Die Kommunikation eines Prozesses an Randbeteiligte verzögert die Einführung unnötig und sollte unterbleiben"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein neuer Prozess wird nur den unmittelbar Beteiligten erklärt, nicht aber anstoßenden oder weiterverwendenden Personen.",
+      "whyCorrect": "A ist richtig, weil alle relevanten Beteiligten, einschließlich anstoßender und weiterverwendender Personen, über den Prozess informiert werden sollten.",
+      "whyIncorrect": "B ist falsch, weil eine Beschränkung auf die unmittelbar ausführenden Personen andere relevante Beteiligte ausschließt. C ist falsch, weil auch anstoßende Personen von Kenntnissen über den Ablauf profitieren können. D ist falsch, weil die Information von Randbeteiligten in der Regel keine unnötige Verzögerung darstellt, sondern zur reibungslosen Durchführung beiträgt.",
+      "commonTrap": "Kommunikation wird auf die Kernausführenden beschränkt, Rand-Stakeholder werden übersehen.",
+      "testedConcept": "Vollständige Kommunikation bei Prozesseinführung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "3e844e09-c83a-42b2-a4ef-c45780ca5036",
+    "text": "Eine Prozessvisualisierung verwendet für dieselbe Art von Tätigkeit in unterschiedlichen Diagrammen unterschiedliche Symbole, ohne einheitliche Notation. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unterschiedliche Symbole für dieselbe Tätigkeit sind unproblematisch, solange jedes einzelne Diagramm für sich verständlich ist"
+      },
+      {
+        "label": "B",
+        "text": "Eine einheitliche Notation sollte verwendet werden, um Missverständnisse beim Lesen unterschiedlicher Prozessdiagramme zu vermeiden"
+      },
+      {
+        "label": "C",
+        "text": "Eine einheitliche Notation ist ausschließlich für automatisiert ausgewertete Diagramme relevant"
+      },
+      {
+        "label": "D",
+        "text": "Die Wahl der Symbole hat keinen Einfluss auf die Verständlichkeit von Prozessdiagrammen"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine Prozessvisualisierung verwendet für dieselbe Tätigkeitsart in unterschiedlichen Diagrammen unterschiedliche Symbole.",
+      "whyCorrect": "B ist richtig, weil eine einheitliche Notation Missverständnisse beim Lesen unterschiedlicher Prozessdiagramme vermeidet.",
+      "whyIncorrect": "A ist falsch, weil auch bei einzeln verständlichen Diagrammen die Vergleichbarkeit und übergreifende Nutzung leidet. C ist falsch, weil eine einheitliche Notation auch für manuell gelesene Diagramme wichtig ist, nicht nur für automatisierte Auswertung. D ist falsch, weil die Symbolwahl sehr wohl die Verständlichkeit und Konsistenz beeinflusst.",
+      "commonTrap": "Uneinheitliche Notation wird als unproblematisch angesehen, solange einzelne Diagramme für sich verständlich bleiben.",
+      "testedConcept": "Konsistente Notation in Prozessdiagrammen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "41ddf531-a41d-4cc7-a374-a1e3cebd4ec1",
+    "text": "Ein Prozessdiagramm zeigt eine Entscheidung mit zwei möglichen Ausgängen, aber nur einen der beiden Wege ist tatsächlich weiter ausgearbeitet. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der nicht ausgearbeitete Weg sollte ebenfalls vervollständigt werden, um den Prozess bei diesem Ausgang nachvollziehbar zu machen"
+      },
+      {
+        "label": "B",
+        "text": "Ein einziger ausgearbeiteter Weg reicht aus, da der andere Ausgang in der Praxis vermutlich selten vorkommt"
+      },
+      {
+        "label": "C",
+        "text": "Unvollständig ausgearbeitete Wege sind für die Prozessdokumentation grundsätzlich ohne Bedeutung"
+      },
+      {
+        "label": "D",
+        "text": "Die Vervollständigung des zweiten Weges ist ausschließlich bei sicherheitskritischen Prozessen erforderlich"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozessdiagramm zeigt eine Entscheidung mit zwei Ausgängen, aber nur einer der beiden Wege ist ausgearbeitet.",
+      "whyCorrect": "A ist richtig, weil auch der nicht ausgearbeitete Weg vervollständigt werden sollte, um den Prozess bei diesem Ausgang nachvollziehbar zu machen.",
+      "whyIncorrect": "B ist falsch, weil die Seltenheit eines Ausgangs keine hinreichende Rechtfertigung dafür ist, ihn unbearbeitet zu lassen. C ist falsch, weil unvollständige Wege durchaus relevante Lücken in der Prozessdokumentation darstellen. D ist falsch, weil die Vollständigkeit auch bei nicht sicherheitskritischen Prozessen für Nachvollziehbarkeit wichtig ist.",
+      "commonTrap": "Ein seltener Ausgang wird als vernachlässigbar behandelt und bleibt unvollständig dokumentiert.",
+      "testedConcept": "Vollständige Dokumentation aller Entscheidungswege"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "7da262e0-f02a-401c-8ee6-ce7d80a55e44",
+    "text": "Ein Team führt eine Prozessoptimierung durch, ohne vorher zu klären, welches konkrete Problem damit gelöst werden soll. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine vorherige Problemdefinition ist überflüssig, solange am Ende irgendeine Verbesserung erzielt wird"
+      },
+      {
+        "label": "B",
+        "text": "Eine klare Problemdefinition sollte vor der eigentlichen Optimierung erfolgen, um die Maßnahme zielgerichtet auszurichten"
+      },
+      {
+        "label": "C",
+        "text": "Prozessoptimierung sollte grundsätzlich ohne vorherige Analyse begonnen werden, um Zeit zu sparen"
+      },
+      {
+        "label": "D",
+        "text": "Die Definition des zu lösenden Problems ist ausschließlich bei technischen Prozessen relevant"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Team führt eine Prozessoptimierung durch, ohne vorher das zu lösende Problem zu definieren.",
+      "whyCorrect": "B ist richtig, weil eine klare Problemdefinition vor der eigentlichen Optimierung erfolgen sollte, um die Maßnahme zielgerichtet auszurichten.",
+      "whyIncorrect": "A ist falsch, weil eine zufällige Verbesserung ohne Problemdefinition nicht garantiert, dass das eigentliche Problem gelöst wird. C ist falsch, weil das bewusste Weglassen der Analyse das Risiko unpassender Maßnahmen erhöht. D ist falsch, weil eine klare Problemdefinition auch bei nichttechnischen Prozessen wichtig ist.",
+      "commonTrap": "Optimierung wird als reine Umsetzungsaufgabe missverstanden, ohne die vorgelagerte Problemanalyse zu berücksichtigen.",
+      "testedConcept": "Problemdefinition vor Prozessoptimierung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "ab88c78c-5ddb-43cb-833a-f4ca1b0c137d",
+    "text": "Zwei Abteilungen führen denselben Prozessschritt unabhängig voneinander mit leicht unterschiedlichen Ergebnissen durch, ohne dass dies bislang koordiniert wurde. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die abweichende Durchführung sollte untersucht und, falls sinnvoll, vereinheitlicht werden, um Konsistenz sicherzustellen"
+      },
+      {
+        "label": "B",
+        "text": "Abweichungen zwischen Abteilungen bei identischen Prozessschritten sind grundsätzlich unproblematisch"
+      },
+      {
+        "label": "C",
+        "text": "Eine Vereinheitlichung ist ausschließlich bei gesetzlich vorgeschriebenen Prozessschritten erforderlich"
+      },
+      {
+        "label": "D",
+        "text": "Unterschiedliche Ergebnisse bei identischem Prozessschritt deuten grundsätzlich nicht auf ein Prozessproblem hin"
+      }
+    ],
+    "explanation": {
+      "summary": "Zwei Abteilungen führen denselben Prozessschritt unabhängig voneinander mit leicht unterschiedlichen Ergebnissen durch.",
+      "whyCorrect": "A ist richtig, weil die abweichende Durchführung untersucht und, falls sinnvoll, vereinheitlicht werden sollte, um Konsistenz sicherzustellen.",
+      "whyIncorrect": "B ist falsch, weil unkoordinierte Abweichungen bei identischen Schritten Qualitäts- und Steuerungsprobleme verursachen können. C ist falsch, weil auch nicht gesetzlich vorgeschriebene Schritte von einer Vereinheitlichung profitieren können. D ist falsch, weil unterschiedliche Ergebnisse bei identischem Schritt durchaus auf ein Prozessproblem hindeuten können.",
+      "commonTrap": "Unkoordinierte Abweichungen zwischen Abteilungen werden als unbedeutend abgetan.",
+      "testedConcept": "Konsistenz gleicher Prozessschritte über Abteilungen hinweg"
+    },
+    "vocabulary": []
+  }
+]

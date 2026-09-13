@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { saveAllReadyItemsAction } from "@/app/(app)/questions/import/actions";
 import { ImportItemCard } from "@/components/import/import-item-card";
-import { EnrichImportButton } from "@/components/import/enrich-import-button";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import type { ParsedQuestion } from "@/lib/validation/question";
@@ -38,7 +37,7 @@ export default async function ImportReviewPage({ params }: { params: Promise<{ i
   }
 
   return (
-    <main className="mx-auto flex max-w-3xl flex-col gap-6 px-4 py-8">
+    <main className="mx-auto flex max-w-[852px] flex-col gap-6 px-4 py-8">
       <Card>
         <CardHeader>
           <CardTitle>{dict.importFlow.overviewTitle}</CardTitle>
@@ -60,8 +59,12 @@ export default async function ImportReviewPage({ params }: { params: Promise<{ i
               </Button>
             </form>
           )}
-          <EnrichImportButton importId={importId} disabled={counts.saved === 0} />
         </CardContent>
+        {counts.saved > 0 && (
+          <CardContent className="pt-0">
+            <p className="text-sm text-muted-foreground">{dict.importFlow.enrichOfflineNotice}</p>
+          </CardContent>
+        )}
       </Card>
 
       <div className="flex flex-col gap-4">

@@ -11,12 +11,6 @@ export function TranslatableText({ text, enabled }: { text: string; enabled: boo
   return (
     <>
       {parts.map((part, i) =>
-        // Not passing sentence context here: the LLM-based contextual
-        // lookup it would trigger hits Google's free-tier Gemini quota
-        // (20 requests/day, shared with the question-level translation
-        // above) almost immediately. The full-question translation now
-        // covers the "meaningful in context" need; this stays the fast,
-        // high-quota, word-only Azure lookup.
         i % 2 === 1 && isTranslatableWord(part) ? (
           <TranslatableWord key={i} word={part} />
         ) : (

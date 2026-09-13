@@ -1,0 +1,232 @@
+[
+  {
+    "id": "b0b79047-8037-4a25-9551-2e8f665f9a5e",
+    "text": "Ein Unternehmen hat weder eine ISO/IEC-27001-Zertifizierung noch eine gesetzliche Verpflichtung dazu. Ein wichtiger Kunde verlangt vertraglich, dass sich das Unternehmen an die ISO/IEC-27001-Anforderungen hält, jedoch ohne externe Zertifizierung zu verlangen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ohne Zertifizierung kann eine Norm grundsätzlich nicht wirksam vertraglich vereinbart werden"
+      },
+      {
+        "label": "B",
+        "text": "Die Vereinbarung ist wirkungslos, solange keine gesetzliche Grundlage für ISO/IEC 27001 existiert"
+      },
+      {
+        "label": "C",
+        "text": "Die Vereinbarung entspricht automatisch einer vollständigen Zertifizierungspflicht für das Unternehmen"
+      },
+      {
+        "label": "D",
+        "text": "Die Einhaltung der Anforderungen kann vertraglich bindend werden, obwohl keine Zertifizierungspflicht besteht"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "e0bbe481-7574-4fbd-b3ec-c6a7146c99c3",
+    "text": "Ein Unternehmen ist ISO/IEC 27001 zertifiziert und geht davon aus, damit automatisch alle für sein Geschäft geltenden gesetzlichen Cybersicherheitspflichten zu erfüllen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Annahme ist unzutreffend; gesetzliche Pflichten müssen unabhängig von einer Zertifizierung eigenständig ermittelt werden"
+      },
+      {
+        "label": "B",
+        "text": "Die Annahme ist zutreffend, weil eine Zertifizierung gesetzliche Einzelpflichten grundsätzlich abdeckt"
+      },
+      {
+        "label": "C",
+        "text": "Die Annahme ist zutreffend, solange die Zertifizierung jährlich erneuert wird"
+      },
+      {
+        "label": "D",
+        "text": "Die Annahme betrifft nur Unternehmen ohne eigene Rechtsabteilung"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "8863edca-b71b-43a4-ad64-0cc0035ca6d6",
+    "text": "Die NIS-2-Richtlinie verpflichtet Mitgliedstaaten, ihre Vorgaben in nationales Recht umzusetzen, bevor sie für Unternehmen unmittelbar gilt. Welche Aussage zur Rechtsnatur ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Als EU-Richtlinie gilt NIS-2 unmittelbar in jedem Mitgliedstaat, ohne dass eine nationale Umsetzung nötig ist"
+      },
+      {
+        "label": "B",
+        "text": "Als EU-Richtlinie bedarf NIS-2 grundsätzlich der nationalen Umsetzung, im Unterschied zu einer unmittelbar geltenden EU-Verordnung"
+      },
+      {
+        "label": "C",
+        "text": "NIS-2 ist keine Rechtsvorschrift, sondern eine unverbindliche Empfehlung der EU-Kommission"
+      },
+      {
+        "label": "D",
+        "text": "NIS-2 gilt nur für Behörden, da Richtlinien generell nicht an Unternehmen adressiert sind"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "751165ad-1260-4b2f-a7c6-00726adefd9e",
+    "text": "Ein Unternehmen nutzt einen Cloud-Anbieter, der im Auftrag personenbezogene Kundendaten verarbeitet. Welche zusätzliche Vereinbarung ist datenschutzrechtlich erforderlich?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Keine zusätzliche Vereinbarung, da der übliche Dienstleistungsvertrag ausreicht"
+      },
+      {
+        "label": "B",
+        "text": "Eine ISO/IEC-27001-Zertifizierung des Cloud-Anbieters als alleiniger Ersatz für eine vertragliche Regelung"
+      },
+      {
+        "label": "C",
+        "text": "Ein gesonderter Auftragsverarbeitungsvertrag, der Pflichten und Kontrollrechte bezüglich der personenbezogenen Daten regelt"
+      },
+      {
+        "label": "D",
+        "text": "Eine Vereinbarung ist nur erforderlich, wenn der Cloud-Anbieter außerhalb der EU sitzt"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "be36622c-0a13-4c57-adad-8c25594d1e5d",
+    "text": "Eine gemeinnützige Organisation übernimmt ISO/IEC-27001-Grundsätze freiwillig in ihre internen Vorgaben, strebt aber keine Zertifizierung an. Welche Aussage trifft zu?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ohne Zertifizierung dürfen Inhalte der Norm intern nicht als verbindlich gelten"
+      },
+      {
+        "label": "B",
+        "text": "Die freiwillige Übernahme macht ISO/IEC 27001 automatisch zu einem staatlichen Gesetz"
+      },
+      {
+        "label": "C",
+        "text": "Die Organisation kann die Grundsätze intern verbindlich festlegen, auch wenn daraus keine staatliche Zertifizierungspflicht entsteht"
+      },
+      {
+        "label": "D",
+        "text": "Ohne gesetzliche Pflicht sind interne Vorgaben in der Regel weniger durchsetzbar"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "ea7c7ed4-de12-4148-8b3a-dc6908fa9434",
+    "text": "Ein mittelständisches Unternehmen prüft, ob es als KRITIS-Betreiber gilt, und zieht dafür ausschließlich die Zahl seiner Beschäftigten heran. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Beschäftigtenzahl allein reicht aus, da KRITIS-Schwellenwerte einheitlich für alle Branchen gelten"
+      },
+      {
+        "label": "B",
+        "text": "KRITIS-Betreiber werden ausschließlich anhand des Jahresumsatzes bestimmt"
+      },
+      {
+        "label": "C",
+        "text": "Die Einordnung als KRITIS-Betreiber ist freiwillig und kann vom Unternehmen selbst gewählt werden"
+      },
+      {
+        "label": "D",
+        "text": "Die Einordnung erfordert zusätzlich die Betrachtung von Sektor, erbrachter Leistung und den dafür geltenden Schwellenwerten"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "c7c70e95-7299-4bee-9cc5-f3207474222d",
+    "text": "Ein mittelständischer Fertigungsbetrieb möchte seine mögliche Betroffenheit durch neue Cybersicherheitsvorgaben einschätzen. Welche Informationsbasis ist für eine erste Einordnung am geeignetsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Bestehende Zertifikate als Hauptnachweis heranziehen, weil sie die wichtigsten Anforderungen bereits abdecken"
+      },
+      {
+        "label": "B",
+        "text": "Tätigkeit, Sektor, Dienste, Größe und Rolle gemeinsam prüfen und offene Rechtsfragen qualifiziert klären"
+      },
+      {
+        "label": "C",
+        "text": "Tätigkeit und Sektor betrachten; Größe und konkrete Dienste erst nach einer positiven Ersteinschätzung prüfen"
+      },
+      {
+        "label": "D",
+        "text": "Unternehmensgröße und Umsatz betrachten; konkrete Rolle und angebotene Dienste nicht berücksichtigen"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "071d9600-db20-4db1-be20-bf974e32fef6",
+    "text": "Ein als kritische Einrichtung eingestuftes Unternehmen erleidet einen erheblichen Cybervorfall. Welche Aussage zur Meldepflicht ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Für kritische Einrichtungen bestehen nach einschlägigen Regelungen wie NIS-2 grundsätzlich Meldepflichten für erhebliche Vorfälle"
+      },
+      {
+        "label": "B",
+        "text": "Eine Meldung an die zuständige Stelle ist grundsätzlich freiwillig und liegt im Ermessen des Unternehmens"
+      },
+      {
+        "label": "C",
+        "text": "Eine Meldepflicht besteht nur, wenn personenbezogene Daten betroffen sind"
+      },
+      {
+        "label": "D",
+        "text": "Eine Meldung ist nur erforderlich, wenn der Vorfall bereits öffentlich bekannt geworden ist"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "edbb57e0-3646-4def-b3e3-18417c31bd26",
+    "text": "Ein Unternehmen setzt eine kommerzielle Software ohne die erforderliche Lizenz auf mehreren Arbeitsplätzen ein. Zu welchem Bereich rechtlicher Anforderungen zählt dieser Sachverhalt vorrangig?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ausschließlich zum Datenschutzrecht, da Software personenbezogene Daten verarbeiten kann"
+      },
+      {
+        "label": "B",
+        "text": "Zum Urheber- beziehungsweise Lizenzrecht, da die Nutzungsrechte an der Software nicht eingehalten werden"
+      },
+      {
+        "label": "C",
+        "text": "Zu keinem rechtlichen Bereich, solange keine sicherheitsrelevante Schwachstelle vorliegt"
+      },
+      {
+        "label": "D",
+        "text": "Ausschließlich zum Vertragsrecht zwischen Kunden und dem Unternehmen"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "e867a1b0-39cf-4693-a8a4-c7bc153e7748",
+    "text": "Ein Unternehmen legt in seiner internen Richtlinie eine Mindestpasswortlänge fest, die über der gesetzlich beziehungsweise normativ geforderten Mindestlänge liegt. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dies ist unzulässig, da interne Vorgaben gesetzliche Mindestanforderungen nicht übersteigen dürfen"
+      },
+      {
+        "label": "B",
+        "text": "Strengere interne Vorgaben sind nur mit behördlicher Genehmigung zulässig"
+      },
+      {
+        "label": "C",
+        "text": "Ein Unternehmen kann freiwillig strengere interne Anforderungen festlegen, als gesetzlich oder normativ mindestens gefordert ist"
+      },
+      {
+        "label": "D",
+        "text": "Die interne Vorgabe wird automatisch unwirksam, sobald sie über dem gesetzlichen Minimum liegt"
+      }
+    ],
+    "correctLabel": "C"
+  }
+]

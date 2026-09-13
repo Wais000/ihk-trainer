@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/broadsheet-d864badb-6ef9-459e-b016-2fbab7d1dbf2/styles.css">
+<script src="_ds/broadsheet-d864badb-6ef9-459e-b016-2fbab7d1dbf2/_ds_bundle.js"></script>
+<script src="./image-slot.js"></script>
+<style>
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; text-wrap: pretty; }
+  a { color: var(--color-accent-700); text-decoration: none; }
+  a:hover { color: var(--color-accent); }
+</style>
+</helmet>
+
+<div style="background:var(--color-bg)">
+
+  <nav class="nav" style="padding-inline:max(clamp(20px,5vw,72px), calc((100% - 1180px) / 2 + clamp(20px,5vw,72px)))">
+    <span class="nav-brand">IHK Exam Trainer</span>
+    <a href="#try">Try it</a>
+    <a href="#topics">Topics</a>
+    <a href="#translation">Translation</a>
+    <a href="#exam">Exam mode</a>
+    <a href="#start" class="btn btn-primary" style="color:var(--color-bg)">Get started</a>
+  </nav>
+
+  <div style="max-width:1180px; margin:0 auto; padding:0 clamp(20px,5vw,72px)">
+
+    <section style="padding:clamp(44px,6vw,92px) 0 0; text-align:center">
+      <h1 style="font-family:var(--font-heading); font-weight:600; font-size:clamp(38px,5.6vw,74px); line-height:1.07; letter-spacing:-0.02em; margin:0 auto; max-width:20ch">
+        <span class="cmyk-head" style="display:inline-block"><span class="paper">Learn the exam,</span><span class="plate plate-c" aria-hidden="true">Learn the exam,</span><span class="plate plate-m" aria-hidden="true">Learn the exam,</span><span class="plate plate-y" aria-hidden="true">Learn the exam,</span></span>
+        <span style="display:block">not the dictionary.</span>
+      </h1>
+      <p style="font-size:18px; line-height:30px; margin:28px auto 0; max-width:56ch; color:color-mix(in srgb, var(--color-text) 80%, transparent)">Real IHK multiple-choice questions, in the German they are printed in — with every hard word one tap from your own language. Other trainers hand you the questions. This one hands you the words too, so the hour you spend goes on the subject instead of the dictionary.</p>
+      <div style="display:flex; gap:15px; justify-content:center; flex-wrap:wrap; margin-top:32px">
+        <a href="#start" class="btn btn-primary" style="color:var(--color-bg); min-height:44px; padding-inline:20px">I'm taking the exam</a>
+        <a href="#trainers" class="btn btn-secondary" style="min-height:44px; padding-inline:20px">I'm a trainer</a>
+      </div>
+      <p style="font-size:14px; line-height:24px; margin:16px 0 0; color:color-mix(in srgb, var(--color-text) 65%, transparent)">Free account · bring your own question bank · nothing to install</p>
+    </section>
+
+    <section style="padding:56px 0" aria-label="In figures">
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:28px clamp(28px,5vw,72px)">
+        <div style="text-align:center">
+          <span class="cmyk-num" style="display:inline-block; font-family:var(--font-heading); font-weight:600; font-size:48px"><span class="paper">40 / 60</span><span class="plate plate-c" aria-hidden="true">40 / 60</span><span class="plate plate-m" aria-hidden="true">40 / 60</span><span class="plate plate-y" aria-hidden="true">40 / 60</span></span>
+          <p style="font-size:15px; line-height:24px; margin:16px 0 0; color:color-mix(in srgb, var(--color-text) 72%, transparent)">Questions and minutes in a mock exam — the real format, the real clock</p>
+        </div>
+        <div style="text-align:center">
+          <span class="cmyk-num" style="display:inline-block; font-family:var(--font-heading); font-weight:600; font-size:48px"><span class="paper">4</span><span class="plate plate-c" aria-hidden="true">4</span><span class="plate plate-m" aria-hidden="true">4</span><span class="plate plate-y" aria-hidden="true">4</span></span>
+          <p style="font-size:15px; line-height:24px; margin:16px 0 0; color:color-mix(in srgb, var(--color-text) 72%, transparent)">Languages for words, explanations and menus — Deutsch, English, فارسی, עברית</p>
+        </div>
+        <div style="text-align:center">
+          <span class="cmyk-num" style="display:inline-block; font-family:var(--font-heading); font-weight:600; font-size:48px"><span class="paper">5</span><span class="plate plate-c" aria-hidden="true">5</span><span class="plate plate-m" aria-hidden="true">5</span><span class="plate plate-y" aria-hidden="true">5</span></span>
+          <p style="font-size:15px; line-height:24px; margin:16px 0 0; color:color-mix(in srgb, var(--color-text) 72%, transparent)">Numbers in the whole review algorithm — 0, 1, 3, 7, 14 days. No black box</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="try" style="padding:28px 0 56px">
+      <h2 style="font-family:var(--font-heading); font-weight:600; font-size:clamp(28px,3.6vw,44px); line-height:1.1; letter-spacing:-0.015em; margin:0; max-width:26ch">Try a real question. Tap the words you don't know.</h2>
+      <p style="font-size:16px; line-height:28px; margin:20px 0 0; max-width:62ch; color:color-mix(in srgb, var(--color-text) 78%, transparent)">This is an actual question from the bank, untouched. The underlined words are live — tap one and you get its meaning plus a plain-German gloss. Nothing here is recorded, and you don't need an account to poke at it.</p>
+
+      <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-top:28px">
+        <span style="font-size:13px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 70%, transparent)">Translate into</span>
+        <div class="seg">
+          <label class="seg-opt"><input type="radio" name="demolang" checked="{{ langIsEn }}" onChange="{{ pickEn }}" />English</label>
+          <label class="seg-opt"><input type="radio" name="demolang" checked="{{ langIsDari }}" onChange="{{ pickDari }}" />فارسی</label>
+          <label class="seg-opt"><input type="radio" name="demolang" checked="{{ langIsHe }}" onChange="{{ pickHe }}" />עברית</label>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:24px clamp(24px,4vw,56px); margin-top:28px; align-items:start">
+        <div style="background:var(--color-surface); border-radius:var(--radius-md); padding:24px; box-shadow:var(--shadow-sm)">
+          <div style="display:flex; align-items:baseline; justify-content:space-between; gap:10px; margin-bottom:16px">
+            <span style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 65%, transparent)">Compliance und Informationssicherheit</span>
+            <span class="tag tag-neutral">Question 3 of 40</span>
+          </div>
+          <p style="font-size:17px; line-height:32px; margin:0 0 20px">
+            <sc-for list="{{ tokens }}" as="t" hint-placeholder-count="20"><span onClick="{{ t.onClick }}" style="{{ t.style }}">{{ t.text }}</span></sc-for>
+          </p>
+          <sc-if value="{{ hasWord }}" hint-placeholder-val="{{ false }}">
+            <div style="margin:0 0 20px; padding:14px; border-radius:var(--radius-md); background:var(--color-bg); box-shadow:var(--shadow-sm)">
+              <div style="display:flex; align-items:baseline; justify-content:space-between; gap:10px">
+                <strong style="font-family:var(--font-heading); font-size:18px">{{ wordGerman }}</strong>
+                <button type="button" class="btn btn-ghost" onClick="{{ closeWord }}" style="font-size:13px">Close</button>
+              </div>
+              <p dir="{{ secondDir }}" style="font-size:18px; line-height:28px; margin:6px 0 0; color:var(--color-accent-700)">{{ wordTranslation }}</p>
+              <p style="font-size:14px; line-height:24px; margin:8px 0 0; color:color-mix(in srgb, var(--color-text) 72%, transparent)">{{ wordGloss }}</p>
+              <p style="font-size:13px; line-height:20px; margin:10px 0 0; color:color-mix(in srgb, var(--color-text) 60%, transparent)">Saved to your vocabulary list in the app.</p>
+            </div>
+          </sc-if>
+          <div style="display:flex; flex-direction:column; gap:8px">
+            <button type="button" onClick="{{ pickA }}" style="{{ styleA }}"><span style="font-weight:600; min-width:1.2em">A</span><span>Authentizität, weil die Erreichbarkeit des freigegebenen Datensatzes nicht nachgewiesen ist</span></button>
+            <button type="button" onClick="{{ pickB }}" style="{{ styleB }}"><span style="font-weight:600; min-width:1.2em">B</span><span>Verfügbarkeit, weil eine veränderte Information fachlich nicht mehr wie vorgesehen nutzbar ist</span></button>
+            <button type="button" onClick="{{ pickC }}" style="{{ styleC }}"><span style="font-weight:600; min-width:1.2em">C</span><span>Integrität, weil Richtigkeit und Unverändertheit des Datensatzes nicht gewährleistet sind</span></button>
+            <button type="button" onClick="{{ pickD }}" style="{{ styleD }}"><span style="font-weight:600; min-width:1.2em">D</span><span>Vertraulichkeit, weil eine unautorisierte Veränderung zugleich eine Offenlegung voraussetzt</span></button>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; margin-top:18px; flex-wrap:wrap">
+            <button type="button" class="btn btn-primary" onClick="{{ confirm }}" style="min-height:44px; padding-inline:18px">Confirm</button>
+            <button type="button" class="btn btn-secondary" onClick="{{ reveal }}" style="min-height:44px">Show answer</button>
+            <span style="font-size:15px; color:color-mix(in srgb, var(--color-text) 72%, transparent)">{{ verdict }}</span>
+          </div>
+          <p style="font-size:13px; line-height:20px; margin:14px 0 0; color:color-mix(in srgb, var(--color-text) 62%, transparent)">In the app: 1–4 picks an option, Enter confirms, N is next, T toggles translation.</p>
+        </div>
+
+        <div>
+          <sc-if value="{{ submitted }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div class="seg" style="margin-bottom:20px">
+                <label class="seg-opt"><input type="radio" name="expllang" checked="{{ explIsDe }}" onChange="{{ explDe }}" />Deutsch</label>
+                <label class="seg-opt"><input type="radio" name="expllang" checked="{{ explIsSecond }}" onChange="{{ explSecond }}" />{{ secondLangLabel }}</label>
+              </div>
+              <sc-if value="{{ explIsDe }}" hint-placeholder-val="{{ true }}">
+                <div>
+                  <p style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:var(--color-accent-700); margin:0">Richtige Antwort — C</p>
+                  <p style="font-size:16px; line-height:28px; margin:12px 0 0">Die unbemerkte Veränderung betrifft die Richtigkeit und Unversehrtheit der Information und damit ihre <strong>Integrität</strong>. Verfügbarkeit und Vertraulichkeit sind im Fall ausdrücklich weiterhin gegeben.</p>
+                  <p style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 65%, transparent); margin:24px 0 0">Warum die anderen falsch sind</p>
+                  <p style="font-size:15.5px; line-height:28px; margin:10px 0 0; color:color-mix(in srgb, var(--color-text) 78%, transparent)">A verwechselt Authentizität mit Erreichbarkeit. B beschreibt eine Folge, nicht das verletzte Schutzziel. D setzt voraus, dass eine Veränderung immer eine Offenlegung bedingt — das ist nicht der Fall.</p>
+                  <p style="font-size:15.5px; line-height:28px; margin:24px 0 0"><span style="color:var(--color-accent-2-700)">Häufige Falle: </span><span style="color:color-mix(in srgb, var(--color-text) 78%, transparent)">„jederzeit verfügbar" zieht den Blick auf Verfügbarkeit, obwohl der Satz sie gerade bestätigt.</span></p>
+                </div>
+              </sc-if>
+              <sc-if value="{{ explIsSecond }}" hint-placeholder-val="{{ false }}">
+                <div dir="{{ secondDir }}">
+                  <p style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:var(--color-accent-700); margin:0">{{ explHeadCorrect }}</p>
+                  <p style="font-size:16px; line-height:28px; margin:12px 0 0">{{ explBody }}</p>
+                  <p style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 65%, transparent); margin:24px 0 0">{{ explHeadWhy }}</p>
+                  <p style="font-size:15.5px; line-height:28px; margin:10px 0 0; color:color-mix(in srgb, var(--color-text) 78%, transparent)">{{ explWhy }}</p>
+                  <p style="font-size:15.5px; line-height:28px; margin:24px 0 0"><span style="color:var(--color-accent-2-700)">{{ explHeadTrap }}</span><span style="color:color-mix(in srgb, var(--color-text) 78%, transparent)">{{ explTrap }}</span></p>
+                </div>
+              </sc-if>
+            </div>
+          </sc-if>
+          <sc-if value="{{ notSubmitted }}" hint-placeholder-val="{{ true }}">
+            <div>
+              <p style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 65%, transparent); margin:0">What happens after you confirm</p>
+              <p style="font-size:16px; line-height:28px; margin:12px 0 0; color:color-mix(in srgb, var(--color-text) 80%, transparent)">The question opens up: what it tests, why the right answer is right, why each wrong option fails, and the trap the examiner laid — in German first, because that is the wording you'll meet, with your language one tap away.</p>
+              <p style="font-size:16px; line-height:28px; margin:20px 0 0; color:color-mix(in srgb, var(--color-text) 80%, transparent)">Answer it and see for yourself.</p>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+    </section>
+
+    <section id="translation" style="padding:56px 0">
+      <span style="display:block; font-size:13px; line-height:14px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 70%, transparent); margin:0 0 14px">Why this one is faster</span>
+      <h2 style="font-family:var(--font-heading); font-weight:600; font-size:clamp(28px,3.4vw,42px); line-height:1.1; letter-spacing:-0.015em; margin:0; max-width:28ch">Four things that cut the hours, not the standard</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:42px clamp(28px,4vw,64px); margin-top:42px">
+        <div>
+          <h3 style="font-family:var(--font-heading); font-weight:600; font-size:23px; line-height:30px; margin:0">Translation where you stumble</h3>
+          <p style="font-size:15.5px; line-height:28px; margin:14px 0 0; color:color-mix(in srgb, var(--color-text) 78%, transparent)">Tap a word for its meaning, or switch on full translation of the question, the options, the correct answer only, or the explanation — four independent switches, so you can wean yourself off one at a time.</p>
+        </div>
+        <div>
+          <h3 style="font-family:var(--font-heading); font-weight:600; font-size:23px; line-height:30px; margin:0">Explanations, not verdicts</h3>
+          <p style="font-size:15.5px; line-height:28px; margin:14px 0 0; color:color-mix(in srgb, var(--color-text) 78%, transparent)">Every question carries the concept it tests, why the right option wins, why each distractor fails, and the common trap. Being told “wrong” teaches nothing; this is the part most trainers leave out.</p>
+        </div>
+        <div>
+          <h3 style="font-family:var(--font-heading); font-weight:600; font-size:23px; line-height:30px; margin:0">Repetition you can audit</h3>
+          <p style="font-size:15.5px; line-height:28px; margin:14px 0 0; color:color-mix(in srgb, var(--color-text) 78%, transparent)">Wrong answers come back in four hours — sooner if you keep missing them. Right answers step out to one, three, seven, fourteen days. You can hold the whole rule in your head.</p>
+        </div>
+        <div>
+          <h3 style="font-family:var(--font-heading); font-weight:600; font-size:23px; line-height:30px; margin:0">Your own question bank</h3>
+          <p style="font-size:15.5px; line-height:28px; margin:14px 0 0; color:color-mix(in srgb, var(--color-text) 78%, transparent)">Paste what your school or trainer actually uses. The importer parses every question, flags likely duplicates, and saves nothing until you confirm. No waiting for someone else's content update.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="topics" style="padding:56px 0">
+      <h2 style="font-family:var(--font-heading); font-weight:600; font-size:clamp(28px,3.4vw,42px); line-height:1.1; letter-spacing:-0.015em; margin:0; max-width:24ch">From the sample bank to your whole syllabus</h2>
+      <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:28px">
+        <sc-for list="{{ topicTabs }}" as="tb" hint-placeholder-count="3"><button type="button" onClick="{{ tb.onClick }}" style="{{ tb.style }}">{{ tb.label }}</button></sc-for>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:24px clamp(28px,5vw,72px); margin-top:32px; align-items:start">
+        <div>
+          <h3 style="font-family:var(--font-heading); font-weight:600; font-size:26px; line-height:34px; margin:0">{{ topicTitle }}</h3>
+          <p style="font-size:15.5px; line-height:28px; margin:16px 0 0; max-width:46ch; color:color-mix(in srgb, var(--color-text) 78%, transparent)">{{ topicBlurb }}</p>
+          <p style="font-size:14px; line-height:24px; margin:16px 0 0; color:color-mix(in srgb, var(--color-text) 65%, transparent)">Practice a category on its own, or let review mode mix them the way the exam does.</p>
+        </div>
+        <div>
+          <p style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 65%, transparent); margin:0 0 14px">Covered in this category</p>
+          <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:0 32px">
+            <sc-for list="{{ topicItems }}" as="it" hint-placeholder-count="7"><p style="display:flex; align-items:baseline; gap:8px; margin:0; font-size:15.5px; line-height:32px; border-bottom:1px solid color-mix(in srgb, var(--color-text) 8%, transparent)"><span style="color:var(--color-accent-700)">·</span><span>{{ it.name }}</span></p></sc-for>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="exam" style="padding:56px 0">
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:28px clamp(28px,5vw,72px); align-items:start">
+        <div>
+          <span style="display:block; font-size:13px; line-height:14px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 70%, transparent); margin:0 0 14px">Exam mode</span>
+          <h2 style="font-family:var(--font-heading); font-weight:600; font-size:clamp(26px,3vw,38px); line-height:1.12; letter-spacing:-0.015em; margin:0">The day itself, rehearsed</h2>
+          <p style="font-size:15.5px; line-height:28px; margin:20px 0 0; max-width:46ch; color:color-mix(in srgb, var(--color-text) 78%, transparent)">Forty questions, sixty minutes, German only — translations, word taps and explanations all switched off, exactly as they will be. Jump around with the number grid, mark what you want to revisit, end when you're ready. Leave mid-exam and you can resume the same session.</p>
+          <p style="font-size:15.5px; line-height:28px; margin:20px 0 0; max-width:46ch; color:color-mix(in srgb, var(--color-text) 78%, transparent)">Then: your score, your time, what you skipped, the topics with room for improvement, and one tap into reviewing those mistakes. Start it below — the clock is real.</p>
+        </div>
+        <div style="background:var(--color-surface); border-radius:var(--radius-md); padding:24px; box-shadow:var(--shadow-sm)">
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; margin-bottom:18px">
+            <span style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 65%, transparent)">{{ examStatus }}</span>
+            <span style="font-family:var(--font-heading); font-weight:600; font-size:26px; font-variant-numeric:tabular-nums">{{ examClock }}</span>
+          </div>
+          <sc-if value="{{ examIdle }}" hint-placeholder-val="{{ true }}">
+            <div>
+              <p style="font-size:15.5px; line-height:28px; margin:0; color:color-mix(in srgb, var(--color-text) 78%, transparent)">A timed, German-only mock exam that hides hints and translations, so you get a realistic sense of your readiness.</p>
+              <button type="button" class="btn btn-primary" onClick="{{ examStart }}" style="margin-top:20px; min-height:44px; padding-inline:18px">Start exam</button>
+            </div>
+          </sc-if>
+          <sc-if value="{{ examRunning }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <div style="display:grid; grid-template-columns:repeat(10,1fr); gap:4px; margin-bottom:18px">
+                <sc-for list="{{ examCells }}" as="c" hint-placeholder-count="40"><button type="button" onClick="{{ c.onClick }}" style="{{ c.style }}">{{ c.n }}</button></sc-for>
+              </div>
+              <p style="font-size:15.5px; line-height:26px; margin:0 0 14px">Welche Aussage beschreibt das Verhältnis von Sicherheit und Schutz am sinnvollsten?</p>
+              <div style="display:flex; flex-direction:column; gap:6px">
+                <button type="button" onClick="{{ examPickA }}" style="{{ examStyleA }}"><span style="font-weight:600; min-width:1.2em">A</span><span>Sicherheit und Schutz bezeichnen denselben Endzustand und sind austauschbar</span></button>
+                <button type="button" onClick="{{ examPickB }}" style="{{ examStyleB }}"><span style="font-weight:600; min-width:1.2em">B</span><span>Sicherheit ist eine technische Maßnahme, Schutz deren Umsetzung im Betrieb</span></button>
+                <button type="button" onClick="{{ examPickC }}" style="{{ examStyleC }}"><span style="font-weight:600; min-width:1.2em">C</span><span>Schutz ist der angestrebte Zustand, Sicherheit besteht aus organisatorischen Regeln</span></button>
+                <button type="button" onClick="{{ examPickD }}" style="{{ examStyleD }}"><span style="font-weight:600; min-width:1.2em">D</span><span>Sicherheit ist der angestrebte Zustand, Schutz wird durch geeignete Maßnahmen geschaffen</span></button>
+              </div>
+              <div style="display:flex; gap:10px; margin-top:16px; flex-wrap:wrap; align-items:center">
+                <button type="button" class="btn btn-secondary" onClick="{{ examMark }}">{{ examMarkLabel }}</button>
+                <button type="button" class="btn btn-ghost" onClick="{{ examEnd }}">End exam</button>
+                <span style="font-size:13px; color:color-mix(in srgb, var(--color-text) 62%, transparent)">No feedback until you finish</span>
+              </div>
+            </div>
+          </sc-if>
+          <sc-if value="{{ examDone }}" hint-placeholder-val="{{ false }}">
+            <div>
+              <p style="font-family:var(--font-heading); font-weight:600; font-size:30px; line-height:38px; margin:0">{{ examScore }}</p>
+              <p style="font-size:15.5px; line-height:28px; margin:12px 0 0; color:color-mix(in srgb, var(--color-text) 78%, transparent)">{{ examBreakdown }}</p>
+              <p style="font-size:14px; line-height:24px; margin:14px 0 0; color:color-mix(in srgb, var(--color-text) 65%, transparent)">An estimate of your current performance — not a guarantee of passing the real IHK exam.</p>
+              <div style="display:flex; gap:10px; margin-top:20px; flex-wrap:wrap">
+                <button type="button" class="btn btn-primary" onClick="{{ examStart }}">Run it again</button>
+                <button type="button" class="btn btn-ghost" onClick="{{ examReset }}">Back</button>
+              </div>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:56px 0">
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:28px clamp(28px,5vw,72px); align-items:start">
+        <div style="background:var(--color-surface); border-radius:var(--radius-md); padding:24px; box-shadow:var(--shadow-sm)">
+          <p style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 65%, transparent); margin:0 0 18px">One question's schedule</p>
+          <div style="display:flex; gap:8px; align-items:flex-end; height:108px; margin-bottom:18px">
+            <sc-for list="{{ ladder }}" as="s" hint-placeholder-count="5"><div style="flex:1; display:flex; flex-direction:column; align-items:center; gap:8px"><div style="{{ s.bar }}"></div><span style="{{ s.label }}">{{ s.text }}</span></div></sc-for>
+          </div>
+          <p style="font-family:var(--font-heading); font-weight:600; font-size:26px; line-height:34px; margin:0">{{ srsHeadline }}</p>
+          <p style="font-size:15px; line-height:26px; margin:8px 0 0; color:color-mix(in srgb, var(--color-text) 72%, transparent)">{{ srsDetail }}</p>
+          <div style="display:flex; gap:10px; margin-top:20px; flex-wrap:wrap">
+            <button type="button" class="btn btn-primary" onClick="{{ srsRight }}" style="min-height:44px">I got it right</button>
+            <button type="button" class="btn btn-secondary" onClick="{{ srsWrong }}" style="min-height:44px">I got it wrong</button>
+            <button type="button" class="btn btn-ghost" onClick="{{ srsReset }}">Reset</button>
+          </div>
+        </div>
+        <div>
+          <span style="display:block; font-size:13px; line-height:14px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 70%, transparent); margin:0 0 14px">Review</span>
+          <h2 style="font-family:var(--font-heading); font-weight:600; font-size:clamp(26px,3vw,38px); line-height:1.12; letter-spacing:-0.015em; margin:0">Five numbers, and you can check the maths</h2>
+          <p style="font-size:15.5px; line-height:28px; margin:20px 0 0; max-width:46ch; color:color-mix(in srgb, var(--color-text) 78%, transparent)">Press the buttons and watch a question walk the ladder. Right answers push it out — same day, one, three, seven, fourteen days. A wrong answer drops it to the bottom: back in four hours, two if you miss it twice, one at the floor. That is the entire schedule, on purpose.</p>
+          <p style="font-size:15.5px; line-height:28px; margin:20px 0 0; max-width:46ch; color:color-mix(in srgb, var(--color-text) 78%, transparent)">Your dashboard says how many are due, how far into today's goal you are, and which topics your recent answers say are weakest.</p>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:56px 0">
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:28px clamp(28px,5vw,72px); align-items:center">
+        <div>
+          <span style="display:block; font-size:13px; line-height:14px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 70%, transparent); margin:0 0 14px">On your own schedule</span>
+          <h2 style="font-family:var(--font-heading); font-weight:600; font-size:clamp(26px,3vw,38px); line-height:1.12; letter-spacing:-0.015em; margin:0">Twenty minutes on the train counts</h2>
+          <p style="font-size:15.5px; line-height:28px; margin:20px 0 0; max-width:46ch; color:color-mix(in srgb, var(--color-text) 78%, transparent)">Set your own daily goal — not ours. Walk away mid-session and it resumes on the question you left. Words you tapped are waiting in your vocabulary list, printable for the days you'd rather hold paper. Light, dark, or whatever your phone is doing.</p>
+          <p style="font-size:15.5px; line-height:28px; margin:20px 0 0; max-width:46ch; color:color-mix(in srgb, var(--color-text) 78%, transparent)">And a reset that wipes every attempt if you want a clean run — without touching your questions, vocabulary or favourites.</p>
+        </div>
+        <figure class="halftone" style="margin:0; border-radius:var(--radius-md); aspect-ratio:4 / 3">
+          <image-slot id="app-screen" shape="rect" placeholder="Drop a screenshot of the practice screen"></image-slot>
+        </figure>
+      </div>
+    </section>
+
+    <section id="trainers" style="padding:56px 0">
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:28px clamp(28px,5vw,72px); align-items:start">
+        <div>
+          <span style="display:block; font-size:13px; line-height:14px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 70%, transparent); margin:0 0 14px">For trainers and Ausbilder</span>
+          <h2 style="font-family:var(--font-heading); font-weight:600; font-size:clamp(26px,3vw,38px); line-height:1.12; letter-spacing:-0.015em; margin:0">Your question set, your wording</h2>
+        </div>
+        <div>
+          <p style="font-size:15.5px; line-height:28px; margin:0; max-width:52ch; color:color-mix(in srgb, var(--color-text) 78%, transparent)">Paste the bank you already teach from. The importer parses each question, shows you what it found, flags possible duplicates, and waits for your confirmation before saving a thing. Explanations and vocabulary are prepared in bulk offline rather than invented live, so what your trainees read is what you approved — and the vocabulary sheets print.</p>
+          <p style="font-size:15.5px; line-height:28px; margin:20px 0 0; max-width:52ch; color:color-mix(in srgb, var(--color-text) 78%, transparent)">Trainees with little German are not stuck waiting for their language skills to catch up with the syllabus: the interface itself speaks Deutsch, English, فارسی or עברית, right-to-left where that is how it is read.</p>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:42px 0 70px">
+      <figure style="margin:0">
+        <blockquote style="font-family:var(--font-heading); font-style:italic; font-weight:400; font-size:clamp(24px,2.6vw,34px); line-height:44px; letter-spacing:-0.01em; max-width:36ch; margin:0; text-indent:-0.475em">“I knew the subject. I didn't know the sentence. Tapping the word was the whole difference.”</blockquote>
+        <figcaption style="font-size:15.5px; line-height:28px; color:color-mix(in srgb, var(--color-text) 70%, transparent); margin:36px 0 0; text-indent:-1.045em">— the reason this exists. Tell us whether it works for you.</figcaption>
+      </figure>
+    </section>
+
+    <section id="start" style="padding:0 0 70px">
+      <h2 style="font-family:var(--font-heading); font-weight:600; font-size:clamp(28px,3.6vw,46px); line-height:1.08; letter-spacing:-0.015em; margin:0; max-width:24ch">Everything above is free to try with an account</h2>
+      <p style="font-size:16px; line-height:28px; margin:20px 0 0; max-width:56ch; color:color-mix(in srgb, var(--color-text) 80%, transparent)">An email, a password of at least eight characters, and a confirmation link. Start with the sample topics — cyber security, processes, legal requirements and standards — or paste your own bank in the first five minutes.</p>
+      <div style="display:flex; gap:15px; align-items:stretch; max-width:520px; margin-top:28px; flex-wrap:wrap">
+        <input class="input" type="email" placeholder="you@example.com" aria-label="Email address" style="flex:1; min-width:200px; min-height:44px" />
+        <a href="#start" class="btn btn-primary" style="min-height:44px; padding-inline:20px; color:var(--color-bg)">Create a free account</a>
+      </div>
+      <p style="font-size:14px; line-height:24px; margin:16px 0 0; color:color-mix(in srgb, var(--color-text) 68%, transparent)">Already have an account? <a href="#start">Sign in</a> — or <a href="#start">reset your password</a>.</p>
+    </section>
+
+    <footer style="padding:0 0 56px">
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:24px clamp(24px,4vw,56px); font-size:14px; line-height:28px">
+        <div>
+          <p style="font-family:var(--font-heading); font-weight:600; margin:0 0 8px">IHK Exam Trainer</p>
+          <p style="margin:0; color:color-mix(in srgb, var(--color-text) 70%, transparent)">Practice questions, explanations and vocabulary in your language.</p>
+        </div>
+        <div>
+          <p style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 65%, transparent); margin:0 0 8px">Product</p>
+          <p style="margin:0"><a href="#try">Try a question</a></p>
+          <p style="margin:0"><a href="#topics">Topics</a></p>
+          <p style="margin:0"><a href="#exam">Exam mode</a></p>
+        </div>
+        <div>
+          <p style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 65%, transparent); margin:0 0 8px">Languages</p>
+          <p style="margin:0; color:color-mix(in srgb, var(--color-text) 70%, transparent)">Deutsch · English · فارسی · עברית</p>
+        </div>
+        <div>
+          <p style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:color-mix(in srgb, var(--color-text) 65%, transparent); margin:0 0 8px">Account</p>
+          <p style="margin:0"><a href="#start">Create an account</a></p>
+          <p style="margin:0"><a href="#start">Sign in</a></p>
+        </div>
+      </div>
+      <p style="font-size:13px; line-height:24px; margin:28px 0 0; color:color-mix(in srgb, var(--color-text) 62%, transparent)">Readiness estimates are estimates, not promises. Not affiliated with any chamber of commerce.</p>
+    </footer>
+
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;secondLanguage&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;English&quot;,&quot;فارسی&quot;,&quot;עברית&quot;],&quot;default&quot;:&quot;English&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Demos&quot;}}">
+const LANGS = {
+  English: { key: "en", label: "English", dir: "ltr" },
+  "فارسی": { key: "dari", label: "فارسی", dir: "rtl" },
+  "עברית": { key: "he", label: "עברית", dir: "rtl" },
+};
+
+const SENTENCE =
+  "Ein freigegebener Überweisungsdatensatz bleibt jederzeit verfügbar und nur für Berechtigte lesbar, wird aber unbemerkt verändert. Welches Schutzziel ist primär betroffen?";
+
+const WORDS = {
+  freigegebener: { en: "released, approved", dari: "تأییدشده", he: "מאושר", gloss: "Zur Ausführung genehmigt." },
+  "Überweisungsdatensatz": { en: "bank transfer record", dari: "سند انتقال بانکی", he: "רשומת העברה בנקאית", gloss: "Der Datensatz, mit dem eine Zahlung ausgeführt wird." },
+  "verfügbar": { en: "available", dari: "در دسترس", he: "זמין", gloss: "Bei Bedarf erreichbar und nutzbar." },
+  Berechtigte: { en: "authorised people", dari: "افراد مجاز", he: "מורשים", gloss: "Personen, die ein Zugriffsrecht haben." },
+  lesbar: { en: "readable", dari: "خوانا", he: "קריא", gloss: "Kann gelesen werden." },
+  unbemerkt: { en: "unnoticed", dari: "بدون آنکه متوجه شوند", he: "ללא הבחנה", gloss: "Ohne dass es jemand bemerkt." },
+  "verändert": { en: "altered", dari: "تغییر داده شده", he: "שונה", gloss: "Der Inhalt wurde geändert." },
+  Schutzziel: { en: "protection goal", dari: "هدف حفاظتی", he: "מטרת הגנה", gloss: "Vertraulichkeit, Integrität oder Verfügbarkeit." },
+  "primär": { en: "primarily", dari: "در اصل", he: "בעיקר", gloss: "In erster Linie, vor allen anderen." },
+  betroffen: { en: "affected", dari: "تحت تأثیر", he: "נפגע", gloss: "Hier: welches Schutzziel verletzt wird." },
+};
+
+const EXPL = {
+  en: {
+    correct: "Correct answer — C",
+    body: "The undetected change affects the accuracy and completeness of the information — its integrity. The case explicitly says availability and confidentiality are still intact.",
+    whyHead: "Why the others are wrong",
+    why: "A confuses authenticity with reachability. B describes a consequence, not the protection goal that was breached. D assumes a change always implies disclosure, which is not the case.",
+    trapHead: "Common trap: ",
+    trap: "“available at all times” pulls your eye towards availability, even though the sentence is confirming it.",
+  },
+  dari: {
+    correct: "پاسخ درست — C",
+    body: "تغییر نامحسوس در وهله اول بر درستی و دست‌نخوردگی اطلاعات اثر می‌گذارد، یعنی بر یکپارچگی آن. در متن آمده که دسترسی و محرمانگی همچنان برقرار هستند.",
+    whyHead: "چرا گزینه‌های دیگر نادرست‌اند",
+    why: "گزینه A اصالت را با دسترس‌پذیری اشتباه می‌گیرد. B یک پیامد را توصیف می‌کند، نه هدف حفاظتی نقض‌شده را. D فرض می‌کند هر تغییری افشا را نیز در پی دارد که چنین نیست.",
+    trapHead: "دام رایج: ",
+    trap: "عبارت «همیشه در دسترس» نگاه را به سمت دسترس‌پذیری می‌کشد، در حالی که متن دقیقاً آن را تأیید می‌کند.",
+  },
+  he: {
+    correct: "התשובה הנכונה — C",
+    body: "השינוי שלא זוהה פוגע בנכונות ובשלמות המידע, כלומר בשלמותו. בתיאור נאמר במפורש שהזמינות והסודיות נשמרו.",
+    whyHead: "מדוע האפשרויות האחרות שגויות",
+    why: "A מבלבלת בין אימות לבין נגישות. B מתארת תוצאה ולא את מטרת ההגנה שנפגעה. D מניחה שכל שינוי גורר גם חשיפה, וזה לא נכון.",
+    trapHead: "מלכודת נפוצה: ",
+    trap: "הביטוי „זמין בכל עת” מסיט את העין לזמינות, אף שהמשפט דווקא מאשר אותה.",
+  },
+};
+
+const TOPICS = [
+  {
+    id: "cyber",
+    label: "Cyber Security",
+    title: "Cyber Security — Grundlagen, Begriffe und Bedeutung",
+    blurb: "The vocabulary the rest of the exam is built on: what counts as a threat, what counts as a vulnerability, and which protection goal a given incident actually breaks.",
+    items: ["Schutzziele — Vertraulichkeit, Integrität, Verfügbarkeit", "Bedrohung, Schwachstelle, Gefährdung, Risiko", "Informationssicherheit vs. IT-Sicherheit", "Informationssicherheit vs. Datenschutz", "Sicherheit und Schutz", "Authentizität und Nachweisbarkeit", "Business Continuity"],
+  },
+  {
+    id: "prozesse",
+    label: "Prozesse",
+    title: "Prozesse",
+    blurb: "How security work is organised day to day — who decides, who documents, and what has to happen after something goes wrong.",
+    items: ["Rollen und Verantwortlichkeiten", "Incident- und Meldeprozesse", "Change-Management", "Dokumentation und Nachweise", "Schulung und Sensibilisierung", "Kontinuierliche Verbesserung"],
+  },
+  {
+    id: "recht",
+    label: "Recht und Standards",
+    title: "Rechtliche Anforderungen und Standards",
+    blurb: "The paperwork half of the exam: which norm demands what, what an audit can actually check, and where the legal duties begin.",
+    items: ["ISO/IEC 27001 — Anforderungsnorm", "ISO/IEC 27002 — Leitfaden", "ISMS und Zertifizierung", "Risikobewertung und Risikobehandlung", "Technisch-organisatorische Maßnahmen", "DSGVO — Grundsätze", "Aufbewahrung und Löschung"],
+  },
+];
+
+const INTERVALS = [0, 1, 3, 7, 14];
+const EXAM_COUNT = 40;
+const EXAM_SECONDS = 60 * 60;
+
+const OPT_BASE =
+  "display:flex; gap:10px; text-align:left; align-items:flex-start; width:100%; font:inherit; font-size:14.5px; line-height:22px; padding:11px 12px; cursor:pointer; border-radius:var(--radius-md); background:var(--color-bg); color:var(--color-text); border:1px solid var(--color-divider);";
+
+function optStyle(state) {
+  if (state === "correct") return OPT_BASE + "border-color:var(--color-accent); background:var(--color-accent-100);";
+  if (state === "wrong") return OPT_BASE + "border-color:var(--color-accent-2); background:var(--color-accent-2-100);";
+  if (state === "picked") return OPT_BASE + "border-color:var(--color-accent); box-shadow:inset 0 0 0 1px var(--color-accent);";
+  return OPT_BASE;
+}
+
+class Component extends DCLogic {
+  state = {
+    lang: null,
+    word: null,
+    pick: null,
+    submitted: false,
+    explSecond: false,
+    topic: 0,
+    cc: 0,
+    cw: 0,
+    last: null,
+    examPhase: "idle",
+    examSeconds: EXAM_SECONDS,
+    examCur: 1,
+    examAnswers: {},
+    examMarked: {},
+    examPick: null,
+  };
+
+  componentWillUnmount() {
+    if (this.timer) clearInterval(this.timer);
+  }
+
+  get lang() {
+    return LANGS[this.state.lang || this.props.secondLanguage || "English"] || LANGS.English;
+  }
+
+  set(patch) {
+    this.setState(patch);
+  }
+
+  srsText() {
+    const { cc, cw, last } = this.state;
+    if (last === null) return ["Not answered yet", "Answer once and the schedule starts. Nothing is due before you touch it."];
+    if (last === "wrong") {
+      const hours = Math.max(1, 4 / Math.pow(2, cw - 1));
+      const label = hours === 1 ? "1 hour" : hours + " hours";
+      return [
+        "Back in " + label,
+        cw === 1
+          ? "One miss sends it to the bottom of the ladder: four hours, then it is due again."
+          : cw + " misses in a row — the wait halves each time, with a floor of one hour.",
+      ];
+    }
+    const days = INTERVALS[Math.min(cc, INTERVALS.length - 1)];
+    return [
+      days === 0 ? "Back later today" : days === 1 ? "Back tomorrow" : "Back in " + days + " days",
+      cc >= INTERVALS.length - 1
+        ? "Top of the ladder — fourteen days is the longest gap the app will ever leave."
+        : cc + (cc === 1 ? " correct answer in a row." : " correct answers in a row.") + " Keep going and the gap widens.",
+    ];
+  }
+
+  ladder() {
+    const { cc, last } = this.state;
+    const activeIdx = last === "right" ? Math.min(cc, INTERVALS.length - 1) : -1;
+    return INTERVALS.map((d, i) => {
+      const on = i <= activeIdx;
+      return {
+        text: d === 0 ? "today" : d + "d",
+        bar:
+          "width:100%; height:" + (26 + i * 17) + "px; border-radius:var(--radius-sm); background:" +
+          (on ? "var(--color-accent)" : "color-mix(in srgb, var(--color-text) 12%, transparent)") + ";",
+        label:
+          "font-size:12px; line-height:14px; font-variant-numeric:tabular-nums; color:" +
+          (on ? "var(--color-accent-700)" : "color-mix(in srgb, var(--color-text) 55%, transparent)") + ";",
+      };
+    });
+  }
+
+  startExam = () => {
+    if (this.timer) clearInterval(this.timer);
+    this.setState({ examPhase: "running", examSeconds: EXAM_SECONDS, examCur: 1, examAnswers: {}, examMarked: {}, examPick: null });
+    this.timer = setInterval(() => {
+      this.setState((s) => {
+        if (s.examPhase !== "running") return null;
+        if (s.examSeconds <= 1) {
+          clearInterval(this.timer);
+          return { examSeconds: 0, examPhase: "done" };
+        }
+        return { examSeconds: s.examSeconds - 1 };
+      });
+    }, 1000);
+  };
+
+  endExam = () => {
+    if (this.timer) clearInterval(this.timer);
+    this.setState({ examPhase: "done" });
+  };
+
+  clock(sec) {
+    const m = Math.floor(sec / 60);
+    return m + ":" + String(sec % 60).padStart(2, "0");
+  }
+
+  renderVals() {
+    const lang = this.lang;
+    const st = this.state;
+    const expl = EXPL[lang.key] || EXPL.en;
+
+    const tokens = SENTENCE.split(/(\s+)/).map((raw) => {
+      const bare = raw.replace(/[.,?!»«„“”"]/g, "");
+      const entry = WORDS[bare];
+      if (!entry) return { text: raw, style: "white-space:pre-wrap;", onClick: undefined };
+      const active = st.word === bare;
+      return {
+        text: raw,
+        style:
+          "cursor:pointer; border-radius:2px; border-bottom:1px dotted var(--color-accent); " +
+          (active ? "background:var(--color-accent-200);" : ""),
+        onClick: () => this.set({ word: active ? null : bare }),
+      };
+    });
+    const wordEntry = st.word ? WORDS[st.word] : null;
+
+    const qState = (id) => {
+      if (!st.submitted) return st.pick === id ? "picked" : "idle";
+      if (id === "C") return "correct";
+      return st.pick === id ? "wrong" : "idle";
+    };
+
+    const topic = TOPICS[st.topic];
+    const tabBase =
+      "font:inherit; font-size:14.5px; line-height:20px; padding:9px 16px; cursor:pointer; border-radius:var(--radius-md); ";
+    const topicTabs = TOPICS.map((t, i) => ({
+      label: t.label,
+      style:
+        tabBase +
+        (i === st.topic
+          ? "background:var(--color-accent); color:var(--color-bg); border:1px solid var(--color-accent);"
+          : "background:transparent; color:var(--color-text); border:1px solid var(--color-divider);"),
+      onClick: () => this.set({ topic: i }),
+    }));
+
+    const examCells = Array.from({ length: EXAM_COUNT }, (_, i) => {
+      const n = i + 1;
+      const answered = st.examAnswers[n];
+      const cur = st.examCur === n;
+      let bg = "var(--color-bg)";
+      let color = "color-mix(in srgb, var(--color-text) 70%, transparent)";
+      let border = "1px solid var(--color-divider)";
+      if (answered) {
+        bg = "color-mix(in srgb, var(--color-text) 14%, transparent)";
+        color = "var(--color-text)";
+      }
+      if (st.examMarked[n]) border = "1px solid var(--color-accent-2)";
+      if (cur) {
+        bg = "var(--color-accent)";
+        color = "var(--color-bg)";
+        border = "1px solid var(--color-accent)";
+      }
+      return {
+        n: n,
+        style:
+          "font:inherit; font-size:12px; line-height:1; padding:7px 0; cursor:pointer; border-radius:var(--radius-sm); font-variant-numeric:tabular-nums; background:" +
+          bg + "; color:" + color + "; border:" + border + ";",
+        onClick: () => this.setState((s) => ({ examCur: n, examPick: s.examAnswers[n] || null })),
+      };
+    });
+
+    const answeredCount = Object.keys(st.examAnswers).length;
+    const correctCount = Object.keys(st.examAnswers).filter((k) => st.examAnswers[k] === "D").length;
+    const elapsed = EXAM_SECONDS - st.examSeconds;
+    const examStyle = (id) => optStyle(st.examPick === id ? "picked" : "idle");
+    const [srsHeadline, srsDetail] = this.srsText();
+
+    return {
+      langIsEn: lang.key === "en",
+      langIsDari: lang.key === "dari",
+      langIsHe: lang.key === "he",
+      pickEn: () => this.set({ lang: "English" }),
+      pickDari: () => this.set({ lang: "فارسی" }),
+      pickHe: () => this.set({ lang: "עברית" }),
+      secondLangLabel: lang.label,
+      secondDir: lang.dir,
+
+      tokens: tokens,
+      hasWord: !!wordEntry,
+      wordGerman: st.word,
+      wordTranslation: wordEntry ? wordEntry[lang.key] : "",
+      wordGloss: wordEntry ? wordEntry.gloss : "",
+      closeWord: () => this.set({ word: null }),
+
+      styleA: optStyle(qState("A")),
+      styleB: optStyle(qState("B")),
+      styleC: optStyle(qState("C")),
+      styleD: optStyle(qState("D")),
+      pickA: () => this.set({ pick: "A", submitted: false }),
+      pickB: () => this.set({ pick: "B", submitted: false }),
+      pickC: () => this.set({ pick: "C", submitted: false }),
+      pickD: () => this.set({ pick: "D", submitted: false }),
+      confirm: () => this.set({ submitted: !!st.pick }),
+      reveal: () => this.set({ submitted: true }),
+      submitted: st.submitted,
+      notSubmitted: !st.submitted,
+      verdict: st.submitted ? (st.pick === "C" ? "Correct" : st.pick ? "Incorrect" : "Answer shown") : st.pick ? "Now confirm it" : "Pick an option",
+      explIsDe: !st.explSecond,
+      explIsSecond: st.explSecond,
+      explDe: () => this.set({ explSecond: false }),
+      explSecond: () => this.set({ explSecond: true }),
+      explHeadCorrect: expl.correct,
+      explBody: expl.body,
+      explHeadWhy: expl.whyHead,
+      explWhy: expl.why,
+      explHeadTrap: expl.trapHead,
+      explTrap: expl.trap,
+
+      topicTabs: topicTabs,
+      topicTitle: topic.title,
+      topicBlurb: topic.blurb,
+      topicItems: topic.items.map((n) => ({ name: n })),
+
+      ladder: this.ladder(),
+      srsHeadline: srsHeadline,
+      srsDetail: srsDetail,
+      srsRight: () => this.setState((s) => ({ cc: s.cc + 1, cw: 0, last: "right" })),
+      srsWrong: () => this.setState((s) => ({ cc: 0, cw: s.cw + 1, last: "wrong" })),
+      srsReset: () => this.set({ cc: 0, cw: 0, last: null }),
+
+      examIdle: st.examPhase === "idle",
+      examRunning: st.examPhase === "running",
+      examDone: st.examPhase === "done",
+      examClock: st.examPhase === "idle" ? "60:00" : this.clock(st.examSeconds),
+      examStatus:
+        st.examPhase === "running"
+          ? "Question " + st.examCur + " / 40 · " + answeredCount + " answered"
+          : st.examPhase === "done"
+          ? "Exam simulation result"
+          : "Exam mode · 40 questions · 60 minutes",
+      examStart: this.startExam,
+      examEnd: this.endExam,
+      examReset: () => this.set({ examPhase: "idle", examSeconds: EXAM_SECONDS }),
+      examCells: examCells,
+      examStyleA: examStyle("A"),
+      examStyleB: examStyle("B"),
+      examStyleC: examStyle("C"),
+      examStyleD: examStyle("D"),
+      examPickA: () => this.setState((s) => ({ examPick: "A", examAnswers: { ...s.examAnswers, [s.examCur]: "A" } })),
+      examPickB: () => this.setState((s) => ({ examPick: "B", examAnswers: { ...s.examAnswers, [s.examCur]: "B" } })),
+      examPickC: () => this.setState((s) => ({ examPick: "C", examAnswers: { ...s.examAnswers, [s.examCur]: "C" } })),
+      examPickD: () => this.setState((s) => ({ examPick: "D", examAnswers: { ...s.examAnswers, [s.examCur]: "D" } })),
+      examMark: () => this.setState((s) => ({ examMarked: { ...s.examMarked, [s.examCur]: !s.examMarked[s.examCur] } })),
+      examMarkLabel: st.examMarked[st.examCur] ? "Remove mark" : "Mark for review",
+      examScore: answeredCount === 0 ? "0 of 40" : correctCount + " of " + answeredCount + " answered correctly",
+      examBreakdown:
+        answeredCount === 0
+          ? "You skipped all forty — the real thing is less forgiving. Duration " + this.clock(elapsed) + "."
+          : "Correct " + correctCount + " · Incorrect " + (answeredCount - correctCount) + " · Skipped " +
+            (EXAM_COUNT - answeredCount) + " · Duration " + this.clock(elapsed) +
+            ". Weakest topic: Cyber Security — Grundlagen, Begriffe und Bedeutung.",
+    };
+  }
+}
+</script>
+</body>
+</html>

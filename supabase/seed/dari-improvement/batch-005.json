@@ -1,0 +1,476 @@
+[
+  {
+    "id": "e1e67605-3846-496a-865e-1da0b8f3680d",
+    "text": "Ein Unternehmen betrachtet ein internes Wiki mit Betriebsanleitungen als reines Komfort-Tool ohne sicherheitsrelevanten Inhalt, obwohl darin auch Zugangsdaten zu Testsystemen dokumentiert sind. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Das Wiki sollte als schützenswerter Wert eingestuft werden, sobald es tatsächlich sicherheitsrelevante Informationen wie Zugangsdaten enthält"
+      },
+      {
+        "label": "B",
+        "text": "Ein internes Wiki ist grundsätzlich von jeder sicherheitsrelevanten Betrachtung ausgenommen"
+      },
+      {
+        "label": "C",
+        "text": "Zugangsdaten zu Testsystemen sind für die Informationssicherheit ohne jede Relevanz"
+      },
+      {
+        "label": "D",
+        "text": "Die Einstufung als schützenswerter Wert hängt ausschließlich vom Namen des Dokuments ab, nicht von seinem Inhalt"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein internes Wiki gilt als reines Komfort-Tool, enthält aber auch Zugangsdaten zu Testsystemen.",
+      "whyCorrect": "A ist richtig, weil das Wiki als schützenswerter Wert eingestuft werden sollte, sobald es tatsächlich sicherheitsrelevante Informationen wie Zugangsdaten enthält.",
+      "whyIncorrect": "B ist falsch, weil die generelle Ausnahme eines Wikis von jeder Sicherheitsbetrachtung falsch ist, sobald sensible Inhalte enthalten sind. C ist falsch, weil Zugangsdaten zu Testsystemen sehr wohl sicherheitsrelevant sind. D ist falsch, weil die Einstufung vom tatsächlichen Inhalt, nicht vom Namen des Dokuments abhängt.",
+      "commonTrap": "Ein als 'Komfort-Tool' bezeichnetes System wird pauschal als nicht sicherheitsrelevant eingestuft.",
+      "testedConcept": "Inhaltsbasierte Bewertung schützenswerter Werte"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "05b67c98-5051-4163-8e13-c803ffbd44a1",
+    "text": "Bei der Analyse eines Geschäftsprozesses wird die folgende Situation bewertet: Bei der Aufnahme eines Bestellprozesses liegen vier Beschreibungen vor. Welche grenzt den Prozess am verlässlichsten ab?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Input, genutzte Ressourcen und die persönliche Vorgehensweise der Hauptbearbeiterin"
+      },
+      {
+        "label": "B",
+        "text": "Auslöser, Input, Beginn und Ende sowie ein überprüfbares Prozessergebnis"
+      },
+      {
+        "label": "C",
+        "text": "Auslöser, beteiligte Organisationseinheiten und die aktuell eingesetzte Anwendung"
+      },
+      {
+        "label": "D",
+        "text": "Prozessziel, verantwortliche Rolle und sämtliche derzeit bekannten Einzelprobleme"
+      }
+    ],
+    "explanation": {
+      "summary": "Bei der Aufnahme eines Bestellprozesses liegen vier Beschreibungen vor; gefragt wird, welche den Prozess am verlässlichsten abgrenzt.",
+      "whyCorrect": "B ist richtig, weil Auslöser, Input, klarer Beginn und klares Ende sowie ein überprüfbares Ergebnis die zentralen Elemente einer sauberen Prozessabgrenzung sind.",
+      "whyIncorrect": "A ist falsch, weil eine persönliche Vorgehensweise keine verlässliche, verallgemeinerbare Abgrenzung liefert. C ist falsch, weil die eingesetzte Anwendung allein den Prozess nicht abgrenzt, da Prozesse unabhängig von der Software beschrieben werden sollten. D ist falsch, weil Einzelprobleme keine strukturelle Abgrenzung des Prozesses darstellen.",
+      "commonTrap": "Prozessabgrenzung wird mit technischen Details oder individuellen Arbeitsweisen verwechselt statt mit klaren strukturellen Merkmalen.",
+      "testedConcept": "Prozessabgrenzung (Auslöser, Input, Ergebnis)"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Auslöser"
+      }
+    ]
+  },
+  {
+    "id": "333d7fd1-2c13-4134-8f21-4240fa9dbeb8",
+    "text": "Bei der Analyse eines Geschäftsprozesses bespricht das zuständige Team folgenden Fall: Interviews und Systemdaten widersprechen der freigegebenen Prozessbeschreibung. Welches Vorgehen führt am zuverlässigsten zu einem belastbaren Ist-Prozess?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Als Erstes den gewünschten Soll-Prozess modellieren und daraus den bisherigen Ist-Prozess ableiten"
+      },
+      {
+        "label": "B",
+        "text": "Freigegebene Beschreibung als Ist übernehmen und Abweichungen erst im Soll-Prozess behandeln"
+      },
+      {
+        "label": "C",
+        "text": "Systemdaten stärker gewichten als Interviews und manuelle Tätigkeiten nachrangig behandeln"
+      },
+      {
+        "label": "D",
+        "text": "Quellen und Varianten gemeinsam mit Beteiligten validieren und den tatsächlich wiederkehrenden Ablauf nachvollziehbar festhalten"
+      }
+    ],
+    "explanation": {
+      "summary": "Interviews und Systemdaten widersprechen der freigegebenen Prozessbeschreibung; gefragt wird nach dem zuverlässigsten Vorgehen für den Ist-Prozess.",
+      "whyCorrect": "D ist richtig, weil Quellen und Varianten gemeinsam mit den Beteiligten validiert werden sollten, um den tatsächlich wiederkehrenden Ablauf nachvollziehbar festzuhalten.",
+      "whyIncorrect": "A ist falsch, weil ein Soll-Prozess nicht die Grundlage für die Ableitung des Ist-Zustands sein darf. B ist falsch, weil die freigegebene Beschreibung im Widerspruchsfall nicht unhinterfragt als Ist übernommen werden sollte. C ist falsch, weil eine einseitige Gewichtung einer Quelle ohne Validierung Verzerrungen erzeugen kann.",
+      "commonTrap": "Eine formal freigegebene, aber veraltete Beschreibung wird unhinterfragt als Ist-Zustand übernommen.",
+      "testedConcept": "Validierung mehrerer Quellen bei der Ist-Aufnahme"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "e0a5e9b5-3c7c-45d4-942e-7140b35af324",
+    "text": "Bei der Analyse eines Geschäftsprozesses bespricht das zuständige Team folgenden Fall: Ein Genehmigungsprozess hat eine hohe Durchlaufzeit. Mehrere Beteiligte vermuten den Engpass an unterschiedlichen Stellen; belastbare Messdaten fehlen. Welcher Analyseschritt sollte als Erstes erfolgen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Bearbeitungs-, Warte- und Nacharbeitszeiten je relevanter Variante erheben und die Engpasshypothese mit Beteiligten validieren"
+      },
+      {
+        "label": "B",
+        "text": "Die am häufigsten genannte Genehmigungsstufe entfernen und anschließend die neue Durchlaufzeit mit dem Zielwert vergleichen"
+      },
+      {
+        "label": "C",
+        "text": "Die Zeitschätzungen der Prozessverantwortlichen mitteln und den höchsten Einzelwert als Engpass nachvollziehbar festhalten"
+      },
+      {
+        "label": "D",
+        "text": "Als Erstes eine gewünschte Soll-Durchlaufzeit definieren und jede Aktivität oberhalb ihres rechnerischen Anteils optimieren"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Genehmigungsprozess hat eine hohe Durchlaufzeit; der vermutete Engpass ist umstritten, belastbare Messdaten fehlen.",
+      "whyCorrect": "A ist richtig, weil zunächst Bearbeitungs-, Warte- und Nacharbeitszeiten je Variante systematisch erhoben und die Engpasshypothese mit den Beteiligten validiert werden sollten.",
+      "whyIncorrect": "B ist falsch, weil eine ungeprüfte Entfernung eines Schritts auf bloßer Vermutung beruht statt auf Daten. C ist falsch, weil das Mitteln subjektiver Schätzungen keine verlässliche Datenbasis liefert. D ist falsch, weil zunächst die tatsächliche Situation verstanden werden muss, bevor ein Soll-Wert sinnvoll definiert werden kann.",
+      "commonTrap": "Vermutungen werden ohne Messung direkt in Maßnahmen umgesetzt.",
+      "testedConcept": "Datenbasierte Engpassanalyse"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "424465ae-31c8-4ee5-9fce-3d2beebb19c7",
+    "text": "Bei der Analyse eines Geschäftsprozesses soll die folgende Entscheidung getroffen werden: Ein End-to-End-Prozess verfehlt sein Zeitziel vor allem an der Übergabe zwischen Vertrieb und Betrieb. Wer sollte die Verbesserung primär steuern?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Jeder Teilprozessverantwortliche getrennt, wobei die Schnittstelle ausdrücklich außerhalb ihrer Verantwortung bleibt"
+      },
+      {
+        "label": "B",
+        "text": "Der für den Gesamtprozess verantwortliche Process Owner unter Einbindung beider Bereiche"
+      },
+      {
+        "label": "C",
+        "text": "Die Leitung des Bereichs, in dem die meisten Einzelschritte ausgeführt werden, ohne gemeinsames Prozessmandat"
+      },
+      {
+        "label": "D",
+        "text": "Der Verantwortliche des IT-Systems, das die Übergabe technisch unterstützt, da die Ursache dort am ehesten sichtbar wird"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein End-to-End-Prozess verfehlt sein Zeitziel an der Übergabe zwischen Vertrieb und Betrieb; gefragt wird, wer die Verbesserung primär steuern sollte.",
+      "whyCorrect": "B ist richtig, weil der für den Gesamtprozess verantwortliche Process Owner unter Einbindung beider Bereiche die geeignete Instanz ist, um bereichsübergreifende Probleme zu lösen.",
+      "whyIncorrect": "A ist falsch, weil eine getrennte Steuerung ohne Verantwortung für die Schnittstelle das eigentliche Problem nicht adressiert. C ist falsch, weil ein Mandat allein über Teilbereiche nicht ausreicht, um den Gesamtprozess zu verbessern. D ist falsch, weil die technische Unterstützung nicht automatisch die prozessuale Verantwortung trägt.",
+      "commonTrap": "Verantwortung wird an einzelne Teilbereiche statt an eine übergreifende Prozessverantwortung delegiert.",
+      "testedConcept": "Process Owner bei End-to-End-Prozessen"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Process Owner"
+      }
+    ]
+  },
+  {
+    "id": "2aeac3a1-47b6-4acb-9864-a837542d3a41",
+    "text": "Bei der Analyse eines Geschäftsprozesses bespricht das zuständige Team folgenden Fall: Ein fachlich sinnvoller Soll-Prozess stößt auf Widerstand, weil Beschäftigte neue Rollen als unklar und zusätzlichen Aufwand als unbegründet erleben. Welche Einführung ist am erfolgversprechendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Den bisherigen Prozess parallel unbefristet zulassen, damit jede Einheit selbst über Zeitpunkt und Umfang der Umstellung entscheidet"
+      },
+      {
+        "label": "B",
+        "text": "Den Soll-Prozess sofort verbindlich setzen, Rollen später präzisieren und Akzeptanz über die Einhaltungsquote messen"
+      },
+      {
+        "label": "C",
+        "text": "Betroffene früh einbinden, Zweck und Auswirkungen erklären, Rollen klären, Rückmeldungen überprüfen und die Einführung begleitet erproben"
+      },
+      {
+        "label": "D",
+        "text": "Zunächst die Prozessgrafik veröffentlichen, Rückmeldungen nach vollständiger technischer Umsetzung sammeln und Rollen lokal auslegen lassen"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein fachlich sinnvoller Soll-Prozess stößt auf Widerstand wegen unklarer Rollen und wahrgenommenen Aufwands; gefragt wird nach der erfolgversprechendsten Einführung.",
+      "whyCorrect": "C ist richtig, weil frühe Einbindung, klare Kommunikation von Zweck und Auswirkungen, geklärte Rollen, Rückmeldungen und eine begleitete Erprobung typische Erfolgsfaktoren für Akzeptanz sind.",
+      "whyIncorrect": "A ist falsch, weil unbefristete Parallelnutzung die Einführung verwässert und keine klare Entscheidung trifft. B ist falsch, weil verbindliche Einführung ohne Klärung der Rollen den Widerstand eher verstärkt. D ist falsch, weil Rückmeldungen erst nach vollständiger technischer Umsetzung einzuholen die Beteiligung zu spät ermöglicht.",
+      "commonTrap": "Prozessänderungen werden rein fachlich-technisch betrachtet, ohne den Faktor Mensch und Change Management einzubeziehen.",
+      "testedConcept": "Erfolgreiches Change Management bei Prozesseinführung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "cd17a69f-92f8-4300-813b-b62397e434d9",
+    "text": "Bei der Analyse eines Geschäftsprozesses bespricht das zuständige Team folgenden Fall: Was ist ein Prozess im organisatorischen Sinn?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Stellenbeschreibung einer an ihm beteiligten Person"
+      },
+      {
+        "label": "B",
+        "text": "Eine ungeordnete Liste unabhängiger Aufgaben"
+      },
+      {
+        "label": "C",
+        "text": "Eine zusammenhängende Folge von Tätigkeiten, die Eingaben in ein Ergebnis überführt"
+      },
+      {
+        "label": "D",
+        "text": "Das dabei eingesetzte Softwareprodukt, losgelöst von den beteiligten Personen und Tätigkeiten"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird nach der grundlegenden Definition eines Prozesses im organisatorischen Sinn gefragt.",
+      "whyCorrect": "C ist richtig, weil ein Prozess eine zusammenhängende Folge von Tätigkeiten ist, die Eingaben in ein Ergebnis überführt.",
+      "whyIncorrect": "A ist falsch, weil eine Stellenbeschreibung eine einzelne Rolle, nicht den gesamten Ablauf beschreibt. B ist falsch, weil eine ungeordnete Liste unabhängiger Aufgaben gerade keinen zusammenhängenden Ablauf darstellt. D ist falsch, weil ein Prozess mehr ist als nur das eingesetzte Softwareprodukt.",
+      "commonTrap": "Ein Prozess wird mit der eingesetzten Software oder einer Stellenbeschreibung verwechselt.",
+      "testedConcept": "Definition des Begriffs Prozess"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Prozess"
+      }
+    ]
+  },
+  {
+    "id": "ddbb60b1-4db0-4236-9089-e5ec9af40a79",
+    "text": "Bei der Analyse eines Geschäftsprozesses soll die folgende Entscheidung getroffen werden: Welche Angabe gehört typischerweise zur Beschreibung eines Prozesses?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Das Budget der für ihn verantwortlichen Organisationseinheit"
+      },
+      {
+        "label": "B",
+        "text": "Die farbliche Gestaltung des Prozessdiagramms, losgelöst vom tatsächlichen Ablauf"
+      },
+      {
+        "label": "C",
+        "text": "Der Name der eingesetzten Anwendung, losgelöst vom eigentlichen Ablauf"
+      },
+      {
+        "label": "D",
+        "text": "Auslöser, Input, Tätigkeiten, Rollen und Ergebnis"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welche Angabe typischerweise zur Beschreibung eines Prozesses gehört.",
+      "whyCorrect": "D ist richtig, weil Auslöser, Input, Tätigkeiten, Rollen und Ergebnis die zentralen Bestandteile einer vollständigen Prozessbeschreibung sind.",
+      "whyIncorrect": "A ist falsch, weil das Budget der Organisationseinheit kein originärer Bestandteil der Prozessbeschreibung ist. B ist falsch, weil die farbliche Gestaltung eines Diagramms keine inhaltliche Prozessbeschreibung darstellt. C ist falsch, weil der Name der Anwendung losgelöst vom Ablauf keine strukturelle Prozessinformation liefert.",
+      "commonTrap": "Oberflächliche oder technische Details werden mit den inhaltlichen Kernelementen einer Prozessbeschreibung verwechselt.",
+      "testedConcept": "Bestandteile einer Prozessbeschreibung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "ca09331c-28d9-4f85-b409-076a0e2b57aa",
+    "text": "Bei der Analyse eines Geschäftsprozesses stellt sich folgende Prüfungsfrage: Welche Kategorie im Prozesshaus erzeugt typischerweise die unmittelbare Leistung für Kunden?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Kern- beziehungsweise Geschäftsprozess"
+      },
+      {
+        "label": "B",
+        "text": "Führungsprozess"
+      },
+      {
+        "label": "C",
+        "text": "Unterstützungsprozess"
+      },
+      {
+        "label": "D",
+        "text": "Notfallereignis"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welche Kategorie im Prozesshaus typischerweise die unmittelbare Leistung für Kunden erzeugt.",
+      "whyCorrect": "A ist richtig, weil Kern- bzw. Geschäftsprozesse direkt zur Wertschöpfung für Kunden beitragen.",
+      "whyIncorrect": "B ist falsch, weil Führungsprozesse die Steuerung und Ausrichtung des Unternehmens betreffen, nicht die unmittelbare Kundenleistung. C ist falsch, weil Unterstützungsprozesse die Kernprozesse ermöglichen, aber nicht direkt die Kundenleistung erzeugen. D ist falsch, weil ein Notfallereignis keine Prozesskategorie im Prozesshaus darstellt.",
+      "commonTrap": "Unterstützungsprozesse werden fälschlich mit Kernprozessen gleichgesetzt.",
+      "testedConcept": "Prozesshaus: Kern-, Führungs- und Unterstützungsprozesse"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Prozesshaus"
+      }
+    ]
+  },
+  {
+    "id": "1333bd4f-84e5-4760-be29-c1c9c3c9cd87",
+    "text": "Bei der Analyse eines Geschäftsprozesses wird die folgende Situation bewertet: Was beschreibt ein Ist-Prozess?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine Liste möglicher Risiken, die keinen Bezug zum tatsächlichen Ablauf herstellt"
+      },
+      {
+        "label": "B",
+        "text": "Den tatsächlich gelebten Ablauf einschließlich relevanter Varianten"
+      },
+      {
+        "label": "C",
+        "text": "Den gewünschten künftigen Ablauf, losgelöst vom aktuell gelebten Vorgehen"
+      },
+      {
+        "label": "D",
+        "text": "Die freigegebene Softwareversion, losgelöst vom tatsächlichen Ablauf"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, was ein Ist-Prozess beschreibt.",
+      "whyCorrect": "B ist richtig, weil ein Ist-Prozess den tatsächlich gelebten Ablauf einschließlich relevanter Varianten beschreibt.",
+      "whyIncorrect": "A ist falsch, weil eine Risikoliste keinen Bezug zum tatsächlichen Ablauf herstellt. C ist falsch, weil dies die Definition des Soll-Prozesses, nicht des Ist-Prozesses beschreibt. D ist falsch, weil die Softwareversion allein den tatsächlichen Ablauf nicht abbildet.",
+      "commonTrap": "Ist- und Soll-Prozess werden miteinander verwechselt.",
+      "testedConcept": "Definition des Ist-Prozesses"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Ist-Prozess"
+      }
+    ]
+  },
+  {
+    "id": "ea089ba2-4315-4070-b6ff-eea6c87bf8f8",
+    "text": "Bei der Analyse eines Geschäftsprozesses bespricht das zuständige Team folgenden Fall: Welche Aufgabe hat eine prozessverantwortliche Rolle typischerweise?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Urlaubsanträge der Teammitglieder genehmigen, ohne dass dies mit Prozessverantwortung zu tun hätte"
+      },
+      {
+        "label": "B",
+        "text": "Die meisten Aktivitäten im Tagesgeschäft persönlich mit übernehmen, statt sie zu delegieren"
+      },
+      {
+        "label": "C",
+        "text": "Gestaltung, Leistung und Weiterentwicklung des Gesamtprozesses steuern"
+      },
+      {
+        "label": "D",
+        "text": "Die im Prozess eingesetzte Hardware inventarisieren"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welche Aufgabe eine prozessverantwortliche Rolle typischerweise hat.",
+      "whyCorrect": "C ist richtig, weil eine prozessverantwortliche Rolle Gestaltung, Leistung und Weiterentwicklung des Gesamtprozesses steuert.",
+      "whyIncorrect": "A ist falsch, weil Urlaubsgenehmigungen eine Führungsaufgabe, nicht direkt Prozessverantwortung sind. B ist falsch, weil Prozessverantwortliche typischerweise steuern und delegieren, statt operative Aktivitäten selbst zu übernehmen. D ist falsch, weil die Inventarisierung von Hardware keine typische Aufgabe der Prozessverantwortung ist.",
+      "commonTrap": "Prozessverantwortung wird mit operativen Führungsaufgaben oder technischer Verwaltung verwechselt.",
+      "testedConcept": "Aufgaben eines Process Owners"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "d7226877-dae1-4acf-924f-0e657f2acbe2",
+    "text": "Bei der Analyse eines Geschäftsprozesses soll die folgende Entscheidung getroffen werden: Ein Prozess hat seltene Sonderfälle und Übergaben an drei Bereiche. Wer sollte an der Prozesserfassung beteiligt werden?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der Hersteller des verwendeten Systems, losgelöst von den ausführenden Personen"
+      },
+      {
+        "label": "B",
+        "text": "Die Führungskraft des Bereichs mit den meisten Beschäftigten, ohne die Sonderfälle einzubeziehen"
+      },
+      {
+        "label": "C",
+        "text": "Personen, die den Standardfall ausführen, ohne die Ausnahmen einzubeziehen"
+      },
+      {
+        "label": "D",
+        "text": "Ausführende und Verantwortliche aus den relevanten Bereichen einschließlich Personen mit Kenntnis der Sonderfälle"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozess hat seltene Sonderfälle und Übergaben an drei Bereiche; gefragt wird, wer an der Erfassung beteiligt werden sollte.",
+      "whyCorrect": "D ist richtig, weil Ausführende und Verantwortliche aus allen relevanten Bereichen einschließlich Personen mit Kenntnis der Sonderfälle einbezogen werden sollten, um ein vollständiges Bild zu erhalten.",
+      "whyIncorrect": "A ist falsch, weil der Systemhersteller allein keine Kenntnis der tatsächlichen Abläufe hat. B ist falsch, weil die alleinige Einbindung der größten Führungskraft die Sonderfälle ignoriert. C ist falsch, weil eine Beschränkung auf den Standardfall die wichtigen Ausnahmen unberücksichtigt lässt.",
+      "commonTrap": "Nur der Standardfall bzw. nur die größte Abteilung wird berücksichtigt, Sonderfälle werden übersehen.",
+      "testedConcept": "Vollständige Einbindung Beteiligter bei der Prozesserfassung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "b7011841-91fb-43e8-ad84-2b8e7818bd56",
+    "text": "Bei der Analyse eines Geschäftsprozesses stellt sich folgende Prüfungsfrage: Ein Prozessdiagramm zeigt Tätigkeiten, aber keine Entscheidungspunkte und keine Rollenwechsel. Welche Ergänzung erhöht seinen Analysewert am meisten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Entscheidungen, Übergaben und Verantwortlichkeiten sichtbar ergänzen"
+      },
+      {
+        "label": "B",
+        "text": "Jede Aktivität zusätzlich mit einer Kategorie versehen, ohne Entscheidungslogik abzubilden"
+      },
+      {
+        "label": "C",
+        "text": "Zusätzliche Freitextkommentare an den Tätigkeiten ergänzen, ohne Entscheidungslogik abzubilden"
+      },
+      {
+        "label": "D",
+        "text": "Das Diagramm durch eine reine Systeminventarliste ersetzen"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozessdiagramm zeigt Tätigkeiten, aber keine Entscheidungspunkte und keine Rollenwechsel; gefragt wird nach der wertvollsten Ergänzung.",
+      "whyCorrect": "A ist richtig, weil Entscheidungen, Übergaben und Verantwortlichkeiten sichtbar zu ergänzen den Analysewert des Diagramms deutlich erhöht.",
+      "whyIncorrect": "B ist falsch, weil zusätzliche Kategorien ohne Entscheidungslogik das eigentliche Problem nicht lösen. C ist falsch, weil Freitextkommentare keine strukturierte Entscheidungslogik abbilden. D ist falsch, weil eine reine Systeminventarliste keine Prozessabläufe zeigt.",
+      "commonTrap": "Oberflächliche Ergänzungen (Kommentare, Kategorien) werden mit einer echten Abbildung von Entscheidungslogik verwechselt.",
+      "testedConcept": "Prozessdiagramme mit Entscheidungspunkten und Rollen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "0f447433-baac-4b74-b7cf-cee6197e324c",
+    "text": "Bei der Analyse eines Geschäftsprozesses wird die folgende Situation bewertet: Eine Rechnung wird ausgedruckt, unterschrieben und später erneut manuell erfasst. Welcher Analysebefund liegt am nächsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine abschließend validierte Soll-Optimierung"
+      },
+      {
+        "label": "B",
+        "text": "Ein Medienbruch mit möglicher Doppelarbeit und Fehlergefahr"
+      },
+      {
+        "label": "C",
+        "text": "Ein umfassend automatisierter Ablauf"
+      },
+      {
+        "label": "D",
+        "text": "Ein reiner Führungsprozess ohne Schnittstelle"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine Rechnung wird ausgedruckt, unterschrieben und später erneut manuell erfasst; gefragt wird nach dem passendsten Analysebefund.",
+      "whyCorrect": "B ist richtig, weil der Wechsel zwischen Papier und digitaler Erfassung ein Medienbruch ist, der Doppelarbeit und Fehlergefahr mit sich bringt.",
+      "whyIncorrect": "A ist falsch, weil hier kein validierter Soll-Zustand, sondern ein problematischer Ist-Zustand beschrieben wird. C ist falsch, weil der Ablauf gerade nicht automatisiert, sondern manuell und mehrfach erfolgt. D ist falsch, weil es sich nicht um einen Führungsprozess, sondern um einen operativen Ablauf mit Schnittstelle handelt.",
+      "commonTrap": "Manuelle Doppelerfassungen werden nicht als Medienbruch, sondern als normaler Arbeitsschritt wahrgenommen.",
+      "testedConcept": "Medienbruch als Prozessschwäche"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Medienbruch"
+      }
+    ]
+  },
+  {
+    "id": "876a97bf-b5e7-48c8-8d87-f3083a99aed8",
+    "text": "Bei der Analyse eines Geschäftsprozesses bespricht das zuständige Team folgenden Fall: Zwei Bereiche führen dieselbe Kundendatenprüfung nacheinander durch. Was sollte vor dem Entfernen eines Schritts geklärt werden?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Welcher Beschäftigte länger im Unternehmen ist"
+      },
+      {
+        "label": "B",
+        "text": "Welcher Bereich die modernere Präsentationsvorlage nutzt"
+      },
+      {
+        "label": "C",
+        "text": "Ob die Prüfungen tatsächlich denselben Zweck, Umfang und Kontrollbedarf haben"
+      },
+      {
+        "label": "D",
+        "text": "Ob beide Schritte denselben Namen tragen"
+      }
+    ],
+    "explanation": {
+      "summary": "Zwei Bereiche führen dieselbe Kundendatenprüfung nacheinander durch; gefragt wird, was vor dem Entfernen eines Schritts geklärt werden sollte.",
+      "whyCorrect": "C ist richtig, weil vor dem Entfernen eines scheinbar doppelten Schritts geprüft werden sollte, ob beide Prüfungen tatsächlich denselben Zweck, Umfang und Kontrollbedarf haben.",
+      "whyIncorrect": "A ist falsch, weil die Betriebszugehörigkeit keine sachliche Grundlage für die Entscheidung ist. B ist falsch, weil die Präsentationsvorlage keinen Bezug zum eigentlichen Prüfzweck hat. D ist falsch, weil ein gleicher Name allein nicht bedeutet, dass die Schritte inhaltlich identisch sind.",
+      "commonTrap": "Ein scheinbar redundanter Schritt wird vorschnell entfernt, ohne den tatsächlichen Zweck zu prüfen.",
+      "testedConcept": "Prüfung auf echte Redundanz vor Prozessvereinfachung"
+    },
+    "vocabulary": []
+  }
+]

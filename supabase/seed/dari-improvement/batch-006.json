@@ -1,0 +1,460 @@
+[
+  {
+    "id": "9372e1e0-1f0d-4822-86bb-5e577511eee7",
+    "text": "Bei der Analyse eines Geschäftsprozesses soll die folgende Entscheidung getroffen werden: Ein Soll-Prozess verkürzt die Bearbeitungszeit, entfernt aber eine notwendige Vier-Augen-Prüfung. Wie ist die Änderung zu bewerten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die grafische Darstellung anpassen und die Kontrollfrage bei der nächsten Revision klären"
+      },
+      {
+        "label": "B",
+        "text": "Sie ist automatisch richtig, weil die Durchlaufzeit sinkt"
+      },
+      {
+        "label": "C",
+        "text": "Sie ist automatisch falsch, weil Prozesse nie geändert werden dürfen"
+      },
+      {
+        "label": "D",
+        "text": "Die Effizienzverbesserung ist gegen den Kontrollbedarf zu überprüfen und gegebenenfalls anzupassen"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Soll-Prozess verkürzt die Bearbeitungszeit, entfernt aber eine notwendige Vier-Augen-Prüfung; gefragt wird nach der richtigen Bewertung.",
+      "whyCorrect": "D ist richtig, weil die Effizienzverbesserung gegen den Kontrollbedarf abgewogen und die Änderung gegebenenfalls angepasst werden muss.",
+      "whyIncorrect": "A ist falsch, weil das bloße Verschieben der Kontrollfrage auf später das grundlegende Kontrollrisiko ignoriert. B ist falsch, weil eine sinkende Durchlaufzeit allein keine automatische Richtigkeit der Änderung begründet. C ist falsch, weil Prozesse durchaus geändert werden dürfen, wenn Kontrollanforderungen weiterhin erfüllt sind.",
+      "commonTrap": "Effizienzgewinne werden isoliert bewertet, ohne den Verlust von Kontrollmechanismen zu berücksichtigen.",
+      "testedConcept": "Abwägung zwischen Effizienz und Kontrollmechanismen (Vier-Augen-Prinzip)"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Vier-Augen-Prinzip"
+      }
+    ]
+  },
+  {
+    "id": "f29aab63-630f-4476-825f-5bc615f3b90f",
+    "text": "Bei der Analyse eines Geschäftsprozesses stellt sich folgende Prüfungsfrage: Welche Abfolge beschreibt eine saubere Prozessoptimierung am sinnvollsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ist-Prozess verstehen, Schwächen analysieren, Soll-Lösung abstimmen, umsetzen und Wirkung überprüfen"
+      },
+      {
+        "label": "B",
+        "text": "Soll-Lösung umsetzen, danach erstmals den Ist-Prozess erheben"
+      },
+      {
+        "label": "C",
+        "text": "Wirkung überprüfen, Soll-Prozess entwerfen, Beteiligte erst danach informieren"
+      },
+      {
+        "label": "D",
+        "text": "Den Ist-Prozess zeichnen und weitere Bewertung auf einen späteren Zeitpunkt verschieben"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welche Abfolge eine saubere Prozessoptimierung am sinnvollsten beschreibt.",
+      "whyCorrect": "A ist richtig, weil Verstehen des Ist-Prozesses, Schwächenanalyse, Abstimmung der Soll-Lösung, Umsetzung und Wirkungsprüfung die logische, vollständige Reihenfolge einer Optimierung darstellen.",
+      "whyIncorrect": "B ist falsch, weil eine Umsetzung ohne vorherige Ist-Analyse blind erfolgt. C ist falsch, weil eine Wirkungsprüfung vor der eigentlichen Umsetzung keinen Sinn ergibt und Beteiligte zu spät informiert werden. D ist falsch, weil eine reine Ist-Aufnahme ohne weitere Bewertung keine vollständige Optimierung darstellt.",
+      "commonTrap": "Einzelne Schritte der Optimierung werden in falscher Reihenfolge oder unvollständig durchgeführt.",
+      "testedConcept": "Ablauf einer Prozessoptimierung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "cca6f9c3-2f6a-4151-9ad6-eebc3b38be84",
+    "text": "Bei der Analyse eines Geschäftsprozesses wird die folgende Situation bewertet: Ein optimierter Prozess wurde eingeführt. Woran lässt sich seine Wirkung am verlässlichsten beurteilen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Den Erfolg vorwiegend aus der Zustimmung des Projektteams ableiten"
+      },
+      {
+        "label": "B",
+        "text": "Vorher und nachher passende Kennzahlen, Fehler, Kontrollwirkung und Rückmeldungen im gleichen Scope vergleichen"
+      },
+      {
+        "label": "C",
+        "text": "Prüfen, ob die neue Prozessgrafik veröffentlicht wurde, ohne die Wirkung selbst zu untersuchen"
+      },
+      {
+        "label": "D",
+        "text": "Die Zahl der versendeten Ankündigungen zählen"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein optimierter Prozess wurde eingeführt; gefragt wird, woran sich seine Wirkung am verlässlichsten beurteilen lässt.",
+      "whyCorrect": "B ist richtig, weil ein Vorher-Nachher-Vergleich passender Kennzahlen, Fehler, Kontrollwirkung und Rückmeldungen im gleichen Scope die verlässlichste Wirkungsmessung ermöglicht.",
+      "whyIncorrect": "A ist falsch, weil die Zustimmung des Projektteams keine objektive Erfolgsmessung darstellt. C ist falsch, weil die Veröffentlichung einer Grafik nichts über die tatsächliche Wirkung aussagt. D ist falsch, weil die Anzahl der Ankündigungen kein Maß für den Prozesserfolg ist.",
+      "commonTrap": "Formale oder subjektive Indikatoren werden mit einer objektiven Wirkungsmessung verwechselt.",
+      "testedConcept": "Objektive Erfolgsmessung von Prozessänderungen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "e52886fd-0337-4042-b711-2d0fa09f4847",
+    "text": "In einer Prozessbeschreibung wird als Auslöser \"Kundenanfrage geht ein\" und als Ergebnis \"Angebot ist versendet\" genannt, jedoch ohne Angabe der beteiligten Rollen oder Schnittstellen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Beschreibung ist unvollständig, weil wesentliche Prozessmerkmale wie Rollen und Schnittstellen fehlen"
+      },
+      {
+        "label": "B",
+        "text": "Die Beschreibung ist bereits vollständig, weil Auslöser und Ergebnis die wichtigsten Prozessmerkmale sind"
+      },
+      {
+        "label": "C",
+        "text": "Die Beschreibung betrifft keinen echten Prozess, da kein Prozesshaus zugeordnet wurde"
+      },
+      {
+        "label": "D",
+        "text": "Die Beschreibung ist nur für einen Unterstützungsprozess ausreichend, nicht für einen Geschäftsprozess"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine Prozessbeschreibung nennt nur Auslöser und Ergebnis, aber keine Rollen oder Schnittstellen.",
+      "whyCorrect": "A ist richtig, weil eine vollständige Prozessbeschreibung auch Rollen und Schnittstellen enthalten sollte, die hier fehlen.",
+      "whyIncorrect": "B ist falsch, weil Auslöser und Ergebnis allein nicht ausreichen, um einen Prozess vollständig zu beschreiben. C ist falsch, weil auch ohne explizite Prozesshaus-Zuordnung ein echter Prozess vorliegen kann. D ist falsch, weil die Unterscheidung zwischen Geschäfts- und Unterstützungsprozess hier nicht das eigentliche Vollständigkeitsproblem betrifft.",
+      "commonTrap": "Auslöser und Ergebnis werden als ausreichend für eine vollständige Prozessbeschreibung angesehen.",
+      "testedConcept": "Vollständigkeit einer Prozessbeschreibung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "f9494b4a-620e-4202-b41c-64ae42128350",
+    "text": "Bei einem regionalen Logistikdienstleister wird folgender Praxisfall bewertet: Ein Soll-Prozess verkürzt die Bearbeitungszeit, entfernt aber eine notwendige Vier-Augen-Prüfung. Wie ist die Änderung zu bewerten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Effizienzverbesserung ist gegen den Kontrollbedarf zu prüfen und gegebenenfalls anzupassen"
+      },
+      {
+        "label": "B",
+        "text": "Sie ist automatisch richtig, weil die Durchlaufzeit sinkt"
+      },
+      {
+        "label": "C",
+        "text": "Sie ist automatisch falsch, weil Prozesse nie geändert werden dürfen"
+      },
+      {
+        "label": "D",
+        "text": "Die grafische Darstellung anpassen und die Kontrollfrage bei der nächsten Revision klären"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Soll-Prozess verkürzt die Bearbeitungszeit, entfernt aber eine notwendige Vier-Augen-Prüfung; gefragt wird nach der richtigen Bewertung.",
+      "whyCorrect": "A ist richtig, weil die Effizienzverbesserung gegen den Kontrollbedarf geprüft und die Änderung gegebenenfalls angepasst werden muss.",
+      "whyIncorrect": "B ist falsch, weil eine sinkende Durchlaufzeit allein die Änderung nicht automatisch rechtfertigt. C ist falsch, weil Prozesse durchaus geändert werden dürfen, solange Kontrollanforderungen weiterhin erfüllt sind. D ist falsch, weil das bloße Verschieben der Kontrollfrage auf später das grundlegende Kontrollrisiko ignoriert.",
+      "commonTrap": "Effizienzgewinne werden isoliert bewertet, ohne den Verlust von Kontrollmechanismen zu berücksichtigen.",
+      "testedConcept": "Abwägung zwischen Effizienz und Kontrollmechanismen (Vier-Augen-Prinzip)"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "f34e61c6-61cb-4dd3-ad9a-eb2c648835b8",
+    "text": "Ein Unternehmen möchte einen neu gestalteten Freigabeprozess einführen. Die fachliche Ausarbeitung des Soll-Prozesses ist abgeschlossen und mit den Fachbereichen abgestimmt. Welcher nächste Schritt ist am passendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Den Prozess unternehmensweit sofort verbindlich in Kraft setzen"
+      },
+      {
+        "label": "B",
+        "text": "Die Auswirkungen erklären, Rückmeldungen ermöglichen und die Einführung begleitet erproben"
+      },
+      {
+        "label": "C",
+        "text": "Zunächst eine neue Prozessvisualisierung erstellen, bevor inhaltliche Fragen geklärt werden"
+      },
+      {
+        "label": "D",
+        "text": "Erneut Interviews zur Erfassung des bisherigen Ist-Prozesses durchführen"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein neu gestalteter Freigabeprozess ist fachlich abgestimmt; gefragt wird nach dem passendsten nächsten Schritt.",
+      "whyCorrect": "B ist richtig, weil das Erklären der Auswirkungen, das Ermöglichen von Rückmeldungen und eine begleitete Erprobung typische, sinnvolle Schritte zur erfolgreichen Einführung sind.",
+      "whyIncorrect": "A ist falsch, weil eine sofortige, unternehmensweite Verbindlichkeit ohne Erprobung Risiken birgt. C ist falsch, weil eine neue Visualisierung vor der eigentlichen Einführung nicht die Priorität haben sollte. D ist falsch, weil die Ist-Aufnahme bereits abgeschlossen ist und keine erneute Erhebung nötig ist.",
+      "commonTrap": "Nach fachlicher Klärung wird sofort zur verbindlichen Einführung übergegangen, ohne Erprobung und Rückmeldemöglichkeit.",
+      "testedConcept": "Begleitete Einführung neuer Prozesse"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "94e1d0f3-77dd-4147-b507-9bec82d071d5",
+    "text": "Ein Unternehmen ordnet die Rekrutierung neuer Mitarbeitender sowie die strategische Jahresplanung jeweils einer Prozesskategorie zu. Welche Zuordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rekrutierung ist ein Kernprozess, Jahresplanung ist ein Unterstützungsprozess"
+      },
+      {
+        "label": "B",
+        "text": "Beide sind Kernprozesse, da beide für den Unternehmenserfolg wichtig sind"
+      },
+      {
+        "label": "C",
+        "text": "Rekrutierung ist ein Unterstützungsprozess, Jahresplanung ist ein Führungsprozess"
+      },
+      {
+        "label": "D",
+        "text": "Beide sind Führungsprozesse, da beide von der Personalabteilung mitgestaltet werden"
+      }
+    ],
+    "explanation": {
+      "summary": "Rekrutierung und strategische Jahresplanung sollen jeweils einer Prozesskategorie zugeordnet werden.",
+      "whyCorrect": "C ist richtig, weil Rekrutierung ein Unterstützungsprozess ist (er ermöglicht die Kernleistung, erzeugt sie aber nicht direkt), während strategische Jahresplanung ein Führungsprozess ist (Steuerung und Ausrichtung des Unternehmens).",
+      "whyIncorrect": "A ist falsch, weil die Zuordnung genau vertauscht ist. B ist falsch, weil Wichtigkeit für den Erfolg allein nicht automatisch bedeutet, dass ein Prozess ein Kernprozess ist. D ist falsch, weil die Mitgestaltung durch die Personalabteilung kein Kriterium für die Einstufung als Führungsprozess ist.",
+      "commonTrap": "Wichtigkeit eines Prozesses wird mit der Zugehörigkeit zum Kernprozess gleichgesetzt.",
+      "testedConcept": "Zuordnung im Prozesshaus (Kern-, Führungs-, Unterstützungsprozess)"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "bf3faf84-ae30-495d-bcfe-ec07c62974da",
+    "text": "Zur Bewertung eines optimierten Kundenserviceprozesses schlägt ein Team vor, ausschließlich die Anzahl neu erstellter Prozessdiagramme als Erfolgskennzahl zu verwenden. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Kennzahl ist geeignet, weil mehr Diagramme mehr Prozessreife bedeuten"
+      },
+      {
+        "label": "B",
+        "text": "Die Kennzahl ist geeignet, solange sie mit der Unternehmensleitung abgestimmt wurde"
+      },
+      {
+        "label": "C",
+        "text": "Die Kennzahl ist ungeeignet, weil Prozessdiagramme grundsätzlich nicht gezählt werden dürfen"
+      },
+      {
+        "label": "D",
+        "text": "Die Kennzahl ist ungeeignet, weil sie keine Aussage über die tatsächliche Wirkung des Prozesses auf Kunden oder Betrieb trifft"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Team schlägt vor, nur die Anzahl neu erstellter Prozessdiagramme als Erfolgskennzahl zu verwenden.",
+      "whyCorrect": "D ist richtig, weil diese Kennzahl keine Aussage über die tatsächliche Wirkung des Prozesses auf Kunden oder Betrieb trifft.",
+      "whyIncorrect": "A ist falsch, weil mehr Diagramme nicht automatisch mehr Prozessreife oder Erfolg bedeuten. B ist falsch, weil die Abstimmung mit der Unternehmensleitung die inhaltliche Eignung der Kennzahl nicht verbessert. C ist falsch, weil das Zählen von Diagrammen grundsätzlich möglich ist, aber inhaltlich wenig aussagekräftig ist.",
+      "commonTrap": "Formale, leicht messbare Indikatoren werden mit aussagekräftigen Erfolgskennzahlen verwechselt.",
+      "testedConcept": "Auswahl geeigneter Erfolgskennzahlen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "d85c7cdc-e7c5-483a-9c2d-4d9737c5ebb0",
+    "text": "In einer Prozessbeschreibung ist eine Person als \"Responsible\" für die Durchführung einer Tätigkeit benannt, eine andere Person aber als \"Accountable\" für das Gesamtergebnis. Welche Aussage ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die \"Responsible\"-Person führt die Tätigkeit aus, während die \"Accountable\"-Person für das Ergebnis verantwortlich bleibt, auch wenn sie es nicht selbst ausführt"
+      },
+      {
+        "label": "B",
+        "text": "Beide Rollen bezeichnen dasselbe und wurden nur zur Verdeutlichung doppelt benannt"
+      },
+      {
+        "label": "C",
+        "text": "Die \"Accountable\"-Person hat keinerlei Bezug zum Ergebnis, sobald eine \"Responsible\"-Person benannt ist"
+      },
+      {
+        "label": "D",
+        "text": "Es sollte in jeder Prozessbeschreibung nur eine einzige Rolle geben, um Verantwortung zu bündeln"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine Person ist als 'Responsible' für die Durchführung, eine andere als 'Accountable' für das Gesamtergebnis benannt.",
+      "whyCorrect": "A ist richtig, weil 'Responsible' die ausführende Person bezeichnet, während 'Accountable' für das Ergebnis verantwortlich bleibt, auch ohne es selbst durchzuführen.",
+      "whyIncorrect": "B ist falsch, weil beide Rollen unterschiedliche Verantwortungsebenen bezeichnen, nicht dasselbe. C ist falsch, weil die 'Accountable'-Person weiterhin für das Ergebnis verantwortlich bleibt. D ist falsch, weil die Trennung von Durchführung und Ergebnisverantwortung gerade sinnvoll sein kann, etwa zur Klärung von Zuständigkeiten.",
+      "commonTrap": "Responsible und Accountable werden synonym verwendet, obwohl sie unterschiedliche Verantwortungsebenen bezeichnen.",
+      "testedConcept": "RACI-Rollen: Responsible vs. Accountable"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Accountable"
+      }
+    ]
+  },
+  {
+    "id": "d169bbfa-4219-4167-8cf7-c166f90423d7",
+    "text": "Eine Prozessbeschreibung erfasst nur den Standardablauf; wiederkehrende Sonderfälle mit abweichenden Entscheidungswegen werden nicht dokumentiert, obwohl sie regelmäßig auftreten. Welche Ergänzung ist am wichtigsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Sonderfälle bewusst weglassen, damit die Beschreibung übersichtlich bleibt"
+      },
+      {
+        "label": "B",
+        "text": "Die regelmäßig auftretenden Varianten samt ihrer Entscheidungswege in die Beschreibung aufnehmen"
+      },
+      {
+        "label": "C",
+        "text": "Ausschließlich den Standardfall weiter verfeinern, da Sonderfälle selten genug seltener werden"
+      },
+      {
+        "label": "D",
+        "text": "Die Beschreibung durch ein reines Organigramm der beteiligten Abteilungen ersetzen"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine Prozessbeschreibung erfasst nur den Standardablauf, nicht die regelmäßig auftretenden Sonderfälle.",
+      "whyCorrect": "B ist richtig, weil regelmäßig auftretende Varianten samt ihrer Entscheidungswege in die Beschreibung aufgenommen werden sollten, um sie vollständig abzubilden.",
+      "whyIncorrect": "A ist falsch, weil das bewusste Weglassen regelmäßiger Sonderfälle die Beschreibung unvollständig macht. C ist falsch, weil Sonderfälle, die regelmäßig auftreten, gerade nicht ignoriert werden sollten. D ist falsch, weil ein reines Organigramm keine prozessualen Abläufe abbildet.",
+      "commonTrap": "Regelmäßig auftretende Sonderfälle werden fälschlich als vernachlässigbare Ausnahmen behandelt.",
+      "testedConcept": "Vollständige Erfassung relevanter Prozessvarianten"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "133b14cc-73c1-4d88-808d-4bac8beea514",
+    "text": "Ein Process Owner soll die Durchlaufzeit eines abteilungsübergreifenden Prozesses verbessern, hat jedoch keine Weisungsbefugnis über die Ressourcen anderer beteiligter Abteilungen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die fehlende Weisungsbefugnis ist unproblematisch, da Prozessverantwortung immer auch Ressourcenverantwortung einschließt"
+      },
+      {
+        "label": "B",
+        "text": "Der Process Owner sollte in diesem Fall durch die jeweilige Abteilungsleitung ersetzt werden"
+      },
+      {
+        "label": "C",
+        "text": "Die fehlende Weisungsbefugnis stellt eine typische Herausforderung dar, die eine abgestimmte Zusammenarbeit mit den jeweiligen Fachbereichsleitungen erfordert"
+      },
+      {
+        "label": "D",
+        "text": "Prozessverbesserungen sind ohne Weisungsbefugnis über alle Ressourcen grundsätzlich nicht möglich"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Process Owner soll die Durchlaufzeit verbessern, hat aber keine Weisungsbefugnis über Ressourcen anderer Abteilungen.",
+      "whyCorrect": "C ist richtig, weil die fehlende Weisungsbefugnis eine typische Herausforderung darstellt, die abgestimmte Zusammenarbeit mit den betroffenen Fachbereichsleitungen erfordert.",
+      "whyIncorrect": "A ist falsch, weil Prozessverantwortung nicht automatisch Ressourcenverantwortung über alle Bereiche einschließt. B ist falsch, weil ein Ersatz durch Abteilungsleitungen die Prozessverantwortung fragmentieren würde. D ist falsch, weil Prozessverbesserungen auch ohne vollständige Weisungsbefugnis durch Kooperation möglich sind.",
+      "commonTrap": "Fehlende Weisungsbefugnis wird als unüberwindbares Hindernis statt als lösbare organisatorische Herausforderung gesehen.",
+      "testedConcept": "Herausforderungen der Prozessverantwortung ohne Linienbefugnis"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "9d420ea2-0a3b-4ca3-9c86-cc076b94b21b",
+    "text": "Bei einem mittelständischen Fertigungsbetrieb wird folgender Praxisfall bewertet: Zwei Bereiche führen dieselbe Kundendatenprüfung nacheinander durch. Was sollte vor dem Entfernen eines Schritts geklärt werden?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Welcher Bereich die modernere Präsentationsvorlage nutzt"
+      },
+      {
+        "label": "B",
+        "text": "Ob die Prüfungen tatsächlich denselben Zweck, Umfang und Kontrollbedarf haben"
+      },
+      {
+        "label": "C",
+        "text": "Ob beide Schritte denselben Namen tragen"
+      },
+      {
+        "label": "D",
+        "text": "Welcher Mitarbeitende länger im Unternehmen ist"
+      }
+    ],
+    "explanation": {
+      "summary": "Zwei Bereiche eines Fertigungsbetriebs führen dieselbe Kundendatenprüfung nacheinander durch; gefragt wird, was vor dem Entfernen eines Schritts geklärt werden sollte.",
+      "whyCorrect": "B ist richtig, weil vor dem Entfernen eines scheinbar doppelten Schritts geprüft werden sollte, ob beide Prüfungen tatsächlich denselben Zweck, Umfang und Kontrollbedarf haben.",
+      "whyIncorrect": "A ist falsch, weil die Präsentationsvorlage keinen Bezug zum eigentlichen Prüfzweck hat. C ist falsch, weil ein gleicher Name allein nicht bedeutet, dass die Schritte inhaltlich identisch sind. D ist falsch, weil die Betriebszugehörigkeit keine sachliche Grundlage für die Entscheidung ist.",
+      "commonTrap": "Ein scheinbar redundanter Schritt wird vorschnell entfernt, ohne den tatsächlichen Zweck zu prüfen.",
+      "testedConcept": "Prüfung auf echte Redundanz vor Prozessvereinfachung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "705b69a9-6dd0-45ad-b8ae-59696d7bf98f",
+    "text": "Ein Team vermutet einen Engpass in einem Genehmigungsprozess, stützt diese Vermutung aber ausschließlich auf einzelne mündliche Erfahrungsberichte, ohne Durchlaufzeiten zu messen. Welche Ergänzung ist am wichtigsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die mündlichen Berichte als ausreichende Grundlage für eine Prozessänderung akzeptieren"
+      },
+      {
+        "label": "B",
+        "text": "Den vermuteten Engpass ohne weitere Prüfung aus dem Prozess entfernen"
+      },
+      {
+        "label": "C",
+        "text": "Eine neue Prozessgrafik erstellen, ohne die Ursache des Engpasses zu untersuchen"
+      },
+      {
+        "label": "D",
+        "text": "Tatsächliche Bearbeitungs- und Wartezeiten je Prozessschritt systematisch erheben, um die Vermutung zu überprüfen"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Team vermutet einen Engpass nur aufgrund mündlicher Berichte, ohne Durchlaufzeiten zu messen.",
+      "whyCorrect": "D ist richtig, weil tatsächliche Bearbeitungs- und Wartezeiten je Prozessschritt systematisch erhoben werden sollten, um die Vermutung datenbasiert zu überprüfen.",
+      "whyIncorrect": "A ist falsch, weil mündliche Berichte allein keine ausreichend verlässliche Grundlage für eine Prozessänderung sind. B ist falsch, weil eine Entfernung ohne Prüfung auf bloßer Vermutung beruht. C ist falsch, weil eine neue Grafik ohne Ursachenanalyse das eigentliche Problem nicht löst.",
+      "commonTrap": "Subjektive Eindrücke werden als ausreichende Entscheidungsgrundlage akzeptiert, ohne sie durch Messdaten zu verifizieren.",
+      "testedConcept": "Datenbasierte Verifizierung von Engpassvermutungen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "3e3fb0bf-e4f2-45e5-9b0d-4d71d643e809",
+    "text": "Zwischen zwei Systemen wird eine Bestellung manuell aus einem System exportiert und danach manuell in ein zweites System eingegeben; dabei gehen gelegentlich Positionen verloren. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An der Schnittstelle zwischen den Systemen liegt eine fehleranfällige manuelle Übergabe vor, die auf eine verlässlichere Kopplung geprüft werden sollte"
+      },
+      {
+        "label": "B",
+        "text": "Es handelt sich um eine unvermeidbare Fehlerquote, die keiner weiteren Betrachtung bedarf"
+      },
+      {
+        "label": "C",
+        "text": "Der Fehler liegt ausschließlich bei der eingebenden Person und erfordert keine Prozessänderung"
+      },
+      {
+        "label": "D",
+        "text": "Da beide Systeme korrekt funktionieren, liegt kein Prozessproblem vor"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine Bestellung wird manuell von einem System in ein anderes übertragen; dabei gehen gelegentlich Positionen verloren.",
+      "whyCorrect": "A ist richtig, weil an der Schnittstelle zwischen den Systemen eine fehleranfällige manuelle Übergabe vorliegt, die auf eine verlässlichere Kopplung geprüft werden sollte.",
+      "whyIncorrect": "B ist falsch, weil eine wiederkehrende Fehlerquote sehr wohl untersucht und adressiert werden sollte, statt sie als unvermeidbar hinzunehmen. C ist falsch, weil die Ursache primär im Prozessdesign (manuelle Schnittstelle), nicht allein bei der Person liegt. D ist falsch, weil ein Prozessproblem gerade an der Schnittstelle zwischen zwei ansonsten funktionierenden Systemen entstehen kann.",
+      "commonTrap": "Fehler an manuellen Schnittstellen werden der ausführenden Person statt dem Prozessdesign zugeschrieben.",
+      "testedConcept": "Fehleranfällige Schnittstellen und Systemkopplung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "e3082b64-33c2-4971-8c1e-9e97a6110e1c",
+    "text": "Ein Unternehmen hat vor zwei Jahren ein Prozessoptimierungsprojekt abgeschlossen und seither keine weitere Überprüfung des betroffenen Prozesses vorgenommen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dies ist angemessen, da ein einmal optimierter Prozess dauerhaft optimal bleibt"
+      },
+      {
+        "label": "B",
+        "text": "Prozessmanagement ist ein fortlaufender Zyklus; der Prozess sollte regelmäßig erneut überprüft und bei Bedarf weiter angepasst werden"
+      },
+      {
+        "label": "C",
+        "text": "Eine erneute Überprüfung ist nur bei einem dokumentierten Fehler erforderlich"
+      },
+      {
+        "label": "D",
+        "text": "Nach Projektabschluss endet die Verantwortung für den Prozess vollständig"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Unternehmen hat vor zwei Jahren ein Optimierungsprojekt abgeschlossen und den Prozess seither nicht mehr überprüft.",
+      "whyCorrect": "B ist richtig, weil Prozessmanagement ein fortlaufender Zyklus ist und Prozesse regelmäßig überprüft und bei Bedarf angepasst werden sollten.",
+      "whyIncorrect": "A ist falsch, weil sich Rahmenbedingungen ändern können und ein einmal optimierter Prozess nicht dauerhaft optimal bleiben muss. C ist falsch, weil eine regelmäßige, proaktive Überprüfung auch ohne dokumentierten Fehler sinnvoll ist. D ist falsch, weil Prozessverantwortung nicht mit Projektabschluss endet, sondern fortbesteht.",
+      "commonTrap": "Ein einmalig durchgeführtes Optimierungsprojekt wird als abgeschlossene, dauerhaft gültige Maßnahme missverstanden.",
+      "testedConcept": "Kontinuierlicher Verbesserungsprozess (KVP)"
+    },
+    "vocabulary": []
+  }
+]

@@ -9,7 +9,13 @@ export default async function ReviewPage() {
   if (!user) return null;
 
   const [{ data: settings }, questions, { dict }] = await Promise.all([
-    supabase.from("user_settings").select("instant_translation_enabled, explanation_language").eq("user_id", user.id).maybeSingle(),
+    supabase
+      .from("user_settings")
+      .select(
+        "instant_translation_enabled, translate_question_enabled, translate_answers_enabled, translate_correct_answer_enabled, translate_explanation_enabled, explanation_language"
+      )
+      .eq("user_id", user.id)
+      .maybeSingle(),
     fetchReviewQueue(supabase, user.id),
     getUiDict(),
   ]);
@@ -22,6 +28,10 @@ export default async function ReviewPage() {
         mode="review"
         storageKey="review"
         instantTranslationEnabled={settings?.instant_translation_enabled ?? true}
+        translateQuestionEnabled={settings?.translate_question_enabled ?? true}
+        translateAnswersEnabled={settings?.translate_answers_enabled ?? true}
+        translateCorrectAnswerEnabled={settings?.translate_correct_answer_enabled ?? true}
+        translateExplanationEnabled={settings?.translate_explanation_enabled ?? true}
         secondaryLanguage={
           settings?.explanation_language === "de" || !settings?.explanation_language
             ? "en"

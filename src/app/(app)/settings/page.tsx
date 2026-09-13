@@ -24,7 +24,7 @@ export default async function SettingsPage() {
     explanationLanguage === "en" ? null : getUiDictionary(explanationLanguage).settings.resetAllWarning;
 
   return (
-    <main className="mx-auto flex max-w-xl flex-col gap-4 px-4 py-8">
+    <main className="mx-auto flex max-w-[852px] flex-col gap-4 px-4 py-8">
       <Card>
         <CardHeader>
           <CardTitle>{dict.settings.title}</CardTitle>
@@ -40,6 +40,10 @@ export default async function SettingsPage() {
                 : settings.explanation_language,
               uiLanguage: settings?.ui_language ?? "en",
               instantTranslation: settings?.instant_translation_enabled ?? true,
+              translateQuestion: settings?.translate_question_enabled ?? true,
+              translateAnswers: settings?.translate_answers_enabled ?? true,
+              translateCorrectAnswer: settings?.translate_correct_answer_enabled ?? true,
+              translateExplanation: settings?.translate_explanation_enabled ?? true,
               dailyTarget: settings?.daily_target ?? 100,
               theme: settings?.theme ?? "system",
             }}

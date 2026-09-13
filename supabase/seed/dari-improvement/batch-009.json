@@ -1,0 +1,599 @@
+[
+  {
+    "id": "9e9d5611-f08b-4fb1-bad9-d224a543a33b",
+    "text": "Ein Unternehmen ändert die Reihenfolge zweier Prozessschritte, ohne zu prüfen, ob der zweite Schritt tatsächlich unabhängig vom ersten ausgeführt werden kann. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vor einer Änderung der Schrittreihenfolge sollte geprüft werden, ob eine tatsächliche inhaltliche Abhängigkeit zwischen den Schritten besteht"
+      },
+      {
+        "label": "B",
+        "text": "Die Reihenfolge von Prozessschritten kann grundsätzlich beliebig verändert werden, ohne inhaltliche Prüfung"
+      },
+      {
+        "label": "C",
+        "text": "Abhängigkeiten zwischen Prozessschritten sind ausschließlich bei technischen Prozessen relevant"
+      },
+      {
+        "label": "D",
+        "text": "Eine Prüfung der Abhängigkeit ist überflüssig, solange beide Schritte am selben Tag ausgeführt werden"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Unternehmen ändert die Reihenfolge zweier Prozessschritte, ohne die inhaltliche Abhängigkeit zwischen ihnen zu prüfen.",
+      "whyCorrect": "A ist richtig, weil vor einer Änderung der Schrittreihenfolge geprüft werden sollte, ob eine tatsächliche inhaltliche Abhängigkeit besteht, da sonst notwendige Vorbedingungen fehlen könnten.",
+      "whyIncorrect": "B ist falsch, weil eine beliebige Vertauschung ohne Prüfung das Risiko birgt, dass ein Schritt ausgeführt wird, bevor seine notwendige Grundlage vorliegt. C ist falsch, weil Abhängigkeiten zwischen Schritten auch bei organisatorischen, nichttechnischen Prozessen relevant sind. D ist falsch, weil der Zeitpunkt der Ausführung (z. B. derselbe Tag) nichts über die inhaltliche Abhängigkeit der Schritte aussagt.",
+      "commonTrap": "Die zeitliche Nähe zweier Schritte wird fälschlich mit fehlender inhaltlicher Abhängigkeit gleichgesetzt.",
+      "testedConcept": "Prüfung von Abhängigkeiten vor Prozessänderungen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "f60bdcce-54f9-4c5f-ad0f-25ea50c6b5ee",
+    "text": "Ein Unternehmen erfasst zwar, wer für die Ausführung eines Prozessschritts zuständig ist, nicht aber, wer über Ausnahmen von der Standardvorgehensweise entscheiden darf. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Festlegung der ausführenden Zuständigkeit allein reicht für eine vollständige Prozessbeschreibung aus"
+      },
+      {
+        "label": "B",
+        "text": "Die Zuständigkeit für Ausnahmeentscheidungen sollte ebenfalls klar festgelegt werden, um unklare Zuständigkeiten in Sonderfällen zu vermeiden"
+      },
+      {
+        "label": "C",
+        "text": "Ausnahmeentscheidungen sollten grundsätzlich informell und ohne festgelegte Zuständigkeit getroffen werden"
+      },
+      {
+        "label": "D",
+        "text": "Eine Zuständigkeitsregelung für Ausnahmen ist ausschließlich bei häufig auftretenden Sonderfällen erforderlich"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Unternehmen legt die Zuständigkeit für die Standardausführung fest, aber nicht, wer über Ausnahmen entscheiden darf.",
+      "whyCorrect": "B ist richtig, weil die Zuständigkeit für Ausnahmeentscheidungen ebenfalls klar festgelegt werden sollte, um unklare Zuständigkeiten in Sonderfällen zu vermeiden.",
+      "whyIncorrect": "A ist falsch, weil die reine Festlegung der Standardzuständigkeit Sonderfälle unberücksichtigt lässt und die Beschreibung dadurch unvollständig bleibt. C ist falsch, weil informelle, ungeregelte Ausnahmeentscheidungen zu Unklarheit und Inkonsistenz führen können. D ist falsch, weil auch seltene Sonderfälle von einer klaren Zuständigkeitsregelung profitieren, gerade weil sie weniger routiniert ablaufen.",
+      "commonTrap": "Nur der Regelfall wird zuständigkeitsmäßig geregelt, Ausnahmefälle werden übersehen.",
+      "testedConcept": "Zuständigkeit für Ausnahmefälle in Prozessbeschreibungen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "07a5c26e-80fd-4c8c-abb7-8a3cb991189d",
+    "text": "In einer Prozessbeschreibung wird ein Freigabeschritt genannt, ohne jedoch anzugeben, was geschieht, wenn die Freigabe verweigert wird. Welche Ergänzung ist am wichtigsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine Beschreibung des weiteren Vorgehens bei verweigerter Freigabe, etwa Rücklauf an eine vorherige Stufe oder Eskalation"
+      },
+      {
+        "label": "B",
+        "text": "Eine Auflistung aller Personen, die in der Vergangenheit bereits eine Freigabe erteilt haben"
+      },
+      {
+        "label": "C",
+        "text": "Eine Vorgabe zur bevorzugten Formatierung des Freigabeformulars"
+      },
+      {
+        "label": "D",
+        "text": "Ein genereller Verzicht auf den Freigabeschritt, um Verzögerungen von vornherein auszuschließen"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine Prozessbeschreibung nennt einen Freigabeschritt, aber nicht, was bei verweigerter Freigabe geschieht.",
+      "whyCorrect": "A ist richtig, weil das weitere Vorgehen bei verweigerter Freigabe – etwa Rücklauf an eine vorherige Stufe oder Eskalation – beschrieben werden sollte, damit der Prozess auch bei negativem Ausgang nachvollziehbar bleibt.",
+      "whyIncorrect": "B ist falsch, weil eine Liste vergangener Freigebender nichts über das weitere Vorgehen bei Ablehnung aussagt. C ist falsch, weil die Formatierung des Formulars keinen Bezug zum eigentlichen Ablauf bei Verweigerung hat. D ist falsch, weil der ersatzlose Verzicht auf den Freigabeschritt eine wichtige Kontrolle beseitigen würde, statt das Problem der fehlenden Beschreibung zu lösen.",
+      "commonTrap": "Ein Prozessschritt wird nur für den positiven Ausgang beschrieben, der negative Ausgang bleibt unbeachtet.",
+      "testedConcept": "Vollständige Abbildung aller Ausgänge eines Entscheidungsschritts"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "ba694061-8de7-4dc8-a53c-21fe86390a19",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit soll die folgende Entscheidung getroffen werden: Ein mittelständischer Betrieb schützt personenbezogene Kundendaten und nicht personenbezogene Konstruktionspläne mit demselben Zugriffsmanagement. Welche Bewertung trifft den Sachverhalt am genauesten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Einordnung hängt vom Speicherort der Pläne ab, da digital gespeicherte Pläne ein anderes Schutzniveau benötigen"
+      },
+      {
+        "label": "B",
+        "text": "Das Zugriffsmanagement ist Datenschutz, weil es hier primär personenbezogene Daten schützt"
+      },
+      {
+        "label": "C",
+        "text": "Das Zugriffsmanagement ist Informationssicherheit; bei Kundendaten unterstützt es zugleich Datenschutzanforderungen"
+      },
+      {
+        "label": "D",
+        "text": "Das Zugriffsmanagement ist Informationssicherheit, weil Datenschutz eigene rechtliche statt technische Anforderungen stellt"
+      }
+    ],
+    "explanation": {
+      "summary": "Es geht darum, ob das gemeinsame Zugriffsmanagement für personenbezogene Kundendaten und nicht personenbezogene Konstruktionspläne als Datenschutz oder als Informationssicherheit einzuordnen ist.",
+      "whyCorrect": "Informationssicherheit schützt Informationen unabhängig davon, ob sie personenbezogen sind oder nicht – sie umfasst Vertraulichkeit, Integrität und Verfügbarkeit aller schützenswerten Daten, also auch der Konstruktionspläne. Datenschutz ist dagegen ein rechtlicher Rahmen, der speziell den Schutz natürlicher Personen bei der Verarbeitung ihrer personenbezogenen Daten regelt. Das Zugriffsmanagement selbst ist eine technisch-organisatorische Maßnahme der Informationssicherheit; weil es hier auch personenbezogene Kundendaten schützt, unterstützt es an dieser Stelle zugleich Datenschutzanforderungen. Die beiden Bereiche überschneiden sich also, ohne identisch zu sein.",
+      "whyIncorrect": null,
+      "commonTrap": "Man könnte annehmen, dass jede Maßnahme, die personenbezogene Daten betrifft, automatisch dem Datenschutz zuzuordnen ist. Dabei übersieht man, dass das Zugriffsmanagement selbst ein Informationssicherheitscontrol ist, das hier lediglich zusätzlich datenschutzrelevante Wirkung entfaltet.",
+      "testedConcept": "Abgrenzung Informationssicherheit vs. Datenschutz"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Zugriffsmanagement"
+      },
+      {
+        "germanWord": "personenbezogene Daten"
+      },
+      {
+        "germanWord": "Datenschutz"
+      },
+      {
+        "germanWord": "Informationssicherheit"
+      },
+      {
+        "germanWord": "Konstruktionspläne"
+      }
+    ]
+  },
+  {
+    "id": "72d3eb1a-5e72-4758-acbe-d47f4c1ddd83",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit stellt sich folgende Prüfungsfrage: Ein mittelständischer Betrieb möchte ein zertifizierbares ISMS aufbauen und für ausgewählte Controls konkrete Umsetzungshinweise nutzen. Welche fachliche Bewertung ist am genauesten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ISO/IEC 27001 dient der Zertifizierungsentscheidung; ISO/IEC 27002 ersetzt bei der Control-Ausgestaltung die organisationsbezogene Risikobewertung"
+      },
+      {
+        "label": "B",
+        "text": "ISO/IEC 27001 enthält die zertifizierbaren ISMS-Anforderungen; ISO/IEC 27002 ist umfassend und unverändert als verbindlicher Control-Satz umzusetzen"
+      },
+      {
+        "label": "C",
+        "text": "ISO/IEC 27001 beschreibt das Managementsystem; ISO/IEC 27002 legt die passenden Controls bereits vorab fest, bevor eine Risikobehandlung stattgefunden hat"
+      },
+      {
+        "label": "D",
+        "text": "ISO/IEC 27001 enthält prüfbare ISMS-Anforderungen; ISO/IEC 27002 bietet ergänzende Leitlinien für risikoorientiert ausgewählte Controls"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie sich ISO/IEC 27001 und ISO/IEC 27002 zueinander verhalten, wenn ein Betrieb ein zertifizierbares ISMS aufbauen und für einzelne Controls konkrete Umsetzungshinweise nutzen möchte.",
+      "whyCorrect": "ISO/IEC 27001 legt die formalen, prüfbaren Anforderungen an ein Informationssicherheits-Managementsystem (ISMS) fest und ist die Grundlage für eine Zertifizierung. ISO/IEC 27002 dagegen ist keine Zertifizierungsnorm, sondern ein ergänzender Leitfaden, der zu den in 27001 (Anhang A) genannten Controls konkrete Umsetzungsempfehlungen liefert. Welche Controls tatsächlich benötigt werden, ergibt sich aber immer aus der individuellen Risikobewertung der Organisation – 27002 liefert nur Hinweise zur Ausgestaltung bereits ausgewählter Controls, sie ersetzt nicht die risikobasierte Auswahl.",
+      "whyIncorrect": null,
+      "commonTrap": "Ein häufiges Missverständnis ist, ISO/IEC 27002 als verbindlichen, vollständig umzusetzenden Pflichtkatalog zu betrachten oder anzunehmen, sie lege die Controls bereits fest, bevor überhaupt eine Risikobehandlung stattgefunden hat. Tatsächlich ist sie freiwillige Umsetzungshilfe, die erst nach der risikobasierten Auswahl der Controls greift.",
+      "testedConcept": "Verhältnis ISO/IEC 27001 (Anforderungsnorm) zu ISO/IEC 27002 (Leitfaden)"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "ISMS"
+      },
+      {
+        "germanWord": "zertifizierbar"
+      },
+      {
+        "germanWord": "Risikobehandlung"
+      },
+      {
+        "germanWord": "Controls"
+      },
+      {
+        "germanWord": "Umsetzungshinweise"
+      }
+    ]
+  },
+  {
+    "id": "63042f2a-70a6-4fe8-916f-cf9ede73b1a0",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit stellt sich folgende Prüfungsfrage: Eine Organisation möchte seine mögliche Betroffenheit durch neue Cybersicherheitsvorgaben einschätzen. Welche Informationsbasis ist für eine erste Einordnung am geeignetsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tätigkeit, Sektor, Dienste, Größe und Rolle gemeinsam überprüfen und offene Rechtsfragen qualifiziert klären"
+      },
+      {
+        "label": "B",
+        "text": "Tätigkeit und Sektor betrachten; Größe und konkrete Dienste erst nach einer positiven Ersteinschätzung überprüfen"
+      },
+      {
+        "label": "C",
+        "text": "Unternehmensgröße und Umsatz betrachten; konkrete Rolle und angebotene Dienste nicht berücksichtigen"
+      },
+      {
+        "label": "D",
+        "text": "Bestehende Zertifikate als Hauptnachweis heranziehen, weil sie die wichtigsten Anforderungen bereits abdecken"
+      }
+    ],
+    "explanation": {
+      "summary": "Es geht darum, welche Informationen eine Organisation zunächst heranziehen sollte, um grob einzuschätzen, ob sie von neuen Cybersicherheitsvorgaben (z. B. NIS-2) betroffen ist.",
+      "whyCorrect": "Für eine erste Einordnung der Betroffenheit müssen mehrere Kriterien gemeinsam betrachtet werden: die Art der Tätigkeit, der Sektor, in dem die Organisation tätig ist, die konkret angebotenen Dienste, die Unternehmensgröße sowie die Rolle (z. B. wesentliche oder wichtige Einrichtung). Keines dieser Merkmale allein reicht aus, da die Regelungen je nach Kombination dieser Faktoren unterschiedlich greifen. Bleiben nach dieser Betrachtung rechtliche Unklarheiten bestehen, sollten diese qualifiziert – etwa durch Rechtsberatung – geklärt werden, statt sie offenzulassen oder pauschal zu vermuten.",
+      "whyIncorrect": null,
+      "commonTrap": "Ein typischer Fehler ist, nur ein einzelnes Kriterium wie die Unternehmensgröße oder den Sektor zu prüfen und daraus vorschnell eine Schlussfolgerung zu ziehen, anstatt alle relevanten Merkmale gemeinsam zu betrachten.",
+      "testedConcept": "Anwendungsbereich-Prüfung bei neuen Cybersicherheitsregulierungen (z. B. NIS-2)"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Betroffenheit"
+      },
+      {
+        "germanWord": "Sektor"
+      },
+      {
+        "germanWord": "Cybersicherheitsvorgaben"
+      },
+      {
+        "germanWord": "Ersteinschätzung"
+      },
+      {
+        "germanWord": "wesentliche Einrichtung"
+      }
+    ]
+  },
+  {
+    "id": "3bc0d971-ca82-4c9a-944b-776b268c45e1",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit wird die folgende Situation bewertet: Nach der Risikobehandlung sind mehrere Controls ausgewählt, andere bewusst nicht. Welche Dokumentation erfüllt den Zweck des SoA am sinnvollsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ausgewählte Controls auflisten und jede Nichtanwendung als geringeres Risiko einstufen"
+      },
+      {
+        "label": "B",
+        "text": "Liste aller Controls mit Umsetzungsstatus, aber ohne Bezug zu Auswahl oder Ausschluss"
+      },
+      {
+        "label": "C",
+        "text": "Relevante Controls mit Anwendbarkeit, Begründung und nachvollziehbarem Umgang nachvollziehbar festhalten"
+      },
+      {
+        "label": "D",
+        "text": "Begründungen für ausgeschlossene Controls in separaten Betriebsprotokollen dokumentieren"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, welche Art von Dokumentation nach einer Risikobehandlung – bei der manche Controls ausgewählt und andere bewusst ausgeschlossen wurden – dem Zweck der Statement of Applicability (SoA) am besten entspricht.",
+      "whyCorrect": "Die SoA hat den Zweck, für alle relevanten Controls nachvollziehbar festzuhalten, ob sie angewendet werden oder nicht, und dies jeweils zu begründen. Es reicht also nicht, nur die ausgewählten Controls aufzulisten oder eine reine Statusliste ohne Begründung zu führen. Entscheidend ist, dass sowohl Anwendbarkeit als auch Nichtanwendbarkeit jedes Controls dokumentiert und begründet wird, sodass Dritte (z. B. Auditoren) die Entscheidungen nachvollziehen können.",
+      "whyIncorrect": null,
+      "commonTrap": "Ein verbreiteter Irrtum ist, die SoA nur als Liste der tatsächlich umgesetzten Controls zu verstehen, während ausgeschlossene Controls unbegründet bleiben oder in getrennten, nicht zugänglichen Dokumenten versteckt werden. Damit verfehlt sie ihren eigentlichen Zweck der vollständigen Nachvollziehbarkeit.",
+      "testedConcept": "Statement of Applicability (SoA) nach ISO/IEC 27001"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Statement of Applicability (SoA)"
+      },
+      {
+        "germanWord": "Risikobehandlung"
+      },
+      {
+        "germanWord": "Anwendbarkeit"
+      },
+      {
+        "germanWord": "nachvollziehbar"
+      }
+    ]
+  },
+  {
+    "id": "be18d4c4-cb34-4bc7-b9c8-fab7a86582a3",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit stellt sich folgende Prüfungsfrage: Ein Liefervertrag verlangt eine ISO/IEC-27001-Zertifizierung, obwohl keine entsprechende gesetzliche Pflicht festgestellt wurde. Welche Aussage ist am genauesten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ohne gesetzliche Pflicht kann höchstens eine unverbindliche Empfehlung vereinbart werden"
+      },
+      {
+        "label": "B",
+        "text": "Die Zertifizierung ist freiwillig, deshalb kann die Vertragsklausel keine Verbindlichkeit erzeugen"
+      },
+      {
+        "label": "C",
+        "text": "Die Vertragsklausel macht ISO/IEC 27001 zu einem staatlichen Gesetz für den Lieferanten"
+      },
+      {
+        "label": "D",
+        "text": "Die Zertifizierung kann vertraglich geschuldet sein, obwohl die Norm selbst kein Gesetz ist"
+      }
+    ],
+    "explanation": {
+      "summary": "Es geht um die Frage, welche rechtliche Wirkung eine vertragliche Klausel hat, die eine ISO/IEC-27001-Zertifizierung verlangt, obwohl keine gesetzliche Pflicht dazu besteht.",
+      "whyCorrect": "ISO/IEC 27001 ist selbst kein Gesetz, sondern eine freiwillige Norm. Trotzdem können Vertragsparteien vereinbaren, dass eine Zertifizierung als vertragliche Leistungspflicht geschuldet wird – dann entsteht eine Verbindlichkeit nicht durch staatliches Recht, sondern durch die zivilrechtliche Vereinbarung selbst. Wird eine solche Klausel im Liefervertrag festgelegt, muss der Lieferant sie erfüllen, obwohl es keine gesetzliche Grundlage dafür gibt – die Verbindlichkeit ergibt sich allein aus dem Vertrag.",
+      "whyIncorrect": null,
+      "commonTrap": "Ein häufiger Denkfehler ist anzunehmen, dass Freiwilligkeit einer Norm automatisch bedeutet, dass sie nie verbindlich werden kann. Dabei übersieht man, dass eine ursprünglich freiwillige Norm durch vertragliche Vereinbarung zu einer bindenden Pflicht zwischen den Parteien werden kann, ohne dadurch zu staatlichem Recht zu werden.",
+      "testedConcept": "Vertragliche Verbindlichkeit freiwilliger Normen (z. B. ISO/IEC 27001)"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Liefervertrag"
+      },
+      {
+        "germanWord": "gesetzliche Pflicht"
+      },
+      {
+        "germanWord": "freiwillige Norm"
+      },
+      {
+        "germanWord": "Vertragsklausel"
+      },
+      {
+        "germanWord": "Verbindlichkeit"
+      }
+    ]
+  },
+  {
+    "id": "6967b522-068f-461e-b5d7-f5f977f6f5d8",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit wird die folgende Situation bewertet: Eine Branche möchte typische Sicherheitsanforderungen konkretisieren; ein Unternehmensverbund möchte dagegen einen wiederverwendbaren IT-Grundschutz-Rahmen für gleichartige Standorte beschreiben. Welche Zuordnung passt am sinnvollsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Beide Zwecke werden durch dieselbe ISO/IEC-27001-Zertifizierungsurkunde umfassend abgedeckt"
+      },
+      {
+        "label": "B",
+        "text": "Für beide Zwecke eignet sich vorwiegend ein Grundschutz-Profil, da beide auf branchenweite Standardisierung zielen"
+      },
+      {
+        "label": "C",
+        "text": "Für die Branche eignet sich ein Grundschutz-Profil; für gleichartige Standorte eignet sich ebenfalls in erster Linie ein Profil"
+      },
+      {
+        "label": "D",
+        "text": "Für branchenspezifische Anforderungen kann ein B3S passen; für einen typischen Grundschutz-Anwendungsfall ein IT-Grundschutz-Profil"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird verglichen, welches Dokument sich für branchenspezifische Sicherheitsanforderungen eignet und welches für einen wiederverwendbaren Rahmen bei gleichartigen Standorten innerhalb eines Unternehmensverbunds.",
+      "whyCorrect": "Ein Branchenspezifischer Sicherheitsstandard (B3S) wird von einer Branche entwickelt, um typische, für diesen Sektor charakteristische Sicherheitsanforderungen zu konkretisieren – er richtet sich also an eine ganze Branche. Ein IT-Grundschutz-Profil dagegen ist eine Schablone, die eine Organisation nutzt, um einen wiederverwendbaren Sicherheitskonzept-Rahmen für gleichartige Einheiten (z. B. ähnliche Standorte oder Systemtypen) innerhalb der eigenen Struktur zu erstellen. Beide Instrumente dienen der Standardisierung, richten sich aber an unterschiedliche Adressaten: die Branche insgesamt vs. gleichartige interne Einheiten.",
+      "whyIncorrect": null,
+      "commonTrap": "Ein häufiger Fehler ist, B3S und IT-Grundschutz-Profil als austauschbar zu behandeln, weil beide der Standardisierung dienen. Dabei übersieht man, dass ein B3S branchenweit und sektorbezogen entsteht, während ein Grundschutz-Profil ein internes Werkzeug für gleichartige Anwendungsfälle innerhalb einer Organisation ist.",
+      "testedConcept": "Abgrenzung Branchenspezifischer Sicherheitsstandard (B3S) vs. IT-Grundschutz-Profil"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "B3S"
+      },
+      {
+        "germanWord": "IT-Grundschutz-Profil"
+      },
+      {
+        "germanWord": "Unternehmensverbund"
+      },
+      {
+        "germanWord": "wiederverwendbar"
+      }
+    ]
+  },
+  {
+    "id": "fd2cc6e4-59e2-420a-b60e-3373480eeeac",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit bespricht das zuständige Team folgenden Fall: Welches primäre Ziel verfolgt Datenschutz?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Verfügbarkeit von Daten für die Allgemeinheit, da diese am weitesten verbreitet sind"
+      },
+      {
+        "label": "B",
+        "text": "Den Schutz aller vertraulichen Unternehmensinformationen, gleich welcher Art"
+      },
+      {
+        "label": "C",
+        "text": "Den Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten"
+      },
+      {
+        "label": "D",
+        "text": "Die Zertifizierung jedes IT-Systems"
+      }
+    ],
+    "explanation": {
+      "summary": "Gefragt wird nach dem primären Schutzziel des Datenschutzes.",
+      "whyCorrect": "Datenschutz zielt darauf ab, natürliche Personen davor zu schützen, dass ihre personenbezogenen Daten unrechtmäßig oder unangemessen verarbeitet werden. Im Zentrum steht also nicht der Schutz von Systemen, Unternehmensinformationen im Allgemeinen oder die Verfügbarkeit von Daten, sondern die informationelle Selbstbestimmung und die Persönlichkeitsrechte des Einzelnen bei der Verarbeitung seiner Daten.",
+      "whyIncorrect": null,
+      "commonTrap": "Ein häufiges Missverständnis ist, Datenschutz mit dem allgemeinen Schutz vertraulicher Unternehmensdaten oder mit IT-Sicherheit gleichzusetzen. Dabei bezieht sich Datenschutz spezifisch auf personenbezogene Daten und den Schutz natürlicher Personen, nicht auf Informationen jeder Art.",
+      "testedConcept": "Primäres Schutzziel des Datenschutzes"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Schutzziel"
+      },
+      {
+        "germanWord": "natürliche Person"
+      },
+      {
+        "germanWord": "informationelle Selbstbestimmung"
+      },
+      {
+        "germanWord": "Verarbeitung"
+      }
+    ]
+  },
+  {
+    "id": "57c19204-0ac4-4f65-b876-3ecc344be2b8",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit soll die folgende Entscheidung getroffen werden: Welche Aussage zu ISO/IEC 27001 trifft zu?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sie richtet sich in erster Linie an staatliche Behörden, während private Unternehmen eigene Regelwerke anwenden"
+      },
+      {
+        "label": "B",
+        "text": "Sie besteht im Kern aus technischen Anforderungen an einzelne Produkte"
+      },
+      {
+        "label": "C",
+        "text": "Sie ersetzt alle anwendbaren Gesetze"
+      },
+      {
+        "label": "D",
+        "text": "Sie enthält Anforderungen an ein grundsätzlich zertifizierbares ISMS"
+      }
+    ],
+    "explanation": {
+      "summary": "Gefragt wird, welche Aussage zu ISO/IEC 27001 zutrifft.",
+      "whyCorrect": "ISO/IEC 27001 legt die Anforderungen an ein Informationssicherheits-Managementsystem (ISMS) fest, das grundsätzlich zertifiziert werden kann. Sie richtet sich an Organisationen jeder Art – öffentlich wie privat – und regelt nicht einzelne Produkte, sondern das systematische Managementsystem einer Organisation zur Steuerung der Informationssicherheit.",
+      "whyIncorrect": null,
+      "commonTrap": "Ein Denkfehler ist anzunehmen, ISO/IEC 27001 richte sich nur an staatliche Stellen, betreffe nur technische Produktanforderungen oder ersetze bestehende Gesetze. Tatsächlich ist sie eine branchenübergreifende Managementsystem-Norm, die von jeder Organisation angewendet und zertifiziert werden kann.",
+      "testedConcept": "Grundcharakter von ISO/IEC 27001 als zertifizierbare ISMS-Norm"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Managementsystem"
+      },
+      {
+        "germanWord": "zertifizierbar"
+      }
+    ]
+  },
+  {
+    "id": "042c93a8-914b-4a1c-96b8-3510928d273b",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit stellt sich folgende Prüfungsfrage: Welche Rolle hat ISO/IEC 27002 im Verhältnis zu ISO/IEC 27001?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sie bietet ergänzende Leitlinien zur Ausgestaltung von Informationssicherheitsmaßnahmen"
+      },
+      {
+        "label": "B",
+        "text": "Sie ist das Datenschutzgesetz der Europäischen Union"
+      },
+      {
+        "label": "C",
+        "text": "Sie ersetzt die organisationsbezogene Risikobehandlung"
+      },
+      {
+        "label": "D",
+        "text": "Sie zertifiziert einzelne Sicherheitsprodukte"
+      }
+    ],
+    "explanation": {
+      "summary": "Gefragt wird nach der Rolle von ISO/IEC 27002 im Verhältnis zu ISO/IEC 27001.",
+      "whyCorrect": "ISO/IEC 27002 ist ein Leitfaden, der ergänzende, praxisnahe Hinweise zur Ausgestaltung der in ISO/IEC 27001 (Anhang A) genannten Informationssicherheitsmaßnahmen liefert. Sie ist selbst keine Zertifizierungsnorm und ersetzt weder Gesetze noch die individuelle Risikobehandlung, sondern unterstützt Organisationen dabei, ausgewählte Controls konkret und praxisgerecht umzusetzen.",
+      "whyIncorrect": null,
+      "commonTrap": "Ein häufiger Fehler ist, ISO/IEC 27002 mit einem Datenschutzgesetz zu verwechseln oder anzunehmen, sie ersetze die organisationsspezifische Risikobehandlung oder zertifiziere Produkte. Sie ist ausschließlich eine unterstützende Umsetzungshilfe.",
+      "testedConcept": "Rolle von ISO/IEC 27002 als Leitfaden zu ISO/IEC 27001"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Leitfaden"
+      },
+      {
+        "germanWord": "Anhang A"
+      }
+    ]
+  },
+  {
+    "id": "5cbb0ffc-292f-431d-a095-3ed043fbb9b2",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit wird die folgende Situation bewertet: Wie sind die BSI-Standards 200-x auf hoher Ebene einzuordnen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Als internes Prüfprogramm, das eigens für eine bestimmte Behörde entwickelt wurde"
+      },
+      {
+        "label": "B",
+        "text": "Als öffentlich verfügbare Methoden unter anderem für ISMS, Grundschutz, Risiko und BCM"
+      },
+      {
+        "label": "C",
+        "text": "Als Sammlung verbindlicher Strafvorschriften"
+      },
+      {
+        "label": "D",
+        "text": "Als Herstellerkatalog für zugelassene Firewalls"
+      }
+    ],
+    "explanation": {
+      "summary": "Gefragt wird nach der grundsätzlichen Einordnung der BSI-Standards 200-x.",
+      "whyCorrect": "Die BSI-Standards 200-x sind öffentlich verfügbare, vom Bundesamt für Sicherheit in der Informationstechnik (BSI) herausgegebene Methoden und Vorgehensweisen, die unter anderem den Aufbau eines ISMS, den IT-Grundschutz, das Risikomanagement und das Business Continuity Management (BCM) betreffen. Sie sind allgemein anwendbare Handlungsanleitungen für Organisationen jeder Art, keine internen Programme einzelner Behörden, keine Strafvorschriften und kein Herstellerkatalog.",
+      "whyIncorrect": null,
+      "commonTrap": "Ein Missverständnis ist, die BSI-Standards als rein behördeninternes Regelwerk, als Sammlung von Straftatbeständen oder als Produktkatalog für zugelassene Hersteller misszuverstehen. Tatsächlich handelt es sich um öffentlich zugängliche methodische Grundlagen für Informationssicherheit.",
+      "testedConcept": "Einordnung der BSI-Standards 200-x"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "BSI"
+      },
+      {
+        "germanWord": "BCM"
+      },
+      {
+        "germanWord": "IT-Grundschutz"
+      }
+    ]
+  },
+  {
+    "id": "4c1c9803-669e-41d5-80b7-9cdab83f7016",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit bespricht das zuständige Team folgenden Fall: Wofür steht ein B3S grundsätzlich?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Für die Zertifizierungsurkunde nach ISO/IEC 27001"
+      },
+      {
+        "label": "B",
+        "text": "Für eine allgemeine Produktgarantie des BSI"
+      },
+      {
+        "label": "C",
+        "text": "Für einen branchenspezifischen Sicherheitsstandard"
+      },
+      {
+        "label": "D",
+        "text": "Für eine beliebige interne Arbeitsanweisung"
+      }
+    ],
+    "explanation": {
+      "summary": "Die Frage fragt, wofür die Abkürzung B3S grundsätzlich steht.",
+      "whyCorrect": "B3S steht für 'branchenspezifischer Sicherheitsstandard'. Es handelt sich um einen von einem Branchenverband erarbeiteten und vom BSI anerkannten Standard, der die allgemeinen gesetzlichen Anforderungen (z. B. aus dem BSI-Gesetz bzw. für KRITIS-Betreiber) für eine bestimmte Branche wie Energie oder Wasserversorgung konkretisiert. Er ist kein ISO/IEC-27001-Zertifikat, keine Produktgarantie des BSI und keine beliebige interne Anweisung, sondern ein anerkannter, branchenspezifischer Nachweis der Angemessenheit von Sicherheitsmaßnahmen.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "B3S"
+      },
+      {
+        "germanWord": "Zertifizierungsurkunde"
+      },
+      {
+        "germanWord": "branchenspezifisch"
+      }
+    ]
+  },
+  {
+    "id": "c0fd8b32-2c8c-4205-b9a3-1bb4b422ecfc",
+    "text": "Bei einer Überprüfung von Compliance und Informationssicherheit soll die folgende Entscheidung getroffen werden: Die Leitung fragt, welche Cybersicherheitsanforderungen für das Unternehmen verbindlich sind. Welche Vorgehensweise ist angemessen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine vorhandene Zertifizierung als Ersatz für die Prüfung aller Verpflichtungen verwenden"
+      },
+      {
+        "label": "B",
+        "text": "Jede veröffentlichte Norm als praktisch bindend behandeln, da Nichteinhaltung Reputationsrisiken schafft"
+      },
+      {
+        "label": "C",
+        "text": "Sich auf Gesetze konzentrieren, da Verträge und interne Vorgaben weniger verbindlich seien"
+      },
+      {
+        "label": "D",
+        "text": "Rechtsquellen, Verträge und intern übernommene Vorgaben getrennt ermitteln und ihre jeweilige Verbindlichkeit nachvollziehbar festhalten"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie man angemessen ermittelt, welche Cybersicherheitsanforderungen für ein Unternehmen tatsächlich verbindlich sind.",
+      "whyCorrect": "Verbindliche Anforderungen können aus unterschiedlichen Quellen stammen: Gesetzen, vertraglichen Verpflichtungen gegenüber Kunden oder Partnern und intern selbst auferlegten Vorgaben, etwa freiwillig übernommenen Normen. Eine saubere Compliance-Arbeit verlangt, diese Quellen getrennt zu identifizieren und nachvollziehbar zu dokumentieren, welchen Grad an Verbindlichkeit sie jeweils haben. Eine Zertifizierung ersetzt diese Prüfung nicht, 'veröffentlicht' bedeutet nicht automatisch 'bindend', und Verträge oder interne Vorgaben können ebenso verbindlich sein wie Gesetze.",
+      "whyIncorrect": null,
+      "commonTrap": null,
+      "testedConcept": null
+    },
+    "vocabulary": [
+      {
+        "germanWord": "verbindlich"
+      },
+      {
+        "germanWord": "Rechtsquellen"
+      },
+      {
+        "germanWord": "Nichteinhaltung"
+      }
+    ]
+  }
+]

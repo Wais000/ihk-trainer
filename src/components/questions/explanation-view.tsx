@@ -23,6 +23,9 @@ export interface ExplanationViewProps {
   secondaryLanguage: ExplanationLanguage;
   /** Letter of the correct option (e.g. "C"), shown before the "✓" line. */
   correctLabel: string;
+  /** Whether to show the secondary-language explanation text at all — a
+   * Settings toggle independent of which secondary language is chosen. */
+  translateExplanationEnabled: boolean;
 }
 
 // A why-incorrect chunk starts with the referenced answer letter followed
@@ -33,10 +36,16 @@ function splitLetterPrefix(text: string): [string, string] | null {
   return match ? [match[1], match[2]] : null;
 }
 
-export function ExplanationView({ explanations, secondaryLanguage, correctLabel }: ExplanationViewProps) {
+export function ExplanationView({
+  explanations,
+  secondaryLanguage,
+  correctLabel,
+  translateExplanationEnabled,
+}: ExplanationViewProps) {
   const dict = useUiDictionary();
   const [showWhyWrong, setShowWhyWrong] = useState(false);
-  const languages: ExplanationLanguage[] = secondaryLanguage === "de" ? ["de"] : ["de", secondaryLanguage];
+  const languages: ExplanationLanguage[] =
+    secondaryLanguage === "de" || !translateExplanationEnabled ? ["de"] : ["de", secondaryLanguage];
   const hasWhyWrong = languages.some((lang) => explanations[lang]?.whyIncorrect || explanations[lang]?.commonTrap);
 
   return (

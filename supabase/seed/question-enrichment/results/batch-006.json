@@ -1,0 +1,338 @@
+[
+  {
+    "id": "e29272ee-d403-45c1-985f-8d7608386e69",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Verlässliche Rechtsquellen",
+    "difficulty": 2,
+    "examKeywords": ["Gesetzestext", "Fachmagazin", "rechtliche Quelle", "Zusammenfassung"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen die Anwendbarkeit einer neuen gesetzlichen Regelung allein anhand einer kurzen Zusammenfassung in einem Fachmagazin entscheidet, ohne den Gesetzestext selbst heranzuziehen.",
+        "whyCorrect": "Eine belastbare rechtliche Einschätzung sollte sich auf den tatsächlichen Gesetzestext oder eine qualifizierte rechtliche Quelle stützen, da journalistische Zusammenfassungen vereinfachen, verkürzen oder Nuancen auslassen können, die für die konkrete Anwendbarkeit entscheidend sind. Eine solche Zusammenfassung allein reicht daher nicht als verlässliche Entscheidungsgrundlage aus, unabhängig von der Komplexität der Regelung."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company deciding on the applicability of a new legal regulation based solely on a brief summary in a trade magazine, without consulting the actual legal text.",
+        "whyCorrect": "A reliable legal assessment should be based on the actual text of the law or a qualified legal source, since journalistic summaries can simplify, shorten, or omit nuances that are crucial to determining actual applicability. Such a summary alone is therefore not a reliable basis for the decision, regardless of how complex the regulation is."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که یک شرکت قابلیت اجرای یک مقرره قانونی جدید را صرفاً بر اساس یک خلاصه کوتاه در یک مجله تخصصی تعیین می‌کند، بدون مراجعه به متن واقعی قانون.",
+        "whyCorrect": "یک ارزیابی حقوقی معتبر باید بر اساس متن واقعی قانون یا یک منبع حقوقی معتبر باشد، زیرا خلاصه‌های خبری ممکن است ساده‌سازی کنند، کوتاه کنند، یا جزئیاتی را حذف کنند که برای قابلیت اجرای واقعی تعیین‌کننده هستند. بنابراین چنین خلاصه‌ای به‌تنهایی مبنای قابل‌اعتمادی برای تصمیم‌گیری نیست، صرف‌نظر از میزان پیچیدگی آن مقرره."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המחליטה על ישימותה של תקנה חוקית חדשה אך ורק על סמך תקציר קצר במגזין מקצועי, מבלי לעיין בטקסט החוקי בפועל.",
+        "whyCorrect": "הערכה משפטית אמינה צריכה להתבסס על הטקסט בפועל של החוק או מקור משפטי מוסמך, מכיוון שתקצירים עיתונאיים עלולים לפשט, לקצר, או להשמיט ניואנסים שקריטיים לקביעת הישימות בפועל. לכן תקציר כזה לבדו אינו בסיס אמין להחלטה, בלי קשר למידת המורכבות של התקנה."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "belastbare Einschätzung", "english": "reliable assessment", "dari": "ارزیابی معتبر", "hebrew": "הערכה אמינה", "shortGermanExplanation": "Eine gut fundierte, auf verlässlichen Quellen beruhende Beurteilung." },
+      { "germanWord": "qualifizierte rechtliche Quelle", "english": "qualified legal source", "dari": "منبع حقوقی معتبر", "hebrew": "מקור משפטי מוסמך", "shortGermanExplanation": "Eine vertrauenswürdige, fachlich anerkannte Quelle für Rechtsinformationen, z. B. der Gesetzestext selbst." }
+    ],
+    "questionTranslation": {
+      "en": "A company decides on the applicability of a new legal regulation based solely on a brief summary in a trade magazine, without consulting the actual legal text. Which classification is most accurate?",
+      "dari": "یک شرکت قابلیت اجرای یک مقرره قانونی جدید را صرفاً بر اساس یک خلاصه کوتاه در یک مجله تخصصی تعیین می‌کند، بدون مراجعه به متن واقعی قانون. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מחליטה על ישימותה של תקנה חוקית חדשה אך ורק על סמך תקציר קצר במגזין מקצועי, מבלי לעיין בטקסט החוקי בפועל. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "8be5e5ac-fc15-4048-a98a-61f214ae3aee",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Begründung von Abweichungen",
+    "difficulty": 2,
+    "examKeywords": ["Industriestandard", "Begründungspflicht", "Dokumentation", "Abweichung"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen sich gegen die Einhaltung eines anerkannten Industriestandards entscheidet, ohne diese Entscheidung nachvollziehbar zu begründen.",
+        "whyCorrect": "Die Entscheidung gegen die Einhaltung eines anerkannten Standards sollte nachvollziehbar begründet und dokumentiert werden, damit später erklärbar bleibt, warum bewusst von einer üblichen Praxis abgewichen wurde, etwa gegenüber Kunden, Partnern oder im Schadensfall. Dies gilt unabhängig davon, ob der Standard gesetzlich vorgeschrieben ist, und Industriestandards sind für die Risikobewertung keineswegs bedeutungslos."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company deciding not to comply with a recognized industry standard because it considers it too costly, without giving a traceable justification for that decision.",
+        "whyCorrect": "The decision not to comply with a recognized standard should be justified in a traceable way and documented, so that it can later be explained why the company deliberately deviated from common practice, for example to customers, partners, or in case of an incident. This applies regardless of whether the standard is legally mandated, and industry standards are by no means irrelevant to risk assessment."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که یک شرکت تصمیم می‌گیرد از یک معیار صنعتی شناخته‌شده پیروی نکند، زیرا آن را بیش از حد پرهزینه می‌داند، بدون آنکه این تصمیم را به‌طور قابل‌پیگیری توجیه کند.",
+        "whyCorrect": "تصمیم عدم پیروی از یک معیار شناخته‌شده باید به‌طور قابل‌پیگیری توجیه و مستند شود، تا بعداً بتوان توضیح داد که چرا آگاهانه از رویه معمول عدول شده است، مثلاً در برابر مشتریان، شرکا، یا در صورت بروز خسارت. این موضوع صرف‌نظر از اینکه معیار قانوناً الزامی است یا نه اعمال می‌شود، و معیارهای صنعتی به‌هیچ‌وجه برای ارزیابی ریسک بی‌اهمیت نیستند."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המחליטה שלא לעמוד בתקן ענפי מוכר, מכיוון שלדעתה הוא יקר מדי, מבלי להנמיק את ההחלטה באופן הניתן למעקב.",
+        "whyCorrect": "יש להנמיק ולתעד באופן הניתן למעקב את ההחלטה שלא לעמוד בתקן מוכר, כך שניתן יהיה להסביר מאוחר יותר מדוע נסטו במכוון מהנוהג המקובל, למשל בפני לקוחות, שותפים, או במקרה של נזק. זה נכון בלי קשר לשאלה האם התקן נדרש בחוק, ותקנים ענפיים אינם חסרי משמעות כלל להערכת סיכונים."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Industriestandard", "english": "industry standard", "dari": "معیار صنعتی", "hebrew": "תקן ענפי", "shortGermanExplanation": "Ein von einer Branche allgemein anerkannter Maßstab guter Praxis." },
+      { "germanWord": "nachvollziehbar begründen", "english": "to justify in a traceable way", "dari": "توجیه قابل‌پیگیری کردن", "hebrew": "להנמיק באופן הניתן למעקב", "shortGermanExplanation": "Eine Entscheidung so darstellen, dass ihre Gründe später überprüfbar sind." }
+    ],
+    "questionTranslation": {
+      "en": "A company decides not to comply with a recognized industry standard because it considers it too costly, without giving a traceable justification for that decision. Which classification is most accurate?",
+      "dari": "یک شرکت تصمیم می‌گیرد از یک معیار صنعتی شناخته‌شده پیروی نکند، زیرا آن را بیش از حد پرهزینه می‌داند، بدون آنکه این تصمیم را به‌طور قابل‌پیگیری توجیه کند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מחליטה שלא לעמוד בתקן ענפי מוכר, מכיוון שלדעתה הוא יקר מדי, מבלי להנמיק את ההחלטה באופן הניתן למעקב. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "e27c8e11-c6ca-4eb8-ba2d-7b59ab3c45b9",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Eigenständige Vertragsprüfung",
+    "difficulty": 2,
+    "examKeywords": ["Vertragsklauseln", "Eigenprüfung", "Vertragspartner", "Vertragsinhalt"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass sich ein Unternehmen bei der Einschätzung eines neuen Vertrags allein auf die Aussage des Vertragspartners verlässt, ohne die tatsächlichen Klauseln selbst zu prüfen.",
+        "whyCorrect": "Die tatsächlichen Vertragsklauseln sollten selbst geprüft werden, statt sich allein auf die mündliche oder schriftliche Aussage des Vertragspartners zu verlassen, da nur der tatsächliche Vertragstext die verbindlichen Rechte und Pflichten festlegt. Die Aussage eines Vertragspartners kann unvollständig, ungenau oder abweichend vom eigentlichen Vertragsinhalt sein, weshalb sie allein keine ausreichend verlässliche Grundlage darstellt."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company relying solely on the contractual partner's statement when evaluating a new contract, without checking the actual contract clauses themselves.",
+        "whyCorrect": "The actual contract clauses should be reviewed directly, rather than relying solely on the contractual partner's oral or written statement, since only the actual text of the contract establishes the binding rights and obligations. A partner's statement can be incomplete, inaccurate, or differ from the actual contract content, so it alone is not a sufficiently reliable basis."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که برای ارزیابی یک قرارداد جدید فقط به گفته طرف قرارداد تکیه می‌کند، بدون بررسی بندهای واقعی قرارداد.",
+        "whyCorrect": "بندهای واقعی قرارداد باید خودشان بررسی شوند، به‌جای تکیه صرف بر گفته شفاهی یا کتبی طرف قرارداد، زیرا فقط متن واقعی قرارداد حقوق و تعهدات الزام‌آور را تعیین می‌کند. گفته یک طرف قرارداد ممکن است ناقص، نادقیق، یا متفاوت از محتوای واقعی قرارداد باشد، بنابراین به‌تنهایی مبنای قابل‌اعتماد کافی نیست."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המסתמכת אך ורק על אמירת שותף החוזה בעת הערכת חוזה חדש, מבלי לבדוק את סעיפי החוזה בפועל.",
+        "whyCorrect": "יש לבדוק את סעיפי החוזה בפועל ישירות, במקום להסתמך אך ורק על אמירתו בעל-פה או בכתב של שותף החוזה, מכיוון שרק הטקסט בפועל של החוזה קובע את הזכויות והחובות המחייבות. אמירת שותף עשויה להיות חלקית, לא מדויקת, או שונה מהתוכן בפועל של החוזה, ולכן אינה בסיס אמין מספיק לבדה."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Vertragsklauseln", "english": "contract clauses", "dari": "بندهای قرارداد", "hebrew": "סעיפי חוזה", "shortGermanExplanation": "Die einzelnen Bestimmungen, aus denen sich ein Vertrag zusammensetzt." }
+    ],
+    "questionTranslation": {
+      "en": "A company relies solely on the contractual partner's statement when assessing a new contract, without checking the actual contract clauses itself. Which classification is most accurate?",
+      "dari": "یک شرکت برای ارزیابی یک قرارداد جدید فقط به گفته طرف قرارداد تکیه می‌کند، بدون آنکه خودش بندهای واقعی قرارداد را بررسی کند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מסתמכת אך ורק על אמירת שותף החוזה בעת הערכת חוזה חדש, מבלי לבדוק בעצמה את סעיפי החוזה בפועל. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "f45577a8-e4b3-431f-9a87-fd68c8e9b3ce",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Meldepflichten bei Cybervorfällen",
+    "difficulty": 2,
+    "examKeywords": ["Meldepflicht", "interne Behebung", "Vorfall", "Behörde"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen davon ausgeht, eine Meldepflicht gegenüber einer Behörde entfalle, wenn der Vorfall bereits intern behoben wurde.",
+        "whyCorrect": "Eine bestehende Meldepflicht entfällt nicht allein dadurch, dass ein Vorfall bereits intern behoben wurde, da die Meldepflicht in der Regel an das Eintreten und die Erheblichkeit des Vorfalls selbst anknüpft, nicht an dessen späteren Status. Die Behörde soll gerade auch über bereits behobene, aber relevante Vorfälle informiert werden, etwa um Muster zu erkennen oder betroffene Dritte zu schützen; der Zeitpunkt der Behebung allein entscheidet also nicht über die Meldepflicht."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company assuming that a reporting obligation toward an authority no longer applies once an incident has already been resolved internally.",
+        "whyCorrect": "An existing reporting obligation does not disappear merely because an incident has already been resolved internally, since the obligation to report typically depends on the occurrence and significance of the incident itself, not on its later status. Authorities need to be informed even about already-resolved but relevant incidents, for example to identify patterns or protect affected third parties; the timing of the internal fix alone therefore does not determine whether a reporting obligation exists."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که فرض می‌کند تعهد گزارش‌دهی به یک مقام، در صورتی که حادثه از قبل به‌طور داخلی رفع شده باشد، دیگر وجود ندارد.",
+        "whyCorrect": "یک تعهد گزارش‌دهی موجود صرفاً به این دلیل که یک حادثه از قبل به‌طور داخلی رفع شده، از بین نمی‌رود، زیرا این تعهد گزارش‌دهی معمولاً به وقوع و اهمیت خود حادثه بستگی دارد، نه به وضعیت بعدی آن. مقامات باید حتی درباره حوادث رفع‌شده اما مهم نیز مطلع شوند، مثلاً برای شناسایی الگوها یا حفاظت از اشخاص ثالث متأثر؛ بنابراین زمان رفع مشکل به‌تنهایی تعیین‌کننده وجود تعهد گزارش‌دهی نیست."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המניחה שחובת דיווח לרשות מתבטלת ברגע שאירוע כבר טופל פנימית.",
+        "whyCorrect": "חובת דיווח קיימת אינה מתבטלת רק בגלל שאירוע כבר טופל פנימית, מכיוון שחובת הדיווח בדרך כלל תלויה בהתרחשות ובחומרה של האירוע עצמו, ולא במעמדו המאוחר יותר. יש צורך ליידע רשויות גם על אירועים שכבר טופלו אך רלוונטיים, למשל כדי לזהות דפוסים או להגן על צדדים שלישיים שנפגעו; לכן עיתוי הטיפול הפנימי בלבד אינו קובע האם קיימת חובת דיווח."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "gegenstandslos", "english": "moot / no longer applicable", "dari": "منتفی", "hebrew": "בטל / חסר תוקף", "shortGermanExplanation": "Nicht mehr relevant oder wirksam, weil der Grund dafür entfallen ist." }
+    ],
+    "questionTranslation": {
+      "en": "A company assumes that a reporting obligation toward an authority no longer applies once the incident has already been resolved internally. Which classification is most accurate?",
+      "dari": "یک شرکت فرض می‌کند که تعهد گزارش‌دهی به یک مقام، در صورتی که حادثه از قبل به‌طور داخلی رفع شده باشد، دیگر وجود ندارد. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מניחה שחובת דיווח לרשות מתבטלת ברגע שהאירוע כבר טופל פנימית. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "9e788b9a-e7e5-4c42-a8e7-5230d5f6feb6",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Datenschutz-Folgenabschätzung",
+    "difficulty": 3,
+    "examKeywords": ["Datenschutz-Folgenabschätzung", "hohes Risiko", "Vorabprüfung", "Software"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen eine neue Software zur Verarbeitung personenbezogener Daten einsetzt, ohne vorab zu prüfen, ob eine Datenschutz-Folgenabschätzung erforderlich ist.",
+        "whyCorrect": "Vor dem Einsatz einer neuen Verarbeitung sollte geprüft werden, ob eine Datenschutz-Folgenabschätzung erforderlich ist, insbesondere wenn die Verarbeitung voraussichtlich ein hohes Risiko für die Rechte und Freiheiten der betroffenen Personen mit sich bringt. Diese Prüfung ist nicht auf den öffentlichen Sektor beschränkt und hängt auch nicht von der Größe oder Bekanntheit des Softwareanbieters ab, sondern richtet sich nach der Art und dem Risiko der konkreten Datenverarbeitung."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company deploying new software to process personal data without first checking whether a data protection impact assessment is required.",
+        "whyCorrect": "Before deploying a new type of processing, it should be checked whether a data protection impact assessment is required, particularly if the processing is likely to pose a high risk to the rights and freedoms of the affected individuals. This check is not limited to the public sector and does not depend on the size or reputation of the software provider, but rather on the nature and risk of the specific data processing involved."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که یک شرکت نرم‌افزار جدیدی برای پردازش داده‌های شخصی به کار می‌گیرد، بدون آنکه از قبل بررسی کند که آیا یک ارزیابی تأثیر حفاظت از داده‌ها لازم است یا نه.",
+        "whyCorrect": "پیش از به‌کارگیری یک پردازش جدید، باید بررسی شود که آیا یک ارزیابی تأثیر حفاظت از داده‌ها لازم است، به‌ویژه اگر این پردازش احتمالاً ریسک بالایی برای حقوق و آزادی‌های اشخاص متأثر ایجاد کند. این بررسی محدود به بخش دولتی نیست و به اندازه یا شهرت ارائه‌دهنده نرم‌افزار هم بستگی ندارد، بلکه به نوع و ریسک پردازش داده مشخص بستگی دارد."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המפעילה תוכנה חדשה לעיבוד נתונים אישיים, מבלי לבדוק תחילה האם נדרשת הערכת השפעה על הגנת פרטיות.",
+        "whyCorrect": "לפני הפעלת עיבוד חדש, יש לבדוק האם נדרשת הערכת השפעה על הגנת פרטיות, במיוחד אם צפוי שהעיבוד יציב סיכון גבוה לזכויות ולחירויות של האנשים המושפעים. בדיקה זו אינה מוגבלת למגזר הציבורי ואינה תלויה בגודלו או במוניטין של ספק התוכנה, אלא באופי ובסיכון של עיבוד הנתונים הספציפי."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Datenschutz-Folgenabschätzung", "english": "data protection impact assessment", "dari": "ارزیابی تأثیر حفاظت از داده‌ها", "hebrew": "הערכת השפעה על הגנת פרטיות", "shortGermanExplanation": "Eine Analyse der Risiken einer Datenverarbeitung für die Rechte betroffener Personen." },
+      { "germanWord": "hohes Risiko", "english": "high risk", "dari": "ریسک بالا", "hebrew": "סיכון גבוה", "shortGermanExplanation": "Ein Zustand, in dem eine Verarbeitung erhebliche Gefahren für Betroffene bergen kann." }
+    ],
+    "questionTranslation": {
+      "en": "A company deploys new software to process personal data without first checking whether a data protection impact assessment is required. Which classification is most accurate?",
+      "dari": "یک شرکت نرم‌افزار جدیدی برای پردازش داده‌های شخصی به کار می‌گیرد، بدون آنکه از قبل بررسی کند که آیا یک ارزیابی تأثیر حفاظت از داده‌ها لازم است یا نه. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מפעילה תוכנה חדשה לעיבוד נתונים אישיים, מבלי לבדוק תחילה האם נדרשת הערכת השפעה על הגנת פרטיות. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "3f3935e0-b436-4c28-b560-d6bcad8f1dd1",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Freiwillige Selbstverpflichtungen",
+    "difficulty": 3,
+    "examKeywords": ["Selbstverpflichtung", "Verhaltenskodex", "Reputationsrisiko", "rechtliche Relevanz"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen annimmt, eine freiwillige Selbstverpflichtung zu einem Verhaltenskodex habe keinerlei rechtliche Relevanz, solange sie nicht in einen Vertrag aufgenommen wurde.",
+        "whyCorrect": "Eine öffentlich kommunizierte Selbstverpflichtung kann auch ohne ausdrückliche Vertragsaufnahme rechtliche oder reputationsbezogene Relevanz entfalten, etwa weil Kunden oder Geschäftspartner sich darauf verlassen oder weil ein Abweichen von der kommunizierten Verpflichtung als irreführend oder vertrauensschädigend gewertet werden kann. Die Wirkung einer solchen Selbstverpflichtung ist also nicht zwingend an eine formale vertragliche Verankerung gebunden."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company assuming that a voluntary self-commitment to a code of conduct has no legal relevance whatsoever unless it is written into a contract.",
+        "whyCorrect": "A publicly communicated self-commitment can carry legal or reputational relevance even without being explicitly incorporated into a contract, for example because customers or business partners rely on it, or because deviating from a publicly stated commitment could be seen as misleading or damaging to trust. The effect of such a self-commitment is therefore not necessarily tied to formal inclusion in a contract."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که فرض می‌کند یک تعهد داوطلبانه به یک کد رفتاری، تا زمانی که در قرارداد گنجانده نشده، هیچ اهمیت قانونی ندارد.",
+        "whyCorrect": "یک تعهد داوطلبانه که عمومی اعلام شده می‌تواند حتی بدون گنجانده شدن صریح در قرارداد، اهمیت حقوقی یا مربوط به اعتبار داشته باشد، مثلاً به این دلیل که مشتریان یا شرکای تجاری به آن اتکا می‌کنند، یا به این دلیل که عدول از تعهد اعلام‌شده می‌تواند گمراه‌کننده یا آسیب‌زننده به اعتماد تلقی شود. بنابراین تأثیر چنین تعهدی لزوماً به گنجانده شدن رسمی در یک قرارداد وابسته نیست."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המניחה שהתחייבות עצמית וולונטרית לקוד התנהגות חסרת רלוונטיות משפטית כלשהי, כל עוד היא לא נכללה בחוזה.",
+        "whyCorrect": "התחייבות עצמית שפורסמה בפומבי עשויה לשאת חשיבות משפטית או תדמיתית גם ללא הכללה מפורשת בחוזה, למשל מכיוון שלקוחות או שותפים עסקיים מסתמכים עליה, או מכיוון שסטייה מהתחייבות שהוצהרה עלולה להיחשב מטעה או פוגעת באמון. לכן ההשפעה של התחייבות עצמית כזו אינה קשורה בהכרח לעיגון פורמלי בחוזה."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Selbstverpflichtung", "english": "self-commitment", "dari": "تعهد داوطلبانه", "hebrew": "התחייבות עצמית", "shortGermanExplanation": "Eine freiwillig übernommene Verpflichtung ohne gesetzliche oder vertragliche Grundlage." },
+      { "germanWord": "Verhaltenskodex", "english": "code of conduct", "dari": "کد رفتاری", "hebrew": "קוד התנהגות", "shortGermanExplanation": "Ein festgelegtes Regelwerk für erwünschtes Verhalten in einer Organisation." }
+    ],
+    "questionTranslation": {
+      "en": "A company assumes that a voluntary self-commitment to a code of conduct has no legal relevance whatsoever, as long as it has not been incorporated into a contract. Which classification is most accurate?",
+      "dari": "یک شرکت فرض می‌کند که یک تعهد داوطلبانه به یک کد رفتاری، تا زمانی که در یک قرارداد گنجانده نشده، هیچ اهمیت قانونی ندارد. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מניחה שהתחייבות עצמית וולונטרית לקוד התנהגות חסרת כל רלוונטיות משפטית, כל עוד לא נכללה בחוזה. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "debe2481-b1fe-44a9-838f-1967769c479e",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Regelmäßige Rechtsprüfung",
+    "difficulty": 2,
+    "examKeywords": ["regelmäßige Prüfung", "Gesetzeslage", "Unternehmensgründung", "Anwendbarkeit"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen die Anwendbarkeit einer gesetzlichen Regelung nur einmal bei der Gründung prüft und danach nie wieder.",
+        "whyCorrect": "Die Anwendbarkeit gesetzlicher Regelungen sollte in regelmäßigen Abständen erneut geprüft werden, da sich sowohl die Gesetzeslage selbst als auch die Tätigkeit des Unternehmens im Laufe der Zeit ändern können. Eine einmalige Prüfung zum Gründungszeitpunkt bildet daher nur den damaligen Stand ab und reicht nicht für die gesamte Unternehmensdauer aus; eine erneute Prüfung ist zudem nicht nur bei einer Änderung der Rechtsform erforderlich."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company checking the applicability of a legal regulation only once, at the time of its founding, and never again afterward.",
+        "whyCorrect": "The applicability of legal regulations should be re-examined at regular intervals, since both the legal situation itself and the company's activities can change over time. A one-time check at the founding stage only reflects the situation as it was then and is not sufficient for the entire lifetime of the company; a renewed check is also needed for more than just a change in legal form."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که قابلیت اجرای یک مقرره قانونی را فقط یک بار در زمان تأسیس بررسی می‌کند و پس از آن هرگز دوباره بررسی نمی‌کند.",
+        "whyCorrect": "قابلیت اجرای مقررات قانونی باید به‌طور منظم دوباره بررسی شود، زیرا هم وضعیت قانونی و هم فعالیت شرکت می‌توانند در طول زمان تغییر کنند. بررسی یک‌باره در زمان تأسیس فقط وضعیت آن زمان را نشان می‌دهد و برای کل دوره فعالیت شرکت کافی نیست؛ همچنین بررسی مجدد فقط به تغییر شکل حقوقی محدود نیست."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה הבודקת את ישימותה של תקנה חוקית רק פעם אחת, בעת הקמתה, ולעולם לא שוב לאחר מכן.",
+        "whyCorrect": "יש לבחון מחדש את ישימותן של תקנות חוקיות במרווחי זמן קבועים, מכיוון שגם המצב המשפטי עצמו וגם פעילות החברה יכולים להשתנות עם הזמן. בדיקה חד-פעמית בשלב ההקמה משקפת רק את המצב שהיה אז ואינה מספיקה לכל תקופת קיומה של החברה; בדיקה מחודשת נדרשת גם מעבר לשינוי בצורה המשפטית."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "regelmäßige Abstände", "english": "regular intervals", "dari": "فواصل منظم", "hebrew": "מרווחי זמן קבועים", "shortGermanExplanation": "Wiederkehrende Zeitpunkte, zu denen eine Prüfung wiederholt werden sollte." }
+    ],
+    "questionTranslation": {
+      "en": "A company checks the applicability of a legal regulation only once, at the time of its founding, and never again afterward. Which classification is most accurate?",
+      "dari": "یک شرکت قابلیت اجرای یک مقرره قانونی را فقط یک بار در زمان تأسیس بررسی می‌کند و پس از آن هرگز دوباره بررسی نمی‌کند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה בודקת את ישימותה של תקנה חוקית רק פעם אחת, בעת הקמתה, ולעולם לא שוב לאחר מכן. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "30d9bc6e-9cf8-4e6c-b0b8-6738ad8c8939",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Relevanz ausländischer Regelungen",
+    "difficulty": 3,
+    "examKeywords": ["ausländische Regelung", "grenzüberschreitend", "Datenflüsse", "Relevanzprüfung"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen annimmt, eine im Ausland geltende Regelung sei für die eigene, rein national tätige Organisation grundsätzlich ohne jede Relevanz.",
+        "whyCorrect": "Die Relevanz einer ausländischen Regelung sollte im Einzelfall geprüft werden, etwa wenn grenzüberschreitende Geschäftsbeziehungen bestehen oder Daten über Ländergrenzen hinweg fließen, da solche Regelungen auch nominell national tätige Unternehmen betreffen können, sobald ein grenzüberschreitender Bezug vorliegt. Die pauschale Annahme, ausländische Regelungen seien immer irrelevant, übersieht diese möglichen Berührungspunkte."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company assuming that a foreign regulation is fundamentally irrelevant to its own, purely nationally operating organization.",
+        "whyCorrect": "The relevance of a foreign regulation should be assessed on a case-by-case basis, for example when cross-border business relationships exist or when data flows across national borders, since such regulations can affect even a nominally national company once there is a cross-border connection. Assuming as a blanket rule that foreign regulations are always irrelevant overlooks these possible points of contact."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که فرض می‌کند یک مقرره خارجی برای سازمان خودش که صرفاً در سطح ملی فعالیت می‌کند، اساساً هیچ ارتباطی ندارد.",
+        "whyCorrect": "اهمیت یک مقرره خارجی باید در هر مورد جداگانه بررسی شود، مثلاً وقتی روابط تجاری فرامرزی وجود دارد یا داده‌ها فرامرزی جریان می‌یابند، زیرا چنین مقرراتی می‌توانند حتی شرکتی را که اسماً فقط در سطح ملی فعالیت می‌کند نیز تحت تأثیر قرار دهند، به محض اینکه یک ارتباط فرامرزی وجود داشته باشد. فرض کلی اینکه مقررات خارجی همیشه بی‌ربط هستند، این نقاط تماس احتمالی را نادیده می‌گیرد."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המניחה שתקנה זרה אינה רלוונטית באופן עקרוני עבור הארגון הפועל אך ורק ברמה הלאומית שלה.",
+        "whyCorrect": "יש לבחון את הרלוונטיות של תקנה זרה בכל מקרה לגופו, למשל כאשר קיימים קשרים עסקיים חוצי גבולות או כאשר נתונים זורמים בין מדינות, מכיוון שתקנות כאלה עשויות להשפיע גם על חברה הפועלת נומינלית רק ברמה הלאומית, ברגע שקיים קשר חוצה גבולות. ההנחה הגורפת שתקנות זרות תמיד אינן רלוונטיות מתעלמת מנקודות מגע אפשריות אלה."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "grenzüberschreitend", "english": "cross-border", "dari": "فرامرزی", "hebrew": "חוצה גבולות", "shortGermanExplanation": "Etwas, das über die Grenzen eines einzelnen Landes hinausgeht." },
+      { "germanWord": "Datenflüsse", "english": "data flows", "dari": "جریان داده‌ها", "hebrew": "זרימת נתונים", "shortGermanExplanation": "Die Übermittlung von Daten zwischen verschiedenen Stellen, hier über Ländergrenzen hinweg." }
+    ],
+    "questionTranslation": {
+      "en": "A company assumes that a regulation applicable abroad is fundamentally irrelevant to its own, purely nationally operating organization. Which classification is most accurate?",
+      "dari": "یک شرکت فرض می‌کند که یک مقرره معتبر در خارج از کشور، برای سازمان خودش که صرفاً در سطح ملی فعالیت می‌کند، اساساً هیچ ارتباطی ندارد. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מניחה שתקנה החלה בחו\\\"ל אינה רלוונטית באופן עקרוני עבור הארגון הפועל אך ורק ברמה הלאומית שלה. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "c413c1b6-01fb-4992-b770-0cb9e70a0ec2",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Unterscheidung von Anforderungsquellen",
+    "difficulty": 3,
+    "examKeywords": ["interne Richtlinie", "gesetzliche Vorgabe", "Herkunft", "Gleichwertigkeit"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen eine interne Richtlinie und eine gesetzliche Vorgabe zum selben Thema als vollständig gleichwertig behandelt, ohne ihre jeweilige Herkunft zu unterscheiden.",
+        "whyCorrect": "Die unterschiedliche Herkunft von interner Richtlinie und gesetzlicher Vorgabe sollte erkennbar bleiben, auch wenn beide inhaltlich ähnliche Anforderungen stellen, da sie sich in Verbindlichkeit, Änderbarkeit und rechtlichen Konsequenzen bei Nichteinhaltung unterscheiden können. Eine gesetzliche Vorgabe kann beispielsweise nicht eigenmächtig durch das Unternehmen geändert werden, während eine interne Richtlinie das grundsätzlich kann; diese Unterscheidung bleibt auch dann relevant, wenn keine Widersprüche zwischen beiden bestehen."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company treating an internal policy and a legal requirement on the same topic as fully equivalent, without distinguishing their respective origins.",
+        "whyCorrect": "The different origins of an internal policy and a legal requirement should remain identifiable, even when both impose similar substantive requirements, because they can differ in bindingness, changeability, and legal consequences in case of non-compliance. For example, a legal requirement cannot simply be changed unilaterally by the company, whereas an internal policy generally can be; this distinction remains relevant even when there is no conflict between the two."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که یک سیاست داخلی و یک الزام قانونی درباره یک موضوع یکسان را کاملاً هم‌ارزش تلقی می‌کند، بدون تمایز میان منشأ آن‌ها.",
+        "whyCorrect": "منشأ متفاوت یک سیاست داخلی و یک الزام قانونی باید قابل تشخیص باقی بماند، حتی اگر هر دو از نظر محتوایی الزامات مشابهی داشته باشند، زیرا آن‌ها می‌توانند از نظر الزام‌آور بودن، قابلیت تغییر، و پیامدهای قانونی در صورت عدم رعایت، متفاوت باشند. برای مثال، یک الزام قانونی را نمی‌توان به‌طور خودسرانه توسط شرکت تغییر داد، در حالی که یک سیاست داخلی معمولاً این امکان را دارد؛ این تمایز حتی زمانی که هیچ تناقضی میان آن دو وجود ندارد نیز اهمیت دارد."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המתייחסת לנוהל פנימי ולדרישה חוקית באותו נושא כשווה-ערך לחלוטין, מבלי להבחין בין מקורותיהם.",
+        "whyCorrect": "יש לשמור על יכולת ההבחנה בין המקור השונה של נוהל פנימי לבין דרישה חוקית, גם כאשר שניהם מציבים דרישות דומות מבחינת תוכן, מכיוון שהם עשויים להיבדל במחייבות, בניתנות לשינוי ובהשלכות משפטיות במקרה של אי-עמידה. לדוגמה, לא ניתן לשנות דרישה חוקית באופן חד-צדדי על ידי החברה, בעוד שנוהל פנימי בדרך כלל כן ניתן לשינוי; הבחנה זו נותרת רלוונטית גם כאשר אין סתירה בין השניים."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "gleichwertig", "english": "equivalent", "dari": "هم‌ارزش", "hebrew": "שווה-ערך", "shortGermanExplanation": "Von vergleichbarem Rang oder gleicher Bedeutung, hier fälschlich auf verschiedene Anforderungsquellen angewandt." }
+    ],
+    "questionTranslation": {
+      "en": "A company treats an internal policy and a legal requirement on the same topic as fully equivalent, without distinguishing their respective origins. Which classification is most accurate?",
+      "dari": "یک شرکت یک سیاست داخلی و یک الزام قانونی درباره یک موضوع یکسان را کاملاً هم‌ارزش تلقی می‌کند، بدون آنکه میان منشأ آن‌ها تمایز قائل شود. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מתייחסת לנוהל פנימי ולדרישה חוקית באותו נושא כשווה-ערך לחלוטין, מבלי להבחין במקורותיהם השונים. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "8d310fda-90bc-4532-963e-1b203036dc71",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Vereinbarkeit von Standards mit nationalem Recht",
+    "difficulty": 3,
+    "examKeywords": ["internationaler Standard", "nationale Vorgaben", "Vereinbarkeit", "Widerspruch"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen sich für die Einhaltung eines internationalen Standards entscheidet, ohne zu prüfen, ob dieser mit zwingenden nationalen Vorgaben im Einklang steht.",
+        "whyCorrect": "Die Vereinbarkeit eines internationalen Standards mit zwingenden nationalen Vorgaben sollte vorab geprüft werden, um mögliche Widersprüche zu vermeiden, da internationale Standards nicht automatisch Vorrang vor nationalem Recht haben und ein zwingendes nationales Gesetz auch dann eingehalten werden muss, wenn ein befolgter Standard etwas anderes vorsieht. Ohne diese Prüfung besteht das Risiko, gegen zwingende nationale Vorschriften zu verstoßen, obwohl der internationale Standard eingehalten wird."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company choosing to comply with an international standard without checking whether it is compatible with mandatory national requirements.",
+        "whyCorrect": "The compatibility of an international standard with mandatory national requirements should be checked in advance to avoid possible conflicts, since international standards do not automatically take precedence over national law, and a mandatory national law must still be complied with even if a followed standard suggests otherwise. Without this check, there is a risk of violating mandatory national rules even while complying with the international standard."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که برای رعایت یک معیار بین‌المللی تصمیم می‌گیرد، بدون بررسی اینکه آیا این معیار با الزامات قانونی اجباری ملی همخوانی دارد یا نه.",
+        "whyCorrect": "همخوانی یک معیار بین‌المللی با الزامات قانونی اجباری ملی باید از قبل بررسی شود تا از تناقضات احتمالی جلوگیری شود، زیرا معیارهای بین‌المللی به‌طور خودکار بر قانون ملی اولویت ندارند، و یک قانون ملی اجباری باید حتی زمانی که یک معیار پیروی‌شده چیز دیگری را پیشنهاد می‌کند نیز رعایت شود. بدون این بررسی، خطر نقض مقررات اجباری ملی وجود دارد حتی در حالی که معیار بین‌المللی رعایت می‌شود."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה הבוחרת לעמוד בתקן בינלאומי מבלי לבדוק אם הוא תואם דרישות לאומיות מחייבות.",
+        "whyCorrect": "יש לבדוק מראש את התאמתו של תקן בינלאומי לדרישות לאומיות מחייבות, כדי למנוע סתירות אפשריות, מכיוון שתקנים בינלאומיים אינם גוברים אוטומטית על חוק לאומי, וחוק לאומי מחייב חייב להישמר גם כאשר תקן שאחריו עוקבים מציע אחרת. ללא בדיקה זו קיים סיכון להפר כללים לאומיים מחייבים גם תוך עמידה בתקן הבינלאומי."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "zwingende Vorgaben", "english": "mandatory requirements", "dari": "الزامات اجباری", "hebrew": "דרישות מחייבות", "shortGermanExplanation": "Vorschriften, von denen nicht abgewichen werden darf." },
+      { "germanWord": "Vereinbarkeit", "english": "compatibility", "dari": "همخوانی", "hebrew": "התאמה", "shortGermanExplanation": "Der Zustand, dass zwei Regelungen widerspruchsfrei nebeneinander gelten können." }
+    ],
+    "questionTranslation": {
+      "en": "A company chooses to comply with an international standard without checking whether it is compatible with mandatory national requirements. Which classification is most accurate?",
+      "dari": "یک شرکت تصمیم می‌گیرد یک معیار بین‌المللی را رعایت کند، بدون بررسی اینکه آیا این معیار با الزامات قانونی اجباری ملی همخوانی دارد یا نه. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה בוחרת לעמוד בתקן בינלאומי מבלי לבדוק האם הוא תואם דרישות לאומיות מחייבות. איזה סיווג המדויק ביותר?"
+    }
+  }
+]

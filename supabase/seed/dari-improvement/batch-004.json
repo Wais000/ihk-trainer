@@ -1,0 +1,468 @@
+[
+  {
+    "id": "f782d3aa-0456-4eb4-9648-10c00c2db268",
+    "text": "Zwei vergleichbare Abteilungen setzen dieselbe Anwendung ein; eine Abteilung schult ihre Beschäftigten regelmäßig zu sicherheitsrelevantem Verhalten, die andere nicht. Welche Aussage ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Identische Technik führt stets zu identischem Risiko, unabhängig vom Verhalten der Beschäftigten"
+      },
+      {
+        "label": "B",
+        "text": "Beide Abteilungen können trotz identischer Technik ein unterschiedliches tatsächliches Risiko aufweisen, da menschliches Verhalten das Risiko mitbestimmt"
+      },
+      {
+        "label": "C",
+        "text": "Schulungen zu sicherheitsrelevantem Verhalten haben auf das tatsächliche Risiko keinen relevanten Einfluss"
+      },
+      {
+        "label": "D",
+        "text": "Das Risiko einer Abteilung hängt ausschließlich von der eingesetzten Technik ab"
+      }
+    ],
+    "explanation": {
+      "summary": "Zwei Abteilungen setzen dieselbe Anwendung ein, unterscheiden sich aber in der Sicherheitsschulung der Beschäftigten.",
+      "whyCorrect": "B ist richtig, weil menschliches Verhalten das tatsächliche Risiko mitbestimmt, sodass beide Abteilungen trotz identischer Technik ein unterschiedliches Risiko haben können.",
+      "whyIncorrect": "A ist falsch, weil identische Technik nicht automatisch identisches Risiko bedeutet, wenn sich das Verhalten der Beschäftigten unterscheidet. C ist falsch, weil Schulungen das Risiko sehr wohl beeinflussen können, etwa durch besseres Erkennen von Phishing. D ist falsch, weil neben der Technik auch der menschliche Faktor das Risiko bestimmt.",
+      "commonTrap": "Risiko wird ausschließlich an der Technik festgemacht, der Faktor Mensch wird übersehen.",
+      "testedConcept": "Menschlicher Faktor als Risikokomponente"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "649d9534-7c18-4fe7-97ef-57e8debe797b",
+    "text": "Ein Lieferant erhält dauerhaften Zugriff auf ein internes System, obwohl das ursprüngliche Projekt, für das der Zugriff eingerichtet wurde, längst abgeschlossen ist. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der fortbestehende Zugriff nach Projektabschluss stellt eine unnötige Schwachstelle dar, die entfernt werden sollte"
+      },
+      {
+        "label": "B",
+        "text": "Ein einmal eingerichteter Lieferantenzugriff sollte aus Gründen der Kontinuität dauerhaft bestehen bleiben"
+      },
+      {
+        "label": "C",
+        "text": "Der Zugriff ist unproblematisch, solange der Lieferant seit Projektbeginn kein auffälliges Verhalten gezeigt hat"
+      },
+      {
+        "label": "D",
+        "text": "Die Dauer eines Lieferantenzugriffs betrifft ausschließlich vertragliche, nicht sicherheitsrelevante Aspekte"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Lieferant behält dauerhaften Zugriff, obwohl das ursprüngliche Projekt bereits abgeschlossen ist.",
+      "whyCorrect": "A ist richtig, weil ein fortbestehender, nicht mehr benötigter Zugriff eine unnötige Schwachstelle darstellt, die entfernt werden sollte.",
+      "whyIncorrect": "B ist falsch, weil Kontinuität kein Argument für dauerhaften, nicht mehr benötigten Zugriff ist. C ist falsch, weil bisheriges unauffälliges Verhalten zukünftigen Missbrauch nicht ausschließt. D ist falsch, weil die Dauer eines Zugriffs sehr wohl sicherheitsrelevant ist, nicht nur vertraglich.",
+      "commonTrap": "Fehlendes bisheriges Fehlverhalten wird als Beleg für Ungefährlichkeit fortbestehenden Zugriffs missverstanden.",
+      "testedConcept": "Zugriffsrechte nach Projektende entziehen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "f1319b42-a119-4bec-ab31-bed1a460e0d2",
+    "text": "Ein Unternehmen verfügt über eine einzige aktuelle Kopie einer wichtigen Vertragsdatenbank, die ausschließlich auf einem Server ohne jede Redundanz gespeichert ist. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine einzelne, nicht redundante Speicherung ist unproblematisch, solange der Server regelmäßig gewartet wird"
+      },
+      {
+        "label": "B",
+        "text": "Ein Ausfall dieses einzelnen Servers würde die Verfügbarkeit der Vertragsdatenbank vollständig gefährden"
+      },
+      {
+        "label": "C",
+        "text": "Redundanz betrifft ausschließlich die Vertraulichkeit gespeicherter Daten"
+      },
+      {
+        "label": "D",
+        "text": "Das Fehlen einer Redundanz ist ausschließlich bei öffentlich zugänglichen Datenbanken relevant"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine wichtige Vertragsdatenbank liegt nur auf einem Server ohne jede Redundanz.",
+      "whyCorrect": "B ist richtig, weil ein Ausfall dieses einzelnen Servers die Verfügbarkeit der Datenbank vollständig gefährden würde.",
+      "whyIncorrect": "A ist falsch, weil regelmäßige Wartung einen Ausfall nicht ausschließt. C ist falsch, weil Redundanz primär die Verfügbarkeit, nicht die Vertraulichkeit betrifft. D ist falsch, weil fehlende Redundanz auch bei nicht öffentlichen Datenbanken relevant ist.",
+      "commonTrap": "Fehlende Redundanz wird als reines Kostenthema gesehen, nicht als Sicherheitsrisiko.",
+      "testedConcept": "Redundanz zur Sicherstellung der Verfügbarkeit"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "cf260b62-89ad-448c-bb5a-1845a665da8c",
+    "text": "Ein Unternehmen speichert ein und dasselbe vertrauliche Dokument sowohl auf einem zentralen Server als auch unkontrolliert auf mehreren privaten Cloud-Speichern einzelner Beschäftigter. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die unkontrollierte Verteilung auf private Cloud-Speicher vergrößert die Angriffsfläche für die Vertraulichkeit des Dokuments erheblich"
+      },
+      {
+        "label": "B",
+        "text": "Zusätzliche Kopien auf privaten Cloud-Speichern erhöhen grundsätzlich die Verfügbarkeit ohne jeden Nachteil"
+      },
+      {
+        "label": "C",
+        "text": "Die Nutzung privater Cloud-Speicher betrifft ausschließlich die Bequemlichkeit der Beschäftigten, nicht die Sicherheit"
+      },
+      {
+        "label": "D",
+        "text": "Solange das Dokument auf dem zentralen Server weiterhin vorhanden ist, sind zusätzliche Kopien irrelevant"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Dokument wird zusätzlich unkontrolliert auf privaten Cloud-Speichern einzelner Beschäftigter abgelegt.",
+      "whyCorrect": "A ist richtig, weil jede zusätzliche, unkontrollierte Kopie die Angriffsfläche für die Vertraulichkeit des Dokuments vergrößert.",
+      "whyIncorrect": "B ist falsch, weil zusätzliche unkontrollierte Kopien nicht nur Vorteile, sondern erhebliche Risiken mit sich bringen. C ist falsch, weil die Nutzung privater Cloud-Speicher sehr wohl ein Sicherheitsthema ist, nicht nur Bequemlichkeit. D ist falsch, weil zusätzliche, unkontrollierte Kopien auch dann relevant sind, wenn das Original weiter existiert.",
+      "commonTrap": "Zusätzliche Kopien werden als reine Bequemlichkeit ohne Sicherheitsrelevanz eingestuft.",
+      "testedConcept": "Schatten-IT und Angriffsfläche"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Angriffsfläche"
+      }
+    ]
+  },
+  {
+    "id": "faeb09d9-c93f-4528-b389-8da62d278acf",
+    "text": "Ein Unternehmen bewertet ein und dieselbe Bedrohung für zwei unterschiedliche Systeme identisch, obwohl eines der Systeme deutlich sensiblere Daten verarbeitet als das andere. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine identische Bedrohung führt unabhängig von den verarbeiteten Daten stets zu identischem Risiko"
+      },
+      {
+        "label": "B",
+        "text": "Trotz identischer Bedrohung kann das tatsächliche Risiko unterschiedlich sein, da die möglichen Auswirkungen je nach verarbeiteten Daten variieren"
+      },
+      {
+        "label": "C",
+        "text": "Die Sensibilität verarbeiteter Daten ist für die Risikobewertung grundsätzlich zweitrangig gegenüber der Bedrohung selbst"
+      },
+      {
+        "label": "D",
+        "text": "Unterschiedliche Auswirkungen sind ausschließlich bei unterschiedlichen technischen Schwachstellen zu erwarten"
+      }
+    ],
+    "explanation": {
+      "summary": "Dieselbe Bedrohung wird für zwei Systeme mit unterschiedlich sensiblen Daten identisch bewertet.",
+      "whyCorrect": "B ist richtig, weil das tatsächliche Risiko trotz identischer Bedrohung unterschiedlich sein kann, da die möglichen Auswirkungen je nach verarbeiteten Daten variieren.",
+      "whyIncorrect": "A ist falsch, weil identische Bedrohung nicht automatisch identisches Risiko bedeutet. C ist falsch, weil die Sensibilität der Daten ein zentraler Faktor der Risikobewertung ist, nicht zweitrangig. D ist falsch, weil auch bei gleicher Schwachstelle unterschiedliche Auswirkungen je nach Datenart auftreten können.",
+      "commonTrap": "Risiko wird nur an der Bedrohung selbst festgemacht, ohne die Auswirkung auf unterschiedliche Datenarten zu berücksichtigen.",
+      "testedConcept": "Risiko = Bedrohung × Auswirkung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "89c79814-8f29-43f1-a45f-4e9add72ee52",
+    "text": "Ein Unternehmen stellt fest, dass eine seit Jahren genutzte Anwendung nie einer formalen Schutzbedarfsfeststellung unterzogen wurde. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Auch langjährig genutzte Anwendungen sollten einer formalen Schutzbedarfsfeststellung unterzogen werden, um ihren tatsächlichen Schutzbedarf zu kennen"
+      },
+      {
+        "label": "B",
+        "text": "Eine langjährige, bislang unauffällige Nutzung macht eine formale Schutzbedarfsfeststellung überflüssig"
+      },
+      {
+        "label": "C",
+        "text": "Schutzbedarfsfeststellungen sind ausschließlich für neu eingeführte Anwendungen relevant"
+      },
+      {
+        "label": "D",
+        "text": "Die Dauer der bisherigen Nutzung einer Anwendung lässt zuverlässig auf ihren tatsächlichen Schutzbedarf schließen"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine seit Jahren genutzte Anwendung wurde nie einer formalen Schutzbedarfsfeststellung unterzogen.",
+      "whyCorrect": "A ist richtig, weil auch langjährig genutzte Anwendungen einer formalen Schutzbedarfsfeststellung unterzogen werden sollten, um den tatsächlichen Bedarf zu kennen.",
+      "whyIncorrect": "B ist falsch, weil unauffällige Nutzung keine Garantie für ausreichenden Schutz ist. C ist falsch, weil Schutzbedarfsfeststellungen auch für bestehende, etablierte Anwendungen relevant sind. D ist falsch, weil die Nutzungsdauer keinen verlässlichen Rückschluss auf den tatsächlichen Schutzbedarf zulässt.",
+      "commonTrap": "Langjährige, unauffällige Nutzung wird fälschlich als Beleg für ausreichenden Schutz interpretiert.",
+      "testedConcept": "Schutzbedarfsfeststellung auch für Bestandssysteme"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Schutzbedarfsfeststellung"
+      }
+    ]
+  },
+  {
+    "id": "c5e11f3c-c5bb-4b88-b9cd-83784bbaa8f9",
+    "text": "Ein Unternehmen betrachtet ausschließlich vorsätzliche Angriffe als relevante Bedrohung für seine Systeme und blendet Naturereignisse wie Sturm oder Hochwasser vollständig aus. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nur vorsätzliche, von Personen ausgehende Handlungen zählen begrifflich als Bedrohung"
+      },
+      {
+        "label": "B",
+        "text": "Naturereignisse wie Sturm oder Hochwasser stellen ebenfalls relevante Bedrohungen dar und sollten in die Betrachtung einbezogen werden"
+      },
+      {
+        "label": "C",
+        "text": "Naturereignisse sind für die Informationssicherheit grundsätzlich ohne praktische Relevanz"
+      },
+      {
+        "label": "D",
+        "text": "Eine Betrachtung von Naturereignissen ist ausschließlich bei Unternehmen in besonders exponierten Lagen erforderlich"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Unternehmen betrachtet nur vorsätzliche Angriffe als Bedrohung und blendet Naturereignisse aus.",
+      "whyCorrect": "B ist richtig, weil auch Naturereignisse wie Sturm oder Hochwasser relevante Bedrohungen darstellen und in die Betrachtung einbezogen werden sollten.",
+      "whyIncorrect": "A ist falsch, weil der Bedrohungsbegriff nicht auf vorsätzliches, menschliches Handeln beschränkt ist. C ist falsch, weil Naturereignisse durchaus erhebliche Auswirkungen auf die Informationssicherheit haben können. D ist falsch, weil auch nicht besonders exponierte Unternehmen von Naturereignissen betroffen sein können.",
+      "commonTrap": "Bedrohung wird ausschließlich mit vorsätzlichen, menschengemachten Angriffen assoziiert.",
+      "testedConcept": "Bedrohungen umfassen auch Naturereignisse"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "dbea616c-3e27-4eeb-98b5-9bdb3937e8d8",
+    "text": "In einem Unternehmen wird der Zugang zu einem Serverraum nur durch eine unabgeschlossene Tür mit Hinweisschild 'Zutritt nur für Befugte' geregelt. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ein Hinweisschild ist ausreichend, da die meisten Personen sich an schriftliche Anweisungen halten"
+      },
+      {
+        "label": "B",
+        "text": "Ein reines Hinweisschild ohne tatsächliche Zugangskontrolle stellt eine Schwachstelle dar, da es keinen wirksamen Schutz vor unbefugtem Zutritt bietet"
+      },
+      {
+        "label": "C",
+        "text": "Die physische Absicherung eines Serverraums ist ausschließlich für die Verfügbarkeit relevant"
+      },
+      {
+        "label": "D",
+        "text": "Ein Hinweisschild ersetzt vollständig die Notwendigkeit einer technischen Zugangskontrolle"
+      }
+    ],
+    "explanation": {
+      "summary": "Der Zugang zu einem Serverraum wird nur durch ein Hinweisschild statt durch eine echte Zugangskontrolle geregelt.",
+      "whyCorrect": "B ist richtig, weil ein reines Hinweisschild ohne tatsächliche Zugangskontrolle keinen wirksamen Schutz vor unbefugtem Zutritt bietet und damit eine Schwachstelle darstellt.",
+      "whyIncorrect": "A ist falsch, weil man sich bei der Sicherheit nicht allein auf die Regeltreue aller Personen verlassen darf. C ist falsch, weil physische Absicherung auch Vertraulichkeit und Integrität betrifft, nicht nur Verfügbarkeit. D ist falsch, weil ein Hinweisschild eine technische Zugangskontrolle keinesfalls ersetzt.",
+      "commonTrap": "Organisatorische Hinweise werden mit wirksamen technischen Kontrollen gleichgesetzt.",
+      "testedConcept": "Schwachstelle durch unwirksame Zugangskontrolle"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "ade23e36-c9d3-44af-82a1-2909894833a8",
+    "text": "Ein Unternehmen bewahrt ausgedruckte vertrauliche Dokumente in einem Aktenschrank auf, der zwar abschließbar ist, aber im Alltag meist unverschlossen bleibt. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ein vorhandenes, aber nicht genutztes Schloss stellt eine Schwachstelle dar, da der beabsichtigte Schutz faktisch nicht wirksam ist"
+      },
+      {
+        "label": "B",
+        "text": "Das Vorhandensein eines Schlosses allein gewährleistet bereits einen angemessenen Schutz der Dokumente"
+      },
+      {
+        "label": "C",
+        "text": "Die tatsächliche Nutzung eines vorhandenen Schlosses ist für die Sicherheit der Dokumente ohne Bedeutung"
+      },
+      {
+        "label": "D",
+        "text": "Ein unverschlossener Aktenschrank betrifft ausschließlich die Verfügbarkeit der darin enthaltenen Dokumente"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein abschließbarer Aktenschrank bleibt im Alltag meist unverschlossen.",
+      "whyCorrect": "A ist richtig, weil ein vorhandenes, aber nicht genutztes Schloss eine Schwachstelle darstellt, da der beabsichtigte Schutz faktisch nicht wirksam ist.",
+      "whyIncorrect": "B ist falsch, weil das bloße Vorhandensein eines Schlosses keinen Schutz bietet, wenn es nicht genutzt wird. C ist falsch, weil die tatsächliche Nutzung des Schlosses entscheidend für die Sicherheit ist. D ist falsch, weil primär die Vertraulichkeit, nicht die Verfügbarkeit der Dokumente betroffen ist.",
+      "commonTrap": "Das bloße Vorhandensein einer Schutzmaßnahme wird mit ihrer tatsächlichen Anwendung verwechselt.",
+      "testedConcept": "Wirksamkeit vs. Vorhandensein von Schutzmaßnahmen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "c0591487-4292-45c3-a5a1-4d1529da6734",
+    "text": "Ein Unternehmen betrachtet ausschließlich technische Systeme wie Server und Netzwerkkomponenten als schützenswerte Werte, nicht aber das Wissen erfahrener Mitarbeitender über kritische Abläufe. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Auch das Wissen erfahrener Mitarbeitender über kritische Abläufe stellt einen eigenständigen, schützenswerten Wert dar"
+      },
+      {
+        "label": "B",
+        "text": "Nur technische Systeme können im Sinne der Informationssicherheit als schützenswerte Werte gelten"
+      },
+      {
+        "label": "C",
+        "text": "Das Wissen von Mitarbeitenden ist ausschließlich dann relevant, wenn es schriftlich dokumentiert vorliegt"
+      },
+      {
+        "label": "D",
+        "text": "Eine Einbeziehung von Personenwissen als Wert ist ausschließlich in sehr kleinen Unternehmen sinnvoll"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Unternehmen betrachtet nur technische Systeme, nicht aber das Wissen erfahrener Mitarbeitender als schützenswerten Wert.",
+      "whyCorrect": "A ist richtig, weil auch das Wissen erfahrener Mitarbeitender über kritische Abläufe einen eigenständigen, schützenswerten Wert darstellt.",
+      "whyIncorrect": "B ist falsch, weil Werte im Sinne der Informationssicherheit weit mehr als nur technische Systeme umfassen können. C ist falsch, weil auch nicht dokumentiertes Wissen schutzwürdig sein kann. D ist falsch, weil die Einbeziehung von Personenwissen unabhängig von der Unternehmensgröße sinnvoll ist.",
+      "commonTrap": "Schützenswerte Werte werden ausschließlich mit technischen Systemen gleichgesetzt.",
+      "testedConcept": "Wissen als schützenswerter Wert (Asset)"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "schützenswerter Wert"
+      }
+    ]
+  },
+  {
+    "id": "28b1e7e4-3ab0-49ca-b0d4-38f6b729fd74",
+    "text": "Ein Unternehmen betrachtet die Kombination aus einer ungepatchten Software-Schwachstelle und einem aktiv nach solchen Schwachstellen suchenden Angreifer ausschließlich als Bedrohung, nicht als Gefährdung. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Einordnung als Bedrohung ist zutreffend, da noch kein tatsächlicher Schaden eingetreten ist"
+      },
+      {
+        "label": "B",
+        "text": "Das konkrete Zusammentreffen von Schwachstelle und aktiv suchendem Angreifer beschreibt eine Gefährdung, nicht nur eine allgemeine Bedrohung"
+      },
+      {
+        "label": "C",
+        "text": "Schwachstelle und Bedrohung lassen sich in diesem Fall nicht sinnvoll voneinander unterscheiden"
+      },
+      {
+        "label": "D",
+        "text": "Eine Einordnung als Gefährdung wäre nur bei einem bereits erfolgten erfolgreichen Angriff zutreffend"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine ungepatchte Schwachstelle und ein aktiv suchender Angreifer werden nur als Bedrohung, nicht als Gefährdung eingeordnet.",
+      "whyCorrect": "B ist richtig, weil das konkrete Zusammentreffen von Schwachstelle und aktiv suchendem Angreifer eine Gefährdung beschreibt – also mehr als eine allgemeine Bedrohung.",
+      "whyIncorrect": "A ist falsch, weil zwischen Bedrohung und Gefährdung unterschieden werden muss, unabhängig davon, ob bereits ein Schaden eingetreten ist. C ist falsch, weil sich Schwachstelle und Bedrohung sehr wohl unterscheiden lassen und unterschiedliche Konzepte darstellen. D ist falsch, weil eine Gefährdung bereits vor einem erfolgreichen Angriff vorliegen kann.",
+      "commonTrap": "Gefährdung wird mit einem bereits erfolgten Angriff verwechselt, statt mit dem konkreten Zusammentreffen von Schwachstelle und Bedrohung.",
+      "testedConcept": "Gefährdung als konkretes Zusammentreffen von Bedrohung und Schwachstelle"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Gefährdung"
+      }
+    ]
+  },
+  {
+    "id": "a1b08dc6-42f0-4278-b534-964c9ac77395",
+    "text": "Ein Mitarbeiter verwendet für mehrere unterschiedliche dienstliche Konten dasselbe Passwort, da dies die Merkbarkeit erleichtert. Welches Schutzziel ist dadurch am stärksten gefährdet?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Verfügbarkeit der Konten, da ein einheitliches Passwort die Anmeldung technisch verlangsamt"
+      },
+      {
+        "label": "B",
+        "text": "Die Vertraulichkeit mehrerer Konten gleichzeitig, da die Kompromittierung eines Kontos auch die übrigen Konten offenlegen kann"
+      },
+      {
+        "label": "C",
+        "text": "Die Nichtabstreitbarkeit, da bei mehreren Konten nicht mehr nachvollziehbar ist, wer sich angemeldet hat"
+      },
+      {
+        "label": "D",
+        "text": "Die Integrität der auf den Konten gespeicherten Daten, unabhängig vom verwendeten Passwort"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Mitarbeiter verwendet für mehrere dienstliche Konten dasselbe Passwort.",
+      "whyCorrect": "B ist richtig, weil die Kompromittierung eines Kontos bei gleichem Passwort auch die übrigen Konten offenlegen kann, was die Vertraulichkeit mehrerer Konten gleichzeitig gefährdet.",
+      "whyIncorrect": "A ist falsch, weil ein einheitliches Passwort keine technische Verlangsamung bewirkt. C ist falsch, weil hier nicht primär die Nachvollziehbarkeit der Anmeldung, sondern die Offenlegung von Zugangsdaten das Problem ist. D ist falsch, weil die Integrität der Daten unabhängig vom Passwort nicht das primäre Risiko in diesem Szenario ist.",
+      "commonTrap": "Die Bequemlichkeit eines einheitlichen Passworts wird über das Kaskadenrisiko für die Vertraulichkeit gestellt.",
+      "testedConcept": "Passwort-Wiederverwendung als Vertraulichkeitsrisiko"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "87e96cc6-8593-4e97-8fc6-4e0be1f8ea51",
+    "text": "Ein Mitarbeiter lädt eine Datei mit vertraulichem Inhalt in einen privaten Cloud-Speicher hoch, um von zu Hause aus weiterarbeiten zu können. Welches Schutzziel ist dadurch am unmittelbarsten betroffen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Vertraulichkeit, da die Datei nun außerhalb der kontrollierten Unternehmensumgebung für Dritte zugänglich sein könnte"
+      },
+      {
+        "label": "B",
+        "text": "Die Verfügbarkeit, da der Mitarbeiter nun jederzeit auf die Datei zugreifen kann"
+      },
+      {
+        "label": "C",
+        "text": "Die Nichtabstreitbarkeit, da der Upload-Vorgang durch den Cloud-Anbieter protokolliert wird"
+      },
+      {
+        "label": "D",
+        "text": "Die Authentizität, da der Mitarbeiter sich beim Cloud-Anbieter mit eigenen Zugangsdaten anmeldet"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Mitarbeiter lädt eine vertrauliche Datei in einen privaten Cloud-Speicher hoch, um von zu Hause weiterzuarbeiten.",
+      "whyCorrect": "A ist richtig, weil die Datei außerhalb der kontrollierten Unternehmensumgebung für Dritte zugänglich sein könnte, was primär die Vertraulichkeit betrifft.",
+      "whyIncorrect": "B ist falsch, weil zwar die Verfügbarkeit für den Mitarbeiter steigt, dies aber nicht das primäre Sicherheitsproblem ist. C ist falsch, weil eine Protokollierung durch den Anbieter nicht das eigentliche Risiko der unkontrollierten Speicherung adressiert. D ist falsch, weil die Anmeldung mit eigenen Zugangsdaten kein Authentizitätsproblem darstellt.",
+      "commonTrap": "Die Bequemlichkeit privater Cloud-Nutzung wird gegenüber dem Vertraulichkeitsrisiko unterschätzt.",
+      "testedConcept": "Schatten-IT und Vertraulichkeit"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "493f759b-7d6e-4fe9-a792-9a2f62c18e07",
+    "text": "In einem Unternehmen wird ein veraltetes Betriebssystem ohne Sicherheitsupdates weiterbetrieben, da eine Migration als zu aufwändig gilt. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ein veraltetes Betriebssystem ist unproblematisch, solange es bislang zu keinem erkennbaren Vorfall geführt hat"
+      },
+      {
+        "label": "B",
+        "text": "Sicherheitsupdates sind ausschließlich für öffentlich zugängliche Systeme von Bedeutung"
+      },
+      {
+        "label": "C",
+        "text": "Das veraltete, nicht mehr aktualisierte Betriebssystem stellt eine Schwachstelle dar, die von Angreifern gezielt ausgenutzt werden kann"
+      },
+      {
+        "label": "D",
+        "text": "Der Aufwand einer Migration rechtfertigt grundsätzlich den dauerhaften Verzicht auf Sicherheitsupdates"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein veraltetes Betriebssystem ohne Sicherheitsupdates wird weiterbetrieben, weil eine Migration als zu aufwändig gilt.",
+      "whyCorrect": "C ist richtig, weil ein veraltetes, nicht aktualisiertes Betriebssystem eine Schwachstelle darstellt, die von Angreifern gezielt ausgenutzt werden kann.",
+      "whyIncorrect": "A ist falsch, weil das Fehlen bisheriger Vorfälle keine Garantie für zukünftige Sicherheit ist. B ist falsch, weil Sicherheitsupdates auch für interne Systeme wichtig sind. D ist falsch, weil Migrationsaufwand kein Argument gegen notwendige Sicherheitsmaßnahmen ist.",
+      "commonTrap": "Das Fehlen bisheriger Vorfälle wird als Beweis für Sicherheit missverstanden.",
+      "testedConcept": "Veraltete Software als Schwachstelle"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "870cf4e0-cdcb-4548-9a26-ebc4649b01dc",
+    "text": "Ein Unternehmen speichert Sicherungskopien wichtiger Daten ausschließlich auf demselben Server wie die Originaldaten. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine Sicherungskopie auf demselben Server ist ausreichend, da die Daten dadurch redundant vorliegen"
+      },
+      {
+        "label": "B",
+        "text": "Der Speicherort einer Sicherungskopie ist für ihre Wirksamkeit grundsätzlich ohne Bedeutung"
+      },
+      {
+        "label": "C",
+        "text": "Eine räumliche Trennung von Original und Sicherungskopie ist ausschließlich bei physischen Datenträgern relevant"
+      },
+      {
+        "label": "D",
+        "text": "Eine Sicherungskopie auf demselben Server bietet keinen wirksamen Schutz, falls der Server insgesamt ausfällt oder kompromittiert wird"
+      }
+    ],
+    "explanation": {
+      "summary": "Sicherungskopien werden ausschließlich auf demselben Server wie die Originaldaten gespeichert.",
+      "whyCorrect": "D ist richtig, weil eine Sicherungskopie auf demselben Server keinen wirksamen Schutz bietet, falls dieser Server insgesamt ausfällt oder kompromittiert wird.",
+      "whyIncorrect": "A ist falsch, weil die Kopie auf demselben Server keine echte Redundanz darstellt. B ist falsch, weil der Speicherort für die Wirksamkeit einer Sicherung entscheidend ist. C ist falsch, weil räumliche Trennung auch bei digitalen Sicherungen relevant ist, nicht nur bei physischen Datenträgern.",
+      "commonTrap": "Eine Sicherungskopie wird als ausreichend angesehen, solange sie überhaupt existiert, unabhängig vom Speicherort.",
+      "testedConcept": "Notwendigkeit räumlich getrennter Backups"
+    },
+    "vocabulary": []
+  }
+]

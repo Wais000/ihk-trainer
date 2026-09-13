@@ -1,5 +1,4 @@
 import { translateFromGerman } from "@/lib/translation/azure-translator";
-import { translateWordInContext } from "@/lib/translation/contextual-word-translation";
 import type { WordTranslation } from "@/lib/validation/translation";
 import { createClient } from "@/lib/supabase/server";
 import { createServiceRoleClient } from "@/lib/supabase/server";
@@ -11,20 +10,13 @@ function normalize(word: string): string {
     .replace(/[.,;:!?„“"'()\[\]]/g, "");
 }
 
-/**
- * Returns the translation for one German word. When `sentence` is given
- * (the word's actual surrounding sentence, not just the word alone), this
- * asks an LLM for the word's meaning AS IT FUNCTIONS in that sentence
- * instead of translating it in isolation — separable verbs and fixed
- * collocations (e.g. "eine Entscheidung treffen") otherwise translate
- * word-by-word into something misleading ("getroffen" alone reads as
- * "hit/struck", not "made"). That result is intentionally NOT written to
- * the shared word-level cache below, since the same word can mean
- * something different in a different sentence. Falls back to the plain
- * cached word-level lookup if no sentence is given, or if the contextual
- * call fails.
- */
-export async function getWordTranslation(rawWord: string, sentence?: string): Promise<WordTranslation> {
+/** Returns the translation for one German word, via Azure Translator —
+ * cached globally (shared across all users) since a bare word's meaning
+ * doesn't depend on who's asking. This is the only live translation call
+ * anywhere in the app; every other translation (question, answer options,
+ * explanation, vocabulary) is pre-generated offline (see
+ * scripts/prompts/*.md) and only ever read from the database. */
+export async function getWordTranslation(rawWord: string): Promise<WordTranslation> {
   const normalized = normalize(rawWord);
   if (!normalized) {
     return {
@@ -34,21 +26,6 @@ export async function getWordTranslation(rawWord: string, sentence?: string): Pr
       hebrewMeaning: null,
       shortGermanExplanation: null,
     };
-  }
-
-  if (sentence?.trim()) {
-    try {
-      const contextual = await translateWordInContext(rawWord, sentence);
-      return {
-        germanWord: rawWord,
-        englishMeaning: contextual.english || null,
-        dariMeaning: contextual.dari || null,
-        hebrewMeaning: contextual.hebrew || null,
-        shortGermanExplanation: null,
-      };
-    } catch (err) {
-      console.error("translateWordInContext failed, falling back to word-level translation:", err);
-    }
   }
 
   const supabase = await createClient();

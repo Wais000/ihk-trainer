@@ -13,7 +13,7 @@ export default function ImportPage() {
   const dict = useUiDictionary();
 
   return (
-    <main className="mx-auto flex max-w-2xl flex-col gap-6 px-4 py-8">
+    <main className="mx-auto flex max-w-[852px] flex-col gap-6 px-4 py-8">
       <Card>
         <CardHeader>
           <CardTitle>{dict.importFlow.title}</CardTitle>

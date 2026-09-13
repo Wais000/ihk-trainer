@@ -1,0 +1,460 @@
+[
+  {
+    "id": "2675824f-7938-490a-94c9-2cdef020d7e9",
+    "text": "Ein Lieferant wird durch einen Cyberangriff lahmgelegt, wodurch ein abhängiger Geschäftsprozess des eigenen Unternehmens nicht mehr rechtzeitig ausgeführt werden kann. Welche Aussage ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Abhängigkeit von Dienstleistern kann selbst ohne eigene technische Schwachstelle zu einer Gefährdung der eigenen Verfügbarkeit werden"
+      },
+      {
+        "label": "B",
+        "text": "Da der Angriff nicht das eigene Unternehmen unmittelbar betrifft, besteht keine Relevanz für die eigene Sicherheitsbewertung"
+      },
+      {
+        "label": "C",
+        "text": "Ausfälle bei Lieferanten betreffen ausschließlich deren eigene Risikobewertung"
+      },
+      {
+        "label": "D",
+        "text": "Ein Ausfall des Lieferanten kann das Schutzziel Vertraulichkeit beim eigenen Unternehmen nicht berühren"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Lieferant wird durch einen Cyberangriff lahmgelegt, wodurch ein eigener Geschäftsprozess nicht mehr rechtzeitig ausgeführt werden kann.",
+      "whyCorrect": "A ist richtig, weil die Abhängigkeit von Dienstleistern auch ohne eigene technische Schwachstelle zu einer Gefährdung der eigenen Verfügbarkeit führen kann.",
+      "whyIncorrect": "B ist falsch, weil ein Angriff auf einen Lieferanten sehr wohl auf die eigene Sicherheitsbewertung durchschlagen kann. C ist falsch, weil Lieferantenausfälle auch das eigene Unternehmen betreffen, wenn Abhängigkeiten bestehen. D ist falsch, weil hier primär die Verfügbarkeit, nicht die Vertraulichkeit betroffen ist – die Aussage widerspricht dem eigentlichen Fall nicht direkt, ist aber keine sinnvolle Antwort auf die gestellte Frage.",
+      "commonTrap": "Risiken durch Dritte (Lieferantenkette) werden übersehen, weil kein eigenes technisches System betroffen ist.",
+      "testedConcept": "Abhängigkeitsrisiko / Supply-Chain-Risiko"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "7b678937-e2e5-41ab-9c8a-ced81e89f10d",
+    "text": "Zwei Organisationen nutzen dieselbe Standardsoftware mit einer bekannten Schwachstelle; eine hat zusätzlich strenge Zugriffsbeschränkungen und Überwachung eingerichtet, die andere nicht. Welche Aussage ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Beide Organisationen tragen exakt dasselbe Risiko, weil die Schwachstelle identisch ist"
+      },
+      {
+        "label": "B",
+        "text": "Die Schwachstelle ist bei beiden gleich, das tatsächliche Risiko kann sich durch unterschiedliche Schutzmaßnahmen dennoch unterscheiden"
+      },
+      {
+        "label": "C",
+        "text": "Zugriffsbeschränkungen und Überwachung beseitigen die Schwachstelle vollständig"
+      },
+      {
+        "label": "D",
+        "text": "Ohne identische Schutzmaßnahmen ist ein Vergleich der beiden Organisationen grundsätzlich nicht möglich"
+      }
+    ],
+    "explanation": {
+      "summary": "Zwei Organisationen nutzen dieselbe Software mit bekannter Schwachstelle, unterscheiden sich aber in ihren Schutzmaßnahmen.",
+      "whyCorrect": "B ist richtig, weil die Schwachstelle bei beiden gleich ist, das tatsächliche Risiko sich aber durch unterschiedliche Schutzmaßnahmen (Zugriffsbeschränkung, Überwachung) unterscheiden kann.",
+      "whyIncorrect": "A ist falsch, weil unterschiedliche Schutzmaßnahmen das Risiko verändern, auch bei identischer Schwachstelle. C ist falsch, weil Schutzmaßnahmen eine Schwachstelle in der Regel abmildern, nicht vollständig beseitigen. D ist falsch, weil ein Vergleich trotz unterschiedlicher Maßnahmen sehr wohl möglich und sinnvoll ist.",
+      "commonTrap": "Es wird angenommen, dass identische Schwachstellen automatisch identisches Risiko bedeuten.",
+      "testedConcept": "Risiko als Funktion von Schwachstelle und Schutzmaßnahmen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "3982865f-8c7d-48e4-8118-a53c6a8b1e3d",
+    "text": "Ein Auszubildender löscht versehentlich einen wichtigen Ordner auf einem gemeinsam genutzten Laufwerk, weil er die Ordnerstruktur missverstanden hat. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt eine Bedrohung durch menschliches Fehlverhalten vor, die zu einer Beeinträchtigung der Verfügbarkeit führen kann"
+      },
+      {
+        "label": "B",
+        "text": "Es liegt keine Bedrohung vor, da keine böswillige Absicht erkennbar ist"
+      },
+      {
+        "label": "C",
+        "text": "Es liegt ausschließlich ein Integritätsproblem vor, da eine Datei verändert wurde"
+      },
+      {
+        "label": "D",
+        "text": "Es liegt eine Schwachstelle, aber keine Bedrohung vor, weil der Auszubildende unerfahren ist"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Auszubildender löscht versehentlich einen wichtigen Ordner, weil er die Ordnerstruktur missverstanden hat.",
+      "whyCorrect": "A ist richtig, weil auch unbeabsichtigtes menschliches Fehlverhalten eine Bedrohung darstellt, die zu einer Beeinträchtigung der Verfügbarkeit führen kann.",
+      "whyIncorrect": "B ist falsch, weil eine Bedrohung nicht zwingend böswillige Absicht voraussetzt. C ist falsch, weil primär die Verfügbarkeit des gelöschten Ordners betroffen ist, nicht in erster Linie die Integrität. D ist falsch, weil Unerfahrenheit die Bedrohung nicht ausschließt, sondern gerade Teil davon ist.",
+      "commonTrap": "Bedrohung wird fälschlich nur mit vorsätzlichem, böswilligem Handeln gleichgesetzt.",
+      "testedConcept": "Bedrohung durch menschliches Fehlverhalten"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "3d0ccfd7-9b94-4f0e-a12c-d6fa6e71f9ab",
+    "text": "Ein Unternehmen speichert dieselbe wichtige Konstruktionszeichnung nur einmalig auf einem einzelnen Notebook, ohne weitere Kopie. Welches Risiko ist hierbei am unmittelbarsten relevant?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die einmalige Speicherung erhöht automatisch die Vertraulichkeit der Zeichnung"
+      },
+      {
+        "label": "B",
+        "text": "Ein Verlust oder Defekt des Notebooks würde die Verfügbarkeit der Zeichnung erheblich gefährden"
+      },
+      {
+        "label": "C",
+        "text": "Eine einzelne Kopie ist grundsätzlich sicherer als mehrere verteilte Kopien"
+      },
+      {
+        "label": "D",
+        "text": "Das Risiko betrifft ausschließlich die Integrität der Zeichnung"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine wichtige Konstruktionszeichnung wird nur einmalig auf einem Notebook gespeichert, ohne weitere Kopie.",
+      "whyCorrect": "B ist richtig, weil ein Verlust oder Defekt des Notebooks die Verfügbarkeit der Zeichnung erheblich gefährden würde, da keine Redundanz besteht.",
+      "whyIncorrect": "A ist falsch, weil eine einmalige Speicherung keinen Bezug zur Vertraulichkeit hat. C ist falsch, weil eine einzelne Kopie gerade unsicherer, nicht sicherer als verteilte Kopien ist. D ist falsch, weil primär die Verfügbarkeit, nicht die Integrität betroffen ist.",
+      "commonTrap": "Fehlende Redundanz wird mit einem Vertraulichkeits- oder Integritätsproblem verwechselt statt mit Verfügbarkeit.",
+      "testedConcept": "Verfügbarkeit und Redundanz"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Redundanz"
+      }
+    ]
+  },
+  {
+    "id": "39b52cd9-9dcb-49af-b47a-95584b8d378c",
+    "text": "Ein Auftragnehmer erhält vorübergehend Zugriff auf ein internes System, um eine Wartung durchzuführen; der Zugriff wird nach Abschluss der Arbeiten nicht wieder entzogen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der fortbestehende Zugriff stellt eine Schwachstelle dar, die das Risiko eines späteren Missbrauchs erhöht"
+      },
+      {
+        "label": "B",
+        "text": "Ein vorübergehender Zugriff kann grundsätzlich unbegrenzt bestehen bleiben, ohne ein Risiko darzustellen"
+      },
+      {
+        "label": "C",
+        "text": "Externe Auftragnehmer stellen grundsätzlich keine Bedrohung für interne Systeme dar"
+      },
+      {
+        "label": "D",
+        "text": "Der nicht entzogene Zugriff betrifft ausschließlich die Verfügbarkeit des Systems"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Auftragnehmer behält nach Abschluss der Wartungsarbeiten weiterhin Zugriff auf ein internes System.",
+      "whyCorrect": "A ist richtig, weil fortbestehender, nicht mehr benötigter Zugriff eine Schwachstelle darstellt, die das Risiko eines späteren Missbrauchs erhöht.",
+      "whyIncorrect": "B ist falsch, weil ein nicht entzogener Zugriff sehr wohl ein Risiko darstellt, unabhängig von der ursprünglichen Befristung. C ist falsch, weil auch externe Auftragnehmer eine Bedrohung darstellen können, insbesondere bei fortbestehendem Zugriff. D ist falsch, weil die Verfügbarkeit hier nicht das primäre Thema ist, sondern die unautorisierte Zugriffsmöglichkeit.",
+      "commonTrap": "Vergessene, nicht entzogene Zugriffsrechte werden als harmlos eingestuft, solange kein Missbrauch bekannt ist.",
+      "testedConcept": "Schwachstelle durch überzogene/verbliebene Rechte"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "731a9e4e-fb0d-4cb9-a504-5f5d1812ae70",
+    "text": "Eine Organisation stuft alle ihre Informationen unabhängig von Inhalt und Bedeutung einheitlich als „normal schutzbedürftig“ ein. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine einheitliche Einstufung ist stets die effizienteste und daher richtige Vorgehensweise"
+      },
+      {
+        "label": "B",
+        "text": "Eine einheitliche Einstufung ohne inhaltliche Differenzierung kann sowohl zu Über- als auch zu Unterschutz führen"
+      },
+      {
+        "label": "C",
+        "text": "Der Schutzbedarf einer Information hängt ausschließlich von ihrem Speicherort ab, nicht von ihrem Inhalt"
+      },
+      {
+        "label": "D",
+        "text": "Eine Differenzierung des Schutzbedarfs ist ausschließlich für technische Systeme relevant, nicht für Informationen selbst"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine Organisation stuft alle Informationen unabhängig von Inhalt und Bedeutung einheitlich als 'normal schutzbedürftig' ein.",
+      "whyCorrect": "B ist richtig, weil eine einheitliche Einstufung ohne inhaltliche Differenzierung sowohl zu Überschutz (unnötiger Aufwand) als auch zu Unterschutz (zu wenig Schutz für sensible Daten) führen kann.",
+      "whyIncorrect": "A ist falsch, weil Effizienz allein die inhaltliche Differenzierung nicht ersetzen kann. C ist falsch, weil der Schutzbedarf vom Inhalt, nicht nur vom Speicherort abhängt. D ist falsch, weil auch reine Informationen unabhängig von technischen Systemen differenziert werden müssen.",
+      "commonTrap": "Eine einheitliche, vereinfachte Klassifizierung wird für ausreichend gehalten, ohne die Risiken von Über- und Unterschutz zu bedenken.",
+      "testedConcept": "Differenzierte Schutzbedarfsklassifizierung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "05df6b63-dea5-44ef-9100-524261fdc4f4",
+    "text": "Ein Kundenprojektname wird versehentlich in einer öffentlichen Präsentation gezeigt, obwohl das Projekt vertraulich ist; die Präsentation wird sofort korrigiert, bevor jemand außerhalb des Raumes reagieren kann. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt eine Gefährdung der Vertraulichkeit vor, deren tatsächliche Auswirkung von der Zusammensetzung des anwesenden Publikums abhängt"
+      },
+      {
+        "label": "B",
+        "text": "Es liegt kein Vorfall vor, da die Präsentation sofort korrigiert wurde"
+      },
+      {
+        "label": "C",
+        "text": "Es liegt zwingend ein bereits eingetretener Schaden vor, unabhängig vom anwesenden Publikum"
+      },
+      {
+        "label": "D",
+        "text": "Es liegt ausschließlich ein Problem der Verfügbarkeit der Präsentation vor"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein vertraulicher Kundenprojektname wird versehentlich kurz gezeigt, die Präsentation aber sofort korrigiert.",
+      "whyCorrect": "A ist richtig, weil eine Gefährdung der Vertraulichkeit vorliegt, deren tatsächliche Auswirkung davon abhängt, ob und wie viele Personen im Publikum die Information tatsächlich wahrgenommen haben.",
+      "whyIncorrect": "B ist falsch, weil das kurze Zeigen bereits eine Gefährdung darstellt, unabhängig von der schnellen Korrektur. C ist falsch, weil ein Schaden nicht zwingend eingetreten ist, wenn niemand die Information tatsächlich wahrgenommen hat. D ist falsch, weil primär die Vertraulichkeit, nicht die Verfügbarkeit der Präsentation betroffen ist.",
+      "commonTrap": "Eine kurze, schnell korrigierte Offenlegung wird entweder als bedeutungslos oder als zwingender Schaden fehlinterpretiert.",
+      "testedConcept": "Gefährdung der Vertraulichkeit vs. eingetretener Schaden"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "7f41bb21-5d95-4c36-b91e-bba8d399e182",
+    "text": "Zwei baugleiche Server verarbeiten dieselbe Art von Anwendung; einer verarbeitet zusätzlich hochsensible Gesundheitsdaten, der andere ausschließlich öffentlich zugängliche Informationen. Welche Aussage ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Baugleiche Hardware führt stets zu identischem Schutzbedarf, unabhängig von den verarbeiteten Informationen"
+      },
+      {
+        "label": "B",
+        "text": "Beide Server haben trotz identischer Hardware unterschiedlichen Schutzbedarf, da sich Art und Sensibilität der verarbeiteten Informationen unterscheiden"
+      },
+      {
+        "label": "C",
+        "text": "Der Schutzbedarf richtet sich ausschließlich nach der eingesetzten Hardware, nicht nach den verarbeiteten Daten"
+      },
+      {
+        "label": "D",
+        "text": "Öffentlich zugängliche Informationen erfordern grundsätzlich denselben Schutzbedarf wie hochsensible Gesundheitsdaten"
+      }
+    ],
+    "explanation": {
+      "summary": "Zwei baugleiche Server verarbeiten unterschiedlich sensible Daten; gefragt wird nach der richtigen Aussage zum Schutzbedarf.",
+      "whyCorrect": "B ist richtig, weil der Schutzbedarf sich nach Art und Sensibilität der verarbeiteten Informationen richtet, nicht nach der Hardware.",
+      "whyIncorrect": "A ist falsch, weil identische Hardware nicht automatisch identischen Schutzbedarf bedeutet. C ist falsch, weil der Schutzbedarf gerade nicht von der Hardware, sondern von den Daten abhängt. D ist falsch, weil öffentliche und hochsensible Daten unterschiedlichen Schutzbedarf haben.",
+      "commonTrap": "Schutzbedarf wird fälschlich an die technische Ausstattung statt an die verarbeiteten Daten geknüpft.",
+      "testedConcept": "Schutzbedarf abhängig von Dateninhalt"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "fdcc6ac7-b04e-44f7-8c5e-e0770a297869",
+    "text": "Ein Beschäftigter nutzt sein privates Smartphone, um kurzfristig eine dienstliche E-Mail mit vertraulichem Anhang zu lesen, da sein Diensthandy gerade nicht griffbereit ist. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Nutzung eines nicht verwalteten privaten Geräts für vertrauliche Inhalte kann eine zusätzliche Schwachstelle darstellen"
+      },
+      {
+        "label": "B",
+        "text": "Die Nutzung eines privaten Geräts ist unproblematisch, solange die Person selbst berechtigt ist, den Inhalt zu lesen"
+      },
+      {
+        "label": "C",
+        "text": "Private Geräte stellen grundsätzlich keine andere Risikolage dar als verwaltete Diensthandys"
+      },
+      {
+        "label": "D",
+        "text": "Das Risiko betrifft ausschließlich die Verfügbarkeit der E-Mail"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Beschäftigter liest eine vertrauliche E-Mail auf seinem privaten Smartphone, weil das Diensthandy nicht griffbereit ist.",
+      "whyCorrect": "A ist richtig, weil ein nicht verwaltetes privates Gerät zusätzliche, nicht kontrollierte Schwachstellen (z. B. fehlendes Sicherheitsmanagement) mit sich bringen kann.",
+      "whyIncorrect": "B ist falsch, weil auch die Berechtigung zum Lesen nicht ausreicht, wenn das Gerät selbst unsicher ist. C ist falsch, weil private und verwaltete Geräte sich in der Regel im Sicherheitsniveau unterscheiden. D ist falsch, weil primär die Vertraulichkeit, nicht die Verfügbarkeit betroffen ist.",
+      "commonTrap": "Die Berechtigung der Person wird mit der Sicherheit des verwendeten Geräts verwechselt.",
+      "testedConcept": "BYOD-Risiko"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "5ab08145-2a7d-4b6c-b770-faa2fb131bdf",
+    "text": "Eine Organisation erfährt von einer neuen, in den Medien breit diskutierten Angriffsmethode, die branchenweit genutzte Software betrifft, prüft aber nicht, ob sie selbst betroffen sein könnte. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Medienberichte über Angriffsmethoden sind für die eigene Bedrohungsbewertung grundsätzlich ohne Bedeutung"
+      },
+      {
+        "label": "B",
+        "text": "Die Organisation sollte prüfen, ob die betroffene Software auch bei ihr im Einsatz ist und welche Bedrohungslage sich daraus ergibt"
+      },
+      {
+        "label": "C",
+        "text": "Eine Prüfung ist nur erforderlich, wenn die eigene Organisation bereits konkret angegriffen wurde"
+      },
+      {
+        "label": "D",
+        "text": "Branchenweit bekannte Angriffsmethoden betreffen ausschließlich große Unternehmen"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine Organisation erfährt von einer breit diskutierten Angriffsmethode, prüft aber nicht die eigene Betroffenheit.",
+      "whyCorrect": "B ist richtig, weil die Organisation prüfen sollte, ob sie die betroffene Software selbst einsetzt und welche Bedrohungslage sich daraus für sie ergibt.",
+      "whyIncorrect": "A ist falsch, weil Medienberichte über branchenweite Angriffsmethoden für die eigene Bedrohungsbewertung sehr wohl relevant sein können. C ist falsch, weil eine Prüfung nicht erst nach einem bereits erfolgten eigenen Angriff sinnvoll ist, sondern präventiv. D ist falsch, weil branchenweite Methoden auch kleinere Unternehmen betreffen können.",
+      "commonTrap": "Externe Bedrohungsinformationen werden ignoriert, solange kein eigener Vorfall vorliegt.",
+      "testedConcept": "Proaktive Bedrohungsbeobachtung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "46c21c05-ab26-457f-8551-1dfc57b48590",
+    "text": "Eine Führungskraft teilt ihr persönliches Passwort mit einer vertretenden Person, damit diese während einer kurzen Abwesenheit dringende Freigaben erteilen kann. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Weitergabe eines persönlichen Passworts schafft eine Schwachstelle, da Handlungen danach nicht mehr eindeutig einer Person zuordenbar sind"
+      },
+      {
+        "label": "B",
+        "text": "Die Weitergabe ist unproblematisch, solange beide Personen sich gegenseitig vertrauen"
+      },
+      {
+        "label": "C",
+        "text": "Passwortweitergabe betrifft ausschließlich die Verfügbarkeit des betroffenen Kontos"
+      },
+      {
+        "label": "D",
+        "text": "Eine kurzfristige Weitergabe für dringende Fälle ist grundsätzlich von jeder Sicherheitsbetrachtung ausgenommen"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine Führungskraft gibt ihr persönliches Passwort an eine vertretende Person weiter, damit diese Freigaben erteilen kann.",
+      "whyCorrect": "A ist richtig, weil die Weitergabe eines persönlichen Passworts eine Schwachstelle schafft, da Handlungen danach nicht mehr eindeutig einer Person zugeordnet werden können.",
+      "whyIncorrect": "B ist falsch, weil gegenseitiges Vertrauen die fehlende Zuordenbarkeit von Handlungen nicht ersetzt. C ist falsch, weil primär die Zuordenbarkeit (Verbindlichkeit), nicht nur die Verfügbarkeit betroffen ist. D ist falsch, weil auch dringende, kurzfristige Weitergaben sicherheitsrelevant bleiben.",
+      "commonTrap": "Kurzfristige, gut gemeinte Ausnahmen bei der Passwortweitergabe werden als unproblematisch eingestuft.",
+      "testedConcept": "Zuordenbarkeit von Handlungen (Verbindlichkeit)"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "0df1dd0c-fe7d-457c-98a1-3cbe3ea6a727",
+    "text": "Ein Unternehmen speichert Sicherungskopien seiner wichtigsten Daten im selben Gebäude wie die Originaldaten, jedoch in einem anderen Stockwerk. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine Sicherungskopie im selben Gebäude bietet stets denselben Schutz wie eine räumlich getrennte Sicherung"
+      },
+      {
+        "label": "B",
+        "text": "Ein Ereignis wie ein Gebäudebrand könnte sowohl Original als auch Sicherungskopie gleichzeitig betreffen"
+      },
+      {
+        "label": "C",
+        "text": "Die Lagerung im selben Gebäude betrifft ausschließlich die Vertraulichkeit der Daten"
+      },
+      {
+        "label": "D",
+        "text": "Eine Sicherungskopie erfüllt ihren Zweck unabhängig vom Lagerort vollständig"
+      }
+    ],
+    "explanation": {
+      "summary": "Sicherungskopien werden im selben Gebäude wie die Originaldaten gelagert, nur in einem anderen Stockwerk.",
+      "whyCorrect": "B ist richtig, weil ein Ereignis wie ein Gebäudebrand sowohl Original als auch Sicherungskopie gleichzeitig betreffen könnte.",
+      "whyIncorrect": "A ist falsch, weil derselbe Gebäudekomplex nicht denselben Schutz wie eine räumlich getrennte Sicherung bietet. C ist falsch, weil primär die Verfügbarkeit, nicht die Vertraulichkeit betroffen ist. D ist falsch, weil der Lagerort den tatsächlichen Schutzeffekt der Sicherung sehr wohl beeinflusst.",
+      "commonTrap": "Eine Sicherungskopie wird als ausreichend angesehen, ohne die räumliche Nähe zum Original zu berücksichtigen.",
+      "testedConcept": "Räumliche Trennung von Backups"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Sicherungskopie"
+      }
+    ]
+  },
+  {
+    "id": "66b6a9ef-0a95-4790-b057-8f01f1d545e3",
+    "text": "Ein Beschäftigter fotografiert versehentlich einen Bildschirm mit vertraulichen Kundendaten für private Zwecke und löscht das Foto sofort wieder, nachdem er den Fehler bemerkt hat. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt eine kurzzeitige Gefährdung der Vertraulichkeit vor, auch wenn das Foto unmittelbar wieder gelöscht wurde"
+      },
+      {
+        "label": "B",
+        "text": "Da das Foto sofort gelöscht wurde, liegt keinerlei sicherheitsrelevanter Sachverhalt vor"
+      },
+      {
+        "label": "C",
+        "text": "Ein einmal erstelltes Foto stellt zwingend einen bereits eingetretenen Schaden dar"
+      },
+      {
+        "label": "D",
+        "text": "Das Löschen des Fotos beseitigt rückwirkend jede Relevanz für die Informationssicherheit"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Beschäftigter fotografiert versehentlich vertrauliche Kundendaten und löscht das Foto sofort wieder.",
+      "whyCorrect": "A ist richtig, weil bereits die kurzzeitige Erstellung des Fotos eine Gefährdung der Vertraulichkeit darstellt, auch wenn es sofort gelöscht wurde.",
+      "whyIncorrect": "B ist falsch, weil das sofortige Löschen den zuvor entstandenen Vertraulichkeitsvorfall nicht rückwirkend beseitigt. C ist falsch, weil nicht zwingend ein Schaden eingetreten sein muss, wenn niemand das Foto weiterverwendet hat. D ist falsch, weil das Löschen die Relevanz für die Sicherheit nicht rückwirkend aufhebt, sondern lediglich das weitere Risiko begrenzt.",
+      "commonTrap": "Ein sofort behobener Fehler wird als vollständig irrelevant für die Sicherheit angesehen.",
+      "testedConcept": "Kurzzeitige Gefährdung der Vertraulichkeit"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "7cfb131b-1659-4847-a4ad-bb3bf806fecd",
+    "text": "Ein Unternehmen verwendet für mehrere unterschiedliche Systeme dasselbe Administratorpasswort, um die Verwaltung zu vereinfachen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ein gemeinsames Administratorpasswort erhöht grundsätzlich die Sicherheit, da es leichter zu verwalten ist"
+      },
+      {
+        "label": "B",
+        "text": "Ein kompromittiertes gemeinsames Passwort würde gleichzeitig alle betroffenen Systeme gefährden"
+      },
+      {
+        "label": "C",
+        "text": "Die Verwendung desselben Passworts für mehrere Systeme betrifft ausschließlich die Verfügbarkeit dieser Systeme"
+      },
+      {
+        "label": "D",
+        "text": "Vereinfachte Verwaltung rechtfertigt grundsätzlich jede Reduzierung individueller Zugangsdaten"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Unternehmen verwendet für mehrere Systeme dasselbe Administratorpasswort, um die Verwaltung zu vereinfachen.",
+      "whyCorrect": "B ist richtig, weil ein kompromittiertes gemeinsames Passwort gleichzeitig alle betroffenen Systeme gefährden würde.",
+      "whyIncorrect": "A ist falsch, weil einfache Verwaltung keine erhöhte Sicherheit bedeutet, im Gegenteil erhöht sie das Risiko. C ist falsch, weil primär die Vertraulichkeit/Integrität mehrerer Systeme, nicht nur die Verfügbarkeit betroffen ist. D ist falsch, weil vereinfachte Verwaltung Sicherheitsrisiken nicht automatisch rechtfertigt.",
+      "commonTrap": "Bequemlichkeit bei der Passwortverwaltung wird über die Risikoerhöhung durch ein einziges kompromittierbares Passwort gestellt.",
+      "testedConcept": "Kaskadenrisiko durch gemeinsame Zugangsdaten"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "5d7a876d-6642-424e-a9d5-b0c9af1bff49",
+    "text": "Ein Praktikant erhält versehentlich Zugriff auf einen Ordner mit Gehaltsdaten, obwohl seine Rolle dies nicht erfordert; er öffnet den Ordner nicht und meldet den Fehler sofort. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt eine Schwachstelle in der Rechtevergabe vor, unabhängig davon, ob der Zugriff tatsächlich genutzt wurde"
+      },
+      {
+        "label": "B",
+        "text": "Da der Ordner nicht geöffnet wurde, liegt keinerlei sicherheitsrelevanter Sachverhalt vor"
+      },
+      {
+        "label": "C",
+        "text": "Die Meldung des Fehlers macht die zugrunde liegende Schwachstelle rückwirkend bedeutungslos"
+      },
+      {
+        "label": "D",
+        "text": "Eine überzogene Rechtevergabe ist erst dann relevant, wenn sie tatsächlich missbraucht wird"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Praktikant erhält versehentlich Zugriff auf Gehaltsdaten, öffnet den Ordner aber nicht und meldet den Fehler sofort.",
+      "whyCorrect": "A ist richtig, weil eine überzogene Rechtevergabe unabhängig von der tatsächlichen Nutzung eine Schwachstelle darstellt.",
+      "whyIncorrect": "B ist falsch, weil die Schwachstelle bereits durch die fehlerhafte Rechtevergabe besteht, unabhängig davon, ob der Ordner geöffnet wurde. C ist falsch, weil die Meldung des Fehlers die zugrunde liegende Ursache nicht rückwirkend beseitigt, sie muss noch korrigiert werden. D ist falsch, weil eine Schwachstelle bereits vor einem tatsächlichen Missbrauch relevant und behebenswert ist.",
+      "commonTrap": "Eine Schwachstelle wird erst dann als relevant angesehen, wenn sie tatsächlich ausgenutzt wurde.",
+      "testedConcept": "Schwachstelle unabhängig von tatsächlicher Nutzung"
+    },
+    "vocabulary": []
+  }
+]

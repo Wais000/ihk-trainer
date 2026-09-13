@@ -1,0 +1,342 @@
+[
+  {
+    "id": "33df50b4-2eb3-4f81-bc65-413a931c3381",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Verzeichnis von Verarbeitungstätigkeiten",
+    "difficulty": 2,
+    "examKeywords": ["Verzeichnis von Verarbeitungstätigkeiten", "Datenschutz", "Rechtsgrundlage", "Zweckbindung"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen personenbezogene Daten in mehreren Abteilungen verarbeitet, aber keine zentrale Übersicht darüber führt.",
+        "whyCorrect": "Datenschutzrechtliche Vorgaben verlangen üblicherweise, dass ein Unternehmen ein Verzeichnis von Verarbeitungstätigkeiten führt, in dem für jede Verarbeitung Zweck, betroffene Datenkategorien und Rechtsgrundlage dokumentiert werden. Dieses Verzeichnis dient dazu, den Überblick über alle Verarbeitungen zu behalten und Rechenschaft gegenüber Aufsichtsbehörden ablegen zu können. Es handelt sich nicht um bloße Verwaltungsroutine, ist nicht auf Gesundheitsdaten beschränkt und entfällt auch nicht automatisch durch die Benennung eines Datenschutzbeauftragten."
+      },
+      "en": {
+        "summary": "The question asks how to assess a situation where a company processes personal data across several departments but keeps no central overview of it.",
+        "whyCorrect": "Data protection law typically requires a company to maintain a record of processing activities, documenting the purpose, categories of data involved, and legal basis for each processing activity. This record serves to keep track of all processing activities and to demonstrate accountability to supervisory authorities. It is not merely an administrative routine, it is not limited to health data, and it does not automatically become unnecessary just because a data protection officer has been appointed."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که یک شرکت داده‌های شخصی را در چندین بخش پردازش می‌کند، اما هیچ فهرست مرکزی از آن ندارد.",
+        "whyCorrect": "الزامات حقوق حفاظت از داده‌ها معمولاً ایجاب می‌کنند که یک شرکت فهرستی از فعالیت‌های پردازش داشته باشد که در آن هدف، دسته‌های داده مربوطه، و مبنای حقوقی هر فعالیت پردازش مستند شده باشد. این فهرست به حفظ دید کلی بر همه فعالیت‌های پردازش و امکان پاسخ‌گویی به نهادهای نظارتی کمک می‌کند. این کار صرفاً یک روال اداری نیست، محدود به داده‌های سلامتی نیست، و همچنین با تعیین یک مسئول حفاظت از داده‌ها به‌طور خودکار منتفی نمی‌شود."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך מצב שבו חברה מעבדת נתונים אישיים במספר מחלקות, ללא סקירה מרכזית של כך.",
+        "whyCorrect": "דיני הגנת הפרטיות מחייבים בדרך כלל שחברה תנהל רישום של פעילויות עיבוד, שבו מתועדים המטרה, קטגוריות הנתונים הרלוונטיים והבסיס המשפטי לכל פעילות עיבוד. רישום זה משמש לשמירת תמונה כוללת של כל פעילויות העיבוד ולמתן דין וחשבון לרשויות הפיקוח. אין מדובר בסתם שגרה מנהלית, זה אינו מוגבל לנתוני בריאות, וזה גם אינו מתבטל אוטומטית עם מינוי ממונה הגנת פרטיות."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Verzeichnis von Verarbeitungstätigkeiten", "english": "record of processing activities", "dari": "فهرست فعالیت‌های پردازش", "hebrew": "רישום פעילויות עיבוד", "shortGermanExplanation": "Eine datenschutzrechtlich vorgeschriebene Dokumentation aller Datenverarbeitungen eines Unternehmens." },
+      { "germanWord": "Rechtsgrundlage", "english": "legal basis", "dari": "مبنای حقوقی", "hebrew": "בסיס משפטי", "shortGermanExplanation": "Die rechtliche Erlaubnis, aufgrund derer Daten verarbeitet werden dürfen." }
+    ],
+    "questionTranslation": {
+      "en": "A company processes personal data in several departments but does not keep a central overview of what processing activities take place and for what purpose. Which classification is most accurate?",
+      "dari": "یک شرکت داده‌های شخصی را در چندین بخش پردازش می‌کند، اما هیچ فهرست مرکزی درباره اینکه چه فعالیت‌های پردازشی انجام می‌شود و با چه هدفی، ندارد. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מעבדת נתונים אישיים במספר מחלקות, אך אינה מנהלת סקירה מרכזית לגבי אילו פעילויות עיבוד מתבצעות ולאיזו מטרה. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "111a6969-e49b-40e3-82f8-2494c461b254",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Kontrolle von Zulieferern",
+    "difficulty": 3,
+    "examKeywords": ["Zulieferer", "vertragliche Anforderungen", "Umsetzungsprüfung", "Lieferantenmanagement"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen von einem Zulieferer vertraglich Sicherheitsanforderungen verlangt, deren Umsetzung aber nie überprüft.",
+        "whyCorrect": "Eine vertragliche Verpflichtung allein stellt sicher, dass Anforderungen formal vereinbart wurden, garantiert aber nicht deren tatsächliche Einhaltung in der Praxis. Ohne eine Möglichkeit zur Überprüfung, etwa durch Audits oder Nachweise, bleibt für das auftraggebende Unternehmen unklar, ob der Zulieferer die vereinbarten Sicherheitsanforderungen wirklich umsetzt. Die vertragliche Regelung ersetzt daher keine Kontrolle, und diese ist nicht auf Zulieferer außerhalb der EU beschränkt."
+      },
+      "en": {
+        "summary": "The question asks how to assess a situation where a company contractually requires a supplier to meet certain security requirements but never checks whether these are actually implemented.",
+        "whyCorrect": "A contractual obligation alone only ensures that requirements have been formally agreed upon, but it does not guarantee their actual compliance in practice. Without any means of verification, such as audits or evidence, the commissioning company cannot be sure whether the supplier is really implementing the agreed security requirements. The contractual arrangement therefore does not replace oversight, and this need for verification is not limited to suppliers outside the EU."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که یک شرکت از یک تأمین‌کننده به‌طور قراردادی الزامات امنیتی می‌خواهد، اما هرگز اجرای واقعی آن‌ها را بررسی نمی‌کند.",
+        "whyCorrect": "یک تعهد قراردادی به‌تنهایی فقط تضمین می‌کند که الزامات به‌طور رسمی توافق شده‌اند، اما رعایت واقعی آن‌ها در عمل را تضمین نمی‌کند. بدون امکان بررسی، مثلاً از طریق ممیزی یا مدارک، برای شرکت سفارش‌دهنده روشن نیست که آیا تأمین‌کننده واقعاً الزامات امنیتی توافق‌شده را اجرا می‌کند یا نه. بنابراین تنظیم قراردادی جایگزین نظارت نمی‌شود، و این نظارت محدود به تأمین‌کنندگان خارج از اتحادیه اروپا نیست."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך מצב שבו חברה דורשת בחוזה מספק לעמוד בדרישות אבטחה מסוימות, אך מעולם אינה בודקת אם אלה מיושמות בפועל.",
+        "whyCorrect": "התחייבות חוזית לבדה מבטיחה רק שהדרישות סוכמו רשמית, אך אינה מבטיחה עמידה בפועל בהן. ללא אמצעי כלשהו לאימות, כמו ביקורת או ראיות, לחברה המזמינה אין ודאות האם הספק אכן מיישם את דרישות האבטחה שסוכמו. לכן ההסדר החוזי אינו מחליף פיקוח, וצורך זה בבדיקה אינו מוגבל לספקים מחוץ לאיחוד האירופי."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Umsetzungsprüfung", "english": "implementation check", "dari": "بررسی اجرا", "hebrew": "בדיקת יישום", "shortGermanExplanation": "Die Überprüfung, ob vereinbarte Anforderungen tatsächlich in der Praxis umgesetzt werden." },
+      { "germanWord": "Zulieferer", "english": "supplier", "dari": "تأمین‌کننده", "hebrew": "ספק", "shortGermanExplanation": "Ein externes Unternehmen, das Waren oder Dienstleistungen liefert." }
+    ],
+    "questionTranslation": {
+      "en": "A company contractually requires a supplier to comply with certain security requirements but never checks whether these are actually implemented. Which classification is most accurate?",
+      "dari": "یک شرکت از یک تأمین‌کننده به‌طور قراردادی می‌خواهد که الزامات امنیتی معینی را رعایت کند، اما هرگز اجرای واقعی آن‌ها را بررسی نمی‌کند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה דורשת בחוזה מספק לעמוד בדרישות אבטחה מסוימות, אך מעולם אינה בודקת האם אלה מיושמות בפועל. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "18cbea00-08b7-4367-938b-8754b7ada16b",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Umgang mit Behördenanfragen",
+    "difficulty": 2,
+    "examKeywords": ["Aufsichtsbehörde", "Behördenanfrage", "Verbindlichkeit", "Reaktionspflicht"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen eine Anfrage einer Aufsichtsbehörde zur Cybersicherheitslage ignoriert, weil es sie für unverbindlich hält.",
+        "whyCorrect": "Anfragen einer zuständigen Aufsichtsbehörde sollten grundsätzlich ernst genommen werden, und ihre tatsächliche Verbindlichkeit muss im jeweiligen Einzelfall geprüft werden, statt sie pauschal als unverbindlich abzutun. Behördliche Anfragen können rechtliche Grundlagen haben, die eine Reaktion oder Auskunft tatsächlich erfordern; ein Ignorieren birgt daher Risiken. Die Form der Anfrage oder eine vorherige Zertifizierung sind dabei nicht entscheidend."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company ignoring an inquiry from a supervisory authority about its cybersecurity status because it considers the inquiry non-binding.",
+        "whyCorrect": "Inquiries from a competent supervisory authority should generally be taken seriously, and their actual bindingness must be assessed on a case-by-case basis rather than being dismissed outright as non-binding. Official inquiries can have legal grounds that genuinely require a response or disclosure of information; ignoring them therefore carries risks. The form of the inquiry or prior certification are not decisive factors here."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که یک شرکت درخواست یک نهاد نظارتی درباره وضعیت امنیت سایبری را نادیده می‌گیرد، زیرا آن را غیرالزام‌آور می‌داند.",
+        "whyCorrect": "درخواست‌های یک نهاد نظارتی صلاحیت‌دار اساساً باید جدی گرفته شوند، و الزام‌آور بودن واقعی آن‌ها باید به‌صورت جداگانه برای هر مورد بررسی شود، به‌جای اینکه به‌طور کلی غیرالزام‌آور تلقی شوند. درخواست‌های رسمی می‌توانند مبنای قانونی داشته باشند که واقعاً نیازمند پاسخ یا ارائه اطلاعات هستند؛ بنابراین نادیده گرفتن آن‌ها ریسک به همراه دارد. شکل درخواست یا گواهی‌نامه قبلی در این زمینه تعیین‌کننده نیستند."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך מצב שבו חברה מתעלמת מפנייה מרשות פיקוח בנוגע למצב אבטחת הסייבר שלה, מכיוון שהיא רואה בפנייה כלא מחייבת.",
+        "whyCorrect": "פניות מרשות פיקוח מוסמכת צריכות להילקח ברצינות באופן עקרוני, ומחייבותן בפועל צריכה להיבדק בכל מקרה לגופו, ולא להתפטר ממנה גורף כלא מחייבת. פניות רשמיות יכולות להתבסס על עילות משפטיות שמחייבות בפועל תגובה או מסירת מידע; לכן התעלמות מהן טומנת בחובה סיכונים. צורת הפנייה או הסמכה קודמת אינם גורמים מכריעים כאן."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Aufsichtsbehörde", "english": "supervisory authority", "dari": "نهاد نظارتی", "hebrew": "רשות פיקוח", "shortGermanExplanation": "Eine staatliche Stelle, die die Einhaltung von Vorschriften überwacht." },
+      { "germanWord": "unverbindlich", "english": "non-binding", "dari": "غیرالزام‌آور", "hebrew": "לא מחייב", "shortGermanExplanation": "Ohne rechtliche Verpflichtung zur Befolgung." }
+    ],
+    "questionTranslation": {
+      "en": "A company receives an inquiry from a supervisory authority about its cybersecurity status but does not respond because it considers the inquiry non-binding. Which classification is most accurate?",
+      "dari": "یک شرکت درخواستی از یک نهاد نظارتی درباره وضعیت امنیت سایبری خود دریافت می‌کند، اما پاسخ نمی‌دهد زیرا آن را غیرالزام‌آور می‌داند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מקבלת פנייה מרשות פיקוח בנוגע למצב אבטחת הסייבר שלה, אך אינה מגיבה מכיוון שהיא רואה בפנייה כלא מחייבת. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "dfb5ed37-8ad9-4d9d-a9f1-214cc5aa9619",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Internationale Datenschutzanforderungen",
+    "difficulty": 4,
+    "examKeywords": ["Tochtergesellschaft", "internationales Recht", "Rechtsordnung", "Datenschutz", "Konzern"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, wenn eine ausländische Tochtergesellschaft personenbezogene Daten von Kunden im Heimatland des Mutterunternehmens verarbeitet.",
+        "whyCorrect": "Bei grenzüberschreitenden Konzernstrukturen können sich die Anforderungen mehrerer Rechtsordnungen gleichzeitig überschneiden, etwa das Recht des Sitzlandes der Tochtergesellschaft und das Recht des Landes, in dem die betroffenen Kunden ansässig sind. Diese verschiedenen Anforderungen müssen einzeln geprüft werden, da weder ausschließlich das eine noch das andere Recht automatisch allein maßgeblich ist. Internationale Strukturen befreien ein Unternehmen nicht generell von nationalen Datenschutzanforderungen."
+      },
+      "en": {
+        "summary": "The question asks how to assess a situation where a foreign subsidiary processes personal data of customers located in the parent company's home country.",
+        "whyCorrect": "In cross-border corporate structures, the requirements of several jurisdictions can overlap simultaneously, for example the law of the subsidiary's home country and the law of the country where the affected customers reside. These different requirements must be examined individually, since neither one law nor the other is automatically the sole governing one. International corporate structures do not generally exempt a company from national data protection requirements."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود وقتی یک شرکت فرعی خارجی داده‌های شخصی مشتریانی را پردازش می‌کند که در کشور اصلی شرکت مادر ساکن هستند.",
+        "whyCorrect": "در ساختارهای شرکتی فرامرزی، الزامات چندین نظام حقوقی می‌توانند به‌طور همزمان با هم همپوشانی داشته باشند، مثلاً قانون کشوری که شرکت فرعی در آن مستقر است و قانون کشوری که مشتریان متأثر در آن زندگی می‌کنند. این الزامات مختلف باید به‌طور جداگانه بررسی شوند، زیرا نه یکی و نه دیگری به‌طور خودکار به‌تنهایی حاکم نیست. ساختارهای بین‌المللی به‌طور کلی شرکت را از الزامات ملی حفاظت از داده‌ها معاف نمی‌کنند."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך מצב שבו חברת בת זרה מעבדת נתונים אישיים של לקוחות המתגוררים במדינת המוצא של חברת האם.",
+        "whyCorrect": "במבנים תאגידיים חוצי גבולות, הדרישות של מספר מערכות משפט יכולות לחפוף בו-זמנית, למשל חוק מדינת המושב של חברת הבת וחוק המדינה שבה מתגוררים הלקוחות המושפעים. יש לבחון דרישות שונות אלה בנפרד, מכיוון שאף לא אחד מהחוקים חל אוטומטית באופן בלעדי. מבנים בינלאומיים אינם פוטרים חברה באופן כללי מדרישות הגנת פרטיות לאומיות."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Rechtsordnung", "english": "legal system / jurisdiction", "dari": "نظام حقوقی", "hebrew": "מערכת משפט", "shortGermanExplanation": "Das Gesamtsystem der geltenden Rechtsvorschriften eines Landes." },
+      { "germanWord": "Tochtergesellschaft", "english": "subsidiary", "dari": "شرکت فرعی", "hebrew": "חברת בת", "shortGermanExplanation": "Ein Unternehmen, das rechtlich einem Mutterunternehmen untergeordnet ist." }
+    ],
+    "questionTranslation": {
+      "en": "A foreign subsidiary processes personal data of customers located in the parent company's home country. Which classification is most accurate?",
+      "dari": "یک شرکت فرعی خارجی داده‌های شخصی مشتریانی را پردازش می‌کند که در کشور اصلی شرکت مادر ساکن هستند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברת בת זרה מעבדת נתונים אישיים של לקוחות המתגוררים במדינת המוצא של חברת האם. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "113107af-b044-4fd9-9735-16be7814100c",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Geltungsbereich von Zertifizierungen",
+    "difficulty": 3,
+    "examKeywords": ["Zertifizierungs-Scope", "ISO/IEC 27001", "Geltungsbereich", "Konzernstruktur"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen annimmt, seine ISO/IEC-27001-Zertifizierung decke automatisch alle Standorte und Tochtergesellschaften des Konzerns ab.",
+        "whyCorrect": "Der Geltungsbereich (Scope) einer ISO/IEC-27001-Zertifizierung bezieht sich häufig nur auf bestimmte, klar definierte Standorte, Systeme oder Organisationseinheiten und nicht automatisch auf den gesamten Konzern. Deshalb sollte der tatsächliche Geltungsbereich einer Zertifizierung stets konkret geprüft werden, statt von einer pauschalen, konzernweiten Abdeckung auszugehen. Eine Zertifizierung gilt zudem nicht automatisch für Vertragspartner des zertifizierten Unternehmens."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company assuming its ISO/IEC 27001 certification automatically covers all sites and subsidiaries of the group.",
+        "whyCorrect": "The scope of an ISO/IEC 27001 certification often applies only to specific, clearly defined sites, systems, or organizational units, and not automatically to the entire corporate group. Therefore, the actual scope of a certification should always be checked concretely, rather than assuming blanket, group-wide coverage. A certification also does not automatically extend to the certified company's contractual partners."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود وقتی شرکتی فرض می‌کند که گواهی‌نامه ISO/IEC 27001 آن به‌طور خودکار همه شعبات و شرکت‌های فرعی گروه را پوشش می‌دهد.",
+        "whyCorrect": "حیطه (Scope) یک گواهی‌نامه ISO/IEC 27001 معمولاً فقط به شعبات، سیستم‌ها یا واحدهای سازمانی مشخص و تعریف‌شده مربوط است، نه به‌طور خودکار به کل گروه شرکت‌ها. بنابراین باید حیطه واقعی یک گواهی‌نامه همیشه به‌طور مشخص بررسی شود، به‌جای فرض یک پوشش کلی و سراسری در سطح گروه. همچنین یک گواهی‌نامه به‌طور خودکار برای طرف‌های قراردادی شرکت گواهی‌شده اعمال نمی‌شود."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המניחה שהסמכת ISO/IEC 27001 שלה מכסה אוטומטית את כל האתרים וחברות הבת של הקבוצה.",
+        "whyCorrect": "היקף (Scope) של הסמכת ISO/IEC 27001 חל לעיתים קרובות רק על אתרים, מערכות או יחידות ארגוניות ספציפיות ומוגדרות היטב, ולא אוטומטית על כל קבוצת החברות. לכן יש תמיד לבדוק באופן קונקרטי את ההיקף בפועל של הסמכה, במקום להניח כיסוי גורף ברמת הקבוצה כולה. הסמכה גם אינה חלה אוטומטית על שותפים חוזיים של החברה המוסמכת."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Geltungsbereich", "english": "scope", "dari": "حیطه اعتبار", "hebrew": "היקף", "shortGermanExplanation": "Der genau definierte Bereich, für den eine Zertifizierung oder Regelung gilt." },
+      { "germanWord": "Zertifizierungs-Scope", "english": "certification scope", "dari": "حیطه گواهی‌نامه", "hebrew": "היקף ההסמכה", "shortGermanExplanation": "Die konkrete Abgrenzung, welche Standorte, Systeme oder Prozesse eine Zertifizierung abdeckt." }
+    ],
+    "questionTranslation": {
+      "en": "A company assumes that its ISO/IEC 27001 certification automatically covers all sites and subsidiaries of the group, without checking the actual scope of certification. Which classification is most accurate?",
+      "dari": "یک شرکت فرض می‌کند که گواهی‌نامه ISO/IEC 27001 آن به‌طور خودکار همه شعبات و شرکت‌های فرعی گروه را پوشش می‌دهد، بدون آنکه حیطه واقعی گواهی‌نامه را بررسی کند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מניחה שהסמכת ISO/IEC 27001 שלה מכסה אוטומטית את כל האתרים וחברות הבת של הקבוצה, מבלי לבדוק את היקף ההסמכה בפועל. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "15b05252-1bf7-4670-b5eb-28f8196a5783",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Vertragsgestaltung bei Cloud-Diensten",
+    "difficulty": 3,
+    "examKeywords": ["Cloud-Vertrag", "Sicherheitsvorfall", "Vorfallmeldung", "Verantwortlichkeiten"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen einen Cloud-Vertrag abschließt, ohne den Umgang mit Sicherheitsvorfällen beim Anbieter vertraglich zu regeln.",
+        "whyCorrect": "Vorfallmeldung, Zusammenarbeit und die Verantwortlichkeiten zwischen Kunde und Anbieter sollten vertraglich klar geregelt werden, damit im Ernstfall eines Sicherheitsvorfalls beide Seiten wissen, wer welche Schritte unternimmt und wie schnell informiert werden muss. Ohne eine solche Regelung besteht die Gefahr, dass im Ernstfall Unklarheit über Zuständigkeiten und Reaktionszeiten herrscht. Eine gesetzliche Meldepflicht des Anbieters allein ersetzt diese vertragliche Klärung nicht."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company signing a cloud service contract without contractually clarifying how security incidents at the provider will be handled.",
+        "whyCorrect": "Incident reporting, cooperation, and the responsibilities between customer and provider should be clearly set out in the contract, so that in the event of a real security incident, both sides know who takes which steps and how quickly notification must occur. Without such an arrangement, there is a risk of uncertainty about responsibilities and response times exactly when it matters most. A statutory reporting obligation on the provider's part alone does not replace this contractual clarification."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که یک شرکت قراردادی برای خدمات ابری امضا می‌کند، بدون آنکه نحوه برخورد با حوادث امنیتی نزد ارائه‌دهنده را به‌طور قراردادی مشخص کند.",
+        "whyCorrect": "گزارش‌دهی حوادث، همکاری، و مسئولیت‌های میان مشتری و ارائه‌دهنده باید به‌روشنی در قرارداد مشخص شوند، تا در صورت وقوع واقعی یک حادثه امنیتی، هر دو طرف بدانند چه اقداماتی باید انجام دهند و اطلاع‌رسانی چقدر سریع باید انجام شود. بدون چنین تنظیمی، خطر وجود ابهام درباره مسئولیت‌ها و زمان واکنش دقیقاً در لحظه‌ای که اهمیت دارد، وجود دارد. تعهد قانونی گزارش‌دهی ارائه‌دهنده به‌تنهایی جایگزین این شفاف‌سازی قراردادی نمی‌شود."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה החותמת על חוזה לשירות ענן, מבלי להבהיר בחוזה כיצד יטופלו אירועי אבטחה אצל הספק.",
+        "whyCorrect": "דיווח על אירועים, שיתוף פעולה ואחריות בין הלקוח לספק צריכים להיקבע בבירור בחוזה, כך שבמקרה של אירוע אבטחה אמיתי, שני הצדדים יידעו מי נוקט אילו צעדים ובאיזו מהירות יש להודיע. ללא הסדר כזה, קיים סיכון לחוסר בהירות לגבי אחריות וזמני תגובה בדיוק כאשר זה חשוב ביותר. חובת דיווח חוקית מצד הספק בלבד אינה מחליפה את ההבהרה החוזית הזו."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Vorfallmeldung", "english": "incident reporting", "dari": "گزارش‌دهی حادثه", "hebrew": "דיווח על אירוע", "shortGermanExplanation": "Die Benachrichtigung über einen eingetretenen Sicherheitsvorfall." },
+      { "germanWord": "Ernstfall", "english": "actual emergency / real incident", "dari": "وضعیت واقعی اضطراری", "hebrew": "מקרה אמיתי / חירום", "shortGermanExplanation": "Der tatsächliche Eintritt eines Sicherheitsvorfalls, im Unterschied zu einer Übung." }
+    ],
+    "questionTranslation": {
+      "en": "A company signs a contract for a cloud service without contractually clarifying how security incidents at the provider will be handled. Which classification is most accurate?",
+      "dari": "یک شرکت قراردادی برای خدمات ابری امضا می‌کند، بدون آنکه نحوه برخورد با حوادث امنیتی نزد ارائه‌دهنده را به‌طور قراردادی مشخص کند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה חותמת על חוזה לשירות ענן, מבלי להבהיר בחוזה כיצד יטופלו אירועי אבטחה אצל הספק. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "0b0731ce-95ad-4ba9-9c6b-2c384e0ad874",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Einheitliche Terminologie",
+    "difficulty": 2,
+    "examKeywords": ["Terminologie", "Nachvollziehbarkeit", "Vereinheitlichung", "interne Dokumente"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen dieselbe gesetzliche Anforderung je nach Abteilung unterschiedlich bezeichnet.",
+        "whyCorrect": "Uneinheitliche Bezeichnungen für dieselbe Anforderung erschweren die Nachvollziehbarkeit, etwa bei internen Prüfungen, Audits oder der abteilungsübergreifenden Zusammenarbeit, weil unklar werden kann, ob verschiedene Begriffe dieselbe oder unterschiedliche Anforderungen meinen. Eine einheitliche Terminologie sollte daher angestrebt werden, um Missverständnisse zu vermeiden und die Rückverfolgbarkeit von Anforderungen sicherzustellen. Dies betrifft nicht nur die externe Kommunikation, und die Bezeichnung ist auch nicht folgenlos für die praktische Umsetzung."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company using different terms for the same legal requirement depending on which department wrote the document.",
+        "whyCorrect": "Inconsistent terminology for the same requirement makes traceability harder, for example during internal reviews, audits, or cross-departmental collaboration, because it can become unclear whether different terms refer to the same requirement or to different ones. Consistent terminology should therefore be pursued to avoid misunderstandings and to ensure requirements can be tracked reliably. This matters not only for external communication, and the choice of terminology is not without consequences for practical implementation either."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که یک شرکت برای یک الزام قانونی یکسان، بسته به بخش مربوطه، از عبارات مختلف استفاده می‌کند.",
+        "whyCorrect": "استفاده از عبارات ناهماهنگ برای یک الزام یکسان، قابلیت پیگیری را دشوار می‌کند، مثلاً در بازرسی‌های داخلی، ممیزی‌ها یا همکاری میان بخش‌های مختلف، زیرا ممکن است روشن نباشد که آیا عبارات مختلف به یک الزام یکسان اشاره دارند یا الزامات متفاوت. بنابراین باید تلاش شود که اصطلاحات یکسانی به کار رود تا از سوءتفاهم جلوگیری شود و قابلیت پیگیری الزامات تضمین گردد. این موضوع نه فقط به ارتباطات بیرونی مربوط می‌شود، و انتخاب عبارت نیز بر اجرای عملی بی‌تأثیر نیست."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המשתמשת במונחים שונים לאותה דרישה חוקית, בהתאם למחלקה שיצרה את המסמך.",
+        "whyCorrect": "מינוח לא אחיד עבור אותה דרישה מקשה על מעקב, למשל בבדיקות פנימיות, ביקורות, או שיתוף פעולה בין מחלקות, מכיוון שעלול להיווצר חוסר בהירות האם מונחים שונים מתייחסים לאותה דרישה או לדרישות שונות. לכן יש לשאוף למינוח אחיד כדי למנוע אי-הבנות ולהבטיח מעקב אחר דרישות. הדבר נוגע לא רק לתקשורת חיצונית, ובחירת המינוח גם אינה חסרת השפעה על היישום המעשי."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Nachvollziehbarkeit", "english": "traceability", "dari": "قابلیت پیگیری", "hebrew": "מעקב / יכולת אימות", "shortGermanExplanation": "Die Möglichkeit, den Ursprung und die Bedeutung einer Anforderung klar zu verfolgen." },
+      { "germanWord": "Vereinheitlichung", "english": "standardization / unification", "dari": "یکسان‌سازی", "hebrew": "אחדה", "shortGermanExplanation": "Das Angleichen unterschiedlicher Begriffe oder Vorgehensweisen auf einen gemeinsamen Standard." }
+    ],
+    "questionTranslation": {
+      "en": "A company uses different terms for the same legal requirement in its internal documents, depending on which department created the document. Which classification is most accurate?",
+      "dari": "یک شرکت در اسناد داخلی خود برای یک الزام قانونی یکسان، بسته به اینکه کدام بخش سند را تهیه کرده، از عبارات مختلف استفاده می‌کند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה משתמשת במונחים שונים לאותה דרישה חוקית במסמכים הפנימיים שלה, בהתאם למחלקה שיצרה את המסמך. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "6c592b65-b79d-4ff8-a64c-26945d73dcb8",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Verbindlichkeit von Branchenempfehlungen",
+    "difficulty": 3,
+    "examKeywords": ["Branchenempfehlung", "Fachorganisation", "Verbindlichkeit", "unverbindlich"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass sich ein Unternehmen strikt an Empfehlungen einer Fachorganisation hält, ohne deren rechtliche Verbindlichkeit zu prüfen.",
+        "whyCorrect": "Empfehlungen von Fachorganisationen haben häufig zunächst unverbindlichen Charakter und werden nicht automatisch zu Gesetzen, nur weil sie branchenüblich befolgt werden. Die tatsächliche Verbindlichkeit sollte deshalb separat geprüft werden, etwa ob die Empfehlung durch Vertrag, Gesetz oder eigene interne Festlegung verbindlich gemacht wurde. Das bloße Befolgen einer Empfehlung macht eine solche Prüfung nicht überflüssig, und Empfehlungen sind auch nicht grundsätzlich bedeutungslos."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company strictly following the recommendations of an industry organization without checking whether these recommendations are actually legally binding.",
+        "whyCorrect": "Recommendations from industry organizations often initially have a non-binding character and do not automatically become law just because they are commonly followed within the industry. Their actual bindingness should therefore be checked separately — for instance, whether the recommendation has been made binding through a contract, a law, or the company's own internal decision. Simply following a recommendation does not make such a check unnecessary, and recommendations are not fundamentally meaningless either."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که به‌طور دقیق از توصیه‌های یک سازمان تخصصی پیروی می‌کند، بدون آنکه الزام‌آور بودن قانونی آن‌ها را بررسی کند.",
+        "whyCorrect": "توصیه‌های سازمان‌های تخصصی معمولاً در ابتدا ماهیت غیرالزام‌آور دارند و صرفاً به این دلیل که در آن صنعت رایج هستند، به‌طور خودکار تبدیل به قانون نمی‌شوند. بنابراین الزام‌آور بودن واقعی آن‌ها باید جداگانه بررسی شود، مثلاً اینکه آیا این توصیه از طریق قرارداد، قانون، یا تصمیم داخلی خود شرکت الزام‌آور شده است یا نه. صرف پیروی از یک توصیه، این بررسی را غیرضروری نمی‌سازد، و توصیه‌ها هم به‌طور بنیادین بی‌معنا نیستند."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה הנצמדת בקפדנות להמלצות של ארגון מקצועי, מבלי לבדוק אם המלצות אלה מחייבות באמת מבחינה משפטית.",
+        "whyCorrect": "המלצות של ארגונים מקצועיים בדרך כלל בעלות אופי לא מחייב בתחילה, ואינן הופכות אוטומטית לחוק רק מכיוון שנהוג לפעול לפיהן בענף. לכן יש לבדוק בנפרד את מחייבותן בפועל — למשל, האם ההמלצה הפכה למחייבת באמצעות חוזה, חוק, או החלטה פנימית של החברה עצמה. הליכה אחר המלצה אינה הופכת בדיקה כזו למיותרת, וגם המלצות אינן חסרות משמעות באופן עקרוני."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Fachorganisation", "english": "professional/industry organization", "dari": "سازمان تخصصی", "hebrew": "ארגון מקצועי", "shortGermanExplanation": "Ein Verband oder eine Institution, die Fachwissen und Empfehlungen für eine Branche bereitstellt." },
+      { "germanWord": "unverbindlicher Charakter", "english": "non-binding character", "dari": "ماهیت غیرالزام‌آور", "hebrew": "אופי לא מחייב", "shortGermanExplanation": "Die Eigenschaft einer Empfehlung, zunächst keine rechtliche Verpflichtung zu erzeugen." }
+    ],
+    "questionTranslation": {
+      "en": "A company strictly follows the common recommendations of an industry organization without checking whether these recommendations are actually legally binding. Which classification is most accurate?",
+      "dari": "یک شرکت به‌طور دقیق از توصیه‌های رایج یک سازمان تخصصی پیروی می‌کند، بدون آنکه بررسی کند آیا این توصیه‌ها واقعاً از نظر قانونی الزام‌آور هستند یا نه. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה נצמדת בקפדנות להמלצות המקובלות של ארגון מקצועי, מבלי לבדוק האם המלצות אלה אכן מחייבות מבחינה משפטית. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "013eb8b5-7471-469c-b358-0d5fce75efcf",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Vertragsprüfung auf Sicherheitsanforderungen",
+    "difficulty": 2,
+    "examKeywords": ["Vertragsprüfung", "Informationssicherheit", "Datenschutz", "Vertragsgestaltung"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen einen neuen Vertrag abschließt, ohne ihn auf enthaltene Anforderungen an Informationssicherheit oder Datenschutz zu prüfen.",
+        "whyCorrect": "Verträge sollten routinemäßig auch auf enthaltene Sicherheits- und Datenschutzanforderungen geprüft werden, da solche Klauseln unabhängig von der Art des Vertragspartners vorkommen können und für die praktische Umsetzung im Unternehmen relevant sind. Diese Prüfung ist nicht auf Verträge mit IT-Dienstleistern beschränkt, sondern sollte bei Verträgen allgemein erfolgen, da Anforderungen an Sicherheit und Datenschutz in ganz unterschiedlichen Vertragsarten auftauchen können."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company signing a new contract without checking whether it contains requirements for information security or data protection.",
+        "whyCorrect": "Contracts should routinely be checked for included security and data protection requirements, since such clauses can appear regardless of the type of contractual partner and are relevant to how the company implements its obligations in practice. This check is not limited to contracts with IT service providers but should generally apply to contracts overall, since requirements for security and data protection can appear in many different types of agreements."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که یک شرکت قراردادی جدید امضا می‌کند، بدون بررسی اینکه آیا این قرارداد شامل الزاماتی در زمینه امنیت اطلاعات یا حفاظت از داده‌ها هست یا نه.",
+        "whyCorrect": "قراردادها باید به‌طور معمول از نظر وجود الزامات امنیتی و حفاظت از داده‌ها بررسی شوند، زیرا چنین بندهایی می‌توانند مستقل از نوع طرف قرارداد وجود داشته باشند و برای اجرای عملی در شرکت اهمیت دارند. این بررسی محدود به قراردادها با ارائه‌دهندگان خدمات فناوری اطلاعات نیست، بلکه باید به‌طور کلی برای همه قراردادها انجام شود، زیرا الزامات امنیتی و حفاظت از داده‌ها می‌توانند در انواع بسیار متفاوتی از قراردادها ظاهر شوند."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה החותמת על חוזה חדש מבלי לבדוק האם הוא כולל דרישות לאבטחת מידע או הגנת פרטיות.",
+        "whyCorrect": "חוזים צריכים להיבדק באופן שגרתי גם עבור דרישות אבטחה והגנת פרטיות שהם כוללים, מכיוון שסעיפים כאלה יכולים להופיע בלי קשר לסוג השותף החוזי והם רלוונטיים ליישום בפועל בחברה. בדיקה זו אינה מוגבלת לחוזים עם ספקי שירותי IT, אלא צריכה לחול על חוזים באופן כללי, שכן דרישות אבטחה והגנת פרטיות יכולות להופיע בסוגים שונים מאוד של הסכמים."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Vertragsprüfung", "english": "contract review", "dari": "بررسی قرارداد", "hebrew": "בדיקת חוזה", "shortGermanExplanation": "Die systematische Durchsicht eines Vertrags auf relevante Klauseln und Risiken." },
+      { "germanWord": "routinemäßig", "english": "routinely", "dari": "به‌طور معمول", "hebrew": "באופן שגרתי", "shortGermanExplanation": "Regelmäßig und standardmäßig, als fester Teil eines Prozesses." }
+    ],
+    "questionTranslation": {
+      "en": "A company signs a new contract without checking whether it contains requirements for information security or data protection. Which classification is most accurate?",
+      "dari": "یک شرکت قراردادی جدید امضا می‌کند، بدون بررسی اینکه آیا این قرارداد شامل الزاماتی در زمینه امنیت اطلاعات یا حفاظت از داده‌ها است یا نه. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה חותמת על חוזה חדש מבלי לבדוק האם הוא כולל דרישות לאבטחת מידע או הגנת פרטיות. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "b1d2f78c-ad49-4ffb-a3ec-5776c17ac35c",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Aktualität rechtlicher Übersichten",
+    "difficulty": 2,
+    "examKeywords": ["veraltete Übersicht", "rechtliche Pflichten", "Aktualisierung", "Compliance-Pflege"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen seine rechtlichen Pflichten ausschließlich anhand einer mehrere Jahre alten, nie aktualisierten internen Übersicht einschätzt.",
+        "whyCorrect": "Rechtliche Anforderungen ändern sich im Laufe der Zeit, etwa durch neue Gesetze, angepasste Normen oder geänderte Rechtsprechung. Eine veraltete Übersicht kann daher neue oder geänderte Pflichten übersehen und sollte deshalb regelmäßig aktualisiert werden, um weiterhin ein zutreffendes Bild der tatsächlichen Rechtslage zu liefern. Die Vorstellung, rechtliche Anforderungen änderten sich grundsätzlich nicht, oder eine Aktualisierung sei nur bei behördlicher Prüfung nötig, trifft nicht zu."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company relying exclusively on an internal overview of its legal obligations that is several years old and has never been updated.",
+        "whyCorrect": "Legal requirements change over time, for example through new laws, revised standards, or changes in case law. An outdated overview can therefore miss new or changed obligations and should be updated regularly in order to continue providing an accurate picture of the actual legal situation. The idea that legal requirements fundamentally never change, or that an update is only necessary in case of a regulatory inspection, is not correct."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که برای ارزیابی تعهدات قانونی خود صرفاً به یک فهرست داخلی چند سال پیش که هرگز به‌روزرسانی نشده تکیه می‌کند.",
+        "whyCorrect": "الزامات قانونی در طول زمان تغییر می‌کنند، مثلاً به دلیل قوانین جدید، معیارهای اصلاح‌شده، یا تغییر در رویه قضایی. بنابراین یک فهرست قدیمی ممکن است تعهدات جدید یا تغییریافته را نادیده بگیرد و باید به‌طور منظم به‌روزرسانی شود تا همچنان تصویری دقیق از وضعیت حقوقی واقعی ارائه دهد. این تصور که الزامات قانونی اساساً هرگز تغییر نمی‌کنند، یا اینکه به‌روزرسانی فقط در صورت بازرسی مقامات لازم است، درست نیست."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המסתמכת אך ורק על סקירה פנימית של חובותיה החוקיות שגילה כמה שנים ומעולם לא עודכנה.",
+        "whyCorrect": "דרישות חוקיות משתנות עם הזמן, למשל בעקבות חוקים חדשים, תקנים מעודכנים, או שינויים בפסיקה. לכן סקירה מיושנת עלולה לפספס חובות חדשות או משתנות, ולכן יש לעדכן אותה באופן קבוע כדי להמשיך לספק תמונה מדויקת של המצב המשפטי בפועל. הרעיון שדרישות חוקיות אינן משתנות באופן עקרוני, או שעדכון נחוץ רק לקראת בדיקה רגולטורית, אינו נכון."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "veraltete Übersicht", "english": "outdated overview", "dari": "فهرست قدیمی/منسوخ", "hebrew": "סקירה מיושנת", "shortGermanExplanation": "Eine Zusammenstellung von Informationen, die nicht mehr dem aktuellen Stand entspricht." },
+      { "germanWord": "Rechtsprechung", "english": "case law", "dari": "رویه قضایی", "hebrew": "פסיקה", "shortGermanExplanation": "Die Gesamtheit gerichtlicher Entscheidungen, die die Auslegung von Recht prägen." }
+    ],
+    "questionTranslation": {
+      "en": "A company relies exclusively on an internal overview of its legal obligations that is several years old and has never been updated since. Which classification is most accurate?",
+      "dari": "یک شرکت برای ارزیابی تعهدات قانونی خود صرفاً به یک فهرست داخلی چند سال پیش تکیه می‌کند که از آن زمان هرگز به‌روزرسانی نشده است. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מסתמכת אך ורק על סקירה פנימית של חובותיה החוקיות שגילה כמה שנים ומעולם לא עודכנה מאז. איזה סיווג המדויק ביותר?"
+    }
+  }
+]

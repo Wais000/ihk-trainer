@@ -1,0 +1,441 @@
+[
+  {
+    "id": "ba694061-8de7-4dc8-a53c-21fe86390a19",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Informationssicherheit vs. Datenschutz",
+    "difficulty": 3,
+    "examKeywords": ["Zugriffsmanagement", "Datenschutz", "Informationssicherheit", "personenbezogene Daten"],
+    "explanation": {
+      "de": {
+        "summary": "Es geht darum, ob das gemeinsame Zugriffsmanagement für personenbezogene Kundendaten und nicht personenbezogene Konstruktionspläne als Datenschutz oder als Informationssicherheit einzuordnen ist.",
+        "whyCorrect": "Informationssicherheit schützt Informationen unabhängig davon, ob sie personenbezogen sind oder nicht – sie umfasst Vertraulichkeit, Integrität und Verfügbarkeit aller schützenswerten Daten, also auch der Konstruktionspläne. Datenschutz ist dagegen ein rechtlicher Rahmen, der speziell den Schutz natürlicher Personen bei der Verarbeitung ihrer personenbezogenen Daten regelt. Das Zugriffsmanagement selbst ist eine technisch-organisatorische Maßnahme der Informationssicherheit; weil es hier auch personenbezogene Kundendaten schützt, unterstützt es an dieser Stelle zugleich Datenschutzanforderungen. Die beiden Bereiche überschneiden sich also, ohne identisch zu sein.",
+        "commonTrap": "Man könnte annehmen, dass jede Maßnahme, die personenbezogene Daten betrifft, automatisch dem Datenschutz zuzuordnen ist. Dabei übersieht man, dass das Zugriffsmanagement selbst ein Informationssicherheitscontrol ist, das hier lediglich zusätzlich datenschutzrelevante Wirkung entfaltet.",
+        "testedConcept": "Abgrenzung Informationssicherheit vs. Datenschutz"
+      },
+      "en": {
+        "summary": "The question asks whether shared access management covering both personal customer data and non-personal design plans should be classified as data protection or as information security.",
+        "whyCorrect": "Information security protects information regardless of whether it is personal or not — it covers confidentiality, integrity, and availability for all data worth protecting, including the design plans. Data protection, by contrast, is a legal framework specifically aimed at protecting natural persons when their personal data is processed. Access management itself is a technical/organizational information security control; because it also protects personal customer data here, it simultaneously supports data protection requirements in this case. The two areas overlap without being identical.",
+        "commonTrap": "It's tempting to assume that any measure touching personal data automatically counts as 'data protection.' This overlooks that access management itself is an information security control, which here happens to also have a data-protection effect.",
+        "testedConcept": "Distinguishing information security from data protection"
+      },
+      "dari": {
+        "summary": "این پرسش می‌پرسد که آیا مدیریت مشترک دسترسی، که هم داده‌های شخصی مشتریان و هم نقشه‌های فنی غیرشخصی را پوشش می‌دهد، باید به عنوان حفاظت از داده‌ها یا امنیت اطلاعات طبقه‌بندی شود.",
+        "whyCorrect": "امنیت اطلاعات از اطلاعات صرف‌نظر از اینکه شخصی باشند یا نه محافظت می‌کند - این شامل محرمانگی، یکپارچگی و در دسترس بودن همه داده‌های قابل حفاظت می‌شود، از جمله نقشه‌های فنی. در مقابل، حفاظت از داده‌ها یک چارچوب حقوقی است که به‌طور خاص برای حفاظت از اشخاص حقیقی هنگام پردازش داده‌های شخصی آنها طراحی شده است. مدیریت دسترسی خودش یک کنترل فنی-سازمانی امنیت اطلاعات است؛ چون در اینجا از داده‌های شخصی مشتریان نیز محافظت می‌کند، همزمان الزامات حفاظت از داده‌ها را نیز پشتیبانی می‌کند. این دو حوزه با هم همپوشانی دارند بدون اینکه یکسان باشند.",
+        "commonTrap": "ممکن است تصور شود که هر اقدامی که به داده‌های شخصی مربوط می‌شود، به‌طور خودکار «حفاظت از داده‌ها» محسوب می‌شود. اما این نادیده می‌گیرد که مدیریت دسترسی خودش یک کنترل امنیت اطلاعات است که در اینجا فقط اثر اضافی حفاظت از داده‌ها هم دارد.",
+        "testedConcept": "تفاوت میان امنیت اطلاعات و حفاظت از داده‌ها"
+      },
+      "he": {
+        "summary": "השאלה בוחנת האם ניהול הרשאות משותף המכסה גם נתוני לקוחות אישיים וגם תוכניות הנדסיות שאינן אישיות, צריך להיחשב כהגנת פרטיות או כאבטחת מידע.",
+        "whyCorrect": "אבטחת מידע מגנה על מידע ללא קשר לשאלה אם הוא אישי או לא - היא כוללת סודיות, שלמות וזמינות עבור כל מידע הראוי להגנה, כולל תוכניות הנדסיות. לעומת זאת, הגנת פרטיות היא מסגרת משפטית שמטרתה הספציפית היא הגנה על בני אדם בעת עיבוד נתוניהם האישיים. ניהול ההרשאות עצמו הוא אמצעי טכני-ארגוני של אבטחת מידע; מכיוון שכאן הוא גם מגן על נתוני לקוחות אישיים, הוא בו-זמנית תומך גם בדרישות הגנת הפרטיות במקרה הזה. שני התחומים חופפים חלקית מבלי להיות זהים.",
+        "commonTrap": "קל להניח שכל אמצעי הנוגע לנתונים אישיים נחשב אוטומטית ל'הגנת פרטיות'. אך זה מתעלם מכך שניהול ההרשאות עצמו הוא אמצעי אבטחת מידע, שכאן פשוט יש לו גם השפעה נוספת על הגנת הפרטיות.",
+        "testedConcept": "ההבחנה בין אבטחת מידע להגנת פרטיות"
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Zugriffsmanagement", "english": "access management", "dari": "مدیریت دسترسی", "hebrew": "ניהול הרשאות", "shortGermanExplanation": "Die Steuerung, wer auf welche Systeme oder Daten zugreifen darf." },
+      { "germanWord": "personenbezogene Daten", "english": "personal data", "dari": "داده‌های شخصی", "hebrew": "מידע אישי", "shortGermanExplanation": "Informationen, die sich einer bestimmten oder bestimmbaren natürlichen Person zuordnen lassen." },
+      { "germanWord": "Datenschutz", "english": "data protection", "dari": "حفاظت از داده‌ها", "hebrew": "הגנת פרטיות", "shortGermanExplanation": "Der rechtliche Schutz natürlicher Personen bei der Verarbeitung ihrer personenbezogenen Daten." },
+      { "germanWord": "Informationssicherheit", "english": "information security", "dari": "امنیت اطلاعات", "hebrew": "אבטחת מידע", "shortGermanExplanation": "Der Schutz von Vertraulichkeit, Integrität und Verfügbarkeit aller Informationen, unabhängig vom Personenbezug." },
+      { "germanWord": "Konstruktionspläne", "english": "design/engineering plans", "dari": "نقشه‌های فنی", "hebrew": "תוכניות הנדסיות", "shortGermanExplanation": "Technische Zeichnungen oder Pläne, die keinen Personenbezug haben." }
+    ],
+    "questionTranslation": {
+      "en": "During a review of compliance and information security, the following decision needs to be made: A mid-sized company protects personal customer data and non-personal design plans using the same access management. Which assessment best captures this situation?\nA) The classification depends on where the plans are stored, since digitally stored plans require a different level of protection\nB) The access management is data protection, because it primarily protects personal data here\nC) The access management is information security; for customer data it also supports data protection requirements\nD) The access management is information security, because data protection imposes its own legal rather than technical requirements",
+      "dari": "در جریان بررسی انطباق و امنیت اطلاعات، باید تصمیم زیر گرفته شود: یک شرکت متوسط، داده‌های شخصی مشتریان و نقشه‌های فنی غیرشخصی را با همان سیستم مدیریت دسترسی محافظت می‌کند. کدام ارزیابی این موضوع را دقیق‌ترین توصیف می‌کند؟\nA) طبقه‌بندی به محل ذخیره‌سازی نقشه‌ها بستگی دارد، زیرا نقشه‌های ذخیره‌شده به‌صورت دیجیتال به سطح حفاظت متفاوتی نیاز دارند\nB) مدیریت دسترسی، حفاظت از داده‌ها است، زیرا در اینجا عمدتاً از داده‌های شخصی محافظت می‌کند\nC) مدیریت دسترسی، امنیت اطلاعات است؛ در مورد داده‌های مشتریان همزمان الزامات حفاظت از داده‌ها را نیز پشتیبانی می‌کند\nD) مدیریت دسترسی، امنیت اطلاعات است، زیرا حفاظت از داده‌ها الزامات حقوقی خاص خود را دارد نه الزامات فنی",
+      "he": "בבדיקת ציות ואבטחת מידע יש לקבל את ההחלטה הבאה: חברה בינונית מגנה על נתוני לקוחות אישיים ועל תוכניות הנדסיות שאינן אישיות באמצעות אותה מערכת ניהול הרשאות. איזו הערכה מתארת את המצב בצורה המדויקת ביותר?\nA) הסיווג תלוי במיקום האחסון של התוכניות, מכיוון שתוכניות המאוחסנות דיגיטלית דורשות רמת הגנה שונה\nB) ניהול ההרשאות הוא הגנת פרטיות, מכיוון שהוא מגן בעיקר על נתונים אישיים כאן\nC) ניהול ההרשאות הוא אבטחת מידע; במקרה של נתוני לקוחות הוא גם תומך בדרישות הגנת הפרטיות\nD) ניהול ההרשאות הוא אבטחת מידע, מכיוון שהגנת הפרטיות מציבה דרישות משפטיות משלה ולא דרישות טכניות"
+    }
+  },
+  {
+    "id": "72d3eb1a-5e72-4758-acbe-d47f4c1ddd83",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "ISO/IEC 27001 und 27002",
+    "difficulty": 3,
+    "examKeywords": ["ISO 27001", "ISO 27002", "ISMS", "Zertifizierung", "Controls", "Risikobehandlung"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie sich ISO/IEC 27001 und ISO/IEC 27002 zueinander verhalten, wenn ein Betrieb ein zertifizierbares ISMS aufbauen und für einzelne Controls konkrete Umsetzungshinweise nutzen möchte.",
+        "whyCorrect": "ISO/IEC 27001 legt die formalen, prüfbaren Anforderungen an ein Informationssicherheits-Managementsystem (ISMS) fest und ist die Grundlage für eine Zertifizierung. ISO/IEC 27002 dagegen ist keine Zertifizierungsnorm, sondern ein ergänzender Leitfaden, der zu den in 27001 (Anhang A) genannten Controls konkrete Umsetzungsempfehlungen liefert. Welche Controls tatsächlich benötigt werden, ergibt sich aber immer aus der individuellen Risikobewertung der Organisation – 27002 liefert nur Hinweise zur Ausgestaltung bereits ausgewählter Controls, sie ersetzt nicht die risikobasierte Auswahl.",
+        "commonTrap": "Ein häufiges Missverständnis ist, ISO/IEC 27002 als verbindlichen, vollständig umzusetzenden Pflichtkatalog zu betrachten oder anzunehmen, sie lege die Controls bereits fest, bevor überhaupt eine Risikobehandlung stattgefunden hat. Tatsächlich ist sie freiwillige Umsetzungshilfe, die erst nach der risikobasierten Auswahl der Controls greift.",
+        "testedConcept": "Verhältnis ISO/IEC 27001 (Anforderungsnorm) zu ISO/IEC 27002 (Leitfaden)"
+      },
+      "en": {
+        "summary": "The question asks how ISO/IEC 27001 and ISO/IEC 27002 relate when a company wants to build a certifiable ISMS and use concrete implementation guidance for selected controls.",
+        "whyCorrect": "ISO/IEC 27001 sets out the formal, auditable requirements for an information security management system (ISMS) and forms the basis for certification. ISO/IEC 27002, on the other hand, is not a certification standard but a supplementary guide that provides concrete implementation recommendations for the controls listed in 27001 (Annex A). Which controls are actually needed always follows from the organization's own risk assessment — 27002 only offers guidance on how to implement controls that have already been selected; it does not replace the risk-based selection process.",
+        "commonTrap": "A common misunderstanding is to treat ISO/IEC 27002 as a mandatory catalog that must be fully implemented, or to assume it already fixes the controls before any risk treatment has taken place. In reality it's voluntary implementation guidance that only comes into play after controls have been chosen based on risk.",
+        "testedConcept": "Relationship between ISO/IEC 27001 (requirements standard) and ISO/IEC 27002 (guideline)"
+      },
+      "dari": {
+        "summary": "این پرسش بررسی می‌کند که ISO/IEC 27001 و ISO/IEC 27002 چه رابطه‌ای با هم دارند وقتی شرکتی می‌خواهد یک ISMS قابل صدور گواهی‌نامه بسازد و برای کنترل‌های خاص از راهنمایی‌های اجرایی مشخص استفاده کند.",
+        "whyCorrect": "ISO/IEC 27001 الزامات رسمی و قابل ارزیابی برای یک سیستم مدیریت امنیت اطلاعات (ISMS) را تعیین می‌کند و پایه گواهی‌نامه است. اما ISO/IEC 27002 یک استاندارد گواهی‌نامه نیست، بلکه راهنمایی تکمیلی است که برای کنترل‌های ذکرشده در 27001 (پیوست A) توصیه‌های اجرایی مشخص ارائه می‌دهد. اینکه واقعاً کدام کنترل‌ها لازم هستند، همیشه از ارزیابی ریسک خود سازمان ناشی می‌شود - 27002 فقط راهنمایی برای اجرای کنترل‌هایی می‌دهد که قبلاً انتخاب شده‌اند، و جایگزین انتخاب مبتنی بر ریسک نمی‌شود.",
+        "commonTrap": "یک سوءتفاهم رایج این است که ISO/IEC 27002 به عنوان یک فهرست الزامی و کاملاً اجباری در نظر گرفته شود یا تصور شود که کنترل‌ها را پیش از انجام هرگونه ارزیابی ریسک از قبل تعیین می‌کند. در واقع این یک راهنمای اختیاری است که فقط پس از انتخاب مبتنی بر ریسک کنترل‌ها به کار می‌آید.",
+        "testedConcept": "رابطه بین ISO/IEC 27001 (استاندارد الزامات) و ISO/IEC 27002 (راهنما)"
+      },
+      "he": {
+        "summary": "השאלה בודקת מהו היחס בין ISO/IEC 27001 ל-ISO/IEC 27002 כאשר חברה רוצה לבנות ISMS הניתן להסמכה ולהשתמש בהנחיות יישום קונקרטיות עבור בקרות נבחרות.",
+        "whyCorrect": "ISO/IEC 27001 קובע את הדרישות הפורמליות והניתנות לביקורת עבור מערכת ניהול אבטחת מידע (ISMS) ומהווה בסיס להסמכה. לעומת זאת, ISO/IEC 27002 אינו תקן הסמכה אלא מדריך משלים המספק המלצות יישום קונקרטיות עבור הבקרות המפורטות ב-27001 (נספח A). אילו בקרות נדרשות בפועל נגזר תמיד מהערכת הסיכונים של הארגון עצמו - 27002 מציע רק הנחיות ליישום בקרות שכבר נבחרו, ואינו מחליף את תהליך הבחירה מבוסס הסיכון.",
+        "commonTrap": "טעות נפוצה היא להתייחס ל-ISO/IEC 27002 כאל רשימה מחייבת שיש ליישם במלואה, או להניח שהיא כבר קובעת את הבקרות לפני שבוצע כלל טיפול בסיכונים. למעשה מדובר במדריך יישום וולונטרי שרלוונטי רק לאחר בחירת הבקרות על בסיס סיכון.",
+        "testedConcept": "היחס בין ISO/IEC 27001 (תקן דרישות) ל-ISO/IEC 27002 (מדריך)"
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "ISMS", "english": "Information Security Management System", "dari": "سیستم مدیریت امنیت اطلاعات", "hebrew": "מערכת ניהול אבטחת מידע", "shortGermanExplanation": "Ein systematischer Rahmen zur Steuerung der Informationssicherheit einer Organisation." },
+      { "germanWord": "zertifizierbar", "english": "certifiable", "dari": "قابل گواهی‌نامه", "hebrew": "ניתן להסמכה", "shortGermanExplanation": "Die Eigenschaft, dass die Konformität mit einer Norm durch eine unabhängige Stelle bestätigt werden kann." },
+      { "germanWord": "Risikobehandlung", "english": "risk treatment", "dari": "رسیدگی به ریسک", "hebrew": "טיפול בסיכונים", "shortGermanExplanation": "Der Prozess, mit dem identifizierte Risiken durch geeignete Maßnahmen (Controls) reduziert werden." },
+      { "germanWord": "Controls", "english": "controls (security measures)", "dari": "کنترل‌های امنیتی", "hebrew": "בקרות אבטחה", "shortGermanExplanation": "Konkrete Sicherheitsmaßnahmen, die zur Risikominderung eingesetzt werden." },
+      { "germanWord": "Umsetzungshinweise", "english": "implementation guidance", "dari": "راهنمای اجرایی", "hebrew": "הנחיות יישום", "shortGermanExplanation": "Praktische Empfehlungen dazu, wie ein Control konkret umgesetzt werden kann." }
+    ],
+    "questionTranslation": {
+      "en": "During a review of compliance and information security, the following exam question arises: A mid-sized company wants to build a certifiable ISMS and use concrete implementation guidance for selected controls. Which professional assessment is the most accurate?\nA) ISO/IEC 27001 is used for the certification decision; ISO/IEC 27002 replaces the organization's own risk assessment when designing controls\nB) ISO/IEC 27001 contains the certifiable ISMS requirements; ISO/IEC 27002 must be implemented in full and unchanged as a mandatory set of controls\nC) ISO/IEC 27001 describes the management system; ISO/IEC 27002 already fixes the suitable controls in advance, before any risk treatment has taken place\nD) ISO/IEC 27001 contains auditable ISMS requirements; ISO/IEC 27002 offers supplementary guidance for controls selected based on risk",
+      "dari": "در جریان بررسی انطباق و امنیت اطلاعات، این پرسش امتحانی مطرح می‌شود: یک شرکت متوسط می‌خواهد یک ISMS قابل گواهی‌نامه بسازد و برای کنترل‌های منتخب از راهنمایی‌های اجرایی مشخص استفاده کند. کدام ارزیابی تخصصی دقیق‌ترین است؟\nA) ISO/IEC 27001 برای تصمیم گواهی‌نامه استفاده می‌شود؛ ISO/IEC 27002 در طراحی کنترل‌ها جایگزین ارزیابی ریسک سازمان می‌شود\nB) ISO/IEC 27001 شامل الزامات ISMS قابل گواهی‌نامه است؛ ISO/IEC 27002 باید به‌طور کامل و بدون تغییر به عنوان مجموعه‌ای الزامی از کنترل‌ها اجرا شود\nC) ISO/IEC 27001 سیستم مدیریت را توصیف می‌کند؛ ISO/IEC 27002 کنترل‌های مناسب را از قبل تعیین می‌کند، پیش از اینکه رسیدگی به ریسک انجام شده باشد\nD) ISO/IEC 27001 شامل الزامات قابل ارزیابی ISMS است؛ ISO/IEC 27002 راهنمایی تکمیلی برای کنترل‌های انتخاب‌شده بر اساس ریسک ارائه می‌دهد",
+      "he": "בבדיקת ציות ואבטחת מידע עולה שאלת הבחינה הבאה: חברה בינונית רוצה לבנות ISMS הניתן להסמכה ולהשתמש בהנחיות יישום קונקרטיות עבור בקרות נבחרות. איזו הערכה מקצועית היא המדויקת ביותר?\nA) ISO/IEC 27001 משמש להחלטת ההסמכה; ISO/IEC 27002 מחליף את הערכת הסיכונים הארגונית בעיצוב הבקרות\nB) ISO/IEC 27001 מכיל את דרישות ה-ISMS הניתנות להסמכה; יש ליישם את ISO/IEC 27002 במלואו וללא שינוי כמערך בקרות מחייב\nC) ISO/IEC 27001 מתאר את מערכת הניהול; ISO/IEC 27002 כבר קובע מראש את הבקרות המתאימות, לפני שבוצע כל טיפול בסיכונים\nD) ISO/IEC 27001 מכיל דרישות ISMS הניתנות לביקורת; ISO/IEC 27002 מציע הנחיות משלימות לבקרות שנבחרו על בסיס סיכון"
+    }
+  },
+  {
+    "id": "63042f2a-70a6-4fe8-916f-cf9ede73b1a0",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "NIS-2 / Anwendungsbereich",
+    "difficulty": 3,
+    "examKeywords": ["NIS-2", "Betroffenheitsprüfung", "Sektor", "Cybersicherheitsvorgaben"],
+    "explanation": {
+      "de": {
+        "summary": "Es geht darum, welche Informationen eine Organisation zunächst heranziehen sollte, um grob einzuschätzen, ob sie von neuen Cybersicherheitsvorgaben (z. B. NIS-2) betroffen ist.",
+        "whyCorrect": "Für eine erste Einordnung der Betroffenheit müssen mehrere Kriterien gemeinsam betrachtet werden: die Art der Tätigkeit, der Sektor, in dem die Organisation tätig ist, die konkret angebotenen Dienste, die Unternehmensgröße sowie die Rolle (z. B. wesentliche oder wichtige Einrichtung). Keines dieser Merkmale allein reicht aus, da die Regelungen je nach Kombination dieser Faktoren unterschiedlich greifen. Bleiben nach dieser Betrachtung rechtliche Unklarheiten bestehen, sollten diese qualifiziert – etwa durch Rechtsberatung – geklärt werden, statt sie offenzulassen oder pauschal zu vermuten.",
+        "commonTrap": "Ein typischer Fehler ist, nur ein einzelnes Kriterium wie die Unternehmensgröße oder den Sektor zu prüfen und daraus vorschnell eine Schlussfolgerung zu ziehen, anstatt alle relevanten Merkmale gemeinsam zu betrachten.",
+        "testedConcept": "Anwendungsbereich-Prüfung bei neuen Cybersicherheitsregulierungen (z. B. NIS-2)"
+      },
+      "en": {
+        "summary": "The question asks which set of information an organization should first use to get an initial sense of whether it falls under new cybersecurity requirements (e.g. NIS2).",
+        "whyCorrect": "An initial assessment of applicability requires looking at several criteria together: the type of activity, the sector the organization operates in, the specific services it provides, its size, and its role (e.g. essential or important entity). No single factor is sufficient on its own, since the rules apply differently depending on how these factors combine. If legal uncertainties remain after this review, they should be clarified properly — for instance through legal advice — rather than left open or assumed.",
+        "commonTrap": "A typical mistake is to check only one criterion, such as company size or sector, and draw a hasty conclusion from it instead of considering all relevant factors together.",
+        "testedConcept": "Scope assessment for new cybersecurity regulations (e.g. NIS2)"
+      },
+      "dari": {
+        "summary": "این پرسش بررسی می‌کند که یک سازمان برای ارزیابی اولیه اینکه آیا مشمول الزامات جدید امنیت سایبری (مانند NIS2) می‌شود یا نه، ابتدا باید کدام اطلاعات را در نظر بگیرد.",
+        "whyCorrect": "برای یک ارزیابی اولیه از مشمولیت، باید چند معیار را همزمان بررسی کرد: نوع فعالیت، بخش (سکتور) فعالیت سازمان، خدمات ارائه‌شده، اندازه شرکت و نقش آن (مانند نهاد ضروری یا مهم). هیچ‌کدام از این معیارها به‌تنهایی کافی نیستند، زیرا مقررات بسته به ترکیب این عوامل به شکل متفاوتی اعمال می‌شوند. اگر پس از این بررسی هنوز ابهامات حقوقی باقی بماند، باید این ابهامات به‌صورت تخصصی - مثلاً از طریق مشاوره حقوقی - روشن شوند، نه اینکه باز بمانند یا حدس زده شوند.",
+        "commonTrap": "یک اشتباه رایج این است که فقط یک معیار مانند اندازه شرکت یا بخش فعالیت را بررسی کنیم و از آن نتیجه‌گیری عجولانه بگیریم، به‌جای در نظر گرفتن همه عوامل مرتبط با هم.",
+        "testedConcept": "بررسی دامنه شمول برای مقررات جدید امنیت سایبری (مانند NIS2)"
+      },
+      "he": {
+        "summary": "השאלה בוחנת אילו נתונים ארגון צריך לבדוק תחילה כדי לקבל הערכה ראשונית האם הוא כפוף לדרישות אבטחת סייבר חדשות (למשל NIS2).",
+        "whyCorrect": "הערכה ראשונית של תחולת הרגולציה מחייבת בחינה משותפת של מספר קריטריונים: סוג הפעילות, המגזר שבו פועל הארגון, השירותים הספציפיים שהוא מספק, גודל החברה ותפקידה (למשל גוף חיוני או חשוב). אף קריטריון בודד אינו מספיק כשלעצמו, מכיוון שהתקנות חלות באופן שונה בהתאם לשילוב הגורמים הללו. אם לאחר הבדיקה עדיין נותרים אי-בהירויות משפטיות, יש להבהיר אותן בצורה מקצועית - למשל באמצעות ייעוץ משפטי - ולא להשאירן פתוחות או להניח הנחות.",
+        "commonTrap": "טעות טיפוסית היא לבדוק רק קריטריון בודד, כמו גודל החברה או המגזר, ולהסיק מסקנה נמהרת במקום לבחון את כל הגורמים הרלוונטיים יחד.",
+        "testedConcept": "בדיקת תחולה עבור רגולציות אבטחת סייבר חדשות (למשל NIS2)"
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Betroffenheit", "english": "applicability / being in scope", "dari": "مشمولیت", "hebrew": "תחולה (היות בתחום הרגולציה)", "shortGermanExplanation": "Die Frage, ob eine Organisation unter eine bestimmte gesetzliche Regelung fällt." },
+      { "germanWord": "Sektor", "english": "sector", "dari": "بخش/سکتور", "hebrew": "מגזר", "shortGermanExplanation": "Die Branche oder der Wirtschaftsbereich, in dem eine Organisation tätig ist." },
+      { "germanWord": "Cybersicherheitsvorgaben", "english": "cybersecurity requirements/regulations", "dari": "الزامات امنیت سایبری", "hebrew": "דרישות אבטחת סייבר", "shortGermanExplanation": "Gesetzliche oder regulatorische Vorgaben zur Cybersicherheit, z. B. NIS-2." },
+      { "germanWord": "Ersteinschätzung", "english": "initial assessment", "dari": "ارزیابی اولیه", "hebrew": "הערכה ראשונית", "shortGermanExplanation": "Eine erste, grobe Prüfung, bevor eine detaillierte Analyse erfolgt." },
+      { "germanWord": "wesentliche Einrichtung", "english": "essential entity", "dari": "نهاد ضروری", "hebrew": "גוף חיוני", "shortGermanExplanation": "Eine nach NIS-2 besonders bedeutsame Organisation mit erhöhten Pflichten." }
+    ],
+    "questionTranslation": {
+      "en": "During a review of compliance and information security, the following exam question arises: An organization wants to assess its possible applicability under new cybersecurity requirements. Which information base is most suitable for an initial classification?\nA) Review activity, sector, services, size, and role together, and have any open legal questions clarified by qualified experts\nB) Consider activity and sector only; check size and specific services only after a positive initial assessment\nC) Consider company size and revenue; disregard the specific role and services offered\nD) Use existing certificates as the main evidence, since they already cover the most important requirements",
+      "dari": "در جریان بررسی انطباق و امنیت اطلاعات، این پرسش امتحانی مطرح می‌شود: یک سازمان می‌خواهد مشمولیت احتمالی خود را تحت الزامات جدید امنیت سایبری ارزیابی کند. کدام مبنای اطلاعاتی برای یک طبقه‌بندی اولیه مناسب‌تر است؟\nA) فعالیت، بخش، خدمات، اندازه و نقش را با هم بررسی کنید و ابهامات حقوقی باقی‌مانده را از طریق کارشناسان واجد شرایط روشن کنید\nB) فقط فعالیت و بخش را در نظر بگیرید؛ اندازه و خدمات مشخص را فقط پس از یک ارزیابی اولیه مثبت بررسی کنید\nC) اندازه شرکت و درآمد را در نظر بگیرید؛ نقش خاص و خدمات ارائه‌شده را نادیده بگیرید\nD) گواهی‌نامه‌های موجود را به عنوان مدرک اصلی استفاده کنید، زیرا آنها قبلاً مهم‌ترین الزامات را پوشش می‌دهند",
+      "he": "בבדיקת ציות ואבטחת מידע עולה שאלת הבחינה הבאה: ארגון רוצה להעריך את תחולתו האפשרית תחת דרישות אבטחת סייבר חדשות. איזה בסיס מידע הכי מתאים לסיווג ראשוני?\nA) לבדוק יחד פעילות, מגזר, שירותים, גודל ותפקיד, ולהבהיר שאלות משפטיות פתוחות באמצעות גורם מוסמך\nB) לבחון פעילות ומגזר בלבד; לבדוק גודל ושירותים ספציפיים רק לאחר הערכה ראשונית חיובית\nC) לבחון גודל חברה והכנסות; להתעלם מהתפקיד הספציפי והשירותים המוצעים\nD) להשתמש בתעודות קיימות כהוכחה עיקרית, מכיוון שהן כבר מכסות את הדרישות החשובות ביותר"
+    }
+  },
+  {
+    "id": "3bc0d971-ca82-4c9a-944b-776b268c45e1",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Statement of Applicability (SoA)",
+    "difficulty": 3,
+    "examKeywords": ["SoA", "Statement of Applicability", "Risikobehandlung", "Controls", "ISO 27001"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, welche Art von Dokumentation nach einer Risikobehandlung – bei der manche Controls ausgewählt und andere bewusst ausgeschlossen wurden – dem Zweck der Statement of Applicability (SoA) am besten entspricht.",
+        "whyCorrect": "Die SoA hat den Zweck, für alle relevanten Controls nachvollziehbar festzuhalten, ob sie angewendet werden oder nicht, und dies jeweils zu begründen. Es reicht also nicht, nur die ausgewählten Controls aufzulisten oder eine reine Statusliste ohne Begründung zu führen. Entscheidend ist, dass sowohl Anwendbarkeit als auch Nichtanwendbarkeit jedes Controls dokumentiert und begründet wird, sodass Dritte (z. B. Auditoren) die Entscheidungen nachvollziehen können.",
+        "commonTrap": "Ein verbreiteter Irrtum ist, die SoA nur als Liste der tatsächlich umgesetzten Controls zu verstehen, während ausgeschlossene Controls unbegründet bleiben oder in getrennten, nicht zugänglichen Dokumenten versteckt werden. Damit verfehlt sie ihren eigentlichen Zweck der vollständigen Nachvollziehbarkeit.",
+        "testedConcept": "Statement of Applicability (SoA) nach ISO/IEC 27001"
+      },
+      "en": {
+        "summary": "The question asks which type of documentation, after a risk treatment process in which some controls were selected and others deliberately excluded, best fulfills the purpose of the Statement of Applicability (SoA).",
+        "whyCorrect": "The purpose of the SoA is to document, for every relevant control, in a traceable way whether it is applied or not — and to justify that decision in each case. Simply listing the selected controls, or keeping a status list without any justification, is not enough. What matters is that both the applicability and the non-applicability of each control are documented and justified, so that a third party (such as an auditor) can follow the reasoning.",
+        "commonTrap": "A common mistake is to treat the SoA as merely a list of implemented controls, while excluded controls remain unjustified or are hidden away in separate, inaccessible documents. That fails the SoA's actual purpose of full traceability.",
+        "testedConcept": "Statement of Applicability (SoA) under ISO/IEC 27001"
+      },
+      "dari": {
+        "summary": "این پرسش بررسی می‌کند که پس از رسیدگی به ریسک - که در آن برخی کنترل‌ها انتخاب و برخی دیگر عمداً کنار گذاشته شده‌اند - کدام نوع مستندسازی بهترین انطباق را با هدف بیانیه قابلیت اجرا (SoA) دارد.",
+        "whyCorrect": "هدف SoA این است که برای همه کنترل‌های مرتبط به‌صورت قابل پیگیری مشخص شود که آیا اجرا می‌شوند یا نه - و در هر مورد این تصمیم توجیه شود. فقط فهرست کردن کنترل‌های انتخاب‌شده یا نگهداری یک فهرست وضعیت بدون توجیه کافی نیست. نکته مهم این است که هم قابلیت اجرا و هم عدم قابلیت اجرای هر کنترل مستند و توجیه شود، تا شخص ثالث (مثلاً ممیز) بتواند این تصمیمات را پیگیری کند.",
+        "commonTrap": "یک اشتباه رایج این است که SoA فقط به عنوان فهرستی از کنترل‌های واقعاً اجراشده تلقی شود، در حالی که کنترل‌های حذف‌شده بدون توجیه باقی می‌مانند یا در اسناد جداگانه و غیرقابل دسترس پنهان می‌شوند. این کار هدف اصلی SoA یعنی پیگیری‌پذیری کامل را از دست می‌دهد.",
+        "testedConcept": "بیانیه قابلیت اجرا (SoA) طبق ISO/IEC 27001"
+      },
+      "he": {
+        "summary": "השאלה בוחנת איזה סוג תיעוד, לאחר תהליך טיפול בסיכונים שבו נבחרו חלק מהבקרות ואחרות הוחרגו במכוון, ממלא בצורה הטובה ביותר את מטרת הצהרת הרלוונטיות (SoA).",
+        "whyCorrect": "מטרת ה-SoA היא לתעד עבור כל בקרה רלוונטית, בצורה הניתנת למעקב, האם היא מיושמת או לא - ולנמק את ההחלטה בכל מקרה. לא מספיק רק לרשום את הבקרות שנבחרו, או לנהל רשימת סטטוס ללא נימוק. מה שחשוב הוא שגם הרלוונטיות וגם אי-הרלוונטיות של כל בקרה מתועדות ומנומקות, כך שגורם שלישי (למשל מבקר) יוכל לעקוב אחר ההחלטות.",
+        "commonTrap": "טעות נפוצה היא להתייחס ל-SoA רק כרשימת בקרות שיושמו בפועל, בעוד בקרות שהוחרגו נותרות ללא נימוק או מוסתרות במסמכים נפרדים ובלתי נגישים. כך המסמך מפספס את מטרתו האמיתית - מעקב מלא אחר ההחלטות.",
+        "testedConcept": "הצהרת הרלוונטיות (SoA) לפי ISO/IEC 27001"
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Statement of Applicability (SoA)", "english": "Statement of Applicability", "dari": "بیانیه قابلیت اجرا", "hebrew": "הצהרת רלוונטיות", "shortGermanExplanation": "Ein Dokument nach ISO/IEC 27001, das für jedes Control Anwendbarkeit und Begründung festhält." },
+      { "germanWord": "Risikobehandlung", "english": "risk treatment", "dari": "رسیدگی به ریسک", "hebrew": "טיפול בסיכונים", "shortGermanExplanation": "Der Prozess der Auswahl von Maßnahmen zur Reduzierung identifizierter Risiken." },
+      { "germanWord": "Anwendbarkeit", "english": "applicability", "dari": "قابلیت اجرا", "hebrew": "רלוונטיות/ישימות", "shortGermanExplanation": "Ob ein bestimmtes Control für die Organisation relevant und einzusetzen ist." },
+      { "germanWord": "nachvollziehbar", "english": "traceable / comprehensible", "dari": "قابل پیگیری", "hebrew": "ניתן למעקב", "shortGermanExplanation": "So dokumentiert, dass Dritte die Entscheidung verstehen und überprüfen können." }
+    ],
+    "questionTranslation": {
+      "en": "During a review of compliance and information security, the following situation is being assessed: After risk treatment, several controls have been selected and others deliberately not. Which documentation best fulfills the purpose of the SoA?\nA) List the selected controls and classify each non-application as a lower risk\nB) A list of all controls with implementation status, but without any reference to selection or exclusion\nC) Record relevant controls with applicability, justification, and traceable handling in a comprehensible way\nD) Document the justifications for excluded controls in separate operational logs",
+      "dari": "در جریان بررسی انطباق و امنیت اطلاعات، وضعیت زیر ارزیابی می‌شود: پس از رسیدگی به ریسک، چندین کنترل انتخاب شده و برخی دیگر عمداً انتخاب نشده‌اند. کدام مستندسازی بهترین انطباق را با هدف SoA دارد؟\nA) کنترل‌های انتخاب‌شده را فهرست کنید و هر عدم اجرا را به عنوان ریسک کمتر طبقه‌بندی کنید\nB) فهرستی از همه کنترل‌ها با وضعیت اجرا، اما بدون ارتباط با انتخاب یا حذف\nC) کنترل‌های مرتبط را همراه با قابلیت اجرا، توجیه و نحوه برخورد قابل پیگیری به‌صورت قابل‌فهم ثبت کنید\nD) توجیهات مربوط به کنترل‌های حذف‌شده را در گزارش‌های عملیاتی جداگانه مستند کنید",
+      "he": "בבדיקת ציות ואבטחת מידע נבחן המצב הבא: לאחר טיפול בסיכונים, נבחרו מספר בקרות ואחרות לא נבחרו במכוון. איזה תיעוד ממלא בצורה הטובה ביותר את מטרת ה-SoA?\nA) לרשום את הבקרות שנבחרו ולסווג כל אי-יישום כסיכון נמוך יותר\nB) רשימה של כל הבקרות עם סטטוס יישום, אך ללא קשר לבחירה או להחרגה\nC) לתעד בצורה ברורה וניתנת למעקב את הבקרות הרלוונטיות עם רלוונטיות, נימוק וטיפול\nD) לתעד את הנימוקים לבקרות שהוחרגו ביומני תפעול נפרדים"
+    }
+  },
+  {
+    "id": "be18d4c4-cb34-4bc7-b9c8-fab7a86582a3",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Vertragliche Anforderungen und Normen",
+    "difficulty": 3,
+    "examKeywords": ["ISO 27001", "Vertragsklausel", "gesetzliche Pflicht", "Verbindlichkeit"],
+    "explanation": {
+      "de": {
+        "summary": "Es geht um die Frage, welche rechtliche Wirkung eine vertragliche Klausel hat, die eine ISO/IEC-27001-Zertifizierung verlangt, obwohl keine gesetzliche Pflicht dazu besteht.",
+        "whyCorrect": "ISO/IEC 27001 ist selbst kein Gesetz, sondern eine freiwillige Norm. Trotzdem können Vertragsparteien vereinbaren, dass eine Zertifizierung als vertragliche Leistungspflicht geschuldet wird – dann entsteht eine Verbindlichkeit nicht durch staatliches Recht, sondern durch die zivilrechtliche Vereinbarung selbst. Wird eine solche Klausel im Liefervertrag festgelegt, muss der Lieferant sie erfüllen, obwohl es keine gesetzliche Grundlage dafür gibt – die Verbindlichkeit ergibt sich allein aus dem Vertrag.",
+        "commonTrap": "Ein häufiger Denkfehler ist anzunehmen, dass Freiwilligkeit einer Norm automatisch bedeutet, dass sie nie verbindlich werden kann. Dabei übersieht man, dass eine ursprünglich freiwillige Norm durch vertragliche Vereinbarung zu einer bindenden Pflicht zwischen den Parteien werden kann, ohne dadurch zu staatlichem Recht zu werden.",
+        "testedConcept": "Vertragliche Verbindlichkeit freiwilliger Normen (z. B. ISO/IEC 27001)"
+      },
+      "en": {
+        "summary": "The question asks what legal effect a contract clause has when it requires ISO/IEC 27001 certification even though there is no statutory obligation to obtain it.",
+        "whyCorrect": "ISO/IEC 27001 is not a law itself but a voluntary standard. Nevertheless, contracting parties can agree that certification is owed as a contractual obligation — in that case, the binding force comes not from statutory law but from the civil-law agreement itself. If such a clause is included in a supply contract, the supplier must fulfill it even though there is no legal basis requiring it — the obligation arises purely from the contract.",
+        "commonTrap": "A common mistake is to assume that because a standard is voluntary, it can never become binding. This overlooks that an originally voluntary standard can become a binding obligation between the parties through a contractual agreement, without thereby turning into statutory law.",
+        "testedConcept": "Contractual bindingness of voluntary standards (e.g. ISO/IEC 27001)"
+      },
+      "dari": {
+        "summary": "این پرسش بررسی می‌کند که یک بند قراردادی که گواهی‌نامه ISO/IEC 27001 را الزامی می‌کند، حتی بدون وجود الزام قانونی، چه اثر حقوقی دارد.",
+        "whyCorrect": "ISO/IEC 27001 خودش قانون نیست بلکه یک استاندارد اختیاری است. با این حال، طرفین قرارداد می‌توانند توافق کنند که گواهی‌نامه به عنوان یک تعهد قراردادی الزامی باشد - در این صورت، الزام‌آور بودن نه از حقوق دولتی بلکه از خود توافق مدنی ناشی می‌شود. اگر چنین بندی در قرارداد تأمین درج شود، تأمین‌کننده باید آن را انجام دهد، حتی اگر مبنای قانونی برای آن وجود نداشته باشد - این الزام صرفاً از قرارداد ناشی می‌شود.",
+        "commonTrap": "یک اشتباه رایج این است که تصور شود اختیاری بودن یک استاندارد به‌طور خودکار به این معناست که هرگز نمی‌تواند الزام‌آور شود. اما این نادیده می‌گیرد که یک استاندارد که در ابتدا اختیاری بوده، می‌تواند از طریق توافق قراردادی به یک تعهد الزام‌آور بین طرفین تبدیل شود، بدون اینکه به قانون دولتی تبدیل شود.",
+        "testedConcept": "الزام‌آور بودن قراردادی استانداردهای اختیاری (مانند ISO/IEC 27001)"
+      },
+      "he": {
+        "summary": "השאלה בוחנת מהי ההשפעה המשפטית של סעיף חוזי הדורש הסמכת ISO/IEC 27001, גם כאשר אין חובה חוקית לכך.",
+        "whyCorrect": "ISO/IEC 27001 אינו חוק בפני עצמו אלא תקן וולונטרי. עם זאת, צדדים לחוזה יכולים להסכים שההסמכה תהיה מחויבת חוזית - במקרה כזה, המחייבות אינה נובעת מהחוק הציבורי אלא מההסכם האזרחי עצמו. אם סעיף כזה נכלל בחוזה אספקה, הספק חייב לעמוד בו למרות שאין בסיס חוקי לכך - המחויבות נובעת אך ורק מהחוזה.",
+        "commonTrap": "טעות נפוצה היא להניח שהיות תקן וולונטרי אוטומטית אומרת שהוא לעולם לא יכול להיות מחייב. אך זה מתעלם מכך שתקן שמלכתחילה היה וולונטרי יכול להפוך למחויבות מחייבת בין הצדדים באמצעות הסכם חוזי, מבלי להפוך בכך לחוק ציבורי.",
+        "testedConcept": "מחויבות חוזית של תקנים וולונטריים (למשל ISO/IEC 27001)"
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Liefervertrag", "english": "supply contract", "dari": "قرارداد تأمین", "hebrew": "חוזה אספקה", "shortGermanExplanation": "Ein Vertrag zwischen Lieferant und Kunde über die Lieferung von Waren oder Dienstleistungen." },
+      { "germanWord": "gesetzliche Pflicht", "english": "statutory obligation", "dari": "الزام قانونی", "hebrew": "חובה חוקית", "shortGermanExplanation": "Eine Verpflichtung, die sich direkt aus einem Gesetz ergibt." },
+      { "germanWord": "freiwillige Norm", "english": "voluntary standard", "dari": "استاندارد اختیاری", "hebrew": "תקן וולונטרי", "shortGermanExplanation": "Ein Regelwerk, dessen Anwendung nicht gesetzlich vorgeschrieben ist." },
+      { "germanWord": "Vertragsklausel", "english": "contract clause", "dari": "بند قراردادی", "hebrew": "סעיף חוזי", "shortGermanExplanation": "Eine einzelne Regelung innerhalb eines Vertrags." },
+      { "germanWord": "Verbindlichkeit", "english": "bindingness / binding effect", "dari": "الزام‌آور بودن", "hebrew": "מחויבות", "shortGermanExplanation": "Die Eigenschaft, dass etwas rechtlich verpflichtend eingehalten werden muss." }
+    ],
+    "questionTranslation": {
+      "en": "During a review of compliance and information security, the following exam question arises: A supply contract requires ISO/IEC 27001 certification, even though no corresponding statutory obligation was found. Which statement is most accurate?\nA) Without a statutory obligation, at most a non-binding recommendation can be agreed upon\nB) The certification is voluntary, so the contract clause cannot create any binding obligation\nC) The contract clause turns ISO/IEC 27001 into a state law for the supplier\nD) The certification can be contractually owed even though the standard itself is not a law",
+      "dari": "در جریان بررسی انطباق و امنیت اطلاعات، این پرسش امتحانی مطرح می‌شود: یک قرارداد تأمین، گواهی‌نامه ISO/IEC 27001 را الزامی می‌کند، هرچند هیچ الزام قانونی متناظری تشخیص داده نشده است. کدام گزاره دقیق‌ترین است؟\nA) بدون الزام قانونی، حداکثر می‌توان یک توصیه غیرالزام‌آور توافق کرد\nB) گواهی‌نامه اختیاری است، بنابراین بند قرارداد نمی‌تواند هیچ الزامی ایجاد کند\nC) بند قرارداد، ISO/IEC 27001 را به یک قانون دولتی برای تأمین‌کننده تبدیل می‌کند\nD) گواهی‌نامه می‌تواند به‌صورت قراردادی الزامی باشد، هرچند خود استاندارد یک قانون نیست",
+      "he": "בבדיקת ציות ואבטחת מידע עולה שאלת הבחינה הבאה: חוזה אספקה דורש הסמכת ISO/IEC 27001, למרות שלא נמצאה חובה חוקית מתאימה. איזו טענה היא המדויקת ביותר?\nA) ללא חובה חוקית, ניתן להסכים לכל היותר על המלצה בלתי מחייבת\nB) ההסמכה היא וולונטרית, ולכן סעיף החוזה אינו יכול ליצור מחויבות\nC) סעיף החוזה הופך את ISO/IEC 27001 לחוק מדינה עבור הספק\nD) ההסמכה יכולה להיות מחויבת חוזית, למרות שהתקן עצמו אינו חוק"
+    }
+  },
+  {
+    "id": "6967b522-068f-461e-b5d7-f5f977f6f5d8",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "B3S und IT-Grundschutz-Profile",
+    "difficulty": 4,
+    "examKeywords": ["B3S", "IT-Grundschutz-Profil", "Branche", "Unternehmensverbund", "BSI"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird verglichen, welches Dokument sich für branchenspezifische Sicherheitsanforderungen eignet und welches für einen wiederverwendbaren Rahmen bei gleichartigen Standorten innerhalb eines Unternehmensverbunds.",
+        "whyCorrect": "Ein Branchenspezifischer Sicherheitsstandard (B3S) wird von einer Branche entwickelt, um typische, für diesen Sektor charakteristische Sicherheitsanforderungen zu konkretisieren – er richtet sich also an eine ganze Branche. Ein IT-Grundschutz-Profil dagegen ist eine Schablone, die eine Organisation nutzt, um einen wiederverwendbaren Sicherheitskonzept-Rahmen für gleichartige Einheiten (z. B. ähnliche Standorte oder Systemtypen) innerhalb der eigenen Struktur zu erstellen. Beide Instrumente dienen der Standardisierung, richten sich aber an unterschiedliche Adressaten: die Branche insgesamt vs. gleichartige interne Einheiten.",
+        "commonTrap": "Ein häufiger Fehler ist, B3S und IT-Grundschutz-Profil als austauschbar zu behandeln, weil beide der Standardisierung dienen. Dabei übersieht man, dass ein B3S branchenweit und sektorbezogen entsteht, während ein Grundschutz-Profil ein internes Werkzeug für gleichartige Anwendungsfälle innerhalb einer Organisation ist.",
+        "testedConcept": "Abgrenzung Branchenspezifischer Sicherheitsstandard (B3S) vs. IT-Grundschutz-Profil"
+      },
+      "en": {
+        "summary": "The question compares which document is suited to branch/sector-specific security requirements and which is suited to a reusable framework for similar sites within a corporate group.",
+        "whyCorrect": "A Branch-Specific Security Standard (B3S) is developed by an entire industry sector to spell out the typical security requirements characteristic of that sector — so it addresses the whole industry. An IT-Grundschutz profile, on the other hand, is a template an organization uses to create a reusable security-concept framework for similar units (e.g. similar sites or system types) within its own structure. Both instruments serve standardization, but they target different audiences: the entire sector versus similar internal units.",
+        "commonTrap": "A common mistake is to treat B3S and the IT-Grundschutz profile as interchangeable because both serve standardization. This overlooks that a B3S is created sector-wide for an entire industry, while a Grundschutz profile is an internal tool for similar use cases within one organization.",
+        "testedConcept": "Distinguishing a Branch-Specific Security Standard (B3S) from an IT-Grundschutz profile"
+      },
+      "dari": {
+        "summary": "این پرسش مقایسه می‌کند که کدام سند برای الزامات امنیتی مختص یک صنعت مناسب است و کدام برای یک چارچوب قابل استفاده مجدد در سایت‌های مشابه در یک گروه شرکتی.",
+        "whyCorrect": "یک استاندارد امنیتی مختص صنعت (B3S) توسط کل یک بخش صنعتی توسعه می‌یابد تا الزامات امنیتی معمول و مشخصه آن بخش را مشخص کند - بنابراین به کل صنعت خطاب می‌شود. در مقابل، یک پروفایل IT-Grundschutz الگویی است که یک سازمان از آن برای ایجاد یک چارچوب مفهوم امنیتی قابل استفاده مجدد برای واحدهای مشابه (مانند سایت‌ها یا انواع سیستم‌های مشابه) در ساختار داخلی خودش استفاده می‌کند. هر دو ابزار برای استانداردسازی هستند، اما مخاطبان متفاوتی دارند: کل صنعت در مقابل واحدهای داخلی مشابه.",
+        "commonTrap": "یک اشتباه رایج این است که B3S و پروفایل IT-Grundschutz را به دلیل اینکه هر دو برای استانداردسازی هستند، قابل تعویض در نظر بگیریم. اما این نادیده می‌گیرد که B3S در سطح کل صنعت ایجاد می‌شود، در حالی که پروفایل Grundschutz یک ابزار داخلی برای موارد استفاده مشابه در یک سازمان است.",
+        "testedConcept": "تفاوت میان استاندارد امنیتی مختص صنعت (B3S) و پروفایل IT-Grundschutz"
+      },
+      "he": {
+        "summary": "השאלה משווה בין מסמך המתאים לדרישות אבטחה ספציפיות לענף לבין מסמך המתאים למסגרת ניתנת לשימוש חוזר עבור אתרים דומים בתוך קבוצת חברות.",
+        "whyCorrect": "תקן אבטחה ספציפי לענף (B3S) מפותח על ידי מגזר תעשייתי שלם כדי לפרט את דרישות האבטחה האופייניות לאותו מגזר - כלומר הוא פונה לענף כולו. לעומת זאת, פרופיל IT-Grundschutz הוא תבנית שארגון משתמש בה כדי ליצור מסגרת מושג אבטחה הניתנת לשימוש חוזר עבור יחידות דומות (למשל אתרים דומים או סוגי מערכות דומים) בתוך המבנה הפנימי שלו. שני הכלים משרתים תקינה, אך פונים לקהלים שונים: הענף כולו לעומת יחידות פנימיות דומות.",
+        "commonTrap": "טעות נפוצה היא להתייחס ל-B3S ולפרופיל IT-Grundschutz כאילו הם ניתנים להחלפה כי שניהם משרתים תקינה. אך זה מתעלם מכך ש-B3S נוצר ברמת הענף כולו, בעוד פרופיל Grundschutz הוא כלי פנימי למקרי שימוש דומים בתוך ארגון אחד.",
+        "testedConcept": "ההבחנה בין תקן אבטחה ספציפי לענף (B3S) לבין פרופיל IT-Grundschutz"
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "B3S", "english": "Branch-Specific Security Standard", "dari": "استاندارد امنیتی مختص صنعت", "hebrew": "תקן אבטחה ספציפי לענף", "shortGermanExplanation": "Ein von einer Branche entwickelter Sicherheitsstandard für typische sektorspezifische Anforderungen." },
+      { "germanWord": "IT-Grundschutz-Profil", "english": "IT-Grundschutz profile", "dari": "پروفایل IT-Grundschutz", "hebrew": "פרופיל IT-Grundschutz", "shortGermanExplanation": "Eine wiederverwendbare Schablone des BSI-Grundschutzes für gleichartige Anwendungsfälle." },
+      { "germanWord": "Unternehmensverbund", "english": "corporate group / group of companies", "dari": "گروه شرکت‌ها", "hebrew": "קבוצת חברות", "shortGermanExplanation": "Mehrere Unternehmen oder Standorte, die organisatorisch zusammengehören." },
+      { "germanWord": "wiederverwendbar", "english": "reusable", "dari": "قابل استفاده مجدد", "hebrew": "ניתן לשימוש חוזר", "shortGermanExplanation": "So gestaltet, dass es mehrfach für ähnliche Fälle eingesetzt werden kann." }
+    ],
+    "questionTranslation": {
+      "en": "During a review of compliance and information security, the following situation is being assessed: An industry wants to specify typical security requirements; a corporate group, on the other hand, wants to describe a reusable IT-Grundschutz framework for similar sites. Which assignment fits best?\nA) Both purposes are fully covered by the same ISO/IEC 27001 certification certificate\nB) A Grundschutz profile is primarily suitable for both purposes, since both aim at industry-wide standardization\nC) A Grundschutz profile is suitable for the industry; a profile is likewise primarily suitable for similar sites\nD) A B3S can fit branch-specific requirements; an IT-Grundschutz profile fits a typical Grundschutz use case",
+      "dari": "در جریان بررسی انطباق و امنیت اطلاعات، وضعیت زیر ارزیابی می‌شود: یک صنعت می‌خواهد الزامات امنیتی معمول را مشخص کند؛ در مقابل، یک گروه شرکتی می‌خواهد یک چارچوب IT-Grundschutz قابل استفاده مجدد برای سایت‌های مشابه توصیف کند. کدام تخصیص مناسب‌تر است؟\nA) هر دو هدف کاملاً توسط همان گواهی‌نامه ISO/IEC 27001 پوشش داده می‌شوند\nB) یک پروفایل Grundschutz عمدتاً برای هر دو هدف مناسب است، زیرا هر دو به دنبال استانداردسازی در سطح صنعت هستند\nC) یک پروفایل Grundschutz برای صنعت مناسب است؛ همچنین یک پروفایل عمدتاً برای سایت‌های مشابه مناسب است\nD) یک B3S می‌تواند برای الزامات مختص صنعت مناسب باشد؛ یک پروفایل IT-Grundschutz برای یک مورد استفاده معمول Grundschutz مناسب است",
+      "he": "בבדיקת ציות ואבטחת מידע נבחן המצב הבא: ענף רוצה לפרט דרישות אבטחה טיפוסיות; לעומת זאת, קבוצת חברות רוצה לתאר מסגרת IT-Grundschutz הניתנת לשימוש חוזר עבור אתרים דומים. איזו התאמה הכי מתאימה?\nA) שתי המטרות מכוסות במלואן על ידי אותה תעודת הסמכת ISO/IEC 27001\nB) פרופיל Grundschutz מתאים בעיקר לשתי המטרות, מכיוון ששתיהן שואפות לתקינה ברמת הענף\nC) פרופיל Grundschutz מתאים לענף; פרופיל מתאים גם בעיקר לאתרים דומים\nD) B3S יכול להתאים לדרישות ספציפיות לענף; פרופיל IT-Grundschutz מתאים למקרה שימוש טיפוסי של Grundschutz"
+    }
+  },
+  {
+    "id": "fd2cc6e4-59e2-420a-b60e-3373480eeeac",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Datenschutz - Grundlagen",
+    "difficulty": 2,
+    "examKeywords": ["Datenschutz", "Schutzziel", "personenbezogene Daten", "natürliche Person"],
+    "explanation": {
+      "de": {
+        "summary": "Gefragt wird nach dem primären Schutzziel des Datenschutzes.",
+        "whyCorrect": "Datenschutz zielt darauf ab, natürliche Personen davor zu schützen, dass ihre personenbezogenen Daten unrechtmäßig oder unangemessen verarbeitet werden. Im Zentrum steht also nicht der Schutz von Systemen, Unternehmensinformationen im Allgemeinen oder die Verfügbarkeit von Daten, sondern die informationelle Selbstbestimmung und die Persönlichkeitsrechte des Einzelnen bei der Verarbeitung seiner Daten.",
+        "commonTrap": "Ein häufiges Missverständnis ist, Datenschutz mit dem allgemeinen Schutz vertraulicher Unternehmensdaten oder mit IT-Sicherheit gleichzusetzen. Dabei bezieht sich Datenschutz spezifisch auf personenbezogene Daten und den Schutz natürlicher Personen, nicht auf Informationen jeder Art.",
+        "testedConcept": "Primäres Schutzziel des Datenschutzes"
+      },
+      "en": {
+        "summary": "The question asks what the primary protection goal of data protection (privacy law) is.",
+        "whyCorrect": "Data protection aims to protect natural persons from unlawful or inappropriate processing of their personal data. The focus is not on protecting systems, confidential company information in general, or data availability, but on individuals' informational self-determination and personal rights when their data is processed.",
+        "commonTrap": "A common misunderstanding is to equate data protection with the general protection of confidential company data, or with IT security. But data protection specifically concerns personal data and the protection of natural persons, not information of any kind.",
+        "testedConcept": "Primary protection goal of data protection"
+      },
+      "dari": {
+        "summary": "این پرسش هدف اصلی حفاظتی حفاظت از داده‌ها (قانون حریم خصوصی) را می‌پرسد.",
+        "whyCorrect": "هدف حفاظت از داده‌ها این است که از اشخاص حقیقی در برابر پردازش غیرقانونی یا نامناسب داده‌های شخصی آنها محافظت کند. تمرکز اصلی نه بر حفاظت از سیستم‌ها، اطلاعات محرمانه شرکت به‌طور کلی یا در دسترس بودن داده‌ها، بلکه بر خودمختاری اطلاعاتی و حقوق شخصیتی افراد هنگام پردازش داده‌های آنهاست.",
+        "commonTrap": "یک سوءتفاهم رایج این است که حفاظت از داده‌ها را با حفاظت عمومی از اطلاعات محرمانه شرکت یا با امنیت فناوری اطلاعات یکسان بدانیم. اما حفاظت از داده‌ها به‌طور خاص به داده‌های شخصی و حفاظت از اشخاص حقیقی مربوط است، نه به اطلاعات از هر نوعی.",
+        "testedConcept": "هدف اصلی حفاظتی حفاظت از داده‌ها"
+      },
+      "he": {
+        "summary": "השאלה בוחנת מהי מטרת ההגנה העיקרית של הגנת הפרטיות (דיני הגנת מידע).",
+        "whyCorrect": "מטרת הגנת הפרטיות היא להגן על בני אדם מפני עיבוד בלתי חוקי או בלתי הולם של נתוניהם האישיים. הדגש אינו על הגנת מערכות, מידע חסוי כללי של החברה או זמינות הנתונים, אלא על ההגדרה העצמית המידעית וזכויות האישיות של הפרט בעת עיבוד נתוניו.",
+        "commonTrap": "טעות נפוצה היא להשוות בין הגנת פרטיות לבין הגנה כללית על מידע חסוי של החברה, או עם אבטחת IT. אך הגנת הפרטיות עוסקת באופן ספציפי בנתונים אישיים ובהגנה על בני אדם, ולא במידע מכל סוג.",
+        "testedConcept": "מטרת ההגנה העיקרית של הגנת הפרטיות"
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Schutzziel", "english": "protection goal / objective", "dari": "هدف حفاظتی", "hebrew": "מטרת הגנה", "shortGermanExplanation": "Das übergeordnete Ziel, das ein Sicherheits- oder Rechtsbereich verfolgt." },
+      { "germanWord": "natürliche Person", "english": "natural person (individual)", "dari": "شخص حقیقی", "hebrew": "אדם טבעי (יחיד)", "shortGermanExplanation": "Ein einzelner Mensch im rechtlichen Sinne, im Gegensatz zu einer juristischen Person." },
+      { "germanWord": "informationelle Selbstbestimmung", "english": "informational self-determination", "dari": "خودمختاری اطلاعاتی", "hebrew": "הגדרה עצמית מידעית", "shortGermanExplanation": "Das Recht des Einzelnen, selbst über die Preisgabe und Verwendung seiner Daten zu bestimmen." },
+      { "germanWord": "Verarbeitung", "english": "processing (of data)", "dari": "پردازش", "hebrew": "עיבוד (נתונים)", "shortGermanExplanation": "Jeder Umgang mit Daten, z. B. Erheben, Speichern, Nutzen oder Löschen." }
+    ],
+    "questionTranslation": {
+      "en": "During a review of compliance and information security, the responsible team discusses the following case: What is the primary goal of data protection?\nA) The availability of data to the general public, since this is the most widespread aspect\nB) The protection of all confidential company information, regardless of type\nC) The protection of natural persons in the processing of personal data\nD) The certification of every IT system",
+      "dari": "در جریان بررسی انطباق و امنیت اطلاعات، تیم مسئول این مورد را بررسی می‌کند: هدف اصلی حفاظت از داده‌ها چیست؟\nA) در دسترس بودن داده‌ها برای عموم مردم، زیرا این گسترده‌ترین جنبه است\nB) حفاظت از تمام اطلاعات محرمانه شرکت، صرف‌نظر از نوع آنها\nC) حفاظت از اشخاص حقیقی در پردازش داده‌های شخصی\nD) گواهی‌نامه هر سیستم فناوری اطلاعات",
+      "he": "בבדיקת ציות ואבטחת מידע הצוות האחראי דן במקרה הבא: מהי המטרה העיקרית של הגנת הפרטיות?\nA) זמינות הנתונים לציבור הרחב, מכיוון שזה ההיבט הנפוץ ביותר\nB) הגנה על כל המידע החסוי של החברה, ללא קשר לסוגו\nC) הגנה על בני אדם בעיבוד נתונים אישיים\nD) הסמכה של כל מערכת IT"
+    }
+  },
+  {
+    "id": "57c19204-0ac4-4f65-b876-3ecc344be2b8",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "ISO/IEC 27001 - Grundlagen",
+    "difficulty": 2,
+    "examKeywords": ["ISO 27001", "ISMS", "Zertifizierung"],
+    "explanation": {
+      "de": {
+        "summary": "Gefragt wird, welche Aussage zu ISO/IEC 27001 zutrifft.",
+        "whyCorrect": "ISO/IEC 27001 legt die Anforderungen an ein Informationssicherheits-Managementsystem (ISMS) fest, das grundsätzlich zertifiziert werden kann. Sie richtet sich an Organisationen jeder Art – öffentlich wie privat – und regelt nicht einzelne Produkte, sondern das systematische Managementsystem einer Organisation zur Steuerung der Informationssicherheit.",
+        "commonTrap": "Ein Denkfehler ist anzunehmen, ISO/IEC 27001 richte sich nur an staatliche Stellen, betreffe nur technische Produktanforderungen oder ersetze bestehende Gesetze. Tatsächlich ist sie eine branchenübergreifende Managementsystem-Norm, die von jeder Organisation angewendet und zertifiziert werden kann.",
+        "testedConcept": "Grundcharakter von ISO/IEC 27001 als zertifizierbare ISMS-Norm"
+      },
+      "en": {
+        "summary": "The question asks which statement about ISO/IEC 27001 is correct.",
+        "whyCorrect": "ISO/IEC 27001 sets out the requirements for an information security management system (ISMS) that can, in principle, be certified. It applies to organizations of any kind — public or private — and does not govern individual products, but rather an organization's systematic management system for controlling information security.",
+        "commonTrap": "A common mistake is to assume ISO/IEC 27001 applies only to government bodies, only concerns technical product requirements, or replaces existing laws. In reality, it is a cross-industry management-system standard that any organization can apply and get certified against.",
+        "testedConcept": "The basic nature of ISO/IEC 27001 as a certifiable ISMS standard"
+      },
+      "dari": {
+        "summary": "این پرسش می‌پرسد که کدام گزاره درباره ISO/IEC 27001 درست است.",
+        "whyCorrect": "ISO/IEC 27001 الزامات یک سیستم مدیریت امنیت اطلاعات (ISMS) را تعیین می‌کند که اصولاً قابل گواهی‌نامه است. این استاندارد برای سازمان‌های هر نوع - دولتی یا خصوصی - قابل اجرا است و محصولات جداگانه را تنظیم نمی‌کند، بلکه سیستم مدیریت نظام‌مند یک سازمان برای کنترل امنیت اطلاعات را تنظیم می‌کند.",
+        "commonTrap": "یک اشتباه رایج این است که فرض شود ISO/IEC 27001 فقط برای نهادهای دولتی است، فقط به الزامات فنی محصولات مربوط می‌شود، یا جایگزین قوانین موجود می‌شود. در واقع، این یک استاندارد سیستم مدیریتی فرابخشی است که هر سازمانی می‌تواند آن را اجرا و گواهی‌نامه بگیرد.",
+        "testedConcept": "ماهیت اساسی ISO/IEC 27001 به عنوان یک استاندارد ISMS قابل گواهی‌نامه"
+      },
+      "he": {
+        "summary": "השאלה בוחנת איזו טענה לגבי ISO/IEC 27001 נכונה.",
+        "whyCorrect": "ISO/IEC 27001 קובע את הדרישות למערכת ניהול אבטחת מידע (ISMS) שניתן, באופן עקרוני, להסמיך. התקן חל על ארגונים מכל סוג - ציבוריים או פרטיים - ואינו מסדיר מוצרים בודדים, אלא את מערכת הניהול השיטתית של הארגון לשליטה באבטחת המידע.",
+        "commonTrap": "טעות נפוצה היא להניח ש-ISO/IEC 27001 חל רק על גופים ממשלתיים, עוסק רק בדרישות טכניות למוצרים, או מחליף חוקים קיימים. למעשה, מדובר בתקן מערכת ניהול חוצה-תעשיות שכל ארגון יכול ליישם ולהסמיך לפיו.",
+        "testedConcept": "האופי הבסיסי של ISO/IEC 27001 כתקן ISMS הניתן להסמכה"
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Managementsystem", "english": "management system", "dari": "سیستم مدیریت", "hebrew": "מערכת ניהול", "shortGermanExplanation": "Ein strukturierter Rahmen aus Prozessen und Verantwortlichkeiten zur Steuerung eines Bereichs, hier der Informationssicherheit." },
+      { "germanWord": "zertifizierbar", "english": "certifiable", "dari": "قابل گواهی‌نامه", "hebrew": "ניתן להסמכה", "shortGermanExplanation": "Die Eigenschaft, dass die Konformität mit einer Norm durch eine unabhängige Stelle bestätigt werden kann." }
+    ],
+    "questionTranslation": {
+      "en": "During a review of compliance and information security, the following decision needs to be made: Which statement about ISO/IEC 27001 is correct?\nA) It is primarily aimed at government authorities, while private companies apply their own frameworks\nB) It essentially consists of technical requirements for individual products\nC) It replaces all applicable laws\nD) It contains requirements for a fundamentally certifiable ISMS",
+      "dari": "در جریان بررسی انطباق و امنیت اطلاعات، باید تصمیم زیر گرفته شود: کدام گزاره درباره ISO/IEC 27001 درست است؟\nA) این استاندارد در درجه اول برای نهادهای دولتی است، در حالی که شرکت‌های خصوصی چارچوب‌های خودشان را اعمال می‌کنند\nB) این استاندارد اساساً شامل الزامات فنی برای محصولات جداگانه است\nC) این استاندارد جایگزین همه قوانین قابل اجرا می‌شود\nD) این استاندارد شامل الزامات یک ISMS اصولاً قابل گواهی‌نامه است",
+      "he": "בבדיקת ציות ואבטחת מידע יש לקבל את ההחלטה הבאה: איזו טענה לגבי ISO/IEC 27001 נכונה?\nA) הוא מיועד בעיקר לרשויות ממשלתיות, בעוד חברות פרטיות מיישמות מסגרות משלהן\nB) הוא מורכב בעיקרו מדרישות טכניות למוצרים בודדים\nC) הוא מחליף את כל החוקים החלים\nD) הוא מכיל דרישות ל-ISMS הניתן להסמכה באופן עקרוני"
+    }
+  },
+  {
+    "id": "042c93a8-914b-4a1c-96b8-3510928d273b",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "ISO/IEC 27001 und 27002",
+    "difficulty": 2,
+    "examKeywords": ["ISO 27002", "Leitfaden", "Anhang A", "ISO 27001"],
+    "explanation": {
+      "de": {
+        "summary": "Gefragt wird nach der Rolle von ISO/IEC 27002 im Verhältnis zu ISO/IEC 27001.",
+        "whyCorrect": "ISO/IEC 27002 ist ein Leitfaden, der ergänzende, praxisnahe Hinweise zur Ausgestaltung der in ISO/IEC 27001 (Anhang A) genannten Informationssicherheitsmaßnahmen liefert. Sie ist selbst keine Zertifizierungsnorm und ersetzt weder Gesetze noch die individuelle Risikobehandlung, sondern unterstützt Organisationen dabei, ausgewählte Controls konkret und praxisgerecht umzusetzen.",
+        "commonTrap": "Ein häufiger Fehler ist, ISO/IEC 27002 mit einem Datenschutzgesetz zu verwechseln oder anzunehmen, sie ersetze die organisationsspezifische Risikobehandlung oder zertifiziere Produkte. Sie ist ausschließlich eine unterstützende Umsetzungshilfe.",
+        "testedConcept": "Rolle von ISO/IEC 27002 als Leitfaden zu ISO/IEC 27001"
+      },
+      "en": {
+        "summary": "The question asks what role ISO/IEC 27002 plays in relation to ISO/IEC 27001.",
+        "whyCorrect": "ISO/IEC 27002 is a guideline that provides supplementary, practical guidance for designing the information security measures listed in ISO/IEC 27001 (Annex A). It is not itself a certification standard and does not replace laws or the organization's own risk treatment process; instead, it helps organizations implement selected controls in a concrete, practical way.",
+        "commonTrap": "A common mistake is to confuse ISO/IEC 27002 with a data protection law, or to assume it replaces the organization-specific risk treatment or certifies products. It is purely a supportive implementation guide.",
+        "testedConcept": "The role of ISO/IEC 27002 as a guideline to ISO/IEC 27001"
+      },
+      "dari": {
+        "summary": "این پرسش می‌پرسد که ISO/IEC 27002 چه نقشی در رابطه با ISO/IEC 27001 دارد.",
+        "whyCorrect": "ISO/IEC 27002 یک راهنما است که راهنمایی‌های تکمیلی و عملی برای طراحی اقدامات امنیت اطلاعات ذکرشده در ISO/IEC 27001 (پیوست A) ارائه می‌دهد. این خودش یک استاندارد گواهی‌نامه نیست و جایگزین قوانین یا فرآیند رسیدگی به ریسک سازمان نمی‌شود، بلکه به سازمان‌ها کمک می‌کند تا کنترل‌های انتخاب‌شده را به‌صورت مشخص و عملی اجرا کنند.",
+        "commonTrap": "یک اشتباه رایج این است که ISO/IEC 27002 با قانون حفاظت از داده‌ها اشتباه گرفته شود یا تصور شود که جایگزین رسیدگی به ریسک مختص سازمان می‌شود یا محصولات را گواهی‌نامه می‌دهد. این فقط یک راهنمای اجرایی پشتیبانی‌کننده است.",
+        "testedConcept": "نقش ISO/IEC 27002 به عنوان راهنمای ISO/IEC 27001"
+      },
+      "he": {
+        "summary": "השאלה בוחנת מהו תפקידו של ISO/IEC 27002 ביחס ל-ISO/IEC 27001.",
+        "whyCorrect": "ISO/IEC 27002 הוא מדריך המספק הנחיות משלימות ומעשיות לעיצוב אמצעי אבטחת המידע המפורטים ב-ISO/IEC 27001 (נספח A). הוא עצמו אינו תקן הסמכה ואינו מחליף חוקים או את תהליך טיפול הסיכונים הספציפי לארגון; במקום זאת, הוא מסייע לארגונים ליישם בקרות נבחרות בצורה קונקרטית ומעשית.",
+        "commonTrap": "טעות נפוצה היא לבלבל בין ISO/IEC 27002 לבין חוק הגנת פרטיות, או להניח שהוא מחליף את טיפול הסיכונים הספציפי לארגון או מסמיך מוצרים. מדובר אך ורק במדריך יישום תומך.",
+        "testedConcept": "תפקידו של ISO/IEC 27002 כמדריך ל-ISO/IEC 27001"
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Leitfaden", "english": "guideline", "dari": "راهنما", "hebrew": "מדריך", "shortGermanExplanation": "Ein unterstützendes Dokument mit praktischen Empfehlungen, das nicht selbst verbindlich zertifiziert wird." },
+      { "germanWord": "Anhang A", "english": "Annex A", "dari": "پیوست A", "hebrew": "נספח A", "shortGermanExplanation": "Der Anhang von ISO/IEC 27001, der eine Liste möglicher Controls enthält." }
+    ],
+    "questionTranslation": {
+      "en": "During a review of compliance and information security, the following exam question arises: What role does ISO/IEC 27002 play in relation to ISO/IEC 27001?\nA) It provides supplementary guidance for designing information security measures\nB) It is the data protection law of the European Union\nC) It replaces the organization-specific risk treatment\nD) It certifies individual security products",
+      "dari": "در جریان بررسی انطباق و امنیت اطلاعات، این پرسش امتحانی مطرح می‌شود: ISO/IEC 27002 چه نقشی در رابطه با ISO/IEC 27001 دارد؟\nA) راهنمایی‌های تکمیلی برای طراحی اقدامات امنیت اطلاعات ارائه می‌دهد\nB) این قانون حفاظت از داده‌های اتحادیه اروپا است\nC) جایگزین رسیدگی به ریسک مختص سازمان می‌شود\nD) محصولات امنیتی جداگانه را گواهی‌نامه می‌دهد",
+      "he": "בבדיקת ציות ואבטחת מידע עולה שאלת הבחינה הבאה: איזה תפקיד ממלא ISO/IEC 27002 ביחס ל-ISO/IEC 27001?\nA) הוא מספק הנחיות משלימות לעיצוב אמצעי אבטחת מידע\nB) הוא חוק הגנת הפרטיות של האיחוד האירופי\nC) הוא מחליף את טיפול הסיכונים הספציפי לארגון\nD) הוא מסמיך מוצרי אבטחה בודדים"
+    }
+  },
+  {
+    "id": "5cbb0ffc-292f-431d-a095-3ed043fbb9b2",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "BSI-Standards 200-x",
+    "difficulty": 2,
+    "examKeywords": ["BSI-Standards", "IT-Grundschutz", "ISMS", "BCM", "Risikomanagement"],
+    "explanation": {
+      "de": {
+        "summary": "Gefragt wird nach der grundsätzlichen Einordnung der BSI-Standards 200-x.",
+        "whyCorrect": "Die BSI-Standards 200-x sind öffentlich verfügbare, vom Bundesamt für Sicherheit in der Informationstechnik (BSI) herausgegebene Methoden und Vorgehensweisen, die unter anderem den Aufbau eines ISMS, den IT-Grundschutz, das Risikomanagement und das Business Continuity Management (BCM) betreffen. Sie sind allgemein anwendbare Handlungsanleitungen für Organisationen jeder Art, keine internen Programme einzelner Behörden, keine Strafvorschriften und kein Herstellerkatalog.",
+        "commonTrap": "Ein Missverständnis ist, die BSI-Standards als rein behördeninternes Regelwerk, als Sammlung von Straftatbeständen oder als Produktkatalog für zugelassene Hersteller misszuverstehen. Tatsächlich handelt es sich um öffentlich zugängliche methodische Grundlagen für Informationssicherheit.",
+        "testedConcept": "Einordnung der BSI-Standards 200-x"
+      },
+      "en": {
+        "summary": "The question asks how the BSI standards 200-x should be classified at a high level.",
+        "whyCorrect": "The BSI standards 200-x are publicly available methods and procedures issued by Germany's Federal Office for Information Security (BSI), covering, among other things, how to build an ISMS, IT-Grundschutz, risk management, and business continuity management (BCM). They are generally applicable guidance for organizations of any kind — not internal programs for a single authority, not criminal-law provisions, and not a manufacturer catalog.",
+        "commonTrap": "A misunderstanding is to view the BSI standards as a purely internal set of rules for one authority, as a collection of criminal offenses, or as a catalog of approved products from manufacturers. In reality, they are publicly accessible methodological foundations for information security.",
+        "testedConcept": "Classification of the BSI standards 200-x"
+      },
+      "dari": {
+        "summary": "این پرسش می‌پرسد که استانداردهای BSI سری 200-x در سطح کلی چگونه باید طبقه‌بندی شوند.",
+        "whyCorrect": "استانداردهای BSI سری 200-x روش‌ها و رویه‌های عمومی و در دسترس هستند که توسط اداره فدرال امنیت فناوری اطلاعات آلمان (BSI) منتشر شده‌اند و از جمله شامل ساخت ISMS، IT-Grundschutz، مدیریت ریسک و مدیریت تداوم کسب‌وکار (BCM) می‌شوند. این‌ها راهنمایی‌های عملی به‌طور کلی قابل اجرا برای سازمان‌های هر نوع هستند - نه برنامه‌های داخلی یک نهاد خاص، نه احکام کیفری و نه فهرست تولیدکنندگان.",
+        "commonTrap": "یک سوءتفاهم این است که استانداردهای BSI را به عنوان یک مجموعه قوانین صرفاً داخلی برای یک نهاد، مجموعه‌ای از جرائم کیفری، یا فهرست محصولات تولیدکنندگان مجاز تلقی کنیم. در واقع، این‌ها مبانی روش‌شناختی عمومی و در دسترس برای امنیت اطلاعات هستند.",
+        "testedConcept": "طبقه‌بندی استانداردهای BSI سری 200-x"
+      },
+      "he": {
+        "summary": "השאלה בוחנת כיצד יש לסווג ברמה כללית את תקני BSI מסדרת 200-x.",
+        "whyCorrect": "תקני BSI מסדרת 200-x הם שיטות ונהלים זמינים לציבור, שפורסמו על ידי המשרד הפדרלי הגרמני לאבטחת מידע (BSI), ומכסים בין היתר את בניית ה-ISMS, IT-Grundschutz, ניהול סיכונים וניהול המשכיות עסקית (BCM). מדובר בהנחיות פעולה החלות באופן כללי על ארגונים מכל סוג - לא תוכניות פנימיות של רשות בודדת, לא הוראות פליליות ולא קטלוג מוצרים של יצרנים.",
+        "commonTrap": "אי-הבנה נפוצה היא לראות בתקני BSI תקנון פנימי גרידא של רשות אחת, אוסף עבירות פליליות, או קטלוג מוצרים מאושרים של יצרנים. למעשה, מדובר ביסודות מתודולוגיים זמינים לציבור עבור אבטחת מידע.",
+        "testedConcept": "סיווג תקני BSI מסדרת 200-x"
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "BSI", "english": "Federal Office for Information Security (Germany)", "dari": "اداره فدرال امنیت فناوری اطلاعات آلمان", "hebrew": "המשרד הפדרלי הגרמני לאבטחת מידע", "shortGermanExplanation": "Die deutsche Bundesbehörde, die Standards und Empfehlungen zur Informationssicherheit herausgibt." },
+      { "germanWord": "BCM", "english": "Business Continuity Management", "dari": "مدیریت تداوم کسب‌وکار", "hebrew": "ניהול המשכיות עסקית", "shortGermanExplanation": "Der Bereich, der die Aufrechterhaltung kritischer Geschäftsprozesse bei Störungen sicherstellt." },
+      { "germanWord": "IT-Grundschutz", "english": "IT baseline protection", "dari": "IT-Grundschutz (حفاظت پایه فناوری اطلاعات)", "hebrew": "IT-Grundschutz (הגנת בסיס ל-IT)", "shortGermanExplanation": "Eine BSI-Methodik zur systematischen Absicherung von IT-Systemen." }
+    ],
+    "questionTranslation": {
+      "en": "During a review of compliance and information security, the following situation is being assessed: How should the BSI standards 200-x be classified at a high level?\nA) As an internal audit program developed specifically for a particular authority\nB) As publicly available methods for, among other things, ISMS, Grundschutz, risk, and BCM\nC) As a collection of binding criminal-law provisions\nD) As a manufacturer catalog for approved firewalls",
+      "dari": "در جریان بررسی انطباق و امنیت اطلاعات، وضعیت زیر ارزیابی می‌شود: استانداردهای BSI سری 200-x در سطح کلی چگونه باید طبقه‌بندی شوند؟\nA) به عنوان یک برنامه بازرسی داخلی که به‌طور خاص برای یک نهاد خاص توسعه یافته است\nB) به عنوان روش‌های عمومی و در دسترس برای از جمله ISMS، Grundschutz، ریسک و BCM\nC) به عنوان مجموعه‌ای از احکام کیفری الزام‌آور\nD) به عنوان فهرست تولیدکنندگان برای فایروال‌های تأییدشده",
+      "he": "בבדיקת ציות ואבטחת מידע נבחן המצב הבא: כיצד יש לסווג ברמה גבוהה את תקני BSI מסדרת 200-x?\nA) כתוכנית ביקורת פנימית שפותחה במיוחד עבור רשות מסוימת\nB) כשיטות זמינות לציבור עבור, בין היתר, ISMS, Grundschutz, סיכונים ו-BCM\nC) כאוסף של הוראות פליליות מחייבות\nD) כקטלוג יצרנים עבור חומות אש מאושרות"
+    }
+  }
+]

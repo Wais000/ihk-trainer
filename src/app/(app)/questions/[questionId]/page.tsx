@@ -8,6 +8,7 @@ import { FavoriteToggle } from "@/components/questions/favorite-toggle";
 import { MarkToggle } from "@/components/questions/mark-toggle";
 import { FlagQuestionForm } from "@/components/questions/flag-question-form";
 import { getQuestionTranslation } from "@/lib/translation/translate-question";
+import { getOptionTranslation } from "@/lib/translation/translate-option";
 import { dirFor } from "@/lib/i18n/languages";
 import type { ExplanationLanguage } from "@/lib/validation/question";
 import type { SessionVocabularyItem } from "@/components/practice/types";
@@ -30,9 +31,19 @@ export default async function QuestionDetailPage({ params }: { params: Promise<{
 
   const { data: settings } = await supabase
     .from("user_settings")
-    .select("explanation_language")
+    .select(
+      "explanation_language, translate_question_enabled, translate_answers_enabled, translate_correct_answer_enabled, translate_explanation_enabled"
+    )
     .eq("user_id", user.id)
     .maybeSingle();
+  const translateQuestionEnabled = settings?.translate_question_enabled ?? true;
+  const translateAnswersEnabled = settings?.translate_answers_enabled ?? true;
+  const translateCorrectAnswerEnabled = settings?.translate_correct_answer_enabled ?? true;
+  const translateExplanationEnabled = settings?.translate_explanation_enabled ?? true;
+  // This detail page always shows the correct option (unlike practice mode,
+  // which hides it until submit/reveal), so "all answers" and "correct
+  // answer only" both simply mean "fetch this option's translation" here.
+  const shouldFetchOptionTranslations = translateAnswersEnabled || translateCorrectAnswerEnabled;
 
   const q = question as unknown as {
     id: string;
@@ -55,12 +66,26 @@ export default async function QuestionDetailPage({ params }: { params: Promise<{
   const secondaryLanguage: ExplanationLanguage =
     settings?.explanation_language === "de" || !settings?.explanation_language ? "en" : settings.explanation_language;
 
-  const questionTranslation = await getQuestionTranslation(supabase, q.id, user.id, secondaryLanguage, q.question_text).catch(
-    (err) => {
-      console.error("getQuestionTranslation failed:", err);
-      return null;
-    }
-  );
+  const questionTranslation = translateQuestionEnabled
+    ? await getQuestionTranslation(supabase, q.id, secondaryLanguage).catch((err) => {
+        console.error("getQuestionTranslation failed:", err);
+        return null;
+      })
+    : null;
+
+  const optionTranslations = shouldFetchOptionTranslations
+    ? Object.fromEntries(
+        await Promise.all(
+          q.question_options.map(async (option) => {
+            const translation = await getOptionTranslation(supabase, option.id, secondaryLanguage).catch((err) => {
+              console.error("getOptionTranslation failed:", err);
+              return null;
+            });
+            return [option.id, translation] as const;
+          })
+        )
+      )
+    : {};
 
   return (
     <main className="mx-auto flex max-w-[852px] flex-col gap-4 px-4 py-8">
@@ -105,7 +130,15 @@ export default async function QuestionDetailPage({ params }: { params: Promise<{
                 >
                   {option.label}
                 </span>
-                <span className="text-foreground">{option.option_text}</span>
+                <span className="flex flex-col gap-1 text-foreground">
+                  {option.option_text}
+                  {(translateAnswersEnabled || (translateCorrectAnswerEnabled && option.is_correct)) &&
+                    optionTranslations[option.id] && (
+                      <span dir={dirFor(secondaryLanguage)} className="text-xs leading-relaxed text-muted-foreground">
+                        {optionTranslations[option.id]}
+                      </span>
+                    )}
+                </span>
               </div>
             ))}
           </div>
@@ -119,6 +152,7 @@ export default async function QuestionDetailPage({ params }: { params: Promise<{
               explanations={explanationsByLanguage}
               secondaryLanguage={secondaryLanguage}
               correctLabel={q.question_options.find((o) => o.is_correct)?.label ?? ""}
+              translateExplanationEnabled={translateExplanationEnabled}
             />
           )}
 

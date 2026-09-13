@@ -1,0 +1,104 @@
+[
+  {
+    "id": "5658ffe8-a004-4f68-ab30-1f9dac76f47e",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Unterscheidung von Anforderungsquellen",
+    "difficulty": 3,
+    "examKeywords": ["Orientierungshilfe", "Verbindlichkeit", "gesetzliche Vorschrift", "Gleichwertigkeit"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen eine unverbindliche behördliche Orientierungshilfe als vollständig gleichwertig mit einer verbindlichen gesetzlichen Vorschrift zum selben Thema behandelt.",
+        "whyCorrect": "Eine unverbindliche Orientierungshilfe und eine verbindliche gesetzliche Vorschrift sollten in ihrem unterschiedlichen Verbindlichkeitsgrad erkennbar bleiben, auch wenn sie inhaltlich ähnliche Empfehlungen oder Anforderungen zum selben Thema betreffen. Eine Orientierungshilfe dient primär der Auslegung oder Unterstützung, ist aber nicht mit derselben rechtlichen Durchsetzbarkeit verbunden wie eine gesetzliche Vorschrift. Diese Unterscheidung bleibt auch dann wichtig, wenn kein tatsächlicher Widerspruch zwischen beiden Dokumenten besteht."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company treating a non-binding regulatory guidance document as fully equivalent to a binding legal requirement on the same topic.",
+        "whyCorrect": "A non-binding guidance document and a binding legal requirement should remain distinguishable in terms of their different degrees of bindingness, even when they address similar recommendations or requirements on the same topic. A guidance document primarily serves to interpret or support understanding, but it does not carry the same legal enforceability as a statutory requirement. This distinction remains important even when there is no actual conflict between the two documents."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که یک راهنمای غیرالزام‌آور رسمی را کاملاً هم‌ارزش با یک مقرره قانونی الزام‌آور درباره همان موضوع تلقی می‌کند.",
+        "whyCorrect": "یک راهنمای غیرالزام‌آور و یک مقرره قانونی الزام‌آور باید از نظر درجه متفاوت الزام‌آور بودن قابل تشخیص باقی بمانند، حتی اگر توصیه‌ها یا الزامات مشابهی درباره یک موضوع یکسان داشته باشند. یک راهنما اصولاً برای تفسیر یا کمک به فهم خدمت می‌کند، اما همان قابلیت اجرای قانونی یک مقرره قانونی را ندارد. این تمایز حتی زمانی که هیچ تناقض واقعی میان این دو سند وجود ندارد، مهم باقی می‌ماند."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המתייחסת למסמך הנחיה רגולטורי לא מחייב כשווה-ערך לחלוטין לדרישה חוקית מחייבת באותו נושא.",
+        "whyCorrect": "מסמך הנחיה לא מחייב ודרישה חוקית מחייבת צריכים להישאר ניתנים להבחנה מבחינת דרגת המחייבות השונה שלהם, גם כאשר הם עוסקים בהמלצות או דרישות דומות באותו נושא. מסמך הנחיה משמש בעיקר לפרשנות או לתמיכה בהבנה, אך אינו נושא את אותה אכיפות משפטית כמו דרישה חוקית. הבחנה זו נותרת חשובה גם כאשר אין סתירה בפועל בין שני המסמכים."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Orientierungshilfe", "english": "guidance document", "dari": "راهنما", "hebrew": "מסמך הנחיה", "shortGermanExplanation": "Ein von einer Behörde herausgegebenes, meist unverbindliches Dokument zur Auslegungshilfe." },
+      { "germanWord": "Verbindlichkeitsgrad", "english": "degree of bindingness", "dari": "درجه الزام‌آور بودن", "hebrew": "דרגת מחייבות", "shortGermanExplanation": "Das Ausmaß, in dem ein Dokument rechtlich verpflichtend ist." }
+    ],
+    "questionTranslation": {
+      "en": "A company treats a non-binding regulatory guidance document as fully equivalent to a binding legal requirement on the same topic. Which classification is most accurate?",
+      "dari": "یک شرکت یک راهنمای غیرالزام‌آور رسمی را کاملاً هم‌ارزش با یک مقرره قانونی الزام‌آور درباره همان موضوع تلقی می‌کند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מתייחסת למסמך הנחיה רגולטורי לא מחייב כשווה-ערך לחלוטין לדרישה חוקית מחייבת באותו נושא. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "49dd3430-bf1f-40e0-b421-ccf87270eba4",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Konkretisierung rechtlicher Verweise",
+    "difficulty": 3,
+    "examKeywords": ["DSGVO", "pauschaler Verweis", "einschlägige Artikel", "interne Richtlinie"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen in seiner internen Richtlinie pauschal auf 'die DSGVO' verweist, ohne die für den konkreten Verarbeitungsvorgang tatsächlich einschlägigen Artikel zu benennen.",
+        "whyCorrect": "Eine konkrete Benennung der einschlägigen Artikel erleichtert die praktische Umsetzung und Prüfung der Richtlinie erheblich, da Mitarbeitende und Prüfer sonst selbst herausfinden müssten, welche der zahlreichen Regelungen der DSGVO tatsächlich für den jeweiligen Verarbeitungsvorgang relevant sind. Ein pauschaler Verweis lässt offen, welche spezifischen Pflichten gemeint sind, und erschwert damit sowohl die Anwendung im Alltag als auch spätere Kontrollen."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company referring only generally to 'the GDPR' in its internal policy, without naming the specific articles actually relevant to the concrete processing operation.",
+        "whyCorrect": "Naming the relevant articles specifically makes it significantly easier to implement and review the policy in practice, since otherwise employees and auditors would have to work out for themselves which of the many GDPR provisions actually apply to the particular processing operation. A generic reference leaves it unclear which specific obligations are meant, making both day-to-day application and later checks more difficult."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که در سیاست داخلی خود صرفاً به‌طور کلی به «GDPR» اشاره می‌کند، بدون آنکه مواد واقعاً مرتبط با فرآیند پردازش مشخص را نام ببرد.",
+        "whyCorrect": "نام بردن مشخص از مواد مرتبط، اجرا و بررسی عملی سیاست را به‌طور قابل‌توجهی ساده‌تر می‌کند، زیرا در غیر این صورت کارکنان و بازرسان باید خودشان دریابند که کدام‌یک از مقررات متعدد GDPR واقعاً برای فرآیند پردازش خاص مربوط است. یک ارجاع کلی روشن نمی‌کند که کدام تعهدات مشخص مورد نظر است، و بنابراین هم کاربرد روزمره و هم بررسی‌های بعدی را دشوارتر می‌کند."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המפנה בנוהל הפנימי שלה באופן כללי בלבד ל'ה-GDPR', מבלי לציין את הסעיפים הרלוונטיים בפועל לפעולת העיבוד הקונקרטית.",
+        "whyCorrect": "ציון מפורש של הסעיפים הרלוונטיים מקל משמעותית על יישום ובדיקת הנוהל בפועל, שכן אחרת עובדים ומבקרים יצטרכו לברר בעצמם אילו מבין ההוראות הרבות של ה-GDPR אכן חלות על פעולת העיבוד הספציפית. הפניה כללית משאירה לא ברור אילו חובות ספציפיות מכוונות, מה שמקשה הן על היישום היומיומי והן על בדיקות מאוחרות יותר."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "pauschaler Verweis", "english": "generic/blanket reference", "dari": "ارجاع کلی", "hebrew": "הפניה כללית", "shortGermanExplanation": "Ein Verweis auf ein gesamtes Regelwerk, ohne die konkret relevanten Teile zu benennen." },
+      { "germanWord": "einschlägige Artikel", "english": "relevant articles", "dari": "مواد مرتبط", "hebrew": "סעיפים רלוונטיים", "shortGermanExplanation": "Die konkreten Bestimmungen eines Gesetzes, die auf einen bestimmten Sachverhalt anwendbar sind." }
+    ],
+    "questionTranslation": {
+      "en": "A company's internal policy generically refers to 'the GDPR', without naming the specific articles actually relevant to the concrete processing operation. Which classification is most accurate?",
+      "dari": "سیاست داخلی یک شرکت صرفاً به‌طور کلی به «GDPR» اشاره می‌کند، بدون آنکه مواد واقعاً مرتبط با فرآیند پردازش مشخص را نام ببرد. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "הנוהל הפנימי של חברה מפנה באופן כללי בלבד ל'ה-GDPR', מבלי לציין את הסעיפים הרלוונטיים בפועל לפעולת העיבוד הקונקרטית. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "4c6ff1b8-2885-420b-9aea-74bd222699e8",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Abgrenzung von Mindestpflichten und weitergehenden Anforderungen",
+    "difficulty": 3,
+    "examKeywords": ["branchenspezifische Norm", "gesetzliche Mindestpflichten", "Priorisierung", "Umsetzung"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen eine branchenspezifische Sicherheitsnorm vollständig übernimmt, ohne zu prüfen, ob einzelne Anforderungen über die eigenen gesetzlichen Mindestpflichten hinausgehen.",
+        "whyCorrect": "Es ist sinnvoll zu erkennen, welche Anforderungen der Norm über die gesetzlichen Mindestpflichten hinausgehen, um deren Umsetzung bewusst zu priorisieren und Ressourcen gezielt einzusetzen. Ohne diese Unterscheidung bleibt unklar, welche Maßnahmen zwingend erforderlich sind und welche freiwillig zusätzlichen Schutz bieten, was eine informierte Steuerung der Umsetzung erschwert. Eine solche Unterscheidung ist praktisch durchaus möglich und branchenspezifische Normen dürfen durchaus über die gesetzlichen Mindestanforderungen hinausgehen."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company fully adopting an industry-specific security standard without checking whether some of its requirements go beyond the company's own statutory minimum obligations.",
+        "whyCorrect": "It makes sense to identify which requirements of the standard go beyond the statutory minimum obligations, in order to consciously prioritize their implementation and allocate resources purposefully. Without this distinction, it remains unclear which measures are strictly required and which voluntarily provide additional protection, making informed management of implementation harder. Such a distinction is entirely feasible in practice, and industry-specific standards can indeed go beyond statutory minimum requirements."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که یک معیار امنیتی مخصوص یک بخش صنعتی را به‌طور کامل می‌پذیرد، بدون بررسی اینکه آیا برخی الزامات آن فراتر از حداقل تعهدات قانونی خود شرکت است یا نه.",
+        "whyCorrect": "شناسایی اینکه کدام الزامات معیار فراتر از حداقل تعهدات قانونی هستند، معنادار است تا بتوان اجرای آن‌ها را آگاهانه اولویت‌بندی کرد و منابع را هدفمند اختصاص داد. بدون این تمایز، روشن نمی‌ماند که کدام تدابیر واقعاً الزامی هستند و کدام‌ها به‌طور داوطلبانه حفاظت اضافی ارائه می‌دهند، که این امر مدیریت آگاهانه اجرا را دشوارتر می‌کند. چنین تمایزی در عمل کاملاً امکان‌پذیر است، و معیارهای مخصوص یک بخش صنعتی می‌توانند کاملاً فراتر از حداقل الزامات قانونی باشند."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המאמצת במלואו תקן אבטחה ספציפי לענף, מבלי לבדוק האם חלק מדרישותיו חורגות מהחובות המינימליות החוקיות של החברה עצמה.",
+        "whyCorrect": "הגיוני לזהות אילו מדרישות התקן חורגות מהחובות המינימליות החוקיות, כדי לתעדף במודע את יישומן ולהקצות משאבים באופן ממוקד. ללא הבחנה זו, נותר לא ברור אילו אמצעים נדרשים בהכרח ואילו מספקים הגנה נוספת מרצון, מה שמקשה על ניהול מושכל של היישום. הבחנה כזו אפשרית לחלוטין בפועל, ותקנים ספציפיים לענף אכן יכולים לחרוג מהדרישות המינימליות החוקיות."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Mindestpflichten", "english": "minimum obligations", "dari": "حداقل تعهدات", "hebrew": "חובות מינימליות", "shortGermanExplanation": "Die niedrigste gesetzlich erforderliche Ebene an Anforderungen, die eingehalten werden muss." },
+      { "germanWord": "priorisieren", "english": "to prioritize", "dari": "اولویت‌بندی کردن", "hebrew": "לתעדף", "shortGermanExplanation": "Maßnahmen nach ihrer Wichtigkeit oder Dringlichkeit ordnen." }
+    ],
+    "questionTranslation": {
+      "en": "A company fully adopts an industry-specific security standard without checking whether some of its requirements go beyond its own statutory minimum obligations. Which classification is most accurate?",
+      "dari": "یک شرکت یک معیار امنیتی مخصوص یک بخش صنعتی را به‌طور کامل می‌پذیرد، بدون بررسی اینکه آیا برخی الزامات آن فراتر از حداقل تعهدات قانونی خود شرکت است یا نه. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מאמצת במלואו תקן אבטחה ספציפי לענף, מבלי לבדוק האם חלק מדרישותיו חורגות מהחובות המינימליות החוקיות של החברה עצמה. איזה סיווג המדויק ביותר?"
+    }
+  }
+]

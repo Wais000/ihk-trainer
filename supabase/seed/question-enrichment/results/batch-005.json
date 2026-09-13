@@ -1,0 +1,339 @@
+[
+  {
+    "id": "77d614e0-bcad-467c-8891-04ebc6517851",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Vollständigkeit von Normeinhaltung",
+    "difficulty": 3,
+    "examKeywords": ["Norm", "vollständige Erfüllung", "rechtliche Anforderungen", "vertragliche Anforderungen"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen annimmt, die Einhaltung einer einzelnen Norm decke automatisch alle weiteren relevanten Anforderungen ab.",
+        "whyCorrect": "Eine einzelne Norm, etwa eine Managementsystemnorm, deckt in der Regel nur einen bestimmten Ausschnitt der insgesamt relevanten Anforderungen ab. Rechtliche Pflichten, vertragliche Verpflichtungen und weitere Vorgaben können parallel bestehen und über den Inhalt der Norm hinausgehen. Deshalb sollte die Einhaltung einer Norm nicht automatisch als vollständige Erfüllung aller weiteren rechtlichen und vertraglichen Pflichten angesehen werden, sondern es bedarf einer eigenständigen Prüfung dieser zusätzlichen Anforderungen."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company assuming that compliance with a single standard automatically covers all other relevant requirements.",
+        "whyCorrect": "A single standard, such as a management system standard, typically covers only a specific portion of all relevant requirements. Legal obligations, contractual commitments, and other rules can exist in parallel and go beyond what the standard covers. Therefore, compliance with a standard should not automatically be treated as full satisfaction of all other legal and contractual obligations; these additional requirements need to be checked independently."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که شرکتی فرض می‌کند رعایت یک معیار واحد به‌طور خودکار همه الزامات مرتبط دیگر را نیز پوشش می‌دهد.",
+        "whyCorrect": "یک معیار واحد، مانند یک استاندارد سیستم مدیریت، معمولاً فقط بخش خاصی از کل الزامات مرتبط را پوشش می‌دهد. تعهدات قانونی، تعهدات قراردادی، و سایر مقررات می‌توانند به‌طور موازی وجود داشته باشند و فراتر از محتوای آن معیار باشند. بنابراین رعایت یک معیار نباید به‌طور خودکار به‌عنوان برآورده شدن کامل همه تعهدات قانونی و قراردادی دیگر تلقی شود، بلکه بررسی مستقلی از این الزامات اضافی لازم است."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המניחה שעמידה בתקן בודד מכסה אוטומטית את כל שאר הדרישות הרלוונטיות.",
+        "whyCorrect": "תקן בודד, כמו תקן למערכת ניהול, מכסה בדרך כלל רק חלק ספציפי מכלל הדרישות הרלוונטיות. חובות חוקיות, התחייבויות חוזיות ותקנות נוספות יכולות להתקיים במקביל ולחרוג ממה שהתקן מכסה. לכן עמידה בתקן לא צריכה להיחשב אוטומטית כעמידה מלאה בכל שאר החובות החוקיות והחוזיות; יש לבדוק דרישות נוספות אלה באופן עצמאי."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "abdecken", "english": "to cover", "dari": "پوشش دادن", "hebrew": "לכסות", "shortGermanExplanation": "Bedeutet, dass eine Anforderung durch eine Regelung erfasst und erfüllt wird." }
+    ],
+    "questionTranslation": {
+      "en": "A company assumes that complying with a single standard automatically covers all other relevant legal and contractual requirements. Which classification is most accurate?",
+      "dari": "یک شرکت فرض می‌کند که رعایت یک معیار واحد به‌طور خودکار همه الزامات قانونی و قراردادی مرتبط دیگر را نیز پوشش می‌دهد. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מניחה שעמידה בתקן בודד מכסה אוטומטית את כל שאר הדרישות החוקיות והחוזיות הרלוונטיות. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "9bcbfd1a-fd7f-471e-af19-2913b040ca77",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Dokumentation der Umsetzung",
+    "difficulty": 2,
+    "examKeywords": ["Dokumentation", "Nachweis", "Prüfstellen", "interne Kontrollen"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen eine neue gesetzliche Anforderung technisch umsetzt, die Umsetzung aber nirgends dokumentiert.",
+        "whyCorrect": "Fehlt eine Dokumentation der Umsetzung, wird es später schwierig, gegenüber Prüfstellen, Auditoren oder bei internen Kontrollen nachzuweisen, dass die Anforderung tatsächlich erfüllt wurde. Die technische Umsetzung allein reicht also nicht aus, weil ohne Nachweis die Erfüllung im Zweifel nicht belegbar ist. Diese Notwendigkeit betrifft nicht nur sicherheitskritische Systeme, und die Dokumentation ist auch keineswegs für die rechtliche Anerkennung bedeutungslos."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company technically implementing a new legal requirement fully, but not documenting that implementation anywhere.",
+        "whyCorrect": "Without documentation of the implementation, it later becomes difficult to demonstrate to auditors, inspectors, or during internal controls that the requirement has actually been fulfilled. Technical implementation alone is therefore not sufficient, because without evidence, fulfillment cannot be reliably proven if it is ever questioned. This need is not limited to security-critical systems, and documentation is by no means irrelevant to legal recognition either."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که یک شرکت الزامی قانونی جدید را به‌طور فنی به‌طور کامل اجرا می‌کند، اما این اجرا را در هیچ‌جا مستند نمی‌کند.",
+        "whyCorrect": "بدون مستندسازی اجرا، بعداً اثبات این موضوع به بازرسان، ممیزان، یا در کنترل‌های داخلی که الزام واقعاً برآورده شده، دشوار می‌شود. بنابراین صرف اجرای فنی کافی نیست، زیرا بدون مدرک، برآورده شدن الزام در صورت تردید قابل اثبات نیست. این نیاز محدود به سیستم‌های حساس امنیتی نیست، و مستندسازی نیز به‌هیچ‌وجه برای شناسایی قانونی بی‌اهمیت نیست."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המיישמת דרישה חוקית חדשה באופן טכני מלא, אך אינה מתעדת זאת בשום מקום.",
+        "whyCorrect": "ללא תיעוד של היישום, קשה יהיה מאוחר יותר להוכיח למבקרים, לרשויות פיקוח או בבקרות פנימיות שהדרישה אכן קוימה. יישום טכני לבדו אינו מספיק, מכיוון שללא ראיה, לא ניתן להוכיח בוודאות את הקיום במקרה של ספק. הצורך הזה אינו מוגבל למערכות קריטיות מבחינת אבטחה, והתיעוד גם אינו חסר משמעות כלל להכרה משפטית."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Prüfstelle", "english": "inspection body / auditor", "dari": "نهاد بازرسی", "hebrew": "גוף פיקוח", "shortGermanExplanation": "Eine Stelle, die die Einhaltung von Anforderungen offiziell überprüft." },
+      { "germanWord": "Nachweis", "english": "evidence / proof", "dari": "مدرک", "hebrew": "הוכחה / ראיה", "shortGermanExplanation": "Ein Beleg, der bestätigt, dass eine Anforderung tatsächlich erfüllt wurde." }
+    ],
+    "questionTranslation": {
+      "en": "A company fully implements a new legal requirement technically but does not document the implementation anywhere. Which classification is most accurate?",
+      "dari": "یک شرکت یک الزام قانونی جدید را از نظر فنی به‌طور کامل اجرا می‌کند، اما این اجرا را در هیچ‌جا مستند نمی‌کند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מיישמת דרישה חוקית חדשה באופן טכני מלא, אך אינה מתעדת את היישום בשום מקום. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "e6728998-e99a-42a1-9245-f713e6ab2e1f",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Dienstleisterauswahl und Informationssicherheit",
+    "difficulty": 2,
+    "examKeywords": ["Dienstleisterauswahl", "Informationssicherheit", "Auswahlkriterien", "Preis"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen einen externen Dienstleister ausschließlich nach dem Preis auswählt, ohne dessen Umgang mit Informationssicherheit zu prüfen.",
+        "whyCorrect": "Der Umgang eines Dienstleisters mit Informationssicherheit sollte neben dem Preis als eigenes Auswahlkriterium berücksichtigt werden, da ein günstiger, aber unsicherer Dienstleister erhebliche Risiken für die eigene Organisation mit sich bringen kann, etwa durch Datenverlust oder Sicherheitsvorfälle. Diese Prüfung ist nicht auf Verträge mit IT-Bezug oder auf besonders hohe Auftragswerte beschränkt, sondern relevant für Dienstleisterauswahl allgemein."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company selecting an external service provider solely based on the lowest price, without checking that provider's handling of information security.",
+        "whyCorrect": "A provider's handling of information security should be considered as its own selection criterion alongside price, because a cheap but insecure provider can create significant risks for the client organization, for example through data loss or security incidents. This check is not limited to IT-related contracts or to contracts above a certain value, but is relevant to selecting service providers in general."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که یک شرکت یک ارائه‌دهنده خدمات بیرونی را صرفاً بر اساس قیمت انتخاب می‌کند، بدون بررسی نحوه برخورد آن با امنیت اطلاعات.",
+        "whyCorrect": "نحوه برخورد یک ارائه‌دهنده خدمات با امنیت اطلاعات باید در کنار قیمت به‌عنوان یک معیار انتخاب جداگانه در نظر گرفته شود، زیرا یک ارائه‌دهنده ارزان اما ناامن می‌تواند ریسک‌های قابل توجهی برای سازمان سفارش‌دهنده به همراه داشته باشد، مثلاً از طریق از دست دادن داده‌ها یا حوادث امنیتی. این بررسی محدود به قراردادهای مرتبط با فناوری اطلاعات یا قراردادهای با ارزش خاص بالا نیست، بلکه به‌طور کلی برای انتخاب ارائه‌دهندگان خدمات اهمیت دارد."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה הבוחרת ספק שירות חיצוני אך ורק לפי המחיר הזול ביותר, מבלי לבדוק את אופן ההתייחסות שלו לאבטחת מידע.",
+        "whyCorrect": "אופן ההתייחסות של ספק לאבטחת מידע צריך להיחשב כקריטריון בחירה נפרד לצד המחיר, מכיוון שספק זול אך לא מאובטח עלול ליצור סיכונים משמעותיים עבור הארגון המזמין, למשל בעקבות אובדן נתונים או אירועי אבטחה. בדיקה זו אינה מוגבלת לחוזים הקשורים ל-IT או לחוזים מעל ערך מסוים, אלא רלוונטית לבחירת ספקי שירות באופן כללי."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Auswahlkriterium", "english": "selection criterion", "dari": "معیار انتخاب", "hebrew": "קריטריון בחירה", "shortGermanExplanation": "Ein Maßstab, nach dem eine Entscheidung, etwa für einen Dienstleister, getroffen wird." }
+    ],
+    "questionTranslation": {
+      "en": "A company selects an external service provider solely based on the lowest price, without checking that provider's handling of information security. Which classification is most accurate?",
+      "dari": "یک شرکت یک ارائه‌دهنده خدمات بیرونی را صرفاً بر اساس ارزان‌ترین قیمت انتخاب می‌کند، بدون بررسی نحوه برخورد آن با امنیت اطلاعات. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה בוחרת ספק שירות חיצוני אך ורק לפי המחיר הזול ביותר, מבלי לבדוק את אופן ההתייחסות שלו לאבטחת מידע. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "ed63f232-4c54-4f85-b76f-53fd1f72f660",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "ISO/IEC 27001 versus 27002",
+    "difficulty": 4,
+    "examKeywords": ["ISO/IEC 27001", "ISO/IEC 27002", "Controls", "Risikobewertung", "ISMS"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie ISO/IEC 27001 und ISO/IEC 27002 zueinander stehen, wenn ein Betrieb ein zertifizierbares ISMS aufbauen und konkrete Umsetzungshinweise für Controls nutzen möchte.",
+        "whyCorrect": "ISO/IEC 27001 enthält die prüfbaren, zertifizierbaren Anforderungen an ein ISMS, also die formalen Vorgaben, gegen die eine Organisation auditiert wird. ISO/IEC 27002 bietet dagegen ergänzende, praxisorientierte Leitlinien zur Ausgestaltung einzelner Controls, die risikoorientiert – also basierend auf der individuellen Risikobewertung der Organisation – ausgewählt werden. Die Norm 27002 ersetzt somit nicht die Risikobewertung, sondern unterstützt deren Umsetzung, und sie ist nicht als starr vorgegebener, verbindlicher Control-Satz zu verstehen."
+      },
+      "en": {
+        "summary": "The question asks how ISO/IEC 27001 and ISO/IEC 27002 relate to each other when a company wants to build a certifiable ISMS and use concrete implementation guidance for selected controls.",
+        "whyCorrect": "ISO/IEC 27001 contains the auditable, certifiable requirements for an ISMS — the formal criteria against which an organization is audited. ISO/IEC 27002, on the other hand, provides supplementary, practice-oriented guidance for designing individual controls, which are selected in a risk-based way, i.e. based on the organization's own risk assessment. Standard 27002 therefore does not replace risk assessment but supports its implementation, and it should not be understood as a rigid, mandatory set of controls."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که ISO/IEC 27001 و ISO/IEC 27002 چه رابطه‌ای با هم دارند، وقتی یک شرکت می‌خواهد یک ISMS قابل گواهی بسازد و از رهنمودهای عملی برای کنترل‌های منتخب استفاده کند.",
+        "whyCorrect": "ISO/IEC 27001 شامل الزامات قابل ممیزی و قابل گواهی برای یک ISMS است - یعنی معیارهای رسمی که یک سازمان بر اساس آن‌ها ممیزی می‌شود. در مقابل، ISO/IEC 27002 رهنمودهای تکمیلی و عملی‌گرا برای طراحی کنترل‌های منفرد ارائه می‌دهد که به شکل ریسک‌محور - یعنی بر اساس ارزیابی ریسک خود سازمان - انتخاب می‌شوند. بنابراین استاندارد 27002 جایگزین ارزیابی ریسک نمی‌شود، بلکه اجرای آن را پشتیبانی می‌کند، و نباید آن را به‌عنوان مجموعه‌ای ثابت و الزام‌آور از کنترل‌ها تلقی کرد."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד ISO/IEC 27001 ו-ISO/IEC 27002 קשורים זה לזה כאשר חברה רוצה לבנות ISMS הניתן להסמכה ולהשתמש בהנחיות יישום קונקרטיות עבור בקרות נבחרות.",
+        "whyCorrect": "ISO/IEC 27001 כולל את הדרישות הניתנות לביקורת ולהסמכה עבור ISMS — כלומר, הקריטריונים הפורמליים שלפיהם מבוקר ארגון. לעומת זאת, ISO/IEC 27002 מספק הנחיות משלימות ומכוונות-פרקטיקה לעיצוב בקרות בודדות, הנבחרות באופן מבוסס-סיכון — כלומר, בהתבסס על הערכת הסיכונים של הארגון עצמו. לכן התקן 27002 אינו מחליף את הערכת הסיכונים אלא תומך ביישומה, ואין להבין אותו כמערך בקרות נוקשה ומחייב."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Controls", "english": "controls (security measures)", "dari": "کنترل‌ها", "hebrew": "בקרות", "shortGermanExplanation": "Konkrete Sicherheitsmaßnahmen zur Behandlung identifizierter Risiken." },
+      { "germanWord": "risikoorientiert", "english": "risk-based", "dari": "ریسک‌محور", "hebrew": "מבוסס-סיכון", "shortGermanExplanation": "Ausgewählt auf Grundlage einer individuellen Risikobewertung, nicht pauschal." }
+    ],
+    "questionTranslation": {
+      "en": "A mid-sized manufacturing company wants to build a certifiable ISMS and use concrete implementation guidance for selected controls. Which classification is most precise?",
+      "dari": "یک شرکت تولیدی متوسط می‌خواهد یک ISMS قابل گواهی بسازد و از رهنمودهای عملی مشخص برای کنترل‌های منتخب استفاده کند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברת ייצור בינונית רוצה לבנות ISMS הניתן להסמכה ולהשתמש בהנחיות יישום קונקרטיות עבור בקרות נבחרות. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "58b24dc8-be6d-40db-ae0e-fbf575f95694",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Verbindlichkeit von Sicherheitsanforderungen",
+    "difficulty": 3,
+    "examKeywords": ["Verbindlichkeit", "Rechtsquellen", "Compliance", "interne Vorgaben", "Cybersicherheitsanforderungen"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie man angemessen ermittelt, welche Cybersicherheitsanforderungen für ein Unternehmen tatsächlich verbindlich sind.",
+        "whyCorrect": "Verbindliche Anforderungen können aus unterschiedlichen Quellen stammen: Gesetzen, vertraglichen Verpflichtungen gegenüber Kunden oder Partnern und intern selbst auferlegten Vorgaben, etwa freiwillig übernommenen Normen. Eine saubere Compliance-Arbeit verlangt, diese Quellen getrennt zu identifizieren und nachvollziehbar zu dokumentieren, welchen Grad an Verbindlichkeit sie jeweils haben. Eine Zertifizierung ersetzt diese Prüfung nicht, 'veröffentlicht' bedeutet nicht automatisch 'bindend', und Verträge oder interne Vorgaben können ebenso verbindlich sein wie Gesetze."
+      },
+      "en": {
+        "summary": "The question asks how to properly determine which cybersecurity requirements are actually binding for a company.",
+        "whyCorrect": "Binding requirements can come from several different sources: laws, contractual obligations toward customers or partners, and internally self-imposed rules, such as voluntarily adopted standards. Sound compliance work means identifying these sources separately and documenting, in a traceable way, how binding each of them actually is. A certification does not replace this analysis, 'published' does not automatically mean 'mandatory', and contracts or internal policies can be just as binding as laws."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه به‌درستی مشخص شود کدام الزامات امنیت سایبری واقعاً برای یک شرکت لازم‌الاجرا هستند.",
+        "whyCorrect": "الزامات لازم‌الاجرا می‌توانند از منابع گوناگونی سرچشمه بگیرند: قوانین، تعهدات قراردادی نسبت به مشتریان یا شرکا، و مقررات داخلی که خود شرکت داوطلبانه پذیرفته است، مانند معیارهایی که به صورت اختیاری اجرا می‌شوند. کار درست در زمینه رعایت قوانین ایجاب می‌کند که این منابع به‌طور جداگانه شناسایی شوند و میزان الزام‌آور بودن هرکدام به‌روشنی مستند گردد. یک گواهی‌نامه جایگزین این بررسی نمی‌شود، «منتشرشده» به‌خودی‌خود به معنای «الزامی» نیست، و قراردادها یا مقررات داخلی می‌توانند به همان اندازه قوانین الزام‌آور باشند."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד לקבוע כראוי אילו דרישות אבטחת סייבר מחייבות בפועל עבור חברה.",
+        "whyCorrect": "דרישות מחייבות יכולות לנבוע ממקורות שונים: חוקים, התחייבויות חוזיות כלפי לקוחות או שותפים, וכללים פנימיים שהחברה עצמה אימצה, כמו תקנים שאומצו מרצון. עבודת ציות תקינה מחייבת לזהות מקורות אלה בנפרד ולתעד באופן שקוף עד כמה כל אחד מהם מחייב בפועל. תעודת הסמכה אינה מחליפה את הבדיקה הזו, 'פורסם' אינו אומר אוטומטית 'מחייב', וחוזים או נהלים פנימיים יכולים להיות מחייבים בדיוק כמו חוקים."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "verbindlich", "english": "binding / mandatory", "dari": "الزام‌آور", "hebrew": "מחייב", "shortGermanExplanation": "Rechtlich oder vertraglich zwingend einzuhalten." },
+      { "germanWord": "Nichteinhaltung", "english": "non-compliance", "dari": "عدم رعایت", "hebrew": "אי-עמידה", "shortGermanExplanation": "Das Nicht-Befolgen einer Vorschrift oder Norm." }
+    ],
+    "questionTranslation": {
+      "en": "At a growing online retailer, the following practical case is being assessed: Management asks which cybersecurity requirements are binding for the company. Which approach is appropriate?",
+      "dari": "در یک فروشگاه آنلاین در حال رشد، این مورد عملی ارزیابی می‌شود: مدیریت می‌پرسد کدام الزامات امنیت سایبری برای شرکت لازم‌الاجرا هستند. کدام روش مناسب است؟",
+      "he": "בחנות מקוונת שצומחת, נבחן המקרה המעשי הבא: ההנהלה שואלת אילו דרישות אבטחת סייבר מחייבות את החברה. איזו גישה מתאימה?"
+    }
+  },
+  {
+    "id": "67b33d5c-48c2-49ef-a4b2-7d6a15262c3e",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Abgleich von Richtlinien mit Gesetzen",
+    "difficulty": 3,
+    "examKeywords": ["interne Richtlinie", "gesetzliche Anforderungen", "Abgleich", "Lücken erkennen"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen annimmt, eine interne Richtlinie decke ohne inhaltlichen Vergleich automatisch alle gesetzlichen Anforderungen zu einem Thema ab.",
+        "whyCorrect": "Der tatsächliche Inhalt einer internen Richtlinie sollte konkret mit den geltenden gesetzlichen Anforderungen abgeglichen werden, um mögliche Lücken zu erkennen. Nur weil eine Richtlinie zu einem Thema existiert, heißt das nicht automatisch, dass sie inhaltlich alle relevanten gesetzlichen Vorgaben vollständig widerspiegelt. Dieser Abgleich ist nicht auf international tätige Unternehmen beschränkt, und interne Richtlinien und gesetzliche Anforderungen betreffen keineswegs grundsätzlich unterschiedliche Themenbereiche."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company assuming that an internal policy automatically covers all legal requirements on a topic, without actually comparing their content.",
+        "whyCorrect": "The actual content of an internal policy should be specifically compared against the applicable legal requirements in order to identify possible gaps. Just because a policy exists on a given topic does not automatically mean it fully reflects all relevant legal requirements in content. This comparison is not limited to internationally active companies, and internal policies and legal requirements by no means fundamentally cover different subject areas."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که شرکتی فرض می‌کند یک سیاست داخلی بدون مقایسه محتوایی، به‌طور خودکار همه الزامات قانونی درباره یک موضوع را پوشش می‌دهد.",
+        "whyCorrect": "محتوای واقعی یک سیاست داخلی باید به‌طور مشخص با الزامات قانونی معتبر مقایسه شود تا شکاف‌های احتمالی شناسایی شوند. صرف وجود یک سیاست درباره یک موضوع به‌طور خودکار به این معنا نیست که آن سیاست از نظر محتوایی همه الزامات قانونی مرتبط را کاملاً منعکس می‌کند. این مقایسه محدود به شرکت‌های فعال بین‌المللی نیست، و سیاست‌های داخلی و الزامات قانونی به‌هیچ‌وجه اساساً حوزه‌های موضوعی متفاوتی را در بر نمی‌گیرند."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המניחה שנוהל פנימי מכסה אוטומטית את כל הדרישות החוקיות בנושא מסוים, בלי להשוות בפועל את התוכן.",
+        "whyCorrect": "יש להשוות באופן ספציפי את התוכן בפועל של נוהל פנימי לדרישות החוקיות החלות, כדי לזהות פערים אפשריים. עצם קיומו של נוהל בנושא מסוים אינו אומר אוטומטית שהוא משקף באופן מלא מבחינת תוכן את כל הדרישות החוקיות הרלוונטיות. השוואה זו אינה מוגבלת לחברות הפועלות בינלאומית, ונהלים פנימיים ודרישות חוקיות בהחלט אינם עוסקים בהכרח בתחומי נושא שונים."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Abgleich", "english": "comparison / reconciliation", "dari": "مقایسه", "hebrew": "השוואה", "shortGermanExplanation": "Der systematische Vergleich zweier Inhalte, um Übereinstimmungen und Lücken zu finden." },
+      { "germanWord": "Lücken", "english": "gaps", "dari": "شکاف‌ها", "hebrew": "פערים", "shortGermanExplanation": "Bereiche, die von einer Regelung nicht abgedeckt werden." }
+    ],
+    "questionTranslation": {
+      "en": "A company assumes that an internal policy automatically fully covers all legal requirements on a topic, without comparing their actual content. Which classification is most accurate?",
+      "dari": "یک شرکت فرض می‌کند که یک سیاست داخلی به‌طور خودکار همه الزامات قانونی درباره یک موضوع را به‌طور کامل پوشش می‌دهد، بدون مقایسه محتوایی واقعی آن‌ها. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מניחה שנוהל פנימי מכסה אוטומטית ובאופן מלא את כל הדרישות החוקיות בנושא מסוים, מבלי להשוות את התוכן בפועל. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "5c6c55fd-f9c8-4382-9fff-766bc0fd997c",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Grenzen von Zertifizierungsprüfungen",
+    "difficulty": 3,
+    "examKeywords": ["Zertifizierungsprüfung", "Konformität", "Sicherheitsrisiken", "Momentaufnahme"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen eine bestandene externe Zertifizierungsprüfung als abschließenden Beweis dafür ansieht, dass keinerlei Sicherheitsrisiken mehr bestehen.",
+        "whyCorrect": "Eine bestandene Zertifizierungsprüfung bestätigt lediglich die Konformität mit bestimmten Anforderungen zu einem bestimmten Zeitpunkt; sie ist eine Momentaufnahme. Sie schließt jedoch nicht grundsätzlich aus, dass neue Risiken entstehen oder bereits bestehende Risiken übersehen wurden, etwa durch neue Bedrohungen oder veränderte Rahmenbedingungen nach der Prüfung. Eine kontinuierliche interne Risikobetrachtung bleibt daher notwendig und wird durch die Zertifizierung nicht überflüssig."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company treating a passed external certification audit as final proof that no security risks remain at all.",
+        "whyCorrect": "A passed certification audit only confirms conformity with certain requirements at a particular point in time; it is a snapshot. It does not fundamentally rule out the possibility that new risks emerge or that existing risks were overlooked, for example due to new threats or changed circumstances after the audit. Ongoing internal risk assessment therefore remains necessary and is not made unnecessary by the certification."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که یک شرکت یک ممیزی موفق گواهی‌نامه بیرونی را به‌عنوان مدرک نهایی این می‌داند که دیگر هیچ ریسک امنیتی وجود ندارد.",
+        "whyCorrect": "یک ممیزی موفق گواهی‌نامه فقط مطابقت با الزامات مشخصی را در یک زمان معین تأیید می‌کند؛ این یک تصویر لحظه‌ای است. اما این به‌طور اساسی رد نمی‌کند که ریسک‌های جدید ایجاد شوند یا ریسک‌های موجود نادیده گرفته شده باشند، مثلاً به دلیل تهدیدات جدید یا تغییر شرایط پس از ممیزی. بنابراین ارزیابی مستمر داخلی ریسک همچنان لازم است و گواهی‌نامه آن را غیرضروری نمی‌سازد."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה הרואה בביקורת הסמכה חיצונית שעברה בהצלחה הוכחה סופית לכך שאין עוד סיכוני אבטחה כלל.",
+        "whyCorrect": "ביקורת הסמכה שעברה בהצלחה מאשרת רק התאמה לדרישות מסוימות בנקודת זמן מסוימת; זהו תצלום רגעי. היא אינה שוללת באופן עקרוני את האפשרות שיתעוררו סיכונים חדשים או שסיכונים קיימים לא זוהו, למשל עקב איומים חדשים או שינוי בנסיבות לאחר הביקורת. לכן הערכת סיכונים פנימית מתמשכת עדיין נחוצה, וההסמכה אינה הופכת אותה למיותרת."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Momentaufnahme", "english": "snapshot", "dari": "تصویر لحظه‌ای", "hebrew": "תצלום רגעי", "shortGermanExplanation": "Ein Zustand, der nur den Stand zu einem bestimmten Zeitpunkt widerspiegelt." },
+      { "germanWord": "Konformität", "english": "conformity / compliance", "dari": "مطابقت", "hebrew": "התאמה / ציות", "shortGermanExplanation": "Die Übereinstimmung mit festgelegten Anforderungen oder Normen." }
+    ],
+    "questionTranslation": {
+      "en": "A company treats a passed external certification audit as final proof that no security risks remain at all. Which classification is most accurate?",
+      "dari": "یک شرکت یک ممیزی موفق گواهی‌نامه بیرونی را به‌عنوان مدرک نهایی این می‌داند که دیگر هیچ ریسک امنیتی وجود ندارد. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה רואה בביקורת הסמכה חיצונית שעברה בהצלחה הוכחה סופית לכך שאין עוד סיכוני אבטחה כלל. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "43ec2c80-2bbc-4834-b387-e1f9d0aebb52",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Rangverhältnis Vertrag und Gesetz",
+    "difficulty": 3,
+    "examKeywords": ["vertragliche Verpflichtung", "gesetzliche Pflicht", "Durchsetzbarkeit", "Streitfall"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie zu bewerten ist, dass ein Unternehmen annimmt, eine freiwillig eingegangene vertragliche Verpflichtung habe im Streitfall automatisch weniger Gewicht als eine gesetzliche Pflicht.",
+        "whyCorrect": "Vertragliche Verpflichtungen können ebenso rechtlich verbindlich und im Streitfall durchsetzbar sein wie gesetzliche Pflichten, unabhängig davon, ob daneben eine gesetzliche Regelung besteht. Die Freiwilligkeit beim Vertragsschluss ändert nichts an der späteren Bindungswirkung der Vereinbarung. Eine zusätzliche behördliche Bestätigung ist dafür nicht erforderlich, und im Streitfall wird keineswegs stets ausschließlich die gesetzliche Pflicht berücksichtigt."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company assuming that a voluntarily entered contractual obligation automatically carries less weight in a dispute than a statutory obligation.",
+        "whyCorrect": "Contractual obligations can be just as legally binding and enforceable in a dispute as statutory obligations, regardless of whether a legal rule also exists alongside them. The voluntary nature of entering into the contract does not change the binding effect of the agreement afterward. No additional official confirmation is required for this, and in a dispute it is by no means always exclusively the statutory obligation that is taken into account."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود که شرکتی فرض می‌کند یک تعهد قراردادی که داوطلبانه پذیرفته شده، در صورت اختلاف به‌طور خودکار وزن کمتری نسبت به یک تعهد قانونی دارد.",
+        "whyCorrect": "تعهدات قراردادی می‌توانند به همان اندازه تعهدات قانونی از نظر حقوقی الزام‌آور و در صورت اختلاف قابل اجرا باشند، صرف‌نظر از اینکه در کنار آن یک مقرره قانونی هم وجود داشته باشد یا نه. داوطلبانه بودن در انعقاد قرارداد چیزی از اثر الزام‌آور بعدی این توافق کم نمی‌کند. برای این کار نیازی به تأیید اضافی مقامات نیست، و در صورت اختلاف به‌هیچ‌وجه همیشه فقط تعهد قانونی در نظر گرفته نمی‌شود."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המניחה שהתחייבות חוזית שנעשתה מרצון נושאת אוטומטית פחות משקל במקרה מחלוקת מחובה חוקית.",
+        "whyCorrect": "התחייבויות חוזיות יכולות להיות מחייבות ובנות אכיפה במקרה מחלוקת בדיוק כמו חובות חוקיות, בלי קשר לשאלה האם קיים לצידן גם כלל חוקי. האופי הוולונטרי של כריתת החוזה אינו משנה את תוקף המחייבות שלו לאחר מכן. אין צורך באישור רשמי נוסף לשם כך, ובמקרה מחלוקת בהחלט לא תמיד מובאת בחשבון רק החובה החוקית."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Durchsetzbarkeit", "english": "enforceability", "dari": "قابلیت اجرا", "hebrew": "אכיפות", "shortGermanExplanation": "Die Möglichkeit, eine Verpflichtung notfalls gerichtlich durchzusetzen." },
+      { "germanWord": "Bindungswirkung", "english": "binding effect", "dari": "اثر الزام‌آور", "hebrew": "תוקף מחייב", "shortGermanExplanation": "Die rechtliche Wirkung, die eine Vereinbarung für die Parteien verpflichtend macht." }
+    ],
+    "questionTranslation": {
+      "en": "A company assumes that a voluntarily entered contractual obligation automatically carries less weight in a dispute than a statutory obligation. Which classification is most accurate?",
+      "dari": "یک شرکت فرض می‌کند که یک تعهد قراردادی که داوطلبانه پذیرفته شده، در صورت بروز اختلاف به‌طور خودکار وزن کمتری نسبت به یک تعهد قانونی دارد. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה מניחה שהתחייבות חוזית שנעשתה מרצון נושאת אוטומטית פחות משקל במקרה מחלוקת מחובה חוקית. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "192dc864-f2da-4e72-8140-e78e11691c6e",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Dokumentation der Nichtanwendbarkeit",
+    "difficulty": 2,
+    "examKeywords": ["Nichtanwendbarkeit", "Dokumentation", "nachvollziehbare Prüfung", "gesetzliche Anforderung"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen eine gesetzliche Anforderung für nicht anwendbar hält, ohne dies durch eine nachvollziehbare Prüfung zu belegen.",
+        "whyCorrect": "Die Einschätzung, dass eine gesetzliche Anforderung nicht anwendbar ist, sollte durch eine nachvollziehbare, dokumentierte Prüfung belegt werden, damit diese Entscheidung im Bedarfsfall, etwa gegenüber einer Behörde, nachgewiesen werden kann. Eine bloße interne, undokumentierte Einschätzung reicht dafür nicht aus, da sie im Streit- oder Prüfungsfall nicht überprüfbar ist. Diese Dokumentationspflicht gilt nicht nur für tatsächlich anwendbare Anforderungen, sondern gerade auch für die Feststellung der Nichtanwendbarkeit."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company deeming a certain legal requirement inapplicable, without backing this up with a traceable review.",
+        "whyCorrect": "The assessment that a legal requirement does not apply should be supported by a traceable, documented review, so that this decision can be demonstrated if needed, for example to an authority. A mere internal, undocumented assessment is not sufficient, since it cannot be verified in case of a dispute or inspection. This documentation requirement applies not only to requirements that actually do apply, but especially also to determinations of non-applicability."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که یک الزام قانونی را غیرقابل‌اجرا می‌داند، بدون آنکه این را با یک بررسی قابل‌پیگیری اثبات کند.",
+        "whyCorrect": "ارزیابی اینکه یک الزام قانونی قابل اجرا نیست، باید با یک بررسی قابل‌پیگیری و مستند پشتیبانی شود، تا در صورت نیاز، مثلاً در برابر یک مقام، بتوان این تصمیم را اثبات کرد. صرف یک ارزیابی داخلی و مستندنشده کافی نیست، زیرا در صورت اختلاف یا بازرسی قابل بررسی نیست. این الزام مستندسازی نه فقط برای الزامات واقعاً قابل اجرا، بلکه به‌ویژه برای تعیین عدم‌قابلیت اجرا نیز اعمال می‌شود."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה הרואה דרישה חוקית מסוימת כלא ישימה, מבלי לגבות זאת בבדיקה הניתנת למעקב.",
+        "whyCorrect": "יש לגבות את ההערכה שדרישה חוקית אינה חלה בבדיקה מתועדת וניתנת למעקב, כך שניתן יהיה להוכיח החלטה זו במידת הצורך, למשל בפני רשות. הערכה פנימית בלבד וללא תיעוד אינה מספקת, מכיוון שלא ניתן לאמת אותה במקרה של מחלוקת או ביקורת. חובת תיעוד זו חלה לא רק על דרישות שאכן חלות, אלא בעיקר גם על קביעת אי-ישימות."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Nichtanwendbarkeit", "english": "non-applicability", "dari": "عدم قابلیت اجرا", "hebrew": "אי-ישימות", "shortGermanExplanation": "Der Zustand, dass eine Anforderung für eine bestimmte Situation nicht gilt." },
+      { "germanWord": "nachvollziehbare Prüfung", "english": "traceable review", "dari": "بررسی قابل‌پیگیری", "hebrew": "בדיקה הניתנת למעקב", "shortGermanExplanation": "Eine dokumentierte Prüfung, deren Ergebnis und Vorgehen später nachvollzogen werden kann." }
+    ],
+    "questionTranslation": {
+      "en": "A company deems a certain legal requirement inapplicable, without backing this up with a traceable review. Which classification is most accurate?",
+      "dari": "یک شرکت یک الزام قانونی را غیرقابل‌اجرا می‌داند، بدون آنکه این را با یک بررسی قابل‌پیگیری اثبات کند. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה רואה דרישה חוקית מסוימת כלא ישימה, מבלי לגבות זאת בבדיקה הניתנת למעקב. איזה סיווג המדויק ביותר?"
+    }
+  },
+  {
+    "id": "c89823b0-9da6-4fd1-9aaa-825ab42ef319",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Neubewertung bei Geschäftsänderungen",
+    "difficulty": 2,
+    "examKeywords": ["Geschäftstätigkeit", "erneute Prüfung", "rechtliche Anforderungen", "Anlassprüfung"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie es zu bewerten ist, dass ein Unternehmen seine Geschäftstätigkeit erheblich ändert, aber nicht erneut prüft, welche rechtlichen Anforderungen sich daraus möglicherweise neu ergeben.",
+        "whyCorrect": "Eine erhebliche Änderung der Geschäftstätigkeit kann dazu führen, dass neue rechtliche Anforderungen entstehen oder bestehende entfallen, etwa weil neue Branchen, Dienste oder Datenarten betroffen sind. Deshalb sollte eine solche Veränderung stets Anlass für eine erneute Prüfung der anwendbaren rechtlichen Anforderungen sein. Einmal ermittelte Pflichten bleiben nicht automatisch unverändert gültig, und die Notwendigkeit einer erneuten Prüfung ist nicht auf eine formale Umfirmierung beschränkt."
+      },
+      "en": {
+        "summary": "The question asks how to assess a company significantly changing its business activities but not re-examining which legal requirements might newly arise from that change.",
+        "whyCorrect": "A significant change in business activity can result in new legal requirements arising or existing ones no longer applying, for example because new sectors, services, or types of data are now involved. Such a change should therefore always prompt a fresh review of applicable legal requirements. Requirements determined once do not automatically remain valid unchanged forever, and the need for renewed review is not limited to a formal change of company name."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه باید ارزیابی شود شرکتی که فعالیت تجاری خود را به‌طور قابل توجهی تغییر می‌دهد، اما دوباره بررسی نمی‌کند که چه الزامات قانونی جدیدی ممکن است از آن ناشی شود.",
+        "whyCorrect": "تغییر قابل توجه در فعالیت تجاری می‌تواند منجر به ایجاد الزامات قانونی جدید یا حذف الزامات موجود شود، مثلاً به دلیل ورود به بخش‌ها، خدمات یا انواع داده‌های جدید. بنابراین چنین تغییری همیشه باید انگیزه‌ای برای بررسی مجدد الزامات قانونی قابل‌اجرا باشد. الزاماتی که یک‌بار تعیین شده‌اند، به‌طور خودکار همیشه بدون تغییر معتبر نمی‌مانند، و لزوم بررسی مجدد محدود به تغییر رسمی نام شرکت نیست."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש להעריך חברה המשנה את פעילותה העסקית באופן משמעותי, אך אינה בוחנת מחדש אילו דרישות חוקיות עשויות להתעורר מכך.",
+        "whyCorrect": "שינוי משמעותי בפעילות העסקית עלול לגרום להיווצרות דרישות חוקיות חדשות או לביטול קיימות, למשל בשל כניסה לענפים, שירותים או סוגי נתונים חדשים. לכן שינוי כזה צריך תמיד לשמש עילה לבחינה מחדש של הדרישות החוקיות החלות. חובות שנקבעו פעם אחת אינן נשארות אוטומטית תקפות ללא שינוי לנצח, והצורך בבחינה מחדש אינו מוגבל לשינוי שם פורמלי של החברה."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Anlassprüfung", "english": "trigger-based review", "dari": "بررسی مبتنی بر رخداد", "hebrew": "בדיקה יזומה בעקבות אירוע", "shortGermanExplanation": "Eine Prüfung, die durch ein bestimmtes Ereignis, etwa eine Geschäftsänderung, ausgelöst wird." }
+    ],
+    "questionTranslation": {
+      "en": "A company significantly changes its business activities but does not re-examine which legal requirements might newly arise from this. Which classification is most accurate?",
+      "dari": "یک شرکت فعالیت تجاری خود را به‌طور قابل توجهی تغییر می‌دهد، اما دوباره بررسی نمی‌کند که چه الزامات قانونی جدیدی ممکن است از آن ناشی شود. کدام طبقه‌بندی دقیق‌ترین است؟",
+      "he": "חברה משנה את פעילותה העסקית באופן משמעותי, אך אינה בוחנת מחדש אילו דרישות חוקיות חדשות עשויות להתעורר מכך. איזה סיווג המדויק ביותר?"
+    }
+  }
+]

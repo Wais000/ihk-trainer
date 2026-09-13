@@ -87,13 +87,19 @@ async function main() {
     .order("created_at", { ascending: true });
   if (qError) throw qError;
 
+  // A bare "source" explanation (preserved verbatim from a raw import paste,
+  // German only, no vocabulary/topic/other languages) doesn't count as fully
+  // enriched — only "ai_generated" does. Otherwise those questions would be
+  // silently skipped forever.
   const { data: existingExplanations, error: eError } = await supabase
     .from("question_explanations")
-    .select("question_id")
+    .select("question_id, source")
     .eq("owner_id", userId)
     .eq("language", "de");
   if (eError) throw eError;
-  const alreadyEnriched = new Set((existingExplanations ?? []).map((e) => e.question_id));
+  const alreadyEnriched = new Set(
+    (existingExplanations ?? []).filter((e) => e.source === "ai_generated").map((e) => e.question_id)
+  );
 
   const { data: topics, error: tError } = await supabase.from("topics").select("name").order("name");
   if (tError) throw tError;

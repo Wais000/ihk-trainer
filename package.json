@@ -9,7 +9,6 @@
     "lint": "eslint",
     "test": "vitest run",
     "seed:questions": "tsx scripts/seed-questions.ts",
-    "enrich:questions": "tsx scripts/enrich-questions.ts",
     "import:explanations": "tsx scripts/import-explanations.ts",
     "translate:explanations": "tsx scripts/translate-explanations.ts",
     "generate:ui-translations": "tsx scripts/generate-ui-translations.ts",
@@ -17,10 +16,12 @@
     "import:question-translations": "tsx scripts/import-question-translations.ts",
     "export:enrichment": "tsx scripts/export-questions-for-enrichment.ts",
     "import:enrichment": "tsx scripts/import-question-enrichment.ts",
-    "import:raw-questions": "tsx scripts/import-raw-question-batch.ts"
+    "import:raw-questions": "tsx scripts/import-raw-question-batch.ts",
+    "backfill:option-translations": "tsx scripts/backfill-option-translations.ts",
+    "export:dari-improvement": "tsx scripts/export-for-dari-improvement.ts",
+    "import:dari-improvement": "tsx scripts/import-dari-improvement.ts"
   },
   "dependencies": {
-    "@ai-sdk/google": "^4.0.67",
     "@radix-ui/react-dialog": "^1.1.23",
     "@radix-ui/react-label": "^2.1.15",
     "@radix-ui/react-progress": "^1.1.16",
@@ -29,7 +30,6 @@
     "@radix-ui/react-tooltip": "^1.2.16",
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.116.0",
-    "ai": "^7.0.97",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.44.0",

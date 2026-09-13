@@ -88,6 +88,10 @@ export const en = {
       "Changes the app's menus, buttons, and labels only — questions, answers, and explanations are unaffected.",
     translationSectionLabel: "Translation",
     instantTranslationLabel: "Instant translation on tap/hover",
+    translateQuestionLabel: "Translate the question",
+    translateAnswersLabel: "Translate every answer option",
+    translateCorrectAnswerLabel: "Translate only the correct answer (once revealed)",
+    translateExplanationLabel: "Translate the explanation",
     dailyTargetLabel: "Daily goal (questions)",
     themeLabel: "Theme",
     themeSystem: "System",
@@ -239,8 +243,6 @@ export const en = {
     failed: "Failed",
     sourceExplanationLabel: "Source explanation: ",
     save: "Save",
-    generatingExplanations: "Generating explanations…",
-    generateExplanationsCta: "Generate explanations and vocabulary",
     emptyTextError: "Please paste some question text first.",
     noQuestionsDetected: "No questions could be detected in the pasted text.",
     itemNotFound: "Import item not found.",
@@ -255,7 +257,8 @@ export const en = {
     overviewCountsSummary:
       "{total} questions detected · {saved} saved · {needsReview} need a correct-answer check · {duplicate} possible duplicates",
     overviewCountsFailedSuffix: " · {failed} failed",
-    enrichResultSummary: "{succeeded} succeeded, {failed} failed (can be retried).",
+    enrichOfflineNotice:
+      "To add explanations and vocabulary for these questions, run the offline enrichment scripts (see scripts/prompts/question-enrichment-prompt.md) instead of generating them live.",
   },
   explanationView: {
     generatingFor: "The explanation for {language} is being generated.",
@@ -283,6 +286,161 @@ export const en = {
     noTranslationAvailable: "No translation available.",
     germanColumnHeader: "German",
     importantWords: "Important words ({count})",
+  },
+  landing: {
+    // Header
+    navTry: "Try it",
+    navTopics: "Topics",
+    navTranslation: "Translation",
+    navExam: "Exam mode",
+    getStarted: "Get started",
+
+    // Hero
+    heroLine1: "Learn the exam,",
+    heroLine2: "not the dictionary.",
+    heroSub:
+      "Real IHK multiple-choice questions, in the German they are printed in — with every hard word one tap from your own language. Other trainers hand you the questions. This one hands you the words too, so the hour you spend goes on the subject instead of the dictionary.",
+    heroPrimaryCta: "I'm taking the exam",
+    heroSecondaryCta: "I'm a trainer",
+    heroFinePrint: "Free account · bring your own question bank · nothing to install",
+
+    // Proof strip
+    proofExamCaption: "Questions and minutes in a mock exam — the real format, the real clock",
+    proofLanguagesCaption: "Languages for words, explanations and menus — {languages}",
+    proofReviewCaption: "Numbers in the whole review algorithm — {numbers} days. No black box",
+
+    // #try
+    tryHeading: "Try a real question. Tap the words you don't know.",
+    tryIntro:
+      "This is an actual question from the bank, untouched. The underlined words are live — tap one and you get its meaning plus a plain-German gloss. Nothing here is recorded, and you don't need an account to poke at it.",
+    translateInto: "Translate into",
+    tryQuestionOf: "Question {current} of {total}",
+    savedToVocabularyNote: "Saved to your vocabulary list in the app.",
+    closeWord: "Close",
+    confirm: "Confirm",
+    showAnswer: "Show answer",
+    verdictPickOption: "Pick an option",
+    verdictNowConfirm: "Now confirm it",
+    verdictCorrect: "Correct",
+    verdictIncorrect: "Incorrect",
+    verdictAnswerShown: "Answer shown",
+    tryFootnote: "In the app: 1–4 picks an option, Enter confirms, N is next, T toggles translation.",
+    afterConfirmKicker: "What happens after you confirm",
+    afterConfirmP1:
+      "The question opens up: what it tests, why the right answer is right, why each wrong option fails, and the trap the examiner laid — in German first, because that is the wording you'll meet, with your language one tap away.",
+    afterConfirmP2: "Answer it and see for yourself.",
+    correctAnswerLabel: "Correct answer",
+    whyWasItWrongLabel: "Why the others are wrong",
+    commonTrapLabel: "Common trap: ",
+
+    // #translation
+    translationKicker: "Why this one is faster",
+    translationHeading: "Four things that cut the hours, not the standard",
+    translationItem1Title: "Translation where you stumble",
+    translationItem1Body:
+      "Tap a word for its meaning, or switch on full translation of the question, the options, the correct answer only, or the explanation — four independent switches, so you can wean yourself off one at a time.",
+    translationItem2Title: "Explanations, not verdicts",
+    translationItem2Body:
+      "Every question carries the concept it tests, why the right option wins, why each distractor fails, and the common trap. Being told “wrong” teaches nothing; this is the part most trainers leave out.",
+    translationItem3Title: "Repetition you can audit",
+    translationItem3Body:
+      "Wrong answers come back in four hours — sooner if you keep missing them. Right answers step out to one, three, seven, fourteen days. You can hold the whole rule in your head.",
+    translationItem4Title: "Your own question bank",
+    translationItem4Body:
+      "Paste what your school or trainer actually uses. The importer parses every question, flags likely duplicates, and saves nothing until you confirm. No waiting for someone else's content update.",
+
+    // #topics
+    topicsHeading: "From the sample bank to your whole syllabus",
+    topicsNote: "Practice a category on its own, or let review mode mix them the way the exam does.",
+    topicsCoveredLabel: "Covered in this category",
+
+    // #exam
+    examKicker: "Exam mode",
+    examHeading: "The day itself, rehearsed",
+    examP1:
+      "Forty questions, sixty minutes, German only — translations, word taps and explanations all switched off, exactly as they will be. Jump around with the number grid, mark what you want to revisit, end when you're ready. Leave mid-exam and you can resume the same session.",
+    examP2:
+      "Then: your score, your time, what you skipped, the topics with room for improvement, and one tap into reviewing those mistakes. Start it below — the clock is real.",
+    examStatusIdle: "Ready when you are",
+    examStartCta: "Start exam",
+    examStatusRunning: "Question {current} / {total} · {answered} answered",
+    examMarkForReview: "Mark for review",
+    examRemoveMark: "Remove mark",
+    examEndExam: "End exam",
+    examNoFeedbackNote: "No feedback until you finish",
+    examStatusDone: "Exam simulation result",
+    examScoreLine: "{correct} of {answered} answered correctly",
+    examScoreZero: "0 of {total}",
+    examBreakdown: "Correct {correct} · Incorrect {incorrect} · Skipped {skipped} · Duration {duration}. Weakest topic: {topic}.",
+    examSkippedAll: "You skipped all forty — the real thing is less forgiving. Duration {duration}.",
+    examRunAgain: "Run it again",
+    examBack: "Back",
+
+    // Review ladder
+    reviewLadderKicker: "One question's schedule",
+    reviewLadderStateUntouchedHeadline: "Not answered yet",
+    reviewLadderStateUntouchedDetail: "Answer once and the schedule starts. Nothing is due before you touch it.",
+    reviewLadderStateStreak1Headline: "Back later today",
+    reviewLadderStateStreak1Detail: "1 correct answer in a row. Keep going and the gap widens.",
+    reviewLadderStateStreakNHeadline: "Back in {days} day(s)",
+    reviewLadderStateStreakNDetail: "{count} correct answers in a row. Keep going and the gap widens.",
+    reviewLadderStateTopHeadline: "Back in 14 days",
+    reviewLadderStateTopDetail: "Top of the ladder — fourteen days is the longest gap the app will ever leave.",
+    reviewLadderStateWrong1Headline: "Back in 4 hours",
+    reviewLadderStateWrong1Detail: "One miss sends it to the bottom of the ladder: four hours, then it is due again.",
+    reviewLadderStateWrongNHeadline: "Back in {hours}",
+    reviewLadderStateWrongNDetail: "{count} misses in a row — the wait halves each time, with a floor of one hour.",
+    reviewGotItRight: "I got it right",
+    reviewGotItWrong: "I got it wrong",
+    reviewReset: "Reset",
+    reviewCopyKicker: "Review",
+    reviewCopyHeading: "Five numbers, and you can check the maths",
+    reviewCopyP1:
+      "Press the buttons and watch a question walk the ladder. Right answers push it out — same day, one, three, seven, fourteen days. A wrong answer drops it to the bottom: back in four hours, two if you miss it twice, one at the floor. That is the entire schedule, on purpose.",
+    reviewCopyP2:
+      "Your dashboard says how many are due, how far into today's goal you are, and which topics your recent answers say are weakest.",
+
+    // On your own schedule
+    ownScheduleKicker: "On your own schedule",
+    ownScheduleHeading: "Twenty minutes on the train counts",
+    ownScheduleP1:
+      "Set your own daily goal — not ours. Walk away mid-session and it resumes on the question you left. Words you tapped are waiting in your vocabulary list, printable for the days you'd rather hold paper. Light, dark, or whatever your phone is doing.",
+    ownScheduleP2:
+      "And a reset that wipes every attempt if you want a clean run — without touching your questions, vocabulary or favourites.",
+    ownScheduleScreenshotAlt: "The practice screen, mid-question, with a word translation open",
+
+    // #trainers
+    trainersKicker: "For trainers and Ausbilder",
+    trainersHeading: "Your question set, your wording",
+    trainersP1:
+      "Paste the bank you already teach from. The importer parses each question, shows you what it found, flags possible duplicates, and waits for your confirmation before saving a thing. Explanations and vocabulary are prepared in bulk offline rather than invented live, so what your trainees read is what you approved — and the vocabulary sheets print.",
+    trainersP2:
+      "Trainees with little German are not stuck waiting for their language skills to catch up with the syllabus: the interface itself speaks Deutsch, English, {languages}, right-to-left where that is how it is read.",
+
+    // Pull quote
+    pullQuote:
+      "I knew the subject. I didn't know the sentence. Tapping the word was the whole difference.",
+    pullQuoteCaption: "— the reason this exists. Tell us whether it works for you.",
+
+    // #start
+    startHeading: "Everything above is free to try with an account",
+    startBody:
+      "An email, a password of at least eight characters, and a confirmation link. Start with the sample topics — cyber security, processes, legal requirements and standards — or paste your own bank in the first five minutes.",
+    startEmailPlaceholder: "Email",
+    startCreateAccount: "Create a free account",
+    startAlreadyHaveAccount: "Already have an account?",
+    startSignIn: "Sign in",
+    startOr: "or",
+    startResetPassword: "reset your password",
+
+    // Footer
+    footerBlurb: "Practice questions, explanations and vocabulary in your language.",
+    footerProductHeading: "Product",
+    footerLanguagesHeading: "Languages",
+    footerAccountHeading: "Account",
+    footerCreateAccount: "Create an account",
+    footerSignIn: "Sign in",
+    footerDisclaimer: "Readiness estimates are estimates, not promises. Not affiliated with any chamber of commerce.",
   },
 } as const;
 

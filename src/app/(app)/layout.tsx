@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { SidebarNav } from "@/components/nav/sidebar-nav";
 import { BottomNav } from "@/components/nav/bottom-nav";
 import { PracticeSidebarProvider } from "@/components/practice/practice-sidebar-context";
+import { MarkedQuestionsProvider } from "@/components/practice/marked-questions-context";
 
 export default async function AppLayout({ children }: { children: React.ReactNode }) {
   const supabase = await createClient();
@@ -14,11 +15,13 @@ export default async function AppLayout({ children }: { children: React.ReactNod
 
   return (
     <PracticeSidebarProvider>
-      <div className="flex min-h-screen">
-        <SidebarNav />
-        <div className="flex-1 pb-16 md:pb-0">{children}</div>
-        <BottomNav />
-      </div>
+      <MarkedQuestionsProvider>
+        <div className="flex min-h-screen">
+          <SidebarNav />
+          <div className="flex-1 pb-16 md:pb-0">{children}</div>
+          <BottomNav />
+        </div>
+      </MarkedQuestionsProvider>
     </PracticeSidebarProvider>
   );
 }

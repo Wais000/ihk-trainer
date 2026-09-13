@@ -30,7 +30,10 @@ export async function queryQuestions(
     query = query.eq("favorite", true);
   }
   if (options.filter === "marked") {
-    query = query.eq("marked", true);
+    // Ready-only, matching /practice/marked's queue exactly — otherwise a
+    // marked question still in draft/import review would count here but
+    // never actually appear in the practice session or its sidebar grid.
+    query = query.eq("marked", true).eq("status", "ready");
   }
 
   const { data: allMatching } = await query;

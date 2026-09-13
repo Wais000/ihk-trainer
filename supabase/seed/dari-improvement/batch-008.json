@@ -1,0 +1,452 @@
+[
+  {
+    "id": "2a10abb2-81ba-49c4-ba38-4875462fb737",
+    "text": "Eine Prozessbeschreibung nennt zwar die beteiligten Rollen, aber nicht, welche Informationen zwischen diesen Rollen konkret ausgetauscht werden. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Nennung der beteiligten Rollen allein reicht für eine vollständige Prozessbeschreibung aus"
+      },
+      {
+        "label": "B",
+        "text": "Die Beschreibung sollte um die zwischen den Rollen ausgetauschten Informationen ergänzt werden, um den Ablauf vollständig nachvollziehbar zu machen"
+      },
+      {
+        "label": "C",
+        "text": "Der konkrete Informationsaustausch zwischen Rollen ist für die Prozessdokumentation nicht relevant"
+      },
+      {
+        "label": "D",
+        "text": "Eine Ergänzung ist ausschließlich bei Prozessen mit besonders hohem Schutzbedarf erforderlich"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine Prozessbeschreibung nennt Rollen, aber nicht die zwischen ihnen ausgetauschten Informationen.",
+      "whyCorrect": "B ist richtig, weil die Beschreibung um die zwischen den Rollen ausgetauschten Informationen ergänzt werden sollte, um den Ablauf vollständig nachvollziehbar zu machen.",
+      "whyIncorrect": "A ist falsch, weil Rollen allein nicht ausreichen, um den Informationsfluss und damit den Prozess vollständig zu verstehen. C ist falsch, weil der Informationsaustausch zwischen Rollen ein zentraler Bestandteil des Prozessverständnisses ist. D ist falsch, weil dieser Aspekt für Prozesse generell relevant ist, nicht nur bei hohem Schutzbedarf.",
+      "commonTrap": "Die Nennung von Rollen wird fälschlich als ausreichend für eine vollständige Prozessbeschreibung angesehen.",
+      "testedConcept": "Informationsfluss als Bestandteil der Prozessbeschreibung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "972e76bf-cfdf-414c-acdc-58313debf339",
+    "text": "Ein Prozess wird so gestaltet, dass er ausschließlich für den aktuellen Personalstand funktioniert, ohne Rücksicht auf mögliche künftige Wachstums- oder Schrumpfungsszenarien. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der Prozess sollte auch auf absehbare Veränderungen des Personalstands hin überprüft werden, um seine langfristige Eignung sicherzustellen"
+      },
+      {
+        "label": "B",
+        "text": "Ein Prozess, der für den aktuellen Personalstand funktioniert, muss nicht auf künftige Veränderungen hin überprüft werden"
+      },
+      {
+        "label": "C",
+        "text": "Wachstums- oder Schrumpfungsszenarien sind für die Prozessgestaltung grundsätzlich ohne Bedeutung"
+      },
+      {
+        "label": "D",
+        "text": "Eine Überprüfung auf künftige Szenarien ist ausschließlich bei stark wachsenden Unternehmen sinnvoll"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozess funktioniert nur für den aktuellen Personalstand, ohne Rücksicht auf künftige Wachstums- oder Schrumpfungsszenarien.",
+      "whyCorrect": "A ist richtig, weil der Prozess auch auf absehbare Veränderungen des Personalstands hin überprüft werden sollte, um seine langfristige Eignung sicherzustellen.",
+      "whyIncorrect": "B ist falsch, weil funktionierende Prozesse dennoch anfällig für künftige Veränderungen sein können. C ist falsch, weil Wachstums- oder Schrumpfungsszenarien sehr wohl bedeutsam für die Prozessgestaltung sind. D ist falsch, weil eine Überprüfung auch für stabile oder schrumpfende Unternehmen sinnvoll ist.",
+      "commonTrap": "Ein aktuell funktionierender Prozess wird als dauerhaft geeignet angesehen, ohne künftige Szenarien zu berücksichtigen.",
+      "testedConcept": "Skalierbarkeit und Zukunftsfähigkeit von Prozessen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "56311882-fae5-4e18-9214-50d82cbe6f85",
+    "text": "Ein Prozessverantwortlicher sammelt regelmäßig Rückmeldungen von ausführenden Personen, setzt daraus abgeleitete Verbesserungsvorschläge aber nie um. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Das reine Sammeln von Rückmeldungen erfüllt bereits den beabsichtigten Zweck, unabhängig von der Umsetzung"
+      },
+      {
+        "label": "B",
+        "text": "Regelmäßig gesammelte, aber nie umgesetzte Rückmeldungen können langfristig die Bereitschaft verringern, überhaupt noch Rückmeldungen zu geben"
+      },
+      {
+        "label": "C",
+        "text": "Eine Umsetzung von Rückmeldungen ist ausschließlich bei schriftlich eingereichten Vorschlägen erforderlich"
+      },
+      {
+        "label": "D",
+        "text": "Die Umsetzung von Rückmeldungen hat auf die künftige Beteiligungsbereitschaft der Beschäftigten keinen Einfluss"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozessverantwortlicher sammelt Rückmeldungen, setzt daraus abgeleitete Vorschläge aber nie um.",
+      "whyCorrect": "B ist richtig, weil regelmäßig gesammelte, aber nie umgesetzte Rückmeldungen langfristig die Bereitschaft verringern können, überhaupt noch Rückmeldungen zu geben.",
+      "whyIncorrect": "A ist falsch, weil das reine Sammeln ohne Umsetzung den eigentlichen Zweck von Feedback verfehlt. C ist falsch, weil die Form der Einreichung (schriftlich oder mündlich) für die Notwendigkeit der Umsetzung keine Rolle spielt. D ist falsch, weil nicht umgesetztes Feedback sehr wohl die künftige Beteiligungsbereitschaft negativ beeinflussen kann.",
+      "commonTrap": "Das Sammeln von Feedback wird als ausreichend angesehen, unabhängig davon, ob daraus Konsequenzen gezogen werden.",
+      "testedConcept": "Konsequenzen fehlender Umsetzung von Feedback"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "5a975262-2262-45a6-91fc-0d60512c6103",
+    "text": "Ein Prozess wird so dokumentiert, dass er nur für den Regelfall an einem einzelnen Standort gilt, obwohl derselbe Prozess inzwischen an mehreren Standorten mit leicht unterschiedlichen Rahmenbedingungen durchgeführt wird. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Dokumentation sollte um die tatsächlich relevanten Unterschiede der weiteren Standorte ergänzt werden, um den Prozess vollständig abzubilden"
+      },
+      {
+        "label": "B",
+        "text": "Eine Dokumentation nur für den ursprünglichen Standort reicht aus, solange der Grundablauf überall ähnlich ist"
+      },
+      {
+        "label": "C",
+        "text": "Standortspezifische Unterschiede sind für die Prozessdokumentation grundsätzlich ohne Bedeutung"
+      },
+      {
+        "label": "D",
+        "text": "Jeder Standort sollte zwingend eine vollständig eigenständige, unabhängige Prozessdokumentation erhalten"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozess wird nur für den Regelfall an einem Standort dokumentiert, obwohl er inzwischen an mehreren Standorten mit abweichenden Bedingungen durchgeführt wird.",
+      "whyCorrect": "A ist richtig, weil die Dokumentation um die tatsächlich relevanten Unterschiede der weiteren Standorte ergänzt werden sollte, um den Prozess vollständig abzubilden.",
+      "whyIncorrect": "B ist falsch, weil abweichende Rahmenbedingungen an anderen Standorten trotz ähnlichem Grundablauf relevante Unterschiede darstellen können. C ist falsch, weil standortspezifische Unterschiede sehr wohl bedeutsam für die Prozessdokumentation sind. D ist falsch, weil eine vollständig eigenständige Dokumentation pro Standort unnötigen Aufwand erzeugen kann, wenn nur punktuelle Anpassungen nötig sind.",
+      "commonTrap": "Standortunterschiede werden ignoriert, solange der Grundablauf überall ähnlich erscheint.",
+      "testedConcept": "Vollständige Abbildung standortspezifischer Prozessvarianten"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "8277bff6-9ece-4de4-a3bb-3f47f26553e1",
+    "text": "Innerhalb eines Prozesses wird ein Zwischenschritt regelmäßig übersprungen, weil die Beteiligten ihn für überflüssig halten, ohne dass dies mit den ursprünglichen Prozessverantwortlichen abgestimmt wurde. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Beteiligte dürfen einzelne Prozessschritte grundsätzlich eigenmächtig überspringen, wenn sie diese für überflüssig halten"
+      },
+      {
+        "label": "B",
+        "text": "Das eigenmächtige Überspringen sollte mit den Prozessverantwortlichen abgestimmt werden, um zu klären, ob der Schritt tatsächlich entbehrlich ist"
+      },
+      {
+        "label": "C",
+        "text": "Ein regelmäßig übersprungener Schritt zeigt zwingend, dass die ursprüngliche Prozessgestaltung fehlerhaft war"
+      },
+      {
+        "label": "D",
+        "text": "Eine Abstimmung mit den Prozessverantwortlichen ist ausschließlich bei gesetzlich vorgeschriebenen Schritten erforderlich"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Zwischenschritt wird regelmäßig übersprungen, ohne dies mit den Prozessverantwortlichen abzustimmen.",
+      "whyCorrect": "B ist richtig, weil das eigenmächtige Überspringen mit den Prozessverantwortlichen abgestimmt werden sollte, um zu klären, ob der Schritt tatsächlich entbehrlich ist.",
+      "whyIncorrect": "A ist falsch, weil Beteiligte Schritte nicht eigenmächtig ohne Abstimmung überspringen sollten, auch wenn sie sie für überflüssig halten. C ist falsch, weil ein übersprungener Schritt nicht zwingend auf eine fehlerhafte ursprüngliche Gestaltung hindeutet, sondern auch andere Ursachen haben kann. D ist falsch, weil Abstimmung auch bei nicht gesetzlich vorgeschriebenen Schritten sinnvoll ist.",
+      "commonTrap": "Eigenmächtiges Handeln von Beteiligten wird als akzeptabel angesehen, solange sie subjektiv von der Überflüssigkeit eines Schritts überzeugt sind.",
+      "testedConcept": "Abstimmung bei Abweichungen vom dokumentierten Prozess"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "0bd25f1b-f66b-492f-8cab-a6b561968cf2",
+    "text": "Bei einer gemeinnützigen Organisation wird folgender Praxisfall bewertet: Ein Genehmigungsprozess hat eine hohe Durchlaufzeit. Mehrere Beteiligte vermuten den Engpass an unterschiedlichen Stellen; belastbare Messdaten fehlen. Welcher Analyseschritt sollte zuerst erfolgen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die am häufigsten genannte Genehmigungsstufe entfernen und anschließend die neue Durchlaufzeit mit dem Zielwert vergleichen"
+      },
+      {
+        "label": "B",
+        "text": "Bearbeitungs-, Warte- und Nacharbeitszeiten je relevanter Variante erheben und die Engpasshypothese mit Beteiligten validieren"
+      },
+      {
+        "label": "C",
+        "text": "Die Zeitschätzungen der Prozessverantwortlichen mitteln und den höchsten Einzelwert als Engpass dokumentieren"
+      },
+      {
+        "label": "D",
+        "text": "Zuerst eine gewünschte Soll-Durchlaufzeit festlegen und jede Aktivität oberhalb ihres rechnerischen Anteils optimieren"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Genehmigungsprozess bei einer gemeinnützigen Organisation hat eine hohe Durchlaufzeit; der Engpass ist umstritten, Messdaten fehlen.",
+      "whyCorrect": "B ist richtig, weil zunächst Bearbeitungs-, Warte- und Nacharbeitszeiten je Variante systematisch erhoben und die Engpasshypothese mit den Beteiligten validiert werden sollten.",
+      "whyIncorrect": "A ist falsch, weil eine ungeprüfte Entfernung eines Schritts auf bloßer Vermutung beruht statt auf Daten. C ist falsch, weil das Mitteln subjektiver Schätzungen keine verlässliche Datenbasis liefert. D ist falsch, weil zunächst die tatsächliche Situation verstanden werden muss, bevor ein Soll-Wert sinnvoll festgelegt werden kann.",
+      "commonTrap": "Vermutungen werden ohne Messung direkt in Maßnahmen umgesetzt.",
+      "testedConcept": "Datenbasierte Engpassanalyse"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "8f54313e-9b70-4e48-bd08-d43fb02fe996",
+    "text": "Ein Prozess wird dokumentiert, ohne anzugeben, welches System oder Werkzeug für die einzelnen Schritte tatsächlich verwendet wird. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die verwendeten Systeme oder Werkzeuge sollten ergänzt werden, damit die Beschreibung für die praktische Ausführung tatsächlich nützlich ist"
+      },
+      {
+        "label": "B",
+        "text": "Eine Prozessbeschreibung sollte grundsätzlich unabhängig von jeder Angabe zu genutzten Systemen bleiben"
+      },
+      {
+        "label": "C",
+        "text": "Die Angabe genutzter Systeme ist ausschließlich bei vollständig automatisierten Prozessen relevant"
+      },
+      {
+        "label": "D",
+        "text": "Fehlende Systemangaben haben auf die praktische Anwendbarkeit einer Prozessbeschreibung keinen Einfluss"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozess wird dokumentiert, ohne anzugeben, welches System oder Werkzeug für die einzelnen Schritte verwendet wird.",
+      "whyCorrect": "A ist richtig, weil die verwendeten Systeme oder Werkzeuge ergänzt werden sollten, damit die Beschreibung für die praktische Ausführung tatsächlich nützlich ist.",
+      "whyIncorrect": "B ist falsch, weil eine praxistaugliche Prozessbeschreibung in der Regel auch relevante Systemangaben enthalten sollte. C ist falsch, weil auch teilweise manuelle Prozesse von Systemangaben profitieren, wo Systeme genutzt werden. D ist falsch, weil fehlende Systemangaben die praktische Anwendbarkeit einer Beschreibung sehr wohl beeinträchtigen können.",
+      "commonTrap": "Prozessbeschreibungen werden als rein abstrakt-organisatorisch verstanden, ohne den praktischen Nutzen von Systemangaben zu berücksichtigen.",
+      "testedConcept": "Praktische Nützlichkeit von Prozessbeschreibungen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "f6648b27-c636-420c-875f-84cf8cfc61a9",
+    "text": "Ein Team überarbeitet einen bestehenden Prozess grundlegend, informiert aber die Personen, die Ergebnisse dieses Prozesses in einem nachgelagerten Prozess weiterverwenden, nicht über die Änderung. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine Information nachgelagerter Prozessbeteiligter ist ausschließlich bei gleichzeitiger Änderung der eigenen Zuständigkeiten erforderlich"
+      },
+      {
+        "label": "B",
+        "text": "Personen in nachgelagerten Prozessen sollten über wesentliche Änderungen informiert werden, die sich auf die von ihnen genutzten Ergebnisse auswirken können"
+      },
+      {
+        "label": "C",
+        "text": "Nachgelagerte Prozesse sind von Änderungen vorgelagerter Prozesse grundsätzlich nicht betroffen"
+      },
+      {
+        "label": "D",
+        "text": "Eine Information ist überflüssig, solange sich das äußere Ergebnisformat nicht verändert"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Team überarbeitet einen Prozess grundlegend, informiert aber nachgelagerte Nutzer der Ergebnisse nicht.",
+      "whyCorrect": "B ist richtig, weil Personen in nachgelagerten Prozessen über wesentliche Änderungen informiert werden sollten, die sich auf die von ihnen genutzten Ergebnisse auswirken können.",
+      "whyIncorrect": "A ist falsch, weil eine Information auch ohne gleichzeitige Zuständigkeitsänderung notwendig sein kann. C ist falsch, weil nachgelagerte Prozesse sehr wohl von Änderungen vorgelagerter Prozesse betroffen sein können. D ist falsch, weil auch inhaltliche Änderungen ohne Formatwechsel für nachgelagerte Nutzer relevant sein können.",
+      "commonTrap": "Es wird angenommen, dass nachgelagerte Prozesse automatisch von Änderungen unberührt bleiben, solange das äußere Format gleich bleibt.",
+      "testedConcept": "Kommunikation an nachgelagerte Prozessbeteiligte"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "ae108a10-1fd4-4f6d-be1e-bce63b3f7b7c",
+    "text": "Ein Prozess wird so gestaltet, dass er ausschließlich in einer bestimmten Software funktioniert, ohne dass geprüft wurde, ob diese Software langfristig verfügbar bleibt. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine starke Abhängigkeit von einer einzelnen Software sollte bewusst geprüft und gegebenenfalls durch alternative Vorgehensweisen abgefedert werden"
+      },
+      {
+        "label": "B",
+        "text": "Eine ausschließliche Abhängigkeit von einer bestimmten Software ist für Prozesse grundsätzlich unproblematisch"
+      },
+      {
+        "label": "C",
+        "text": "Die langfristige Verfügbarkeit eingesetzter Software ist für die Prozessgestaltung ohne Bedeutung"
+      },
+      {
+        "label": "D",
+        "text": "Eine Prüfung der Softwareabhängigkeit ist ausschließlich bei kostenpflichtiger Software erforderlich"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozess funktioniert ausschließlich in einer bestimmten Software, ohne dass deren langfristige Verfügbarkeit geprüft wurde.",
+      "whyCorrect": "A ist richtig, weil eine starke Abhängigkeit von einer einzelnen Software bewusst geprüft und gegebenenfalls durch alternative Vorgehensweisen abgefedert werden sollte.",
+      "whyIncorrect": "B ist falsch, weil eine ausschließliche Softwareabhängigkeit ein reales Risiko für die Prozesskontinuität darstellen kann. C ist falsch, weil die langfristige Verfügbarkeit eingesetzter Software sehr wohl relevant für die Prozessgestaltung ist. D ist falsch, weil die Abhängigkeit unabhängig von den Kosten der Software ein Risiko darstellen kann.",
+      "commonTrap": "Eine funktionierende Softwarelösung wird als dauerhaft verfügbar vorausgesetzt, ohne Alternativen zu bedenken.",
+      "testedConcept": "Risiko einseitiger Softwareabhängigkeit"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "9e910920-7c63-4aa7-bd97-0de21f3d61d0",
+    "text": "Innerhalb eines Prozesses erfolgt eine wichtige Entscheidung stets mündlich und wird an keiner Stelle schriftlich festgehalten. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mündliche Entscheidungen sind grundsätzlich ausreichend, solange die beteiligten Personen sich später daran erinnern können"
+      },
+      {
+        "label": "B",
+        "text": "Wichtige Entscheidungen sollten nachvollziehbar dokumentiert werden, um sie später begründen und nachprüfen zu können"
+      },
+      {
+        "label": "C",
+        "text": "Eine schriftliche Dokumentation ist ausschließlich bei Entscheidungen mit finanzieller Auswirkung erforderlich"
+      },
+      {
+        "label": "D",
+        "text": "Die Form einer Entscheidung hat auf ihre spätere Nachvollziehbarkeit keinen Einfluss"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine wichtige Entscheidung erfolgt stets mündlich und wird nirgends schriftlich festgehalten.",
+      "whyCorrect": "B ist richtig, weil wichtige Entscheidungen nachvollziehbar dokumentiert werden sollten, um sie später begründen und nachprüfen zu können.",
+      "whyIncorrect": "A ist falsch, weil die Erinnerung der Beteiligten keine verlässliche, dauerhafte Grundlage für Nachvollziehbarkeit darstellt. C ist falsch, weil auch nichtfinanzielle Entscheidungen von Dokumentation profitieren können. D ist falsch, weil die Form einer Entscheidung sehr wohl ihre spätere Nachvollziehbarkeit beeinflusst.",
+      "commonTrap": "Mündliche Absprachen werden als ausreichend angesehen, solange sich die Beteiligten aktuell noch erinnern.",
+      "testedConcept": "Nachvollziehbare Dokumentation wichtiger Entscheidungen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "595dc8cd-1256-49b2-b4a2-902088fbd137",
+    "text": "Ein Prozess enthält einen Schritt, der ausschließlich deshalb existiert, weil er in einer früheren, inzwischen abgeschafften Systemumgebung notwendig war. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der nicht mehr sachlich notwendige Schritt sollte identifiziert und aus dem Prozess entfernt werden"
+      },
+      {
+        "label": "B",
+        "text": "Historisch gewachsene Schritte sollten aus Respekt vor der bisherigen Praxis grundsätzlich beibehalten werden"
+      },
+      {
+        "label": "C",
+        "text": "Ein einmal etablierter Prozessschritt darf aus Konsistenzgründen nicht mehr entfernt werden"
+      },
+      {
+        "label": "D",
+        "text": "Die tatsächliche Notwendigkeit eines Schritts spielt für die Prozessgestaltung keine relevante Rolle"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozessschritt existiert nur, weil er in einer inzwischen abgeschafften Systemumgebung notwendig war.",
+      "whyCorrect": "A ist richtig, weil der nicht mehr sachlich notwendige Schritt identifiziert und aus dem Prozess entfernt werden sollte.",
+      "whyIncorrect": "B ist falsch, weil reiner Respekt vor bisheriger Praxis kein hinreichender Grund ist, einen überflüssigen Schritt beizubehalten. C ist falsch, weil Prozessschritte durchaus entfernt werden dürfen, wenn ihre sachliche Grundlage entfällt. D ist falsch, weil die tatsächliche Notwendigkeit eines Schritts sehr wohl zentral für die Prozessgestaltung ist.",
+      "commonTrap": "Historisch entstandene Schritte werden allein aufgrund ihrer Existenz als notwendig angesehen.",
+      "testedConcept": "Bereinigung nicht mehr notwendiger Prozessschritte"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "e7240e79-7b64-4793-8483-6d6169463f69",
+    "text": "Bei einem regionalen Logistikdienstleister wird folgender Praxisfall bewertet: Interviews und Systemdaten widersprechen der freigegebenen Prozessbeschreibung. Welches Vorgehen führt am zuverlässigsten zu einem belastbaren Ist-Prozess?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quellen und Varianten gemeinsam mit Beteiligten validieren und den tatsächlich wiederkehrenden Ablauf dokumentieren"
+      },
+      {
+        "label": "B",
+        "text": "Zuerst den gewünschten Soll-Prozess modellieren und daraus den bisherigen Ist-Prozess ableiten"
+      },
+      {
+        "label": "C",
+        "text": "Freigegebene Beschreibung als Ist übernehmen und Abweichungen erst im Soll-Prozess behandeln"
+      },
+      {
+        "label": "D",
+        "text": "Systemdaten stärker gewichten als Interviews und manuelle Tätigkeiten nachrangig behandeln"
+      }
+    ],
+    "explanation": {
+      "summary": "Bei einem Logistikdienstleister widersprechen Interviews und Systemdaten der freigegebenen Prozessbeschreibung.",
+      "whyCorrect": "A ist richtig, weil Quellen und Varianten gemeinsam mit den Beteiligten validiert werden sollten, um den tatsächlich wiederkehrenden Ablauf zu dokumentieren.",
+      "whyIncorrect": "B ist falsch, weil ein Soll-Prozess nicht die Grundlage für die Ableitung des Ist-Zustands sein darf. C ist falsch, weil die freigegebene Beschreibung im Widerspruchsfall nicht unhinterfragt übernommen werden sollte. D ist falsch, weil eine einseitige Gewichtung einer Quelle ohne Validierung Verzerrungen erzeugen kann.",
+      "commonTrap": "Eine formal freigegebene, aber veraltete Beschreibung wird unhinterfragt als Ist-Zustand übernommen.",
+      "testedConcept": "Validierung mehrerer Quellen bei der Ist-Aufnahme"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "493844e9-e05e-4981-8419-4f8bc5ae0e6a",
+    "text": "Ein Unternehmen misst die Wirkung einer Prozessänderung ausschließlich unmittelbar nach der Einführung, ohne eine spätere Kontrolle nach einigen Monaten vorzusehen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine unmittelbare Messung direkt nach der Einführung liefert stets ein vollständiges und verlässliches Bild der langfristigen Wirkung"
+      },
+      {
+        "label": "B",
+        "text": "Eine spätere Kontrolle nach einigen Monaten sollte ergänzt werden, um nachhaltige Effekte von kurzfristigen Anpassungseffekten zu unterscheiden"
+      },
+      {
+        "label": "C",
+        "text": "Eine spätere Kontrolle ist ausschließlich bei technischen Prozessänderungen sinnvoll"
+      },
+      {
+        "label": "D",
+        "text": "Der Zeitpunkt der Wirkungsmessung hat auf die Aussagekraft der Ergebnisse keinen relevanten Einfluss"
+      }
+    ],
+    "explanation": {
+      "summary": "Die Wirkung einer Prozessänderung wird nur unmittelbar nach der Einführung gemessen, ohne spätere Kontrolle.",
+      "whyCorrect": "B ist richtig, weil eine spätere Kontrolle nach einigen Monaten ergänzt werden sollte, um nachhaltige Effekte von kurzfristigen Anpassungseffekten zu unterscheiden.",
+      "whyIncorrect": "A ist falsch, weil eine unmittelbare Messung kurzfristige Anpassungseffekte nicht von dauerhaften Verbesserungen unterscheiden kann. C ist falsch, weil eine spätere Kontrolle auch bei organisatorischen Änderungen sinnvoll ist. D ist falsch, weil der Messzeitpunkt sehr wohl die Aussagekraft der Ergebnisse beeinflusst.",
+      "commonTrap": "Eine unmittelbare Erfolgsmessung wird als ausreichend angesehen, ohne langfristige Stabilität zu prüfen.",
+      "testedConcept": "Zeitliche Dimension der Wirkungsmessung"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "79c13306-2b4e-4f8f-bf53-6db7e6463242",
+    "text": "Ein Unternehmen erfasst zwar die Bearbeitungszeit eines Prozesses, nicht aber die Wartezeit zwischen den einzelnen Schritten. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Auch die Wartezeit zwischen den Schritten sollte erfasst werden, um die tatsächliche Gesamtdurchlaufzeit vollständig abzubilden"
+      },
+      {
+        "label": "B",
+        "text": "Die reine Bearbeitungszeit liefert bereits ein vollständiges Bild der tatsächlichen Prozessdauer"
+      },
+      {
+        "label": "C",
+        "text": "Wartezeiten zwischen Prozessschritten sind für die Prozessoptimierung grundsätzlich ohne Bedeutung"
+      },
+      {
+        "label": "D",
+        "text": "Eine Erfassung der Wartezeit ist ausschließlich bei vollständig automatisierten Prozessen sinnvoll"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Unternehmen erfasst die Bearbeitungszeit, nicht aber die Wartezeit zwischen den Schritten.",
+      "whyCorrect": "A ist richtig, weil auch die Wartezeit zwischen den Schritten erfasst werden sollte, um die tatsächliche Gesamtdurchlaufzeit vollständig abzubilden.",
+      "whyIncorrect": "B ist falsch, weil reine Bearbeitungszeit oft nur einen kleinen Teil der tatsächlichen Durchlaufzeit ausmacht. C ist falsch, weil Wartezeiten häufig ein zentraler Ansatzpunkt für Prozessoptimierung sind. D ist falsch, weil die Erfassung der Wartezeit auch bei nicht vollständig automatisierten Prozessen sinnvoll ist.",
+      "commonTrap": "Bearbeitungszeit wird fälschlich mit der gesamten Durchlaufzeit gleichgesetzt.",
+      "testedConcept": "Vollständige Erfassung von Durchlaufzeitkomponenten"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "4b9d1c10-5587-46f2-8bde-100db9185bde",
+    "text": "Ein Prozessverantwortlicher entscheidet allein über wesentliche Änderungen an einem abteilungsübergreifenden Prozess, ohne die anderen betroffenen Abteilungsleitungen einzubeziehen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der Prozessverantwortliche kann wesentliche Änderungen grundsätzlich allein und ohne weitere Abstimmung entscheiden"
+      },
+      {
+        "label": "B",
+        "text": "Wesentliche Änderungen an einem abteilungsübergreifenden Prozess sollten mit den anderen betroffenen Abteilungsleitungen abgestimmt werden"
+      },
+      {
+        "label": "C",
+        "text": "Eine Abstimmung mit anderen Abteilungsleitungen ist ausschließlich bei finanziell bedeutsamen Änderungen erforderlich"
+      },
+      {
+        "label": "D",
+        "text": "Die Einbeziehung weiterer Abteilungsleitungen verzögert wesentliche Prozessänderungen unnötig, ohne echten Mehrwert zu bieten"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Prozessverantwortlicher entscheidet allein über wesentliche Änderungen an einem abteilungsübergreifenden Prozess, ohne andere Abteilungsleitungen einzubeziehen.",
+      "whyCorrect": "B ist richtig, weil wesentliche Änderungen an einem abteilungsübergreifenden Prozess mit den anderen betroffenen Abteilungsleitungen abgestimmt werden sollten.",
+      "whyIncorrect": "A ist falsch, weil alleinige Entscheidungen ohne Abstimmung bei abteilungsübergreifenden Prozessen zu Konflikten und mangelnder Akzeptanz führen können. C ist falsch, weil auch nicht rein finanziell bedeutsame Änderungen abgestimmt werden sollten. D ist falsch, weil die Einbeziehung weiterer Abteilungsleitungen in der Regel echten Mehrwert bringt, etwa durch bessere Passung und Akzeptanz.",
+      "commonTrap": "Prozessverantwortung wird mit alleiniger Entscheidungsbefugnis über abteilungsübergreifende Belange gleichgesetzt.",
+      "testedConcept": "Abstimmung bei abteilungsübergreifenden Prozessänderungen"
+    },
+    "vocabulary": []
+  }
+]

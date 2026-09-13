@@ -1,0 +1,232 @@
+[
+  {
+    "id": "77d614e0-bcad-467c-8891-04ebc6517851",
+    "text": "Ein Unternehmen geht davon aus, dass die Einhaltung einer einzelnen Norm automatisch alle weiteren relevanten rechtlichen und vertraglichen Anforderungen abdeckt. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Diese Annahme ist zutreffend, da Normen grundsätzlich alle weiteren Anforderungen einschließen"
+      },
+      {
+        "label": "B",
+        "text": "Weitere rechtliche oder vertragliche Anforderungen sind neben einer eingehaltenen Norm bedeutungslos"
+      },
+      {
+        "label": "C",
+        "text": "Eine zusätzliche Prüfung weiterer Anforderungen ist nur bei international tätigen Unternehmen nötig"
+      },
+      {
+        "label": "D",
+        "text": "Die Einhaltung einer Norm sollte nicht automatisch als vollständige Erfüllung aller weiteren rechtlichen und vertraglichen Pflichten angesehen werden"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "9bcbfd1a-fd7f-471e-af19-2913b040ca77",
+    "text": "Ein Unternehmen implementiert eine neue gesetzliche Anforderung technisch vollständig, dokumentiert die Umsetzung aber an keiner Stelle. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine Dokumentation ist überflüssig, solange die technische Umsetzung tatsächlich erfolgt ist"
+      },
+      {
+        "label": "B",
+        "text": "Nachweise über die Umsetzung gesetzlicher Anforderungen sind ausschließlich bei sicherheitskritischen Systemen relevant"
+      },
+      {
+        "label": "C",
+        "text": "Die fehlende Dokumentation erschwert den späteren Nachweis der Umsetzung gegenüber Prüfstellen oder bei internen Kontrollen"
+      },
+      {
+        "label": "D",
+        "text": "Die Dokumentation einer Umsetzung hat keinen Einfluss auf deren rechtliche Anerkennung"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "e6728998-e99a-42a1-9245-f713e6ab2e1f",
+    "text": "Ein Unternehmen wählt einen externen Dienstleister ausschließlich nach dem günstigsten Preis aus, ohne dessen Umgang mit Informationssicherheit zu prüfen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der Preis ist das einzige sachlich relevante Auswahlkriterium für externe Dienstleister"
+      },
+      {
+        "label": "B",
+        "text": "Informationssicherheit bei Dienstleistern ist ausschließlich für Verträge mit IT-Bezug relevant"
+      },
+      {
+        "label": "C",
+        "text": "Eine Sicherheitsprüfung des Dienstleisters ist nur bei Verträgen oberhalb eines bestimmten Auftragswerts sinnvoll"
+      },
+      {
+        "label": "D",
+        "text": "Der Umgang eines Dienstleisters mit Informationssicherheit sollte bei der Auswahl neben dem Preis berücksichtigt werden"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "ed63f232-4c54-4f85-b76f-53fd1f72f660",
+    "text": "Ein mittelständischer Fertigungsbetrieb möchte ein zertifizierbares ISMS aufbauen und für ausgewählte Controls konkrete Umsetzungshinweise nutzen. Welche Einordnung ist am genauesten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ISO/IEC 27001 dient der Zertifizierungsentscheidung; ISO/IEC 27002 ersetzt bei der Control-Ausgestaltung die organisationsbezogene Risikobewertung"
+      },
+      {
+        "label": "B",
+        "text": "ISO/IEC 27001 enthält die zertifizierbaren ISMS-Anforderungen; ISO/IEC 27002 ist vollständig und unverändert als verbindlicher Control-Satz umzusetzen"
+      },
+      {
+        "label": "C",
+        "text": "ISO/IEC 27001 enthält prüfbare ISMS-Anforderungen; ISO/IEC 27002 bietet ergänzende Leitlinien für risikoorientiert ausgewählte Controls"
+      },
+      {
+        "label": "D",
+        "text": "ISO/IEC 27001 beschreibt das Managementsystem; ISO/IEC 27002 legt die passenden Controls bereits vorab fest, bevor eine Risikobehandlung stattgefunden hat"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "58b24dc8-be6d-40db-ae0e-fbf575f95694",
+    "text": "Bei einem wachsenden Onlinehändler wird folgender Praxisfall bewertet: Die Leitung fragt, welche Cybersicherheitsanforderungen für das Unternehmen verbindlich sind. Welche Vorgehensweise ist angemessen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sich auf Gesetze konzentrieren, da Verträge und interne Vorgaben weniger verbindlich seien"
+      },
+      {
+        "label": "B",
+        "text": "Eine vorhandene Zertifizierung als Ersatz für die Prüfung aller Verpflichtungen verwenden"
+      },
+      {
+        "label": "C",
+        "text": "Jede veröffentlichte Norm als praktisch bindend behandeln, da Nichteinhaltung Reputationsrisiken schafft"
+      },
+      {
+        "label": "D",
+        "text": "Rechtsquellen, Verträge und intern übernommene Vorgaben getrennt ermitteln und ihre jeweilige Verbindlichkeit dokumentieren"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "67b33d5c-48c2-49ef-a4b2-7d6a15262c3e",
+    "text": "Ein Unternehmen geht davon aus, dass eine interne Richtlinie automatisch alle gesetzlichen Anforderungen zu einem Thema vollständig abdeckt, ohne dies inhaltlich zu vergleichen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine interne Richtlinie deckt naturgemäß immer alle einschlägigen gesetzlichen Anforderungen vollständig ab"
+      },
+      {
+        "label": "B",
+        "text": "Ein inhaltlicher Abgleich ist nur bei international tätigen Unternehmen erforderlich"
+      },
+      {
+        "label": "C",
+        "text": "Der tatsächliche Inhalt der Richtlinie sollte mit den gesetzlichen Anforderungen abgeglichen werden, um Lücken zu erkennen"
+      },
+      {
+        "label": "D",
+        "text": "Gesetzliche Anforderungen und interne Richtlinien betreffen grundsätzlich unterschiedliche Themenbereiche"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "5c6c55fd-f9c8-4382-9fff-766bc0fd997c",
+    "text": "Ein Unternehmen betrachtet eine bestandene externe Zertifizierungsprüfung als abschließenden Beweis dafür, dass keinerlei Sicherheitsrisiken mehr bestehen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nach einer bestandenen Zertifizierungsprüfung bestehen keinerlei Sicherheitsrisiken mehr"
+      },
+      {
+        "label": "B",
+        "text": "Eine Zertifizierungsprüfung bewertet ausschließlich die Vollständigkeit der Dokumentation, nicht die tatsächliche Umsetzung"
+      },
+      {
+        "label": "C",
+        "text": "Eine bestandene Prüfung macht jede weitere interne Risikobetrachtung überflüssig"
+      },
+      {
+        "label": "D",
+        "text": "Eine bestandene Zertifizierungsprüfung bestätigt Konformität zu einem bestimmten Zeitpunkt, schließt aber neue oder verbleibende Risiken nicht grundsätzlich aus"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "43ec2c80-2bbc-4834-b387-e1f9d0aebb52",
+    "text": "Ein Unternehmen geht davon aus, dass eine freiwillig eingegangene vertragliche Verpflichtung im Streitfall automatisch weniger Gewicht hat als eine gesetzliche Pflicht. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vertragliche Verpflichtungen sind gegenüber gesetzlichen Pflichten grundsätzlich rechtlich bedeutungslos"
+      },
+      {
+        "label": "B",
+        "text": "Eine vertragliche Verpflichtung wird erst durch eine zusätzliche behördliche Bestätigung wirksam"
+      },
+      {
+        "label": "C",
+        "text": "Vertragliche Verpflichtungen können rechtlich verbindlich und im Streitfall durchsetzbar sein, unabhängig davon, ob eine gesetzliche Pflicht daneben besteht"
+      },
+      {
+        "label": "D",
+        "text": "Im Streitfall wird stets ausschließlich die gesetzliche Pflicht berücksichtigt, nie die vertragliche"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "192dc864-f2da-4e72-8140-e78e11691c6e",
+    "text": "Ein Unternehmen hält eine bestimmte gesetzliche Anforderung für nicht anwendbar, ohne dies durch eine nachvollziehbare Prüfung zu belegen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine bloße interne Einschätzung ohne Dokumentation reicht für die Feststellung der Nichtanwendbarkeit aus"
+      },
+      {
+        "label": "B",
+        "text": "Die Anwendbarkeit einer gesetzlichen Anforderung muss niemals dokumentiert werden"
+      },
+      {
+        "label": "C",
+        "text": "Eine Prüfung der Anwendbarkeit ist ausschließlich bei tatsächlich anwendbaren Anforderungen erforderlich"
+      },
+      {
+        "label": "D",
+        "text": "Die Einschätzung der Nichtanwendbarkeit sollte durch eine nachvollziehbare, dokumentierte Prüfung belegt werden"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "c89823b0-9da6-4fd1-9aaa-825ab42ef319",
+    "text": "Ein Unternehmen ändert seine Geschäftstätigkeit erheblich, prüft aber nicht erneut, welche rechtlichen Anforderungen sich daraus möglicherweise neu ergeben. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Einmal ermittelte rechtliche Anforderungen bleiben unabhängig von späteren geschäftlichen Veränderungen unverändert gültig"
+      },
+      {
+        "label": "B",
+        "text": "Eine erneute Prüfung ist ausschließlich bei einer Umfirmierung erforderlich, nicht bei einer bloßen Tätigkeitsänderung"
+      },
+      {
+        "label": "C",
+        "text": "Eine erhebliche Änderung der Geschäftstätigkeit sollte Anlass für eine erneute Prüfung der anwendbaren rechtlichen Anforderungen sein"
+      },
+      {
+        "label": "D",
+        "text": "Rechtliche Anforderungen hängen ausschließlich von der Unternehmensgröße ab, nicht von der Art der Tätigkeit"
+      }
+    ],
+    "correctLabel": "C"
+  }
+]

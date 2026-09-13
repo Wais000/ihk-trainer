@@ -5,7 +5,7 @@
  * later without touching call sites.
  */
 
-const INTERVAL_BY_STREAK_DAYS = [0, 1, 3, 7, 14]; // index = consecutive_correct (capped)
+export const INTERVAL_BY_STREAK_DAYS = [0, 1, 3, 7, 14]; // index = consecutive_correct (capped)
 const WRONG_REVIEW_HOURS = 4; // "review soon" after a wrong answer
 
 export interface ReviewState {

@@ -5,7 +5,6 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { parseQuestionPaste } from "@/lib/parsing/question-parser";
 import { normalizeQuestionText, findLikelyDuplicate } from "@/lib/parsing/duplicate-detection";
-import { enrichQuestionsBatch } from "@/lib/ai/batch-enrichment";
 import type { ParsedQuestion, ExplanationLanguage } from "@/lib/validation/question";
 import { getUiDictionary } from "@/lib/i18n/ui/dictionary";
 
@@ -186,22 +185,4 @@ export async function saveAllReadyItemsAction(importId: string) {
     await saveImportItemAction(item.id);
   }
   revalidatePath(`/questions/import/${importId}`);
-}
-
-/** Runs AI enrichment (explanations + vocabulary) for every saved question from this import that doesn't have it yet. */
-export async function enrichImportAction(importId: string) {
-  const supabase = await createClient();
-  const { data: items } = await supabase
-    .from("import_items")
-    .select("question_id")
-    .eq("import_id", importId)
-    .eq("status", "saved")
-    .not("question_id", "is", null);
-
-  const questionIds = (items ?? []).map((i) => i.question_id as string);
-  if (questionIds.length === 0) return { succeeded: 0, failed: 0 };
-
-  const summary = await enrichQuestionsBatch(supabase, questionIds);
-  revalidatePath(`/questions/import/${importId}`);
-  return { succeeded: summary.succeeded.length, failed: summary.failed.length, failures: summary.failed };
 }

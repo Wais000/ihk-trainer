@@ -9,10 +9,17 @@ import { usePracticeSidebar } from "@/components/practice/practice-sidebar-conte
 import { resetTopicHistoryAction } from "@/app/(app)/practice/actions";
 
 export interface PracticeTopicViewProps extends Omit<PracticeSessionProps, "mode" | "onProgressChange"> {
+  /** Identifies this session for the sidebar's number grid — a real topic
+   * id for a category session, or a synthetic string like "marked" for the
+   * bookmarked-questions session (only ever used as an opaque identity key
+   * here, never queried against the topics table). */
   topicId: string;
+  /** Defaults to resetting attempts for this topicId's category; the
+   * "marked" session passes its own scope-appropriate reset instead. */
+  resetAction?: () => Promise<{ success: true } | { error: string }>;
 }
 
-export function PracticeTopicView({ topicId, ...sessionProps }: PracticeTopicViewProps) {
+export function PracticeTopicView({ topicId, resetAction, ...sessionProps }: PracticeTopicViewProps) {
   const dict = useUiDictionary();
   const { setActive } = usePracticeSidebar();
   // Bumped when starting fresh to force PracticeSession to remount with
@@ -49,7 +56,7 @@ export function PracticeTopicView({ topicId, ...sessionProps }: PracticeTopicVie
 
   async function handleStartFresh() {
     setResetting(true);
-    await resetTopicHistoryAction(topicId);
+    await (resetAction ? resetAction() : resetTopicHistoryAction(topicId));
     try {
       sessionStorage.removeItem(sessionProps.storageKey);
     } catch {

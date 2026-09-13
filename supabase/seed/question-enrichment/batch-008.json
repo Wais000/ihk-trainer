@@ -1,0 +1,232 @@
+[
+  {
+    "id": "f34e61c6-61cb-4dd3-ad9a-eb2c648835b8",
+    "text": "Ein Unternehmen möchte einen neu gestalteten Freigabeprozess einführen. Die fachliche Ausarbeitung des Soll-Prozesses ist abgeschlossen und mit den Fachbereichen abgestimmt. Welcher nächste Schritt ist am passendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Den Prozess unternehmensweit sofort verbindlich in Kraft setzen"
+      },
+      {
+        "label": "B",
+        "text": "Die Auswirkungen erklären, Rückmeldungen ermöglichen und die Einführung begleitet erproben"
+      },
+      {
+        "label": "C",
+        "text": "Zunächst eine neue Prozessvisualisierung erstellen, bevor inhaltliche Fragen geklärt werden"
+      },
+      {
+        "label": "D",
+        "text": "Erneut Interviews zur Erfassung des bisherigen Ist-Prozesses durchführen"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "94e1d0f3-77dd-4147-b507-9bec82d071d5",
+    "text": "Ein Unternehmen ordnet die Rekrutierung neuer Mitarbeitender sowie die strategische Jahresplanung jeweils einer Prozesskategorie zu. Welche Zuordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Rekrutierung ist ein Kernprozess, Jahresplanung ist ein Unterstützungsprozess"
+      },
+      {
+        "label": "B",
+        "text": "Beide sind Kernprozesse, da beide für den Unternehmenserfolg wichtig sind"
+      },
+      {
+        "label": "C",
+        "text": "Rekrutierung ist ein Unterstützungsprozess, Jahresplanung ist ein Führungsprozess"
+      },
+      {
+        "label": "D",
+        "text": "Beide sind Führungsprozesse, da beide von der Personalabteilung mitgestaltet werden"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "bf3faf84-ae30-495d-bcfe-ec07c62974da",
+    "text": "Zur Bewertung eines optimierten Kundenserviceprozesses schlägt ein Team vor, ausschließlich die Anzahl neu erstellter Prozessdiagramme als Erfolgskennzahl zu verwenden. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Kennzahl ist geeignet, weil mehr Diagramme mehr Prozessreife bedeuten"
+      },
+      {
+        "label": "B",
+        "text": "Die Kennzahl ist geeignet, solange sie mit der Unternehmensleitung abgestimmt wurde"
+      },
+      {
+        "label": "C",
+        "text": "Die Kennzahl ist ungeeignet, weil Prozessdiagramme grundsätzlich nicht gezählt werden dürfen"
+      },
+      {
+        "label": "D",
+        "text": "Die Kennzahl ist ungeeignet, weil sie keine Aussage über die tatsächliche Wirkung des Prozesses auf Kunden oder Betrieb trifft"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "d85c7cdc-e7c5-483a-9c2d-4d9737c5ebb0",
+    "text": "In einer Prozessbeschreibung ist eine Person als \"Responsible\" für die Durchführung einer Tätigkeit benannt, eine andere Person aber als \"Accountable\" für das Gesamtergebnis. Welche Aussage ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die \"Responsible\"-Person führt die Tätigkeit aus, während die \"Accountable\"-Person für das Ergebnis verantwortlich bleibt, auch wenn sie es nicht selbst ausführt"
+      },
+      {
+        "label": "B",
+        "text": "Beide Rollen bezeichnen dasselbe und wurden nur zur Verdeutlichung doppelt benannt"
+      },
+      {
+        "label": "C",
+        "text": "Die \"Accountable\"-Person hat keinerlei Bezug zum Ergebnis, sobald eine \"Responsible\"-Person benannt ist"
+      },
+      {
+        "label": "D",
+        "text": "Es sollte in jeder Prozessbeschreibung nur eine einzige Rolle geben, um Verantwortung zu bündeln"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "d169bbfa-4219-4167-8cf7-c166f90423d7",
+    "text": "Eine Prozessbeschreibung erfasst nur den Standardablauf; wiederkehrende Sonderfälle mit abweichenden Entscheidungswegen werden nicht dokumentiert, obwohl sie regelmäßig auftreten. Welche Ergänzung ist am wichtigsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Sonderfälle bewusst weglassen, damit die Beschreibung übersichtlich bleibt"
+      },
+      {
+        "label": "B",
+        "text": "Die regelmäßig auftretenden Varianten samt ihrer Entscheidungswege in die Beschreibung aufnehmen"
+      },
+      {
+        "label": "C",
+        "text": "Ausschließlich den Standardfall weiter verfeinern, da Sonderfälle selten genug seltener werden"
+      },
+      {
+        "label": "D",
+        "text": "Die Beschreibung durch ein reines Organigramm der beteiligten Abteilungen ersetzen"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "133b14cc-73c1-4d88-808d-4bac8beea514",
+    "text": "Ein Process Owner soll die Durchlaufzeit eines abteilungsübergreifenden Prozesses verbessern, hat jedoch keine Weisungsbefugnis über die Ressourcen anderer beteiligter Abteilungen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die fehlende Weisungsbefugnis ist unproblematisch, da Prozessverantwortung immer auch Ressourcenverantwortung einschließt"
+      },
+      {
+        "label": "B",
+        "text": "Der Process Owner sollte in diesem Fall durch die jeweilige Abteilungsleitung ersetzt werden"
+      },
+      {
+        "label": "C",
+        "text": "Die fehlende Weisungsbefugnis stellt eine typische Herausforderung dar, die eine abgestimmte Zusammenarbeit mit den jeweiligen Fachbereichsleitungen erfordert"
+      },
+      {
+        "label": "D",
+        "text": "Prozessverbesserungen sind ohne Weisungsbefugnis über alle Ressourcen grundsätzlich nicht möglich"
+      }
+    ],
+    "correctLabel": "C"
+  },
+  {
+    "id": "9d420ea2-0a3b-4ca3-9c86-cc076b94b21b",
+    "text": "Bei einem mittelständischen Fertigungsbetrieb wird folgender Praxisfall bewertet: Zwei Bereiche führen dieselbe Kundendatenprüfung nacheinander durch. Was sollte vor dem Entfernen eines Schritts geklärt werden?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Welcher Bereich die modernere Präsentationsvorlage nutzt"
+      },
+      {
+        "label": "B",
+        "text": "Ob die Prüfungen tatsächlich denselben Zweck, Umfang und Kontrollbedarf haben"
+      },
+      {
+        "label": "C",
+        "text": "Ob beide Schritte denselben Namen tragen"
+      },
+      {
+        "label": "D",
+        "text": "Welcher Mitarbeitende länger im Unternehmen ist"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "705b69a9-6dd0-45ad-b8ae-59696d7bf98f",
+    "text": "Ein Team vermutet einen Engpass in einem Genehmigungsprozess, stützt diese Vermutung aber ausschließlich auf einzelne mündliche Erfahrungsberichte, ohne Durchlaufzeiten zu messen. Welche Ergänzung ist am wichtigsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die mündlichen Berichte als ausreichende Grundlage für eine Prozessänderung akzeptieren"
+      },
+      {
+        "label": "B",
+        "text": "Den vermuteten Engpass ohne weitere Prüfung aus dem Prozess entfernen"
+      },
+      {
+        "label": "C",
+        "text": "Eine neue Prozessgrafik erstellen, ohne die Ursache des Engpasses zu untersuchen"
+      },
+      {
+        "label": "D",
+        "text": "Tatsächliche Bearbeitungs- und Wartezeiten je Prozessschritt systematisch erheben, um die Vermutung zu überprüfen"
+      }
+    ],
+    "correctLabel": "D"
+  },
+  {
+    "id": "3e3fb0bf-e4f2-45e5-9b0d-4d71d643e809",
+    "text": "Zwischen zwei Systemen wird eine Bestellung manuell aus einem System exportiert und danach manuell in ein zweites System eingegeben; dabei gehen gelegentlich Positionen verloren. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An der Schnittstelle zwischen den Systemen liegt eine fehleranfällige manuelle Übergabe vor, die auf eine verlässlichere Kopplung geprüft werden sollte"
+      },
+      {
+        "label": "B",
+        "text": "Es handelt sich um eine unvermeidbare Fehlerquote, die keiner weiteren Betrachtung bedarf"
+      },
+      {
+        "label": "C",
+        "text": "Der Fehler liegt ausschließlich bei der eingebenden Person und erfordert keine Prozessänderung"
+      },
+      {
+        "label": "D",
+        "text": "Da beide Systeme korrekt funktionieren, liegt kein Prozessproblem vor"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "e3082b64-33c2-4971-8c1e-9e97a6110e1c",
+    "text": "Ein Unternehmen hat vor zwei Jahren ein Prozessoptimierungsprojekt abgeschlossen und seither keine weitere Überprüfung des betroffenen Prozesses vorgenommen. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dies ist angemessen, da ein einmal optimierter Prozess dauerhaft optimal bleibt"
+      },
+      {
+        "label": "B",
+        "text": "Prozessmanagement ist ein fortlaufender Zyklus; der Prozess sollte regelmäßig erneut überprüft und bei Bedarf weiter angepasst werden"
+      },
+      {
+        "label": "C",
+        "text": "Eine erneute Überprüfung ist nur bei einem dokumentierten Fehler erforderlich"
+      },
+      {
+        "label": "D",
+        "text": "Nach Projektabschluss endet die Verantwortung für den Prozess vollständig"
+      }
+    ],
+    "correctLabel": "B"
+  }
+]

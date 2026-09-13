@@ -10,12 +10,18 @@ const SESSION_SELECT = "id, question_text, marked, question_options(*), question
  * `limit` is optional: a topic-scoped session fetches every ready question
  * in that category (so "Question N of Total" and the sidebar's number grid
  * both reflect the whole category, not an arbitrary batch), while an
- * unscoped call can still cap the queue with a limit if needed. */
+ * unscoped call can still cap the queue with a limit if needed.
+ *
+ * `markedOnly` scopes the queue to questions the learner has bookmarked
+ * (via MarkToggle) instead of a topic — the two are mutually exclusive in
+ * practice, since the "Marked" session on /practice/marked never passes a
+ * topicId. */
 export async function fetchPracticeQueue(
   supabase: SupabaseClient,
   userId: string,
   limit?: number,
-  topicId?: string
+  topicId?: string,
+  markedOnly?: boolean
 ): Promise<SessionQuestion[]> {
   let query = supabase
     .from("questions")
@@ -24,6 +30,7 @@ export async function fetchPracticeQueue(
     .eq("status", "ready");
 
   if (topicId) query = query.eq("topic_id", topicId);
+  if (markedOnly) query = query.eq("marked", true);
 
   query = query
     .order("sort_order", { foreignTable: "question_options", ascending: true })

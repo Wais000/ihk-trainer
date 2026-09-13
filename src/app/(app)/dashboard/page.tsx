@@ -17,7 +17,7 @@ export default async function DashboardPage() {
   const accuracyPct = stats.attemptsToday > 0 ? Math.round((stats.correctToday / stats.attemptsToday) * 100) : null;
 
   return (
-    <main className="mx-auto flex max-w-3xl flex-col gap-6 px-4 py-8">
+    <main className="mx-auto flex max-w-[852px] flex-col gap-6 px-4 py-8">
       <h1 className="text-xl font-semibold">{dict.dashboard.title}</h1>
 
       {/* Primary actions — the most important thing on the screen */}

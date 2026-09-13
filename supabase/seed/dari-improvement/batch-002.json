@@ -1,0 +1,495 @@
+[
+  {
+    "id": "40d7ab03-0c9a-4ca1-9690-e33651fd5c8b",
+    "text": "In einem Workshop zu Sicherheitsgrundlagen wird die folgende Situation bewertet: Ein gestohlenes, stark verschlüsseltes Notebook enthält die einzige aktuelle Kopie einer Projektdatei. Welche Bewertung ist am vollständigsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Verfügbarkeit bleibt unbeeinträchtigt, da eine Kopie theoretisch rekonstruierbar ist"
+      },
+      {
+        "label": "B",
+        "text": "Verschlüsselung reduziert das Offenlegungsrisiko; Verfügbarkeit kann trotzdem erheblich betroffen sein"
+      },
+      {
+        "label": "C",
+        "text": "Durch die Verschlüsselung sind die wesentlichen Vertraulichkeitsrisiken des Diebstahls deutlich reduziert"
+      },
+      {
+        "label": "D",
+        "text": "Der Diebstahl betrifft in erster Linie die Integrität, weil der Inhalt durch den Ortswechsel als verändert gilt"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein gestohlenes, stark verschlüsseltes Notebook enthält die einzige Kopie einer Datei; gefragt wird nach der vollständigsten Bewertung.",
+      "whyCorrect": "B ist richtig, weil starke Verschlüsselung das Risiko der Offenlegung (Vertraulichkeit) senkt, die Verfügbarkeit der einzigen Kopie durch den Diebstahl aber trotzdem stark beeinträchtigt sein kann.",
+      "whyIncorrect": "A ist falsch, weil eine 'theoretische' Rekonstruierbarkeit ohne tatsächliche Kopie die Verfügbarkeit nicht sicherstellt. C ist falsch, weil sie nur einen Teilaspekt (Vertraulichkeit) nennt und die Verfügbarkeit ignoriert. D ist falsch, weil ein Ortswechsel allein keine inhaltliche Veränderung und damit keine Integritätsverletzung darstellt.",
+      "commonTrap": "Verschlüsselung wird als vollständiger Schutz missverstanden, obwohl sie nur die Vertraulichkeit adressiert, nicht die Verfügbarkeit.",
+      "testedConcept": "Zusammenspiel mehrerer Schutzziele bei einem Vorfall"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Verschlüsselung"
+      }
+    ]
+  },
+  {
+    "id": "5344cd3f-8237-4055-8af1-f2245a0e54ac",
+    "text": "Ein Bürogebäude liegt in einem Gebiet mit gelegentlichem Starkregen; der Serverraum befindet sich im Erdgeschoss. Für das kommende Wochenende wird eine Unwetterwarnung mit Starkregen ausgegeben. Wie ist die Lage am Wochenende gegenüber der Ausgangslage einzuordnen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Unwetterwarnung macht aus der bestehenden Bedrohung eine konkrete Gefährdung für den Serverraum"
+      },
+      {
+        "label": "B",
+        "text": "Die Lage bleibt unverändert eine Bedrohung, weil sich am Gebäude selbst nichts geändert hat"
+      },
+      {
+        "label": "C",
+        "text": "Die Lage ist bereits ein eingetretener Schaden, weil eine amtliche Warnung vorliegt"
+      },
+      {
+        "label": "D",
+        "text": "Die Lage betrifft ausschließlich das Risiko, weil noch kein Wasser eingedrungen ist"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie eine konkrete Unwetterwarnung die Lage gegenüber der allgemeinen Ausgangslage verändert.",
+      "whyCorrect": "A ist richtig, weil aus der allgemeinen Bedrohung (Starkregen kommt gelegentlich vor) durch die konkrete, zeitlich absehbare Warnung eine akute Gefährdung für den Serverraum wird.",
+      "whyIncorrect": "B ist falsch, weil sich die Lage durch die konkrete Warnung eben doch von einer allgemeinen Bedrohung zu einer konkreten Gefährdung verändert. C ist falsch, weil noch kein tatsächlicher Schaden eingetreten ist, sondern nur eine erhöhte Gefährdung besteht. D ist falsch, weil die Situation mehr als nur ein abstraktes Risiko ist, da eine konkrete Bedrohung mit zeitlichem Bezug vorliegt.",
+      "commonTrap": "Bedrohung und Gefährdung werden nicht unterschieden – eine konkrete, zeitlich bestimmte Warnung macht aus der abstrakten Bedrohung eine reale Gefährdung.",
+      "testedConcept": "Unterscheidung Bedrohung vs. Gefährdung"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Gefährdung"
+      }
+    ]
+  },
+  {
+    "id": "1b4af35b-47db-4503-8cdf-405abc301bf1",
+    "text": "Eine Projektleiterin bespricht in einem belebten Café am Nachbartisch vertrauliche Verhandlungsdetails mit einem Kollegen. Kein Dokument wird dabei verwendet. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt keine schutzbedürftige Information vor, da nichts schriftlich festgehalten wurde"
+      },
+      {
+        "label": "B",
+        "text": "Es liegt schutzbedürftige Information vor, weil Information unabhängig vom Medium geschützt werden muss"
+      },
+      {
+        "label": "C",
+        "text": "Es liegt ein bereits eingetretener Schaden vor, weil Dritte am Nachbartisch mithören könnten"
+      },
+      {
+        "label": "D",
+        "text": "Es liegt lediglich ein organisatorisches Stilproblem vor, das keinen Bezug zur Informationssicherheit hat"
+      }
+    ],
+    "explanation": {
+      "summary": "Es wird gefragt, wie ein mündliches Gespräch über vertrauliche Verhandlungsdetails in einem Café einzuordnen ist.",
+      "whyCorrect": "B ist richtig, weil schutzbedürftige Informationen unabhängig vom Medium (mündlich, schriftlich, digital) geschützt werden müssen.",
+      "whyIncorrect": "A ist falsch, weil auch nicht schriftlich fixierte, gesprochene Information schutzbedürftig sein kann. C ist falsch, weil noch nicht feststeht, ob tatsächlich jemand mitgehört hat – es handelt sich um eine Gefährdung, nicht zwingend um einen eingetretenen Schaden. D ist falsch, weil das Verhalten sehr wohl einen Bezug zur Informationssicherheit hat.",
+      "commonTrap": "Informationssicherheit wird fälschlich nur mit dokumentierten oder digitalen Daten in Verbindung gebracht.",
+      "testedConcept": "Information unabhängig vom Medium schützen"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "schutzbedürftig"
+      }
+    ]
+  },
+  {
+    "id": "fb806e09-617d-4305-ad60-b7153e43ea36",
+    "text": "Ein Mitarbeiter öffnet eine Phishing-Mail und klickt auf den enthaltenen Link, gibt aber auf der folgenden Seite keine Daten ein und bemerkt den Betrug rechtzeitig. Wie ist die Situation einzuordnen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt bereits ein eingetretener Schaden vor, weil der Link angeklickt wurde"
+      },
+      {
+        "label": "B",
+        "text": "Es liegt eine Gefährdung, aber kein Risiko vor, weil der Mitarbeiter den Betrug erkannt hat"
+      },
+      {
+        "label": "C",
+        "text": "Es liegt weiterhin nur ein Risiko vor, da keine Daten preisgegeben und keine Auswirkung eingetreten ist"
+      },
+      {
+        "label": "D",
+        "text": "Die Situation ist sicherheitstechnisch irrelevant, weil der Vorgang folgenlos blieb"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Mitarbeiter klickt auf einen Phishing-Link, gibt aber keine Daten ein und erkennt den Betrug rechtzeitig; gefragt wird nach der richtigen Einordnung.",
+      "whyCorrect": "C ist richtig, weil ohne Preisgabe von Daten und ohne tatsächliche negative Auswirkung weiterhin nur ein Risiko besteht, kein eingetretener Schaden.",
+      "whyIncorrect": "A ist falsch, weil das reine Anklicken ohne Dateneingabe noch keinen tatsächlichen Schaden darstellt. B ist falsch, weil hier eine irreführende Unterscheidung zwischen Gefährdung und Risiko getroffen wird, die den Sachverhalt nicht korrekt trifft – es bleibt bei einem (nicht realisierten) Risiko. D ist falsch, weil der Vorfall durchaus sicherheitsrelevant ist und dokumentiert/gemeldet werden sollte, selbst wenn er folgenlos blieb.",
+      "commonTrap": "Ein knapp vermiedener Vorfall wird fälschlich entweder als bereits eingetretener Schaden oder als völlig irrelevant eingestuft.",
+      "testedConcept": "Risiko vs. eingetretener Schaden"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Phishing"
+      }
+    ]
+  },
+  {
+    "id": "66f7f171-d34a-4256-99a0-5788ee314d6a",
+    "text": "Ein digital signierter Vertrag wird später von einer Partei bestritten; die Signatur bestätigt jedoch eindeutig Urheber und Zeitpunkt der Unterschrift. Welches Schutzziel wird hier primär genutzt?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Verfügbarkeit, weil der Vertrag weiterhin abrufbar ist"
+      },
+      {
+        "label": "B",
+        "text": "Vertraulichkeit, weil nur Berechtigte den Vertrag einsehen konnten"
+      },
+      {
+        "label": "C",
+        "text": "Integrität, weil der Vertragstext seit der Unterschrift unverändert ist"
+      },
+      {
+        "label": "D",
+        "text": "Verbindlichkeit beziehungsweise Nichtabstreitbarkeit, weil die Urheberschaft nachweisbar bleibt"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein digital signierter Vertrag wird bestritten, doch die Signatur belegt Urheber und Zeitpunkt eindeutig; gefragt wird nach dem genutzten Schutzziel.",
+      "whyCorrect": "D ist richtig, weil genau die Nachweisbarkeit der Urheberschaft trotz Bestreitens das Schutzziel Verbindlichkeit bzw. Nichtabstreitbarkeit beschreibt.",
+      "whyIncorrect": "A ist falsch, weil es hier nicht um die Abrufbarkeit, sondern um den Nachweis der Urheberschaft geht. B ist falsch, weil Vertraulichkeit den Zugriff durch Berechtigte betrifft, nicht die Nachweisbarkeit der Unterschrift. C ist falsch, weil Integrität die Unverändertheit des Inhalts beschreibt, hier geht es aber um den Nachweis, wer unterschrieben hat und wann.",
+      "commonTrap": "Verbindlichkeit/Nichtabstreitbarkeit wird mit Integrität verwechselt, da beide mit digitalen Signaturen zusammenhängen.",
+      "testedConcept": "Schutzziel Verbindlichkeit / Nichtabstreitbarkeit"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Verbindlichkeit"
+      },
+      {
+        "germanWord": "digitale Signatur"
+      }
+    ]
+  },
+  {
+    "id": "8640d494-4725-49bf-a7e9-35128291a9ee",
+    "text": "Ein Onlineshop wird durch massenhaft automatisiert gesendete Anfragen so überlastet, dass reguläre Kunden ihn nicht mehr erreichen können; Daten werden dabei weder eingesehen noch verändert. Welches Schutzziel ist primär betroffen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Verfügbarkeit, weil berechtigte Nutzer den Dienst nicht mehr erreichen können"
+      },
+      {
+        "label": "B",
+        "text": "Vertraulichkeit, weil unbekannte Absender auf das System zugreifen"
+      },
+      {
+        "label": "C",
+        "text": "Integrität, weil die Anfragen den normalen Systemzustand verändern"
+      },
+      {
+        "label": "D",
+        "text": "Verbindlichkeit, weil die Herkunft der Anfragen nicht zugeordnet werden kann"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Onlineshop wird durch massenhafte Anfragen überlastet, sodass reguläre Kunden ihn nicht mehr erreichen; Daten werden nicht eingesehen oder verändert.",
+      "whyCorrect": "A ist richtig, weil das primäre Problem die fehlende Erreichbarkeit des Dienstes für berechtigte Nutzer ist – das ist Verfügbarkeit.",
+      "whyIncorrect": "B ist falsch, weil kein Zugriff auf Daten durch Unbekannte stattfindet, nur die Erreichbarkeit ist betroffen. C ist falsch, weil sich der Zustand der Daten selbst nicht ändert. D ist falsch, weil es hier nicht um die Zuordnung von Handlungen geht, sondern um Nichterreichbarkeit.",
+      "commonTrap": "Überlastungsangriffe werden fälschlich mit Integrität oder Vertraulichkeit statt Verfügbarkeit assoziiert.",
+      "testedConcept": "Schutzziel Verfügbarkeit (z. B. DDoS)"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Verfügbarkeit"
+      }
+    ]
+  },
+  {
+    "id": "1e9f1ce2-0d43-4c0f-b526-d1c1464cf526",
+    "text": "Ein Vortrag erklärt, dass Cyber-Sicherheit sich speziell auf Bedrohungen aus dem Cyberraum konzentriert, während Informationssicherheit unabhängig von der Form der Information gilt. Wie ist das Verhältnis der Begriffe zueinander am zutreffendsten beschrieben?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Cyber-Sicherheit und Informationssicherheit sind Synonyme mit identischem Geltungsbereich"
+      },
+      {
+        "label": "B",
+        "text": "Informationssicherheit ist der umfassendere Begriff; Cyber-Sicherheit bildet darin den auf den Cyberraum bezogenen Teilbereich"
+      },
+      {
+        "label": "C",
+        "text": "Cyber-Sicherheit ist der umfassendere Begriff und schließt Informationssicherheit vollständig ein"
+      },
+      {
+        "label": "D",
+        "text": "Beide Begriffe betreffen ausschließlich technische Schutzmaßnahmen ohne organisatorischen Bezug"
+      }
+    ],
+    "explanation": {
+      "summary": "Es soll das Verhältnis von Cyber-Sicherheit und Informationssicherheit korrekt beschrieben werden.",
+      "whyCorrect": "B ist richtig, weil Informationssicherheit unabhängig von der Form der Information gilt und damit den umfassenderen Begriff darstellt, während Cyber-Sicherheit sich speziell auf den Cyberraum bezieht.",
+      "whyIncorrect": "A ist falsch, weil die Begriffe unterschiedliche Reichweiten haben und keine Synonyme sind. C ist falsch, weil dies das Verhältnis genau umkehrt. D ist falsch, weil beide Begriffe auch organisatorische Aspekte einschließen, nicht nur technische.",
+      "commonTrap": "Cyber-Sicherheit und Informationssicherheit werden gleichgesetzt, obwohl Cyber-Sicherheit nur ein Teilbereich ist.",
+      "testedConcept": "Cyber-Sicherheit als Teilbereich der Informationssicherheit"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Cyberraum"
+      }
+    ]
+  },
+  {
+    "id": "75bed878-bf35-4917-ba51-7a93d9735521",
+    "text": "Ein Überwachungssystem meldet eine Anmeldung zu einer ungewöhnlichen Uhrzeit von einem bislang nicht genutzten Standort; ob dahinter ein tatsächlicher Angriff steckt, ist noch unklar. Wie ist diese Meldung zunächst am treffendsten einzuordnen?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Als Sicherheitsvorfall, weil jede ungewöhnliche Anmeldung automatisch als Vorfall gilt"
+      },
+      {
+        "label": "B",
+        "text": "Als Risiko, weil noch keine Bedrohung konkret vorliegt"
+      },
+      {
+        "label": "C",
+        "text": "Als Ereignis, das zunächst bewertet werden muss, bevor eine Einstufung als Vorfall erfolgt"
+      },
+      {
+        "label": "D",
+        "text": "Als Schwachstelle, weil die Anmeldung eine technische Lücke aufzeigt"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Überwachungssystem meldet eine ungewöhnliche Anmeldung; unklar ist, ob ein Angriff vorliegt. Gefragt wird nach der ersten Einordnung.",
+      "whyCorrect": "C ist richtig, weil eine auffällige Meldung zunächst ein zu bewertendes Ereignis ist und erst nach Prüfung als Sicherheitsvorfall eingestuft werden kann.",
+      "whyIncorrect": "A ist falsch, weil nicht jede ungewöhnliche Anmeldung automatisch ein bestätigter Vorfall ist. B ist falsch, weil hier keine Aussage über ein Risiko im Sinne einer allgemeinen Einschätzung getroffen wird, sondern über eine konkrete Meldung, die geprüft werden muss. D ist falsch, weil die Meldung selbst keine technische Lücke beschreibt, sondern ein zu prüfendes Verhalten.",
+      "commonTrap": "Jedes auffällige Ereignis wird vorschnell als Vorfall bezeichnet, ohne vorherige Bewertung.",
+      "testedConcept": "Ereignis vs. Sicherheitsvorfall"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Sicherheitsvorfall"
+      }
+    ]
+  },
+  {
+    "id": "b59bd0ad-6f7b-4a47-bdf4-1d7b5ad2ba22",
+    "text": "Ein Unternehmen bewertet Bedrohungen ausschließlich anhand externer Angreifer und berücksichtigt keine Beschäftigten mit legitimen Zugriffsrechten. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Bewertung ist vollständig, da Beschäftigte grundsätzlich vertrauenswürdig sind"
+      },
+      {
+        "label": "B",
+        "text": "Interne Personen können begrifflich keine Bedrohung darstellen, da sie zur Organisation gehören"
+      },
+      {
+        "label": "C",
+        "text": "Die Betrachtung externer Angreifer allein deckt automatisch auch interne Risiken ab"
+      },
+      {
+        "label": "D",
+        "text": "Der Bewertung fehlt die Betrachtung von Insider-Bedrohungen durch Personen mit legitimem, aber missbrauchtem Zugriff"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Unternehmen betrachtet nur externe Angreifer als Bedrohung und ignoriert Beschäftigte mit legitimen Zugriffsrechten.",
+      "whyCorrect": "D ist richtig, weil eine vollständige Bedrohungsanalyse auch Insider-Bedrohungen durch Personen mit legitimem, aber missbrauchtem Zugriff einbeziehen muss.",
+      "whyIncorrect": "A ist falsch, weil Vertrauenswürdigkeit kein Ersatz für eine vollständige Bedrohungsbewertung ist. B ist falsch, weil auch interne Personen begrifflich eine Bedrohung darstellen können. C ist falsch, weil externe und interne Bedrohungen unterschiedliche Angriffswege betreffen und sich nicht gegenseitig abdecken.",
+      "commonTrap": "Bedrohungen werden ausschließlich mit externen Angreifern assoziiert, Insider-Risiken werden übersehen.",
+      "testedConcept": "Insider-Bedrohung"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Insider-Bedrohung"
+      }
+    ]
+  },
+  {
+    "id": "ed394486-87af-46b6-ba66-431dada218cd",
+    "text": "Eine interne Kundenliste wird von einer unberechtigten Person eingesehen, jedoch nicht verändert oder gelöscht. Welches Schutzziel ist unmittelbar verletzt?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vertraulichkeit"
+      },
+      {
+        "label": "B",
+        "text": "Verfügbarkeit"
+      },
+      {
+        "label": "C",
+        "text": "Integrität"
+      },
+      {
+        "label": "D",
+        "text": "Nichtabstreitbarkeit"
+      }
+    ],
+    "explanation": {
+      "summary": "Eine interne Kundenliste wird von einer unberechtigten Person eingesehen, aber nicht verändert oder gelöscht.",
+      "whyCorrect": "A ist richtig, weil das unberechtigte Einsehen von Daten genau die Vertraulichkeit verletzt.",
+      "whyIncorrect": "B ist falsch, weil die Liste weiterhin verfügbar bleibt. C ist falsch, weil die Daten nicht verändert wurden. D ist falsch, weil hier keine Handlung bestritten wird, sondern lediglich unautorisiert eingesehen wurde.",
+      "commonTrap": "Das bloße Einsehen wird manchmal mit Integritätsverlust verwechselt, obwohl keine Veränderung stattfand.",
+      "testedConcept": "Schutzziel Vertraulichkeit"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "8d28a4a4-6734-4d0b-903d-b0adb1887f02",
+    "text": "Für ein System wurde ein hoher Schutzbedarf festgestellt; bislang wurde jedoch keine einzige Sicherheitsmaßnahme umgesetzt. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Der Schutzbedarf entfällt automatisch, solange keine Maßnahmen umgesetzt sind"
+      },
+      {
+        "label": "B",
+        "text": "Die Feststellung eines Schutzbedarfs beschreibt den Bedarf an Schutz; sie ersetzt nicht die tatsächliche Umsetzung von Maßnahmen"
+      },
+      {
+        "label": "C",
+        "text": "Ein hoher Schutzbedarf ist gleichbedeutend mit bereits umgesetzten Maßnahmen"
+      },
+      {
+        "label": "D",
+        "text": "Schutzbedarf und Maßnahmen sind bedeutungsgleiche Begriffe für denselben Sachverhalt"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein System hat hohen Schutzbedarf, aber keine umgesetzten Maßnahmen; gefragt wird nach der richtigen Einordnung.",
+      "whyCorrect": "B ist richtig, weil die Feststellung des Schutzbedarfs nur den Bedarf beschreibt, aber nicht automatisch bedeutet, dass entsprechende Maßnahmen bereits umgesetzt wurden.",
+      "whyIncorrect": "A ist falsch, weil der Schutzbedarf unabhängig von umgesetzten Maßnahmen weiterhin besteht. C ist falsch, weil ein hoher Schutzbedarf gerade zeigt, dass Maßnahmen noch fehlen. D ist falsch, weil Schutzbedarf und Maßnahmen unterschiedliche Konzepte sind – Bedarf vs. Umsetzung.",
+      "commonTrap": "Die Feststellung des Bedarfs wird mit der tatsächlichen Umsetzung von Schutzmaßnahmen verwechselt.",
+      "testedConcept": "Schutzbedarf vs. Maßnahmenumsetzung"
+    },
+    "vocabulary": [
+      {
+        "germanWord": "Schutzbedarf"
+      }
+    ]
+  },
+  {
+    "id": "77ae1fb1-9d6e-4a8c-8f36-bbf674d6a199",
+    "text": "Ein Beschäftigter erzählt einem Kollegen im Pausenraum beiläufig Details zu einem noch nicht veröffentlichten Produktnamen. Welche Aussage ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Es handelt sich um schutzbedürftige Information, da der Produktname vor Veröffentlichung einen geschäftlichen Wert hat"
+      },
+      {
+        "label": "B",
+        "text": "Es handelt sich um keine Information, da nichts dokumentiert wurde"
+      },
+      {
+        "label": "C",
+        "text": "Es handelt sich um einen bereits eingetretenen Schaden, da ein Kollege zuhörte"
+      },
+      {
+        "label": "D",
+        "text": "Es handelt sich um ein rein privates Gespräch ohne jede Relevanz für die Organisation"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Beschäftigter erzählt einem Kollegen beiläufig Details zu einem unveröffentlichten Produktnamen.",
+      "whyCorrect": "A ist richtig, weil ein noch nicht veröffentlichter Produktname einen geschäftlichen Wert hat und damit schutzbedürftig ist, unabhängig davon, wie beiläufig die Weitergabe erfolgt.",
+      "whyIncorrect": "B ist falsch, weil auch nicht dokumentierte, mündlich weitergegebene Inhalte Information im sicherheitsrelevanten Sinn darstellen. C ist falsch, weil noch nicht klar ist, ob der Kollege die Information weiterverbreitet – es handelt sich um eine Gefährdung, nicht zwingend um einen Schaden. D ist falsch, weil geschäftlich relevante Informationen sehr wohl organisationsrelevant sind, auch wenn das Gespräch informell wirkt.",
+      "commonTrap": "Informelle, beiläufige Gespräche werden fälschlich als irrelevant für die Informationssicherheit eingestuft.",
+      "testedConcept": "Schutzbedürftigkeit unabhängig von Formalität"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "d52051b4-d6f7-4cbf-b599-c90b99507cee",
+    "text": "Ein Messwert eines Sensors wird im laufenden Betrieb korrekt und nachvollziehbar durch eine berechtigte Person berichtigt. Welche Aussage zur Integrität ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Integrität ist verletzt, da sich der Wert geändert hat"
+      },
+      {
+        "label": "B",
+        "text": "Integrität bleibt gewahrt, da die Änderung berechtigt, nachvollziehbar und fachlich korrekt erfolgte"
+      },
+      {
+        "label": "C",
+        "text": "Integrität kann nur durch technische Maßnahmen, niemals durch Prozesse gesichert werden"
+      },
+      {
+        "label": "D",
+        "text": "Integrität betrifft ausschließlich verschlüsselte Daten"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Sensorwert wird korrekt und nachvollziehbar durch eine berechtigte Person berichtigt; gefragt wird nach der richtigen Aussage zur Integrität.",
+      "whyCorrect": "B ist richtig, weil Integrität nicht bedeutet, dass Daten niemals geändert werden dürfen, sondern dass Änderungen berechtigt, nachvollziehbar und fachlich korrekt erfolgen müssen.",
+      "whyIncorrect": "A ist falsch, weil eine bloße Änderung allein noch keine Integritätsverletzung darstellt, wenn sie autorisiert und korrekt erfolgt. C ist falsch, weil Integrität auch durch organisatorische Prozesse (z. B. Berechtigungskonzepte, Nachvollziehbarkeit) gesichert werden kann. D ist falsch, weil Integrität für alle Arten von Daten gilt, nicht nur verschlüsselte.",
+      "commonTrap": "Integrität wird fälschlich mit 'Daten dürfen sich nie ändern' gleichgesetzt.",
+      "testedConcept": "Integrität bei autorisierten Änderungen"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "6ecd33c7-9d14-4712-b141-223ee820c95f",
+    "text": "Ein Unbefugter verschafft sich physisch Zutritt zu einem Bürogebäude und entwendet Papierunterlagen; kein IT-System ist beteiligt. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Es liegt ein Fall der Informationssicherheit vor, auch ohne Beteiligung eines IT-Systems"
+      },
+      {
+        "label": "B",
+        "text": "Es liegt kein sicherheitsrelevanter Vorfall vor, da keine IT-Systeme betroffen sind"
+      },
+      {
+        "label": "C",
+        "text": "Es liegt ausschließlich ein Fall für die IT-Sicherheit vor"
+      },
+      {
+        "label": "D",
+        "text": "Es liegt ausschließlich ein Fall für die Cyber-Sicherheit vor"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Unbefugter entwendet physisch Papierunterlagen, ohne dass ein IT-System beteiligt ist.",
+      "whyCorrect": "A ist richtig, weil Informationssicherheit unabhängig vom Medium und von IT-Systemen gilt – auch physische Dokumente sind schutzbedürftige Information.",
+      "whyIncorrect": "B ist falsch, weil das Fehlen von IT-Systemen keinen sicherheitsrelevanten Vorfall ausschließt. C ist falsch, weil IT-Sicherheit sich speziell auf IT-Systeme bezieht, hier aber keines beteiligt ist. D ist falsch, weil Cyber-Sicherheit sich auf den Cyberraum bezieht, der hier ebenfalls nicht betroffen ist.",
+      "commonTrap": "Sicherheitsvorfälle werden fälschlich nur mit IT-Systemen assoziiert.",
+      "testedConcept": "Informationssicherheit unabhängig vom Medium"
+    },
+    "vocabulary": []
+  },
+  {
+    "id": "a4338308-43a7-4fcd-90be-0beac3b2e2cb",
+    "text": "Ein Unternehmen behandelt Verfügbarkeit als einziges relevantes Schutzziel für alle Systeme, auch für ein Personalinformationssystem mit hochsensiblen Daten. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dies ist angemessen, da Verfügbarkeit unabhängig vom Inhalt für jedes einzelne System das wichtigste Schutzziel darstellt"
+      },
+      {
+        "label": "B",
+        "text": "Die Relevanz der einzelnen Schutzziele hängt von Art und Inhalt des Systems ab; bei sensiblen Personaldaten ist häufig auch die Vertraulichkeit besonders wichtig"
+      },
+      {
+        "label": "C",
+        "text": "Vertraulichkeit ist ausschließlich bei öffentlich zugänglichen Systemen mit externem Zugriff relevant"
+      },
+      {
+        "label": "D",
+        "text": "Ein Personalinformationssystem benötigt grundsätzlich kein eigenes, vom Standardprofil abweichendes Schutzzielprofil"
+      }
+    ],
+    "explanation": {
+      "summary": "Ein Unternehmen behandelt Verfügbarkeit als einziges Schutzziel für alle Systeme, auch für ein sensibles Personalinformationssystem.",
+      "whyCorrect": "B ist richtig, weil die Relevanz einzelner Schutzziele vom Inhalt und der Art des Systems abhängt; bei sensiblen Personaldaten ist häufig auch Vertraulichkeit besonders wichtig.",
+      "whyIncorrect": "A ist falsch, weil nicht für jedes System Verfügbarkeit automatisch das wichtigste Ziel ist. C ist falsch, weil Vertraulichkeit auch bei internen, nicht öffentlich zugänglichen Systemen relevant sein kann. D ist falsch, weil sensible Systeme durchaus ein eigenes, angepasstes Schutzzielprofil benötigen können.",
+      "commonTrap": "Ein einziges Schutzziel wird pauschal auf alle Systeme angewendet, ohne den jeweiligen Inhalt zu berücksichtigen.",
+      "testedConcept": "Individuelles Schutzzielprofil je nach Systeminhalt"
+    },
+    "vocabulary": []
+  }
+]

@@ -41,7 +41,7 @@ export default async function ExamResultsPage({ params }: { params: Promise<{ se
   const minutes = Math.round((session.duration_seconds ?? 0) / 60);
 
   return (
-    <main className="mx-auto flex max-w-xl flex-col gap-6 px-4 py-8">
+    <main className="mx-auto flex max-w-[852px] flex-col gap-6 px-4 py-8">
       <Card>
         <CardHeader>
           <CardTitle>{dict.exam.resultsTitle}</CardTitle>

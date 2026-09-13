@@ -27,6 +27,10 @@ export interface UserSettings {
   translation_dari_enabled: boolean;
   translation_hebrew_enabled: boolean;
   instant_translation_enabled: boolean;
+  translate_question_enabled: boolean;
+  translate_answers_enabled: boolean;
+  translate_correct_answer_enabled: boolean;
+  translate_explanation_enabled: boolean;
   daily_target: number;
   theme: AppTheme;
   updated_at: string;

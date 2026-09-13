@@ -35,7 +35,7 @@ export default async function VocabularyPage() {
     settings?.explanation_language === "de" || !settings?.explanation_language ? "en" : settings.explanation_language;
 
   return (
-    <main className="mx-auto flex max-w-3xl flex-col gap-4 px-4 py-8 print:max-w-none print:gap-2 print:p-0">
+    <main className="mx-auto flex max-w-[852px] flex-col gap-4 px-4 py-8 print:max-w-none print:gap-2 print:p-0">
       <h1 className="text-xl font-semibold print:hidden">{dict.vocabulary.title}</h1>
       <VocabularyTable items={items} secondaryLanguage={secondaryLanguage} />
     </main>

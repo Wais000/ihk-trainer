@@ -22,3 +22,26 @@ export async function resetTopicHistoryAction(topicId: string): Promise<{ succes
 
   return { success: true };
 }
+
+/** Same idea as resetTopicHistoryAction, scoped to bookmarked ("marked")
+ * questions instead of a topic — used by the /practice/marked session. */
+export async function resetMarkedHistoryAction(): Promise<{ success: true } | { error: string }> {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return { error: "Not logged in." };
+
+  const { data: questions } = await supabase
+    .from("questions")
+    .select("id")
+    .eq("user_id", user.id)
+    .eq("marked", true);
+  const questionIds = (questions ?? []).map((q) => q.id);
+  if (questionIds.length === 0) return { success: true };
+
+  await supabase.from("question_attempts").delete().eq("user_id", user.id).in("question_id", questionIds);
+  await supabase.from("review_schedule").delete().eq("user_id", user.id).in("question_id", questionIds);
+
+  return { success: true };
+}

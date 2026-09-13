@@ -51,8 +51,14 @@ technical precision — never a mechanical word-substitution.
    (cyber security, IT infrastructure, business processes). Use the standard professional term in the
    target language where one exists (e.g. established English IT security terminology), not an overly
    literal or overly casual paraphrase.
-4. **Match register.** These are formal exam questions. Keep the translation formal/professional in
-   all three languages — not conversational, not simplified beyond what the source implies.
+4. **Match register — with one exception for Dari.** These are formal exam questions, so keep English
+   and Hebrew formal/professional, not conversational or simplified beyond what the source implies.
+   **Dari is the exception: use simple, everyday, commonly-spoken words even here — never formal
+   literary Persian/Dari or rare, bookish Arabic-derived vocabulary.** The content stays exam-accurate
+   and precise; only the vocabulary should be the kind an ordinary person uses in daily conversation,
+   not the kind found in a newspaper editorial or legal document. If a simpler, more common word conveys
+   the same meaning as a more "elegant" or classical one, always use the simpler one — a learner should
+   be able to read the Dari translation without needing a dictionary.
 5. **Complete coverage, every single time.** You will be given a JSON array of items. Return a
    translation for every single item — never skip one, never stop partway through, even if some
    questions look repetitive or similar to ones you already did in this chat.

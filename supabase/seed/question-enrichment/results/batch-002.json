@@ -1,0 +1,349 @@
+[
+  {
+    "id": "4c1c9803-669e-41d5-80b7-9cdab83f7016",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Branchenspezifische Sicherheitsstandards",
+    "difficulty": 2,
+    "examKeywords": ["B3S", "branchenspezifischer Sicherheitsstandard", "BSI", "KRITIS", "Zertifizierung"],
+    "explanation": {
+      "de": {
+        "summary": "Die Frage fragt, wofür die Abkürzung B3S grundsätzlich steht.",
+        "whyCorrect": "B3S steht für 'branchenspezifischer Sicherheitsstandard'. Es handelt sich um einen von einem Branchenverband erarbeiteten und vom BSI anerkannten Standard, der die allgemeinen gesetzlichen Anforderungen (z. B. aus dem BSI-Gesetz bzw. für KRITIS-Betreiber) für eine bestimmte Branche wie Energie oder Wasserversorgung konkretisiert. Er ist kein ISO/IEC-27001-Zertifikat, keine Produktgarantie des BSI und keine beliebige interne Anweisung, sondern ein anerkannter, branchenspezifischer Nachweis der Angemessenheit von Sicherheitsmaßnahmen."
+      },
+      "en": {
+        "summary": "The question asks what the abbreviation B3S basically stands for.",
+        "whyCorrect": "B3S stands for 'industry-specific security standard' (branchenspezifischer Sicherheitsstandard). It is a standard developed by an industry association and recognized by the German Federal Office for Information Security (BSI), which spells out the general legal requirements (e.g. from the BSI Act or for operators of critical infrastructure) in concrete terms for a specific sector such as energy or water supply. It is not an ISO/IEC 27001 certificate, not a general product warranty from the BSI, and not just any internal work instruction — it is a recognized, sector-specific way of demonstrating that security measures are adequate."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که اختصار B3S اساساً به چه معناست.",
+        "whyCorrect": "B3S به معنای «معیار امنیتی مخصوص یک بخش صنعتی» است. این یک معیار است که توسط یک انجمن صنفی تهیه شده و از سوی اداره فدرال امنیت اطلاعات آلمان (BSI) به رسمیت شناخته می‌شود؛ این معیار الزامات کلی قانونی (مثلاً از قانون BSI یا برای زیرساخت‌های حیاتی) را برای یک بخش خاص مانند انرژی یا آب‌رسانی مشخص و عملی می‌سازد. این معیار نه یک گواهی‌نامه ISO/IEC 27001 است، نه یک ضمانت عمومی محصول از سوی BSI، و نه یک دستورالعمل داخلی دلخواه، بلکه یک روش شناخته‌شده و مخصوص همان بخش برای اثبات کفایت تدابیر امنیتی است."
+      },
+      "he": {
+        "summary": "השאלה מבררת למה בעצם מתכוון הקיצור B3S.",
+        "whyCorrect": "B3S הוא ראשי תיבות של 'תקן אבטחה ספציפי לענף'. מדובר בתקן שפותח על ידי איגוד ענפי ומוכר על ידי הרשות הפדרלית הגרמנית לאבטחת מידע (BSI), אשר מתרגם את הדרישות החוקיות הכלליות (למשל מחוק ה-BSI או עבור מפעילי תשתיות קריטיות) לדרישות קונקרטיות המותאמות לענף מסוים כמו אנרגיה או אספקת מים. זהו לא תעודת הסמכה לפי ISO/IEC 27001, לא אחריות מוצר כללית מטעם ה-BSI, ולא הנחיית עבודה פנימית כלשהי — אלא דרך מוכרת וספציפית לענף להוכיח שאמצעי האבטחה נאותים."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "B3S", "english": "industry-specific security standard", "dari": "معیار امنیتی مخصوص یک بخش صنعتی", "hebrew": "תקן אבטחה ספציפי לענף", "shortGermanExplanation": "Ein von einer Branche entwickelter, vom BSI anerkannter Sicherheitsstandard." },
+      { "germanWord": "Zertifizierungsurkunde", "english": "certification certificate", "dari": "گواهی‌نامه صدور تصدیق", "hebrew": "תעודת הסמכה", "shortGermanExplanation": "Ein offizielles Dokument, das eine erfolgreiche Zertifizierung (z. B. nach ISO/IEC 27001) bestätigt." },
+      { "germanWord": "branchenspezifisch", "english": "industry-specific", "dari": "مخصوص یک بخش صنعتی", "hebrew": "ספציפי לענף", "shortGermanExplanation": "Auf eine bestimmte Branche zugeschnitten, nicht allgemeingültig." }
+    ],
+    "questionTranslation": {
+      "en": "In a review of compliance and information security, the responsible team discusses the following case: What does a B3S basically stand for?",
+      "dari": "در جریان بررسی رعایت قوانین و امنیت اطلاعات، تیم مسئول این مورد را بحث می‌کند: B3S اساساً به چه معناست؟",
+      "he": "בסקירה של ציות (Compliance) ואבטחת מידע, הצוות האחראי דן במקרה הבא: למה בעצם מתכוון B3S?"
+    }
+  },
+  {
+    "id": "c0fd8b32-2c8c-4205-b9a3-1bb4b422ecfc",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Verbindlichkeit von Sicherheitsanforderungen",
+    "difficulty": 3,
+    "examKeywords": ["Verbindlichkeit", "Rechtsquellen", "Compliance", "interne Vorgaben", "Cybersicherheitsanforderungen"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie man angemessen ermittelt, welche Cybersicherheitsanforderungen für ein Unternehmen tatsächlich verbindlich sind.",
+        "whyCorrect": "Verbindliche Anforderungen können aus unterschiedlichen Quellen stammen: Gesetzen, vertraglichen Verpflichtungen gegenüber Kunden oder Partnern und intern selbst auferlegten Vorgaben, etwa freiwillig übernommenen Normen. Eine saubere Compliance-Arbeit verlangt, diese Quellen getrennt zu identifizieren und nachvollziehbar zu dokumentieren, welchen Grad an Verbindlichkeit sie jeweils haben. Eine Zertifizierung ersetzt diese Prüfung nicht, 'veröffentlicht' bedeutet nicht automatisch 'bindend', und Verträge oder interne Vorgaben können ebenso verbindlich sein wie Gesetze."
+      },
+      "en": {
+        "summary": "The question asks how to properly determine which cybersecurity requirements are actually binding for a company.",
+        "whyCorrect": "Binding requirements can come from several different sources: laws, contractual obligations toward customers or partners, and internally self-imposed rules, such as voluntarily adopted standards. Sound compliance work means identifying these sources separately and documenting, in a traceable way, how binding each of them actually is. A certification does not replace this analysis, 'published' does not automatically mean 'mandatory', and contracts or internal policies can be just as binding as laws."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که چگونه به‌درستی مشخص شود کدام الزامات امنیت سایبری واقعاً برای یک شرکت لازم‌الاجرا هستند.",
+        "whyCorrect": "الزامات لازم‌الاجرا می‌توانند از منابع گوناگونی سرچشمه بگیرند: قوانین، تعهدات قراردادی نسبت به مشتریان یا شرکا، و مقررات داخلی که خود شرکت داوطلبانه پذیرفته است، مانند معیارهایی که به صورت اختیاری اجرا می‌شوند. کار درست در زمینه رعایت قوانین ایجاب می‌کند که این منابع به‌طور جداگانه شناسایی شوند و میزان الزام‌آور بودن هرکدام به‌روشنی مستند گردد. یک گواهی‌نامه جایگزین این بررسی نمی‌شود، «منتشرشده» به‌خودی‌خود به معنای «الزامی» نیست، و قراردادها یا مقررات داخلی می‌توانند به همان اندازه قوانین الزام‌آور باشند."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד לקבוע כראוי אילו דרישות אבטחת סייבר מחייבות בפועל עבור חברה.",
+        "whyCorrect": "דרישות מחייבות יכולות לנבוע ממקורות שונים: חוקים, התחייבויות חוזיות כלפי לקוחות או שותפים, וכללים פנימיים שהחברה עצמה אימצה, כמו תקנים שאומצו מרצון. עבודת ציות תקינה מחייבת לזהות מקורות אלה בנפרד ולתעד באופן שקוף עד כמה כל אחד מהם מחייב בפועל. תעודת הסמכה אינה מחליפה את הבדיקה הזו, 'פורסם' אינו אומר אוטומטית 'מחייב', וחוזים או נהלים פנימיים יכולים להיות מחייבים בדיוק כמו חוקים."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "verbindlich", "english": "binding / mandatory", "dari": "الزام‌آور", "hebrew": "מחייב", "shortGermanExplanation": "Rechtlich oder vertraglich zwingend einzuhalten." },
+      { "germanWord": "Rechtsquellen", "english": "legal sources", "dari": "منابع حقوقی", "hebrew": "מקורות משפטיים", "shortGermanExplanation": "Gesetze, Verordnungen und andere Ursprünge rechtlicher Pflichten." },
+      { "germanWord": "Nichteinhaltung", "english": "non-compliance", "dari": "عدم رعایت", "hebrew": "אי-עמידה", "shortGermanExplanation": "Das Nicht-Befolgen einer Vorschrift oder Norm." }
+    ],
+    "questionTranslation": {
+      "en": "In a review of compliance and information security, the following decision needs to be made: Management asks which cybersecurity requirements are binding for the company. Which approach is appropriate?",
+      "dari": "در جریان بررسی رعایت قوانین و امنیت اطلاعات، تصمیم زیر باید گرفته شود: مدیریت می‌پرسد کدام الزامات امنیت سایبری برای شرکت لازم‌الاجرا هستند. کدام روش مناسب است؟",
+      "he": "בסקירה של ציות ואבטחת מידע, יש לקבל את ההחלטה הבאה: ההנהלה שואלת אילו דרישות אבטחת סייבר מחייבות את החברה. איזו גישה מתאימה?"
+    }
+  },
+  {
+    "id": "151b401d-f646-4e0b-8abf-7b2ae2f4f450",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Freiwillige Normanwendung",
+    "difficulty": 3,
+    "examKeywords": ["ISO/IEC 27001", "freiwillige Übernahme", "interne Verbindlichkeit", "Zertifizierung", "Grundsätze"],
+    "explanation": {
+      "de": {
+        "summary": "Es geht darum, was es bedeutet, wenn ein Unternehmen ISO/IEC-27001-Grundsätze freiwillig übernimmt, ohne eine Zertifizierung anzustreben.",
+        "whyCorrect": "Eine Organisation kann selbst festlegen, dass bestimmte Grundsätze – hier aus ISO/IEC 27001 – intern als verbindlich gelten sollen, unabhängig davon, ob eine externe Zertifizierung erfolgt. Verbindlichkeit entsteht in diesem Fall durch eigene interne Festlegung, etwa in Richtlinien, nicht durch ein Gesetz oder ein Zertifikat. Die freiwillige Übernahme macht die Norm nicht zum staatlichen Gesetz, und ohne staatliche Pflicht ist interne Verbindlichkeit trotzdem möglich und in der Praxis üblich."
+      },
+      "en": {
+        "summary": "The question concerns what it means when a company voluntarily adopts ISO/IEC 27001 principles without pursuing certification.",
+        "whyCorrect": "An organization can decide on its own that certain principles — here, those from ISO/IEC 27001 — should be treated as internally binding, regardless of whether external certification takes place. In this case, bindingness comes from the organization's own internal decision, for example laid down in policies, not from a law or a certificate. Voluntarily adopting the standard does not turn it into a government law, and even without a legal obligation, internal bindingness is still possible and, in practice, common."
+      },
+      "dari": {
+        "summary": "این سوال درباره این است که وقتی یک شرکت اصول ISO/IEC 27001 را به صورت داوطلبانه می‌پذیرد بدون آنکه به دنبال گواهی‌نامه باشد، این کار چه معنایی دارد.",
+        "whyCorrect": "یک سازمان می‌تواند خودش تصمیم بگیرد که برخی اصول - در اینجا اصول ISO/IEC 27001 - به صورت داخلی الزام‌آور تلقی شوند، بدون توجه به اینکه گواهی‌نامه بیرونی گرفته شود یا نه. در این حالت، الزام‌آور بودن ناشی از تصمیم داخلی خود سازمان است، مثلاً در قالب سیاست‌ها و رهنمودها، نه ناشی از یک قانون یا گواهی‌نامه. پذیرش داوطلبانه این معیار آن را به یک قانون دولتی تبدیل نمی‌کند، و حتی بدون الزام قانونی، الزام‌آور بودن داخلی همچنان ممکن و در عمل رایج است."
+      },
+      "he": {
+        "summary": "השאלה עוסקת במשמעות של אימוץ עקרונות ISO/IEC 27001 מרצון על ידי חברה, מבלי לשאוף להסמכה.",
+        "whyCorrect": "ארגון יכול לקבוע בעצמו שעקרונות מסוימים — כאן, אלה מתוך ISO/IEC 27001 — ייחשבו מחייבים פנימית, בלי קשר לשאלה אם מתבצעת הסמכה חיצונית. במקרה זה, המחייבות נובעת מהחלטה פנימית של הארגון עצמו, למשל בנהלים, ולא מחוק או מתעודת הסמכה. אימוץ מרצון של התקן אינו הופך אותו לחוק ממשלתי, וגם ללא חובה חוקית, מחייבות פנימית עדיין אפשרית ומקובלת בפועל."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "freiwillig", "english": "voluntary", "dari": "داوطلبانه", "hebrew": "מרצון", "shortGermanExplanation": "Ohne gesetzliche oder vertragliche Verpflichtung, aus eigenem Entschluss." },
+      { "germanWord": "Zertifizierung", "english": "certification", "dari": "صدور گواهی‌نامه", "hebrew": "הסמכה", "shortGermanExplanation": "Der formale Nachweis, dass ein Standard wie ISO/IEC 27001 erfüllt wird." },
+      { "germanWord": "Grundsätze", "english": "principles", "dari": "اصول", "hebrew": "עקרונות", "shortGermanExplanation": "Grundlegende Regeln oder Leitlinien, hier aus einer Norm." }
+    ],
+    "questionTranslation": {
+      "en": "In a review of compliance and information security, the following exam question arises: A mid-sized company voluntarily incorporates ISO/IEC 27001 principles into its internal rules but does not pursue certification. Which statement is correct?",
+      "dari": "در جریان بررسی رعایت قوانین و امنیت اطلاعات، این سوال امتحانی مطرح می‌شود: یک شرکت متوسط اصول ISO/IEC 27001 را داوطلبانه در مقررات داخلی خود می‌گنجاند، اما به دنبال گواهی‌نامه نیست. کدام گزینه درست است؟",
+      "he": "בסקירה של ציות ואבטחת מידע עולה שאלת המבחן הבאה: חברה בינונית מאמצת מרצון עקרונות ISO/IEC 27001 לתוך הנהלים הפנימיים שלה, אך אינה שואפת להסמכה. איזו קביעה נכונה?"
+    }
+  },
+  {
+    "id": "4fc310c7-ca62-48e1-a18d-7441ad165d5d",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "ISMS-Leistungsbewertung",
+    "difficulty": 3,
+    "examKeywords": ["ISMS", "Leistungsbewertung", "Kennzahlen", "Auditresultate", "Sicherheitsziele"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, welche Informationsgrundlage am besten geeignet ist, um die Leistung eines ISMS zu bewerten.",
+        "whyCorrect": "Eine sinnvolle Bewertung der ISMS-Leistung erfordert eine ganzheitliche Betrachtung: Sicherheitsziele müssen mit passenden Kennzahlen abgeglichen werden, ergänzt durch Auditergebnisse, gemeldete Sicherheitsvorfälle, den Umsetzungsstand von Maßnahmen und Rückmeldungen, etwa aus Reviews oder von Mitarbeitenden. Nur das gemeinsame Betrachten all dieser Elemente zeigt, ob das ISMS seine Ziele tatsächlich erreicht. Eine isolierte Kennzahl allein, wie nur die Ausfallzahlen oder nur die Anzahl beschaffter Produkte, liefert dagegen kein vollständiges Bild."
+      },
+      "en": {
+        "summary": "The question asks which information basis is best suited for assessing the performance of an ISMS.",
+        "whyCorrect": "A meaningful assessment of ISMS performance requires a holistic view: security objectives need to be compared against suitable metrics, complemented by audit results, reported security incidents, the implementation status of measures, and feedback, for example from reviews or from employees. Only looking at all of these elements together shows whether the ISMS is actually achieving its goals. A single isolated metric on its own — such as just outage counts or just the number of purchased products — does not give a complete picture."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد کدام مبنای اطلاعاتی برای ارزیابی عملکرد یک سیستم مدیریت امنیت اطلاعات (ISMS) مناسب‌تر است.",
+        "whyCorrect": "ارزیابی معنادار عملکرد ISMS به یک نگاه جامع نیاز دارد: اهداف امنیتی باید با شاخص‌های مناسب مقایسه شوند، و این کار باید با نتایج ممیزی، حوادث امنیتی گزارش‌شده، وضعیت اجرای تدابیر، و بازخوردها - مثلاً از بازنگری‌ها یا از کارکنان - تکمیل شود. تنها بررسی همزمان تمام این عناصر نشان می‌دهد که آیا ISMS واقعاً به اهدافش رسیده است یا نه. یک شاخص جدا و تنها، مانند صرفاً تعداد قطعی‌ها یا صرفاً تعداد محصولات خریداری‌شده، تصویر کاملی به دست نمی‌دهد."
+      },
+      "he": {
+        "summary": "השאלה מבררת איזה בסיס מידע מתאים ביותר להערכת הביצועים של מערכת ניהול אבטחת מידע (ISMS).",
+        "whyCorrect": "הערכה משמעותית של ביצועי ה-ISMS דורשת ראייה כוללת: יש להשוות יעדי אבטחה למדדים מתאימים, בשילוב עם תוצאות ביקורת, אירועי אבטחה שדווחו, מצב יישום האמצעים, ומשוב, למשל מסקירות או מעובדים. רק התבוננות משותפת בכל האלמנטים הללו מראה האם ה-ISMS אכן משיג את יעדיו. מדד בודד ומבודד, כמו רק מספר תקלות או רק כמות מוצרים שנרכשו, אינו נותן תמונה מלאה."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "ISMS", "english": "Information Security Management System", "dari": "سیستم مدیریت امنیت اطلاعات", "hebrew": "מערכת לניהול אבטחת מידע", "shortGermanExplanation": "Das systematische Rahmenwerk zur Steuerung der Informationssicherheit in einer Organisation." },
+      { "germanWord": "Kennzahlen", "english": "metrics / KPIs", "dari": "شاخص‌ها", "hebrew": "מדדים", "shortGermanExplanation": "Messbare Werte zur Beurteilung von Zielerreichung oder Leistung." },
+      { "germanWord": "Auditresultate", "english": "audit results", "dari": "نتایج ممیزی", "hebrew": "תוצאות ביקורת", "shortGermanExplanation": "Die Ergebnisse einer Überprüfung, ob Anforderungen eingehalten werden." }
+    ],
+    "questionTranslation": {
+      "en": "In a review of compliance and information security, the following situation is assessed: Which information basis best supports evaluating ISMS performance?",
+      "dari": "در جریان بررسی رعایت قوانین و امنیت اطلاعات، وضعیت زیر ارزیابی می‌شود: کدام مبنای اطلاعاتی بهترین پشتیبانی را برای ارزیابی عملکرد ISMS فراهم می‌کند؟",
+      "he": "בסקירה של ציות ואבטחת מידע נבחן המצב הבא: איזה בסיס מידע תומך בצורה הטובה ביותר בהערכת ביצועי ה-ISMS?"
+    }
+  },
+  {
+    "id": "5e492d84-9755-4ea6-afd1-d3c96ced1a40",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Internes Audit",
+    "difficulty": 2,
+    "examKeywords": ["internes Audit", "ISMS", "Unabhängigkeit", "Konformitätsprüfung"],
+    "explanation": {
+      "de": {
+        "summary": "Gefragt wird, welche Tätigkeit unabhängig prüft, ob das ISMS die festgelegten Anforderungen und eigenen Vorgaben erfüllt.",
+        "whyCorrect": "Ein internes Audit ist eine systematische, unabhängige Überprüfung, bei der festgestellt wird, ob das ISMS den eigenen und externen Anforderungen entspricht und wirksam funktioniert. Es unterscheidet sich von der operativen Umsetzung, etwa durch die IT, oder vom Tagesgeschäft der Systemadministration, weil es gezielt und unabhängig die Konformität bewertet, statt selbst die Umsetzung durchzuführen."
+      },
+      "en": {
+        "summary": "The question asks which activity independently checks whether the ISMS meets defined requirements and its own internal rules.",
+        "whyCorrect": "An internal audit is a systematic, independent review that checks whether the ISMS meets both external and internal requirements and is functioning effectively. It differs from operational implementation work — for example by IT staff — or from day-to-day system administration, because it specifically and independently assesses conformity rather than carrying out the implementation itself."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد کدام فعالیت به‌طور مستقل بررسی می‌کند که آیا ISMS الزامات تعیین‌شده و مقررات داخلی خود را برآورده می‌کند یا نه.",
+        "whyCorrect": "ممیزی داخلی یک بررسی سیستماتیک و مستقل است که مشخص می‌کند آیا ISMS با الزامات بیرونی و داخلی مطابقت دارد و به‌درستی کار می‌کند یا نه. این کار با اجرای عملیاتی، مثلاً توسط بخش فناوری اطلاعات، یا با کارهای روزانه مدیریت سیستم تفاوت دارد، زیرا هدفمند و مستقل مطابقت را ارزیابی می‌کند، نه اینکه خودش اجرای آن را انجام دهد."
+      },
+      "he": {
+        "summary": "השאלה מבררת איזו פעילות בודקת באופן עצמאי האם ה-ISMS עומד בדרישות שנקבעו ובנהלים הפנימיים שלו.",
+        "whyCorrect": "ביקורת פנימית היא בדיקה שיטתית ועצמאית שבודקת האם ה-ISMS עומד בדרישות חיצוניות ופנימיות ופועל בצורה אפקטיבית. היא שונה מיישום תפעולי, למשל על ידי צוות ה-IT, או מניהול מערכות יומיומי, מכיוון שהיא מעריכה באופן ממוקד ועצמאי את ההתאמה, במקום לבצע את היישום בעצמה."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "internes Audit", "english": "internal audit", "dari": "ممیزی داخلی", "hebrew": "ביקורת פנימית", "shortGermanExplanation": "Eine unabhängige, organisationsinterne Prüfung der Konformität mit Anforderungen." },
+      { "germanWord": "unabhängig", "english": "independent", "dari": "مستقل", "hebrew": "עצמאי", "shortGermanExplanation": "Nicht von der geprüften Stelle selbst durchgeführt, um Objektivität zu sichern." }
+    ],
+    "questionTranslation": {
+      "en": "In a review of compliance and information security, the responsible team discusses the following case: Which activity independently checks whether the ISMS meets defined requirements and its own internal rules?",
+      "dari": "در جریان بررسی رعایت قوانین و امنیت اطلاعات، تیم مسئول این مورد را بحث می‌کند: کدام فعالیت به‌طور مستقل بررسی می‌کند که آیا ISMS الزامات تعیین‌شده و مقررات خودش را رعایت می‌کند؟",
+      "he": "בסקירה של ציות ואבטחת מידע, הצוות האחראי דן במקרה הבא: איזו פעילות בודקת באופן עצמאי האם ה-ISMS עומד בדרישות שנקבעו ובנהלים הפנימיים שלו?"
+    }
+  },
+  {
+    "id": "5398b56f-b937-4d81-9db7-bea285ffdbc3",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Managementbewertung",
+    "difficulty": 2,
+    "examKeywords": ["Managementbewertung", "ISMS", "Leitung", "Verbesserungsbedarf", "Risiken"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird beschrieben, wie die Leitung Leistungsdaten, Auditergebnisse, Risiken und Verbesserungsbedarf des ISMS bewertet, und gefragt, wie diese Aktivität heißt.",
+        "whyCorrect": "Die beschriebene Tätigkeit ist die Managementbewertung: Die oberste Leitung überprüft in regelmäßigen Abständen das ISMS auf Basis von Leistungsdaten, Auditergebnissen, Risikoentwicklung und Verbesserungspotenzial, um sicherzustellen, dass es weiterhin geeignet, angemessen und wirksam ist. Dies unterscheidet sich von einer Datenschutz-Folgenabschätzung, einer technischen Schwachstellenprüfung oder einem Grundschutz-Baustein, die jeweils andere, engere Zwecke verfolgen."
+      },
+      "en": {
+        "summary": "The question describes management evaluating performance data, audit results, risks, and improvement needs of the ISMS, and asks what this activity is called.",
+        "whyCorrect": "The activity described is a management review: top management periodically reviews the ISMS based on performance data, audit results, risk developments, and improvement potential, to make sure it remains suitable, adequate, and effective. This is different from a data protection impact assessment, a technical vulnerability assessment, or an IT-Grundschutz module, each of which serves a different, narrower purpose."
+      },
+      "dari": {
+        "summary": "این سوال توضیح می‌دهد که مدیریت چگونه داده‌های عملکرد، نتایج ممیزی، ریسک‌ها و نیاز به بهبود ISMS را ارزیابی می‌کند و می‌پرسد این فعالیت چه نام دارد.",
+        "whyCorrect": "فعالیت توصیف‌شده «بازنگری مدیریت» است: مدیریت ارشد به‌طور منظم ISMS را بر اساس داده‌های عملکرد، نتایج ممیزی، روند ریسک‌ها و پتانسیل بهبود بررسی می‌کند تا مطمئن شود که این سیستم همچنان مناسب، کافی و مؤثر است. این فعالیت با ارزیابی تأثیر حفاظت از داده‌ها، بررسی فنی آسیب‌پذیری، یا یک ماژول Grundschutz تفاوت دارد، زیرا هرکدام هدف متفاوت و محدودتری را دنبال می‌کنند."
+      },
+      "he": {
+        "summary": "השאלה מתארת כיצד ההנהלה מעריכה נתוני ביצועים, תוצאות ביקורת, סיכונים וצורך בשיפור של ה-ISMS, ומבררת כיצד נקראת פעילות זו.",
+        "whyCorrect": "הפעילות המתוארת היא סקירת הנהלה: ההנהלה הבכירה בוחנת מעת לעת את ה-ISMS על סמך נתוני ביצועים, תוצאות ביקורת, התפתחות סיכונים ופוטנציאל לשיפור, כדי לוודא שהוא עדיין מתאים, נאות ואפקטיבי. זה שונה מהערכת השפעה על הגנת פרטיות, בדיקת פגיעות טכנית, או מודול Grundschutz, שלכל אחד מהם מטרה שונה ומצומצמת יותר."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "Managementbewertung", "english": "management review", "dari": "بازنگری مدیریت", "hebrew": "סקירת הנהלה", "shortGermanExplanation": "Die regelmäßige Überprüfung des ISMS durch die oberste Leitung." },
+      { "germanWord": "Verbesserungsbedarf", "english": "need for improvement", "dari": "نیاز به بهبود", "hebrew": "צורך בשיפור", "shortGermanExplanation": "Bereiche, in denen das ISMS noch optimiert werden sollte." }
+    ],
+    "questionTranslation": {
+      "en": "In a review of compliance and information security, the following decision needs to be made: Management evaluates performance data, audit results, risks, and improvement needs of the ISMS. What activity is being described?",
+      "dari": "در جریان بررسی رعایت قوانین و امنیت اطلاعات، تصمیم زیر باید گرفته شود: مدیریت داده‌های عملکرد، نتایج ممیزی، ریسک‌ها و نیاز به بهبود ISMS را ارزیابی می‌کند. این چه فعالیتی است؟",
+      "he": "בסקירה של ציות ואבטחת מידע, יש לקבל את ההחלטה הבאה: ההנהלה מעריכה נתוני ביצועים, תוצאות ביקורת, סיכונים וצורך בשיפור של ה-ISMS. איזו פעילות מתוארת כאן?"
+    }
+  },
+  {
+    "id": "69af2206-b067-4cc3-868e-92f4d8f99975",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "NIS-2, BSI und KRITIS",
+    "difficulty": 3,
+    "examKeywords": ["NIS-2", "KRITIS", "BSI", "Meldepflicht", "Risikomanagement"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, welche Aussage NIS-2, BSI-Regelungen und KRITIS auf der verlangten Überblicksebene angemessen einordnet.",
+        "whyCorrect": "NIS-2, die BSI-Regelungen und KRITIS bilden zusammen einen regulatorischen Rahmen, der Anforderungen an Cybersicherheit und Risikomanagement stellt und bei Vorfällen mögliche Meldepflichten für erfasste Einrichtungen vorsieht. Sie sind nicht rein freiwillig, beschränken sich nicht ausschließlich auf Meldepflichten, und die Erfassung von Einrichtungen erfolgt nicht allein nach der Unternehmensgröße, sondern unter anderem nach Sektor und Kritikalität der jeweiligen Einrichtung."
+      },
+      "en": {
+        "summary": "The question asks which statement correctly places NIS-2, BSI rules, and KRITIS at the required overview level.",
+        "whyCorrect": "NIS-2, the BSI regulations, and KRITIS together form a regulatory framework that sets requirements for cybersecurity and risk management and, in case of incidents, may require covered entities to report them. They are not purely voluntary, they are not limited to reporting obligations alone, and which entities are covered is not determined solely by company size, but also by sector and the criticality of the respective entity."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد کدام گزینه NIS-2، مقررات BSI و KRITIS را در سطح کلی مورد نیاز به‌درستی جای می‌دهد.",
+        "whyCorrect": "NIS-2، مقررات BSI و KRITIS با هم یک چارچوب قانونی تشکیل می‌دهند که الزاماتی در زمینه امنیت سایبری و مدیریت ریسک وضع می‌کند و در صورت وقوع حوادث، تعهدات گزارش‌دهی احتمالی برای نهادهای مشمول در نظر می‌گیرد. این‌ها صرفاً داوطلبانه نیستند، محدود به تعهدات گزارش‌دهی به‌تنهایی نیستند، و شمول نهادها فقط بر اساس اندازه شرکت تعیین نمی‌شود، بلکه از جمله بر اساس بخش فعالیت و اهمیت حیاتی هر نهاد نیز تعیین می‌گردد."
+      },
+      "he": {
+        "summary": "השאלה מבררת איזו קביעה ממקמת נכון את NIS-2, תקנות BSI ו-KRITIS ברמת הסקירה הנדרשת.",
+        "whyCorrect": "NIS-2, תקנות ה-BSI ו-KRITIS יוצרים יחד מסגרת רגולטורית שקובעת דרישות לאבטחת סייבר וניהול סיכונים, ובמקרה של אירועים עשויה לחייב גופים מכוסים בדיווח. אלה אינם וולונטריים בלבד, הם אינם מוגבלים רק לחובות דיווח, וההיקף של הגופים המכוסים אינו נקבע רק לפי גודל החברה, אלא גם לפי הענף ורמת הקריטיות של הגוף הרלוונטי."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "NIS-2", "english": "NIS2 Directive", "dari": "دستورالعمل NIS-2", "hebrew": "הנחיית NIS-2", "shortGermanExplanation": "Eine EU-Richtlinie zur Cybersicherheit, die Anforderungen an bestimmte Einrichtungen stellt." },
+      { "germanWord": "KRITIS", "english": "critical infrastructure", "dari": "زیرساخت‌های حیاتی", "hebrew": "תשתיות קריטיות", "shortGermanExplanation": "Einrichtungen, deren Ausfall gravierende Folgen für die Gesellschaft hätte." },
+      { "germanWord": "Meldepflicht", "english": "reporting obligation", "dari": "تعهد گزارش‌دهی", "hebrew": "חובת דיווח", "shortGermanExplanation": "Die Pflicht, bestimmte Sicherheitsvorfälle an eine Behörde zu melden." }
+    ],
+    "questionTranslation": {
+      "en": "In a review of compliance and information security, the following exam question arises: Which statement appropriately classifies NIS-2, BSI regulations, and KRITIS at the required overview level?",
+      "dari": "در جریان بررسی رعایت قوانین و امنیت اطلاعات، این سوال امتحانی مطرح می‌شود: کدام گزینه NIS-2، مقررات BSI و KRITIS را در سطح کلی مورد نیاز به‌درستی طبقه‌بندی می‌کند؟",
+      "he": "בסקירה של ציות ואבטחת מידע עולה שאלת המבחן הבאה: איזו קביעה ממיינת נכון את NIS-2, תקנות BSI ו-KRITIS ברמת הסקירה הנדרשת?"
+    }
+  },
+  {
+    "id": "08ef48ba-5100-41aa-8f26-a4ad992d2084",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Sicherheitsansätze für KMU",
+    "difficulty": 3,
+    "examKeywords": ["VdS 10000", "CISIS12", "KMU", "Sicherheitsmanagement", "Managementmodell"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, wie VdS 10000 und CISIS12 fachlich einzuordnen sind, wenn ein kleiner Betrieb einen strukturierten, auf KMU ausgerichteten Sicherheitsansatz sucht.",
+        "whyCorrect": "VdS 10000 und CISIS12 sind strukturierte Sicherheitsansätze bzw. Managementmodelle, die speziell für kleine und mittlere Unternehmen entwickelt wurden, um mit vertretbarem Aufwand ein funktionierendes Informationssicherheitsmanagement aufzubauen. Sie sind mehr als reine Checklisten oder Produktkataloge, weil sie den gesamten Aufbau eines Sicherheitsmanagements unterstützen, und sie sind auch keine gesetzlichen Mindeststandards speziell für kritische Infrastrukturen."
+      },
+      "en": {
+        "summary": "The question asks how VdS 10000 and CISIS12 should be classified when a small company is looking for a structured security approach aimed at SMEs.",
+        "whyCorrect": "VdS 10000 and CISIS12 are structured security approaches, or management models, specifically developed for small and medium-sized enterprises to help them build a functioning information security management system with reasonable effort. They are more than mere checklists or product catalogs, because they support building an entire security management structure, and they are also not legally mandated minimum standards specifically for critical infrastructure."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد که VdS 10000 و CISIS12 از نظر تخصصی چگونه طبقه‌بندی می‌شوند وقتی یک شرکت کوچک به دنبال یک رویکرد امنیتی ساختاریافته و متناسب با شرکت‌های کوچک و متوسط است.",
+        "whyCorrect": "VdS 10000 و CISIS12 رویکردهای امنیتی ساختاریافته یا مدل‌های مدیریتی هستند که به‌طور خاص برای شرکت‌های کوچک و متوسط طراحی شده‌اند تا با تلاش معقول یک سیستم مدیریت امنیت اطلاعات کارآمد ایجاد کنند. این‌ها فراتر از فهرست‌های ساده بازبینی یا فهرست محصولات هستند، زیرا کل ساختار یک سیستم مدیریت امنیتی را پشتیبانی می‌کنند، و همچنین استانداردهای حداقلی قانونی ویژه زیرساخت‌های حیاتی نیستند."
+      },
+      "he": {
+        "summary": "השאלה מבררת כיצד יש לסווג את VdS 10000 ו-CISIS12 כאשר עסק קטן מחפש גישת אבטחה מובנית המיועדת לעסקים קטנים ובינוניים.",
+        "whyCorrect": "VdS 10000 ו-CISIS12 הם גישות אבטחה מובנות, או מודלים ניהוליים, שפותחו במיוחד עבור עסקים קטנים ובינוניים כדי לסייע להם לבנות מערכת ניהול אבטחת מידע פעילה במאמץ סביר. הם הרבה יותר מרשימות בדיקה גרידא או קטלוגי מוצרים, מכיוון שהם תומכים בבניית מבנה שלם של ניהול אבטחה, והם גם אינם תקנים חוקיים מינימליים המיועדים במיוחד לתשתיות קריטיות."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "VdS 10000", "english": "VdS 10000 (security standard for SMEs)", "dari": "VdS 10000 (معیار امنیتی برای شرکت‌های کوچک و متوسط)", "hebrew": "VdS 10000 (תקן אבטחה לעסקים קטנים ובינוניים)", "shortGermanExplanation": "Ein Sicherheitsstandard, der speziell auf kleine und mittlere Unternehmen zugeschnitten ist." },
+      { "germanWord": "KMU", "english": "SME (small and medium-sized enterprise)", "dari": "شرکت‌های کوچک و متوسط", "hebrew": "עסקים קטנים ובינוניים", "shortGermanExplanation": "Kleine und mittlere Unternehmen, im Gegensatz zu Großkonzernen." }
+    ],
+    "questionTranslation": {
+      "en": "In a review of compliance and information security, the following situation is assessed: A small company is looking for a structured security approach aimed at smaller organizations. Which classification of VdS 10000 and CISIS12 is appropriate?",
+      "dari": "در جریان بررسی رعایت قوانین و امنیت اطلاعات، وضعیت زیر ارزیابی می‌شود: یک شرکت کوچک به دنبال یک رویکرد امنیتی ساختاریافته و متناسب با سازمان‌های کوچک‌تر است. کدام طبقه‌بندی از VdS 10000 و CISIS12 مناسب است؟",
+      "he": "בסקירה של ציות ואבטחת מידע נבחן המצב הבא: עסק קטן מחפש גישת אבטחה מובנית המיועדת לארגונים קטנים יותר. איזה סיווג של VdS 10000 ו-CISIS12 מתאים?"
+    }
+  },
+  {
+    "id": "74d85ebd-db4a-420c-8c0f-569c72a910a9",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "B3S versus IT-Grundschutz-Profil",
+    "difficulty": 4,
+    "examKeywords": ["B3S", "IT-Grundschutz-Profil", "Branchenanforderungen", "Unternehmensverbund", "Grundschutz"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, welches Instrument am besten passt, wenn eine Branche typische Sicherheitsanforderungen konkretisieren möchte und ein Unternehmensverbund einen wiederverwendbaren Grundschutz-Rahmen für gleichartige Standorte will.",
+        "whyCorrect": "Für branchenspezifische Anforderungen ist ein B3S das passende Instrument, da er speziell für eine bestimmte Branche entwickelt wird. Für einen wiederverwendbaren Rahmen für gleichartige Standorte innerhalb einer Organisation eignet sich dagegen ein IT-Grundschutz-Profil, das einen typischen Anwendungsfall des IT-Grundschutzes abbildet und auf ähnliche Umgebungen übertragen werden kann. Beide Instrumente verfolgen unterschiedliche Zwecke – Branchenbezug versus organisationsinterne Wiederverwendbarkeit – und sind daher jeweils für ihren Zweck die passendere Wahl."
+      },
+      "en": {
+        "summary": "The question asks which tool fits best when an industry wants to spell out typical security requirements, while a corporate group wants a reusable IT-Grundschutz framework for similar sites.",
+        "whyCorrect": "For industry-specific requirements, a B3S is the appropriate tool, since it is developed specifically for a particular sector. For a reusable framework covering similar sites within an organization, an IT-Grundschutz profile is the better fit instead, as it represents a typical IT-Grundschutz use case that can be transferred to similar environments. Both instruments serve different purposes — sector-wide relevance versus internal reusability within an organization — so each is the more suitable choice for its own purpose."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد کدام ابزار زمانی که یک بخش صنعتی می‌خواهد الزامات امنیتی معمول را مشخص کند و یک گروه شرکتی می‌خواهد یک چارچوب قابل استفاده مجدد Grundschutz برای شعبات مشابه داشته باشد، بهتر مناسب است.",
+        "whyCorrect": "برای الزامات مخصوص یک بخش صنعتی، B3S ابزار مناسبی است، زیرا به‌طور خاص برای همان بخش طراحی می‌شود. اما برای چارچوبی قابل استفاده مجدد در شعبات مشابه درون یک سازمان، یک نمایه IT-Grundschutz-Profil مناسب‌تر است، زیرا یک مورد استفاده معمول از Grundschutz را نشان می‌دهد که می‌توان آن را به محیط‌های مشابه منتقل کرد. هر دو ابزار اهداف متفاوتی را دنبال می‌کنند - ارتباط با یک بخش صنعتی در برابر قابلیت استفاده مجدد درون‌سازمانی - و بنابراین هرکدام برای هدف خودشان انتخاب مناسب‌تری هستند."
+      },
+      "he": {
+        "summary": "השאלה מבררת איזה כלי מתאים ביותר כאשר ענף מסוים רוצה לפרט דרישות אבטחה טיפוסיות, וקבוצת חברות רוצה מסגרת Grundschutz הניתנת לשימוש חוזר עבור אתרים דומים.",
+        "whyCorrect": "עבור דרישות ספציפיות לענף, B3S הוא הכלי המתאים, מכיוון שהוא מפותח במיוחד עבור ענף מסוים. לעומת זאת, עבור מסגרת הניתנת לשימוש חוזר באתרים דומים בתוך ארגון, פרופיל IT-Grundschutz מתאים יותר, מכיוון שהוא מייצג מקרה שימוש טיפוסי של IT-Grundschutz שניתן להעביר לסביבות דומות. שני הכלים משרתים מטרות שונות — רלוונטיות לענף מול שימוש חוזר פנים-ארגוני — ולכן כל אחד מהם מתאים יותר למטרה שלו."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "IT-Grundschutz-Profil", "english": "IT-Grundschutz profile", "dari": "نمایه IT-Grundschutz", "hebrew": "פרופיל IT-Grundschutz", "shortGermanExplanation": "Eine vorgefertigte Anwendung des IT-Grundschutzes für einen typischen, wiederverwendbaren Anwendungsfall." },
+      { "germanWord": "Unternehmensverbund", "english": "corporate group", "dari": "گروه شرکتی", "hebrew": "קבוצת חברות", "shortGermanExplanation": "Mehrere miteinander verbundene Unternehmen bzw. Standorte." },
+      { "germanWord": "gleichartige Standorte", "english": "similar locations/sites", "dari": "شعبات مشابه", "hebrew": "אתרים דומים", "shortGermanExplanation": "Standorte mit vergleichbarer Struktur, für die dieselbe Vorlage genutzt werden kann." }
+    ],
+    "questionTranslation": {
+      "en": "In a mid-sized software company, the following practical case is being assessed: An industry wants to spell out typical security requirements, while a corporate group instead wants to describe a reusable IT-Grundschutz framework for similar sites. Which assignment fits best?",
+      "dari": "در یک شرکت نرم‌افزاری متوسط، این مورد عملی ارزیابی می‌شود: یک بخش صنعتی می‌خواهد الزامات امنیتی معمول را مشخص کند، در حالی که یک گروه شرکتی می‌خواهد یک چارچوب قابل استفاده مجدد IT-Grundschutz برای شعبات مشابه توصیف کند. کدام تخصیص بهترین است؟",
+      "he": "בחברת תוכנה בינונית נבחן המקרה המעשי הבא: ענף מסוים רוצה לפרט דרישות אבטחה טיפוסיות, בעוד קבוצת חברות רוצה לתאר מסגרת IT-Grundschutz הניתנת לשימוש חוזר עבור אתרים דומים. איזו התאמה מתאימה ביותר?"
+    }
+  },
+  {
+    "id": "46d6fb27-0c30-4bcc-86fb-f353d9803f4b",
+    "topic": "Compliance und Informationssicherheit",
+    "subtopic": "Datenschutz und Personenbezug",
+    "difficulty": 3,
+    "examKeywords": ["Datenschutz", "juristische Personen", "personenbezogene Daten", "Personenbezug", "Informationssicherheit"],
+    "explanation": {
+      "de": {
+        "summary": "Es wird gefragt, welche Aussage zum Datenschutz zutrifft, wenn ein Unternehmen ausschließlich Daten juristischer Personen (Firmenkunden) verarbeitet und keine personenbezogenen Daten natürlicher Personen.",
+        "whyCorrect": "Datenschutzrecht, etwa die DSGVO, schützt personenbezogene Daten natürlicher Personen. Werden ausschließlich Daten juristischer Personen verarbeitet, ohne Bezug zu einer natürlichen Person, entfallen die Datenschutzanforderungen für diese Verarbeitung vollständig, da der sachliche Anwendungsbereich des Datenschutzrechts hier gar nicht eröffnet ist. Das gilt unabhängig von der Unternehmensgröße, und Informationssicherheitsanforderungen bleiben davon unberührt, da Datenschutz und Informationssicherheit unterschiedliche Schutzziele verfolgen."
+      },
+      "en": {
+        "summary": "The question asks which statement about data protection is correct when a company processes only data of legal entities (corporate customers) and no personal data of natural persons.",
+        "whyCorrect": "Data protection law, such as the GDPR, protects the personal data of natural persons. If a company processes exclusively data of legal entities with no link to any natural person, data protection requirements do not apply at all to this processing, because the substantive scope of data protection law is not even triggered here. This holds regardless of company size, and information security requirements remain unaffected, since data protection and information security pursue different protection goals."
+      },
+      "dari": {
+        "summary": "این سوال می‌پرسد کدام گزینه درباره حفاظت از داده‌ها درست است، وقتی یک شرکت فقط داده‌های اشخاص حقوقی (مشتریان شرکتی) را پردازش می‌کند و هیچ داده شخصی از اشخاص حقیقی ندارد.",
+        "whyCorrect": "قانون حفاظت از داده‌ها، مانند GDPR، از داده‌های شخصی اشخاص حقیقی محافظت می‌کند. اگر شرکتی فقط داده‌های اشخاص حقوقی را بدون هیچ ارتباطی با یک شخص حقیقی پردازش کند، الزامات حفاظت از داده‌ها به‌طور کامل برای این پردازش وجود نخواهد داشت، زیرا حیطه محتوایی قانون حفاظت از داده‌ها اصلاً در اینجا فعال نمی‌شود. این موضوع مستقل از اندازه شرکت است، و الزامات امنیت اطلاعات تحت تأثیر قرار نمی‌گیرند، زیرا حفاظت از داده‌ها و امنیت اطلاعات اهداف حفاظتی متفاوتی دارند."
+      },
+      "he": {
+        "summary": "השאלה מבררת איזו קביעה בנוגע להגנת פרטיות נכונה כאשר חברה מעבדת אך ורק נתונים של תאגידים (לקוחות עסקיים) וללא נתונים אישיים של בני אדם.",
+        "whyCorrect": "דיני הגנת הפרטיות, כמו ה-GDPR, מגנים על נתונים אישיים של בני אדם. אם חברה מעבדת אך ורק נתונים של תאגידים, ללא כל זיקה לאדם פרטי, דרישות הגנת הפרטיות אינן חלות כלל על עיבוד זה, מכיוון שתחום התחולה המהותי של דיני הגנת הפרטיות אינו מופעל כאן. הדבר נכון בלי קשר לגודל החברה, ודרישות אבטחת המידע אינן מושפעות מכך, מכיוון שהגנת פרטיות ואבטחת מידע משרתות מטרות הגנה שונות."
+      }
+    },
+    "vocabulary": [
+      { "germanWord": "juristische Personen", "english": "legal entities", "dari": "اشخاص حقوقی", "hebrew": "תאגידים / אישויות משפטיות", "shortGermanExplanation": "Rechtlich anerkannte Organisationen wie Unternehmen, im Gegensatz zu einzelnen Menschen." },
+      { "germanWord": "personenbezogene Daten", "english": "personal data", "dari": "داده‌های شخصی", "hebrew": "נתונים אישיים", "shortGermanExplanation": "Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen." },
+      { "germanWord": "Personenbezug", "english": "link to a natural person", "dari": "ارتباط با شخص حقیقی", "hebrew": "זיקה לאדם פרטי", "shortGermanExplanation": "Die Verbindung von Daten zu einer bestimmten natürlichen Person, die den Datenschutz auslöst." }
+    ],
+    "questionTranslation": {
+      "en": "A company processes only data of legal entities (corporate customers), not personal data of natural persons. Which statement about data protection is most accurate?",
+      "dari": "یک شرکت فقط داده‌های اشخاص حقوقی (مشتریان شرکتی) را پردازش می‌کند، نه داده‌های شخصی اشخاص حقیقی. کدام گزینه درباره حفاظت از داده‌ها دقیق‌ترین است؟",
+      "he": "חברה מעבדת אך ורק נתונים של תאגידים (לקוחות עסקיים), ולא נתונים אישיים של בני אדם. איזו קביעה בנוגע להגנת פרטיות המדויקת ביותר?"
+    }
+  }
+]

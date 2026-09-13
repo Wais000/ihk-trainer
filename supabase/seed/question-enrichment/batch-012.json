@@ -1,0 +1,71 @@
+[
+  {
+    "id": "9e9d5611-f08b-4fb1-bad9-d224a543a33b",
+    "text": "Ein Unternehmen ändert die Reihenfolge zweier Prozessschritte, ohne zu prüfen, ob der zweite Schritt tatsächlich unabhängig vom ersten ausgeführt werden kann. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vor einer Änderung der Schrittreihenfolge sollte geprüft werden, ob eine tatsächliche inhaltliche Abhängigkeit zwischen den Schritten besteht"
+      },
+      {
+        "label": "B",
+        "text": "Die Reihenfolge von Prozessschritten kann grundsätzlich beliebig verändert werden, ohne inhaltliche Prüfung"
+      },
+      {
+        "label": "C",
+        "text": "Abhängigkeiten zwischen Prozessschritten sind ausschließlich bei technischen Prozessen relevant"
+      },
+      {
+        "label": "D",
+        "text": "Eine Prüfung der Abhängigkeit ist überflüssig, solange beide Schritte am selben Tag ausgeführt werden"
+      }
+    ],
+    "correctLabel": "A"
+  },
+  {
+    "id": "f60bdcce-54f9-4c5f-ad0f-25ea50c6b5ee",
+    "text": "Ein Unternehmen erfasst zwar, wer für die Ausführung eines Prozessschritts zuständig ist, nicht aber, wer über Ausnahmen von der Standardvorgehensweise entscheiden darf. Welche Einordnung ist am zutreffendsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Die Festlegung der ausführenden Zuständigkeit allein reicht für eine vollständige Prozessbeschreibung aus"
+      },
+      {
+        "label": "B",
+        "text": "Die Zuständigkeit für Ausnahmeentscheidungen sollte ebenfalls klar festgelegt werden, um unklare Zuständigkeiten in Sonderfällen zu vermeiden"
+      },
+      {
+        "label": "C",
+        "text": "Ausnahmeentscheidungen sollten grundsätzlich informell und ohne festgelegte Zuständigkeit getroffen werden"
+      },
+      {
+        "label": "D",
+        "text": "Eine Zuständigkeitsregelung für Ausnahmen ist ausschließlich bei häufig auftretenden Sonderfällen erforderlich"
+      }
+    ],
+    "correctLabel": "B"
+  },
+  {
+    "id": "07a5c26e-80fd-4c8c-abb7-8a3cb991189d",
+    "text": "In einer Prozessbeschreibung wird ein Freigabeschritt genannt, ohne jedoch anzugeben, was geschieht, wenn die Freigabe verweigert wird. Welche Ergänzung ist am wichtigsten?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Eine Beschreibung des weiteren Vorgehens bei verweigerter Freigabe, etwa Rücklauf an eine vorherige Stufe oder Eskalation"
+      },
+      {
+        "label": "B",
+        "text": "Eine Auflistung aller Personen, die in der Vergangenheit bereits eine Freigabe erteilt haben"
+      },
+      {
+        "label": "C",
+        "text": "Eine Vorgabe zur bevorzugten Formatierung des Freigabeformulars"
+      },
+      {
+        "label": "D",
+        "text": "Ein genereller Verzicht auf den Freigabeschritt, um Verzögerungen von vornherein auszuschließen"
+      }
+    ],
+    "correctLabel": "A"
+  }
+]
