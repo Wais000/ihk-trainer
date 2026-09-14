@@ -1,4 +1,5 @@
 import { translateFromGerman } from "@/lib/translation/azure-translator";
+import { translateWordConceptually } from "@/lib/translation/gemini-word-translator";
 import type { WordTranslation } from "@/lib/validation/translation";
 import { createClient } from "@/lib/supabase/server";
 import { createServiceRoleClient } from "@/lib/supabase/server";
@@ -10,12 +11,44 @@ function normalize(word: string): string {
     .replace(/[.,;:!?„“"'()\[\]]/g, "");
 }
 
-/** Returns the translation for one German word, via Azure Translator —
- * cached globally (shared across all users) since a bare word's meaning
- * doesn't depend on who's asking. This is the only live translation call
- * anywhere in the app; every other translation (question, answer options,
- * explanation, vocabulary) is pre-generated offline (see
- * scripts/prompts/*.md) and only ever read from the database. */
+/** Gemini first (prompted for the word's real concept, not a literal MT
+ * gloss — see gemini-word-translator.ts), falling back to Azure Translator
+ * only if Gemini fails (e.g. its free-tier daily quota is exhausted), so a
+ * hover lookup never comes back empty just because the quota ran out. */
+async function translateViaGeminiOrFallback(rawWord: string): Promise<WordTranslation> {
+  try {
+    const gemini = await translateWordConceptually(rawWord);
+    return {
+      germanWord: rawWord,
+      englishMeaning: gemini.english,
+      dariMeaning: gemini.dari,
+      hebrewMeaning: gemini.hebrew,
+      shortGermanExplanation: gemini.germanExplanation,
+    };
+  } catch (err) {
+    console.error("translateWordConceptually (Gemini) failed, falling back to Azure:", err);
+  }
+
+  // Dari's Azure language code is "prs" (distinct from Persian "fa").
+  const translations = await translateFromGerman(rawWord, ["en", "prs", "he"]);
+  return {
+    germanWord: rawWord,
+    englishMeaning: translations.en ?? null,
+    dariMeaning: translations.prs ?? null,
+    hebrewMeaning: translations.he ?? null,
+    // Azure Translator does machine translation only, not a learner-facing
+    // explanation of the word's meaning/context — left null by design.
+    shortGermanExplanation: null,
+  };
+}
+
+/** Returns the translation for one German word — Gemini (conceptual
+ * meaning) first, Azure Translator as a fallback — cached globally (shared
+ * across all users) since a bare word's meaning doesn't depend on who's
+ * asking. This is the only live translation call anywhere in the app; every
+ * other translation (question, answer options, explanation, vocabulary) is
+ * pre-generated offline (see scripts/prompts/*.md) and only ever read from
+ * the database. */
 export async function getWordTranslation(rawWord: string): Promise<WordTranslation> {
   const normalized = normalize(rawWord);
   if (!normalized) {
@@ -45,18 +78,7 @@ export async function getWordTranslation(rawWord: string): Promise<WordTranslati
     };
   }
 
-  // Dari's Azure language code is "prs" (distinct from Persian "fa").
-  const translations = await translateFromGerman(rawWord, ["en", "prs", "he"]);
-
-  const object: WordTranslation = {
-    germanWord: rawWord,
-    englishMeaning: translations.en ?? null,
-    dariMeaning: translations.prs ?? null,
-    hebrewMeaning: translations.he ?? null,
-    // Azure Translator does machine translation only, not a learner-facing
-    // explanation of the word's meaning/context — left null by design.
-    shortGermanExplanation: null,
-  };
+  const object = await translateViaGeminiOrFallback(rawWord);
 
   // Cache writes go through the service-role client: the `translations`
   // table intentionally has no authenticated-role INSERT policy, since it
