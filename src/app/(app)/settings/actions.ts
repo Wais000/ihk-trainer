@@ -76,8 +76,8 @@ export async function updateSettingsAction(
  * spaced-repetition schedule, exam sessions, and the activity log — across
  * every category and question, and clears the "marked" flag on every
  * question (Correct/Wrong/Due are derived from attempts and review_schedule,
- * so clearing those already resets them; marked is a separate column and
- * needs its own update). Deliberately leaves the user's imported questions,
+ * so clearing those already resets them; marked lives in its own per-user
+ * table and needs its own delete). Deliberately leaves the user's imported questions,
  * vocabulary, and favorites untouched; this is a progress reset, not an
  * account wipe. A destructive, explicitly confirmed action from Settings,
  * never triggered as a side effect of anything else. */
@@ -97,7 +97,7 @@ export async function resetAllProgressAction(): Promise<{ success: true } | { er
     examSessionIds.length > 0
       ? supabase.from("exam_sessions").delete().eq("user_id", user.id)
       : Promise.resolve({ error: null }),
-    supabase.from("questions").update({ marked: false }).eq("user_id", user.id).eq("marked", true),
+    supabase.from("question_marks").delete().eq("user_id", user.id),
   ]);
 
   const failed = results.find((r) => r.error);

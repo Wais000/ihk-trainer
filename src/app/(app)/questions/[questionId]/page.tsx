@@ -20,13 +20,17 @@ export default async function QuestionDetailPage({ params }: { params: Promise<{
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return null;
 
-  const { data: question } = await supabase
-    .from("questions")
-    .select(
-      "id, question_text, favorite, marked, topics(name), question_options(id, label, option_text, is_correct, sort_order), question_vocabulary(*), question_explanations(*)"
-    )
-    .eq("id", questionId)
-    .single();
+  const [{ data: question }, { data: favoriteRow }, { data: markedRow }] = await Promise.all([
+    supabase
+      .from("questions")
+      .select(
+        "id, question_text, topics(name), question_options(id, label, option_text, is_correct, sort_order), question_vocabulary(*), question_explanations(*)"
+      )
+      .eq("id", questionId)
+      .single(),
+    supabase.from("favorites").select("question_id").eq("user_id", user.id).eq("question_id", questionId).maybeSingle(),
+    supabase.from("question_marks").select("question_id").eq("user_id", user.id).eq("question_id", questionId).maybeSingle(),
+  ]);
   if (!question) notFound();
 
   const { data: settings } = await supabase
@@ -48,13 +52,13 @@ export default async function QuestionDetailPage({ params }: { params: Promise<{
   const q = question as unknown as {
     id: string;
     question_text: string;
-    favorite: boolean;
-    marked: boolean;
     topics?: { name?: string };
     question_options: { id: string; label: string; option_text: string; is_correct: boolean; sort_order: number }[];
     question_vocabulary: SessionVocabularyItem[];
     question_explanations: { language: ExplanationLanguage; summary: string; why_correct: string | null; why_incorrect: string | null; common_trap: string | null; tested_concept: string | null }[];
   };
+  const favorite = !!favoriteRow;
+  const marked = !!markedRow;
 
   const explanationsByLanguage = Object.fromEntries(
     q.question_explanations.map((e) => [
@@ -100,8 +104,8 @@ export default async function QuestionDetailPage({ params }: { params: Promise<{
             {q.topics?.name && <Badge variant="outline" className="mt-2">{q.topics.name}</Badge>}
           </div>
           <div className="flex items-center gap-1">
-            <MarkToggle questionId={q.id} initialMarked={q.marked} />
-            <FavoriteToggle questionId={q.id} initialFavorite={q.favorite} />
+            <MarkToggle questionId={q.id} initialMarked={marked} />
+            <FavoriteToggle questionId={q.id} initialFavorite={favorite} />
           </div>
         </CardHeader>
         <CardContent className="flex flex-col gap-3">

@@ -102,8 +102,6 @@ export async function toggleFavoriteAction(questionId: string, favorite: boolean
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return;
 
-  await supabase.from("questions").update({ favorite }).eq("id", questionId);
-
   if (favorite) {
     await supabase.from("favorites").upsert(
       { user_id: user.id, question_id: questionId },
@@ -121,5 +119,12 @@ export async function toggleMarkedAction(questionId: string, marked: boolean) {
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return;
 
-  await supabase.from("questions").update({ marked }).eq("id", questionId).eq("user_id", user.id);
+  if (marked) {
+    await supabase.from("question_marks").upsert(
+      { user_id: user.id, question_id: questionId },
+      { onConflict: "user_id,question_id" }
+    );
+  } else {
+    await supabase.from("question_marks").delete().eq("user_id", user.id).eq("question_id", questionId);
+  }
 }

@@ -28,7 +28,7 @@ export async function getDashboardStats(
     { data: recentAttempts },
     { data: settings },
   ] = await Promise.all([
-    supabase.from("questions").select("id", { count: "exact", head: true }).eq("user_id", userId),
+    supabase.from("questions").select("id", { count: "exact", head: true }),
     supabase
       .from("question_attempts")
       .select("is_correct")

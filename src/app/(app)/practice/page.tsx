@@ -15,16 +15,14 @@ export default async function PracticeTopicsPage() {
   const { dict } = await getUiDict();
 
   const { count: markedCount } = await supabase
-    .from("questions")
-    .select("id", { count: "exact", head: true })
+    .from("question_marks")
+    .select("question_id, questions!inner(status)", { count: "exact", head: true })
     .eq("user_id", user.id)
-    .eq("status", "ready")
-    .eq("marked", true);
+    .eq("questions.status", "ready");
 
   const { data: readyQuestions } = await supabase
     .from("questions")
     .select("topic_id")
-    .eq("user_id", user.id)
     .eq("status", "ready")
     .not("topic_id", "is", null);
 

@@ -65,7 +65,6 @@ export async function createImportAction(
   const { data: existingQuestions } = await supabase
     .from("questions")
     .select("id, question_text_normalized")
-    .eq("user_id", user.id)
     .not("question_text_normalized", "is", null);
 
   const existingCandidates = (existingQuestions ?? []).map((q) => ({

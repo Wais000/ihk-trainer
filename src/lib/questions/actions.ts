@@ -17,14 +17,13 @@ export async function getMarkedQuestionIdsAction(): Promise<string[]> {
   if (!user) return [];
 
   const { data } = await supabase
-    .from("questions")
-    .select("id")
+    .from("question_marks")
+    .select("question_id, questions!inner(status, created_at)")
     .eq("user_id", user.id)
-    .eq("status", "ready")
-    .eq("marked", true)
-    .order("created_at", { ascending: true });
+    .eq("questions.status", "ready")
+    .order("created_at", { foreignTable: "questions", ascending: true });
 
-  return (data ?? []).map((q) => q.id);
+  return (data ?? []).map((m) => m.question_id);
 }
 
 export async function flagQuestionAction(questionId: string, flagType: FlagType, note: string | null) {

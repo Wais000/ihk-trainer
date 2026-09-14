@@ -13,7 +13,7 @@ export async function resetTopicHistoryAction(topicId: string): Promise<{ succes
   } = await supabase.auth.getUser();
   if (!user) return { error: "Not logged in." };
 
-  const { data: questions } = await supabase.from("questions").select("id").eq("user_id", user.id).eq("topic_id", topicId);
+  const { data: questions } = await supabase.from("questions").select("id").eq("topic_id", topicId);
   const questionIds = (questions ?? []).map((q) => q.id);
   if (questionIds.length === 0) return { success: true };
 
@@ -32,12 +32,8 @@ export async function resetMarkedHistoryAction(): Promise<{ success: true } | { 
   } = await supabase.auth.getUser();
   if (!user) return { error: "Not logged in." };
 
-  const { data: questions } = await supabase
-    .from("questions")
-    .select("id")
-    .eq("user_id", user.id)
-    .eq("marked", true);
-  const questionIds = (questions ?? []).map((q) => q.id);
+  const { data: marks } = await supabase.from("question_marks").select("question_id").eq("user_id", user.id);
+  const questionIds = (marks ?? []).map((m) => m.question_id);
   if (questionIds.length === 0) return { success: true };
 
   await supabase.from("question_attempts").delete().eq("user_id", user.id).in("question_id", questionIds);

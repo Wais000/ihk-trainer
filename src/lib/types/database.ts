@@ -57,9 +57,23 @@ export interface QuestionRow {
   exam_keywords: string[] | null;
   status: QuestionStatus;
   correct_answer_unknown: boolean;
-  favorite: boolean;
   created_at: string;
   updated_at: string;
+}
+
+// Per-user state, kept off the (shared) QuestionRow — see FavoriteRow below
+// and question_marks in supabase/migrations/0009_shared_question_pool.sql.
+export interface QuestionMarkRow {
+  user_id: string;
+  question_id: string;
+  created_at: string;
+}
+
+export interface FavoriteRow {
+  id: string;
+  user_id: string;
+  question_id: string;
+  created_at: string;
 }
 
 export interface QuestionOptionRow {

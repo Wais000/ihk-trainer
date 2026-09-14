@@ -1,7 +1,28 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import type { SessionQuestion } from "@/components/practice/types";
 
-const SESSION_SELECT = "id, question_text, marked, question_options(*), question_vocabulary(*), question_explanations(*)";
+const SESSION_SELECT = "id, question_text, question_options(*), question_vocabulary(*), question_explanations(*)";
+
+/** `marked` moved off the (now shared) `questions` row into the per-user
+ * `question_marks` table — merge it back onto each session question here so
+ * callers keep seeing a plain `marked: boolean` field. */
+async function attachMarked(
+  supabase: SupabaseClient,
+  userId: string,
+  questions: SessionQuestion[]
+): Promise<SessionQuestion[]> {
+  if (questions.length === 0) return questions;
+  const { data } = await supabase
+    .from("question_marks")
+    .select("question_id")
+    .eq("user_id", userId)
+    .in(
+      "question_id",
+      questions.map((q) => q.id)
+    );
+  const markedIds = new Set((data ?? []).map((m) => m.question_id));
+  return questions.map((q) => ({ ...q, marked: markedIds.has(q.id) }));
+}
 
 /** Practice Mode: a simple queue of ready questions, oldest-imported first,
  * optionally scoped to one category. Deliberately simple — swap this
@@ -23,14 +44,15 @@ export async function fetchPracticeQueue(
   topicId?: string,
   markedOnly?: boolean
 ): Promise<SessionQuestion[]> {
-  let query = supabase
-    .from("questions")
-    .select(SESSION_SELECT)
-    .eq("user_id", userId)
-    .eq("status", "ready");
+  let query = supabase.from("questions").select(SESSION_SELECT).eq("status", "ready");
 
   if (topicId) query = query.eq("topic_id", topicId);
-  if (markedOnly) query = query.eq("marked", true);
+  if (markedOnly) {
+    const { data: marks } = await supabase.from("question_marks").select("question_id").eq("user_id", userId);
+    const markedIds = (marks ?? []).map((m) => m.question_id);
+    if (markedIds.length === 0) return [];
+    query = query.in("id", markedIds);
+  }
 
   query = query
     .order("sort_order", { foreignTable: "question_options", ascending: true })
@@ -48,7 +70,7 @@ export async function fetchPracticeQueue(
     throw new Error(`Failed to load practice questions: ${error.message}`);
   }
 
-  return (data ?? []) as unknown as SessionQuestion[];
+  return attachMarked(supabase, userId, (data ?? []) as unknown as SessionQuestion[]);
 }
 
 export interface QuestionHistoryEntry {
@@ -132,10 +154,10 @@ export async function fetchReviewQueue(
     .from("questions")
     .select(SESSION_SELECT)
     .in("id", orderedIds.slice(0, limit))
-    .eq("user_id", userId)
     .order("sort_order", { foreignTable: "question_options", ascending: true })
     .order("sort_order", { foreignTable: "question_vocabulary", ascending: true });
 
-  const byId = new Map((data ?? []).map((q) => [(q as unknown as SessionQuestion).id, q as unknown as SessionQuestion]));
+  const withMarked = await attachMarked(supabase, userId, (data ?? []) as unknown as SessionQuestion[]);
+  const byId = new Map(withMarked.map((q) => [q.id, q]));
   return orderedIds.map((id) => byId.get(id)).filter((q): q is SessionQuestion => !!q).slice(0, limit);
 }

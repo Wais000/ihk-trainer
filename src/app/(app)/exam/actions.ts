@@ -22,7 +22,6 @@ export async function startExamAction() {
   const { data: candidates } = await supabase
     .from("questions")
     .select("id")
-    .eq("user_id", user.id)
     .eq("status", "ready");
 
   if (!candidates || candidates.length === 0) {

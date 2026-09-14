@@ -18,43 +18,49 @@ export async function queryQuestions(
   userId: string,
   options: { filter: QuestionFilter; search: string; page: number }
 ): Promise<{ items: QuestionListItem[]; total: number }> {
-  let query = supabase
-    .from("questions")
-    .select("id, question_text, difficulty, favorite, marked, topics(name)")
-    .eq("user_id", userId);
+  let query = supabase.from("questions").select("id, question_text, difficulty, status, topics(name)");
 
   if (options.search.trim()) {
     query = query.ilike("question_text", `%${options.search.trim()}%`);
   }
-  if (options.filter === "favorites") {
-    query = query.eq("favorite", true);
-  }
-  if (options.filter === "marked") {
-    // Ready-only, matching /practice/marked's queue exactly — otherwise a
-    // marked question still in draft/import review would count here but
-    // never actually appear in the practice session or its sidebar grid.
-    query = query.eq("marked", true).eq("status", "ready");
-  }
 
-  const { data: allMatching } = await query;
-  let items: QuestionListItem[] = (allMatching ?? []).map((q) => {
+  const [{ data: allMatching }, { data: favoriteRows }, { data: markedRows }] = await Promise.all([
+    query,
+    supabase.from("favorites").select("question_id").eq("user_id", userId),
+    supabase.from("question_marks").select("question_id").eq("user_id", userId),
+  ]);
+
+  const favoriteIds = new Set((favoriteRows ?? []).map((f) => f.question_id));
+  const markedIds = new Set((markedRows ?? []).map((m) => m.question_id));
+
+  let items: (QuestionListItem & { status: string })[] = (allMatching ?? []).map((q) => {
     const row = q as unknown as {
       id: string;
       question_text: string;
       difficulty: number | null;
-      favorite: boolean;
-      marked: boolean;
+      status: string;
       topics?: { name?: string };
     };
     return {
       id: row.id,
       question_text: row.question_text,
       difficulty: row.difficulty,
-      favorite: row.favorite,
-      marked: row.marked,
+      status: row.status,
+      favorite: favoriteIds.has(row.id),
+      marked: markedIds.has(row.id),
       topicName: row.topics?.name ?? null,
     };
   });
+
+  if (options.filter === "favorites") {
+    items = items.filter((q) => q.favorite);
+  }
+  if (options.filter === "marked") {
+    // Ready-only, matching /practice/marked's queue exactly — otherwise a
+    // marked question still in draft/import review would count here but
+    // never actually appear in the practice session or its sidebar grid.
+    items = items.filter((q) => q.marked && q.status === "ready");
+  }
 
   if (options.filter === "wrong" || options.filter === "correct" || options.filter === "unanswered") {
     // "Wrong"/"Correct" reflect the MOST RECENT attempt per question, same

@@ -5,7 +5,7 @@ import { submitExamAnswerAction, finishExamAction } from "@/app/(app)/exam/actio
 import { useKeyboardShortcuts } from "@/hooks/use-keyboard-shortcuts";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Flag } from "lucide-react";
+import { Flag, LayoutGrid } from "lucide-react";
 import { useUiDictionary } from "@/components/i18n/ui-i18n-provider";
 import { formatTemplate } from "@/lib/i18n/format-template";
 
@@ -43,6 +43,7 @@ export function ExamSession({
     return Math.max(0, durationSeconds - elapsed);
   });
   const [finishing, setFinishing] = useState(false);
+  const [showOverview, setShowOverview] = useState(false);
 
   useEffect(() => {
     const timer = setInterval(() => setSecondsLeft((s) => Math.max(0, s - 1)), 1000);
@@ -112,10 +113,81 @@ export function ExamSession({
             answered: answeredCount,
           })}
         </p>
-        <p className={`font-mono font-medium ${secondsLeft < 300 ? "text-destructive" : ""}`} role="timer">
-          {minutes}:{seconds.toString().padStart(2, "0")}
-        </p>
+        <div className="flex items-center gap-3">
+          <button
+            type="button"
+            onClick={() => setShowOverview((v) => !v)}
+            aria-pressed={showOverview}
+            aria-label={dict.exam.overviewTitle}
+            className={`flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium ${
+              showOverview ? "bg-accent text-accent-foreground" : "text-muted-foreground hover:bg-accent/50"
+            }`}
+          >
+            <LayoutGrid className="size-4" />
+            {dict.exam.overview}
+          </button>
+          <p className={`font-mono font-medium ${secondsLeft < 300 ? "text-destructive" : ""}`} role="timer">
+            {minutes}:{seconds.toString().padStart(2, "0")}
+          </p>
+        </div>
       </div>
+
+      <div
+        className="h-1.5 w-full overflow-hidden rounded-full bg-muted"
+        role="progressbar"
+        aria-valuenow={answeredCount}
+        aria-valuemin={0}
+        aria-valuemax={answers.length}
+      >
+        <div
+          className="h-full rounded-full bg-primary transition-[width]"
+          style={{ width: `${answers.length > 0 ? (answeredCount / answers.length) * 100 : 0}%` }}
+        />
+      </div>
+
+      {showOverview && (
+        <Card>
+          <CardContent className="flex flex-col gap-3 pt-6">
+            <div className="grid grid-cols-6 gap-2 sm:grid-cols-8">
+              {answers.map((a, i) => {
+                const isCurrent = i === index;
+                const isAnswered = !!a.selectedOptionId;
+                return (
+                  <button
+                    key={a.examAnswerId}
+                    type="button"
+                    onClick={() => {
+                      goTo(i);
+                      setShowOverview(false);
+                    }}
+                    aria-label={formatTemplate(dict.exam.questionNumberLabel, { number: i + 1 })}
+                    aria-current={isCurrent}
+                    className={`relative flex size-9 items-center justify-center rounded-md border text-xs font-medium transition-colors hover:bg-accent/50 ${
+                      isCurrent ? "border-2 border-primary" : "border-border"
+                    } ${isAnswered ? "bg-accent text-accent-foreground" : "bg-card text-foreground"}`}
+                  >
+                    {i + 1}
+                    {a.markedForReview && (
+                      <Flag className="absolute -right-1 -top-1 size-3 fill-warning text-warning" />
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+            <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted-foreground">
+              <span className="flex items-center gap-1.5">
+                <span className="size-3 rounded-sm bg-accent" /> {dict.exam.answeredLegend}
+              </span>
+              <span className="flex items-center gap-1.5">
+                <span className="size-3 rounded-sm border border-border bg-card" /> {dict.exam.unansweredLegend}
+              </span>
+              <span className="flex items-center gap-1.5">
+                <Flag className="size-3 fill-warning text-warning" /> {dict.exam.markedForReviewLegend}
+              </span>
+            </div>
+          </CardContent>
+        </Card>
+      )}
 
       <Card>
         <CardHeader className="flex flex-row items-start justify-between gap-3">
